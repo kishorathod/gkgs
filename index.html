@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GK-GS SSC CGL Interactive Learning Hub</title>
+  <meta name="description" content="An interactive, high-fidelity learning platform for GK-GS preparation for the SSC CGL exam. Features timelines, maps, 3D flashcards, and quizzes.">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+  <!-- Main Grid Container -->
+  <div class="app-container">
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="sidebar-brand">
+        <div class="brand-logo">
+          <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <span class="brand-text">CGL Hub</span>
+      </div>
+      <nav class="sidebar-menu">
+        <button class="menu-item active" data-target="dashboard" id="nav-dashboard">
+          <svg viewBox="0 0 24 24" class="icon"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+          <span>Dashboard</span>
+        </button>
+        <button class="menu-item" data-target="history" id="nav-history">
+          <svg viewBox="0 0 24 24" class="icon"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+          <span>History Timeline</span>
+        </button>
+        <button class="menu-item" data-target="polity" id="nav-polity">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span>Polity Explorer</span>
+        </button>
+        <button class="menu-item" data-target="geography" id="nav-geography">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <span>Geography Map</span>
+        </button>
+        <button class="menu-item" data-target="science" id="nav-science">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M4.5 16.5c-1.5 1.26-2.5 3.19-2.5 5.5h20c0-2.31-1-4.24-2.5-5.5M12 2v10M8 8h8"/></svg>
+          <span>Science Lab</span>
+        </button>
+        <button class="menu-item" data-target="economy" id="nav-economy">
+          <svg viewBox="0 0 24 24" class="icon"><line x1="12" y1="1" x2="12" y2="23"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          <span>Economy Corner</span>
+        </button>
+        <button class="menu-item" data-target="staticgk" id="nav-staticgk">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20M4 19.5A2.5 2.5 0 0 0 6.5 22H20M4 19.5V3a2.5 2.5 0 0 1 2.5-2.5H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5z"/></svg>
+          <span>Static GK</span>
+        </button>
+        <button class="menu-item" data-target="flashcards" id="nav-flashcards">
+          <svg viewBox="0 0 24 24" class="icon"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          <span>Flashcards</span>
+        </button>
+        <button class="menu-item" data-target="currentaffairs" id="nav-currentaffairs">
+          <svg viewBox="0 0 24 24" class="icon"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+          <span>Current Affairs</span>
+        </button>
+        <button class="menu-item" data-target="quiz" id="nav-quiz">
+          <svg viewBox="0 0 24 24" class="icon"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+          <span>Quiz Zone</span>
+        </button>
+      </nav>
+      
+      <!-- User Profile Summary in Sidebar -->
+      <div class="sidebar-user" id="sidebar-user-profile">
+        <div class="user-avatar-container">
+          <img src="" id="sidebar-user-avatar" class="user-avatar-img hidden" alt="Avatar">
+          <div class="user-avatar" id="sidebar-user-emoji">🏆</div>
+        </div>
+        <div class="user-details">
+          <div class="username" id="sidebar-username">Aspirant</div>
+          <div class="user-rank">Rank: Aspirant</div>
+        </div>
+        <button class="logout-btn" id="btn-logout" title="Log Out" style="background: none; border: none; color: var(--text-muted); cursor: pointer; padding: 4px; display: flex; align-items: center; justify-content: center; margin-left: auto; transition: color 0.2s;">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4M16 17l5-5-5-5M21 12H9" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Top header bar -->
+      <header class="top-header">
+        <div class="header-left">
+          <h1 id="page-title">GK-GS Learning Hub</h1>
+          <p id="page-subtitle">Master general studies for SSC CGL 2026</p>
+        </div>
+        <div class="header-right">
+          <div class="stat-badge">
+            <span class="stat-icon">🔥</span>
+            <span class="stat-value" id="streak-count">5 Days</span>
+          </div>
+          <div class="stat-badge">
+            <span class="stat-icon">✨</span>
+            <span class="stat-value" id="total-xp">1,240 XP</span>
+          </div>
+        </div>
+      </header>
+
+      <!-- Viewport Panels (SPA Views) -->
+      <div class="viewport">
+        
+        <!-- DASHBOARD VIEW -->
+        <section id="view-dashboard" class="view-panel active">
+          <div class="dashboard-grid">
+            
+            <!-- Welcome Hero -->
+            <div class="glass-card welcome-hero">
+              <div class="hero-content">
+                <h2>Ready to Ace SSC CGL?</h2>
+                <p>Track your preparation progress across key topics. Engage with interactive visual modules, practice quizzes daily, and review cards to secure high marks in GK-GS.</p>
+                <div class="hero-actions">
+                  <button class="btn btn-primary" onclick="document.getElementById('nav-quiz').click()">Start Daily Quiz</button>
+                  <button class="btn btn-secondary" onclick="document.getElementById('nav-history').click()">Explore History Timeline</button>
+                </div>
+              </div>
+              <div class="hero-visual">
+                <svg viewBox="0 0 200 200" width="160" height="160" class="floating-svg">
+                  <defs>
+                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
+                      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:1" />
+                    </linearGradient>
+                  </defs>
+                  <circle cx="100" cy="100" r="80" fill="url(#grad1)" opacity="0.15" />
+                  <polygon points="100,30 160,140 40,140" fill="url(#grad1)" opacity="0.6" />
+                  <circle cx="100" cy="80" r="30" fill="#fff" opacity="0.2" />
+                  <path d="M60,110 L140,110 M80,125 L120,125" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+                </svg>
+              </div>
+            </div>
+
+            <!-- Live Session Stats Strip -->
+            <div class="glass-card session-stats-strip">
+              <div class="stat-pill">
+                <span class="stat-pill-icon">⏱️</span>
+                <div>
+                  <div class="stat-pill-value" id="session-time">0m</div>
+                  <div class="stat-pill-label">Session Time</div>
+                </div>
+              </div>
+              <div class="stat-pill-divider"></div>
+              <div class="stat-pill">
+                <span class="stat-pill-icon">⚡</span>
+                <div>
+                  <div class="stat-pill-value" id="stat-total-xp">0</div>
+                  <div class="stat-pill-label">Total XP</div>
+                </div>
+              </div>
+              <div class="stat-pill-divider"></div>
+              <div class="stat-pill">
+                <span class="stat-pill-icon">🎯</span>
+                <div>
+                  <div class="stat-pill-value" id="stat-goals-done">0</div>
+                  <div class="stat-pill-label">Goals Done</div>
+                </div>
+              </div>
+              <div class="stat-pill-divider"></div>
+              <div class="stat-pill">
+                <span class="stat-pill-icon">🔥</span>
+                <div>
+                  <div class="stat-pill-value" id="streak-count-dash">5</div>
+                  <div class="stat-pill-label">Day Streak</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Rank Progress Bar -->
+            <div class="glass-card rank-progress-card">
+              <div class="rank-progress-header">
+                <span id="rank-label" class="rank-label-text">Aspirant</span>
+                <span id="rank-next-label" class="rank-next-text">→ Assistant Section Officer</span>
+                <span id="rank-pct" class="rank-pct-text">0%</span>
+              </div>
+              <div class="rank-bar-bg">
+                <div class="rank-bar-fill" id="rank-progress-bar" style="width: 0%"></div>
+              </div>
+              <div class="rank-xp-hint">Keep studying to level up your rank! 🚀</div>
+            </div>
+
+            <!-- Subject Progress Cards -->
+            <div class="dashboard-section-title">Preparation Modules</div>
+            <div class="subject-grid">
+              
+              <!-- History -->
+              <div class="glass-card subject-card" onclick="document.getElementById('nav-history').click()">
+                <div class="card-header">
+                  <div class="subject-icon icon-history">📜</div>
+                  <span class="subject-tag" id="progress-tag-history">0% Complete</span>
+                </div>
+                <h3>Indian History</h3>
+                <p>Ancient, Medieval, and Modern Indian National Movement.</p>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" id="progress-bar-history" style="width: 0%"></div>
+                </div>
+              </div>
+
+              <!-- Polity -->
+              <div class="glass-card subject-card" onclick="document.getElementById('nav-polity').click()">
+                <div class="card-header">
+                  <div class="subject-icon icon-polity">⚖️</div>
+                  <span class="subject-tag" id="progress-tag-polity">0% Complete</span>
+                </div>
+                <h3>Indian Polity</h3>
+                <p>Constitution articles, schedules, amendments &amp; central systems.</p>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" id="progress-bar-polity" style="width: 0%"></div>
+                </div>
+              </div>
+
+              <!-- Geography -->
+              <div class="glass-card subject-card" onclick="document.getElementById('nav-geography').click()">
+                <div class="card-header">
+                  <div class="subject-icon icon-geography">🗺️</div>
+                  <span class="subject-tag" id="progress-tag-geography">0% Complete</span>
+                </div>
+                <h3>Geography</h3>
+                <p>River systems of India, national parks, climate, and minerals.</p>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" id="progress-bar-geography" style="width: 0%"></div>
+                </div>
+              </div>
+
+              <!-- General Science -->
+              <div class="glass-card subject-card" onclick="document.getElementById('nav-science').click()">
+                <div class="card-header">
+                  <div class="subject-icon icon-science">🔬</div>
+                  <span class="subject-tag" id="progress-tag-science">0% Complete</span>
+                </div>
+                <h3>General Science</h3>
+                <p>High-yield Biology, Chemistry, and Physics concepts for SSC CGL.</p>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" id="progress-bar-science" style="width: 0%"></div>
+                </div>
+              </div>
+
+              <!-- Economy -->
+              <div class="glass-card subject-card" onclick="document.getElementById('nav-economy').click()">
+                <div class="card-header">
+                  <div class="subject-icon icon-economy">💹</div>
+                  <span class="subject-tag" id="progress-tag-economy">0% Complete</span>
+                </div>
+                <h3>Economy Corner</h3>
+                <p>Five-Year Plans, RBI Monetary Policy, Budget &amp; Deficits.</p>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" id="progress-bar-economy" style="width: 0%"></div>
+                </div>
+              </div>
+
+              <!-- Static GK -->
+              <div class="glass-card subject-card" onclick="document.getElementById('nav-staticgk').click()">
+                <div class="card-header">
+                  <div class="subject-icon icon-staticgk">📚</div>
+                  <span class="subject-tag" id="progress-tag-staticgk">0% Complete</span>
+                </div>
+                <h3>Static GK Hub</h3>
+                <p>Classical dances, national parks, census facts &amp; festivals.</p>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" id="progress-bar-staticgk" style="width: 0%"></div>
+                </div>
+              </div>
+
+              <!-- Current Affairs -->
+              <div class="glass-card subject-card" onclick="document.getElementById('nav-currentaffairs').click()">
+                <div class="card-header">
+                  <div class="subject-icon icon-ca">📰</div>
+                  <span class="subject-tag" id="progress-tag-currentaffairs">0% Complete</span>
+                </div>
+                <h3>Current Affairs</h3>
+                <p>Sports, awards, military exercises &amp; government schemes 2025–26.</p>
+                <div class="progress-bar-container">
+                  <div class="progress-bar" id="progress-bar-currentaffairs" style="width: 0%"></div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Side Stats Panel -->
+            <div class="dashboard-side">
+              <div class="glass-card stat-card">
+                <h3>GK-GS Syllabus Weightage</h3>
+                <ul class="weightage-list">
+                  <li><span>History</span><span class="percent">20%</span></li>
+                  <li><span>Polity</span><span class="percent">16%</span></li>
+                  <li><span>Geography</span><span class="percent">16%</span></li>
+                  <li><span>Science</span><span class="percent">24%</span></li>
+                  <li><span>Static GK &amp; Economy</span><span class="percent">24%</span></li>
+                </ul>
+              </div>
+
+              <div class="glass-card stat-card feedback-card">
+                <div class="goals-header">
+                  <h3>Daily Study Goals</h3>
+                  <span class="goals-counter" id="goals-progress-counter">0/5 done</span>
+                </div>
+                <div class="checkbox-item" id="goal-visit-module">
+                  <span class="checkbox-box"></span>
+                  <span>Visit a study module</span>
+                </div>
+                <div class="checkbox-item" id="goal-read-notes">
+                  <span class="checkbox-box"></span>
+                  <span>Read detailed study notes</span>
+                </div>
+                <div class="checkbox-item" id="goal-flashcard">
+                  <span class="checkbox-box"></span>
+                  <span>Complete a flashcard session</span>
+                </div>
+                <div class="checkbox-item" id="goal-quiz">
+                  <span class="checkbox-box"></span>
+                  <span>Score on a Daily Mock</span>
+                </div>
+                <div class="checkbox-item" id="goal-upload-file">
+                  <span class="checkbox-box"></span>
+                  <span>Upload a study file</span>
+                </div>
+              </div>
+
+              <!-- Live Activity Feed -->
+              <div class="glass-card stat-card">
+                <h3>📡 Live Activity Feed</h3>
+                <div id="activity-feed">
+                  <div class="feed-empty">No activity yet — start studying! 📚</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </section>
+
+        <!-- HISTORY TIMELINE VIEW -->
+        <section id="view-history" class="view-panel">
+          <div class="module-header-banner">
+            <img src="assets/history_hero.jpg" alt="History Hero" class="banner-img">
+            <div class="banner-overlay"></div>
+            <div class="banner-content">
+              <h2>Chronology of Indian History</h2>
+              <p>Explore high-yield periods frequently queried in the SSC CGL exam</p>
+            </div>
+          </div>
+          <div class="polity-tab-header" style="margin-top: 24px; margin-bottom: 24px;">
+            <button class="polity-tab-btn active history-tab-btn" data-tab="timeline" id="btn-history-timeline-tab">Interactive Timeline</button>
+            <button class="polity-tab-btn history-tab-btn" data-tab="notes" id="btn-history-notes-tab">Detailed Modern History Notes</button>
+          </div>
+
+          <div id="history-timeline-tab-content">
+            <div class="filter-bar">
+              <button class="filter-btn active" data-period="all">All Eras</button>
+              <button class="filter-btn" data-period="ancient">Ancient (Indus - Harsha)</button>
+              <button class="filter-btn" data-period="medieval">Medieval (Sultanate - Mughal)</button>
+              <button class="filter-btn" data-period="modern">Modern (British - Independence)</button>
+            </div>
+
+            <div class="timeline-container">
+              <div class="timeline-line"></div>
+              <!-- Timeline elements are injected dynamically by history.js -->
+              <div id="timeline-events" class="timeline-events-wrapper"></div>
+            </div>
+          </div>
+
+          <div id="history-notes-tab-content" class="hidden">
+            <div class="glass-card polity-notes-container" id="history-notes-container">
+              <!-- Injected via history.js -->
+            </div>
+          </div>
+
+          <!-- Event Detail Modal -->
+          <div class="modal" id="history-modal">
+            <div class="glass-card modal-content">
+              <span class="close-modal" id="close-history-modal">&times;</span>
+              <div class="modal-body-content">
+                <span class="modal-tag" id="hist-modal-tag">Modern</span>
+                <h3 id="hist-modal-title">Event Title</h3>
+                <h4 id="hist-modal-date">1915</h4>
+                <div class="modal-info-grid">
+                  <div class="info-block">
+                    <h5>Key Concepts & Facts</h5>
+                    <p id="hist-modal-desc">Details of the event go here...</p>
+                  </div>
+                  <div class="info-block ssc-notes">
+                    <h5>🎯 SSC CGL Repeater Questions</h5>
+                    <ul id="hist-modal-questions">
+                      <li>Question 1</li>
+                      <li>Question 2</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- POLITY EXPLORER VIEW -->
+        <section id="view-polity" class="view-panel">
+          <div class="section-desc-card glass-card">
+            <div class="card-icon">⚖️</div>
+            <div>
+              <h3>Indian Constitution Explorer</h3>
+              <p>Find important Articles, Schedules, and Amendments. Use the filter below to quickly find high-yield SSC materials.</p>
+            </div>
+          </div>
+
+          <div class="polity-layout">
+            <div class="polity-sidebar glass-card">
+              <h4>Constitution Structure</h4>
+              <ul class="polity-parts-list" id="polity-parts-list">
+                <!-- Injected via polity.js -->
+              </ul>
+            </div>
+            
+            <div class="polity-main-view">
+              <div class="polity-tab-header">
+                <button class="polity-tab-btn active" data-tab="articles" id="btn-polity-articles-tab">Articles Quick Guide</button>
+                <button class="polity-tab-btn" data-tab="notes" id="btn-polity-notes-tab">Detailed Exam Notes</button>
+              </div>
+
+              <div id="polity-articles-tab-content">
+                <div class="polity-search-bar">
+                  <input type="text" id="polity-search" placeholder="Search articles (e.g. Fundamental Rights, Article 21, President)...">
+                  <span class="search-icon">🔍</span>
+                </div>
+                <div class="articles-grid" id="articles-grid">
+                  <!-- Injected via polity.js -->
+                </div>
+              </div>
+
+              <div id="polity-notes-tab-content" class="hidden">
+                <div class="glass-card polity-notes-container" id="polity-notes-container">
+                  <!-- Injected via polity.js -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- GEOGRAPHY MAP VIEW -->
+        <section id="view-geography" class="view-panel">
+          <div class="section-desc-card glass-card">
+            <div class="card-icon">🗺️</div>
+            <div>
+              <h3>Indian Rivers & Drainage Systems</h3>
+              <p>Click on hotspots along the river flow to learn about origins, tributaries, dams, and cities located on their banks.</p>
+            </div>
+          </div>
+
+          <div class="polity-tab-header" style="margin-top: 24px; margin-bottom: 24px;">
+            <button class="polity-tab-btn active geography-tab-btn" data-tab="map" id="btn-geography-map-tab">🗺️ Interactive River Map</button>
+            <button class="polity-tab-btn geography-tab-btn" data-tab="notes" id="btn-geography-notes-tab">📖 Detailed Geography Notes</button>
+          </div>
+
+          <div id="geography-map-tab-content">
+            <div class="map-layout">
+              <div class="map-wrapper glass-card">
+                <!-- Background Map Image -->
+                <img src="assets/geography_rivers.jpg" alt="Indian Rivers Map" class="interactive-map">
+                <div class="map-hotspots-container" id="map-hotspots">
+                  <!-- Interactive dots placed on coordinate positions -->
+                  <!-- Indus Origin -->
+                  <div class="hotspot" style="top: 20%; left: 32%;" data-river="indus" data-point="origin" title="Indus Origin"></div>
+                  <!-- Ganga Origin -->
+                  <div class="hotspot" style="top: 28%; left: 40%;" data-river="ganga" data-point="origin" title="Ganga Origin"></div>
+                  <!-- Ganga Sangam -->
+                  <div class="hotspot" style="top: 36%; left: 54%;" data-river="ganga" data-point="sangam" title="Triveni Sangam"></div>
+                  <!-- Brahmaputra Origin -->
+                  <div class="hotspot" style="top: 27%; left: 70%;" data-river="brahmaputra" data-point="origin" title="Brahmaputra Origin"></div>
+                  <!-- Narmada Origin -->
+                  <div class="hotspot" style="top: 52%; left: 42%;" data-river="narmada" data-point="origin" title="Narmada Origin"></div>
+                  <!-- Godavari Origin -->
+                  <div class="hotspot" style="top: 61%; left: 36%;" data-river="godavari" data-point="origin" title="Godavari Origin"></div>
+                  <!-- Hirakud Dam -->
+                  <div class="hotspot" style="top: 55%; left: 58%;" data-river="mahanadi" data-point="dam" title="Hirakud Dam"></div>
+                </div>
+              </div>
+
+              <div class="map-info-panel glass-card" id="map-info-panel">
+                <div class="empty-prompt">
+                  <span class="animated-pulse">📍</span>
+                  <h4>Click any glowing marker on the map to explore river systems details.</h4>
+                </div>
+                <div class="info-content hidden" id="map-info-content">
+                  <span class="river-badge" id="river-sys-type">Himalayan River</span>
+                  <h3 id="river-name">River Name</h3>
+                  <div class="river-details-grid">
+                    <div class="detail-row">
+                      <span class="label">Origin:</span>
+                      <span class="value" id="river-origin">Mansarovar Lake</span>
+                    </div>
+                    <div class="detail-row">
+                      <span class="label">Tributaries:</span>
+                      <span class="value" id="river-tribs">Jhelum, Chenab, Ravi...</span>
+                    </div>
+                    <div class="detail-row">
+                      <span class="label">Major Dams:</span>
+                      <span class="value" id="river-dams">Bhakra Nangal...</span>
+                    </div>
+                    <div class="detail-row">
+                      <span class="label">Important Cities:</span>
+                      <span class="value" id="river-cities">Leh, Srinagar...</span>
+                    </div>
+                  </div>
+                  <div class="ssc-gk-notes">
+                    <h5>💡 Exam Focus Point</h5>
+                    <p id="river-ssc-focus">The river rises in the glaciers of the Kailash range...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="geography-notes-tab-content" class="hidden">
+            <div class="glass-card polity-notes-container" id="geography-notes-container">
+              <!-- Injected via geography.js -->
+            </div>
+          </div>
+        </section>
+
+        <!-- SCIENCE LAB VIEW -->
+        <section id="view-science" class="view-panel">
+          <div class="section-desc-card glass-card">
+            <div class="card-icon">🔬</div>
+            <div>
+              <h3>General Science Visual Guide</h3>
+              <p>Biological Cell Structure and Cytology. Hover or click labels on the cell components to learn functions, biological properties, and SSC CGL questions.</p>
+            </div>
+          </div>
+
+          <div class="polity-tab-header" style="margin-top: 24px; margin-bottom: 24px;">
+            <button class="polity-tab-btn active science-tab-btn" data-tab="cell" id="btn-science-cell-tab">🔬 Interactive Cell Diagram</button>
+            <button class="polity-tab-btn science-tab-btn" data-tab="notes" id="btn-science-notes-tab">📖 Detailed Science Notes</button>
+          </div>
+
+          <div id="science-cell-tab-content">
+            <div class="science-layout">
+              <div class="diagram-wrapper glass-card">
+                <img src="assets/science_cell.jpg" alt="Cell Diagram" class="science-diagram">
+                <div class="diagram-labels-container" id="diagram-labels">
+                  <!-- Label hotspots -->
+                  <button class="diagram-label-btn" style="top: 30%; left: 45%;" data-part="nucleus">Nucleus</button>
+                  <button class="diagram-label-btn" style="top: 65%; left: 70%;" data-part="mitochondria">Mitochondria</button>
+                  <button class="diagram-label-btn" style="top: 50%; left: 22%;" data-part="ribosome">Ribosomes</button>
+                  <button class="diagram-label-btn" style="top: 75%; left: 35%;" data-part="lysosome">Lysosome</button>
+                  <button class="diagram-label-btn" style="top: 15%; left: 60%;" data-part="golgi">Golgi Apparatus</button>
+                </div>
+              </div>
+
+              <div class="science-info-panel glass-card" id="science-info-panel">
+                <div class="empty-prompt">
+                  <span class="animated-pulse">🧪</span>
+                  <h4>Select any cell organelle label to analyze its structure, functions, and exam relevance.</h4>
+                </div>
+                <div class="info-content hidden" id="science-info-content">
+                  <h3 id="organelle-name">Organelle Name</h3>
+                  <div class="scientific-desc">
+                    <h5>Description</h5>
+                    <p id="organelle-desc">Description details...</p>
+                  </div>
+                  <div class="cell-functions">
+                    <h5>Key Functions</h5>
+                    <ul id="organelle-funcs">
+                      <li>Function 1</li>
+                    </ul>
+                  </div>
+                  <div class="ssc-gk-notes science-gk">
+                    <h5>🎯 SSC CGL Highlights</h5>
+                    <p id="organelle-ssc">Also known as the powerhouse of the cell...</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div id="science-notes-tab-content" class="hidden">
+            <div class="glass-card polity-notes-container" id="science-notes-container">
+              <!-- Injected via science.js -->
+            </div>
+          </div>
+        </section>
+
+        <!-- ECONOMY CORNER VIEW -->
+        <section id="view-economy" class="view-panel">
+          <div class="section-desc-card glass-card">
+            <div class="card-icon">📈</div>
+            <div>
+              <h3>Indian Economy & Planning</h3>
+              <p>Explore Five-Year Plans, simulate monetary policy tools (Repo, CRR, SLR), and master national income Aggregates.</p>
+            </div>
+          </div>
+
+          <div class="polity-tab-header" style="margin-top: 24px; margin-bottom: 24px;">
+            <button class="polity-tab-btn active economy-tab-btn" data-tab="interactive" id="btn-economy-interactive-tab">📊 Interactive Planning & RBI Simulator</button>
+            <button class="polity-tab-btn economy-tab-btn" data-tab="notes" id="btn-economy-notes-tab">📖 Detailed Economy Notes</button>
+          </div>
+
+          <div id="economy-interactive-tab-content">
+            <div id="economy-interactive-container">
+              <!-- Injected via economy.js -->
+            </div>
+          </div>
+
+          <div id="economy-notes-tab-content" class="hidden">
+            <div class="glass-card polity-notes-container" id="economy-notes-container">
+              <!-- Injected via economy.js -->
+            </div>
+          </div>
+        </section>
+
+        <!-- STATIC GK VIEW -->
+        <section id="view-staticgk" class="view-panel">
+          <div class="section-desc-card glass-card">
+            <div class="card-icon">🏛️</div>
+            <div>
+              <h3>Static GK Hub</h3>
+              <p>Explore Classical Dances, Instrument Exponents, Harvest Festivals, Census 2011 Data, and National Parks.</p>
+            </div>
+          </div>
+
+          <div class="polity-tab-header" style="margin-top: 24px; margin-bottom: 24px;">
+            <button class="polity-tab-btn active staticgk-tab-btn" data-tab="interactive" id="btn-staticgk-interactive-tab">📊 Interactive GK Dashboards</button>
+            <button class="polity-tab-btn staticgk-tab-btn" data-tab="notes" id="btn-staticgk-notes-tab">📖 Detailed GK Notes</button>
+          </div>
+
+          <div id="staticgk-interactive-tab-content">
+            <div id="staticgk-interactive-container">
+              <!-- Injected via staticgk.js -->
+            </div>
+          </div>
+
+          <div id="staticgk-notes-tab-content" class="hidden">
+            <div class="glass-card polity-notes-container" id="staticgk-notes-container">
+              <!-- Injected via staticgk.js -->
+            </div>
+          </div>
+        </section>
+
+        <!-- CURRENT AFFAIRS VIEW -->
+        <section id="view-currentaffairs" class="view-panel">
+          <div class="section-desc-card glass-card">
+            <div class="card-icon">📰</div>
+            <div>
+              <h3>Current Affairs 2025–26</h3>
+              <p>Sports winners, military exercises, national awards, and central government schemes — with 15 SSC CGL-style PYQs.</p>
+            </div>
+          </div>
+
+          <!-- Tab Header -->
+          <div class="polity-tab-header">
+            <button class="polity-tab-btn active ca-tab-btn" data-tab="interactive" id="btn-ca-interactive-tab">🏆 Interactive Dashboards</button>
+            <button class="polity-tab-btn ca-tab-btn" data-tab="notes" id="btn-ca-notes-tab">📖 Detailed Notes</button>
+          </div>
+
+          <!-- Interactive Tab -->
+          <div id="ca-interactive-tab-content">
+            <div id="ca-interactive-container">
+              <!-- Injected via currentaffairs.js -->
+            </div>
+          </div>
+
+          <!-- Notes Tab -->
+          <div id="ca-notes-tab-content" class="hidden">
+            <div class="glass-card polity-notes-container" id="ca-notes-container">
+              <!-- Injected via currentaffairs.js -->
+            </div>
+          </div>
+        </section>
+
+        <!-- FLASHCARDS VIEW -->
+        <section id="view-flashcards" class="view-panel">
+          <div class="section-desc-card glass-card">
+            <div class="card-icon">🎴</div>
+            <div>
+              <h3>Static GK & General Studies Flashcards</h3>
+              <p>Improve active recall on high-frequency questions (Arts & Culture, National Parks, Books & Authors, Rivers). Flip the card and rate your memory.</p>
+            </div>
+          </div>
+
+          <div class="flashcards-control-header">
+            <div class="card-deck-selector">
+              <label for="deck-select">Choose Deck:</label>
+              <select id="deck-select" class="glass-select">
+                <option value="national-parks">National Parks of India</option>
+                <option value="art-culture">Classical Dances & Festivals</option>
+                <option value="books-authors">Famous Books & Authors</option>
+                <option value="polity-articles">Key Polity Articles</option>
+              </select>
+            </div>
+            <div class="deck-progress">
+              Card: <span id="card-current-idx">1</span>/<span id="card-total-count">10</span>
+            </div>
+          </div>
+
+          <div class="flashcard-container">
+            <div class="flashcard" id="flashcard-element">
+              <!-- Front Side -->
+              <div class="card-side card-front">
+                <div class="card-theme-tag" id="card-front-tag">Geography</div>
+                <div class="card-question-text" id="card-front-question">Which National Park is famous for the One-horned Rhinoceros and is located in Assam?</div>
+                <div class="card-instruction">Click Card to Reveal Answer</div>
+              </div>
+              <!-- Back Side -->
+              <div class="card-side card-back">
+                <div class="card-theme-tag" id="card-back-tag">Answer</div>
+                <div class="card-answer-text" id="card-back-answer">Kaziranga National Park</div>
+                <div class="card-explanation" id="card-back-explanation">Kaziranga was declared a World Heritage Site by UNESCO in 1985. It hosts two-thirds of the world's great one-horned rhinoceroses.</div>
+                <div class="card-instruction">Rate your retention below:</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flashcard-actions hidden" id="flashcard-rating-buttons">
+            <button class="btn-rate rate-easy" data-difficulty="easy">
+              <span class="rate-emoji">😊</span>
+              <span>Easy (Review in 4d)</span>
+            </button>
+            <button class="btn-rate rate-medium" data-difficulty="medium">
+              <span class="rate-emoji">😐</span>
+              <span>Medium (Review in 1d)</span>
+            </button>
+            <button class="btn-rate rate-hard" data-difficulty="hard">
+              <span class="rate-emoji">😰</span>
+              <span>Hard (Review in 10m)</span>
+            </button>
+          </div>
+
+          <div class="flashcard-navigation-bar" id="flashcard-navigation-bar">
+            <button class="btn btn-secondary" id="btn-prev-card">← Previous</button>
+            <button class="btn btn-primary" id="btn-next-card">Next Card →</button>
+          </div>
+        </section>
+
+        <!-- QUIZ ZONE VIEW -->
+        <section id="view-quiz" class="view-panel">
+          <div class="section-desc-card glass-card">
+            <div class="card-icon">📝</div>
+            <div>
+              <h3>SSC CGL GK-GS Daily Mock</h3>
+              <p>Test your knowledge with 10 random questions compiled from previous years' CGL papers (with detailed explanations).</p>
+            </div>
+          </div>
+
+          <!-- Quiz Setup / Landing -->
+          <div class="quiz-setup-box glass-card" id="quiz-setup">
+            <h3>Configure Your Mock Test</h3>
+            <p>Select subjects and number of questions to get started.</p>
+            <div class="setup-controls">
+              <div class="control-group">
+                <label>Select Category:</label>
+                <div class="category-checkboxes">
+                  <label class="cb-label"><input type="checkbox" value="all" checked id="cb-all"> All GK-GS</label>
+                  <label class="cb-label"><input type="checkbox" value="history" class="cb-sub"> History</label>
+                  <label class="cb-label"><input type="checkbox" value="polity" class="cb-sub"> Polity</label>
+                  <label class="cb-label"><input type="checkbox" value="geography" class="cb-sub"> Geography</label>
+                  <label class="cb-label"><input type="checkbox" value="science" class="cb-sub"> Science</label>
+                  <label class="cb-label"><input type="checkbox" value="economy" class="cb-sub"> Economy</label>
+                  <label class="cb-label"><input type="checkbox" value="static" class="cb-sub"> Static GK</label>
+                  <label class="cb-label"><input type="checkbox" value="currentaffairs" class="cb-sub"> Current Affairs</label>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-large" id="btn-start-quiz">Launch Quiz</button>
+            </div>
+          </div>
+
+          <!-- Active Quiz Block -->
+          <div class="quiz-active-container hidden" id="quiz-active">
+            <div class="quiz-status-header">
+              <div class="quiz-progress-info">
+                Question <span id="quiz-current-num">1</span> of <span id="quiz-total-num">10</span>
+              </div>
+              <div class="quiz-timer" id="quiz-timer-display">Time: 10:00</div>
+            </div>
+            
+            <div class="quiz-progress-bar-bg">
+              <div class="quiz-progress-bar-fill" id="quiz-progress-fill" style="width: 10%;"></div>
+            </div>
+
+            <div class="glass-card quiz-card">
+              <div class="quiz-subject-tag" id="quiz-card-subject">POLITY</div>
+              <div class="quiz-question" id="quiz-card-question">
+                Who among the following was the Chairman of the Drafting Committee of the Constituent Assembly?
+              </div>
+              
+              <div class="quiz-options-list" id="quiz-options">
+                <!-- Injected via quiz.js -->
+              </div>
+            </div>
+
+            <!-- Quiz Explanatory Sheet (Revealed after selecting answer) -->
+            <div class="glass-card quiz-explanation-card hidden" id="quiz-explanation-box">
+              <div class="expl-header" id="expl-header-status">
+                <span class="expl-status-icon">✓</span>
+                <span class="expl-status-text">Correct Answer!</span>
+              </div>
+              <div class="expl-body">
+                <h5>Detailed Explanation</h5>
+                <p id="quiz-explanation-text">Dr. B.R. Ambedkar was the Chairman of the Drafting Committee. It was appointed in August 1947 to prepare a draft Constitution for India...</p>
+                <div class="ssc-tip">
+                  <strong>💡 SSC Repeater Fact:</strong> Drafting committee had 7 members. Dr. Ambedkar is also called the 'Father of Indian Constitution'.
+                </div>
+              </div>
+              <button class="btn btn-primary" id="btn-next-question">Next Question</button>
+            </div>
+          </div>
+
+          <!-- Quiz Scoreboard / Results -->
+          <div class="quiz-results-container hidden" id="quiz-results">
+            <div class="glass-card results-card">
+              <div class="trophy-reveal">🏆</div>
+              <h2>Mock Completed!</h2>
+              <div class="results-grid">
+                <div class="result-box">
+                  <span class="res-val" id="res-score">8/10</span>
+                  <span class="res-lbl">Score</span>
+                </div>
+                <div class="result-box">
+                  <span class="res-val" id="res-accuracy">80%</span>
+                  <span class="res-lbl">Accuracy</span>
+                </div>
+                <div class="result-box">
+                  <span class="res-val" id="res-xp">+160 XP</span>
+                  <span class="res-lbl">XP Gained</span>
+                </div>
+              </div>
+              <div class="rank-promotion-text" id="res-feedback">
+                Excellent Performance! You are on track to clear SSC CGL GS.
+              </div>
+              <div class="results-actions">
+                <button class="btn btn-primary" id="btn-restart-quiz">Retry Mock</button>
+                <button class="btn btn-secondary" onclick="document.getElementById('nav-dashboard').click()">Go to Dashboard</button>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+      </div>
+    </main>
+
+  <!-- AUTHENTICATION SYSTEM OVERLAY -->
+  <div class="auth-overlay active" id="auth-overlay">
+    <div class="glass-card auth-card" style="width: 100%; max-width: 400px; padding: 32px; border-radius: var(--radius-lg); border: 1px solid var(--border-glass-bright); box-shadow: var(--shadow-glow-purple); text-align: center;">
+      <div class="auth-header" style="margin-bottom: 24px;">
+        <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="#8b5cf6" stroke-width="2.5" class="auth-logo" style="margin: 0 auto 12px; display: block;">
+          <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <h2 style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 24px; margin-bottom: 6px;">CGL GK-GS Hub</h2>
+        <p id="auth-subtitle" style="color: var(--text-muted); font-size: 13px;">Create an account or login to track your preparation</p>
+      </div>
+
+      <!-- Auth Error Notification -->
+      <div class="auth-error-msg hidden" id="auth-error" style="background: rgba(239, 68, 68, 0.15); border: 1px solid #ef4444; color: #f87171; padding: 10px; border-radius: 6px; font-size: 12.5px; margin-bottom: 16px; text-align: left; font-weight: 500;">Error message here</div>
+
+      <!-- Sign In / Sign Up Form -->
+      <form id="auth-form" onsubmit="return false;" style="text-align: left;">
+        <div class="form-group hidden" id="name-group" style="margin-bottom: 14px;">
+          <label for="auth-name" style="display: block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 6px;">Full Name</label>
+          <input type="text" id="auth-name" placeholder="John Doe" style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border-glass); background: rgba(255,255,255,0.02); color: #fff; font-family: inherit; font-size: 14px; transition: border-color 0.2s;">
+        </div>
+        <div class="form-group" style="margin-bottom: 14px;">
+          <label for="auth-email" style="display: block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 6px;">Email Address</label>
+          <input type="email" id="auth-email" required placeholder="name@domain.com" style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border-glass); background: rgba(255,255,255,0.02); color: #fff; font-family: inherit; font-size: 14px; transition: border-color 0.2s;">
+        </div>
+        <div class="form-group" style="margin-bottom: 16px;">
+          <label for="auth-password" style="display: block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-muted); margin-bottom: 6px;">Password</label>
+          <input type="password" id="auth-password" required placeholder="••••••••" style="width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid var(--border-glass); background: rgba(255,255,255,0.02); color: #fff; font-family: inherit; font-size: 14px; transition: border-color 0.2s;">
+        </div>
+        <button class="btn btn-primary btn-block" id="btn-auth-submit" style="width: 100%; margin-top: 16px; height: 42px; font-weight: 600;">Sign In</button>
+      </form>
+
+      <div class="auth-divider" style="margin: 20px 0; display: flex; align-items: center; justify-content: center; gap: 12px; font-size: 12px; color: var(--text-muted); text-transform: uppercase; font-weight: 600;">
+        <span style="flex: 1; height: 1px; background: var(--border-glass);"></span>
+        <span>or</span>
+        <span style="flex: 1; height: 1px; background: var(--border-glass);"></span>
+      </div>
+
+      <!-- Google Sign In Button Container -->
+      <div id="google-login-button" style="display: flex; justify-content: center; width: 100%; height: 40px;"></div>
+
+      <div class="auth-footer" style="margin-top: 24px; font-size: 13px; color: var(--text-muted);">
+        <span id="auth-toggle-text">Don't have an account?</span>
+        <button id="btn-auth-toggle" style="background: none; border: none; color: var(--accent-purple); font-weight: 700; cursor: pointer; padding: 2px 6px; transition: text-shadow 0.2s;">Sign Up</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Javascript Modules -->
+  <script type="module" src="app.js"></script>
+</body>
+</html>
