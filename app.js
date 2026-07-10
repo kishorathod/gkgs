@@ -17,8 +17,8 @@ import { uploadsModule } from './modules/uploads.js';
 // Application State
 const AppState = {
   currentView: 'dashboard',
-  totalXP: 1240,
-  streak: 5,
+  totalXP: 0,
+  streak: 1,
   // Per-subject XP earned this session (drives completion %)  
   subjectXP: {
     history: 0,
@@ -115,7 +115,7 @@ async function saveState() {
 
 let isSignUpMode = false;
 
-function initAuth() {
+async function initAuth() {
   const authOverlay = document.getElementById('auth-overlay');
   const authForm = document.getElementById('auth-form');
   const authTitle = document.querySelector('.auth-card h2');
@@ -134,6 +134,11 @@ function initAuth() {
   if (cachedToken && cachedUser) {
     authOverlay.classList.remove('active');
     renderUserProfile(JSON.parse(cachedUser));
+    // ✅ Always fetch fresh data from Atlas on every page load
+    // This ensures XP/streak reflect the real DB value, not stale defaults or localStorage
+    await loadState();
+    updateXPDisplay();
+    updateDashboard();
   } else {
     authOverlay.classList.add('active');
   }
@@ -327,10 +332,8 @@ function renderUserProfile(user) {
 
 // Initialize Application
 document.addEventListener('DOMContentLoaded', async () => {
-  initAuth(); // Initialize auth overlay and token checks
+  await initAuth(); // ✅ Await so loadState completes before UI renders
   setupNavigation();
-  updateXPDisplay();
-  updateDashboard();
   startSessionTimer();
   
   // Initialize modules
