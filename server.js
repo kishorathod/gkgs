@@ -14,7 +14,7 @@ const { OAuth2Client } = require('google-auth-library');
 
 const app = express();
 const PORT = process.env.PORT || 8000;
-const MONGO_URI = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017/gkgs';
+const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://krr8088_db_user:1QSqWfPXYiDgUOym@cluster0.ccgxa3n.mongodb.net/gkgs?retryWrites=true&w=majority';
 const JWT_SECRET = process.env.JWT_SECRET || 'gkgs_secret_jwt_key_2026_cgl';
 
 // Initialize Google OAuth2 client (flexible verification)
