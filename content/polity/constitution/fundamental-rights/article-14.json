@@ -1,0 +1,139 @@
+{
+  "id": "fundamental-rights/article-14",
+  "subject": "polity",
+  "hero": {
+    "title": "Article 14: Equality before Law",
+    "subtitle": "The foundation of Rule of Law in India. Master the difference between 'Equality before Law' and 'Equal Protection of Laws'.",
+    "weightage": "★★★★★",
+    "difficulty": "Easy",
+    "estimatedReadingTime": "15 minutes",
+    "expectedQuestions": "1-2 Questions per Shift",
+    "whyItMatters": "Article 14 is one of the most frequently asked articles in SSC CGL. They will test you on where the concepts were borrowed from, exceptions to the rule, and the core philosophy of 'Rule of Law'."
+  },
+  "quickFacts": [
+    { "icon": "📜", "heading": "Article Text", "fact": "The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India." },
+    { "icon": "🌍", "heading": "Applicability", "fact": "Applies to ALL persons (Citizens + Foreigners + Legal Persons like corporations)." },
+    { "icon": "🇬🇧", "heading": "British Origin", "fact": "'Equality before law' is taken from the British concept of Rule of Law (A.V. Dicey)." },
+    { "icon": "🇺🇸", "heading": "American Origin", "fact": "'Equal protection of laws' is taken from the American Constitution." }
+  ],
+  "notes": [
+    {
+      "heading": "1. Definition & Core Concept",
+      "explanation": "Article 14 says that the State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India. This provision confers rights on all persons whether citizens or foreigners.",
+      "importantExamPoints": [
+        "The word 'person' includes legal persons, viz, statutory corporations, companies, registered societies or any other type of legal person."
+      ]
+    },
+    {
+      "heading": "2. Exceptions to Article 14",
+      "explanation": "The rule of equality is not absolute and there are constitutional and other exceptions to it.",
+      "keyTakeaways": [
+        "President and Governors: Enjoy absolute immunity from criminal proceedings during their term (Article 361).",
+        "Foreign Diplomats/Rulers: Enjoy immunity from civil and criminal proceedings.",
+        "MPs and MLAs: Enjoy privileges in respect of anything said or any vote given in Parliament/Legislature (Art 105 and 194)."
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Equality before Law vs Equal Protection of Laws",
+      "headers": ["Concept", "Equality before Law", "Equal Protection of Laws"],
+      "rows": [
+        ["Origin", "British Constitution", "American Constitution"],
+        ["Nature", "Negative concept", "Positive concept"],
+        ["Meaning", "Absence of special privileges for any person.", "Equality of treatment under equal circumstances."],
+        ["Application", "No person is above the law.", "Like should be treated alike (no discrimination)."]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "concept": "Article 14",
+      "mnemonic": "14 February = Equality for Everyone ❤️",
+      "explanation": "Valentine's day is 14th Feb. Love treats everyone equally! Article 14 is Equality before Law."
+    }
+  ],
+  "examTraps": [
+    {
+      "topic": "Article 14 Exceptions",
+      "trap": "Thinking that NO ONE is exempt from Article 14.",
+      "correction": "The President of India and Governors of States enjoy special immunities under Article 361 (e.g., no criminal proceedings can be initiated against them during their term)."
+    },
+    {
+      "topic": "Citizens vs Foreigners",
+      "trap": "Assuming Article 14 applies only to Indian citizens.",
+      "correction": "Article 14 uses the word 'person', meaning it applies to BOTH citizens and foreigners within Indian territory."
+    }
+  ],
+  "cases": [
+    {
+      "caseName": "Maneka Gandhi v. Union of India",
+      "year": 1978,
+      "issue": "Interconnection of Articles 14, 19, and 21.",
+      "judgement": "The 'Golden Triangle'. A law depriving a person of 'personal liberty' must not only pass the test of Article 21 but must also stand the test of Article 14 and Article 19.",
+      "importance": "Extremely important for understanding the scope of reasonable classification."
+    }
+  ],
+  "pyqs": [
+    {
+      "question": "The concept of 'Equality before Law' in Article 14 of the Indian Constitution is borrowed from:",
+      "year": "SSC CGL 2021",
+      "shift": "Tier 1",
+      "difficulty": "Easy",
+      "concept": "Sources of Constitution",
+      "explanation": "Equality before Law is a negative concept borrowed from the British Constitution (Rule of Law by A.V. Dicey)."
+    },
+    {
+      "question": "Which of the following Articles of the Constitution of India guarantees equality before the law and equal protection of the laws to all persons within the territory of India?",
+      "year": "SSC CGL 2023",
+      "shift": "Tier 1",
+      "difficulty": "Easy",
+      "concept": "Article 14",
+      "explanation": "Article 14 states exactly this."
+    }
+  ],
+  "quiz": [
+    {
+      "q": "Which of the following statements regarding Article 14 is INCORRECT?",
+      "options": [
+        "It applies to both citizens and foreigners.",
+        "It includes legal persons like companies.",
+        "The President and Governors are exempt from criminal proceedings during their term.",
+        "'Equal protection of laws' is borrowed from the British Constitution."
+      ],
+      "correctAnswer": 3,
+      "explanation": "'Equal protection of laws' is borrowed from the American Constitution, not British.",
+      "topicTag": "article-14"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Where does the concept of 'Equal Protection of Laws' originate from?",
+      "back": "American Constitution.",
+      "difficulty": "easy"
+    },
+    {
+      "front": "Which Article provides immunity to the President and Governors from criminal proceedings?",
+      "back": "Article 361.",
+      "difficulty": "medium"
+    }
+  ],
+  "revisionSheet": {
+    "title": "Article 14 Revision",
+    "points": [
+      "Article 14: Equality before law & Equal protection of laws.",
+      "Applies to: Citizens, Foreigners, Legal Persons.",
+      "Equality before law = British origin, Negative concept.",
+      "Equal protection of laws = American origin, Positive concept.",
+      "Rule of Law (A.V. Dicey) is the foundation of Article 14.",
+      "Exceptions: Art 361 (President/Governors), Foreign Diplomats, MPs/MLAs privileges."
+    ]
+  },
+  "relatedTopics": {
+    "previousTopic": "Fundamental Rights Overview",
+    "previousTopicId": "fundamental-rights/overview",
+    "currentTopic": "Article 14",
+    "nextTopic": "Article 15",
+    "nextTopicId": "fundamental-rights/article-15"
+  }
+}

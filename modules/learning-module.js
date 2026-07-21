@@ -107,6 +107,7 @@ export class LearningModuleEngine {
     this.renderFilesPane(data);
     this.renderAnalyticsPane(data);
     this.renderRelatedTopicsPane(data);
+    this.renderArticleExplorerPane(data);
 
     // 6. Sidebar Analytics
     this.renderSidebarAnalytics(data);
@@ -289,6 +290,53 @@ export class LearningModuleEngine {
     `;
 
     pane.innerHTML = html;
+  }
+
+  // ── 4a. Article Explorer Pane (Polity specific) ──────────────────────────
+  renderArticleExplorerPane(data) {
+    const pane = document.getElementById(`${this.subject}-subtab-article-explorer`);
+    if (!pane) return;
+    
+    const grid = document.getElementById(`${this.subject}-articles-explorer-grid`);
+    if (!grid) return;
+
+    if (!data.articleExplorer || data.articleExplorer.length === 0) {
+      grid.innerHTML = `<div style="padding: 24px; color: var(--text-muted); text-align: center;">No articles available in this module.</div>`;
+      return;
+    }
+
+    grid.innerHTML = data.articleExplorer.map(art => `
+      <div class="glass-card article-explorer-card" style="padding: 16px; border-radius: var(--radius-lg); cursor: pointer; transition: all 0.2s; border: 1px solid var(--border-glass);" 
+           onclick="document.dispatchEvent(new CustomEvent('load-topic', {detail: '${art.topicId}'}))"
+           onmouseover="this.style.borderColor='var(--accent-cyan)'; this.style.transform='translateY(-2px)'"
+           onmouseout="this.style.borderColor='var(--border-glass)'; this.style.transform='translateY(0)'">
+        
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px;">
+          <h3 style="font-size: 18px; font-weight: 800; color: var(--accent-cyan); margin: 0;">${art.article}</h3>
+          <span style="font-size: 11px; background: rgba(99,102,241,0.1); color: var(--accent-purple); padding: 4px 8px; border-radius: 12px; font-weight: 700;">
+            ${art.difficulty}
+          </span>
+        </div>
+        
+        <h4 style="font-size: 14.5px; font-weight: 700; color: var(--text-main); margin: 0 0 12px 0; line-height: 1.3;">${art.title}</h4>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 16px;">
+          <div style="background: rgba(255,255,255,0.03); padding: 8px; border-radius: 6px;">
+            <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2px;">SSC Weightage</div>
+            <div style="font-size: 13px; color: var(--accent-pink); font-weight: 700;">${art.weightage}</div>
+          </div>
+          <div style="background: rgba(255,255,255,0.03); padding: 8px; border-radius: 6px;">
+            <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase; margin-bottom: 2px;">PYQs Asked</div>
+            <div style="font-size: 13px; color: var(--accent-cyan); font-weight: 700;">${art.pyqCount} Questions</div>
+          </div>
+        </div>
+        
+        <div style="display: flex; align-items: center; justify-content: space-between; border-top: 1px solid var(--border-glass); padding-top: 12px; margin-top: auto;">
+          <span style="font-size: 12px; color: var(--text-secondary);">${art.frequentlyAsked ? '🔥 Frequently Asked' : '📚 Standard Study'}</span>
+          <span style="font-size: 12px; color: var(--accent-cyan); font-weight: 600;">Read Deep Dive →</span>
+        </div>
+      </div>
+    `).join('');
   }
 
   // ── 5. Notes Accordion & Learning Content ────────────────────────────────

@@ -19,10 +19,21 @@ export const polityModule = {
     }
 
     // Load default topic
-    await this.engine.loadTopic('fundamental-rights');
+    await this.engine.loadTopic('fundamental-rights/overview');
 
     // Wire topic selector chips
     this.engine.setupTopicSelector('polity-topic-selector-bar');
+
+    // Wire deep-dive link events from Article Explorer
+    document.addEventListener('load-topic', (e) => {
+      const topicId = e.detail;
+      if (topicId) {
+        this.loadTopic(topicId);
+        
+        // Scroll to top to feel like a new page load
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      }
+    });
   },
 
   async loadTopic(topicId) {

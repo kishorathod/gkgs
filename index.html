@@ -932,7 +932,7 @@
           <div class="study-sticky-nav-wrap">
             <div class="study-sticky-nav" id="polity-subnav">
               <button class="study-nav-btn active" data-subtab="overview">📊 Overview</button>
-              <button class="study-nav-btn" data-subtab="timeline">⏱️ Timeline</button>
+              <button class="study-nav-btn" data-subtab="article-explorer">🗺️ Article Explorer</button>
               <button class="study-nav-btn" data-subtab="notes">📖 Study Notes</button>
               <button class="study-nav-btn" data-subtab="pyqs">📌 PYQs</button>
               <button class="study-nav-btn" data-subtab="quiz">🎯 Practice Quiz</button>
@@ -952,20 +952,13 @@
               
               <!-- Tab 1: Overview -->
               <div class="study-tab-pane active" id="polity-subtab-overview">
-                <!-- Dynamically populated in history.js -->
+                <!-- Dynamically populated -->
               </div>
 
-              <!-- Tab 2: Timeline -->
-              <div class="study-tab-pane hidden" id="polity-subtab-timeline">
-                <div class="filter-bar">
-                  <button class="filter-btn active" data-period="all">All Eras</button>
-                  <button class="filter-btn" data-period="ancient">Ancient (Indus - Harsha)</button>
-                  <button class="filter-btn" data-period="medieval">Medieval (Sultanate - Mughal)</button>
-                  <button class="filter-btn" data-period="modern">Modern (British - Independence)</button>
-                </div>
-                <div class="timeline-container">
-                  <div class="timeline-line"></div>
-                  <div id="timeline-events" class="timeline-events-wrapper"></div>
+              <!-- Tab 2: Article Explorer -->
+              <div class="study-tab-pane hidden" id="polity-subtab-article-explorer">
+                <div class="articles-grid" id="polity-articles-explorer-grid">
+                  <!-- Dynamically populated via LearningModuleEngine -->
                 </div>
               </div>
 

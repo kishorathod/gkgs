@@ -1,0 +1,151 @@
+{
+  "id": "fundamental-rights-overview",
+  "subject": "polity",
+  "hero": {
+    "title": "Fundamental Rights (Part III)",
+    "subtitle": "Articles 12-35 are the bedrock of Indian Polity. Master the overview before deep-diving into individual articles.",
+    "weightage": "★★★★★",
+    "difficulty": "Hard",
+    "estimatedReadingTime": "15 minutes",
+    "expectedQuestions": "3-4 Questions per Shift",
+    "whyItMatters": "Fundamental Rights (FRs) contribute to over 30% of all Polity questions in SSC CGL. Questions test specific articles (like Article 14, 19, 21), exceptions, and landmark cases."
+  },
+  "quickFacts": [
+    { "icon": "📜", "heading": "Part III", "fact": "Covered in Part III of the Constitution (Articles 12 to 35)." },
+    { "icon": "🇺🇸", "heading": "Borrowed From", "fact": "Inspired by the Bill of Rights of the US Constitution." },
+    { "icon": "⚖️", "heading": "Justiciable", "fact": "FRs are justiciable. Citizens can move the Supreme Court under Art 32 for enforcement." },
+    { "icon": "💎", "heading": "Magna Carta", "fact": "Part III is rightly described as the Magna Carta of India." },
+    { "icon": "🚫", "heading": "Not Absolute", "fact": "They are not absolute but qualified. The State can impose 'reasonable restrictions'." },
+    { "icon": "🚨", "heading": "Emergency", "fact": "Can be suspended during National Emergency (except Arts 20 and 21)." }
+  ],
+  "articleExplorer": [
+    {
+      "topicId": "fundamental-rights/article-12",
+      "article": "Article 12",
+      "title": "Definition of State",
+      "difficulty": "Easy",
+      "weightage": "★★",
+      "pyqCount": 3,
+      "frequentlyAsked": false
+    },
+    {
+      "topicId": "fundamental-rights/article-13",
+      "article": "Article 13",
+      "title": "Laws Inconsistent with FRs",
+      "difficulty": "Medium",
+      "weightage": "★★★",
+      "pyqCount": 5,
+      "frequentlyAsked": false
+    },
+    {
+      "topicId": "fundamental-rights/article-14",
+      "article": "Article 14",
+      "title": "Equality before Law",
+      "difficulty": "Easy",
+      "weightage": "★★★★★",
+      "pyqCount": 14,
+      "frequentlyAsked": true
+    },
+    {
+      "topicId": "fundamental-rights/article-15",
+      "article": "Article 15",
+      "title": "Prohibition of Discrimination",
+      "difficulty": "Medium",
+      "weightage": "★★★★",
+      "pyqCount": 8,
+      "frequentlyAsked": true
+    },
+    {
+      "topicId": "fundamental-rights/article-16",
+      "article": "Article 16",
+      "title": "Equality of Opportunity",
+      "difficulty": "Medium",
+      "weightage": "★★★★",
+      "pyqCount": 12,
+      "frequentlyAsked": true
+    },
+    {
+      "topicId": "fundamental-rights/article-17",
+      "article": "Article 17",
+      "title": "Abolition of Untouchability",
+      "difficulty": "Easy",
+      "weightage": "★★★★★",
+      "pyqCount": 25,
+      "frequentlyAsked": true
+    },
+    {
+      "topicId": "fundamental-rights/article-18",
+      "article": "Article 18",
+      "title": "Abolition of Titles",
+      "difficulty": "Easy",
+      "weightage": "★★★",
+      "pyqCount": 4,
+      "frequentlyAsked": false
+    },
+    {
+      "topicId": "fundamental-rights/article-19",
+      "article": "Article 19",
+      "title": "Protection of Six Freedoms",
+      "difficulty": "Hard",
+      "weightage": "★★★★★",
+      "pyqCount": 18,
+      "frequentlyAsked": true
+    },
+    {
+      "topicId": "fundamental-rights/article-20",
+      "article": "Article 20",
+      "title": "Protection in Conviction",
+      "difficulty": "Medium",
+      "weightage": "★★★",
+      "pyqCount": 5,
+      "frequentlyAsked": false
+    },
+    {
+      "topicId": "fundamental-rights/article-21",
+      "article": "Article 21",
+      "title": "Right to Life & Liberty",
+      "difficulty": "Hard",
+      "weightage": "★★★★★",
+      "pyqCount": 22,
+      "frequentlyAsked": true
+    },
+    {
+      "topicId": "fundamental-rights/article-21a",
+      "article": "Article 21A",
+      "title": "Right to Education",
+      "difficulty": "Easy",
+      "weightage": "★★★★★",
+      "pyqCount": 16,
+      "frequentlyAsked": true
+    },
+    {
+      "topicId": "fundamental-rights/article-32",
+      "article": "Article 32",
+      "title": "Constitutional Remedies",
+      "difficulty": "Medium",
+      "weightage": "★★★★★",
+      "pyqCount": 30,
+      "frequentlyAsked": true
+    }
+  ],
+  "notes": [
+    {
+      "heading": "1. Introduction to Fundamental Rights",
+      "explanation": "Fundamental Rights are enshrined in Part III of the Constitution from Articles 12 to 35. They are guaranteed to all persons without any discrimination. They uphold the equality of all individuals, the dignity of the individual, the larger public interest, and unity of the nation. They are meant for promoting the ideal of political democracy.",
+      "keyTakeaways": [
+        "Described as the Magna Carta of India.",
+        "They operate as limitations on the tyranny of the executive and arbitrary laws of the legislature."
+      ],
+      "importantExamPoints": [
+        "Originally there were 7 Fundamental Rights. The Right to Property was removed from the list of Fundamental Rights by the 44th Amendment Act, 1978. It is now a legal right under Article 300-A in Part XII."
+      ]
+    }
+  ],
+  "relatedTopics": {
+    "previousTopic": "Historical Underpinnings",
+    "previousTopicId": "historical-underpinnings",
+    "currentTopic": "Fundamental Rights",
+    "nextTopic": "DPSP & Duties",
+    "nextTopicId": "dpsp-and-duties"
+  }
+}
