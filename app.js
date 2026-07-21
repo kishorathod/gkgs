@@ -1,6 +1,7 @@
 /* ==========================================================================
    GK-GS App Main Controller (app.js)
-   Manages SPA navigation, user stats, and coordinates active modules.
+   Database-Driven Architecture: Router, Module Orchestrated Controller,
+   and Realtime Dashboard Refresh Client.
    ========================================================================== */
 
 import { historyModule } from './modules/history.js';
@@ -22,101 +23,27 @@ import { ECONOMY_NOTES_SECTIONS } from './modules/economy-notes-data.js';
 import { STATIC_GK_NOTES_SECTIONS } from './modules/static-gk-notes-data.js';
 import { CURRENT_AFFAIRS_NOTES_SECTIONS } from './modules/currentaffairs-notes-data.js';
 
+import { api } from './modules/api-service.js';
+import { DashboardRenderer } from './modules/dashboard-renderer.js';
 
-// Application State
+// App State (Transient UI state only)
 const AppState = {
   currentView: 'dashboard',
-  totalXP: 0,
-  streak: 1,
-  // Per-subject XP earned this session (drives completion %)  
-  subjectXP: {
-    history: 0,
-    polity: 0,
-    geography: 0,
-    science: 0,
-    economy: 0,
-    staticgk: 0,
-    currentaffairs: 0,
-    flashcards: 0,
-    quiz: 0
-  },
-  // Daily goals
-  goals: {
-    visitModule: false,      // visited any study module today
-    flashcard: false,        // completed flashcard session
-    quiz: false,             // completed a quiz
-    uploadFile: false,       // uploaded a study file
-    readNotes: false         // opened notes tab in any subject
-  },
-  // Recent activity log (last 5 entries)
-  activityLog: [],
-  // Session start time (ms since epoch)
   sessionStart: Date.now()
 };
 
-// Load state from MongoDB local API
-async function loadState() {
+/**
+ * Fetch fresh database-driven dashboard payload and render to UI
+ */
+export async function refreshDashboard() {
   const token = localStorage.getItem('gkgs_auth_token');
   if (!token) return;
 
   try {
-    const res = await fetch('/api/state', {
-      headers: {
-        'Authorization': `Bearer ${token}`
-      }
-    });
-    if (!res.ok) throw new Error('API failed');
-    const data = await res.json();
-    if (data) {
-      if (data.totalXP !== undefined) AppState.totalXP = data.totalXP;
-      if (data.streak !== undefined) AppState.streak = data.streak;
-      if (data.goals !== undefined) AppState.goals = { ...AppState.goals, ...data.goals };
-      if (data.activityLog) AppState.activityLog = data.activityLog;
-    }
+    const data = await api.getDashboard();
+    DashboardRenderer.render(data);
   } catch (e) {
-    console.warn("Could not load state from server, falling back to localStorage:", e);
-    const savedXP = localStorage.getItem('gkgs_total_xp');
-    const savedStreak = localStorage.getItem('gkgs_streak');
-    const savedGoals = localStorage.getItem('gkgs_goals');
-    const savedLog = localStorage.getItem('gkgs_activity_log');
-
-    if (savedXP !== null) AppState.totalXP = parseInt(savedXP, 10);
-    if (savedStreak !== null) AppState.streak = parseInt(savedStreak, 10);
-    if (savedGoals !== null) {
-      try { AppState.goals = { ...AppState.goals, ...JSON.parse(savedGoals) }; } catch (err) {}
-    }
-    if (savedLog !== null) {
-      try { AppState.activityLog = JSON.parse(savedLog); } catch (err) {}
-    }
-  }
-}
-
-// Save state to MongoDB local API and localStorage (dual-write for reliability)
-async function saveState() {
-  localStorage.setItem('gkgs_total_xp', AppState.totalXP);
-  localStorage.setItem('gkgs_streak', AppState.streak);
-  localStorage.setItem('gkgs_goals', JSON.stringify(AppState.goals));
-  localStorage.setItem('gkgs_activity_log', JSON.stringify(AppState.activityLog.slice(0, 10)));
-
-  const token = localStorage.getItem('gkgs_auth_token');
-  if (!token) return;
-
-  try {
-    await fetch('/api/state', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'Authorization': `Bearer ${token}`
-      },
-      body: JSON.stringify({
-        totalXP: AppState.totalXP,
-        streak: AppState.streak,
-        goals: AppState.goals,
-        activityLog: AppState.activityLog.slice(0, 10)
-      })
-    });
-  } catch (e) {
-    console.error("Failed to sync state with MongoDB backend:", e);
+    console.warn("Could not fetch dashboard metrics from database:", e.message);
   }
 }
 
@@ -126,7 +53,6 @@ let isSignUpMode = false;
 
 async function initAuth() {
   const authOverlay = document.getElementById('auth-overlay');
-  const authForm = document.getElementById('auth-form');
   const authTitle = document.querySelector('.auth-card h2');
   const authSubtitle = document.getElementById('auth-subtitle');
   const authSubmitBtn = document.getElementById('btn-auth-submit');
@@ -136,18 +62,14 @@ async function initAuth() {
   const authError = document.getElementById('auth-error');
   const logoutBtn = document.getElementById('btn-logout');
 
-  // Check auth state on startup
+  // Check cached auth state
   const cachedUser = localStorage.getItem('gkgs_user');
   const cachedToken = localStorage.getItem('gkgs_auth_token');
-  
+
   if (cachedToken && cachedUser) {
     authOverlay.classList.remove('active');
     renderUserProfile(JSON.parse(cachedUser));
-    // ✅ Always fetch fresh data from Atlas on every page load
-    // This ensures XP/streak reflect the real DB value, not stale defaults or localStorage
-    await loadState();
-    updateXPDisplay();
-    updateDashboard();
+    await refreshDashboard();
   } else {
     authOverlay.classList.add('active');
   }
@@ -173,7 +95,7 @@ async function initAuth() {
     }
   });
 
-  // Handle Form Submission (Local Signup/Login)
+  // Local Login/Signup Form Handler
   authSubmitBtn.addEventListener('click', async (e) => {
     e.preventDefault();
     authError.classList.add('hidden');
@@ -197,22 +119,15 @@ async function initAuth() {
         body: JSON.stringify(payload)
       });
       const data = await response.json();
-      if (!response.ok) {
-        throw new Error(data.error || 'Authentication failed');
-      }
+      if (!response.ok) throw new Error(data.error || 'Authentication failed');
 
-      // Successful local login
       localStorage.setItem('gkgs_auth_token', data.token);
       localStorage.setItem('gkgs_user', JSON.stringify(data.user));
-      
+
       authOverlay.classList.remove('active');
       renderUserProfile(data.user);
-      
-      // Load and apply stats from backend
-      await loadState();
-      updateXPDisplay();
-      updateDashboard();
 
+      await refreshDashboard();
       showToast(`Welcome back, ${data.user.name}!`);
     } catch (err) {
       showAuthError(err.message);
@@ -223,25 +138,11 @@ async function initAuth() {
   logoutBtn.addEventListener('click', () => {
     localStorage.removeItem('gkgs_auth_token');
     localStorage.removeItem('gkgs_user');
-    localStorage.removeItem('gkgs_total_xp');
-    localStorage.removeItem('gkgs_streak');
-    localStorage.removeItem('gkgs_goals');
-    localStorage.removeItem('gkgs_activity_log');
-    
-    // Reset local AppState
-    AppState.totalXP = 0;
-    AppState.streak = 1;
-    Object.keys(AppState.goals).forEach(k => AppState.goals[k] = false);
-    AppState.activityLog = [];
-    
-    updateXPDisplay();
-    updateDashboard();
-    
+
     authOverlay.classList.add('active');
     showToast('Logged out successfully');
   });
 
-  // Load Google Identity Services library and initialize
   initGoogleOAuth();
 }
 
@@ -256,37 +157,25 @@ function showAuthError(msg) {
 // ── Google Sign-In Authentication ──────────────────────────────────────
 
 function initGoogleOAuth() {
-  // Use a flexible check for Google GIS client availability
   const checkGisInterval = setInterval(() => {
     if (typeof google !== 'undefined' && google.accounts && google.accounts.id) {
       clearInterval(checkGisInterval);
-      
-      // Initialize Google OAuth Sign-in Client
+
       google.accounts.id.initialize({
-        // Generic client id (user can substitute or use immediately as-is)
-        client_id: "874794269176-s33rblsc62d7j4421b106l1a3v87955c.apps.googleusercontent.com", 
+        client_id: "874794269176-s33rblsc62d7j4421b106l1a3v87955c.apps.googleusercontent.com",
         callback: handleGoogleLoginResponse
       });
 
-      // Render standard Google Sign In Button
       google.accounts.id.renderButton(
         document.getElementById("google-login-button"),
-        { 
-          theme: "outline", 
-          size: "large",
-          text: "signin_with",
-          shape: "rectangular",
-          logo_alignment: "left"
-        }
+        { theme: "outline", size: "large", text: "signin_with", shape: "rectangular" }
       );
 
-      // Prompt One-Tap overlay automatically if supported
       google.accounts.id.prompt();
     }
   }, 500);
 }
 
-// Receive credential callback from Google login
 async function handleGoogleLoginResponse(response) {
   const authError = document.getElementById('auth-error');
   authError.classList.add('hidden');
@@ -298,36 +187,28 @@ async function handleGoogleLoginResponse(response) {
       body: JSON.stringify({ credential: response.credential })
     });
     const data = await res.json();
-    if (!res.ok) {
-      throw new Error(data.error || 'Google Authentication failed on backend');
-    }
+    if (!res.ok) throw new Error(data.error || 'Google Auth failed');
 
-    // Success Google OAuth login
     localStorage.setItem('gkgs_auth_token', data.token);
     localStorage.setItem('gkgs_user', JSON.stringify(data.user));
-    
+
     document.getElementById('auth-overlay').classList.remove('active');
     renderUserProfile(data.user);
-    
-    // Load and apply stats from backend
-    await loadState();
-    updateXPDisplay();
-    updateDashboard();
 
+    await refreshDashboard();
     showToast(`Logged in as ${data.user.name}`);
   } catch (err) {
     showAuthError(`Google SSO Error: ${err.message}`);
   }
 }
 
-// Render dynamic user info into the sidebar brand card
 function renderUserProfile(user) {
   const usernameEl = document.getElementById('sidebar-username');
   const avatarEmojiEl = document.getElementById('sidebar-user-emoji');
   const avatarImgEl = document.getElementById('sidebar-user-avatar');
 
   if (usernameEl) usernameEl.textContent = user.name;
-  
+
   if (user.picture && avatarImgEl && avatarEmojiEl) {
     avatarImgEl.src = user.picture;
     avatarImgEl.classList.remove('hidden');
@@ -341,14 +222,13 @@ function renderUserProfile(user) {
 
 // Initialize Application
 document.addEventListener('DOMContentLoaded', async () => {
-  await initAuth(); // ✅ Await so loadState completes before UI renders
+  await initAuth();
   setupNavigation();
   setupSearch();
   setupMobileDrawer();
   setupSideTabs();
   startSessionTimer();
-  
-  // Initialize modules
+
   historyModule.init();
   polityModule.init();
   geographyModule.init();
@@ -395,19 +275,16 @@ function setupSideTabs() {
   });
 }
 
-// Setup Global Search Bar with Dynamic Indexing across all modules
+// Setup Global Search Bar
 function setupSearch() {
   const searchInput = document.getElementById('global-search-input');
   const dropdown = document.getElementById('search-dropdown');
   if (!searchInput || !dropdown) return;
 
-  // Build master search index from notes sections
   const index = [];
-
   const addSections = (sections, navKey, badgeName) => {
     if (!sections) return;
     sections.forEach(sec => {
-      // Strip HTML tags for clean snippet text
       const cleanSnippet = (sec.content || '').replace(/<[^>]*>?/gm, ' ').replace(/\s+/g, ' ').trim();
       index.push({
         title: sec.title || 'Untitled Section',
@@ -428,7 +305,6 @@ function setupSearch() {
   addSections(STATIC_GK_NOTES_SECTIONS, 'staticgk', 'staticgk');
   addSections(CURRENT_AFFAIRS_NOTES_SECTIONS, 'currentaffairs', 'currentaffairs');
 
-  // Add default core module destinations
   index.push(
     { title: 'Flashcards Active Recall Deck', snippet: 'Memorize high-yield SSC facts with 3D cards', fullText: 'flashcards deck active recall leitner', nav: 'flashcards', badge: 'flashcards' },
     { title: 'SSC CGL Mock Quiz Zone', snippet: 'Test your knowledge with authentic SSC PYQs', fullText: 'quiz mock test practice questions pyq', nav: 'quiz', badge: 'quiz' }
@@ -468,7 +344,6 @@ function setupSearch() {
           const navBtn = document.getElementById(`nav-${targetNav}`);
           if (navBtn) navBtn.click();
 
-          // Scroll & Highlight target element if available
           if (targetId) {
             setTimeout(() => {
               const targetEl = document.getElementById(targetId);
@@ -493,22 +368,18 @@ function setupSearch() {
   });
 }
 
-
-// Setup scroll animations for memory highlights
 function setupScrollAnimations() {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('animate-highlight');
-        // observer.unobserve(entry.target); // keep it commented if we want to re-animate on scroll
       } else {
-        entry.target.classList.remove('animate-highlight'); // reset when out of view
+        entry.target.classList.remove('animate-highlight');
       }
     });
   }, { threshold: 0.5 });
 
-  // Use MutationObserver to detect dynamically added elements
-  const mutationObserver = new MutationObserver((mutations) => {
+  const mutationObserver = new MutationObserver(() => {
     document.querySelectorAll('.memory-highlight:not(.observed)').forEach(el => {
       el.classList.add('observed');
       observer.observe(el);
@@ -518,7 +389,7 @@ function setupScrollAnimations() {
   mutationObserver.observe(document.body, { childList: true, subtree: true });
 }
 
-// Setup Navigation Routing
+// Navigation Router
 function setupNavigation() {
   const menuButtons = document.querySelectorAll('.menu-item');
   const panels = document.querySelectorAll('.view-panel');
@@ -543,11 +414,9 @@ function setupNavigation() {
       const target = btn.dataset.target;
       if (!target) return;
 
-      // Update button active state
       menuButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
 
-      // Update panel active state
       panels.forEach(p => p.classList.remove('active'));
       const activePanel = document.getElementById(`view-${target}`);
       if (activePanel) {
@@ -555,337 +424,113 @@ function setupNavigation() {
         AppState.currentView = target;
       }
 
-      // Update header titles
       if (titleMeta[target]) {
         pageTitle.textContent = titleMeta[target].title;
         pageSubtitle.textContent = titleMeta[target].subtitle;
       }
 
-      // Trigger specific module enter hooks if needed
       onModuleEnter(target);
     });
   });
 }
 
-// Module transition actions
-function onModuleEnter(moduleName) {
+// Module enter handler — triggers database action & updates dashboard
+async function onModuleEnter(moduleName) {
   if (moduleName === 'flashcards') {
     flashcardModule.onEnter();
   }
-  // Mark "visit module" goal on first non-dashboard navigation
+
   if (moduleName !== 'dashboard') {
-    completeGoal('visitModule', `Visited ${moduleName.charAt(0).toUpperCase() + moduleName.slice(1)} module`);
+    try {
+      await api.visitModule(moduleName);
+      await refreshDashboard();
+    } catch (e) {
+      console.warn("Module visit record failed:", e.message);
+    }
   }
 }
 
-// Per-subject XP tracking
-export function addSubjectXP(subject, amount) {
-  if (AppState.subjectXP[subject] !== undefined) {
-    AppState.subjectXP[subject] += amount;
+// ── Exported Actions used by Sub-Modules ──────────────────────────────
+
+export async function addXP(amount, subject = null, actionLabel = null) {
+  try {
+    if (subject) {
+      await api.visitModule(subject);
+    } else {
+      await api.triggerAction('visit-module', { subject: 'general' });
+    }
+    await refreshDashboard();
+    showToast(`+${amount} XP Earned!`);
+  } catch (e) {
+    console.warn("addXP failed:", e.message);
   }
 }
 
-// Update XP & Streak
-export function addXP(amount, subject = null, actionLabel = null) {
-  AppState.totalXP += amount;
-  if (subject) addSubjectXP(subject, amount);
-  updateXPDisplay();
-  updateDashboard(); // Re-render live dashboard
-  saveState();
-  
-  // Log to activity feed
-  if (actionLabel) logActivity(actionLabel, `+${amount} XP`, subject);
-  
-  // Show a mini notification overlay
-  showToast(`+${amount} XP Earned!`);
-}
-
-function updateXPDisplay() {
-  const xpEl = document.getElementById('total-xp');
-  const streakEl = document.getElementById('streak-count');
-  if (xpEl) xpEl.textContent = `${AppState.totalXP.toLocaleString()} XP`;
-  if (streakEl) streakEl.textContent = `${AppState.streak} Days`;
-  
-  // Update ranks based on XP
-  const userRankEl = document.querySelector('.user-rank');
-  if (!userRankEl) return;
-  const ranks = [
-    { min: 5000, label: 'Rank: Joint Secretary' },
-    { min: 3500, label: 'Rank: Deputy Secretary' },
-    { min: 2500, label: 'Rank: Under Secretary' },
-    { min: 2000, label: 'Rank: Section Officer' },
-    { min: 1500, label: 'Rank: Assistant Section Officer' },
-    { min: 0,    label: 'Rank: Aspirant' }
-  ];
-  userRankEl.textContent = ranks.find(r => AppState.totalXP >= r.min).label;
-}
-
-// Handle Goals Completing
-export function completeGoal(goalId, label = null) {
-  if (AppState.goals[goalId] === false) {
-    AppState.goals[goalId] = true;
-    updateGoalsUI();
-    addXP(100, null, label || `Goal completed: ${goalId}`);
-    saveState();
+export async function completeGoal(goalId, label = null) {
+  try {
+    const actionTypeMap = {
+      visitModule: 'visit-module',
+      readNotes:   'read-notes',
+      flashcard:   'flashcard-session',
+      quiz:        'quiz-complete',
+      uploadFile:  'file-upload'
+    };
+    const actionType = actionTypeMap[goalId] || 'visit-module';
+    await api.triggerAction(actionType, { subject: 'general' });
+    await refreshDashboard();
     showToast(`🎯 Goal Unlocked! +100 XP`);
+  } catch (e) {
+    console.warn("completeGoal failed:", e.message);
   }
 }
 
-function updateGoalsUI() {
-  const goalMap = {
-    visitModule: 'goal-visit-module',
-    flashcard:   'goal-flashcard',
-    quiz:        'goal-quiz',
-    uploadFile:  'goal-upload-file',
-    readNotes:   'goal-read-notes'
-  };
-  Object.entries(goalMap).forEach(([key, id]) => {
-    const el = document.getElementById(id);
-    if (!el) return;
-    if (AppState.goals[key]) {
-      el.classList.add('checked');
-      const box = el.querySelector('.checkbox-box');
-      // Support both new goal-item style and old checkbox-item style
-      if (box) box.textContent = '✓';
-    }
-  });
-  // Update goals progress counter
-  const doneCount = Object.values(AppState.goals).filter(Boolean).length;
-  const totalCount = Object.keys(AppState.goals).length;
-  const counterEl = document.getElementById('goals-progress-counter');
-  if (counterEl) counterEl.textContent = `${doneCount}/${totalCount} done`;
-}
-
-function onQuizCompleted(score) {
-  completeGoal('quiz', `Completed Daily Quiz (score: ${score})`);
-}
-
-// ── Live Dashboard Update Engine ─────────────────────────────────────────
-
-// Subject max XP thresholds for % calculation (how much XP = "100% done")
-const SUBJECT_MAX_XP = {
-  history:      500,
-  polity:       500,
-  geography:    400,
-  science:      400,
-  economy:      350,
-  staticgk:     350,
-  currentaffairs: 300
-};
-
-function updateDashboard() {
-  updateSubjectProgressBars();
-  updateActivityFeed();
-  updateRankProgress();
-  updateGoalsUI();
-  updateStudyStatsBar();
-  updateContinueLearning();
-  updateBadges();
-}
-
-const LESSON_TOTALS = {
-  history: 20,
-  polity: 18,
-  geography: 15,
-  science: 25,
-  economy: 12,
-  staticgk: 16,
-  currentaffairs: 30
-};
-
-function updateSubjectProgressBars() {
-  Object.entries(SUBJECT_MAX_XP).forEach(([subject, maxXP]) => {
-    const earned = AppState.subjectXP[subject] || 0;
-    const pct = Math.min(100, Math.round((earned / maxXP) * 100));
-    const bar = document.getElementById(`progress-bar-${subject}`);
-    const tag = document.getElementById(`progress-tag-${subject}`);
-    const countEl = document.getElementById(`lesson-count-${subject}`);
-    
-    if (bar) bar.style.width = `${pct}%`;
-    if (tag) tag.textContent = `${pct}%`;
-    
-    if (countEl) {
-      const total = LESSON_TOTALS[subject] || 20;
-      const done = Math.min(total, Math.round((pct / 100) * total));
-      const unit = subject === 'currentaffairs' ? 'topics' : 'lessons';
-      countEl.textContent = `${done} / ${total} ${unit} completed`;
-    }
-  });
-}
-
-function updateRankProgress() {
-  const rankBrackets = [
-    { label: 'Aspirant',                min: 0,    max: 1500 },
-    { label: 'Assistant Section Officer', min: 1500, max: 2000 },
-    { label: 'Section Officer',          min: 2000, max: 2500 },
-    { label: 'Under Secretary',          min: 2500, max: 3500 },
-    { label: 'Deputy Secretary',         min: 3500, max: 5000 },
-    { label: 'Joint Secretary',          min: 5000, max: 5000 }
-  ];
-  const current = rankBrackets.find(r => AppState.totalXP < r.max) || rankBrackets[rankBrackets.length - 1];
-  const next = rankBrackets[rankBrackets.indexOf(current) + 1];
-  const pct = next
-    ? Math.round(((AppState.totalXP - current.min) / (next.min - current.min)) * 100)
-    : 100;
-
-  const rankBar = document.getElementById('rank-progress-bar');
-  const rankLabel = document.getElementById('rank-label');
-  const rankNextLabel = document.getElementById('rank-next-label');
-  const rankPct = document.getElementById('rank-pct');
-
-  if (rankBar) rankBar.style.width = `${pct}%`;
-  if (rankLabel) rankLabel.textContent = current.label;
-  if (rankNextLabel) rankNextLabel.textContent = next ? `→ ${next.label}` : '🏆 Max Rank!';
-  if (rankPct) rankPct.textContent = `${pct}%`;
-}
-
-function updateStudyStatsBar() {
-  const elapsed = Math.floor((Date.now() - AppState.sessionStart) / 60000);
-  const doneCount = Object.values(AppState.goals).filter(Boolean).length;
-  const totalCount = Object.keys(AppState.goals).length;
-
-  // Stat cards row
-  const timeEl = document.getElementById('session-time');
-  const totalXpEl = document.getElementById('stat-total-xp');
-  const goalsEl = document.getElementById('stat-goals-done');
-  const streakDashEl = document.getElementById('streak-count-dash');
-  if (timeEl) timeEl.textContent = `${elapsed}m`;
-  if (totalXpEl) totalXpEl.textContent = AppState.totalXP.toLocaleString();
-  if (goalsEl) goalsEl.textContent = doneCount;
-  if (streakDashEl) streakDashEl.textContent = AppState.streak;
-
-  // Hero quick-stats
-  const hqsStreak = document.getElementById('hqs-streak');
-  const hqsTime   = document.getElementById('hqs-time');
-  const hqsRank   = document.getElementById('hqs-rank');
-  const hqsGoals  = document.getElementById('hqs-goals');
-  const hqsXp     = document.getElementById('hqs-xp');
-  if (hqsStreak) hqsStreak.textContent = AppState.streak;
-  if (hqsTime)   hqsTime.textContent   = `${elapsed}m`;
-  if (hqsGoals)  hqsGoals.textContent  = `${doneCount}/${totalCount}`;
-  if (hqsXp)     hqsXp.textContent     = AppState.totalXP.toLocaleString();
-
-  // Hero rank pill
-  const ranks = [
-    { min: 5000, label: 'Joint Secretary' },
-    { min: 3500, label: 'Deputy Secretary' },
-    { min: 2500, label: 'Under Secretary' },
-    { min: 2000, label: 'Section Officer' },
-    { min: 1500, label: 'Asst Sec Officer' },
-    { min: 0,    label: 'Aspirant' }
-  ];
-  const rankLabel = ranks.find(r => AppState.totalXP >= r.min).label;
-  if (hqsRank) hqsRank.textContent = rankLabel;
-
-  // Circular gauge animation (hero + tasks ring)
-  const goalPct = Math.round((doneCount / totalCount) * 100);
-  const gaugeStroke = (goalPct * 100) / 100; // = goalPct (0–100 out of 100 circumference)
-  const dbGaugePath = document.getElementById('db-gauge-path');
-  const dbGaugePct  = document.getElementById('db-gauge-pct');
-  const tasksGaugePath = document.getElementById('tasks-gauge-path');
-  const tasksCounter = document.getElementById('goals-progress-counter');
-  if (dbGaugePath) dbGaugePath.setAttribute('stroke-dasharray', `${gaugeStroke}, 100`);
-  if (dbGaugePct)  dbGaugePct.textContent = `${goalPct}%`;
-  if (tasksGaugePath) tasksGaugePath.setAttribute('stroke-dasharray', `${gaugeStroke}, 100`);
-  if (tasksCounter) tasksCounter.textContent = `${doneCount}/${totalCount}`;
-
-  // XP-today sub-label (session XP)
-  const sessionXP = Object.values(AppState.subjectXP).reduce((a, b) => a + b, 0);
-  const xpTodayEl = document.getElementById('sic-xp-today');
-  if (xpTodayEl) xpTodayEl.textContent = `+${sessionXP} today`;
-
-  // Header streak/XP badges
-  const streakCount = document.getElementById('streak-count');
-  const totalXpHeader = document.getElementById('total-xp');
-  if (streakCount) streakCount.textContent = `${AppState.streak} Day`;
-  if (totalXpHeader) totalXpHeader.textContent = `${AppState.totalXP} XP`;
-}
-
-
-function updateActivityFeed() {
-  const feedEl = document.getElementById('activity-feed');
-  if (!feedEl) return;
-  if (AppState.activityLog.length === 0) {
-    feedEl.innerHTML = `<div class="feed-empty">No activity yet — start studying! 📚</div>`;
-    return;
+export async function markGoalReadNotes(subject, sectionId) {
+  try {
+    await api.readNotes(subject, sectionId);
+    await refreshDashboard();
+    showToast('🎯 Goal Unlocked: Read Notes (+30 XP)');
+  } catch (e) {
+    console.warn("markGoalReadNotes failed:", e.message);
   }
-  feedEl.innerHTML = AppState.activityLog.slice(0, 5).map(entry => `
-    <div class="feed-entry">
-      <span class="feed-icon">${entry.icon}</span>
-      <div class="feed-text">
-        <span class="feed-action">${entry.action}</span>
-        <span class="feed-xp">${entry.xp}</span>
-      </div>
-      <span class="feed-time">${entry.time}</span>
-    </div>
-  `).join('');
 }
 
-function updateContinueLearning() {
-  // Sync continue-learning progress bars to subject XP %
-  const map = {
-    history: { bar: 'cc-bar-history', pct: 'cc-pct-history' },
-    polity:  { bar: 'cc-bar-polity',  pct: 'cc-pct-polity' },
-    quiz:    { bar: 'cc-bar-quiz',    pct: 'cc-pct-quiz' }
-  };
-  Object.entries(map).forEach(([subject, ids]) => {
-    const bar = document.getElementById(ids.bar);
-    const pctEl = document.getElementById(ids.pct);
-    const maxXP = SUBJECT_MAX_XP[subject] || 300;
-    const earned = AppState.subjectXP[subject] || 0;
-    const pct = Math.min(100, Math.round((earned / maxXP) * 100));
-    if (bar) bar.style.width = `${pct}%`;
-    if (pctEl) pctEl.textContent = `${pct}% Complete`;
-  });
+export async function markGoalUpload(subject, fileName) {
+  try {
+    await api.recordFileUpload(subject, fileName);
+    await refreshDashboard();
+    showToast('🎯 Goal Unlocked: File Uploaded (+20 XP)');
+  } catch (e) {
+    console.warn("markGoalUpload failed:", e.message);
+  }
 }
 
-function updateBadges() {
-  // Streak badge
-  const streak5 = document.getElementById('badge-streak5');
-  if (streak5 && AppState.streak >= 5) streak5.classList.add('earned');
-  // XP badge
-  const xp500 = document.getElementById('badge-xp500');
-  if (xp500 && AppState.totalXP >= 500) xp500.classList.add('earned');
-  // Quiz badge
-  const quizBadge = document.getElementById('badge-quiz');
-  if (quizBadge && AppState.goals.quiz) quizBadge.classList.add('earned');
-  // Notes badge
-  const notesBadge = document.getElementById('badge-notes');
-  if (notesBadge && AppState.goals.readNotes) notesBadge.classList.add('earned');
-  // Flashcard badge
-  const flashBadge = document.getElementById('badge-flash');
-  if (flashBadge && AppState.goals.flashcard) flashBadge.classList.add('earned');
+async function onQuizCompleted(score, details = {}) {
+  try {
+    const questionsAttempted = (details && details.questionsAttempted) || 10;
+    const correctAnswers = (details && details.correctAnswers) || Math.round((score / 100) * questionsAttempted);
+    const subject = (details && details.subject) || 'quiz';
+    const duration = (details && details.duration) || 60;
+
+    await api.completeQuiz(subject, questionsAttempted, correctAnswers, score, duration);
+    await refreshDashboard();
+    showToast('🎯 Quiz Completed! (+100 XP)');
+  } catch (e) {
+    console.warn("onQuizCompleted failed:", e.message);
+  }
 }
 
-export function logActivity(action, xp = '', subject = null) {
-  const icons = {
-    history: '📜', polity: '⚖️', geography: '🗺️', science: '🔬',
-    economy: '💹', staticgk: '📚', currentaffairs: '📰', flashcards: '🃏',
-    quiz: '🎯', null: '⭐'
-  };
-  const now = new Date();
-  const timeStr = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-  AppState.activityLog.unshift({
-    action, xp, icon: icons[subject] || '⭐', time: timeStr
-  });
-  AppState.activityLog = AppState.activityLog.slice(0, 10);
-  updateActivityFeed();
-}
-
-export function markGoalReadNotes() {
-  completeGoal('readNotes', 'Read study notes');
-}
-
-export function markGoalUpload() {
-  completeGoal('uploadFile', 'Uploaded a study file');
-}
-
-// Start session timer — ticks every minute to update study time
+// Session Timer — ticks every 1 minute to record time spent on task
 function startSessionTimer() {
-  updateStudyStatsBar();
-  setInterval(() => {
-    updateStudyStatsBar();
-  }, 60000); // every 1 minute
+  setInterval(async () => {
+    if (AppState.currentView && AppState.currentView !== 'dashboard') {
+      try {
+        await api.endStudySession(AppState.currentView, 1);
+        await refreshDashboard();
+      } catch (e) {
+        // silent
+      }
+    }
+  }, 60000);
 }
 
 // Utility Toast Notification
@@ -903,7 +548,7 @@ function showToast(message) {
     container.style.gap = '8px';
     document.body.appendChild(container);
   }
-  
+
   const toast = document.createElement('div');
   toast.style.background = 'linear-gradient(135deg, #10b981 0%, #059669 100%)';
   toast.style.color = '#fff';
@@ -917,16 +562,14 @@ function showToast(message) {
   toast.style.opacity = '0';
   toast.style.transition = 'all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275)';
   toast.textContent = message;
-  
+
   container.appendChild(toast);
-  
-  // Animate in
+
   setTimeout(() => {
     toast.style.transform = 'translateY(0)';
     toast.style.opacity = '1';
   }, 10);
-  
-  // Remove after duration
+
   setTimeout(() => {
     toast.style.transform = 'translateY(-20px)';
     toast.style.opacity = '0';

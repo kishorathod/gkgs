@@ -1,6 +1,7 @@
 /* ==========================================================================
    GK-GS App Backend Server (server.js)
-   Express server integrating MongoDB, JWT Authentication, and Google SSO verification.
+   Express server integrating MongoDB, JWT Authentication, Google SSO,
+   and the Database-Driven Statistics Engine.
    ========================================================================== */
 
 const express = require('express');
@@ -17,42 +18,40 @@ const PORT = process.env.PORT || 8000;
 const MONGO_URI = process.env.MONGO_URI || 'mongodb+srv://krr8088_db_user:1QSqWfPXYiDgUOym@cluster0.ccgxa3n.mongodb.net/gkgs?retryWrites=true&w=majority';
 const JWT_SECRET = process.env.JWT_SECRET || 'gkgs_secret_jwt_key_2026_cgl';
 
-// Initialize Google OAuth2 client (flexible verification)
+// Initialize Google OAuth2 client
 const oauthClient = new OAuth2Client();
 
 // Middleware
 app.use(cors());
 app.use(express.json());
 
-// Set up Multer memory storage (store raw buffers in MongoDB)
+// Set up Multer memory storage
 const storage = multer.memoryStorage();
 const upload = multer({
-  limits: { fileSize: 15 * 1024 * 1024 } // 15MB file size limit
+  limits: { fileSize: 15 * 1024 * 1024 } // 15MB file limit
 });
 
 // ── Database Connection ────────────────────────────────────────────────
 mongoose.connect(MONGO_URI)
-  .then(() => console.log('Successfully connected to local MongoDB at 127.0.0.1:27017/gkgs'))
+  .then(() => console.log('Successfully connected to MongoDB Atlas for GK-GS Hub'))
   .catch(err => console.error('MongoDB connection error:', err));
 
-// ── MongoDB Schemas & Models ──────────────────────────────────────────
-
-// User Schema
+// ── Core MongoDB Models ────────────────────────────────────────────────
 const UserSchema = new mongoose.Schema({
   email: { type: String, required: true, unique: true, index: true },
   name: { type: String, required: true },
-  passwordHash: { type: String }, // Null for Google OAuth users
-  googleId: { type: String },     // Null for local users
-  picture: { type: String, default: '' }, // Profile avatar URL
+  passwordHash: { type: String },
+  googleId: { type: String },
+  picture: { type: String, default: '' },
   createdAt: { type: Date, default: Date.now }
 });
 
 const GKGSUser = mongoose.model('User', UserSchema);
 
-// User stats / app state scoped to user
+// Legacy State Model (kept for fallback)
 const StateSchema = new mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, unique: true },
-  totalXP: { type: Number, default: 0 }, // Starts fresh for new users
+  totalXP: { type: Number, default: 0 },
   streak: { type: Number, default: 1 },
   goals: {
     visitModule: { type: Boolean, default: false },
@@ -66,21 +65,30 @@ const StateSchema = new mongoose.Schema({
 
 const GKGSState = mongoose.model('State', StateSchema);
 
-// Uploaded study files scoped to user
+// Uploaded study files
 const UploadSchema = new mongoose.Schema({
   userId: { type: mongoose.Schema.Types.ObjectId, ref: 'User', required: true, index: true },
   subject: { type: String, required: true, index: true },
   name: { type: String, required: true },
   type: { type: String, required: true },
   size: { type: Number, required: true },
-  data: { type: Buffer, required: true }, // binary file content
+  data: { type: Buffer, required: true },
   uploadedAt: { type: Date, default: Date.now }
 });
 
 const GKGSUpload = mongoose.model('Upload', UploadSchema);
 
-// ── Authentication Middleware ─────────────────────────────────────────
+// Import Statistics Engine & Models
+const StatisticsEngine = require('./engine/statistics');
+const {
+  QuizAttempt,
+  FlashcardSession,
+  StudySession,
+  ActivityLog,
+  Achievement
+} = require('./engine/models');
 
+// ── Authentication Middleware ─────────────────────────────────────────
 function authenticateToken(req, res, next) {
   const authHeader = req.headers['authorization'];
   const headerToken = authHeader && authHeader.split(' ')[1];
@@ -122,9 +130,9 @@ app.post('/api/auth/signup', async (req, res) => {
     });
     await user.save();
 
-    // Create default state for new user
-    const state = new GKGSState({ userId: user._id });
-    await state.save();
+    // Create default state & progress
+    await new GKGSState({ userId: user._id }).save();
+    await StatisticsEngine.recalculateAndSaveProgress(user._id);
 
     const token = jwt.sign({ id: user._id, email: user.email, name: user.name }, JWT_SECRET, { expiresIn: '7d' });
     res.status(201).json({ token, user: { id: user._id, name: user.name, email: user.email } });
@@ -168,19 +176,12 @@ app.post('/api/auth/google', async (req, res) => {
 
     let payload;
     try {
-      // Direct validation using Google endpoint (supports local testing with various client IDs)
       const googleVerifyUrl = `https://oauth2.googleapis.com/tokeninfo?id_token=${credential}`;
       const response = await fetch(googleVerifyUrl);
-      if (!response.ok) {
-        throw new Error('Google token validation failed on Google server');
-      }
+      if (!response.ok) throw new Error('Google token validation failed');
       payload = await response.json();
     } catch (fetchErr) {
-      console.warn('Google direct fetch verification failed, trying OAuth client verify...', fetchErr.message);
-      // Fallback: Verify ID token using google-auth-library
-      const ticket = await oauthClient.verifyIdToken({
-        idToken: credential
-      });
+      const ticket = await oauthClient.verifyIdToken({ idToken: credential });
       payload = ticket.getPayload();
     }
 
@@ -193,27 +194,16 @@ app.post('/api/auth/google', async (req, res) => {
     const googleId = payload.sub;
     const picture = payload.picture || '';
 
-    // Find or create user
     let user = await GKGSUser.findOne({ email });
     if (!user) {
-      user = new GKGSUser({
-        name,
-        email,
-        googleId,
-        picture
-      });
+      user = new GKGSUser({ name, email, googleId, picture });
       await user.save();
-
-      // Create default state
-      const state = new GKGSState({ userId: user._id });
-      await state.save();
-    } else {
-      // Update Google ID and profile picture if previously signed up with password
-      if (!user.googleId || user.picture !== picture) {
-        user.googleId = googleId;
-        user.picture = picture;
-        await user.save();
-      }
+      await new GKGSState({ userId: user._id }).save();
+      await StatisticsEngine.recalculateAndSaveProgress(user._id);
+    } else if (!user.googleId || user.picture !== picture) {
+      user.googleId = googleId;
+      user.picture = picture;
+      await user.save();
     }
 
     const token = jwt.sign({ id: user._id, email: user.email, name: user.name, picture: user.picture }, JWT_SECRET, { expiresIn: '7d' });
@@ -223,39 +213,189 @@ app.post('/api/auth/google', async (req, res) => {
   }
 });
 
-// ── REST API Scoped Endpoints (Authenticated) ─────────────────────────
+// ── Database-Driven Dashboard & Action API ────────────────────────────
 
-// 4. Get user state (scoped to user)
-app.get('/api/state', authenticateToken, async (req, res) => {
+// GET /api/dashboard — Full database-driven metrics payload
+app.get('/api/dashboard', authenticateToken, async (req, res) => {
   try {
-    let state = await GKGSState.findOne({ userId: req.user.id });
-    if (!state) {
-      // Initialize if not present
-      state = new GKGSState({ userId: req.user.id });
-      await state.save();
+    const payload = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json(payload);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to generate dashboard data', details: err.message });
+  }
+});
+
+// Action: Visit Study Module (+50 XP)
+app.post('/api/actions/visit-module', authenticateToken, async (req, res) => {
+  try {
+    const { subject } = req.body;
+    if (!subject) return res.status(400).json({ error: 'Subject is required' });
+
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const key = `visit_module:${req.user.id}:${subject}:${todayStr}`;
+
+    const { awarded } = await StatisticsEngine.awardXP(req.user.id, 50, 'visit_module', subject, key);
+    if (awarded) {
+      await ActivityLog.create({
+        userId: req.user.id,
+        action: `Visited ${subject.toUpperCase()} Module`,
+        type: 'visit_module',
+        icon: '📚',
+        subject,
+        xpEarned: 50
+      });
     }
-    res.json(state);
+
+    await StatisticsEngine.markDailyGoal(req.user.id, 'visitModule');
+    const dashboard = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json({ success: true, awarded, dashboard });
   } catch (err) {
-    res.status(500).json({ error: 'Failed to retrieve state', details: err.message });
+    res.status(500).json({ error: 'Failed to log module visit', details: err.message });
   }
 });
 
-// 5. Save/Update user state (scoped to user)
-app.post('/api/state', authenticateToken, async (req, res) => {
+// Action: Read Detailed Notes (+30 XP)
+app.post('/api/actions/read-notes', authenticateToken, async (req, res) => {
   try {
-    const { totalXP, streak, goals, activityLog } = req.body;
-    const state = await GKGSState.findOneAndUpdate(
-      { userId: req.user.id },
-      { totalXP, streak, goals, activityLog },
-      { new: true, upsert: true }
-    );
-    res.json(state);
+    const { subject, sectionId } = req.body;
+    const todayStr = new Date().toISOString().slice(0, 10);
+    const key = `read_notes:${req.user.id}:${sectionId || 'gen'}:${todayStr}`;
+
+    const { awarded } = await StatisticsEngine.awardXP(req.user.id, 30, 'read_notes', subject, key);
+    if (awarded) {
+      await ActivityLog.create({
+        userId: req.user.id,
+        action: `Read ${subject ? subject.toUpperCase() : ''} Notes`,
+        type: 'read_notes',
+        icon: '📖',
+        subject,
+        xpEarned: 30
+      });
+    }
+
+    await StatisticsEngine.markDailyGoal(req.user.id, 'readNotes');
+    const dashboard = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json({ success: true, awarded, dashboard });
   } catch (err) {
-    res.status(500).json({ error: 'Failed to save state', details: err.message });
+    res.status(500).json({ error: 'Failed to log notes reading', details: err.message });
   }
 });
 
-// 6. List uploaded files for specific subject (scoped to user)
+// Action: Complete Quiz (+100 XP)
+app.post('/api/actions/quiz-complete', authenticateToken, async (req, res) => {
+  try {
+    const { subject, questionsAttempted, correctAnswers, score, duration } = req.body;
+    if (!subject || !questionsAttempted) {
+      return res.status(400).json({ error: 'Invalid quiz attempt data' });
+    }
+
+    await QuizAttempt.create({
+      userId: req.user.id,
+      subject,
+      questionsAttempted: Number(questionsAttempted),
+      correctAnswers: Number(correctAnswers || 0),
+      score: Number(score || 0),
+      duration: Number(duration || 0)
+    });
+
+    const key = `quiz:${req.user.id}:${Date.now()}`;
+    await StatisticsEngine.awardXP(req.user.id, 100, 'quiz_complete', subject, key);
+
+    await ActivityLog.create({
+      userId: req.user.id,
+      action: `Completed ${subject.toUpperCase()} Quiz (${score}%)`,
+      type: 'quiz_complete',
+      icon: '🎯',
+      subject,
+      xpEarned: 100
+    });
+
+    await StatisticsEngine.markDailyGoal(req.user.id, 'quiz');
+    const dashboard = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json({ success: true, dashboard });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to record quiz attempt', details: err.message });
+  }
+});
+
+// Action: Complete Flashcard Session (+40 XP)
+app.post('/api/actions/flashcard-session', authenticateToken, async (req, res) => {
+  try {
+    const { cardsReviewed, correctCount, subject, duration } = req.body;
+    if (!cardsReviewed) return res.status(400).json({ error: 'cardsReviewed required' });
+
+    await FlashcardSession.create({
+      userId: req.user.id,
+      cardsReviewed: Number(cardsReviewed),
+      correctCount: Number(correctCount || 0),
+      subject: subject || 'flashcards',
+      duration: Number(duration || 0)
+    });
+
+    const key = `flashcards:${req.user.id}:${Date.now()}`;
+    await StatisticsEngine.awardXP(req.user.id, 40, 'flashcard_session', 'flashcards', key);
+
+    await ActivityLog.create({
+      userId: req.user.id,
+      action: `Reviewed ${cardsReviewed} Flashcards`,
+      type: 'flashcard_session',
+      icon: '🃏',
+      subject: 'flashcards',
+      xpEarned: 40
+    });
+
+    await StatisticsEngine.markDailyGoal(req.user.id, 'flashcard');
+    const dashboard = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json({ success: true, dashboard });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to record flashcards', details: err.message });
+  }
+});
+
+// Action: Record File Upload (+20 XP)
+app.post('/api/actions/file-upload', authenticateToken, async (req, res) => {
+  try {
+    const { subject, fileName } = req.body;
+    const key = `upload:${req.user.id}:${fileName}:${Date.now()}`;
+    await StatisticsEngine.awardXP(req.user.id, 20, 'file_upload', subject, key);
+
+    await ActivityLog.create({
+      userId: req.user.id,
+      action: `Uploaded File: ${fileName || 'Study doc'}`,
+      type: 'file_upload',
+      icon: '📁',
+      subject,
+      xpEarned: 20
+    });
+
+    await StatisticsEngine.markDailyGoal(req.user.id, 'uploadFile');
+    const dashboard = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json({ success: true, dashboard });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to record file upload', details: err.message });
+  }
+});
+
+// Action: End Study Session (tracks session time)
+app.post('/api/actions/session-end', authenticateToken, async (req, res) => {
+  try {
+    const { subject, durationMinutes } = req.body;
+    if (durationMinutes > 0) {
+      await StudySession.create({
+        userId: req.user.id,
+        subject: subject || 'general',
+        duration: Number(durationMinutes)
+      });
+    }
+    const dashboard = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json({ success: true, dashboard });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to record study session', details: err.message });
+  }
+});
+
+// ── File Management API Routes ────────────────────────────────────────
+
 app.get('/api/uploads/:subject', authenticateToken, async (req, res) => {
   try {
     const { subject } = req.params;
@@ -266,13 +406,10 @@ app.get('/api/uploads/:subject', authenticateToken, async (req, res) => {
   }
 });
 
-// 7. Upload file(s) for specific subject (scoped to user)
 app.post('/api/uploads/:subject', authenticateToken, upload.single('file'), async (req, res) => {
   try {
     const { subject } = req.params;
-    if (!req.file) {
-      return res.status(400).json({ error: 'No file uploaded' });
-    }
+    if (!req.file) return res.status(400).json({ error: 'No file uploaded' });
 
     const newUpload = new GKGSUpload({
       userId: req.user.id,
@@ -284,7 +421,20 @@ app.post('/api/uploads/:subject', authenticateToken, upload.single('file'), asyn
     });
 
     await newUpload.save();
-    
+
+    // Automatically trigger upload action & goals
+    const key = `upload:${req.user.id}:${req.file.originalname}:${Date.now()}`;
+    await StatisticsEngine.awardXP(req.user.id, 20, 'file_upload', subject, key);
+    await ActivityLog.create({
+      userId: req.user.id,
+      action: `Uploaded ${req.file.originalname}`,
+      type: 'file_upload',
+      icon: '📁',
+      subject,
+      xpEarned: 20
+    });
+    await StatisticsEngine.markDailyGoal(req.user.id, 'uploadFile');
+
     const result = newUpload.toObject();
     delete result.data;
     res.status(201).json(result);
@@ -293,13 +443,10 @@ app.post('/api/uploads/:subject', authenticateToken, upload.single('file'), asyn
   }
 });
 
-// 8. Get file content (Stream/Serve Binary Data) - scoped to user
 app.get('/api/files/:id', authenticateToken, async (req, res) => {
   try {
     const file = await GKGSUpload.findOne({ _id: req.params.id, userId: req.user.id });
-    if (!file) {
-      return res.status(404).json({ error: 'File not found or unauthorized' });
-    }
+    if (!file) return res.status(404).json({ error: 'File not found or unauthorized' });
 
     res.setHeader('Content-Type', file.type);
     res.setHeader('Content-Length', file.size);
@@ -310,24 +457,29 @@ app.get('/api/files/:id', authenticateToken, async (req, res) => {
   }
 });
 
-// 9. Delete file (scoped to user)
 app.delete('/api/files/:id', authenticateToken, async (req, res) => {
   try {
     const file = await GKGSUpload.findOneAndDelete({ _id: req.params.id, userId: req.user.id });
-    if (!file) {
-      return res.status(404).json({ error: 'File not found or unauthorized' });
-    }
+    if (!file) return res.status(404).json({ error: 'File not found or unauthorized' });
     res.json({ message: 'File deleted successfully', id: req.params.id });
   } catch (err) {
     res.status(500).json({ error: 'Failed to delete file', details: err.message });
   }
 });
 
-// ── Serve Static Files ────────────────────────────────────────────────
+// Legacy /api/state fallback route
+app.get('/api/state', authenticateToken, async (req, res) => {
+  try {
+    const dashboard = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json(dashboard);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to retrieve state', details: err.message });
+  }
+});
 
+// Static files & SPA Routing
 app.use(express.static(__dirname));
 
-// Fallback to index.html for general navigation
 app.use((req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
