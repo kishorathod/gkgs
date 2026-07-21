@@ -432,9 +432,32 @@ function setupNavigation() {
         pageSubtitle.textContent = titleMeta[target].subtitle;
       }
 
+      window.location.hash = `#/${target}`;
       onModuleEnter(target);
     });
   });
+
+  // Handle URL Deep-Linking & Hash Routing (/subject/chapter/topic)
+  const handleRoute = async () => {
+    const hash = window.location.hash.replace(/^#\//, '');
+    if (!hash) return;
+
+    const parts = hash.split('/');
+    const subject = parts[0];
+    const topicId = parts[parts.length - 1];
+
+    if (subject && titleMeta[subject]) {
+      const btn = document.querySelector(`.menu-item[data-target="${subject}"]`);
+      if (btn) btn.click();
+
+      if (subject === 'history' && topicId) {
+        await historyModule.loadTopic(topicId);
+      }
+    }
+  };
+
+  window.addEventListener('hashchange', handleRoute);
+  handleRoute();
 }
 
 // Module enter handler — triggers database action & updates dashboard
