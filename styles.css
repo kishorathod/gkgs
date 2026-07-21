@@ -918,6 +918,64 @@ p, span, label {
   color: var(--accent-purple);
 }
 
+/* ─── Topic Selector Bar ─────────────────────────────────────────────────── */
+.topic-selector-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+
+.topic-selector-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.topic-selector-bar {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding-bottom: 2px;
+}
+
+.topic-selector-bar::-webkit-scrollbar { display: none; }
+
+.topic-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 12.5px;
+  font-weight: 600;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 1px solid var(--border-glass);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text-secondary);
+  transition: all 0.2s ease;
+  font-family: var(--font-main);
+}
+
+.topic-chip:hover {
+  background: rgba(99, 102, 241, 0.12);
+  border-color: rgba(99, 102, 241, 0.4);
+  color: var(--text-main);
+  transform: translateY(-1px);
+}
+
+.topic-chip.active {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.2), rgba(168, 85, 247, 0.2));
+  border-color: var(--accent-purple);
+  color: var(--accent-purple);
+  box-shadow: 0 2px 12px rgba(99, 102, 241, 0.2);
+}
+
 /* 2. Sticky Sub-Navigation Bar */
 .study-sticky-nav-wrap {
   position: sticky;

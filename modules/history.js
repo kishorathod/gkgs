@@ -18,8 +18,11 @@ export const historyModule = {
       });
     }
 
-    // Load default topic 'revolt-of-1857' from backend API
-    await this.engine.loadTopic('revolt-of-1857');
+    // Load default topic — Arrival of Europeans
+    await this.engine.loadTopic('arrival-of-europeans');
+
+    // Wire topic selector chips
+    this.engine.setupTopicSelector('history-topic-selector-bar');
   },
 
   async loadTopic(topicId) {
