@@ -1,0 +1,689 @@
+{
+  "topicId": "gandhian-era-and-independence",
+  "subject": "history",
+  "hero": {
+    "title": "Gandhian Era, Independence & Partition (1917–1947)",
+    "subtitle": "Master Gandhi's mass movements, constitutional turning points, and the final steps to Indian Independence and Partition.",
+    "sscWeightage": "High",
+    "difficulty": "Medium",
+    "estimatedReadingTime": "30 mins",
+    "expectedQuestions": "3-4 Questions in Tier-1 & Tier-2",
+    "lastUpdated": "2026",
+    "whyItMatters": "This is the single most tested topic in Modern Indian History for SSC CGL. Questions directly test dates, movement sequences, key resolutions, commissions, pacts, and viceroys during the final freedom struggle."
+  },
+  "quickFacts": [
+    {
+      "icon": "🛬",
+      "heading": "Gandhi Returns",
+      "fact": "Mahatma Gandhi returned to India from South Africa on 9 January 1915 (celebrated as Pravasi Bharatiya Divas)."
+    },
+    {
+      "icon": "🌱",
+      "heading": "Champaran 1917",
+      "fact": "Champaran Satyagraha (1917) was Gandhi's first Civil Disobedience movement in India against Tinkathia system."
+    },
+    {
+      "icon": "🚫",
+      "heading": "NCM Withdrawal",
+      "fact": "Non-Cooperation Movement (1920) was called off due to the Chauri Chaura incident on 4 February 1922."
+    },
+    {
+      "icon": "🌊",
+      "heading": "Dandi March",
+      "fact": "Dandi March began on 12 March 1930 and ended on 6 April 1930 with the breaking of the Salt Law."
+    },
+    {
+      "icon": "🚩",
+      "heading": "Purna Swaraj",
+      "fact": "Purna Swaraj resolution was passed at the 1929 Lahore Session presided by Jawaharlal Nehru."
+    },
+    {
+      "icon": "🤝",
+      "heading": "Gandhi-Irwin Pact",
+      "fact": "Gandhi-Irwin Pact was signed on 5 March 1931, leading to Congress participation in 2nd Round Table Conference."
+    },
+    {
+      "icon": "✍️",
+      "heading": "Poona Pact",
+      "fact": "Poona Pact was signed on 24 September 1932 between B.R. Ambedkar and M.K. Gandhi in Yerwada Jail."
+    },
+    {
+      "icon": "📜",
+      "heading": "GoI Act 1935",
+      "fact": "Government of India Act 1935 introduced Provincial Autonomy and abolished Dyarchy at the provincial level."
+    },
+    {
+      "icon": "⚡",
+      "heading": "Quit India",
+      "fact": "Quit India Resolution was passed on 8 August 1942 at Gowalia Tank, Bombay ('Do or Die' slogan)."
+    },
+    {
+      "icon": "🏛️",
+      "heading": "Cabinet Mission",
+      "fact": "Cabinet Mission arrived in India in 1946 (Pethick-Lawrence, Stafford Cripps, A.V. Alexander)."
+    },
+    {
+      "icon": "🗺️",
+      "heading": "Mountbatten Plan",
+      "fact": "Mountbatten Plan (3rd June Plan) outlined the partition of India into two dominions."
+    },
+    {
+      "icon": "✂️",
+      "heading": "Radcliffe Line",
+      "fact": "Radcliffe Line was drawn as the boundary demarcation line between India and Pakistan in 1947."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "1. Early Gandhian Movements (1917–1918)",
+      "explanation": "Upon returning to India on 9 January 1915, Mahatma Gandhi spent two years traveling the country on the advice of his political guru, Gopal Krishna Gokhale. He launched his first successful local satyagrahas in rapid succession: Champaran Satyagraha (1917, Bihar) against the forced indigo cultivation under the Tinkathia system; Ahmedabad Mill Strike (1918, Gujarat) where he used his first hunger strike for cotton mill workers' wages; and Kheda Satyagraha (1918, Gujarat) for tax relief during crop failure. These three satyagrahas established Gandhi as a national leader.",
+      "keyTakeaways": [
+        "Champaran (1917): First Civil Disobedience (Tinkathia system abolition)",
+        "Ahmedabad Mill Strike (1918): First Hunger Strike (35% wage hike achieved)",
+        "Kheda Satyagraha (1918): First Non-Cooperation (Revenue suspension request)"
+      ],
+      "importantExamPoints": [
+        "Rajkumar Shukla invited Gandhi to Champaran.",
+        "Rabindranath Tagore bestowed the title 'Mahatma' on Gandhi after Champaran.",
+        "Sardar Vallabhbhai Patel emerged as a key leader during Kheda Satyagraha."
+      ],
+      "commonStudentMistakes": [
+        "Confusing the chronological order of early satyagrahas: Champaran (1st) → Ahmedabad (2nd) → Kheda (3rd)."
+      ]
+    },
+    {
+      "heading": "2. Rowlatt Satyagraha, Khilafat & Non-Cooperation Movement (1919–1922)",
+      "explanation": "The Anarchical and Revolutionary Crimes Act 1919 (Rowlatt Act) allowed detention without trial. Gandhi launched Rowlatt Satyagraha, leading to mass protests and the tragic Jallianwala Bagh Massacre on 13 April 1919 (ordered by General Dyer). Rabindranath Tagore renounced his Knighthood in protest. Gandhi combined the Khilafat issue (led by Ali brothers) with national demands to launch the Non-Cooperation Movement (NCM) at the Special Calcutta Session (1920) and Nagpur Session (1920). The movement mobilized student boycotts, surrender of titles, and charkha spinning until the Chauri Chaura mob violence on 4 February 1922 caused Gandhi to suspend it.",
+      "keyTakeaways": [
+        "Rowlatt Act: 'No Dalil, No Vakil, No Appeal' law",
+        "Jallianwala Bagh: 13 April 1919 (Baisakhi Day)",
+        "Non-Cooperation Movement: 1920–1922",
+        "Chauri Chaura Incident: 4 Feb 1922 (NCM withdrawn on 12 Feb 1922)"
+      ],
+      "importantExamPoints": [
+        "Hunter Committee was set up by the British to investigate Jallianwala Bagh.",
+        "Swaraj Party was formed in 1923 by C.R. Das and Motilal Nehru after NCM was withdrawn."
+      ],
+      "commonStudentMistakes": [
+        "Assuming Rowlatt Act and Jallianwala Bagh led to Civil Disobedience Movement instead of Non-Cooperation Movement."
+      ]
+    },
+    {
+      "heading": "3. Civil Disobedience Movement & Round Table Conferences (1930–1934)",
+      "explanation": "After the 1929 Lahore INC session declared 'Purna Swaraj' (Complete Independence), Gandhi presented his 11-point ultimatum to Lord Irwin. Upon rejection, he launched the Civil Disobedience Movement (CDM) with the famous Dandi Salt March (12 March – 6 April 1930). Over 78 followers marched 240 miles from Sabarmati to Dandi. The movement saw widespread salt law breaking, forest law violations, and tax boycotts. The Gandhi-Irwin Pact (March 1931) temporarily halted CDM to allow Congress to participate in the 2nd Round Table Conference in London. Following its failure, CDM was resumed but lost momentum by 1934.",
+      "keyTakeaways": [
+        "Dandi March: 12 March to 6 April 1930 (24 days, 78 marchers)",
+        "Purna Swaraj Day: Observed on 26 January 1930",
+        "Gandhi-Irwin Pact: 5 March 1931",
+        "Round Table Conferences: 1st (1930), 2nd (1931 – Gandhi attended), 3rd (1932)"
+      ],
+      "importantExamPoints": [
+        "Khan Abdul Ghaffar Khan ('Frontier Gandhi') led the Red Shirts (Khudai Khidmatgars) in NWFP.",
+        "Sarojini Naidu led the famous Dharsana Salt Works raid during CDM.",
+        "B.R. Ambedkar and Tej Bahadur Sapru attended all three Round Table Conferences."
+      ],
+      "commonStudentMistakes": [
+        "Thinking Gandhi attended all three Round Table Conferences; he ONLY attended the 2nd RTC."
+      ]
+    },
+    {
+      "heading": "4. Communal Award, Poona Pact & GoI Act 1935",
+      "explanation": "In August 1932, British PM Ramsay MacDonald announced the Communal Award, extending separate electorates to Depressed Classes. Gandhi went on a fast-unto-death at Yerwada Jail, Pune. This led to the Poona Pact (24 September 1932) signed between B.R. Ambedkar and Gandhi's representatives, which abandoned separate electorates for Depressed Classes in favor of reserved seats in provincial legislatures. Subsequently, the Government of India Act 1935 was passed, establishing Provincial Autonomy, abolishing provincial dyarchy, and proposing an All-India Federation.",
+      "keyTakeaways": [
+        "Communal Award: Announced by Ramsay MacDonald (1932)",
+        "Poona Pact: 24 Sept 1932 (Yerwada Jail, Pune)",
+        "GoI Act 1935: Introduced Provincial Autonomy and Dyarchy at Centre"
+      ],
+      "importantExamPoints": [
+        "Poona Pact increased reserved seats for Depressed Classes from 71 to 147 in provincial legislatures.",
+        "Congress formed provincial ministries in 1937 under GoI Act 1935, but resigned in Oct 1939 due to WWII declaration."
+      ],
+      "commonStudentMistakes": [
+        "Thinking Gandhi signed the Poona Pact document; Madan Mohan Malaviya signed it on behalf of caste Hindus."
+      ]
+    },
+    {
+      "heading": "5. Quit India Movement, Independence & Partition (1942–1947)",
+      "explanation": "Following the failure of the Cripps Mission (1942), the All India Congress Committee met at Gowalia Tank, Bombay, and passed the Quit India Resolution on 8 August 1942. Gandhi gave the call 'Do or Die'. Top leaders were arrested overnight under Operation Zero Hour. Despite repression, parallel governments emerged in Satara, Ballia, and Tamluk. After WWII, the Cabinet Mission (1946) proposed a Constituent Assembly and Interim Government. Differences between INC and Muslim League culminated in Mountbatten's 3rd June Plan 1947, leading to the Indian Independence Act 1947 and partition into India and Pakistan.",
+      "keyTakeaways": [
+        "Quit India Resolution: Passed 8 August 1942 ('Do or Die')",
+        "Operation Zero Hour: British arrest operation targeting Congress leaders",
+        "Cabinet Mission 1946: Pethick-Lawrence, Stafford Cripps, A.V. Alexander",
+        "Mountbatten Plan: 3 June 1947 (Partition & Independence framework)"
+      ],
+      "importantExamPoints": [
+        "Aruna Asaf Ali hoisted the Congress flag at Gowalia Tank on 9 August 1942.",
+        "Usha Mehta operated the secret underground Quit India Radio station.",
+        "Clement Attlee was the British Prime Minister who declared Indian independence by June 1948."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Cripps Mission (1942 – single member) with Cabinet Mission (1946 – three members)."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1915 (Jan 9)",
+      "title": "Gandhi Returns to India",
+      "description": "Arrived at Apollo Bunder, Bombay from South Africa.",
+      "importance": "Marks the beginning of the Gandhian Era in Indian politics."
+    },
+    {
+      "year": "1917",
+      "title": "Champaran Satyagraha",
+      "description": "Protested against Tinkathia system (3/20th indigo planting obligation).",
+      "importance": "First Civil Disobedience experiment in India."
+    },
+    {
+      "year": "1919 (Apr 13)",
+      "title": "Jallianwala Bagh Massacre",
+      "description": "General Dyer opened fire on unarmed crowd in Amritsar.",
+      "importance": "Destroyed Indian faith in British sense of justice."
+    },
+    {
+      "year": "1920",
+      "title": "Non-Cooperation Movement Launched",
+      "description": "Congress adopted NCM resolution at Calcutta Special Session & Nagpur Session.",
+      "importance": "First nationwide mass movement organized by Gandhi."
+    },
+    {
+      "year": "1922 (Feb 4)",
+      "title": "Chauri Chaura Incident",
+      "description": "Protesters set fire to a police station in Gorakhpur, killing 22 policemen.",
+      "importance": "Led Gandhi to suspend Non-Cooperation Movement on 12 Feb."
+    },
+    {
+      "year": "1929",
+      "title": "Lahore INC Session",
+      "description": "Jawaharlal Nehru presided; 'Purna Swaraj' resolution adopted.",
+      "importance": "Set complete independence as the explicit national goal."
+    },
+    {
+      "year": "1930 (Mar 12 – Apr 6)",
+      "title": "Dandi Salt March",
+      "description": "Gandhi marched 240 miles to break salt monopoly at Dandi beach.",
+      "importance": "Launched the Civil Disobedience Movement."
+    },
+    {
+      "year": "1931 (Mar 5)",
+      "title": "Gandhi-Irwin Pact",
+      "description": "Agreement signed between Lord Irwin and Mahatma Gandhi.",
+      "importance": "Led to suspension of CDM and Congress participation in 2nd RTC."
+    },
+    {
+      "year": "1932 (Sep 24)",
+      "title": "Poona Pact Signed",
+      "description": "Agreement between Ambedkar and caste Hindu leaders in Yerwada Jail.",
+      "importance": "Retained joint electorate with reserved seats for Depressed Classes."
+    },
+    {
+      "year": "1935",
+      "title": "Government of India Act 1935",
+      "description": "Passed by British Parliament introducing Provincial Autonomy.",
+      "importance": "Served as a key structural draft for the Constitution of India."
+    },
+    {
+      "year": "1942 (Aug 8)",
+      "title": "Quit India Resolution",
+      "description": "Passed at Gowalia Tank, Bombay; Gandhi gave 'Do or Die' slogan.",
+      "importance": "Final pan-India mass movement against British rule."
+    },
+    {
+      "year": "1946",
+      "title": "Cabinet Mission & Direct Action Day",
+      "description": "Mission proposed union framework; League observed Direct Action Day (16 Aug).",
+      "importance": "Triggered severe communal riots leading up to partition."
+    },
+    {
+      "year": "1947 (Jun 3)",
+      "title": "Mountbatten Plan Announced",
+      "description": "Plan for partition of British India into India and Pakistan.",
+      "importance": "Paved the way for Indian Independence Act 1947."
+    },
+    {
+      "year": "1947 (Aug 15)",
+      "title": "Indian Independence",
+      "description": "India attained independence; Jawaharlal Nehru became 1st Prime Minister.",
+      "importance": "End of 200 years of British colonial rule."
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Mahatma Gandhi",
+      "role": "Father of the Nation / Mass Leader",
+      "years": "1869–1948",
+      "majorContributions": "Pioneered Ahimsa and Satyagraha; led Champaran, NCM, Dandi March, and Quit India Movement.",
+      "sscTrick": "Associated Journals: Young India, Navjivan, Harijan, Indian Opinion."
+    },
+    {
+      "name": "Sardar Vallabhbhai Patel",
+      "role": "Bardoli Leader / First Home Minister",
+      "years": "1875–1950",
+      "majorContributions": "Led Bardoli Satyagraha (1928) where women gave him title 'Sardar'; integrated 560+ princely states.",
+      "sscTrick": "President of Karachi INC Session 1931 (Fundamental Rights resolution)."
+    },
+    {
+      "name": "Dr. B.R. Ambedkar",
+      "role": "Chairman of Drafting Committee / Dalit Leader",
+      "years": "1891–1956",
+      "majorContributions": "Founded Bahishkrit Hitakarini Sabha (1924); signed Poona Pact (1932); attended all 3 Round Table Conferences.",
+      "sscTrick": "Journals: Mooknayak, Bahishkrit Bharat, Janata."
+    },
+    {
+      "name": "Subhash Chandra Bose",
+      "role": "Netaji / President INC (1938, 1939)",
+      "years": "1897–1945",
+      "majorContributions": "Formed Forward Bloc (1939); reorganized Indian National Army (Azad Hind Fauj) with slogan 'Delhi Chalo'.",
+      "sscTrick": "Resigned from INC Presidency at Tripuri Session 1939 after defeating Pattabhi Sitaramayya."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Satyagraha",
+      "definition": "Insistence on truth through non-violent resistance, developed by Gandhi as a tool against oppression."
+    },
+    {
+      "term": "Tinkathia System",
+      "definition": "System in Champaran forcing peasants to grow indigo on 3 out of every 20 parts (3/20) of their land."
+    },
+    {
+      "term": "Dyarchy",
+      "definition": "System of dual government dividing administration into Reserved and Transferred subjects (introduced in provinces by 1919 Act)."
+    },
+    {
+      "term": "Provincial Autonomy",
+      "definition": "System established under GoI Act 1935 granting complete executive responsibility to elected provincial ministers."
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Comparison: Major Gandhian Mass Movements",
+      "headers": ["Parameter", "Non-Cooperation Movement (1920–22)", "Civil Disobedience Movement (1930–34)", "Quit India Movement (1942)"],
+      "rows": [
+        ["Trigger", "Rowlatt Act, Jallianwala Bagh, Khilafat", "Rejection of 11 Demands & Salt Monopoly", "Failure of Cripps Mission & WWII pressure"],
+        ["Core Method", "Boycott of titles, schools, courts, cloth", "Breaking specific laws (Salt, Forest, Tax)", "Direct demand for immediate British withdrawal"],
+        ["Leadership State", "Gandhian leadership active throughout", "Gandhi arrested mid-way", "Leadership arrested immediately (Leaderless mass revolt)"],
+        ["Key Slogan", "Swaraj in one year", "Purna Swaraj / Salt Law Break", "Do or Die (Karo ya Maro)"],
+        ["Suspension Reason", "Chauri Chaura violent incident (1922)", "Gandhi-Irwin Pact / Movement fatigue", "Faded as WWII ended and independence approached"]
+      ]
+    },
+    {
+      "tableName": "Key Commissions & Missions (1927–1947)",
+      "headers": ["Year", "Mission/Plan", "Head/Members", "Key Feature/Objective"],
+      "rows": [
+        ["1927", "Simon Commission", "Sir John Simon (7 white members)", "Review 1919 reforms; boycotted by Indians"],
+        ["1928", "Nehru Report", "Motilal Nehru", "First Indian attempt to draft a Constitution"],
+        ["1942", "Cripps Mission", "Sir Stafford Cripps", "Offered Post-WWII Dominion status ('Post-dated cheque')"],
+        ["1946", "Cabinet Mission", "Pethick-Lawrence, Cripps, Alexander", "Proposed Constituent Assembly & United Union"],
+        ["1947", "Mountbatten Plan", "Lord Mountbatten", "Partition plan accepted by INC and Muslim League"]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "type": "Mnemonic",
+      "title": "Order of Gandhi's First Three Satyagrahas in India",
+      "rule": "C - A - K (CAKE)",
+      "description": "**C**hamparan (1917) → **A**hmedabad Mill Strike (1918) → **K**heda Satyagraha (1918). Remember Gandhi ate 'CAKE' upon returning to India."
+    },
+    {
+      "type": "Association",
+      "title": "Cabinet Mission Members (1946)",
+      "rule": "P - A - C (PAC)",
+      "description": "**P**ethick-Lawrence (Secretary of State), **A**.V. Alexander (First Lord of Admiralty), **C**ripps (Stafford Cripps – President of Board of Trade)."
+    },
+    {
+      "type": "Visual Story",
+      "title": "Dandi March Numbers",
+      "rule": "12 March – 6 April | 24 Days | 78 Followers | 240 Miles",
+      "description": "12 March start + 24 days = 6 April finish. 78 followers marched 240 miles (approx 10 miles/day)."
+    }
+  ],
+  "examTraps": [
+    {
+      "concept": "Attendance at Round Table Conferences (RTC)",
+      "trap": "Thinking Gandhi attended all 3 RTCs",
+      "explanation": "Gandhi/Congress attended ONLY the 2nd RTC (1931). B.R. Ambedkar and Tej Bahadur Sapru attended ALL THREE RTCs (1st, 2nd, and 3rd)."
+    },
+    {
+      "concept": "Sardar Title conferred at Bardoli",
+      "trap": "Who gave Vallabhbhai Patel the title 'Sardar'?",
+      "explanation": "The title 'Sardar' was given by the WOMEN of Bardoli during the Bardoli Satyagraha (1928), often represented through Gandhi on their behalf."
+    },
+    {
+      "concept": "Nehru Report vs Purna Swaraj",
+      "trap": "Motilal Nehru vs Jawaharlal Nehru",
+      "explanation": "MOTILAL Nehru chaired the Nehru Report (1928) asking for Dominion Status. JAWAHARLAL Nehru presided over Lahore Session (1929) demanding Purna Swaraj."
+    }
+  ],
+  "pyqAnalysis": {
+    "frequentlyTestedConcepts": [
+      "Exact dates of Dandi March launch and salt law breaking.",
+      "Quotations and slogans: 'Do or Die' (Gandhi), 'Post-dated cheque' (Gandhi on Cripps Mission).",
+      "Chronological order of 1940s events: August Offer (1940) → Cripps Mission (1942) → Quit India (1942) → Wavell Plan/Simla (1945) → Cabinet Mission (1946) → Mountbatten Plan (1947).",
+      "Positions held by B.R. Ambedkar (Drafting Committee) and C.R. Das/Motilal Nehru (Swaraj Party)."
+    ],
+    "repeatedThemes": [
+      "Match the Following: Movements and their starting years.",
+      "Which event led to the call-off of Non-Cooperation Movement (Chauri Chaura).",
+      "Cabinet Mission vs Cripps Mission members and proposals."
+    ],
+    "difficultyTrend": "SSC now asks assertion-reason questions on why movements were called off and detailed questions on provincial ministry elections (1937)."
+  },
+  "expectedFutureQuestions": "Probing questions on secret radios (Usha Mehta), parallel governments during Quit India (Satara, Ballia, Tamluk), and specific provisions of the GoI Act 1935.",
+  "mcqs": [
+    {
+      "id": 1,
+      "question": "Which of the following was Mahatma Gandhi's first Satyagraha movement in India?",
+      "options": ["Kheda Satyagraha", "Champaran Satyagraha", "Ahmedabad Mill Strike", "Rowlatt Satyagraha"],
+      "correctAnswer": "Champaran Satyagraha",
+      "explanation": "Champaran Satyagraha (1917) in Bihar was Gandhi's first satyagraha in India, targeting the indigo Tinkathia system.",
+      "difficulty": "Easy",
+      "topicTag": "Early Gandhian Movements"
+    },
+    {
+      "id": 2,
+      "question": "The Non-Cooperation Movement was suspended by Mahatma Gandhi in 1922 due to which incident?",
+      "options": ["Jallianwala Bagh Massacre", "Chauri Chaura Incident", "Kakori Train Action", "Dandi Salt Raid"],
+      "correctAnswer": "Chauri Chaura Incident",
+      "explanation": "Violence at Chauri Chaura (Gorakhpur) on 4 February 1922 led Gandhi to withdraw the Non-Cooperation Movement on 12 February 1922.",
+      "difficulty": "Easy",
+      "topicTag": "Non-Cooperation Movement"
+    },
+    {
+      "id": 3,
+      "question": "On which date did Mahatma Gandhi begin his famous Dandi March from Sabarmati Ashram?",
+      "options": ["26 January 1930", "12 March 1930", "6 April 1930", "5 March 1931"],
+      "correctAnswer": "12 March 1930",
+      "explanation": "Gandhi began the Dandi March on 12 March 1930 with 78 followers and reached Dandi to break the salt law on 6 April 1930.",
+      "difficulty": "Medium",
+      "topicTag": "Civil Disobedience Movement"
+    },
+    {
+      "id": 4,
+      "question": "Who among the following attended all three Round Table Conferences in London?",
+      "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Dr. B.R. Ambedkar", "Sardar Vallabhbhai Patel"],
+      "correctAnswer": "Dr. B.R. Ambedkar",
+      "explanation": "Dr. B.R. Ambedkar and Tej Bahadur Sapru attended all three Round Table Conferences (1930, 1931, 1932).",
+      "difficulty": "Medium",
+      "topicTag": "Round Table Conferences"
+    },
+    {
+      "id": 5,
+      "question": "The Poona Pact (1932) was an agreement signed between Mahatma Gandhi and which leader?",
+      "options": ["Lord Irwin", "Dr. B.R. Ambedkar", "Muhammad Ali Jinnah", "Subhash Chandra Bose"],
+      "correctAnswer": "Dr. B.R. Ambedkar",
+      "explanation": "The Poona Pact was signed on 24 September 1932 between B.R. Ambedkar and caste Hindu leaders representing Gandhi.",
+      "difficulty": "Easy",
+      "topicTag": "Poona Pact"
+    },
+    {
+      "id": 6,
+      "question": "Who gave the famous slogan 'Do or Die' (Karo ya Maro) during the Quit India Movement?",
+      "options": ["Subhash Chandra Bose", "Mahatma Gandhi", "Jawaharlal Nehru", "Lala Lajpat Rai"],
+      "correctAnswer": "Mahatma Gandhi",
+      "explanation": "Mahatma Gandhi issued the 'Do or Die' slogan in his speech at Gowalia Tank, Bombay on 8 August 1942.",
+      "difficulty": "Easy",
+      "topicTag": "Quit India Movement"
+    },
+    {
+      "id": 7,
+      "question": "Which Viceroy was associated with the signing of the Gandhi-Irwin Pact in 1931?",
+      "options": ["Lord Reading", "Lord Irwin", "Lord Willingdon", "Lord Linlithgow"],
+      "correctAnswer": "Lord Irwin",
+      "explanation": "Lord Irwin was the Viceroy who signed the Gandhi-Irwin Pact on 5 March 1931.",
+      "difficulty": "Easy",
+      "topicTag": "Pacts & Agreements"
+    },
+    {
+      "id": 8,
+      "question": "Who operated a secret underground radio service during the Quit India Movement 1942?",
+      "options": ["Aruna Asaf Ali", "Usha Mehta", "Sarojini Naidu", "Sucheta Kripalani"],
+      "correctAnswer": "Usha Mehta",
+      "explanation": "Usha Mehta, along with her associates, ran the underground Congress Radio during the Quit India Movement.",
+      "difficulty": "Hard",
+      "topicTag": "Quit India Movement"
+    },
+    {
+      "id": 9,
+      "question": "Which Act provided for Provincial Autonomy and abolished Dyarchy at the provincial level?",
+      "options": ["Indian Councils Act 1909", "Government of India Act 1919", "Government of India Act 1935", "Indian Independence Act 1947"],
+      "correctAnswer": "Government of India Act 1935",
+      "explanation": "The GoI Act 1935 introduced Provincial Autonomy and abolished Dyarchy in provinces (shifting it to the Centre).",
+      "difficulty": "Medium",
+      "topicTag": "Constitutional Acts"
+    },
+    {
+      "id": 10,
+      "question": "Who was the head of the Cabinet Mission that visited India in 1946?",
+      "options": ["Lord Pethick-Lawrence", "Sir Stafford Cripps", "A.V. Alexander", "Lord Wavell"],
+      "correctAnswer": "Lord Pethick-Lawrence",
+      "explanation": "Lord Pethick-Lawrence (Secretary of State for India) was the head of the 3-member Cabinet Mission.",
+      "difficulty": "Medium",
+      "topicTag": "Cabinet Mission"
+    },
+    {
+      "id": 11,
+      "question": "The resolution for 'Purna Swaraj' (Complete Independence) was adopted in which INC Session?",
+      "options": ["1920 Nagpur", "1929 Lahore", "1931 Karachi", "1936 Faizpur"],
+      "correctAnswer": "1929 Lahore",
+      "explanation": "The 1929 Lahore INC session presided by Jawaharlal Nehru adopted the historic 'Purna Swaraj' resolution.",
+      "difficulty": "Easy",
+      "topicTag": "INC Sessions"
+    },
+    {
+      "id": 12,
+      "question": "Who was known as 'Frontier Gandhi' for leading the Khudai Khidmatgar movement in NWFP?",
+      "options": ["Khan Abdul Ghaffar Khan", "Maulana Abul Kalam Azad", "Shaukat Ali", "Hasrat Mohani"],
+      "correctAnswer": "Khan Abdul Ghaffar Khan",
+      "explanation": "Khan Abdul Ghaffar Khan was popular as 'Frontier Gandhi' and organized the non-violent 'Red Shirts' (Khudai Khidmatgars).",
+      "difficulty": "Easy",
+      "topicTag": "Civil Disobedience Movement"
+    },
+    {
+      "id": 13,
+      "question": "The Swaraj Party was founded in 1923 by Motilal Nehru and which other leader?",
+      "options": ["C. Rajagopalachari", "Chittaranjan Das", "Lala Lajpat Rai", "Subhash Chandra Bose"],
+      "correctAnswer": "Chittaranjan Das",
+      "explanation": "C.R. Das (President) and Motilal Nehru (Secretary) established the Swaraj Party in January 1923.",
+      "difficulty": "Medium",
+      "topicTag": "Swaraj Party"
+    },
+    {
+      "id": 14,
+      "question": "Which British Prime Minister announced the Communal Award in August 1932?",
+      "options": ["Winston Churchill", "Ramsay MacDonald", "Clement Attlee", "Stanley Baldwin"],
+      "correctAnswer": "Ramsay MacDonald",
+      "explanation": "British PM Ramsay MacDonald announced the Communal Award extending separate electorates to Depressed Classes.",
+      "difficulty": "Medium",
+      "topicTag": "Communal Award"
+    },
+    {
+      "id": 15,
+      "question": "What was the name of the British police arrest operation launched on 9 August 1942 against Congress leaders?",
+      "options": ["Operation Blue Star", "Operation Zero Hour", "Operation Thunderbolt", "Operation Sunrise"],
+      "correctAnswer": "Operation Zero Hour",
+      "explanation": "Operation Zero Hour was launched by the British government in the early hours of 9 August 1942 to arrest top INC leaders.",
+      "difficulty": "Hard",
+      "topicTag": "Quit India Movement"
+    },
+    {
+      "id": 16,
+      "question": "The Radcliffe Line was drawn to demarcate the boundary between India and which country?",
+      "options": ["China", "Pakistan", "Afghanistan", "Myanmar"],
+      "correctAnswer": "Pakistan",
+      "explanation": "Sir Cyril Radcliffe headed the Boundary Commissions to demarcate borders between India and Pakistan.",
+      "difficulty": "Easy",
+      "topicTag": "Partition 1947"
+    },
+    {
+      "id": 17,
+      "question": "Who termed the Cripps Mission proposals as a 'post-dated cheque on a failing bank'?",
+      "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Subhash Chandra Bose", "Sardar Patel"],
+      "correctAnswer": "Mahatma Gandhi",
+      "explanation": "Mahatma Gandhi famously called the Cripps proposals a 'post-dated cheque' due to their post-war implementation promise.",
+      "difficulty": "Medium",
+      "topicTag": "Cripps Mission"
+    },
+    {
+      "id": 18,
+      "question": "The 1931 Karachi INC Session, known for passing the Resolution on Fundamental Rights, was presided over by:",
+      "options": ["Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "Subhash Chandra Bose", "Dr. Rajendra Prasad"],
+      "correctAnswer": "Sardar Vallabhbhai Patel",
+      "explanation": "Sardar Vallabhbhai Patel presided over the Karachi Session 1931, which adopted resolutions on Fundamental Rights and Economic Policy.",
+      "difficulty": "Medium",
+      "topicTag": "INC Sessions"
+    },
+    {
+      "id": 19,
+      "question": "Who among the following was the British Prime Minister when India achieved Independence in 1947?",
+      "options": ["Winston Churchill", "Clement Attlee", "Neville Chamberlain", "Harold Macmillan"],
+      "correctAnswer": "Clement Attlee",
+      "explanation": "Clement Attlee (Labour Party) was the British PM who announced the historic transfer of power to India.",
+      "difficulty": "Easy",
+      "topicTag": "Independence 1947"
+    },
+    {
+      "id": 20,
+      "question": "In which city was the main headquarters of the parallel government 'Prati Sarkar' established during Quit India Movement?",
+      "options": ["Ballia", "Tamluk", "Satara", "Gorakhpur"],
+      "correctAnswer": "Satara",
+      "explanation": "Satara (Maharashtra) saw the longest-lasting parallel government named 'Prati Sarkar' led by Nana Patil.",
+      "difficulty": "Hard",
+      "topicTag": "Quit India Movement"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Date Gandhi returned to India from South Africa?",
+      "back": "9 January 1915 (Pravasi Bharatiya Divas)."
+    },
+    {
+      "front": "First Civil Disobedience Movement by Gandhi in India?",
+      "back": "Champaran Satyagraha (1917, Bihar)."
+    },
+    {
+      "front": "First Hunger Strike used by Gandhi in India?",
+      "back": "Ahmedabad Mill Strike (1918, Gujarat)."
+    },
+    {
+      "front": "Date of Jallianwala Bagh Massacre?",
+      "back": "13 April 1919 (Amritsar)."
+    },
+    {
+      "front": "Incident that caused NCM withdrawal?",
+      "back": "Chauri Chaura Incident (4 February 1922)."
+    },
+    {
+      "front": "Founders of Swaraj Party (1923)?",
+      "back": "C.R. Das (President) and Motilal Nehru (Secretary)."
+    },
+    {
+      "front": "INC Session where 'Purna Swaraj' was passed?",
+      "back": "1929 Lahore Session (Presided by Jawaharlal Nehru)."
+    },
+    {
+      "front": "Dandi March start and end dates?",
+      "back": "12 March 1930 to 6 April 1930."
+    },
+    {
+      "front": "Which Round Table Conference did Gandhi attend?",
+      "back": "2nd Round Table Conference (1931, London)."
+    },
+    {
+      "front": "Leaders who attended all 3 RTCs?",
+      "back": "Dr. B.R. Ambedkar and Tej Bahadur Sapru."
+    },
+    {
+      "front": "Date of Gandhi-Irwin Pact?",
+      "back": "5 March 1931."
+    },
+    {
+      "front": "Date of Poona Pact?",
+      "back": "24 September 1932 (Yerwada Jail, Pune)."
+    },
+    {
+      "front": "Title given to Vallabhbhai Patel during Bardoli Satyagraha?",
+      "back": "'Sardar' (Conferred by Bardoli women in 1928)."
+    },
+    {
+      "front": "Slogan given by Gandhi during Quit India Movement?",
+      "back": "'Do or Die' (Karo ya Maro)."
+    },
+    {
+      "front": "Operation to arrest Congress leaders on Aug 9, 1942?",
+      "back": "Operation Zero Hour."
+    },
+    {
+      "front": "Members of Cabinet Mission 1946?",
+      "back": "Lord Pethick-Lawrence, Sir Stafford Cripps, A.V. Alexander."
+    },
+    {
+      "front": "Date of Mountbatten Plan?",
+      "back": "3 June 1947."
+    },
+    {
+      "front": "Boundary demarcation line between India and Pakistan?",
+      "back": "Radcliffe Line."
+    },
+    {
+      "front": "British PM during Indian Independence (1947)?",
+      "back": "Clement Attlee (Labour Party)."
+    },
+    {
+      "front": "Who ran Secret Congress Radio in Quit India Movement?",
+      "back": "Usha Mehta."
+    }
+  ],
+  "revisionPoints": [
+    "Gandhi returned to India on 9 Jan 1915 from South Africa.",
+    "Champaran (1917) was 1st Satyagraha against Tinkathia system.",
+    "Ahmedabad Mill Strike (1918) involved Gandhi's 1st Hunger Strike.",
+    "Kheda Satyagraha (1918) was Gandhi's 1st Non-Cooperation movement.",
+    "Rowlatt Act 1919 allowed detention without trial for 2 years.",
+    "Jallianwala Bagh Massacre took place on 13 April 1919 in Amritsar.",
+    "Rabindranath Tagore surrendered Knighthood after Jallianwala massacre.",
+    "Non-Cooperation Movement launched in 1920; suspended Feb 1922.",
+    "Chauri Chaura violence (4 Feb 1922) led to NCM suspension.",
+    "Swaraj Party created in Jan 1923 by C.R. Das & Motilal Nehru.",
+    "Simon Commission arrived in 1928; all 7 members were white.",
+    "Lala Lajpat Rai died following lathi charge during anti-Simon protest.",
+    "Nehru Report (1928) drafted under Motilal Nehru.",
+    "1929 Lahore INC session declared 'Purna Swaraj' (Complete Independence).",
+    "26 January 1930 observed as first Independence Day across India.",
+    "Dandi March lasted 24 days (12 March – 6 April 1930) with 78 volunteers.",
+    "Civil Disobedience Movement launched by breaking Salt Law at Dandi.",
+    "Gandhi-Irwin Pact signed 5 March 1931; halted CDM temporarily.",
+    "Gandhi attended ONLY the 2nd Round Table Conference (London, 1931).",
+    "Communal Award declared by Ramsay MacDonald in August 1932.",
+    "Poona Pact signed 24 Sept 1932 between Ambedkar and caste Hindus.",
+    "GoI Act 1935 granted Provincial Autonomy and abolished provincial dyarchy.",
+    "Congress formed 8 provincial ministries in 1937 elections.",
+    "Congress ministries resigned in Oct 1939 protesting WWII entry.",
+    "Subhash Chandra Bose formed Forward Bloc in 1939 after Tripuri crisis.",
+    "Quit India Resolution passed on 8 August 1942 with 'Do or Die'.",
+    "Operation Zero Hour arrested top Congress leadership on 9 August 1942.",
+    "Cabinet Mission (1946) proposed Constituent Assembly formation.",
+    "Mountbatten Plan (3 June 1947) finalized Partition and transfer of power.",
+    "India gained independence on 15 August 1947; British PM was Clement Attlee."
+  ],
+  "revisionSheet": [
+    "Gandhian Arrival: 9 Jan 1915 | Guru: G.K. Gokhale | Early Triad: Champaran (1917), Ahmedabad (1918), Kheda (1918)",
+    "Rowlatt Act: 1919 | Jallianwala Massacre: 13 April 1919 | Tagore gave up Knighthood",
+    "Non-Cooperation: 1920–1922 | Stopped by: Chauri Chaura (4 Feb 1922) | Swaraj Party: C.R. Das & Motilal Nehru (1923)",
+    "Purna Swaraj Resolution: 1929 Lahore INC (J.L. Nehru) | 1st Independence Day: 26 Jan 1930",
+    "Civil Disobedience: Dandi March (12 Mar – 6 Apr 1930) | Gandhi-Irwin Pact: 5 Mar 1931 | 2nd RTC Attendance",
+    "Communal Award: Aug 1932 | Poona Pact: 24 Sep 1932 (Gandhi & Ambedkar) | Joint Electorates kept",
+    "GoI Act 1935: Provincial Autonomy | Dyarchy at Centre | Federation Proposal",
+    "Quit India Movement: 8 Aug 1942 | Slogan: 'Do or Die' | Gowalia Tank, Bombay | Operation Zero Hour arrests",
+    "Constitutional Missions: Cripps (1942) → Cabinet Mission (1946) → Mountbatten Plan (3 June 1947)",
+    "Independence: 15 August 1947 | Radcliffe Line Boundary | British PM: Clement Attlee"
+  ],
+  "relatedTopics": {
+    "previousTopic": "INC Formation & Swadeshi Movement",
+    "previousTopicId": "inc-formation-and-swadeshi-movement",
+    "currentTopic": "Gandhian Era, Independence & Partition (1917–1947)",
+    "nextTopic": null,
+    "nextTopicId": null
+  }
+}
