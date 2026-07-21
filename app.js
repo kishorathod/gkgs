@@ -637,6 +637,7 @@ function startSessionTimer() {
       } catch (e) {
         // silent
       }
+    }           // ← close if (activeSecondsToday % 60 === 0)
   }, 1000);
 }
 
