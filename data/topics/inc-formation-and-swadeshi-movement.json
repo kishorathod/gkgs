@@ -1,0 +1,821 @@
+{
+  "topicId": "inc-formation-and-swadeshi-movement",
+  "subject": "history",
+  "hero": {
+    "title": "INC Formation & Swadeshi Movement",
+    "subtitle": "The birth of Indian national consciousness, early INC sessions, Moderates vs. Extremists, Partition of Bengal (1905), and the Surat Split (1907).",
+    "sscWeightage": "High",
+    "difficulty": "Medium to Hard",
+    "estimatedReadingTime": "25 mins",
+    "expectedQuestions": "3-5 Questions in Tier-1 & Tier-2",
+    "lastUpdated": "2026-07-21",
+    "whyItMatters": "Highest yield topic in Modern Indian History for SSC CGL. Questions consistently test the 1st to 4th INC sessions (venues, presidents, firsts), Dufferin's statements, Moderates vs Extremists leaders, 1905 Partition of Bengal dates, Swadeshi & Boycott resolutions, 1896 Vande Mataram session, 1906 Calcutta session (Swaraj), 1907 Surat Split (Rash Behari Ghosh), and 1911 Annulment of Partition."
+  },
+  "quickFacts": [
+    {
+      "icon": "🏛️",
+      "heading": "INC Founded",
+      "fact": "28 December 1885 at Gokuldas Tejpal Sanskrit College, Bombay."
+    },
+    {
+      "icon": "👤",
+      "heading": "Founder & 1st President",
+      "fact": "A.O. Hume (Founder/General Secretary); W.C. Bonnerjee (1st President, 72 delegates)."
+    },
+    {
+      "icon": "👑",
+      "heading": "Viceroy in 1885",
+      "fact": "Lord Dufferin served as Viceroy during INC formation ('microscopic minority')."
+    },
+    {
+      "icon": "☪️",
+      "heading": "1st Muslim President",
+      "fact": "Badruddin Tyabji at the 3rd INC Session in Madras (1887)."
+    },
+    {
+      "icon": "🇬🇧",
+      "heading": "1st Foreign President",
+      "fact": "George Yule at the 4th INC Session in Allahabad (1888)."
+    },
+    {
+      "icon": "🎵",
+      "heading": "Vande Mataram Sung",
+      "fact": "First sung at the 1896 Calcutta Session (President: Rahimtullah M. Sayani)."
+    },
+    {
+      "icon": "🔪",
+      "heading": "Partition of Bengal",
+      "fact": "Announced by Lord Curzon on 20 July 1905; came into effect on 16 October 1905."
+    },
+    {
+      "icon": "✊",
+      "heading": "Boycott Resolution",
+      "fact": "Passed on 7 August 1905 at Town Hall, Calcutta — start of Swadeshi Movement."
+    },
+    {
+      "icon": "🚩",
+      "heading": "First Use of 'Swaraj'",
+      "fact": "Dadabhai Naoroji declared 'Swaraj' as goal at 1906 Calcutta INC Session."
+    },
+    {
+      "icon": "⚡",
+      "heading": "Surat Split (1907)",
+      "fact": "INC split into Moderates and Extremists; Session presided over by Rash Behari Ghosh."
+    },
+    {
+      "icon": "👑",
+      "heading": "Annulment of Partition",
+      "fact": "Announced by King George V at Delhi Durbar (1911) during Lord Hardinge II's tenure."
+    },
+    {
+      "icon": "🎵",
+      "heading": "Jana Gana Mana Sung",
+      "fact": "First sung at the 1911 Calcutta INC Session (President: Bishan Narayan Dhar)."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1885",
+      "title": "Formation of Indian National Congress (28 Dec)",
+      "shortDescription": "72 delegates met at Gokuldas Tejpal Sanskrit College, Bombay. Founded by Allan Octavian Hume (retired ICS officer). Womesh Chandra Bonnerjee presided over the first session.",
+      "importance": "Birth of the organized Indian National Movement. Lord Dufferin was Viceroy."
+    },
+    {
+      "year": "1886",
+      "title": "2nd INC Session at Calcutta",
+      "shortDescription": "Presided over by Dadabhai Naoroji. Delegate count rose to 436. National Conference merged with INC. Lord Dufferin hosted a garden party for delegates.",
+      "importance": "Dadabhai Naoroji became 1st non-Hindu President."
+    },
+    {
+      "year": "1887",
+      "title": "3rd INC Session at Madras",
+      "shortDescription": "Presided over by Badruddin Tyabji. An appeal was made to Muslims to join the national movement in large numbers.",
+      "importance": "Badruddin Tyabji became the 1st Muslim President of INC."
+    },
+    {
+      "year": "1888",
+      "title": "4th INC Session at Allahabad",
+      "shortDescription": "Presided over by George Yule. Government officials were banned from attending INC sessions.",
+      "importance": "George Yule became the 1st English/Foreign President of INC."
+    },
+    {
+      "year": "1896",
+      "title": "12th INC Session at Calcutta — Vande Mataram",
+      "shortDescription": "Presided over by Rahimtullah M. Sayani. Bankim Chandra Chattopadhyay's 'Vande Mataram' was sung for the first time on the INC platform by Rabindranath Tagore.",
+      "importance": "Historic first singing of National Song at INC."
+    },
+    {
+      "year": "1899",
+      "title": "Lord Curzon Becomes Viceroy",
+      "shortDescription": "Lord Curzon arrived as Viceroy of India (1899–1905). Implemented imperialist policies: Calcutta Corporation Act (1899), Indian Universities Act (1904), Partition of Bengal.",
+      "importance": "Curzon's repressive policies fueled Indian nationalism."
+    },
+    {
+      "year": "1905",
+      "title": "Partition of Bengal Announced (20 July)",
+      "shortDescription": "Lord Curzon announced partition of Bengal into West Bengal (Hindu majority) and Eastern Bengal & Assam (Muslim majority), claiming administrative convenience.",
+      "importance": "Divide-and-rule policy aimed at weakening the epicenter of Indian nationalism."
+    },
+    {
+      "year": "1905",
+      "title": "Boycott Resolution & Swadeshi Movement (7 August)",
+      "shortDescription": "Mass meeting held at Calcutta Town Hall; Boycott Resolution passed. Formal proclamation of the Swadeshi Movement to boycott British goods and use Indian products.",
+      "importance": "Official launch of Swadeshi Movement."
+    },
+    {
+      "year": "1905",
+      "title": "Partition Takes Effect & Day of Mourning (16 October)",
+      "shortDescription": "Bengal Partition enforced. Observed as a Day of Mourning across Bengal. People fasted, tied Rakhis (suggested by Rabindranath Tagore), and sang 'Amar Shonar Bangla'.",
+      "importance": "Mass emotional unification against British Rule."
+    },
+    {
+      "year": "1905",
+      "title": "Benaras INC Session (December)",
+      "shortDescription": "Presided over by Gopal Krishna Gokhale. INC supported the Swadeshi & Boycott movement for Bengal.",
+      "importance": "INC officially endorsed Swadeshi Movement."
+    },
+    {
+      "year": "1906",
+      "title": "Calcutta INC Session — Four Resolutions (December)",
+      "shortDescription": "Presided over by Dadabhai Naoroji. Four landmark resolutions passed: Swaraj (Self-Government), Swadeshi, Boycott, and National Education.",
+      "importance": "Dadabhai Naoroji used the word 'Swaraj' for the first time from the INC platform."
+    },
+    {
+      "year": "1906",
+      "title": "Muslim League Founded at Dacca (30 December)",
+      "shortDescription": "All India Muslim League founded at Dacca under leadership of Nawab Salimullah of Dacca, Aga Khan, and Nawab Mohsin-ul-Mulk.",
+      "importance": "Creation of separate communal political organization."
+    },
+    {
+      "year": "1907",
+      "title": "Surat Split (December)",
+      "shortDescription": "INC split into Moderates and Extremists at Surat session on the Tapti River. Presided over by Rash Behari Ghosh. Extremists were expelled from INC.",
+      "importance": "Major setback to National Movement; Moderates controlled INC until 1916."
+    },
+    {
+      "year": "1911",
+      "title": "Annulment of Partition & Delhi Durbar",
+      "shortDescription": "King George V and Queen Mary visited India. At the Delhi Durbar, Lord Hardinge II announced the annulment of Partition of Bengal and transfer of capital from Calcutta to Delhi.",
+      "importance": "Victory for Swadeshi Movement; Capital shifted to Delhi."
+    },
+    {
+      "year": "1911",
+      "title": "Calcutta INC Session — Jana Gana Mana",
+      "shortDescription": "Presided over by Bishan Narayan Dhar. Rabindranath Tagore's 'Jana Gana Mana' was sung for the first time on the INC platform on 27 December 1911.",
+      "importance": "Historic first singing of National Anthem at INC."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "Formation of Indian National Congress (1885)",
+      "explanation": "The Indian National Congress (INC) was founded on 28 December 1885 at Gokuldas Tejpal Sanskrit College in Bombay. It was initiated by Allan Octavian Hume (A.O. Hume), a retired British ICS officer, who aimed to provide a peaceful platform for educated Indians to voice grievances. The first session was attended by 72 delegates from across India and was presided over by Womesh Chandra Bonnerjee (W.C. Bonnerjee). Lord Dufferin was the Viceroy of India at the time. Prior to INC, several regional organizations paved the way: Landholders' Society (1838), British Indian Association (1851), Indian Association of Calcutta (1876 by Surendranath Banerjea & Ananda Mohan Bose), Poona Sarvajanik Sabha (1870 by M.G. Ranade), and Madras Mahajan Sabha (1884). Two main theories explain INC's origin: the 'Safety Valve Theory' (popularized by Lala Lajpat Rai & William Wedderburn, claiming Dufferin & Hume created INC to divert popular discontent away from violent rebellion) and the 'Lightning Conductor Theory' (G.K. Gokhale's view that early Indian nationalists used Hume as a catalyst/shield against British suppression).",
+      "keyTakeaways": [
+        "Founded: 28 December 1885 at Gokuldas Tejpal Sanskrit College, Bombay.",
+        "Founder & General Secretary: Allan Octavian Hume (A.O. Hume).",
+        "First President: Womesh Chandra Bonnerjee (W.C. Bonnerjee) — 72 delegates attended.",
+        "Viceroy at founding: Lord Dufferin ('microscopic minority').",
+        "Precursor: Indian Association (1876 by Surendranath Banerjea).",
+        "Origin Theories: 'Safety Valve Theory' (Lajpat Rai) vs 'Lightning Conductor Theory' (Gokhale)."
+      ],
+      "importantExamPoints": [
+        "First session venue: Bombay (originally planned at Poona, but shifted due to Cholera outbreak).",
+        "Surendranath Banerjea missed the 1st INC session because he was attending the 2nd Indian National Conference in Calcutta.",
+        "First 4 Presidents: W.C. Bonnerjee (1885, Bombay) → Dadabhai Naoroji (1886, Calcutta) → Badruddin Tyabji (1887, Madras) → George Yule (1888, Allahabad).",
+        "First Muslim President: Badruddin Tyabji (1887, Madras).",
+        "First Foreign/English President: George Yule (1888, Allahabad)."
+      ],
+      "commonStudentMistakes": [
+        "Confusing A.O. Hume as the 1st President — Hume was the FOUNDER and General Secretary; W.C. Bonnerjee was the 1st PRESIDENT.",
+        "Thinking Surendranath Banerjea presided over the 1st session — he did not even attend it.",
+        "Thinking the 1st session took place in Poona — it was SHIFTED from Poona to Bombay due to cholera."
+      ]
+    },
+    {
+      "heading": "Moderates vs. Extremists (1885–1907)",
+      "explanation": "The early phase of the Indian National Movement is divided into two distinct ideological schools:\n1. The Moderates (1885–1905): Led by Dadabhai Naoroji, Gopal Krishna Gokhale, Pherozeshah Mehta, Surendranath Banerjea, and W.C. Bonnerjee. They believed in British sense of justice and used 3P methods — Petitions, Prayers, and Protests. Their major achievements included exposing British economic exploitation (Dadabhai Naoroji's 'Drain of Wealth' theory in his book *Poverty and Un-British Rule in India*), securing the Indian Councils Act of 1892, and spreading political awareness.\n2. The Extremists (1905–1919): Led by the famous Lal-Bal-Pal trio (Lala Lajpat Rai, Bal Gangadhar Tilak, Bipin Chandra Pal) and Aurobindo Ghosh. They rejected the 3P methodology as 'Political Mendicancy' (begging) and advocated aggressive self-reliance, Swadeshi, Boycott, and direct action. Tilak declared his famous slogan: 'Swaraj is my birthright and I shall have it!' Tilak introduced Ganapati Festival (1893) and Shivaji Festival (1895) to mobilize masses. Aurobindo Ghosh articulated the theory of Passive Resistance.",
+      "keyTakeaways": [
+        "Moderates (1885–1905): Naoroji, Gokhale, Pherozeshah Mehta, S.N. Banerjea.",
+        "Moderate Method: 3Ps (Petitions, Prayers, Protests) — constitutional agitation.",
+        "Drain of Wealth Theory: Dadabhai Naoroji (*Poverty and Un-British Rule in India*).",
+        "Extremists (1905–1919): Lal-Bal-Pal (Lajpat Rai, Tilak, Pal) & Aurobindo Ghosh.",
+        "Extremist Method: Passive Resistance, Swadeshi, Boycott, Self-reliance.",
+        "Tilak's Slogan: 'Swaraj is my birthright and I shall have it!' (Ganapati 1893 & Shivaji 1895 festivals)."
+      ],
+      "importantExamPoints": [
+        "Grand Old Man of India: Dadabhai Naoroji (3-time INC President: 1886, 1893, 1906).",
+        "First Indian elected to British House of Commons: Dadabhai Naoroji (Central Finsbury, Liberal Party, 1892).",
+        "Political Guru of Mahatma Gandhi: Gopal Krishna Gokhale (founded Servants of India Society, 1905).",
+        "Political Guru of Subhash Chandra Bose: Chittaranjan Das (C.R. Das).",
+        "Extremist newspapers: *Kesari* (Marathi) & *Mahratta* (English) by Tilak; *Vande Mataram* by Aurobindo Ghosh; *New India* by Bipin Chandra Pal."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Tilak's newspapers: *Kesari* was in MARATHI, while *Mahratta* was in ENGLISH.",
+        "Thinking Gokhale was an Extremist — Gokhale was a leading MODERATE (Tilak was the Extremist rival).",
+        "Thinking Dadabhai Naoroji was only an INC leader — he was also the 1st Indian MP in British Parliament (1892)."
+      ]
+    },
+    {
+      "heading": "Partition of Bengal & Swadeshi Movement (1905)",
+      "explanation": "On 20 July 1905, Viceroy Lord Curzon announced the Partition of Bengal into two provinces: West Bengal (capital Calcutta, Hindu majority) and Eastern Bengal & Assam (capital Dacca, Muslim majority). Curzon cited administrative convenience (Bengal population was 78 million), but the real political motive was to divide Bengali Hindus and Muslims and crush Bengal as the epicenter of Indian nationalism. In response, a historic mass meeting was held at Calcutta Town Hall on 7 August 1905, where the Boycott Resolution was passed, formally launching the Swadeshi Movement. Partition officially took effect on 16 October 1905. The day was observed as a Day of Mourning across Bengal: people fasted, walked barefoot to the Ganges singing 'Vande Mataram', and tied Rakhis to one another (suggested by Rabindranath Tagore) as a symbol of unity. People burnt foreign cloth and boycotted British salt, sugar, and schools. Indigenous enterprises blossomed: V.O. Chidambaram Pillai launched the Swadeshi Steam Navigation Company in Tuticorin, Bengal Chemical Swadeshi Stores was founded by Acharya P.C. Ray, and National Council of Education (1906) was established.",
+      "keyTakeaways": [
+        "Partition Announced: 20 July 1905 by Lord Curzon.",
+        "Boycott Resolution Passed: 7 August 1905 at Calcutta Town Hall (Swadeshi Day).",
+        "Partition Enforced: 16 October 1905 — observed as Day of Mourning & Raksha Bandhan Day.",
+        "Rabindranath Tagore: Suggested Raksha Bandhan & composed 'Amar Shonar Bangla' (now Bangladesh National Anthem).",
+        "Swadeshi Enterprises: Swadeshi Steam Navigation Co. (V.O.C. Pillai in Tuticorin); Bengal Chemicals (P.C. Ray).",
+        "National Education: National Council of Education founded on 15 August 1906; Bengal National College (Principal: Aurobindo Ghosh)."
+      ],
+      "importantExamPoints": [
+        "Viceroy who partitioned Bengal: Lord Curzon (1905).",
+        "Viceroy who annulled Bengal Partition: Lord Hardinge II (1911 at Delhi Durbar).",
+        "Swadeshi Movement leader in Punjab: Lala Lajpat Rai & Ajit Singh.",
+        "Swadeshi Movement leader in Delhi: Syed Haider Raza.",
+        "Swadeshi Movement leader in Madras: Chidambaram Pillai.",
+        "Swadeshi Movement leader in Bombay/Poona: Bal Gangadhar Tilak."
+      ],
+      "commonStudentMistakes": [
+        "Confusing 20 July 1905 (Partition ANNOUNCED), 7 August 1905 (Swadeshi RESOLUTION), and 16 October 1905 (Partition ENFORCED).",
+        "Thinking Rabindranath Tagore gave up his Knighthood during Swadeshi — Tagore gave up Knighthood in 1919 after Jallianwala Bagh, NOT in 1905.",
+        "Confusing 'Amar Shonar Bangla' (1905, composed for anti-partition) with 'Jana Gana Mana' (1911, sung at INC)."
+      ]
+    },
+    {
+      "heading": "Surat Split (1907) & Annulment of Partition (1911)",
+      "explanation": "The 1906 Calcutta INC Session avoided a split due to the presence of Dadabhai Naoroji as President, where four resolutions were passed: Swaraj, Swadeshi, Boycott, and National Education. However, tensions erupted at the 1907 Surat Session held on the banks of the Tapti River. The Extremists wanted Lala Lajpat Rai or Tilak as President and wanted to extend Swadeshi and Boycott to all of India. The Moderates wanted Rash Behari Ghosh as President and wished to restrict Swadeshi to Bengal only. Order broke out into chaos, shoes were thrown, and the INC split. Presided over by Rash Behari Ghosh, the Moderates expelled the Extremists. Taking advantage of the split, the British suppressed the Extremists: Tilak was sentenced to 6 years imprisonment in Mandalay (Burma) in 1908; Aurobindo Ghosh retired to Pondicherry to pursue spiritualism; Bipin Chandra Pal retired from politics. The Moderates controlled INC until 1916. Finally, in 1911, King George V and Queen Mary visited India. At the grand Delhi Durbar (1911), Viceroy Lord Hardinge II announced the Annulment of the Partition of Bengal, and the capital of British India was transferred from Calcutta to Delhi (officially inaugurated in 1912).",
+      "keyTakeaways": [
+        "1906 Calcutta Session: Dadabhai Naoroji declared 'Swaraj' as goal; 4 resolutions passed.",
+        "1907 Surat Split: INC split at Surat session on Tapti river; President: Rash Behari Ghosh.",
+        "Extremist Suppression: Tilak jailed for 6 years in Mandalay (1908–1914); written *Gita Rahasya* in jail.",
+        "1911 Delhi Durbar: King George V & Lord Hardinge II annulled Bengal Partition & shifted capital Calcutta → Delhi.",
+        "1911 Calcutta Session: 'Jana Gana Mana' sung for the first time (President: Bishan Narayan Dhar)."
+      ],
+      "importantExamPoints": [
+        "President of 1907 Surat Session: Rash Behari Ghosh (MODERATE) — NOT Rash Behari Bose (revolutionary).",
+        "First time 'Swaraj' declared as goal of INC: 1906 Calcutta Session by Dadabhai Naoroji.",
+        "Where was Tilak imprisoned (1908–14)? Mandalay Jail in Burma (where he wrote *Gita Rahasya*).",
+        "Year British capital shifted from Calcutta to Delhi: Announced 1911, shifted 1912.",
+        "Viceroy during 1911 Delhi Durbar: Lord Hardinge II."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Dr. Rash Behari GHOSH (Moderate INC President, 1907/08) with Rash Behari BOSE (Revolutionary leader who organized INA/Ghadar).",
+        "Thinking Swaraj was first demanded in 1929 Lahore session — 1906 was 'Swaraj' (Self-Government); 1929 was 'Purna Swaraj' (Complete Independence).",
+        "Confusing the 1907 Surat Split (Moderates vs Extremists) with the 1916 Lucknow Pact (Reunion of Moderates & Extremists)."
+      ]
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Allan Octavian Hume (A.O. Hume)",
+      "role": "Founder & General Secretary of INC",
+      "years": "1829–1912",
+      "majorContributions": "Retired British ICS officer & ornithologist. Founded Indian National Congress in 1885 at Bombay to provide a constitutional channel for Indian grievances. Served as General Secretary of INC for first 22 years.",
+      "sscTrick": "A.O. Hume = Father of INC + Retired ICS Officer + Ornithologist + Never presided over any INC session"
+    },
+    {
+      "name": "Womesh Chandra Bonnerjee (W.C. Bonnerjee)",
+      "role": "1st President of INC (1885)",
+      "years": "1844–1906",
+      "majorContributions": "Eminent lawyer from Calcutta. Presided over the inaugural 1st Session of INC at Bombay in December 1885 (attended by 72 delegates) and again over the 1892 Allahabad session.",
+      "sscTrick": "W.C. Bonnerjee = 1st INC President + Bombay 1885 + 72 delegates"
+    },
+    {
+      "name": "Dadabhai Naoroji",
+      "role": "Grand Old Man of India",
+      "years": "1825–1917",
+      "majorContributions": "Pioneered 'Drain of Wealth' theory in *Poverty and Un-British Rule in India*. First Indian elected to British House of Commons (Central Finsbury, 1892). 3-time INC President (1886 Calcutta, 1893 Lahore, 1906 Calcutta). Declared 'Swaraj' in 1906.",
+      "sscTrick": "Dadabhai Naoroji = Grand Old Man + Drain of Wealth + 1st Indian British MP (1892) + Swaraj 1906"
+    },
+    {
+      "name": "Badruddin Tyabji",
+      "role": "3rd President of INC (1st Muslim President)",
+      "years": "1844–1906",
+      "majorContributions": "Prominent lawyer and reformer from Bombay. Presided over the 3rd INC Session at Madras in 1887. Appealed to Indian Muslims to join the INC national platform.",
+      "sscTrick": "Badruddin Tyabji = 1st Muslim INC President + Madras 1887"
+    },
+    {
+      "name": "George Yule",
+      "role": "4th President of INC (1st Foreign/English President)",
+      "years": "1829–1892",
+      "majorContributions": "Scottish merchant and head of Andrew Yule & Co. Presided over the 4th INC Session at Allahabad in 1888, marking the inclusion of supportive British liberals in early INC.",
+      "sscTrick": "George Yule = 1st Foreign/English INC President + Allahabad 1888"
+    },
+    {
+      "name": "Bal Gangadhar Tilak (Lokmanya Tilak)",
+      "role": "Extremist Leader & 'Father of Indian Unrest'",
+      "years": "1856–1920",
+      "majorContributions": "Declared: 'Swaraj is my birthright and I shall have it!' Started *Kesari* (Marathi) & *Mahratta* (English) newspapers. Organized Ganapati Festival (1893) & Shivaji Festival (1895). Jailed in Mandalay (1908–14) where he wrote *Gita Rahasya*.",
+      "sscTrick": "Tilak = Swaraj Birthright + Kesari(Marathi)/Mahratta(English) + Mandalay Jail + Never became INC President"
+    },
+    {
+      "name": "Gopal Krishna Gokhale",
+      "role": "Moderate Leader & Political Guru of Gandhi",
+      "years": "1866–1915",
+      "majorContributions": "Founded Servants of India Society (1905). Presided over 1905 Benaras INC Session supporting Swadeshi. Championed constitutional reforms, education, and budget critiques in Imperial Legislative Council.",
+      "sscTrick": "Gokhale = Moderate + Servants of India Society (1905) + Gandhi's Political Guru + Benaras 1905 Session"
+    },
+    {
+      "name": "Lord Curzon",
+      "role": "Viceroy of India (1899–1905)",
+      "majorContributions": "Staunch imperialist Viceroy who announced Partition of Bengal on 20 July 1905. Passed Calcutta Corporation Act (1899), Indian Universities Act (1904), and Ancient Monuments Preservation Act (1904).",
+      "sscTrick": "Curzon = Partition of Bengal (1905) + Universities Act 1904 + Most unpopular Viceroy"
+    },
+    {
+      "name": "Rabindranath Tagore",
+      "role": "Poet & Cultural Leader",
+      "years": "1861–1941",
+      "majorContributions": "Suggested Raksha Bandhan as symbol of Hindu-Muslim unity during 1905 Bengal Partition. Composed 'Amar Shonar Bangla' (1905, now Bangladesh National Anthem) and 'Jana Gana Mana' (first sung at INC 1911). Won Nobel Prize in Literature (1913).",
+      "sscTrick": "Tagore = Raksha Bandhan 1905 + Amar Shonar Bangla + Jana Gana Mana (1911 INC) + Nobel Prize 1913"
+    },
+    {
+      "name": "Lala Lajpat Rai (Punjab Kesari)",
+      "role": "Extremist Leader (Lal of Lal-Bal-Pal)",
+      "years": "1865–1928",
+      "majorContributions": "Led Swadeshi Movement in Punjab alongside Ajit Singh. Founded Arya Samaj activities in Punjab. Author of *Unhappy India*. Articulated 'Safety Valve Theory' of INC formation. Died following police lathi-charge during anti-Simon Commission protest (1928).",
+      "sscTrick": "Lajpat Rai = Punjab Kesari + Safety Valve Theory + Unhappy India + Lal-Bal-Pal"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Safety Valve Theory",
+      "definition": "Theory popularized by Lala Lajpat Rai suggesting that Viceroy Lord Dufferin and A.O. Hume established the INC in 1885 as a 'safety valve' to release mounting Indian popular discontent and prevent another violent uprising like 1857."
+    },
+    {
+      "term": "Lightning Conductor Theory",
+      "definition": "G.K. Gokhale's counter-view that early Indian nationalists intentionally used A.O. Hume (a retired British official) as a 'lightning conductor' to protect the fledgling INC from being crushed by British government hostility."
+    },
+    {
+      "term": "Drain of Wealth",
+      "definition": "Economic theory formulated by Dadabhai Naoroji in *Poverty and Un-British Rule in India* explaining how British unilateral transfer of India's wealth (salaries, pensions, trade surplus) to Britain impoverished India without any economic return."
+    },
+    {
+      "term": "Swadeshi",
+      "definition": "Literally 'of one's own country'. Economic and political strategy promoting indigenous Indian-made goods (khadi, local products, national banks) to foster self-reliance and weaken British economic domination."
+    },
+    {
+      "term": "Boycott",
+      "definition": "The tactical refusal to buy or use British imported goods (foreign cloth, salt, sugar), attend government schools, courts, or titles. Formally adopted at Calcutta Town Hall on 7 August 1905."
+    },
+    {
+      "term": "Swaraj",
+      "definition": "Self-Government or Home Rule. First declared as the official goal of INC by Dadabhai Naoroji at the 1906 Calcutta Session. Later popularized by Tilak ('Swaraj is my birthright')."
+    },
+    {
+      "term": "Surat Split (1907)",
+      "definition": "The ideological and organizational rift at the 1907 Surat INC Session resulting in the expulsion of Extremists (Tilak, Lajpat Rai) by Moderates led by Rash Behari Ghosh."
+    },
+    {
+      "term": "Day of Mourning (16 Oct 1905)",
+      "definition": "The date Bengal Partition took effect. Observed across Bengal with fasting, barefoot marches to the Ganges singing 'Vande Mataram', and tying of Rakhis for Hindu-Muslim unity."
+    },
+    {
+      "term": "National Council of Education",
+      "definition": "Educational body established on 15 August 1906 by Satish Chandra Mukherjee and other nationalists to impart literary, scientific, and technical education on national lines under indigenous control."
+    },
+    {
+      "term": "Delhi Durbar (1911)",
+      "definition": "Imperial coronation assembly held in Delhi attended by King George V and Queen Mary. Viceroy Lord Hardinge II announced the annulment of Bengal Partition and transfer of capital from Calcutta to Delhi."
+    }
+  ],
+  "tables": [
+    {
+      "title": "First Four INC Sessions — SSC Master Table",
+      "headers": ["Session", "Year", "Venue", "President", "Key Significance / Historical First"],
+      "rows": [
+        ["1st Session", "1885", "Bombay (Gokuldas Tejpal College)", "Womesh Chandra (W.C.) Bonnerjee", "72 delegates; A.O. Hume General Secretary; Lord Dufferin Viceroy."],
+        ["2nd Session", "1886", "Calcutta", "Dadabhai Naoroji", "436 delegates; 1st non-Hindu President; National Conference merged with INC."],
+        ["3rd Session", "1887", "Madras", "Badruddin Tyabji", "1st Muslim President; appeal to Muslims to join INC."],
+        ["4th Session", "1888", "Allahabad", "George Yule", "1st Foreign/English President; Govt officials barred from attending."]
+      ]
+    },
+    {
+      "title": "Moderates vs. Extremists Comparison Table",
+      "headers": ["Parameter", "Moderates (1885–1905)", "Extremists (1905–1919)"],
+      "rows": [
+        ["Key Leaders", "Dadabhai Naoroji, G.K. Gokhale, Pherozeshah Mehta, S.N. Banerjea.", "Bal Gangadhar Tilak, Lala Lajpat Rai, Bipin Chandra Pal, Aurobindo Ghosh."],
+        ["Social Base", "Urban educated elite, lawyers, merchants, upper-middle class.", "Broader middle class, youth, students, urban workers, lower-middle class."],
+        ["Ideology & Faith", "Believed in British sense of justice, fair play, and gradual constitutional reform.", "No faith in British benevolence; advocated self-reliance, Swaraj, and direct action."],
+        ["Methods", "3Ps: Petitions, Prayers, Protests (Constitutional Agitation).", "Passive Resistance, Swadeshi, Boycott of foreign goods/schools/courts, Mass mobilization."],
+        ["Ultimate Goal", "Colonial Self-Government (Dominion Status within British Empire).", "Swaraj (Self-Rule / Complete Autonomy from foreign rule)."],
+        ["Assessment of Empire", "Saw British rule as a blessing for modernization (though criticized Economic Drain).", "Saw British rule as an unmitigated curse destroying Indian culture and economy."]
+      ]
+    },
+    {
+      "title": "Landmark INC Sessions (1885–1911) for SSC CGL",
+      "headers": ["Year", "Venue", "President", "Historic Milestone"],
+      "rows": [
+        ["1885", "Bombay", "W.C. Bonnerjee", "1st INC Session; 72 delegates."],
+        ["1886", "Calcutta", "Dadabhai Naoroji", "1st Non-Hindu President."],
+        ["1887", "Madras", "Badruddin Tyabji", "1st Muslim President."],
+        ["1888", "Allahabad", "George Yule", "1st Foreign/English President."],
+        ["1896", "Calcutta", "Rahimtullah M. Sayani", "First time 'Vande Mataram' was sung at INC."],
+        ["1905", "Benaras", "Gopal Krishna Gokhale", "INC endorsed Swadeshi & Boycott for Bengal."],
+        ["1906", "Calcutta", "Dadabhai Naoroji", "'Swaraj' declared as goal; 4 resolutions passed."],
+        ["1907", "Surat", "Rash Behari Ghosh", "Surat Split — Moderates expelled Extremists."],
+        ["1911", "Calcutta", "Bishan Narayan Dhar", "First time 'Jana Gana Mana' was sung at INC."]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "concept": "First 4 INC Venues Order",
+      "mnemonic": "BCMA → Bombay (1885) → Calcutta (1886) → Madras (1887) → Allahabad (1888)",
+      "explanation": "Remember BCMA for the first 4 venues: B = Bombay, C = Calcutta, M = Madras, A = Allahabad."
+    },
+    {
+      "concept": "First 4 INC Presidents Order",
+      "mnemonic": "W-D-B-G → W.C. Bonnerjee → Dadabhai Naoroji → Badruddin Tyabji → George Yule",
+      "explanation": "Remember W-D-B-G: Womesh → Dadabhai → Badruddin → George. Hindu → Parsi → Muslim → Christian/English!"
+    },
+    {
+      "concept": "Tilak's Newspapers Mnemonic",
+      "mnemonic": "KM & ME → Kesari in Marathi & Mahratta in English!",
+      "explanation": "Opposite language trick! Kesari is NOT English (it's Marathi). Mahratta is NOT Marathi (it's English). Remember KM & ME!"
+    },
+    {
+      "concept": "1905 Bengal Partition Key Dates",
+      "mnemonic": "20 July (Announced) → 7 Aug (Boycott Town Hall) → 16 Oct (Enforced & Rakhi)",
+      "explanation": "July 20 = Curzon's Announcement. August 7 = Swadeshi/Boycott Resolution. October 16 = Partition enforced as Day of Mourning."
+    },
+    {
+      "concept": "Vande Mataram vs Jana Gana Mana INC Sessions",
+      "mnemonic": "Vande Mataram = 1896 (Rahimtullah Sayani) | Jana Gana Mana = 1911 (Bishan Narayan Dhar)",
+      "explanation": "Vande Mataram comes earlier (1896, end of 19th century). Jana Gana Mana comes later (1911, Delhi Durbar year)."
+    }
+  ],
+  "examTraps": [
+    {
+      "topic": "Founder vs First President of INC",
+      "trap": "Answering A.O. Hume as the 1st President of INC.",
+      "correction": "A.O. Hume was the FOUNDER and General Secretary. W.C. Bonnerjee was the FIRST PRESIDENT (Bombay, 1885). Hume NEVER presided over any INC session."
+    },
+    {
+      "topic": "Surat Split President: Ghosh vs Bose",
+      "trap": "Confusing Rash Behari GHOSH with Rash Behari BOSE as 1907 Surat Session President.",
+      "correction": "Dr. Rash Behari GHOSH (Moderate leader) presided over the 1907 Surat Session. Rash Behari BOSE was a revolutionary leader (Ghadar/INA)."
+    },
+    {
+      "topic": "Tilak as INC President",
+      "trap": "Selecting Bal Gangadhar Tilak as President of any INC session.",
+      "correction": "Bal Gangadhar Tilak NEVER presided over any INC session in his entire lifetime!"
+    },
+    {
+      "topic": "First Indian Woman President vs First Woman President",
+      "trap": "Confusing Annie Besant with Sarojini Naidu.",
+      "correction": "Annie Besant (1917 Calcutta) was the 1st WOMAN President. Sarojini Naidu (1925 Kanpur) was the 1st INDIAN WOMAN President."
+    },
+    {
+      "topic": "Annulment of Bengal Partition Viceroy",
+      "trap": "Thinking Lord Curzon annulled the Partition of Bengal.",
+      "correction": "Lord Curzon PARTITIONED Bengal in 1905. Lord Hardinge II ANNULLED the Partition in 1911 at the Delhi Durbar."
+    },
+    {
+      "topic": "First use of 'Swaraj' from INC Platform",
+      "trap": "Attributing the 1906 'Swaraj' declaration to Tilak or Gandhi.",
+      "correction": "Dadabhai Naoroji declared 'Swaraj' for the first time from the INC platform as President at the 1906 Calcutta Session."
+    }
+  ],
+  "pyqAnalysis": {
+    "frequentlyTestedConcepts": [
+      "First 4 INC Sessions — venues, dates, presidents, and delegate counts",
+      "First Muslim President (Badruddin Tyabji 1887) and First Foreign President (George Yule 1888)",
+      "Lord Dufferin's remark ('microscopic minority') during INC formation (1885)",
+      "Dadabhai Naoroji's Drain of Wealth theory & 1st Indian MP in British Parliament (1892)",
+      "Lord Curzon's Partition of Bengal dates (20 July announced, 7 Aug Boycott, 16 Oct enforced)",
+      "Swadeshi Movement events — Raksha Bandhan Day, Amar Shonar Bangla, Swadeshi Steam Navigation Co.",
+      "First singing of Vande Mataram (1896) and Jana Gana Mana (1911) at INC sessions",
+      "1906 Calcutta Session 4 resolutions (Swaraj, Swadeshi, Boycott, National Education)",
+      "1907 Surat Split — President Rash Behari Ghosh & Moderates vs Extremists rift",
+      "1911 Delhi Durbar — Annulment of Partition & capital shift from Calcutta to Delhi under Hardinge II"
+    ],
+    "repeatedThemes": [
+      "Who was the 1st President of INC? (W.C. Bonnerjee, 1885)",
+      "Who was the 1st Muslim President of INC? (Badruddin Tyabji, 1887)",
+      "Which Viceroy called INC a 'microscopic minority'? (Lord Dufferin)",
+      "When was the Swadeshi Movement / Boycott Resolution launched? (7 August 1905)",
+      "Who presided over the 1907 Surat Session? (Rash Behari Ghosh)",
+      "In which INC session was Vande Mataram first sung? (1896 Calcutta)",
+      "When was Bengal Partition annulled and capital shifted to Delhi? (1911 Delhi Durbar)"
+    ],
+    "difficultyTrend": "Tier-1: Direct factual lookups (presidents, venues, years, book titles). Tier-2 & State PCS: Sequence of events in 1905 Swadeshi movement, resolutions passed in 1906 Calcutta session, and Moderate vs Extremist ideological differences."
+  },
+  "mcqs": [
+    {
+      "question": "Who presided over the inaugural FIRST session of the Indian National Congress held at Bombay in December 1885?",
+      "options": ["Allan Octavian Hume", "Womesh Chandra Bonnerjee", "Dadabhai Naoroji", "Surendranath Banerjea"],
+      "correctAnswer": "Womesh Chandra Bonnerjee",
+      "explanation": "Womesh Chandra (W.C.) Bonnerjee presided over the first session of INC held at Gokuldas Tejpal Sanskrit College, Bombay in December 1885, which was attended by 72 delegates. A.O. Hume was the founder and General Secretary.",
+      "topicTag": "INC Sessions",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Who was the Viceroy of India when the Indian National Congress was founded in 1885?",
+      "options": ["Lord Lytton", "Lord Ripon", "Lord Dufferin", "Lord Curzon"],
+      "correctAnswer": "Lord Dufferin",
+      "explanation": "Lord Dufferin was the Viceroy of India from 1884 to 1888 when the INC was formed in 1885. He later ridiculed the INC as representing a 'microscopic minority' of the population.",
+      "topicTag": "Viceroys & INC",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Who became the FIRST Muslim President of the Indian National Congress at its 3rd Session in Madras (1887)?",
+      "options": ["Abul Kalam Azad", "Badruddin Tyabji", "Rahimtullah M. Sayani", "Syed Hasan Imam"],
+      "correctAnswer": "Badruddin Tyabji",
+      "explanation": "Badruddin Tyabji presided over the 3rd INC Session in Madras in 1887, becoming the first Muslim President of the Indian National Congress.",
+      "topicTag": "INC Presidents",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Who was the FIRST foreigner/Englishman to preside over an Indian National Congress Session (Allahabad, 1888)?",
+      "options": ["William Wedderburn", "George Yule", "Alfred Webb", "Henry Cotton"],
+      "correctAnswer": "George Yule",
+      "explanation": "George Yule, a Scottish businessman, presided over the 4th INC Session at Allahabad in 1888, becoming the first non-Indian/English President of INC.",
+      "topicTag": "INC Presidents",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The National Song 'Vande Mataram' was sung for the VERY FIRST time from the INC platform during which session?",
+      "options": ["1885 Bombay Session", "1896 Calcutta Session", "1905 Benaras Session", "1911 Calcutta Session"],
+      "correctAnswer": "1896 Calcutta Session",
+      "explanation": "Bankim Chandra Chattopadhyay's 'Vande Mataram' was sung for the first time on the INC platform at the 1896 Calcutta Session, presided over by Rahimtullah M. Sayani.",
+      "topicTag": "INC Historical Firsts",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The famous Boycott Resolution, marking the formal launch of the Swadeshi Movement against Bengal Partition, was passed on 7 August 1905 at:",
+      "options": ["Town Hall, Calcutta", "Gokuldas Tejpal College, Bombay", "Curzon Hall, Dacca", "Tilak Maidan, Poona"],
+      "correctAnswer": "Town Hall, Calcutta",
+      "explanation": "On 7 August 1905, a historic mass meeting was held at Calcutta Town Hall where the formal Boycott Resolution was passed, signaling the official start of the Swadeshi Movement.",
+      "topicTag": "Swadeshi Movement",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The date 16 October 1905, when the Partition of Bengal officially came into effect, was observed across Bengal as:",
+      "options": ["Independence Day", "Day of Mourning & Raksha Bandhan Day", "Direct Action Day", "Swaraj Day"],
+      "correctAnswer": "Day of Mourning & Raksha Bandhan Day",
+      "explanation": "16 October 1905 was observed as a Day of Mourning. People fasted, walked barefoot to the Ganges singing 'Vande Mataram', and tied Rakhis (suggested by Rabindranath Tagore) to symbolize Hindu-Muslim unity.",
+      "topicTag": "Swadeshi Movement",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "From which INC Session platform did Dadabhai Naoroji for the FIRST time declare 'Swaraj' (Self-Government) as the ultimate goal of the Congress?",
+      "options": ["1886 Calcutta Session", "1905 Benaras Session", "1906 Calcutta Session", "1907 Surat Session"],
+      "correctAnswer": "1906 Calcutta Session",
+      "explanation": "At the 1906 Calcutta INC Session, President Dadabhai Naoroji declared 'Swaraj' (Self-Government) as the goal of the Indian National Congress for the first time.",
+      "topicTag": "INC Resolutions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Who presided over the historic 1907 Surat Session of the INC where the Congress split into Moderates and Extremists?",
+      "options": ["Gopal Krishna Gokhale", "Rash Behari Ghosh", "Rash Behari Bose", "Pherozeshah Mehta"],
+      "correctAnswer": "Rash Behari Ghosh",
+      "explanation": "Dr. Rash Behari Ghosh (a Moderate leader) presided over the turbulent 1907 Surat Session on the Tapti River, where the Congress split into Moderates and Extremists.",
+      "topicTag": "Surat Split",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Who among the following national leaders NEVER presided over any session of the Indian National Congress?",
+      "options": ["Dadabhai Naoroji", "Gopal Krishna Gokhale", "Bal Gangadhar Tilak", "Lala Lajpat Rai"],
+      "correctAnswer": "Bal Gangadhar Tilak",
+      "explanation": "Bal Gangadhar Tilak, despite being one of the greatest national leaders, NEVER presided over any annual session of the Indian National Congress.",
+      "topicTag": "INC Presidents",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which Viceroy announced the Annulment of the Partition of Bengal and the transfer of the capital from Calcutta to Delhi at the 1911 Delhi Durbar?",
+      "options": ["Lord Curzon", "Lord Minto II", "Lord Hardinge II", "Lord Chelmsford"],
+      "correctAnswer": "Lord Hardinge II",
+      "explanation": "Viceroy Lord Hardinge II announced the annulment of the Partition of Bengal and the shifting of the imperial capital from Calcutta to Delhi during King George V's visit at the 1911 Delhi Durbar.",
+      "topicTag": "Delhi Durbar 1911",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The 'Drain of Wealth' theory, exposing British economic exploitation of India, was authored by Dadabhai Naoroji in which famous book?",
+      "options": [
+        "Unhappy India",
+        "Poverty and Un-British Rule in India",
+        "Economic History of India",
+        "The Indian War of Independence"
+      ],
+      "correctAnswer": "Poverty and Un-British Rule in India",
+      "explanation": "Dadabhai Naoroji authored *Poverty and Un-British Rule in India* (published 1901), systematically detailing how British rule drained India's economic wealth to England.",
+      "topicTag": "Economic Nationalism",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "The Swadeshi Steam Navigation Company was established at Tuticorin during the Swadeshi Movement by which patriotic leader?",
+      "options": ["Subramania Bharati", "V.O. Chidambaram Pillai", "Tanguturi Prakasam", "C. Rajagopalachari"],
+      "correctAnswer": "V.O. Chidambaram Pillai",
+      "explanation": "V.O. Chidambaram Pillai (VOC Pillai) established the indigenous Swadeshi Steam Navigation Company in Tuticorin (Tamil Nadu) in 1906 to challenge the British shipping monopoly.",
+      "topicTag": "Swadeshi Enterprises",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "The 'Safety Valve Theory' regarding the origin of the Indian National Congress was strongly articulated by which nationalist leader?",
+      "options": ["Gopal Krishna Gokhale", "Lala Lajpat Rai", "Bal Gangadhar Tilak", "Surendranath Banerjea"],
+      "correctAnswer": "Lala Lajpat Rai",
+      "explanation": "Lala Lajpat Rai popularized the 'Safety Valve Theory' in his writings (such as *Young India*), asserting that A.O. Hume created INC under Lord Dufferin's guidance to absorb popular discontent.",
+      "topicTag": "INC Origin Theories",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Dadabhai Naoroji was the FIRST Indian to be elected to the British House of Commons in 1892 representing which political party and constituency?",
+      "options": [
+        "Conservative Party, Manchester",
+        "Liberal Party, Central Finsbury",
+        "Labour Party, London East",
+        "Liberal Party, Oxford"
+      ],
+      "correctAnswer": "Liberal Party, Central Finsbury",
+      "explanation": "Dadabhai Naoroji became the first Indian MP in the British House of Commons in 1892, winning the Central Finsbury seat as a candidate of the Liberal Party.",
+      "topicTag": "Dadabhai Naoroji",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "The National Anthem 'Jana Gana Mana' was sung for the VERY FIRST time during which INC Session?",
+      "options": ["1896 Calcutta Session", "1906 Calcutta Session", "1911 Calcutta Session", "1916 Lucknow Session"],
+      "correctAnswer": "1911 Calcutta Session",
+      "explanation": "Rabindranath Tagore's 'Jana Gana Mana' was sung for the first time on 27 December 1911 during the Calcutta Session of INC, presided over by Bishan Narayan Dhar.",
+      "topicTag": "National Symbols History",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The famous Marathi newspaper 'Kesari' and English newspaper 'Mahratta' were published by:",
+      "options": ["Gopal Ganesh Agarkar", "Bal Gangadhar Tilak", "Gopal Krishna Gokhale", "Vishnushastri Chiplunkar"],
+      "correctAnswer": "Bal Gangadhar Tilak",
+      "explanation": "Bal Gangadhar Tilak published two influential newspapers: *Kesari* in Marathi and *Mahratta* in English to spread national political awakening.",
+      "topicTag": "Nationalist Press",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Who founded the 'Servants of India Society' in Pune in 1905 to train Indians for devoted service to the nation?",
+      "options": ["Bal Gangadhar Tilak", "Gopal Krishna Gokhale", "M.G. Ranade", "Jyotirao Phule"],
+      "correctAnswer": "Gopal Krishna Gokhale",
+      "explanation": "Gopal Krishna Gokhale founded the Servants of India Society in 1905 to train young Indians to dedicate their lives to social, educational, and political service.",
+      "topicTag": "Socio-Political Organizations",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Where was Bal Gangadhar Tilak imprisoned for 6 years (1908–1914) following his trial for sedition, during which he wrote 'Gita Rahasya'?",
+      "options": ["Cellular Jail, Andaman", "Mandalay Jail, Burma", "Yervada Jail, Pune", "Alipore Jail, Calcutta"],
+      "correctAnswer": "Mandalay Jail, Burma",
+      "explanation": "Tilak was sentenced to 6 years imprisonment for sedition in 1908 and deported to Mandalay Jail in Burma, where he authored his famous commentary *Gita Rahasya*.",
+      "topicTag": "Nationalist Leaders",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The National Council of Education was established on 15 August 1906 in Bengal under the principalship of:",
+      "options": ["Rabindranath Tagore", "Aurobindo Ghosh", "Satish Chandra Mukherjee", "Rash Behari Ghosh"],
+      "correctAnswer": "Aurobindo Ghosh",
+      "explanation": "Following the Swadeshi call for national education, Bengal National College was set up with Aurobindo Ghosh as its first Principal under the National Council of Education.",
+      "topicTag": "Swadeshi Education",
+      "difficulty": "Hard"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "When and where was the Indian National Congress (INC) founded?",
+      "back": "28 December 1885 at Gokuldas Tejpal Sanskrit College, Bombay (72 delegates attended)."
+    },
+    {
+      "front": "Who was the Founder & 1st President of INC?",
+      "back": "Founder & General Secretary: Allan Octavian Hume (A.O. Hume). 1st President: Womesh Chandra (W.C.) Bonnerjee."
+    },
+    {
+      "front": "Who were the 1st Muslim and 1st Foreign Presidents of INC?",
+      "back": "1st Muslim President: Badruddin Tyabji (Madras, 1887). 1st Foreign/English President: George Yule (Allahabad, 1888)."
+    },
+    {
+      "front": "First 4 INC Sessions venues order (Mnemonic: BCMA)?",
+      "back": "Bombay (1885) → Calcutta (1886) → Madras (1887) → Allahabad (1888)."
+    },
+    {
+      "front": "Who formulated the 'Drain of Wealth' theory and in which book?",
+      "back": "Dadabhai Naoroji in *Poverty and Un-British Rule in India* (published 1901)."
+    },
+    {
+      "front": "First Indian elected to British Parliament?",
+      "back": "Dadabhai Naoroji (1892, Liberal Party, Central Finsbury constituency)."
+    },
+    {
+      "front": "When was Vande Mataram first sung at an INC session?",
+      "back": "1896 Calcutta Session (President: Rahimtullah M. Sayani; sung by Rabindranath Tagore)."
+    },
+    {
+      "front": "Partition of Bengal: Announcement, Boycott, and Enforcement dates?",
+      "back": "Announced: 20 July 1905 (Lord Curzon). Boycott Passed: 7 August 1905 (Calcutta Town Hall). Enforced: 16 October 1905 (Day of Mourning)."
+    },
+    {
+      "front": "What were the 4 resolutions passed at the 1906 Calcutta INC Session?",
+      "back": "Swaraj (Self-Government), Swadeshi, Boycott, and National Education (President: Dadabhai Naoroji)."
+    },
+    {
+      "front": "Surat Split (1907): Venue, President, and Outcome?",
+      "back": "Venue: Surat on Tapti river. President: Rash Behari Ghosh. Outcome: Moderates expelled Extremists from INC."
+    },
+    {
+      "front": "Tilak's two newspapers and their languages?",
+      "back": "*Kesari* (MARATHI) and *Mahratta* (ENGLISH)."
+    },
+    {
+      "front": "Where was Tilak jailed from 1908–1914 and what book did he write?",
+      "back": "Mandalay Jail in Burma. He authored *Gita Rahasya*."
+    },
+    {
+      "front": "Who founded the Servants of India Society in 1905?",
+      "back": "Gopal Krishna Gokhale (Moderate leader & Gandhi's political guru)."
+    },
+    {
+      "front": "Who launched the Swadeshi Steam Navigation Company at Tuticorin?",
+      "back": "V.O. Chidambaram Pillai (VOC Pillai) in 1906."
+    },
+    {
+      "front": "When was Jana Gana Mana first sung at an INC session?",
+      "back": "1911 Calcutta Session (27 December 1911; President: Bishan Narayan Dhar)."
+    },
+    {
+      "front": "1911 Delhi Durbar: Key announcements and Viceroy?",
+      "back": "Viceroy Lord Hardinge II announced Annulment of Bengal Partition & Transfer of Capital from Calcutta to Delhi (King George V attended)."
+    },
+    {
+      "front": "Who composed 'Amar Shonar Bangla' and during which event?",
+      "back": "Rabindranath Tagore in 1905 during the Anti-Partition Swadeshi Movement (now National Anthem of Bangladesh)."
+    },
+    {
+      "front": "Safety Valve Theory vs Lightning Conductor Theory?",
+      "back": "Safety Valve (Lajpat Rai): Dufferin/Hume created INC to absorb popular anger. Lightning Conductor (Gokhale): Nationalists used Hume as a catalyst/shield."
+    },
+    {
+      "front": "Did Bal Gangadhar Tilak ever preside over an INC session?",
+      "back": "NO! Tilak NEVER presided over any INC session in his life."
+    },
+    {
+      "front": "When was All India Muslim League founded and where?",
+      "back": "30 December 1906 at Dacca (by Nawab Salimullah, Aga Khan, Mohsin-ul-Mulk)."
+    }
+  ],
+  "revisionPoints": [
+    "INC Founded: 28 Dec 1885 at Gokuldas Tejpal Sanskrit College, Bombay (72 delegates)",
+    "Founder: A.O. Hume | 1st President: W.C. Bonnerjee | Viceroy: Lord Dufferin",
+    "1st Four Sessions: Bombay (1885, W.C. Bonnerjee) → Calcutta (1886, Naoroji) → Madras (1887, Tyabji) → Allahabad (1888, Yule)",
+    "1st Muslim President: Badruddin Tyabji (1887, Madras)",
+    "1st Foreign/English President: George Yule (1888, Allahabad)",
+    "Dadabhai Naoroji: Drain of Wealth theory + 1st Indian MP in British Parliament (1892) + 3-time INC President",
+    "Vande Mataram 1st sung at INC: 1896 Calcutta Session (President: R.M. Sayani)",
+    "Moderates (1885-1905): Naoroji, Gokhale, Mehta, Banerjea (Method: 3Ps — Petitions, Prayers, Protests)",
+    "Extremists (1905-1919): Lal-Bal-Pal & Aurobindo Ghosh (Method: Swadeshi, Boycott, Passive Resistance)",
+    "Tilak: 'Swaraj is my birthright' + *Kesari* (Marathi) & *Mahratta* (English) + Ganapati/Shivaji festivals",
+    "Bengal Partition Announced: 20 July 1905 by Lord Curzon",
+    "Boycott Resolution Passed: 7 August 1905 at Calcutta Town Hall (Swadeshi Day)",
+    "Bengal Partition Enforced: 16 October 1905 (Day of Mourning & Raksha Bandhan Day)",
+    "Rabindranath Tagore: Raksha Bandhan + 'Amar Shonar Bangla' (1905)",
+    "Swadeshi Enterprises: VOC Pillai (Swadeshi Steam Navigation Co., Tuticorin) + P.C. Ray (Bengal Chemicals)",
+    "1906 Calcutta INC Session: Dadabhai Naoroji declares 'Swaraj'; 4 resolutions passed",
+    "Muslim League Founded: 30 Dec 1906 at Dacca (Nawab Salimullah & Aga Khan)",
+    "Surat Split: 1907 INC Session on Tapti river; President: Rash Behari Ghosh; Moderates expelled Extremists",
+    "Tilak Imprisoned: 1908-1914 in Mandalay Jail, Burma (authored *Gita Rahasya*)",
+    "Servants of India Society: Founded by G.K. Gokhale in Pune (1905)",
+    "Annulment of Bengal Partition: 1911 Delhi Durbar by Lord Hardinge II & King George V",
+    "Capital Shift: Calcutta to Delhi announced 1911 (effective 1912)",
+    "Jana Gana Mana 1st sung at INC: 1911 Calcutta Session (27 Dec 1911; President: Bishan Narayan Dhar)",
+    "Safety Valve Theory: Popularized by Lala Lajpat Rai (*Young India*)",
+    "Lightning Conductor Theory: Formulated by Gopal Krishna Gokhale",
+    "National Council of Education: Founded 15 Aug 1906; Bengal National College Principal: Aurobindo Ghosh",
+    "Surendranath Banerjea: Founded Indian Association (1876); missed 1st INC session",
+    "Tilak NEVER presided over any INC session",
+    "Annie Besant = 1st Woman President (1917) | Sarojini Naidu = 1st Indian Woman President (1925)",
+    "Gokhale = Political Guru of Mahatma Gandhi"
+  ],
+  "revisionSheet": [
+    "1885: INC Founded at Gokuldas Tejpal Sanskrit College, Bombay (28 Dec, 72 delegates, A.O. Hume, W.C. Bonnerjee)",
+    "1886: 2nd INC Session Calcutta (Naoroji) → 1st non-Hindu President",
+    "1887: 3rd INC Session Madras (Badruddin Tyabji) → 1st Muslim President",
+    "1888: 4th INC Session Allahabad (George Yule) → 1st Foreign President",
+    "1892: Dadabhai Naoroji elected 1st Indian MP in British House of Commons (Central Finsbury)",
+    "1893: Tilak starts Ganapati Festival in Maharashtra (Shivaji Festival in 1895)",
+    "1896: Vande Mataram sung for 1st time at INC Calcutta Session (Sayani)",
+    "1899–1905: Lord Curzon Viceroy of India",
+    "1905 (20 July): Partition of Bengal announced by Lord Curzon",
+    "1905 (7 Aug): Boycott Resolution passed at Calcutta Town Hall → Swadeshi Movement launched",
+    "1905 (16 Oct): Partition of Bengal enforced → Day of Mourning & Raksha Bandhan Day",
+    "1905 (Dec): Benaras INC Session (G.K. Gokhale) → INC supports Swadeshi for Bengal",
+    "1905: Gokhale founds Servants of India Society in Pune",
+    "1906 (15 Aug): National Council of Education established (Aurobindo Ghosh Principal)",
+    "1906 (Dec): Calcutta INC Session (Naoroji) → 'Swaraj' declared; 4 resolutions passed",
+    "1906 (30 Dec): All India Muslim League founded at Dacca",
+    "1906: VOC Pillai starts Swadeshi Steam Navigation Co. at Tuticorin",
+    "1907: Surat Split at INC Session (Tapti River, Rash Behari Ghosh) → Moderates expel Extremists",
+    "1908–1914: Tilak imprisoned in Mandalay Jail, Burma → writes *Gita Rahasya*",
+    "1911: Delhi Durbar → Lord Hardinge II & King George V annul Bengal Partition & shift capital Calcutta → Delhi",
+    "1911 (27 Dec): Jana Gana Mana sung for 1st time at INC Calcutta Session (Dhar)",
+    "Safety Valve Theory = Lajpat Rai | Lightning Conductor Theory = Gokhale",
+    "Moderates = 3Ps (Petitions, Prayers, Protests) | Extremists = Passive Resistance & Swadeshi",
+    "Kesari = Marathi newspaper | Mahratta = English newspaper (both by Tilak)",
+    "Tilak NEVER presided over any INC Session"
+  ],
+  "relatedTopics": {
+    "previousTopic": "Regulating Act & Early Governors",
+    "previousTopicId": "regulating-act-and-early-governors",
+    "currentTopic": "INC Formation & Swadeshi Movement",
+    "nextTopic": "The Revolt of 1857",
+    "nextTopicId": "revolt-of-1857"
+  }
+}
