@@ -81,6 +81,7 @@ const GKGSUpload = mongoose.model('Upload', UploadSchema);
 // Import Statistics Engine & Models
 const StatisticsEngine = require('./engine/statistics');
 const {
+  UserActivity,
   QuizAttempt,
   FlashcardSession,
   StudySession,
@@ -222,6 +223,83 @@ app.get('/api/dashboard', authenticateToken, async (req, res) => {
     res.json(payload);
   } catch (err) {
     res.status(500).json({ error: 'Failed to generate dashboard data', details: err.message });
+  }
+});
+
+// POST /api/activity/log — Event-driven activity logger
+app.post('/api/activity/log', authenticateToken, async (req, res) => {
+  try {
+    const { eventType, subject, topicId, metadata, timestamp } = req.body;
+    if (!eventType) {
+      return res.status(400).json({ error: 'eventType is required' });
+    }
+
+    const activity = new UserActivity({
+      userId: req.user.id,
+      eventType,
+      subject: subject || null,
+      topicId: topicId || null,
+      metadata: metadata || {},
+      timestamp: timestamp ? new Date(timestamp) : new Date()
+    });
+
+    await activity.save();
+
+    // Secondary side effects based on eventType (XP award & goals)
+    const todayStr = new Date().toISOString().slice(0, 10);
+
+    if (['visit_module', 'topic_opened'].includes(eventType) && subject) {
+      const key = `visit_module:${req.user.id}:${subject}:${todayStr}`;
+      const { awarded } = await StatisticsEngine.awardXP(req.user.id, 50, 'visit_module', subject, key);
+      if (awarded) {
+        await ActivityLog.create({
+          userId: req.user.id,
+          action: `Opened ${subject.toUpperCase()} Topic`,
+          type: 'visit_module',
+          icon: '📚',
+          subject,
+          xpEarned: 50
+        });
+      }
+      await StatisticsEngine.markDailyGoal(req.user.id, 'visitModule');
+    } else if (['note_read', 'read_notes'].includes(eventType)) {
+      const key = `read_notes:${req.user.id}:${topicId || subject || 'gen'}:${todayStr}`;
+      const { awarded } = await StatisticsEngine.awardXP(req.user.id, 30, 'read_notes', subject, key);
+      if (awarded) {
+        await ActivityLog.create({
+          userId: req.user.id,
+          action: `Read ${subject ? subject.toUpperCase() : ''} Notes`,
+          type: 'read_notes',
+          icon: '📖',
+          subject,
+          xpEarned: 30
+        });
+      }
+      await StatisticsEngine.markDailyGoal(req.user.id, 'readNotes');
+    } else if (eventType === 'flashcard_reviewed') {
+      const key = `flashcard:${req.user.id}:${Date.now()}`;
+      await StatisticsEngine.awardXP(req.user.id, 5, 'flashcard_reviewed', subject || 'flashcards', key);
+      await StatisticsEngine.markDailyGoal(req.user.id, 'flashcard');
+    } else if (eventType === 'quiz_completed') {
+      await StatisticsEngine.markDailyGoal(req.user.id, 'quiz');
+    } else if (eventType === 'file_upload' || eventType === 'study_file_opened') {
+      await StatisticsEngine.markDailyGoal(req.user.id, 'uploadFile');
+    }
+
+    const dashboard = await StatisticsEngine.buildDashboardPayload(req.user.id);
+    res.json({ success: true, activityId: activity._id, dashboard });
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to record activity log', details: err.message });
+  }
+});
+
+// GET /api/activity/history — Retrieve raw event stream for user
+app.get('/api/activity/history', authenticateToken, async (req, res) => {
+  try {
+    const activities = await UserActivity.find({ userId: req.user.id }).sort({ timestamp: -1 }).limit(100);
+    res.json(activities);
+  } catch (err) {
+    res.status(500).json({ error: 'Failed to fetch activity history', details: err.message });
   }
 });
 

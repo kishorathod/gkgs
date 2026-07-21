@@ -12,6 +12,7 @@
 
 import { addXP, markGoalReadNotes } from '../app.js';
 import { api } from './api-service.js';
+import { activityStore } from './activity-store.js';
 
 export class LearningModuleEngine {
   constructor(options = {}) {
@@ -41,6 +42,7 @@ export class LearningModuleEngine {
         this.activeSubTab = 'overview';
         this.flashcardIdx = 0;
         this.flashcardFlipped = false;
+        activityStore.logEvent('topic_opened', { subject: this.subject, topicId });
         this.renderAll();
         this.syncTopicSelector(topicId);
       }

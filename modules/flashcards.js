@@ -3,7 +3,7 @@
    Renders active recall cards, 3D flip card animations, and rating logic.
    ========================================================================== */
 
-import { addXP, completeGoal, markGoalReadNotes } from '../app.js';
+import { addXP, completeGoal, markGoalReadNotes, logFlashcardReviewed } from '../app.js';
 
 // Flashcard decks data
 const DECK_DATA = {
@@ -224,6 +224,7 @@ export const flashcardModule = {
         
         const newMastery = this.updateMasteryLevel(diff);
         addXP(xpGained, 'flashcards', `Flashcard rated (Box ${newMastery})`);
+        logFlashcardReviewed(this.currentDeck || 'general', diff === 'easy', diff);
 
         // Mark flashcard goal completed
         completeGoal('flashcard', 'Completed flashcard session');

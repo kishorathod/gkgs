@@ -25,6 +25,7 @@ import { CURRENT_AFFAIRS_NOTES_SECTIONS } from './modules/currentaffairs-notes-d
 
 import { api } from './modules/api-service.js';
 import { DashboardRenderer } from './modules/dashboard-renderer.js';
+import { activityStore } from './modules/activity-store.js';
 
 // App State (Transient UI state only)
 const AppState = {
@@ -32,16 +33,25 @@ const AppState = {
   sessionStart: Date.now()
 };
 
+// Subscribe DashboardRenderer directly to Event-Driven ActivityStore
+activityStore.subscribe((metrics) => {
+  DashboardRenderer.render(metrics);
+});
+
 /**
  * Fetch fresh database-driven dashboard payload and render to UI
  */
 export async function refreshDashboard() {
   const token = localStorage.getItem('gkgs_auth_token');
+  // First render purely computed local activity metrics instantly
+  DashboardRenderer.render(activityStore.getDashboardMetrics());
+
   if (!token) return;
 
   try {
     const data = await api.getDashboard();
-    DashboardRenderer.render(data);
+    activityStore.syncWithServerPayload(data);
+    DashboardRenderer.render(activityStore.getDashboardMetrics());
   } catch (e) {
     console.warn("Could not fetch dashboard metrics from database:", e.message);
   }
@@ -460,7 +470,7 @@ function setupNavigation() {
   handleRoute();
 }
 
-// Module enter handler — triggers database action & updates dashboard
+// Module enter handler — triggers activity event & updates derived dashboard
 async function onModuleEnter(moduleName) {
   if (moduleName === 'flashcards') {
     flashcardModule.onEnter();
@@ -468,8 +478,8 @@ async function onModuleEnter(moduleName) {
 
   if (moduleName !== 'dashboard') {
     try {
+      await activityStore.logEvent('topic_opened', { subject: moduleName, xpEarned: 50, title: `Opened ${moduleName.toUpperCase()} Module` });
       await api.visitModule(moduleName);
-      await refreshDashboard();
     } catch (e) {
       console.warn("Module visit record failed:", e.message);
     }
@@ -480,12 +490,14 @@ async function onModuleEnter(moduleName) {
 
 export async function addXP(amount, subject = null, actionLabel = null) {
   try {
+    await activityStore.logEvent('action_completed', {
+      subject,
+      xpEarned: amount,
+      title: actionLabel || `Completed ${subject || 'general'} action`
+    });
     if (subject) {
       await api.visitModule(subject);
-    } else {
-      await api.triggerAction('visit-module', { subject: 'general' });
     }
-    await refreshDashboard();
     showToast(`+${amount} XP Earned!`);
   } catch (e) {
     console.warn("addXP failed:", e.message);
@@ -494,6 +506,11 @@ export async function addXP(amount, subject = null, actionLabel = null) {
 
 export async function completeGoal(goalId, label = null) {
   try {
+    await activityStore.logEvent('goal_completed', {
+      metadata: { goalId, label },
+      xpEarned: 100,
+      title: `Unlocked Goal: ${goalId}`
+    });
     const actionTypeMap = {
       visitModule: 'visit-module',
       readNotes:   'read-notes',
@@ -503,7 +520,6 @@ export async function completeGoal(goalId, label = null) {
     };
     const actionType = actionTypeMap[goalId] || 'visit-module';
     await api.triggerAction(actionType, { subject: 'general' });
-    await refreshDashboard();
     showToast(`🎯 Goal Unlocked! +100 XP`);
   } catch (e) {
     console.warn("completeGoal failed:", e.message);
@@ -512,8 +528,13 @@ export async function completeGoal(goalId, label = null) {
 
 export async function markGoalReadNotes(subject, sectionId) {
   try {
+    await activityStore.logEvent('note_read', {
+      subject,
+      topicId: sectionId,
+      xpEarned: 30,
+      title: `Read ${subject ? subject.toUpperCase() : ''} Notes`
+    });
     await api.readNotes(subject, sectionId);
-    await refreshDashboard();
     showToast('🎯 Goal Unlocked: Read Notes (+30 XP)');
   } catch (e) {
     console.warn("markGoalReadNotes failed:", e.message);
@@ -522,12 +543,38 @@ export async function markGoalReadNotes(subject, sectionId) {
 
 export async function markGoalUpload(subject, fileName) {
   try {
+    await activityStore.logEvent('file_upload', {
+      subject,
+      metadata: { fileName },
+      xpEarned: 20,
+      title: `Uploaded ${fileName || 'file'}`
+    });
     await api.recordFileUpload(subject, fileName);
-    await refreshDashboard();
     showToast('🎯 Goal Unlocked: File Uploaded (+20 XP)');
   } catch (e) {
     console.warn("markGoalUpload failed:", e.message);
   }
+}
+
+export async function logQuestionAnswered(subject, topicId, isCorrect, questionText) {
+  await activityStore.logEvent('question_answered', {
+    subject,
+    topicId,
+    isCorrect,
+    xpEarned: isCorrect ? 20 : 0,
+    title: isCorrect ? 'Answered Quiz Question Correctly (+20 XP)' : 'Answered Quiz Question'
+  });
+}
+
+export async function logFlashcardReviewed(subject, isCorrect, difficulty) {
+  const xpGained = difficulty === 'easy' ? 20 : (difficulty === 'hard' ? 10 : 15);
+  await activityStore.logEvent('flashcard_reviewed', {
+    subject: subject || 'flashcards',
+    isCorrect,
+    xpEarned: xpGained,
+    metadata: { difficulty },
+    title: `Reviewed Flashcard (${difficulty})`
+  });
 }
 
 async function onQuizCompleted(score, details = {}) {
@@ -537,8 +584,17 @@ async function onQuizCompleted(score, details = {}) {
     const subject = (details && details.subject) || 'quiz';
     const duration = (details && details.duration) || 60;
 
+    await activityStore.logEvent('quiz_completed', {
+      subject,
+      questionsCount: questionsAttempted,
+      correctCount: correctAnswers,
+      score,
+      duration,
+      xpEarned: 100,
+      title: `Completed ${subject.toUpperCase()} Quiz (${score}%)`
+    });
+
     await api.completeQuiz(subject, questionsAttempted, correctAnswers, score, duration);
-    await refreshDashboard();
     showToast('🎯 Quiz Completed! (+100 XP)');
   } catch (e) {
     console.warn("onQuizCompleted failed:", e.message);
@@ -553,25 +609,34 @@ let isTabActive = true;
 function startSessionTimer() {
   stopSessionTimer();
 
+  activityStore.logEvent('session_started', { subject: AppState.currentView });
+
   document.addEventListener('visibilitychange', () => {
     isTabActive = !document.hidden;
   });
 
   sessionTimerInterval = setInterval(async () => {
-    const token = localStorage.getItem('gkgs_auth_token');
-    if (!token || !isTabActive) return;
+    if (!isTabActive) return;
 
     activeSecondsToday += 1;
+    activityStore.currentActiveSessionSeconds = activeSecondsToday;
 
-    // Every 60 seconds of active tab usage, push 1 minute study session to DB & refresh dashboard
+    // Every 60 seconds of active tab usage, record study session event & notify subscribers
     if (activeSecondsToday % 60 === 0) {
       try {
-        await api.endStudySession(AppState.currentView || 'general', 1);
-        await refreshDashboard();
+        await activityStore.logEvent('reading_duration', {
+          subject: AppState.currentView || 'general',
+          duration: 60,
+          title: 'Studied for 1 minute'
+        });
+        const token = localStorage.getItem('gkgs_auth_token');
+        if (token) {
+          await api.endStudySession(AppState.currentView || 'general', 1);
+          await refreshDashboard();
+        }
       } catch (e) {
         // silent
       }
-    }
   }, 1000);
 }
 

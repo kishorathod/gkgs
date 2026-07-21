@@ -3,7 +3,7 @@
    Renders custom mock tests, timings, progress, scoring, and explanations.
    ========================================================================== */
 
-import { addXP } from '../app.js';
+import { addXP, logQuestionAnswered } from '../app.js';
 import { POLITY_PYQ_DATA } from './polity-notes-data.js';
 import { HISTORY_PYQ_DATA } from './history-notes-data.js';
 import { SCIENCE_PYQ_DATA } from './science-notes-data.js';
@@ -453,6 +453,8 @@ export const quizModule = {
       expl: qData.expl,
       isCorrect
     });
+
+    logQuestionAnswered((qData.category || qData.subject || 'quiz').toLowerCase(), qData.id ? String(qData.id) : null, isCorrect, qData.q);
 
     if (isCorrect) {
       this.score++;

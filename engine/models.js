@@ -18,6 +18,16 @@ const XpTransactionSchema = new Schema({
   createdAt:        { type: Date, default: Date.now, index: true }
 });
 
+// ── User Activity (event-driven stream) ──────────────────────────────────────
+const UserActivitySchema = new Schema({
+  userId:    { type: ObjectId, ref: 'User', required: true, index: true },
+  eventType: { type: String, required: true, index: true }, // e.g. 'topic_opened', 'question_answered', 'flashcard_reviewed'
+  subject:   { type: String, default: null, index: true },
+  topicId:   { type: String, default: null },
+  metadata:  { type: Schema.Types.Mixed, default: {} },
+  timestamp: { type: Date, default: Date.now, index: true }
+});
+
 // ── Activity Log (event stream) ──────────────────────────────────────────────
 const ActivityLogSchema = new Schema({
   userId:    { type: ObjectId, ref: 'User', required: true, index: true },
@@ -113,6 +123,7 @@ const UserProgressSchema = new Schema({
 }, { timestamps: true });
 
 // ── Model Exports ────────────────────────────────────────────────────────────
+const UserActivity     = mongoose.model('UserActivity',     UserActivitySchema);
 const XpTransaction    = mongoose.model('XpTransaction',    XpTransactionSchema);
 const ActivityLog      = mongoose.model('ActivityLog',      ActivityLogSchema);
 const QuizAttempt      = mongoose.model('QuizAttempt',      QuizAttemptSchema);
@@ -123,6 +134,7 @@ const DailyGoal        = mongoose.model('DailyGoal',        DailyGoalSchema);
 const UserProgress     = mongoose.model('UserProgress',     UserProgressSchema);
 
 module.exports = {
+  UserActivity,
   XpTransaction,
   ActivityLog,
   QuizAttempt,
