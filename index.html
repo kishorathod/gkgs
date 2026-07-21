@@ -627,39 +627,200 @@
         </section>
 
         <!-- HISTORY TIMELINE VIEW -->
+        <!-- HISTORY MODULE VIEW (Refactored Structured Architecture) -->
         <section id="view-history" class="view-panel">
-          <div class="module-header-banner">
-            <img src="assets/history_hero.jpg" alt="History Hero" class="banner-img">
-            <div class="banner-overlay"></div>
-            <div class="banner-content">
-              <h2>Chronology of Indian History</h2>
-              <p>Explore high-yield periods frequently queried in the SSC CGL exam</p>
+
+          <!-- 1. Chapter Summary Hero Section -->
+          <div class="glass-card study-hero">
+            <div class="study-hero-top">
+              <div>
+                <div class="study-hero-badge">📚 Modern &amp; Indian History</div>
+                <h2 class="study-hero-title">Chronology of Indian History</h2>
+                <p class="study-hero-desc">Master the high-yield timelines, European arrival, Governor-Generals, freedom struggle, and TCS repeated PYQs for SSC CGL Tier 1 &amp; Tier 2.</p>
+              </div>
+              <div class="study-hero-actions">
+                <button class="btn btn-primary" id="btn-history-read-cta">📖 Continue Reading</button>
+                <button class="btn btn-secondary" id="btn-history-quiz-cta">🎯 Start Topic Quiz</button>
+              </div>
+            </div>
+            
+            <div class="study-hero-metrics">
+              <div class="study-metric-chip chip-importance">
+                <span class="chip-label">SSC Weightage</span>
+                <span class="chip-val">⭐⭐⭐⭐⭐ High</span>
+              </div>
+              <div class="study-metric-chip chip-questions">
+                <span class="chip-label">Expected Questions</span>
+                <span class="chip-val">2 – 4 Qs</span>
+              </div>
+              <div class="study-metric-chip chip-difficulty">
+                <span class="chip-label">Difficulty</span>
+                <span class="chip-val">Medium</span>
+              </div>
+              <div class="study-metric-chip chip-time">
+                <span class="chip-label">Reading Time</span>
+                <span class="chip-val">⏱️ ~45 mins</span>
+              </div>
+              <div class="study-metric-chip chip-progress">
+                <span class="chip-label">Chapter Progress</span>
+                <div class="study-hero-bar-wrap">
+                  <div class="study-hero-bar" id="history-hero-bar" style="width: 0%"></div>
+                </div>
+                <span class="chip-pct" id="history-hero-pct">0%</span>
+              </div>
             </div>
           </div>
-          <div class="polity-tab-header" style="margin-top: 24px; margin-bottom: 24px;">
-            <button class="polity-tab-btn active history-tab-btn" data-tab="timeline" id="btn-history-timeline-tab">Interactive Timeline</button>
-            <button class="polity-tab-btn history-tab-btn" data-tab="notes" id="btn-history-notes-tab">Detailed Modern History Notes</button>
-          </div>
 
-          <div id="history-timeline-tab-content">
-            <div class="filter-bar">
-              <button class="filter-btn active" data-period="all">All Eras</button>
-              <button class="filter-btn" data-period="ancient">Ancient (Indus - Harsha)</button>
-              <button class="filter-btn" data-period="medieval">Medieval (Sultanate - Mughal)</button>
-              <button class="filter-btn" data-period="modern">Modern (British - Independence)</button>
-            </div>
-
-            <div class="timeline-container">
-              <div class="timeline-line"></div>
-              <!-- Timeline elements are injected dynamically by history.js -->
-              <div id="timeline-events" class="timeline-events-wrapper"></div>
+          <!-- 2. Sticky Sub-Navigation Tabs Bar -->
+          <div class="study-sticky-nav-wrap">
+            <div class="study-sticky-nav" id="history-subnav">
+              <button class="study-nav-btn active" data-subtab="overview">📊 Overview</button>
+              <button class="study-nav-btn" data-subtab="timeline">⏱️ Timeline</button>
+              <button class="study-nav-btn" data-subtab="notes">📖 Study Notes</button>
+              <button class="study-nav-btn" data-subtab="pyqs">📌 PYQs</button>
+              <button class="study-nav-btn" data-subtab="quiz">🎯 Practice Quiz</button>
+              <button class="study-nav-btn" data-subtab="flashcards">🃏 Flashcards</button>
+              <button class="study-nav-btn" data-subtab="mindmaps">🧠 Mind Maps</button>
+              <button class="study-nav-btn" data-subtab="revisionsheet">⚡ Revision Sheet</button>
+              <button class="study-nav-btn" data-subtab="files">📁 Study Files</button>
+              <button class="study-nav-btn" data-subtab="analytics">📈 Analytics</button>
             </div>
           </div>
 
-          <div id="history-notes-tab-content" class="hidden">
-            <div class="glass-card polity-notes-container" id="history-notes-container">
-              <!-- Injected via history.js -->
+          <!-- 3. Layout Grid (Main Content + Sticky Right Sidebar) -->
+          <div class="study-layout-grid">
+            
+            <!-- Left Main Content Area -->
+            <div class="study-main-content">
+              
+              <!-- Tab 1: Overview -->
+              <div class="study-tab-pane active" id="history-subtab-overview">
+                <!-- Dynamically populated in history.js -->
+              </div>
+
+              <!-- Tab 2: Timeline -->
+              <div class="study-tab-pane hidden" id="history-subtab-timeline">
+                <div class="filter-bar">
+                  <button class="filter-btn active" data-period="all">All Eras</button>
+                  <button class="filter-btn" data-period="ancient">Ancient (Indus - Harsha)</button>
+                  <button class="filter-btn" data-period="medieval">Medieval (Sultanate - Mughal)</button>
+                  <button class="filter-btn" data-period="modern">Modern (British - Independence)</button>
+                </div>
+                <div class="timeline-container">
+                  <div class="timeline-line"></div>
+                  <div id="timeline-events" class="timeline-events-wrapper"></div>
+                </div>
+              </div>
+
+              <!-- Tab 3: Study Notes (Accordions & Structured Learning Cards) -->
+              <div class="study-tab-pane hidden" id="history-subtab-notes">
+                <div id="history-notes-accordion-container">
+                  <!-- Dynamically rendered structured accordion notes -->
+                </div>
+              </div>
+
+              <!-- Tab 4: PYQs -->
+              <div class="study-tab-pane hidden" id="history-subtab-pyqs">
+                <div id="history-pyqs-container">
+                  <!-- Topic-wise PYQs -->
+                </div>
+              </div>
+
+              <!-- Tab 5: Practice Quiz -->
+              <div class="study-tab-pane hidden" id="history-subtab-quiz">
+                <div id="history-quiz-container">
+                  <!-- Quiz Engine -->
+                </div>
+              </div>
+
+              <!-- Tab 6: Flashcards -->
+              <div class="study-tab-pane hidden" id="history-subtab-flashcards">
+                <div id="history-flashcards-container">
+                  <!-- Flashcard shortcut -->
+                </div>
+              </div>
+
+              <!-- Tab 7: Mind Maps -->
+              <div class="study-tab-pane hidden" id="history-subtab-mindmaps">
+                <div id="history-mindmaps-container">
+                  <!-- Visual Flowcharts & Diagrams -->
+                </div>
+              </div>
+
+              <!-- Tab 8: Revision Sheet -->
+              <div class="study-tab-pane hidden" id="history-subtab-revisionsheet">
+                <div id="history-revisionsheet-container">
+                  <!-- 1-Page High-Yield Cheat Sheet -->
+                </div>
+              </div>
+
+              <!-- Tab 9: Study Files -->
+              <div class="study-tab-pane hidden" id="history-subtab-files">
+                <div id="history-files-container">
+                  <!-- Files list -->
+                </div>
+              </div>
+
+              <!-- Tab 10: Progress Analytics -->
+              <div class="study-tab-pane hidden" id="history-subtab-analytics">
+                <div id="history-analytics-container">
+                  <!-- Analytics -->
+                </div>
+              </div>
+
+              <!-- Bottom Topic Navigation -->
+              <div class="study-bottom-nav">
+                <button class="btn btn-outline" id="btn-hist-prev-topic">← Previous View</button>
+                <div class="study-bottom-ctas">
+                  <button class="btn btn-secondary" id="btn-hist-bottom-quiz">🎯 Practice Quiz</button>
+                  <button class="btn btn-secondary" id="btn-hist-bottom-flash">🃏 Flashcards</button>
+                </div>
+                <button class="btn btn-primary" id="btn-hist-next-topic">Next Sub-Tab →</button>
+              </div>
+
             </div>
+
+            <!-- Sticky Right Sidebar (Desktop) -->
+            <div class="study-sidebar glass-card">
+              <div class="study-sb-header">
+                <h4>📊 Chapter Insights</h4>
+                <span class="study-sb-badge">History</span>
+              </div>
+              <div class="study-sb-stats">
+                <div class="study-sb-item">
+                  <span class="study-sb-lbl">Chapter Progress</span>
+                  <span class="study-sb-val" id="hist-sb-pct">0%</span>
+                </div>
+                <div class="study-sb-bar-bg"><div class="study-sb-bar-fill" id="hist-sb-bar" style="width:0%"></div></div>
+
+                <div class="study-sb-item">
+                  <span class="study-sb-lbl">Reading Time Left</span>
+                  <span class="study-sb-val" id="hist-sb-time">~26 mins</span>
+                </div>
+
+                <div class="study-sb-item">
+                  <span class="study-sb-lbl">PYQs Solved</span>
+                  <span class="study-sb-val" id="hist-sb-pyqs">0 / 40</span>
+                </div>
+
+                <div class="study-sb-item">
+                  <span class="study-sb-lbl">Topic Accuracy</span>
+                  <span class="study-sb-val" id="hist-sb-acc">--</span>
+                </div>
+
+                <div class="study-sb-item">
+                  <span class="study-sb-lbl">Revision Due</span>
+                  <span class="study-sb-val" style="color: var(--accent-amber);">Leitner Box 2</span>
+                </div>
+              </div>
+
+              <div class="study-sb-cta">
+                <button class="btn btn-primary btn-block" id="btn-hist-sb-quiz">
+                  ⚡ Quick Test (5 Qs)
+                </button>
+              </div>
+            </div>
+
           </div>
 
           <!-- Event Detail Modal -->
@@ -672,7 +833,7 @@
                 <h4 id="hist-modal-date">1915</h4>
                 <div class="modal-info-grid">
                   <div class="info-block">
-                    <h5>Key Concepts & Facts</h5>
+                    <h5>Key Concepts &amp; Facts</h5>
                     <p id="hist-modal-desc">Details of the event go here...</p>
                   </div>
                   <div class="info-block ssc-notes">
@@ -686,6 +847,7 @@
               </div>
             </div>
           </div>
+
         </section>
 
         <!-- POLITY EXPLORER VIEW -->

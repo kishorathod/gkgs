@@ -1,13 +1,14 @@
 /* ==========================================================================
    History Module (modules/history.js)
-   Renders the interactive historical timeline of Indian History,
-   detailed Modern History exam notes, and interactive history PYQ quiz.
+   Redesigned Study Material Architecture for SSC CGL History.
+   Handles 10 structured sub-tabs, collapsible accordions, learning cards,
+   interactive timelines, PYQ quizzes, flashcards, mindmaps, and analytics.
    ========================================================================== */
 
 import { addXP, markGoalReadNotes } from '../app.js';
 import { HISTORY_NOTES_SECTIONS, HISTORY_PYQ_DATA } from './history-notes-data.js';
 
-// High-yield SSC CGL History timeline database (for Timeline tab)
+// High-yield SSC CGL History timeline database
 const TIMELINE_DATA = [
   {
     id: 1,
@@ -28,7 +29,7 @@ const TIMELINE_DATA = [
     title: "Ascension of Chandragupta Maurya",
     era: "ancient",
     shortDesc: "Founding of the Maurya Empire with Chanakya's guidance, defeating the Nanda Dynasty.",
-    longDesc: "Chandragupta Maurya overthrown the Nanda dynasty's Dhanananda to establish the vast Mauryan empire, guided by his advisor Chanakya (Kautilya), author of Arthashastra. Megasthenes visited his court as a Greek ambassador sent by Seleucus Nicator and wrote 'Indica'.",
+    longDesc: "Chandragupta Maurya overthrew the Nanda dynasty's Dhanananda to establish the vast Mauryan empire, guided by his advisor Chanakya (Kautilya), author of Arthashastra. Megasthenes visited his court as a Greek ambassador sent by Seleucus Nicator and wrote 'Indica'.",
     questions: [
       "Who wrote the book 'Indica'? (Answer: Megasthenes)",
       "Who was the prime minister of Chandragupta Maurya? (Answer: Chanakya / Kautilya)",
@@ -90,7 +91,7 @@ const TIMELINE_DATA = [
 ];
 
 export const historyModule = {
-  activeTab: "timeline", // 'timeline' or 'notes'
+  activeSubTab: "overview",
   pyqState: {
     active: false,
     questions: [],
@@ -101,126 +102,145 @@ export const historyModule = {
   },
 
   init() {
+    this.setupSubNav();
+    this.setupHeroCTAs();
     this.renderEvents("all");
     this.setupFilters();
     this.setupModal();
-    this.setupTabs();
-    this.renderNotes();
+    this.renderStructuredNotes();
+    this.setupPYQQuiz();
+    this.setupAccordions();
+    this.setupBottomNav();
   },
 
-  // ── Tab Switching ────────────────────────────────────────────────────
-  setupTabs() {
-    const timelineBtn = document.getElementById('btn-history-timeline-tab');
-    const notesBtn = document.getElementById('btn-history-notes-tab');
+  // ── 1. Sub-Tab Navigation Bar ──────────────────────────────────────────
+  setupSubNav() {
+    const subnavContainer = document.getElementById('history-subnav');
+    if (!subnavContainer) return;
 
-    if (timelineBtn) {
-      timelineBtn.addEventListener('click', () => this.switchTab('timeline'));
-    }
-    if (notesBtn) {
-      notesBtn.addEventListener('click', () => this.switchTab('notes'));
-    }
+    subnavContainer.querySelectorAll('.study-nav-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        const targetSubtab = e.currentTarget.dataset.subtab;
+        this.switchSubTab(targetSubtab);
+      });
+    });
   },
 
-  switchTab(tab) {
-    this.activeTab = tab;
+  switchSubTab(subtabId) {
+    this.activeSubTab = subtabId;
 
-    // Toggle active classes on buttons
-    document.querySelectorAll('.history-tab-btn').forEach(btn => btn.classList.remove('active'));
-    const activeBtn = document.querySelector(`.history-tab-btn[data-tab="${tab}"]`);
-    if (activeBtn) activeBtn.classList.add('active');
-
-    // Toggle content panes
-    const timelineContent = document.getElementById('history-timeline-tab-content');
-    const notesContent = document.getElementById('history-notes-tab-content');
-
-    if (tab === 'timeline') {
-      timelineContent?.classList.remove('hidden');
-      notesContent?.classList.add('hidden');
-    } else {
-      timelineContent?.classList.add('hidden');
-      notesContent?.classList.remove('hidden');
-      markGoalReadNotes(); // Mark 'read notes' goal complete
+    // Update button active state
+    const subnavContainer = document.getElementById('history-subnav');
+    if (subnavContainer) {
+      subnavContainer.querySelectorAll('.study-nav-btn').forEach(btn => {
+        if (btn.dataset.subtab === subtabId) {
+          btn.classList.add('active');
+        } else {
+          btn.classList.remove('active');
+        }
+      });
     }
 
-    addXP(5, 'history', 'Browsed History tab');
+    // Toggle sub-tab content panes
+    document.querySelectorAll('#history-notes-tab-content .study-tab-pane').forEach(pane => {
+      pane.classList.add('hidden');
+    });
+
+    const activePane = document.getElementById(`history-subtab-${subtabId}`);
+    if (activePane) {
+      activePane.classList.remove('hidden');
+    }
+
+    if (subtabId === 'notes') {
+      markGoalReadNotes();
+    }
+
+    addXP(5, 'history', `Browsed History ${subtabId} tab`);
   },
 
-  // ── Notes Rendering ──────────────────────────────────────────────────
-  renderNotes() {
-    const container = document.getElementById('history-notes-container');
+  // ── 2. Hero CTAs & Bottom Nav ─────────────────────────────────────────
+  setupHeroCTAs() {
+    document.getElementById('btn-history-continue')?.addEventListener('click', () => {
+      this.switchSubTab('notes');
+    });
+    document.getElementById('btn-history-hero-quiz')?.addEventListener('click', () => {
+      this.switchSubTab('quiz');
+    });
+  },
+
+  setupBottomNav() {
+    document.getElementById('btn-history-bottom-prev')?.addEventListener('click', () => {
+      const tabs = ['overview', 'timeline', 'notes', 'pyqs', 'quiz', 'flashcards', 'mindmaps', 'revision', 'files', 'analytics'];
+      const currentIdx = tabs.indexOf(this.activeSubTab);
+      if (currentIdx > 0) {
+        this.switchSubTab(tabs[currentIdx - 1]);
+      }
+    });
+
+    document.getElementById('btn-history-bottom-next')?.addEventListener('click', () => {
+      const tabs = ['overview', 'timeline', 'notes', 'pyqs', 'quiz', 'flashcards', 'mindmaps', 'revision', 'files', 'analytics'];
+      const currentIdx = tabs.indexOf(this.activeSubTab);
+      if (currentIdx < tabs.length - 1) {
+        this.switchSubTab(tabs[currentIdx + 1]);
+      }
+    });
+
+    document.getElementById('btn-history-bottom-quiz')?.addEventListener('click', () => {
+      this.switchSubTab('quiz');
+    });
+
+    document.getElementById('btn-history-bottom-flashcards')?.addEventListener('click', () => {
+      this.switchSubTab('flashcards');
+    });
+  },
+
+  // ── 3. Accordion Handler ───────────────────────────────────────────────
+  setupAccordions() {
+    const container = document.getElementById('history-accordions-container');
+    if (!container) return;
+
+    container.querySelectorAll('.accordion-header').forEach(header => {
+      header.addEventListener('click', (e) => {
+        const item = e.currentTarget.closest('.accordion-item');
+        if (item) {
+          item.classList.toggle('expanded');
+        }
+      });
+    });
+  },
+
+  // ── 4. Structured Notes Render ────────────────────────────────────────
+  renderStructuredNotes() {
+    const container = document.getElementById('history-accordions-container');
     if (!container) return;
 
     let html = '';
 
-    // Title banner
-    html += `
-      <div class="notes-hero-banner" style="background: linear-gradient(135deg, rgba(236, 72, 153, 0.12) 0%, rgba(139, 92, 246, 0.08) 100%); border-color: rgba(236, 72, 153, 0.2);">
-        <div class="notes-hero-icon">⚔️</div>
-        <div>
-          <h2>Modern Indian History — Complete Study Notes</h2>
-          <p>Verbatim notes covering Governor-Generals, Congress, Socio-Religious reforms, Revolutionary movements, and Gandhian timelines.</p>
-        </div>
-      </div>
-    `;
-
-    // Table of Contents
-    html += `<div class="notes-toc">
-      <h4>📑 Table of Contents</h4>
-      <div class="toc-grid">`;
-    HISTORY_NOTES_SECTIONS.forEach((sec, i) => {
-      html += `<a href="#hist-sec-${sec.id}" class="toc-item" onclick="event.preventDefault(); document.getElementById('hist-sec-${sec.id}').scrollIntoView({behavior:'smooth', block:'start'})">
-        <span class="toc-icon">${sec.icon}</span>
-        <span class="toc-text">${sec.title}</span>
-      </a>`;
-    });
-    html += `</div></div>`;
-
-    // Render each section
-    HISTORY_NOTES_SECTIONS.forEach(sec => {
-      const typeClass = sec.type === 'highlight' ? 'notes-section-highlight' :
-                        sec.type === 'table' ? 'notes-section-table' :
-                        sec.type === 'info' ? 'notes-section-info' :
-                        'notes-section-standard';
+    HISTORY_NOTES_SECTIONS.forEach((sec, idx) => {
+      const isFirst = idx === 0 || idx === 1;
+      const expandedClass = isFirst ? 'expanded' : '';
 
       html += `
-        <div class="notes-section ${typeClass}" id="hist-sec-${sec.id}">
-          <div class="notes-section-header">
-            <span class="notes-section-icon">${sec.icon}</span>
-            <h3>${sec.title}</h3>
+        <div class="accordion-item ${expandedClass}" id="acc-sec-${sec.id}">
+          <div class="accordion-header">
+            <div class="accordion-title-wrap">
+              <span class="accordion-icon">${sec.icon}</span>
+              <span class="accordion-title">${sec.title}</span>
+            </div>
+            <span class="accordion-chevron">▼</span>
           </div>
-          <div class="notes-section-body">
+          <div class="accordion-body">
             ${sec.content}
           </div>
         </div>
       `;
     });
 
-    // PYQ Quiz Section
-    html += `
-      <div class="notes-section notes-section-quiz" id="hist-sec-pyq-quiz">
-        <div class="notes-section-header">
-          <span class="notes-section-icon">📝</span>
-          <h3>Modern History PYQ Quiz — 50 MCQs</h3>
-        </div>
-        <div class="notes-section-body">
-          <p>Test your knowledge with <strong>50 authentic previous year questions</strong> covering all periods of Modern Indian History.</p>
-          <div class="pyq-controls">
-            <button class="btn btn-primary" id="btn-hist-start-pyq" style="background: var(--grad-primary);">Start PYQ Quiz (50 Questions)</button>
-            <button class="btn btn-secondary" id="btn-hist-random-10">Quick 10 Random PYQs</button>
-          </div>
-          <div id="hist-pyq-quiz-area" class="pyq-quiz-area hidden"></div>
-          <div id="hist-pyq-result-area" class="pyq-result-area hidden"></div>
-        </div>
-      </div>
-    `;
-
     container.innerHTML = html;
-
-    // Attach PYQ quiz events
-    this.setupPYQQuiz();
+    this.setupAccordions();
   },
 
-  // ── PYQ Quiz Logic ────────────────────────────────────────────────────
+  // ── 5. PYQ Quiz Logic ──────────────────────────────────────────────────
   setupPYQQuiz() {
     const startBtn = document.getElementById('btn-hist-start-pyq');
     const randomBtn = document.getElementById('btn-hist-random-10');
@@ -262,19 +282,19 @@ export const historyModule = {
       <div class="pyq-progress-bar">
         <div class="pyq-progress-fill" style="width: ${progress}%; background: var(--grad-primary);"></div>
       </div>
-      <div class="pyq-question-header">
-        <span class="pyq-section-tag" style="background: rgba(236, 72, 153, 0.08); color: var(--accent-pink);">Section ${q.section}: ${q.sectionTitle}</span>
-        <span class="pyq-counter">Q${currentIdx + 1} / ${questions.length}</span>
+      <div class="pyq-question-header" style="display: flex; justify-content: space-between; margin-bottom: 12px; font-size: 13px;">
+        <span class="pyq-section-tag" style="background: rgba(236, 72, 153, 0.08); color: var(--accent-pink); padding: 4px 10px; border-radius: 12px; font-weight: 700;">Section ${q.section}: ${q.sectionTitle}</span>
+        <span class="pyq-counter" style="color: var(--text-muted);">Q${currentIdx + 1} / ${questions.length}</span>
       </div>
-      <div class="pyq-question-text">
+      <div class="pyq-question-text" style="font-size: 16px; font-weight: 600; color: var(--text-main); margin-bottom: 16px; line-height: 1.5;">
         <strong>Q${q.id}.</strong> ${q.question}
       </div>
-      <div class="pyq-options-list">
+      <div class="pyq-options-list" style="display: flex; flex-direction: column; gap: 10px; margin-bottom: 16px;">
     `;
 
     q.options.forEach((opt, i) => {
       const userAnswer = this.pyqState.answered[currentIdx];
-      let optClass = 'pyq-option';
+      let optClass = 'pyq-option btn btn-secondary';
       let disabled = '';
 
       if (userAnswer !== null) {
@@ -286,24 +306,21 @@ export const historyModule = {
         }
       }
 
-      html += `<button class="${optClass}" data-opt-idx="${i}" ${disabled}>${opt}</button>`;
+      html += `<button class="${optClass}" data-opt-idx="${i}" ${disabled} style="text-align: left; width: 100%; border: 1px solid var(--border-glass); padding: 12px 16px;">${opt}</button>`;
     });
 
     html += `</div>`;
 
-    // Show answer explanation if answered
     if (this.pyqState.answered[currentIdx] !== null) {
       const isCorrect = this.pyqState.answered[currentIdx] === q.answer;
       html += `
-        <div class="pyq-feedback ${isCorrect ? 'pyq-feedback-correct' : 'pyq-feedback-wrong'}">
-          <span class="pyq-feedback-icon">${isCorrect ? '✅' : '❌'}</span>
-          <span>${isCorrect ? 'Correct!' : `Wrong! The correct answer is ${q.answerLabel}`}</span>
+        <div class="pyq-feedback ${isCorrect ? 'pyq-feedback-correct' : 'pyq-feedback-wrong'}" style="padding: 12px; border-radius: var(--radius-md); background: ${isCorrect ? 'rgba(16,185,129,0.1)' : 'rgba(239,68,68,0.1)'}; color: ${isCorrect ? '#34d399' : '#f87171'}; border: 1px solid ${isCorrect ? 'rgba(16,185,129,0.2)' : 'rgba(239,68,68,0.2)'}; font-weight: 600; margin-bottom: 16px;">
+          <span>${isCorrect ? '✅ Correct Answer!' : `❌ Incorrect! Correct Answer: ${q.answerLabel}`}</span>
         </div>
       `;
     }
 
-    // Navigation
-    html += `<div class="pyq-nav-buttons">`;
+    html += `<div class="pyq-nav-buttons" style="display: flex; gap: 10px; justify-content: flex-end;">`;
     if (currentIdx > 0) {
       html += `<button class="btn btn-secondary" id="hist-pyq-prev">← Previous</button>`;
     }
@@ -316,14 +333,13 @@ export const historyModule = {
 
     area.innerHTML = html;
 
-    // Attach events
     area.querySelectorAll('.pyq-option:not([disabled])').forEach(btn => {
       btn.addEventListener('click', (e) => {
         const idx = parseInt(e.currentTarget.dataset.optIdx);
         this.pyqState.answered[currentIdx] = idx;
         if (idx === q.answer) {
           this.pyqState.score++;
-          addXP(15, 'history', 'Opened History event detail');
+          addXP(15, 'history', 'Correct answer in History PYQ');
         }
         this.renderPYQQuestion();
       });
@@ -350,38 +366,37 @@ export const historyModule = {
     area?.classList.add('hidden');
     resultArea.classList.remove('hidden');
 
-    const { questions, answered, score } = this.pyqState;
+    const { questions, score } = this.pyqState;
     const total = questions.length;
     const percent = ((score / total) * 100).toFixed(0);
 
     let grade = '';
-    if (percent >= 90) grade = '🏆 Outstanding! You are a Modern History mastermind!';
-    else if (percent >= 70) grade = '🎯 Great job! Highly accurate on dates and acts.';
-    else if (percent >= 50) grade = '📚 Good attempt! Re-read the Viceroy matrices and try again.';
+    if (percent >= 90) grade = '🏆 Outstanding! Mastered Modern History!';
+    else if (percent >= 70) grade = '🎯 Great job! High accuracy on dates and acts.';
+    else if (percent >= 50) grade = '📚 Good attempt! Re-read the Viceroy matrices.';
     else grade = '💪 Practice makes perfect! Study the chronological tables and retry.';
 
     let html = `
-      <div class="pyq-results-card">
-        <div class="pyq-trophy" style="animation: float 4s ease-in-out infinite;">🏆</div>
-        <h3>Modern History Quiz Results</h3>
-        <div class="pyq-results-grid">
-          <div class="pyq-res-box">
-            <span class="pyq-res-val">${score}/${total}</span>
-            <span class="pyq-res-lbl">Score</span>
+      <div class="pyq-results-card" style="text-align: center; padding: 32px; background: var(--bg-card); border: 1px solid var(--border-glass); border-radius: var(--radius-xl);">
+        <div class="pyq-trophy" style="font-size: 48px; margin-bottom: 12px;">🏆</div>
+        <h3 style="font-size: 20px; color: var(--text-main); margin-bottom: 16px;">Modern History Quiz Results</h3>
+        <div class="pyq-results-grid" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 20px;">
+          <div class="pyq-res-box" style="padding: 16px; background: rgba(255,255,255,0.03); border-radius: var(--radius-md); border: 1px solid var(--border-glass);">
+            <div style="font-size: 22px; font-weight: 700; color: var(--text-main);">${score}/${total}</div>
+            <div style="font-size: 12px; color: var(--text-muted);">Score</div>
           </div>
-          <div class="pyq-res-box">
-            <span class="pyq-res-val">${percent}%</span>
-            <span class="pyq-res-lbl">Accuracy</span>
+          <div class="pyq-res-box" style="padding: 16px; background: rgba(255,255,255,0.03); border-radius: var(--radius-md); border: 1px solid var(--border-glass);">
+            <div style="font-size: 22px; font-weight: 700; color: var(--accent-purple);">${percent}%</div>
+            <div style="font-size: 12px; color: var(--text-muted);">Accuracy</div>
           </div>
-          <div class="pyq-res-box">
-            <span class="pyq-res-val">+${score * 15} XP</span>
-            <span class="pyq-res-lbl">Earned</span>
+          <div class="pyq-res-box" style="padding: 16px; background: rgba(255,255,255,0.03); border-radius: var(--radius-md); border: 1px solid var(--border-glass);">
+            <div style="font-size: 22px; font-weight: 700; color: var(--accent-emerald);">+${score * 15} XP</div>
+            <div style="font-size: 12px; color: var(--text-muted);">Earned</div>
           </div>
         </div>
-        <div class="pyq-grade">${grade}</div>
-        <div class="pyq-results-actions">
-          <button class="btn btn-primary" id="hist-pyq-retry">Retry Quiz</button>
-          <button class="btn btn-secondary" id="hist-pyq-review">Review Answers</button>
+        <div class="pyq-grade" style="font-size: 14px; font-weight: 600; color: var(--text-secondary); margin-bottom: 24px;">${grade}</div>
+        <div class="pyq-results-actions" style="display: flex; gap: 12px; justify-content: center;">
+          <button class="btn btn-primary" id="hist-pyq-retry" style="background: var(--grad-primary);">Retry Quiz</button>
         </div>
       </div>
     `;
@@ -392,16 +407,9 @@ export const historyModule = {
       resultArea.classList.add('hidden');
       this.startPYQ([...HISTORY_PYQ_DATA]);
     });
-
-    document.getElementById('hist-pyq-review')?.addEventListener('click', () => {
-      resultArea.classList.add('hidden');
-      this.pyqState.currentIdx = 0;
-      document.getElementById('hist-pyq-quiz-area')?.classList.remove('hidden');
-      this.renderPYQQuestion();
-    });
   },
 
-  // ── Interactive Timeline Render & Logic ─────────────────────────────
+  // ── 6. Timeline Filtering ──────────────────────────────────────────────
   renderEvents(periodFilter) {
     const wrapper = document.getElementById('timeline-events');
     if (!wrapper) return;
@@ -417,9 +425,9 @@ export const historyModule = {
 
       eventCard.innerHTML = `
         <div class="glass-card" data-id="${evt.id}">
-          <div class="date">${evt.year}</div>
-          <h3>${evt.title}</h3>
-          <p>${evt.shortDesc}</p>
+          <div class="date" style="color: var(--accent-purple); font-weight: 700; font-size: 12px; margin-bottom: 4px;">${evt.year}</div>
+          <h3 style="font-size: 16px; font-weight: 700; color: var(--text-main); margin-bottom: 6px;">${evt.title}</h3>
+          <p style="font-size: 13px; color: var(--text-secondary); line-height: 1.5;">${evt.shortDesc}</p>
         </div>
       `;
 
@@ -440,7 +448,7 @@ export const historyModule = {
 
         const period = btn.dataset.period;
         this.renderEvents(period);
-        addXP(10, 'history', 'History notes section viewed');
+        addXP(10, 'history', 'Filtered History Timeline');
       });
     });
   },
