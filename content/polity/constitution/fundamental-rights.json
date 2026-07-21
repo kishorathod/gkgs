@@ -1,0 +1,175 @@
+{
+  "id": "fundamental-rights",
+  "subject": "polity",
+  "hero": {
+    "title": "Fundamental Rights (Part III)",
+    "subtitle": "Master Articles 12-35, key Supreme Court judgements, and the core philosophy of the Indian Constitution.",
+    "weightage": "Very High",
+    "difficulty": "Hard",
+    "estimatedReadingTime": "45 minutes",
+    "expectedQuestions": "2-3 Questions per Shift",
+    "lastUpdated": "2026 Edition",
+    "whyItMatters": "Fundamental Rights (FRs) are the bedrock of Indian Polity. SSC repeatedly tests specific articles (like Article 14, 19, 21, 32), exceptions to these rights, and landmark cases (like Kesavananda Bharati)."
+  },
+  "quickFacts": [
+    { "icon": "📜", "heading": "Part III", "fact": "Covered in Part III of the Constitution (Articles 12 to 35)." },
+    { "icon": "🇺🇸", "heading": "Borrowed From", "fact": "Inspired by the Bill of Rights of the US Constitution." },
+    { "icon": "⚖️", "heading": "Justiciable", "fact": "FRs are justiciable. Citizens can move the Supreme Court under Art 32 for enforcement." },
+    { "icon": "💎", "heading": "Magna Carta", "fact": "Part III is rightly described as the Magna Carta of India." },
+    { "icon": "🚫", "heading": "Not Absolute", "fact": "They are not absolute but qualified. The State can impose 'reasonable restrictions'." },
+    { "icon": "🚨", "heading": "Emergency", "fact": "Can be suspended during National Emergency (except Arts 20 and 21)." }
+  ],
+  "articles": [
+    {
+      "article": "Article 14",
+      "heading": "Equality before Law",
+      "explanation": "The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.",
+      "keywords": ["Equality", "Rule of Law"],
+      "exceptions": "President and Governors enjoy immunity (Art 361). Foreign diplomats enjoy immunity.",
+      "examFocus": "Know that 'Equality before law' is of British origin (negative concept), and 'Equal protection of laws' is of American origin (positive concept)."
+    },
+    {
+      "article": "Article 19",
+      "heading": "Protection of Six Freedoms",
+      "explanation": "Guarantees 6 rights: Speech & Expression, Assembly (peaceful/without arms), Association, Movement, Residence, and Profession.",
+      "keywords": ["Freedom of Speech", "Press Freedom"],
+      "exceptions": "Restrictions can be imposed on grounds of sovereignty/integrity of India, security of the state, friendly relations with foreign states, public order, decency, or morality.",
+      "examFocus": "Freedom of Press is implicitly protected under Article 19(1)(a). The Right to Property (19(1)(f)) was deleted by the 44th Amendment."
+    },
+    {
+      "article": "Article 21",
+      "heading": "Protection of Life and Personal Liberty",
+      "explanation": "No person shall be deprived of his life or personal liberty except according to procedure established by law.",
+      "keywords": ["Right to Life", "Privacy"],
+      "exceptions": "Can be deprived by a law that is fair, just, and reasonable (due process).",
+      "examFocus": "Right to Privacy was declared an intrinsic part of Art 21 in the Puttaswamy case. Art 21 CANNOT be suspended during an Emergency."
+    },
+    {
+      "article": "Article 32",
+      "heading": "Right to Constitutional Remedies",
+      "explanation": "Provides the right to move the Supreme Court by appropriate proceedings for the enforcement of Fundamental Rights.",
+      "keywords": ["Writs", "Heart and Soul"],
+      "exceptions": "Parliament can empower any other court to issue writs, but currently only SC and HCs have this power.",
+      "examFocus": "Dr. B.R. Ambedkar called Article 32 the 'Heart and Soul' of the Constitution. The 5 writs are: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo Warranto."
+    }
+  ],
+  "cases": [
+    {
+      "caseName": "Kesavananda Bharati v. State of Kerala",
+      "year": 1973,
+      "issue": "Can Parliament amend any part of the Constitution, including Fundamental Rights?",
+      "judgement": "Parliament CAN amend Fundamental Rights, but it CANNOT alter the 'Basic Structure' of the Constitution.",
+      "importance": "Introduced the Basic Structure Doctrine. 13-judge bench (largest ever)."
+    },
+    {
+      "caseName": "K.S. Puttaswamy v. Union of India",
+      "year": 2017,
+      "issue": "Is the Right to Privacy a Fundamental Right?",
+      "judgement": "Yes, the Right to Privacy is protected as an intrinsic part of the right to life and personal liberty under Article 21.",
+      "importance": "Overruled previous judgements; 9-judge bench unanimously upheld privacy as a Fundamental Right."
+    }
+  ],
+  "memoryTricks": [
+    {
+      "trick": "Writs mnemonic: HMP-CQ",
+      "explanation": "Habeas Corpus (to have the body), Mandamus (we command), Prohibition (to forbid), Certiorari (to be certified), Quo Warranto (by what authority)."
+    },
+    {
+      "trick": "Article 19 Freedoms: SAAMRP",
+      "explanation": "Speech, Assembly, Association, Movement, Residence, Profession."
+    }
+  ],
+  "examTraps": [
+    {
+      "trap": "Article 32 vs Article 226",
+      "correct": "Under Art 32, you can ONLY approach the SC for Fundamental Rights violations. Under Art 226, you can approach High Courts for FR violations AND other legal rights. High Court's writ jurisdiction is WIDER than the SC's."
+    },
+    {
+      "trap": "Suspension during Emergency",
+      "correct": "Article 20 (Protection in respect of conviction for offences) and Article 21 (Right to life) can NEVER be suspended during an emergency."
+    }
+  ],
+  "pyqs": [
+    {
+      "question": "Which of the following articles of the Indian Constitution contains the Right to Constitutional Remedies?",
+      "year": "SSC CGL 2022",
+      "shift": "Tier 1",
+      "difficulty": "Easy",
+      "concept": "Article 32",
+      "explanation": "Article 32 guarantees the right to move the Supreme Court for the enforcement of fundamental rights."
+    }
+  ],
+  "mcqs": [
+    {
+      "q": "Under which Article of the Constitution is the Right to Education provided as a Fundamental Right?",
+      "options": ["Article 21A", "Article 19", "Article 14", "Article 32"],
+      "correctAnswer": 0,
+      "explanation": "Article 21A states that the State shall provide free and compulsory education to all children of the age of 6 to 14 years. It was added by the 86th Amendment Act, 2002.",
+      "topicTag": "fundamental-rights"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Which part of the Indian Constitution contains Fundamental Rights?",
+      "back": "Part III (Articles 12-35).",
+      "difficulty": "easy"
+    },
+    {
+      "front": "What did Dr. B.R. Ambedkar call the 'Heart and Soul of the Constitution'?",
+      "back": "Article 32 (Right to Constitutional Remedies).",
+      "difficulty": "easy"
+    }
+  ],
+  "revisionSheet": {
+    "title": "Fundamental Rights Quick Revision",
+    "points": [
+      "Part III of Constitution (Art 12-35).",
+      "Borrowed from USA (Bill of Rights).",
+      "Justiciable in nature (Enforceable in courts).",
+      "Not absolute (Subject to reasonable restrictions).",
+      "Art 20 and 21 cannot be suspended during National Emergency.",
+      "Art 32 provides 5 writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto.",
+      "Basic Structure doctrine: Kesavananda Bharati Case (1973)."
+    ]
+  },
+  "relatedTopics": {
+    "previousTopic": "Historical Underpinnings",
+    "previousTopicId": "historical-underpinnings",
+    "currentTopic": "Fundamental Rights",
+    "nextTopic": "DPSP & Duties",
+    "nextTopicId": "dpsp-and-duties"
+  },
+  "notes": [
+    {
+      "heading": "1. Introduction to Fundamental Rights",
+      "explanation": "Fundamental Rights are enshrined in Part III of the Constitution from Articles 12 to 35. They are guaranteed to all persons without any discrimination. They uphold the equality of all individuals, the dignity of the individual, the larger public interest, and unity of the nation. They are meant for promoting the ideal of political democracy.",
+      "keyTakeaways": [
+        "Described as the Magna Carta of India.",
+        "They operate as limitations on the tyranny of the executive and arbitrary laws of the legislature."
+      ],
+      "importantExamPoints": [
+        "Originally there were 7 Fundamental Rights. The Right to Property was removed from the list of Fundamental Rights by the 44th Amendment Act, 1978. It is now a legal right under Article 300-A in Part XII."
+      ],
+      "commonStudentMistakes": [
+        "Assuming FRs are absolute: They are subject to reasonable restrictions by the State."
+      ]
+    },
+    {
+      "heading": "2. Right to Equality (Articles 14-18)",
+      "explanation": "The Right to Equality guarantees equal rights for everyone, irrespective of religion, gender, caste, race, or place of birth.",
+      "keyTakeaways": [
+        "Article 14: Equality before the law and equal protection of laws.",
+        "Article 15: Prohibition of discrimination on grounds of religion, race, caste, sex or place of birth.",
+        "Article 16: Equality of opportunity in matters of public employment.",
+        "Article 17: Abolition of untouchability.",
+        "Article 18: Abolition of titles (except military and academic)."
+      ],
+      "importantExamPoints": [
+        "Article 17 is absolute in nature. The practice of untouchability in any form is forbidden."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Article 15 and 16. Article 15 is general non-discrimination, while Article 16 is specific to public employment."
+      ]
+    }
+  ]
+}

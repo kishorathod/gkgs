@@ -558,17 +558,39 @@ app.get('/api/state', authenticateToken, async (req, res) => {
 // Dynamic CMS Study Material Topic Route
 app.get('/api/topics/:topicId', (req, res) => {
   const fs = require('fs');
+  const path = require('path');
   const topicId = req.params.topicId === 'history' ? 'revolt-of-1857' : req.params.topicId;
-  const filePath = path.join(__dirname, 'data', 'topics', `${topicId}.json`);
-
-  if (fs.existsSync(filePath)) {
-    return res.sendFile(filePath);
+  const contentDir = path.join(__dirname, 'content');
+  
+  // Try to find the file recursively
+  function findFileRecursively(dir, filename) {
+    if (!fs.existsSync(dir)) return null;
+    const files = fs.readdirSync(dir);
+    for (const file of files) {
+      const fullPath = path.join(dir, file);
+      if (fs.statSync(fullPath).isDirectory()) {
+        const found = findFileRecursively(fullPath, filename);
+        if (found) return found;
+      } else if (file === filename) {
+        return fullPath;
+      }
+    }
+    return null;
   }
 
-  // Fallback to default revolt-of-1857.json if requested topic not found
-  const fallbackPath = path.join(__dirname, 'data', 'topics', 'revolt-of-1857.json');
-  if (fs.existsSync(fallbackPath)) {
-    return res.sendFile(fallbackPath);
+  // Find inside /content folder
+  let filePath = findFileRecursively(contentDir, `${topicId}.json`);
+
+  // Fallback to legacy data/topics folder if not found in content (migration phase)
+  if (!filePath) {
+    const legacyPath = path.join(__dirname, 'data', 'topics', `${topicId}.json`);
+    if (fs.existsSync(legacyPath)) {
+      filePath = legacyPath;
+    }
+  }
+
+  if (filePath) {
+    return res.sendFile(filePath);
   }
 
   res.status(404).json({ error: 'Topic data not found' });
