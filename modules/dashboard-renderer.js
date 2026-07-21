@@ -2,6 +2,7 @@
    modules/dashboard-renderer.js — Pure DOM Renderer for Dashboard
    Renders real database-driven values into the HTML DOM.
    Does zero business logic calculations — strictly renders payload from backend.
+   Handles empty states gracefully without hardcoded values or fake data.
    ========================================================================== */
 
 export class DashboardRenderer {
@@ -39,7 +40,6 @@ export class DashboardRenderer {
     if (hqsTime)   hqsTime.textContent   = `${up.totalStudyTime || 0}m`;
     if (hqsRank)   hqsRank.textContent   = up.currentRank || 'Beginner';
 
-    // Circular Goal Ring Gauge
     const goalPct = Math.round((goalsDoneCount / 5) * 100);
     const dbGaugePath = document.getElementById('db-gauge-path');
     const dbGaugePct  = document.getElementById('db-gauge-pct');
@@ -59,27 +59,90 @@ export class DashboardRenderer {
     if (totalXpEl)    totalXpEl.textContent    = (up.totalXP || 0).toLocaleString();
     if (streakDashEl) streakDashEl.textContent = up.currentStreak || 0;
     if (qsSolvedEl)   qsSolvedEl.textContent   = up.questionsAttempted || 0;
-    if (strongestEl)  strongestEl.textContent  = up.strongestSubject || 'History';
-    if (weakestEl)    weakestEl.textContent    = up.weakestSubject || 'Geography';
+
+    // Strongest & Focus Area empty state handling
+    if (strongestEl) {
+      strongestEl.textContent = up.strongestSubject || 'No data yet';
+      strongestEl.style.color = up.strongestSubject && up.strongestSubject !== 'No data yet' ? '#34d399' : 'var(--text-muted)';
+    }
+
+    if (weakestEl) {
+      weakestEl.textContent = up.weakestSubject || 'Start learning';
+      weakestEl.style.color = up.weakestSubject && up.weakestSubject !== 'Start learning' ? '#fbbf24' : 'var(--text-muted)';
+    }
   }
 
   static renderContinueLearning(subProg = {}) {
-    const MAX_XP = { history: 500, polity: 500, quiz: 300 };
-    const map = {
-      history: { bar: 'cc-bar-history', pct: 'cc-pct-history' },
-      polity:  { bar: 'cc-bar-polity',  pct: 'cc-pct-polity' },
-      quiz:    { bar: 'cc-bar-quiz',    pct: 'cc-pct-quiz' }
+    const container = document.getElementById('continue-learning-row');
+    if (!container) return;
+
+    const SUBJECT_META = {
+      history:        { title: 'Indian History', icon: '📜', nav: 'history', badge: 'db-badge-medium', level: 'Intermediate', weight: '20% Wt.' },
+      polity:         { title: 'Indian Polity', icon: '⚖️', nav: 'polity', badge: 'db-badge-hard', level: 'Advanced', weight: '16% Wt.' },
+      geography:      { title: 'Geography', icon: '🗺️', nav: 'geography', badge: 'db-badge-easy', level: 'Beginner', weight: '16% Wt.' },
+      science:        { title: 'General Science', icon: '🔬', nav: 'science', badge: 'db-badge-medium', level: 'Intermediate', weight: '24% Wt.' },
+      economy:        { title: 'Economy', icon: '💹', nav: 'economy', badge: 'db-badge-medium', level: 'Intermediate', weight: '12% Wt.' },
+      staticgk:       { title: 'Static GK Hub', icon: '📚', nav: 'staticgk', badge: 'db-badge-easy', level: 'Beginner', weight: '12% Wt.' },
+      currentaffairs: { title: 'Current Affairs', icon: '📰', nav: 'currentaffairs', badge: 'db-badge-medium', level: 'High Wt.', weight: 'High Wt.' },
+      flashcards:     { title: 'Flashcards', icon: '🃏', nav: 'flashcards', badge: 'db-badge-easy', level: 'Beginner', weight: 'All Topics' }
     };
 
-    Object.entries(map).forEach(([sub, ids]) => {
-      const bar = document.getElementById(ids.bar);
-      const pctEl = document.getElementById(ids.pct);
-      const xp = (subProg[sub] && subProg[sub].xp) || 0;
-      const pct = Math.min(100, Math.round((xp / (MAX_XP[sub] || 300)) * 100));
+    const MAX_XP = {
+      history: 500, polity: 500, geography: 400, science: 400,
+      economy: 350, staticgk: 350, currentaffairs: 300, flashcards: 300
+    };
 
-      if (bar) bar.style.width = `${pct}%`;
-      if (pctEl) pctEl.textContent = `${pct}% Complete`;
+    // Filter to subjects that user has actually started (xp > 0 or quizzes > 0)
+    const activeSubjects = Object.keys(SUBJECT_META).filter(sub => {
+      const p = subProg[sub];
+      return p && (p.xp > 0 || p.quizzesCompleted > 0);
     });
+
+    if (activeSubjects.length === 0) {
+      // Empty state onboarding card
+      container.innerHTML = `
+        <div class="db-continue-card" style="grid-column: 1 / -1; display: flex; align-items: center; justify-content: space-between; flex-direction: row; padding: var(--space-24);" onclick="document.getElementById('nav-quiz').click()">
+          <div style="display: flex; align-items: center; gap: 16px;">
+            <div class="db-cc-icon" style="font-size: 32px; width: 56px; height: 56px;">🚀</div>
+            <div>
+              <div class="db-cc-subject" style="font-size: 16px;">Start Your Learning Journey</div>
+              <div class="db-cc-lesson" style="margin-top: 4px;">Choose any subject module below or attempt a mock quiz to begin tracking real database metrics.</div>
+            </div>
+          </div>
+          <button class="btn btn-primary" style="white-space: nowrap;">Start Mock Quiz →</button>
+        </div>
+      `;
+      return;
+    }
+
+    // Render active started subjects
+    container.innerHTML = activeSubjects.slice(0, 3).map(sub => {
+      const meta = SUBJECT_META[sub];
+      const p = subProg[sub] || { xp: 0 };
+      const pct = Math.min(100, Math.round((p.xp / (MAX_XP[sub] || 300)) * 100));
+
+      return `
+        <div class="db-continue-card" onclick="document.getElementById('nav-${meta.nav}').click()">
+          <div class="db-cc-top">
+            <div class="db-cc-icon">${meta.icon}</div>
+            <div class="db-cc-badge ${meta.badge}">${meta.level}</div>
+          </div>
+          <div class="db-cc-subject">${meta.title}</div>
+          <div class="db-cc-lesson">Continue your progress in ${meta.title}</div>
+          <div class="db-cc-progress-row">
+            <div class="db-cc-bar-wrap">
+              <div class="db-cc-bar" style="width:${pct}%"></div>
+            </div>
+            <span class="db-cc-pct">${pct}%</span>
+          </div>
+          <div class="db-cc-meta">
+            <span>Progress: ${p.xp} XP</span>
+            <span>${meta.weight}</span>
+          </div>
+          <button class="btn btn-outline db-cc-btn">Resume →</button>
+        </div>
+      `;
+    }).join('');
   }
 
   static renderDailyGoals(goals = {}, goalsDoneCount = 0) {
@@ -116,9 +179,19 @@ export class DashboardRenderer {
 
   static renderWeeklyChart(weeklyChart = []) {
     const container = document.getElementById('analytics-chart');
-    if (!container || !weeklyChart || weeklyChart.length === 0) return;
+    if (!container) return;
 
-    // Find max XP to scale chart heights proportionally
+    const hasData = weeklyChart && weeklyChart.some(d => d.xp > 0);
+
+    if (!hasData) {
+      container.innerHTML = `
+        <div style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; color: var(--text-muted); font-size: 12.5px; text-align: center; border: 1px dashed rgba(255,255,255,0.08); border-radius: var(--radius-md); padding: 16px;">
+          📊 No XP activity recorded this week yet.<br>Start studying to see your daily chart!
+        </div>
+      `;
+      return;
+    }
+
     const maxVal = Math.max(...weeklyChart.map(d => d.xp), 100);
 
     container.innerHTML = weeklyChart.map((d, index) => {
@@ -148,7 +221,7 @@ export class DashboardRenderer {
     Object.keys(MAX_XP).forEach(sub => {
       const data = subProg[sub] || { xp: 0, accuracy: 0, quizzesCompleted: 0 };
       const pct = Math.min(100, Math.round((data.xp / MAX_XP[sub]) * 100));
-      
+
       const bar = document.getElementById(`progress-bar-${sub}`);
       const tag = document.getElementById(`progress-tag-${sub}`);
       const countEl = document.getElementById(`lesson-count-${sub}`);
@@ -192,9 +265,8 @@ export class DashboardRenderer {
 
     const unlockedSet = new Set(unlockedAchievements.map(a => a.id));
 
-    // Map badge IDs to HTML element IDs
     const badgeElements = [
-      { id: 'first_step',  elId: 'badge-firststep', defaultEl: grid.children[0] },
+      { id: 'first_step',  elId: 'badge-firststep' },
       { id: 'streak_7',    elId: 'badge-streak5' },
       { id: 'xp_500',      elId: 'badge-xp500' },
       { id: 'quiz_champ',  elId: 'badge-quiz' },
@@ -204,7 +276,6 @@ export class DashboardRenderer {
 
     badgeElements.forEach(b => {
       let el = document.getElementById(b.elId);
-      if (!el && b.defaultEl) el = b.defaultEl;
       if (!el) return;
 
       if (unlockedSet.has(b.id) || (b.id === 'first_step' && up.modulesVisited >= 1)) {

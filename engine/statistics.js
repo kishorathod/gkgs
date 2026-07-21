@@ -42,6 +42,17 @@ const ACHIEVEMENTS_DEF = [
 
 const SUBJECTS_LIST = ['history', 'polity', 'geography', 'science', 'economy', 'staticgk', 'currentaffairs', 'flashcards'];
 
+const SUBJECT_NAMES = {
+  history: 'Indian History',
+  polity: 'Indian Polity',
+  geography: 'Geography',
+  science: 'General Science',
+  economy: 'Economy',
+  staticgk: 'Static GK',
+  currentaffairs: 'Current Affairs',
+  flashcards: 'Flashcards'
+};
+
 // Helper: Get YYYY-MM-DD string in IST timezone
 function getTodayDateString(dateObj = new Date()) {
   const d = new Date(dateObj.toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
@@ -63,7 +74,6 @@ class StatisticsEngine {
 
   /**
    * Idempotently award XP to a user.
-   * Ensures duplicate actions never award double XP.
    */
   static async awardXP(userId, amount, action, subject = null, idempotencyKey = null) {
     if (!idempotencyKey) {
@@ -82,7 +92,6 @@ class StatisticsEngine {
       return { awarded: true, amount };
     } catch (err) {
       if (err.code === 11000) {
-        // Duplicate transaction attempt caught by unique idempotency index
         return { awarded: false, amount: 0, reason: 'duplicate' };
       }
       throw err;
@@ -104,7 +113,6 @@ class StatisticsEngine {
    * Calculate current and longest streak based on activity logs
    */
   static async calculateStreak(userId) {
-    // Get unique activity dates sorted descending
     const logs = await ActivityLog.aggregate([
       { $match: { userId } },
       {
@@ -126,7 +134,6 @@ class StatisticsEngine {
     const activeDates = logs.map(l => l._id);
     const lastActiveDate = activeDates[0];
 
-    // Check if user was active today or yesterday to maintain current streak
     const diffFromToday = getDaysDiff(lastActiveDate, today);
     let currentStreak = 0;
 
@@ -141,11 +148,9 @@ class StatisticsEngine {
         }
       }
     } else {
-      // Missed more than 1 day -> streak reset to 0
       currentStreak = 0;
     }
 
-    // Calculate longest streak historically
     let longestStreak = activeDates.length > 0 ? 1 : 0;
     let tempStreak = 1;
     for (let i = 0; i < activeDates.length - 1; i++) {
@@ -188,7 +193,6 @@ class StatisticsEngine {
    * Calculate subject progress, overall accuracy, strongest and focus subjects
    */
   static async calculateSubjectStats(userId) {
-    // Aggregate quiz attempts per subject
     const quizStats = await QuizAttempt.aggregate([
       { $match: { userId } },
       {
@@ -202,7 +206,6 @@ class StatisticsEngine {
       }
     ]);
 
-    // Aggregate XP per subject
     const xpStats = await XpTransaction.aggregate([
       { $match: { userId, subject: { $ne: null } } },
       { $group: { _id: '$subject', totalXP: { $sum: '$amount' } } }
@@ -226,14 +229,14 @@ class StatisticsEngine {
     const subjectProgressMap = {};
     let highestAccuracy = -1;
     let lowestAccuracy = 101;
-    let strongestSubject = 'History';
-    let weakestSubject = 'Geography';
+    let strongestSubject = 'No data yet';
+    let weakestSubject = 'Start learning';
 
     SUBJECTS_LIST.forEach(sub => {
       const q = quizMap[sub] || { questionsAttempted: 0, correctAnswers: 0, attemptsCount: 0 };
       const subXP = xpMap[sub] || 0;
       const acc = q.questionsAttempted > 0 ? Math.round((q.correctAnswers / q.questionsAttempted) * 100) : 0;
-      
+
       subjectProgressMap[sub] = {
         xp: subXP,
         questionsAttempted: q.questionsAttempted,
@@ -245,11 +248,11 @@ class StatisticsEngine {
       if (q.questionsAttempted > 0) {
         if (acc > highestAccuracy) {
           highestAccuracy = acc;
-          strongestSubject = sub.toUpperCase();
+          strongestSubject = SUBJECT_NAMES[sub] || sub.toUpperCase();
         }
         if (acc < lowestAccuracy) {
           lowestAccuracy = acc;
-          weakestSubject = sub.toUpperCase();
+          weakestSubject = SUBJECT_NAMES[sub] || sub.toUpperCase();
         }
       }
     });
@@ -261,8 +264,8 @@ class StatisticsEngine {
       totalCorrect,
       totalQuizzes,
       overallAccuracy,
-      strongestSubject,
-      weakestSubject,
+      strongestSubject: highestAccuracy !== -1 ? strongestSubject : 'No data yet',
+      weakestSubject: lowestAccuracy !== 101 ? weakestSubject : 'Start learning',
       subjectProgressMap
     };
   }
@@ -338,8 +341,7 @@ class StatisticsEngine {
           });
           await ach.save();
           newUnlocked.push(def);
-          
-          // Log achievement unlocked to activity
+
           await ActivityLog.create({
             userId,
             action: `Unlocked Achievement: ${def.title}`,
@@ -378,8 +380,7 @@ class StatisticsEngine {
 
     if (goalDoc.goals[goalKey] === false) {
       goalDoc.goals[goalKey] = true;
-      
-      // Award Goal XP
+
       const idempotencyKey = `goal_${goalKey}:${userId}:${today}`;
       await this.awardXP(userId, 100, `goal_${goalKey}`, null, idempotencyKey);
 
@@ -391,7 +392,6 @@ class StatisticsEngine {
         xpEarned: 100
       });
 
-      // Check if all 5 goals are done for bonus
       const allDone = Object.values(goalDoc.goals).every(Boolean);
       if (allDone && !goalDoc.bonusAwarded) {
         goalDoc.bonusAwarded = true;
@@ -420,15 +420,23 @@ class StatisticsEngine {
     const { currentRank, nextRank, rankPct } = this.calculateRank(totalXP);
     const subjectStats = await this.calculateSubjectStats(userId);
 
-    // Count notes read, flashcards, files uploaded, modules visited from ActivityLog/Uploads
     const notesReadCount = await ActivityLog.countDocuments({ userId, type: 'read_notes' });
     const flashcardsCount = await FlashcardSession.aggregate([
       { $match: { userId } },
       { $group: { _id: null, total: { $sum: '$cardsReviewed' } } }
     ]);
 
+    // Calculate today's study time (in minutes)
+    const todayStart = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Kolkata' }));
+    todayStart.setHours(0, 0, 0, 0);
+
     const studyTimeStats = await StudySession.aggregate([
-      { $match: { userId } },
+      {
+        $match: {
+          userId,
+          startedAt: { $gte: todayStart }
+        }
+      },
       { $group: { _id: null, total: { $sum: '$duration' } } }
     ]);
 
@@ -458,7 +466,6 @@ class StatisticsEngine {
       lastActiveDate
     };
 
-    // Save/Upsert snapshot to UserProgress collection
     const userProgress = await UserProgress.findOneAndUpdate(
       { userId },
       {
@@ -468,7 +475,6 @@ class StatisticsEngine {
       { new: true, upsert: true }
     );
 
-    // Check & unlock any new achievements
     await this.checkAndUnlockAchievements(userId, progressData);
 
     return userProgress;
@@ -478,22 +484,11 @@ class StatisticsEngine {
    * Main Orchestrator: Generate complete, real-time database-driven Dashboard Payload
    */
   static async buildDashboardPayload(userId) {
-    // 1. Recalculate progress snapshot
     const progress = await this.recalculateAndSaveProgress(userId);
-
-    // 2. Fetch Daily Goals
     const dailyGoalDoc = await this.getDailyGoals(userId);
-
-    // 3. Fetch 7-day Weekly XP Chart
     const weeklyChart = await this.calculateWeeklyChart(userId);
-
-    // 4. Fetch Unlocked Achievements
     const achievements = await Achievement.find({ userId }).sort({ unlockedAt: -1 });
-
-    // 5. Fetch Recent Activity Feed (latest 10)
     const activityFeed = await ActivityLog.find({ userId }).sort({ createdAt: -1 }).limit(10);
-
-    // 6. Subject stats for focus/strongest
     const { strongestSubject, weakestSubject, subjectProgressMap } = await this.calculateSubjectStats(userId);
 
     return {

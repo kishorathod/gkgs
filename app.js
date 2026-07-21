@@ -70,6 +70,7 @@ async function initAuth() {
     authOverlay.classList.remove('active');
     renderUserProfile(JSON.parse(cachedUser));
     await refreshDashboard();
+    startSessionTimer();
   } else {
     authOverlay.classList.add('active');
   }
@@ -128,6 +129,7 @@ async function initAuth() {
       renderUserProfile(data.user);
 
       await refreshDashboard();
+      startSessionTimer();
       showToast(`Welcome back, ${data.user.name}!`);
     } catch (err) {
       showAuthError(err.message);
@@ -136,6 +138,7 @@ async function initAuth() {
 
   // Logout Handler
   logoutBtn.addEventListener('click', () => {
+    stopSessionTimer();
     localStorage.removeItem('gkgs_auth_token');
     localStorage.removeItem('gkgs_user');
 
@@ -196,6 +199,7 @@ async function handleGoogleLoginResponse(response) {
     renderUserProfile(data.user);
 
     await refreshDashboard();
+    startSessionTimer();
     showToast(`Logged in as ${data.user.name}`);
   } catch (err) {
     showAuthError(`Google SSO Error: ${err.message}`);
@@ -227,7 +231,6 @@ document.addEventListener('DOMContentLoaded', async () => {
   setupSearch();
   setupMobileDrawer();
   setupSideTabs();
-  startSessionTimer();
 
   historyModule.init();
   polityModule.init();
@@ -519,18 +522,41 @@ async function onQuizCompleted(score, details = {}) {
   }
 }
 
-// Session Timer — ticks every 1 minute to record time spent on task
+// ── Active Session Timer ─────────────────────────────────────────────
+let sessionTimerInterval = null;
+let activeSecondsToday = 0;
+let isTabActive = true;
+
 function startSessionTimer() {
-  setInterval(async () => {
-    if (AppState.currentView && AppState.currentView !== 'dashboard') {
+  stopSessionTimer();
+
+  document.addEventListener('visibilitychange', () => {
+    isTabActive = !document.hidden;
+  });
+
+  sessionTimerInterval = setInterval(async () => {
+    const token = localStorage.getItem('gkgs_auth_token');
+    if (!token || !isTabActive) return;
+
+    activeSecondsToday += 1;
+
+    // Every 60 seconds of active tab usage, push 1 minute study session to DB & refresh dashboard
+    if (activeSecondsToday % 60 === 0) {
       try {
-        await api.endStudySession(AppState.currentView, 1);
+        await api.endStudySession(AppState.currentView || 'general', 1);
         await refreshDashboard();
       } catch (e) {
         // silent
       }
     }
-  }, 60000);
+  }, 1000);
+}
+
+function stopSessionTimer() {
+  if (sessionTimerInterval) {
+    clearInterval(sessionTimerInterval);
+    sessionTimerInterval = null;
+  }
 }
 
 // Utility Toast Notification
