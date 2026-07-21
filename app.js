@@ -334,6 +334,9 @@ function renderUserProfile(user) {
 document.addEventListener('DOMContentLoaded', async () => {
   await initAuth(); // ✅ Await so loadState completes before UI renders
   setupNavigation();
+  setupSearch();
+  setupMobileDrawer();
+  setupSideTabs();
   startSessionTimer();
   
   // Initialize modules
@@ -349,6 +352,103 @@ document.addEventListener('DOMContentLoaded', async () => {
   uploadsModule.init();
   setupScrollAnimations();
 });
+
+// Setup Mobile Sidebar Drawer
+function setupMobileDrawer() {
+  const toggleBtn = document.getElementById('mobile-menu-toggle');
+  const sidebar = document.querySelector('.sidebar');
+  if (toggleBtn && sidebar) {
+    toggleBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      sidebar.classList.toggle('mobile-open');
+    });
+    document.addEventListener('click', (e) => {
+      if (!sidebar.contains(e.target) && !toggleBtn.contains(e.target)) {
+        sidebar.classList.remove('mobile-open');
+      }
+    });
+  }
+}
+
+// Setup Side Panel Tabs
+function setupSideTabs() {
+  const tabBtns = document.querySelectorAll('.side-tab-btn');
+  const tabContents = document.querySelectorAll('.sidetab-content');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.dataset.sidetab;
+      tabBtns.forEach(b => b.classList.remove('active'));
+      tabContents.forEach(c => c.classList.remove('active'));
+      btn.classList.add('active');
+      const activeContent = document.getElementById(`sidetab-${target}`);
+      if (activeContent) activeContent.classList.add('active');
+    });
+  });
+}
+
+// Setup Global Search Bar
+function setupSearch() {
+  const searchInput = document.getElementById('global-search-input');
+  const dropdown = document.getElementById('search-dropdown');
+  if (!searchInput || !dropdown) return;
+
+  const topics = [
+    { title: 'Indian History Timeline', nav: 'history' },
+    { title: 'Indus Valley Civilization', nav: 'history' },
+    { title: 'Mughal Empire Chronology', nav: 'history' },
+    { title: 'Indian Constitution Articles', nav: 'polity' },
+    { title: 'Fundamental Rights (Art 12–35)', nav: 'polity' },
+    { title: 'Preamble & Amendments', nav: 'polity' },
+    { title: 'River Systems of India', nav: 'geography' },
+    { title: 'National Parks & Sanctuaries', nav: 'geography' },
+    { title: 'Cytology & Biology Diagrams', nav: 'science' },
+    { title: 'Five-Year Plans Explorer', nav: 'economy' },
+    { title: 'RBI Monetary Policy', nav: 'economy' },
+    { title: 'Classical Dances & Folk Arts', nav: 'staticgk' },
+    { title: 'Census 2011 Facts', nav: 'staticgk' },
+    { title: 'Current Affairs 2025–26', nav: 'currentaffairs' },
+    { title: 'SSC Flashcards Deck', nav: 'flashcards' },
+    { title: 'Daily Practice Quiz', nav: 'quiz' }
+  ];
+
+  searchInput.addEventListener('input', () => {
+    const query = searchInput.value.toLowerCase().trim();
+    if (!query) {
+      dropdown.classList.add('hidden');
+      return;
+    }
+    const matches = topics.filter(t => t.title.toLowerCase().includes(query));
+    if (matches.length === 0) {
+      dropdown.innerHTML = `<div class="search-result-item" style="color:var(--text-muted)">No matching topics found</div>`;
+    } else {
+      dropdown.innerHTML = matches.map(m => `
+        <div class="search-result-item" data-nav="${m.nav}">
+          <span>🔍 ${m.title}</span>
+          <span style="color:var(--text-dim);font-size:10px;">Go →</span>
+        </div>
+      `).join('');
+    }
+    dropdown.classList.remove('hidden');
+
+    dropdown.querySelectorAll('.search-result-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const targetNav = item.dataset.nav;
+        if (targetNav) {
+          const navBtn = document.getElementById(`nav-${targetNav}`);
+          if (navBtn) navBtn.click();
+        }
+        dropdown.classList.add('hidden');
+        searchInput.value = '';
+      });
+    });
+  });
+
+  document.addEventListener('click', (e) => {
+    if (!searchInput.contains(e.target) && !dropdown.contains(e.target)) {
+      dropdown.classList.add('hidden');
+    }
+  });
+}
 
 // Setup scroll animations for memory highlights
 function setupScrollAnimations() {
@@ -539,14 +639,33 @@ function updateDashboard() {
   updateBadges();
 }
 
+const LESSON_TOTALS = {
+  history: 20,
+  polity: 18,
+  geography: 15,
+  science: 25,
+  economy: 12,
+  staticgk: 16,
+  currentaffairs: 30
+};
+
 function updateSubjectProgressBars() {
   Object.entries(SUBJECT_MAX_XP).forEach(([subject, maxXP]) => {
     const earned = AppState.subjectXP[subject] || 0;
     const pct = Math.min(100, Math.round((earned / maxXP) * 100));
     const bar = document.getElementById(`progress-bar-${subject}`);
     const tag = document.getElementById(`progress-tag-${subject}`);
+    const countEl = document.getElementById(`lesson-count-${subject}`);
+    
     if (bar) bar.style.width = `${pct}%`;
-    if (tag) tag.textContent = `${pct}% Complete`;
+    if (tag) tag.textContent = `${pct}%`;
+    
+    if (countEl) {
+      const total = LESSON_TOTALS[subject] || 20;
+      const done = Math.min(total, Math.round((pct / 100) * total));
+      const unit = subject === 'currentaffairs' ? 'topics' : 'lessons';
+      countEl.textContent = `${done} / ${total} ${unit} completed`;
+    }
   });
 }
 
@@ -639,14 +758,19 @@ function updateActivityFeed() {
 
 function updateContinueLearning() {
   // Sync continue-learning progress bars to subject XP %
-  const map = { history: 'cc-bar-history', polity: 'cc-bar-polity', quiz: 'cc-bar-quiz' };
-  Object.entries(map).forEach(([subject, barId]) => {
-    const bar = document.getElementById(barId);
-    if (!bar) return;
+  const map = {
+    history: { bar: 'cc-bar-history', pct: 'cc-pct-history' },
+    polity:  { bar: 'cc-bar-polity',  pct: 'cc-pct-polity' },
+    quiz:    { bar: 'cc-bar-quiz',    pct: 'cc-pct-quiz' }
+  };
+  Object.entries(map).forEach(([subject, ids]) => {
+    const bar = document.getElementById(ids.bar);
+    const pctEl = document.getElementById(ids.pct);
     const maxXP = SUBJECT_MAX_XP[subject] || 300;
     const earned = AppState.subjectXP[subject] || 0;
     const pct = Math.min(100, Math.round((earned / maxXP) * 100));
-    bar.style.width = `${pct}%`;
+    if (bar) bar.style.width = `${pct}%`;
+    if (pctEl) pctEl.textContent = `${pct}% Complete`;
   });
 }
 

@@ -3032,9 +3032,317 @@ h1, h2, h3, h4, h5, h6 {
   margin-left: auto;
 }
 
-#btn-logout:hover {
-  background: rgba(239, 68, 68, 0.1);
+/* ══════════════════════════════════════════════════
+   DASHBOARD v3 — COMPACT & EXPANDED UX
+   Search · Analytics Chart · SSC Stats · Side Tabs · Goal Actions
+   ══════════════════════════════════════════════════ */
+
+/* ── Top Header Search & Mobile Toggle ──────────── */
+.mobile-toggle-btn {
+  display: none;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: var(--text-main);
+  border-radius: var(--radius-sm);
+  padding: 8px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }
+
+.header-search-wrap {
+  position: relative;
+  flex: 1;
+  max-width: 380px;
+  margin: 0 16px;
+}
+.header-search-wrap input {
+  width: 100%;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 20px;
+  padding: 8px 16px 8px 36px;
+  color: var(--text-main);
+  font-family: var(--font-body);
+  font-size: 13px;
+  transition: var(--transition-smooth);
+}
+.header-search-wrap input:focus {
+  background: rgba(255,255,255,0.08);
+  border-color: var(--accent-purple);
+  box-shadow: 0 0 16px rgba(139,92,246,0.25);
+  outline: none;
+}
+.search-icon {
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 14px;
+  pointer-events: none;
+  opacity: 0.6;
+}
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: #141724;
+  border: 1px solid rgba(255,255,255,0.15);
+  border-radius: var(--radius-md);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.6);
+  z-index: 500;
+  max-height: 280px;
+  overflow-y: auto;
+  padding: 6px;
+}
+.search-result-item {
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 12px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--text-main);
+}
+.search-result-item:hover {
+  background: rgba(139,92,246,0.2);
+}
+
+/* ── Ultra-Compact Hero Banner ──────────────────── */
+.welcome-hero.ultra-compact-hero {
+  padding: 14px 20px;
+  min-height: unset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+.hero-greeting-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.hero-tag {
+  background: rgba(139,92,246,0.2);
+  border: 1px solid rgba(139,92,246,0.4);
+  color: #a78bfa;
+  font-size: 10px;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 2px 8px;
+}
+.hero-actions-compact {
+  display: flex;
+  gap: 8px;
+}
+.btn-sm {
+  padding: 6px 14px !important;
+  font-size: 12px !important;
+}
+
+/* ── SSC Quick Stats Strip ─────────────────────── */
+.ssc-stats-strip {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+}
+.ssc-stat-box { text-align: center; }
+.ssc-stat-num {
+  font-family: var(--font-title);
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1;
+}
+.ssc-stat-lbl {
+  font-size: 10px;
+  color: var(--text-muted);
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+.ssc-stat-divider {
+  width: 1px;
+  height: 24px;
+  background: rgba(255,255,255,0.08);
+}
+.text-emerald { color: #34d399; }
+.text-amber   { color: #fbbf24; }
+
+/* ── 7-Day Performance Analytics Chart ──────────── */
+.analytics-card { padding: 20px 24px; }
+.analytics-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.analytics-sub { font-size: 12px; color: var(--text-muted); }
+.analytics-legend { font-size: 11px; color: var(--text-muted); }
+.dot-xp {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent-purple);
+  margin-right: 4px;
+}
+
+.chart-bars-wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 120px;
+  padding-top: 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+.chart-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  height: 100%;
+  justify-content: flex-end;
+  position: relative;
+}
+.chart-bar {
+  width: 24px;
+  background: linear-gradient(180deg, var(--accent-purple), rgba(139,92,246,0.3));
+  border-radius: 4px 4px 0 0;
+  position: relative;
+  transition: height 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.chart-bar.active-bar {
+  background: linear-gradient(180deg, var(--accent-blue), var(--accent-purple));
+  box-shadow: 0 0 12px rgba(59,130,246,0.4);
+}
+.bar-val {
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  transform: translateY(-16px);
+}
+.chart-day {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-top: 6px;
+  font-weight: 600;
+}
+
+/* ── Continue Learning Enhanced ────────────────── */
+.cc-meta-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  margin: 3px 0 5px;
+}
+.cc-pct-label { color: #a78bfa; font-weight: 700; }
+.cc-est-time  { color: var(--text-dim); }
+
+/* ── Interactive Goal Action Button ───────────── */
+.goal-action-btn {
+  background: rgba(139,92,246,0.15);
+  border: 1px solid rgba(139,92,246,0.35);
+  color: #a78bfa;
+  border-radius: 14px;
+  padding: 4px 10px;
+  font-size: 10px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: var(--font-body);
+  transition: var(--transition-smooth);
+}
+.goal-action-btn:hover {
+  background: rgba(139,92,246,0.35);
+}
+
+/* ── Compact Subject Module Cards (25% Height Reduction) ─ */
+.subject-grid.compact-subject-grid {
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 12px;
+}
+.subject-card.compact-card {
+  padding: 14px 16px;
+  min-height: unset;
+}
+.compact-card h3 {
+  font-size: 0.95rem;
+  margin: 4px 0 2px;
+}
+.lesson-count-text {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+/* ── Tabbed Side Panel ─────────────────────────── */
+.side-tab-bar {
+  display: flex;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-md);
+  padding: 3px;
+  margin-bottom: 12px;
+}
+.side-tab-btn {
+  flex: 1;
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 6px;
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: var(--radius-sm);
+  transition: var(--transition-smooth);
+  font-family: var(--font-body);
+}
+.side-tab-btn.active {
+  background: rgba(139,92,246,0.25);
+  color: #fff;
+}
+.sidetab-content { display: none; }
+.sidetab-content.active { display: block; }
+
+/* ── Mobile Sidebar Drawer Responsiveness ─────── */
+@media (max-width: 900px) {
+  .mobile-toggle-btn { display: flex; }
+  .header-search-wrap { max-width: 200px; }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -280px;
+    bottom: 0;
+    width: 260px;
+    z-index: 1000;
+    transition: left 0.3s ease;
+    box-shadow: 10px 0 30px rgba(0,0,0,0.8);
+  }
+  .sidebar.mobile-open {
+    left: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-search-wrap { display: none; }
+  .ssc-stats-strip { flex-wrap: wrap; gap: 10px; }
+  .ssc-stat-divider { display: none; }
+  .ssc-stat-box { flex: 1 1 40%; }
+}
+
 
 /* ══════════════════════════════════════════════════
    DASHBOARD REDESIGN — v2
