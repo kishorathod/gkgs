@@ -1,0 +1,623 @@
+{
+  "topicId": "regulating-act-and-early-governors",
+  "subject": "history",
+  "hero": {
+    "title": "Regulating Act 1773, Pitt's India Act 1784 & Early Governor-Generals",
+    "subtitle": "Constitutional foundations of British India and administrative reforms under Warren Hastings, Cornwallis & Wellesley.",
+    "sscWeightage": "High",
+    "difficulty": "Intermediate to Advanced",
+    "estimatedReadingTime": "22 mins",
+    "expectedQuestions": "3-5 Questions in Tier-1 & Tier-2",
+    "lastUpdated": "2026-07-21",
+    "whyItMatters": "Core constitutional and administrative topic in Modern Indian History. TCS, UPSC, and State PCS frequently ask about the first Governor-General of Bengal, Supreme Court at Calcutta (1774), Dual Control under Pitt's India Act (1784), Permanent Settlement (1793), Cornwallis Code, Subsidiary Alliance System (1798), and Fort William College (1800)."
+  },
+  "quickFacts": [
+    {
+      "icon": "🏛️",
+      "heading": "First Governor-General of Bengal",
+      "fact": "Warren Hastings became the first Governor-General of Bengal under the Regulating Act of 1773."
+    },
+    {
+      "icon": "⚖️",
+      "heading": "Supreme Court at Calcutta (1774)",
+      "fact": "Established under 1773 Act; Sir Elijah Impey was appointed first Chief Justice."
+    },
+    {
+      "icon": "📜",
+      "heading": "Dual Control System (1784)",
+      "fact": "Pitt's India Act created the Board of Control (political) alongside Court of Directors (commercial)."
+    },
+    {
+      "icon": "🇬🇧",
+      "heading": "'British Possessions in India'",
+      "fact": "EIC territories were officially called 'British possessions in India' for the first time in Pitt's India Act (1784)."
+    },
+    {
+      "icon": "🌾",
+      "heading": "Permanent Settlement (1793)",
+      "fact": "Introduced by Lord Cornwallis in Bengal, Bihar & Orissa — land revenue fixed permanently with Zamindars."
+    },
+    {
+      "icon": "👮",
+      "heading": "Father of Modern Civil Services",
+      "fact": "Lord Cornwallis introduced regular police (Thanas under Darogas) and Europeanized Civil Services."
+    },
+    {
+      "icon": "🤝",
+      "heading": "Subsidiary Alliance System (1798)",
+      "fact": "Introduced by Lord Wellesley; Nizam of Hyderabad (1798) was the first Indian ruler to accept it."
+    },
+    {
+      "icon": "🏛️",
+      "heading": "Fort William College (1800)",
+      "fact": "Founded by Lord Wellesley at Calcutta to train young British civil servants in Indian languages & customs."
+    },
+    {
+      "icon": "📜",
+      "heading": "A Code of Gentoo Laws",
+      "fact": "Compilation of Hindu legal code commissioned under Warren Hastings in 1776."
+    },
+    {
+      "icon": "🛑",
+      "heading": "Policy of Non-Intervention",
+      "fact": "Followed by Sir John Shore (1793–98); stayed neutral in Battle of Kharda (1795) between Marathas & Nizam."
+    },
+    {
+      "icon": "⚔️",
+      "heading": "Treaty of Bassein (1802)",
+      "fact": "Peshwa Baji Rao II accepted Wellesley's Subsidiary Alliance, leading to 2nd Anglo-Maratha War."
+    },
+    {
+      "icon": "⚖️",
+      "heading": "Cornwallis Code (1793)",
+      "fact": "Separated revenue administration from judicial functions; Collectors stripped of judicial powers."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1765",
+      "title": "Dual System Introduced in Bengal",
+      "shortDescription": "Robert Clive introduced the Dual System of Government (Diwani & Nizamat split) following the Treaty of Allahabad.",
+      "importance": "Caused rampant corruption, economic collapse, and severe Bengal Famine of 1770."
+    },
+    {
+      "year": "1772",
+      "title": "Warren Hastings Abolishes Dual System",
+      "shortDescription": "Warren Hastings assumed office as Governor of Bengal, abolished the Dual System, and brought direct EIC administrative control over revenue.",
+      "importance": "Beginning of direct British territorial administration in Bengal."
+    },
+    {
+      "year": "1773",
+      "title": "Regulating Act of 1773 Enacted",
+      "shortDescription": "British Parliament passed the Regulating Act to establish parliamentary control over EIC. Created Governor-General of Bengal and Executive Council of 4.",
+      "importance": "First constitutional landmark of British rule in India."
+    },
+    {
+      "year": "1774",
+      "title": "Supreme Court Established at Calcutta",
+      "shortDescription": "Supreme Court of Judicature established at Fort William under 1773 Act with Sir Elijah Impey as Chief Justice and 3 other judges.",
+      "importance": "First Supreme Court in India."
+    },
+    {
+      "year": "1784",
+      "title": "Pitt's India Act of 1784",
+      "shortDescription": "Introduced by Prime Minister William Pitt the Younger. Created Board of Control (6 commissioners) to manage political affairs, establishing 'Dual Control'.",
+      "importance": "Termed EIC territories 'British possessions in India' for the first time."
+    },
+    {
+      "year": "1786",
+      "title": "Act of 1786",
+      "shortDescription": "Empowered Governor-General to override Council in extraordinary circumstances and united Governor-General and Commander-in-Chief roles for Lord Cornwallis.",
+      "importance": "Strengthened executive authority of the Governor-General."
+    },
+    {
+      "year": "1793",
+      "title": "Permanent Settlement & Cornwallis Code",
+      "shortDescription": "Lord Cornwallis introduced Permanent Settlement (Zamindari system) in Bengal and enacted the Cornwallis Code, separating revenue from judicial administration.",
+      "importance": "Defined land revenue system and civil service/police administration for decades."
+    },
+    {
+      "year": "1795",
+      "title": "Battle of Kharda",
+      "shortDescription": "Marathas defeated Nizam of Hyderabad. Governor-General Sir John Shore strictly maintained Policy of Non-Intervention.",
+      "importance": "Classic example of EIC non-intervention policy under Sir John Shore."
+    },
+    {
+      "year": "1798",
+      "title": "Lord Wellesley Introduces Subsidiary Alliance",
+      "shortDescription": "Lord Wellesley assumed office and launched the Subsidiary Alliance System. Nizam of Hyderabad became the first ruler to sign.",
+      "importance": "Master diplomatic-military framework for British expansion in India."
+    },
+    {
+      "year": "1799",
+      "title": "Fourth Anglo-Mysore War — Death of Tipu Sultan",
+      "shortDescription": "Wellesley defeated Tipu Sultan at Seringapatam. Tipu died defending his fort; Mysore placed under Subsidiary Alliance under Wodeyar dynasty.",
+      "importance": "Eliminated British Empire's fiercest opponent in South India."
+    },
+    {
+      "year": "1800",
+      "title": "Fort William College Established",
+      "shortDescription": "Lord Wellesley established Fort William College at Calcutta to train young British civil servants in Indian languages, law, and local customs.",
+      "importance": "Milestone in civil service training in India."
+    },
+    {
+      "year": "1802",
+      "title": "Treaty of Bassein",
+      "shortDescription": "Peshwa Baji Rao II signed the Subsidiary Alliance with Wellesley after being defeated by Holkar, triggering the Second Anglo-Maratha War.",
+      "importance": "Gave EIC military dominance over the Maratha Empire."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "Regulating Act of 1773: Context & Provisions",
+      "explanation": "After acquiring Diwani rights (1765) and facing the catastrophic Bengal Famine of 1770, Clive's Dual System led to rampant corruption among EIC servants and financial bankruptcy. In 1772, EIC petitioned the British government for a £1 million loan. Prime Minister Lord North used this to pass the Regulating Act of 1773, introducing parliamentary control:\n1. Designated Governor of Bengal as Governor-General of Bengal (Warren Hastings became 1st).\n2. Executive Council of 4 members created (decision by majority vote; GG had only casting vote).\n3. Presidencies of Bombay and Madras made subordinate to Bengal in war and peace.\n4. Established Supreme Court at Fort William, Calcutta (1774) with Sir Elijah Impey as Chief Justice.\n5. Banned private trade, bribes, and gifts for EIC servants.\n6. Required Court of Directors to submit revenue, civil, and military reports to British Treasury.",
+      "keyTakeaways": [
+        "First Governor-General of Bengal: Warren Hastings (1773).",
+        "Executive Council: 4 members (majority vote decision).",
+        "Supreme Court (1774): Fort William, Calcutta → Chief Justice: Sir Elijah Impey.",
+        "Subordination: Bombay & Madras made subordinate to Bengal.",
+        "Anti-Corruption: Banned private trade & gifts for EIC servants.",
+        "Parliamentary Control: Reports submitted to British Treasury."
+      ],
+      "importantExamPoints": [
+        "Title created by 1773 Act: Governor-General of Bengal (NOT Governor-General of India).",
+        "First Chief Justice of Supreme Court: Sir Elijah Impey (1774).",
+        "Key defect: Governor-General was frequently outvoted by his 4-member council (Francis faction).",
+        "First Act to recognize political/administrative functions of EIC."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Governor-General of Bengal (1773, Warren Hastings) with Governor-General of India (1833, Lord William Bentinck).",
+        "Thinking Supreme Court at Calcutta had jurisdiction over all India — it only covered Calcutta and British subjects in Bengal.",
+        "Assuming Hastings had veto power in 1773 — he had NO veto power, only a casting vote in case of a tie."
+      ]
+    },
+    {
+      "heading": "Pitt's India Act of 1784 & Act of 1786: System of Dual Control",
+      "explanation": "Introduced by Prime Minister William Pitt the Younger to fix defects of the 1773 Act:\n1. System of Dual Control: Split EIC management into Commercial (handled by Court of Directors) and Political/Military (handled by new Board of Control consisting of 6 Crown Commissioners).\n2. 'British Possessions in India': For the first time, EIC territories were officially called 'British possessions in India'.\n3. Executive Council Reduced: Reduced GG's council from 4 to 3 members (including Commander-in-Chief), strengthening GG's casting vote.\n4. Presidencies Subordination: Clear legal supremacy of Bengal over Bombay and Madras in foreign policy and revenue.\n\nAct of 1786: Passed for Lord Cornwallis. Allowed Governor-General to override Council in extraordinary situations and combined Governor-General & Commander-in-Chief into one office.",
+      "keyTakeaways": [
+        "Pitt's India Act (1784): Created Board of Control (6 commissioners) for political affairs.",
+        "Dual Control: Court of Directors (Commercial) + Board of Control (Political/Military).",
+        "New Term: 'British Possessions in India' used officially for the first time.",
+        "Council Reduced: 4 → 3 members (gave GG effective control).",
+        "Act of 1786: Gave GG override/veto power over Council (for Lord Cornwallis)."
+      ],
+      "importantExamPoints": [
+        "System created by 1784 Act: Dual Control System (lasted until 1858).",
+        "Board of Control: 6 members representing British Crown.",
+        "Act that gave GG veto power over Council: Act of 1786 (passed for Cornwallis).",
+        "First Act to explicitly state British Crown's ownership over Indian territories."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Dual Government of Clive (1765–72, Nawab vs EIC) with Dual Control of Pitt's Act (1784, Court of Directors vs Board of Control).",
+        "Thinking Board of Control was an EIC body — it was a British CROWN body."
+      ]
+    },
+    {
+      "heading": "Warren Hastings (1772–1785): Administrative & Judicial Reforms",
+      "explanation": "Warren Hastings served as Governor of Bengal (1772) and first Governor-General (1773–1785):\n1. Administrative: Abolished Dual System (1772); transferred treasury from Murshidabad to Calcutta; appointed Collectors in districts.\n2. Judicial: Set up Sadar Diwani Adalat (civil appeal court) and Sadar Nizamat Adalat (criminal appeal court) at Calcutta; commissioned compilation of Hindu legal code 'A Code of Gentoo Laws' (1776) translated by Nathaniel Halhed.\n3. Revenue: Introduced Quinquennial (5-year) farming auction system (1772), later reverted to annual leases.\n4. Foreign Policy: Fought First Anglo-Maratha War (1775–82, Treaty of Salbai) and Second Anglo-Mysore War (1780–84, Treaty of Mangalore).\n5. Asiatic Society: Supported Sir William Jones in founding Asiatic Society of Bengal (1784).\n6. Impeachment: Impeached in British Parliament by Edmund Burke upon return (later acquitted).",
+      "keyTakeaways": [
+        "Abolished Dual System of Bengal in 1772.",
+        "Established Sadar Diwani Adalat & Sadar Nizamat Adalat.",
+        "Commissioned 'A Code of Gentoo Laws' (1776).",
+        "Supported founding of Asiatic Society of Bengal (1784) by Sir William Jones.",
+        "Treaty of Salbai (1782) & Treaty of Mangalore (1784).",
+        "Only Governor-General to be impeached in British Parliament (by Edmund Burke)."
+      ],
+      "importantExamPoints": [
+        "First Governor-General of Bengal: Warren Hastings.",
+        "Asiatic Society of Bengal founded in 1784 during tenure of: Warren Hastings.",
+        "Only Governor-General impeached: Warren Hastings.",
+        "Quinquennial (5-year) auction system introduced by: Warren Hastings."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Sir William Jones (founder of Asiatic Society) with Warren Hastings (Governor-General at the time).",
+        "Thinking Hastings was convicted in his impeachment — he was acquitted after a long trial."
+      ]
+    },
+    {
+      "heading": "Lord Cornwallis (1786–1793): Permanent Settlement & Cornwallis Code",
+      "explanation": "Lord Cornwallis is called the 'Father of Modern Civil Services in India' and 'Father of Indian Police':\n1. Permanent Settlement (1793): Introduced Zamindari land revenue system in Bengal, Bihar & Orissa. Fixed land revenue permanently; recognized Zamindars as hereditary owners as long as they paid fixed revenue on time (Sunset Law).\n2. Cornwallis Code (1793): Based on separation of powers. Stripped District Collectors of judicial/magisterial powers, leaving them only revenue collection. Created District Judges.\n3. Police Reforms: Established regular police system. Divided districts into Thanas under Darogas supervised by District Superintendent of Police.\n4. Europeanization: Reserved all high administrative posts (salary > £500) strictly for Europeans, distrusting Indian officials.\n5. Third Anglo-Mysore War (1790–92): Defeated Tipu Sultan; signed Treaty of Seringapatam (1792).",
+      "keyTakeaways": [
+        "Permanent Settlement (1793): Fixed revenue permanently with Zamindars in Bengal, Bihar, Orissa.",
+        "Cornwallis Code (1793): Separated revenue from judicial administration.",
+        "Police System: Created Thanas under Darogas.",
+        "Father of Civil Services in India: Europeanized administration.",
+        "Third Anglo-Mysore War: Treaty of Seringapatam (1792) with Tipu Sultan."
+      ],
+      "importantExamPoints": [
+        "Father of Civil Services in India: Lord Cornwallis.",
+        "Father of Modern Police in India: Lord Cornwallis (Thanas & Darogas).",
+        "Permanent Settlement (1793) introduced in: Bengal, Bihar, Orissa, and Northern Circars.",
+        "Cornwallis Code principle: Separation of Revenue and Judicial administration.",
+        "Sunset Law: Associated with Permanent Settlement (Zamindari forfeited if tax unpaid before sunset on due date)."
+      ],
+      "commonStudentMistakes": [
+        "Thinking Cornwallis introduced Ryotwari system — he introduced Permanent Settlement (Zamindari). Ryotwari was by Munro & Read.",
+        "Confusing Cornwallis (3rd Mysore War, 1792) with Wellesley (4th Mysore War, 1799)."
+      ]
+    },
+    {
+      "heading": "Lord Wellesley (1798–1805): Subsidiary Alliance & Expansion",
+      "explanation": "Lord Wellesley referred to himself as a 'Bengal Tiger' and aggressively expanded British empire via the Subsidiary Alliance System:\n1. Subsidiary Alliance Framework: Princely states accepting the alliance had to:\n   - Station British army troops at state expense.\n   - Accept a British Resident at court.\n   - Surrender foreign policy (no war/treaty without British consent).\n   - Dismiss all non-British Europeans from service.\n   - In return, British guaranteed protection against foreign invasion.\n2. States entering Alliance (Chronological): Hyderabad (1798), Mysore (1799), Tanjore (1799), Awadh (1801), Peshwa/Marathas (1802, Treaty of Bassein), Bhonsle (1803), Scindia (1804).\n3. Wars: Fourth Anglo-Mysore War (1799, Tipu Sultan killed), Second Anglo-Maratha War (1803–05).\n4. Fort William College (1800): Founded at Calcutta to train young EIC civil servants in Indian languages & laws.",
+      "keyTakeaways": [
+        "Subsidiary Alliance System (1798): Master expansionist framework.",
+        "First State to sign Subsidiary Alliance: Hyderabad (1798).",
+        "Chronology of Alliance: Hyderabad (1798) → Mysore (1799) → Tanjore (1799) → Awadh (1801) → Peshwa (1802).",
+        "Fourth Anglo-Mysore War (1799): Tipu Sultan killed at Seringapatam.",
+        "Fort William College (1800): Civil services training at Calcutta."
+      ],
+      "importantExamPoints": [
+        "First state to sign Subsidiary Alliance: Hyderabad (1798).",
+        "Who originated Subsidiary Alliance concept? Dupleix (French), but Wellesely formalized & expanded it systematically.",
+        "Fort William College (1800) founded by: Lord Wellesley.",
+        "Treaty of Bassein (1802): Peshwa Baji Rao II signed Subsidiary Alliance.",
+        "Fourth Anglo-Mysore War (1799): Death of Tipu Sultan."
+      ],
+      "commonStudentMistakes": [
+        "Thinking Wellesley invented the concept of subsidiary alliance — Dupleix (French) used it first, but Wellesley perfected it into a system.",
+        "Confusing 1798 Subsidiary Alliance (Hyderabad 1st) with 1848 Doctrine of Lapse (Satara 1st under Dalhousie)."
+      ]
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Warren Hastings",
+      "role": "First Governor-General of Bengal (1773–1785)",
+      "majorContributions": "Abolished Dual System (1772); first Governor-General under 1773 Act; established Sadar Diwani & Nizamat Adalats; supported William Jones in founding Asiatic Society (1784); only GG impeached in British Parliament.",
+      "sscTrick": "Hastings = First GG + Abolished Dual System + Asiatic Society + Impeached"
+    },
+    {
+      "name": "Lord Cornwallis",
+      "role": "Governor-General of Bengal (1786–1793)",
+      "majorContributions": "Introduced Permanent Settlement (1793); enacted Cornwallis Code (separation of powers); created police system (Thanas/Darogas); Father of Civil Services in India; defeated Tipu in 3rd Mysore War (1792).",
+      "sscTrick": "Cornwallis = Permanent Settlement + Father of Civil Services + Police Thanas + Cornwallis Code"
+    },
+    {
+      "name": "Sir Elijah Impey",
+      "role": "First Chief Justice of Supreme Court (1774)",
+      "majorContributions": "Appointed first Chief Justice of the Supreme Court of Judicature established at Fort William, Calcutta under the Regulating Act of 1773.",
+      "sscTrick": "Impey = First Chief Justice + Calcutta Supreme Court 1774"
+    },
+    {
+      "name": "William Pitt the Younger",
+      "role": "Prime Minister of Great Britain",
+      "majorContributions": "Introduced Pitt's India Act of 1784 establishing the Board of Control and creating the Dual Control System over East India Company's Indian administration.",
+      "sscTrick": "Pitt = Pitt's India Act 1784 + Board of Control + Dual Control"
+    },
+    {
+      "name": "Sir John Shore",
+      "role": "Governor-General of Bengal (1793–1798)",
+      "majorContributions": "Followed strict Policy of Non-Intervention; maintained neutrality during Battle of Kharda (1795) where Marathas defeated Nizam of Hyderabad; planned Permanent Settlement details earlier.",
+      "sscTrick": "Sir John Shore = Policy of Non-Intervention + Battle of Kharda 1795"
+    },
+    {
+      "name": "Lord Wellesley",
+      "role": "Governor-General of Bengal (1798–1805)",
+      "majorContributions": "Self-styled 'Bengal Tiger'; introduced Subsidiary Alliance System (1798); Hyderabad signed 1st; defeated Tipu Sultan in 4th Mysore War (1799); established Fort William College (1800).",
+      "sscTrick": "Wellesley = Subsidiary Alliance + Bengal Tiger + 4th Mysore War + Fort William College"
+    },
+    {
+      "name": "Sir William Jones",
+      "role": "Orientalist & Jurist",
+      "majorContributions": "Founded the Asiatic Society of Bengal at Calcutta in 1784 during Warren Hastings' tenure to promote Indology and translation of Sanskrit/Persian texts.",
+      "sscTrick": "William Jones = Asiatic Society of Bengal (1784)"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Regulating Act of 1773",
+      "definition": "The first constitutional Act passed by British Parliament to regulate and supervise East India Company affairs. Created Governor-General of Bengal and Supreme Court at Calcutta."
+    },
+    {
+      "term": "Board of Control",
+      "definition": "A 6-member Crown body created by Pitt's India Act (1784) to manage political, civil, and military affairs of EIC in India."
+    },
+    {
+      "term": "Dual Control System",
+      "definition": "Governance framework (1784–1858) splitting EIC oversight between Court of Directors (commercial) and Board of Control (political)."
+    },
+    {
+      "term": "Permanent Settlement (1793)",
+      "definition": "Land revenue system introduced by Lord Cornwallis in Bengal, Bihar & Orissa where revenue was fixed permanently with Zamindars recognized as hereditary owners."
+    },
+    {
+      "term": "Subsidiary Alliance System",
+      "definition": "Expansionist diplomatic-military framework introduced by Lord Wellesley (1798) requiring Indian states to station British troops, accept a Resident, and yield foreign policy autonomy."
+    },
+    {
+      "term": "Cornwallis Code (1793)",
+      "definition": "Legal code enacted by Lord Cornwallis establishing separation of revenue collection from judicial administration."
+    },
+    {
+      "term": "Sadar Diwani Adalat",
+      "definition": "Highest civil appellate court established at Calcutta by Warren Hastings in 1772, presided over by Governor-General and Council."
+    },
+    {
+      "term": "Fort William College (1800)",
+      "definition": "Training institution established at Calcutta by Lord Wellesley to instruct young British EIC civil servants in Indian languages, law, and customs."
+    },
+    {
+      "term": "Sunset Law",
+      "definition": "Clause in Permanent Settlement stating that if a Zamindar failed to deposit land revenue before sunset on the specified due date, his Zamindari would be auctioned off."
+    },
+    {
+      "term": "Gentoo Code",
+      "definition": "A Code of Gentoo Laws (1776), a compilation and translation of Hindu legal texts into English commissioned by Warren Hastings."
+    }
+  ],
+  "tables": [
+    {
+      "title": "Comparison of Constitutional Acts: 1773 vs 1784",
+      "headers": ["Parameter", "Regulating Act of 1773", "Pitt's India Act of 1784"],
+      "rows": [
+        ["System of Governance", "Single governing body (Court of Directors) supervised loosely by British Treasury.", "Dual Control System: Court of Directors (commercial) + Board of Control (political)."],
+        ["Governor-General's Council", "4 Council members; GG had no veto power, easily outvoted by majority.", "3 Council members; GG position strengthened with a casting vote."],
+        ["Control over Presidencies", "Vague subordination of Bombay and Madras in war and peace.", "Clear, legal supremacy of Bengal over Bombay and Madras in foreign policy and revenue."],
+        ["Territorial Terminology", "Referred to as 'Territories of the United Company'.", "Explicitly named 'British Possessions in India' for the first time."],
+        ["Judicial Setup", "Created Supreme Court at Calcutta (1774) under Sir Elijah Impey.", "Refined judicial boundaries to reduce clashes with administrative executive."]
+      ]
+    },
+    {
+      "title": "Early Governor-Generals of Bengal (1772–1805) — SSC Master Table",
+      "headers": ["Governor-General", "Tenure", "Key Reform / System", "Major Wars / Events"],
+      "rows": [
+        ["Warren Hastings", "1772–1785", "Abolished Dual System; Sadar Adalats; Gentoo Code; Asiatic Society (1784)", "1st Anglo-Maratha War (1775-82); 2nd Anglo-Mysore War (1780-84); Impeached."],
+        ["Lord Cornwallis", "1786–1793", "Permanent Settlement (1793); Cornwallis Code; Thanas/Darogas; Civil Services", "3rd Anglo-Mysore War (Treaty of Seringapatam, 1792)."],
+        ["Sir John Shore", "1793–1798", "Policy of Non-Intervention", "Battle of Kharda (1795, Marathas vs Nizam)."],
+        ["Lord Wellesley", "1798–1805", "Subsidiary Alliance System (1798); Fort William College (1800)", "4th Anglo-Mysore War (1799, Tipu killed); 2nd Anglo-Maratha War (1803-05)."]
+      ]
+    },
+    {
+      "title": "Chronological Sequence of Subsidiary Alliance States (Lord Wellesley)",
+      "headers": ["Order", "State / Ruler", "Year Signed", "Significance / Event"],
+      "rows": [
+        ["1st", "Hyderabad (Nizam)", "1798", "First state to accept Subsidiary Alliance."],
+        ["2nd", "Mysore (Wodeyar)", "1799", "After defeat and death of Tipu Sultan in 4th Mysore War."],
+        ["3rd", "Tanjore", "1799", "Surrendered administration to EIC."],
+        ["4th", "Awadh (Nawab)", "1801", "Ceded half of territorial kingdom (Rohilkhand & Doab)."],
+        ["5th", "Peshwa Baji Rao II (Maratha)", "1802", "Treaty of Bassein; triggered 2nd Anglo-Maratha War."],
+        ["6th", "Bhonsle of Berar", "1803", "Treaty of Deogaon."],
+        ["7th", "Scindia of Gwalior", "1804", "Treaty of Surji-Anjangaon."]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "concept": "Subsidiary Alliance States Order",
+      "mnemonic": "H-M-T-A-P → Hyderabad, Mysore, Tanjore, Awadh, Peshwa",
+      "explanation": "Chronological order of states accepting Wellesley's Subsidiary Alliance: Hyderabad (1798) → Mysore (1799) → Tanjore (1799) → Awadh (1801) → Peshwa (1802). Mnemonic: HMT Watch + AP!"
+    },
+    {
+      "concept": "1773 vs 1784 Acts Difference",
+      "mnemonic": "1773 = Regulating (Supreme Court + 4 Council) | 1784 = Pitt's Dual (Board of Control + 3 Council)",
+      "explanation": "Remember 1773 = Supreme Court & 4 councilors. 1784 = Pitt's Dual Control (Board of Control) & 3 councilors."
+    },
+    {
+      "concept": "Father of Civil Services & Police",
+      "mnemonic": "Cornwallis = Code + Civil Services + Criminal Police (Daroga)",
+      "explanation": "All three C's/P's belong to Lord Cornwallis: Cornwallis Code (1793), Civil Services (Europeanized), Criminal Police (Thanas & Darogas)."
+    },
+    {
+      "concept": "Wellesley's Title & College",
+      "mnemonic": "Wellesley = Bengal Tiger + Fort William College (1800)",
+      "explanation": "Lord Wellesley called himself Bengal Tiger and built Fort William College in 1800 for training civil servants."
+    }
+  ],
+  "examTraps": [
+    {
+      "topic": "First Governor-General of Bengal vs India",
+      "trap": "Warren Hastings was the first Governor-General of India.",
+      "correction": "Warren Hastings was the first Governor-General of BENGAL (1773 Act). Lord William Bentinck was the first Governor-General of INDIA (1833 Charter Act)."
+    },
+    {
+      "topic": "Dual System vs Dual Control",
+      "trap": "Confusing Dual System of Government with Dual Control System.",
+      "correction": "Dual System (1765–72, Clive) = Diwani vs Nizamat in Bengal. Dual Control (1784, Pitt's Act) = Court of Directors (Commercial) vs Board of Control (Political)."
+    },
+    {
+      "topic": "Who introduced Permanent Settlement?",
+      "trap": "Attributing Permanent Settlement to Warren Hastings or Lord Wellesley.",
+      "correction": "Permanent Settlement (1793) was introduced by Lord Cornwallis in Bengal, Bihar, and Orissa."
+    },
+    {
+      "topic": "Originator of Subsidiary Alliance",
+      "trap": "Lord Wellesley invented the concept of Subsidiary Alliance.",
+      "correction": "Dupleix (French Governor) first used subsidiary troops in Indian courts, but Lord Wellesley perfected and systematically expanded it into an empire-building system (1798)."
+    },
+    {
+      "topic": "First State to sign Subsidiary Alliance",
+      "trap": "Awadh or Mysore was the first state to sign Subsidiary Alliance.",
+      "correction": "Hyderabad (Nizam) in 1798 was the VERY FIRST state to sign Lord Wellesley's Subsidiary Alliance."
+    }
+  ],
+  "pyqAnalysis": {
+    "frequentlyTestedConcepts": [
+      "First Governor-General of Bengal — Warren Hastings (1773 Act)",
+      "Supreme Court at Calcutta (1774) & First Chief Justice Sir Elijah Impey",
+      "Pitt's India Act (1784) — Board of Control & Dual Control System",
+      "Permanent Settlement (1793) — Lord Cornwallis & Sunset Law",
+      "Father of Modern Civil Services & Police in India — Lord Cornwallis",
+      "Subsidiary Alliance System (1798) — Lord Wellesley & Hyderabad as 1st state",
+      "Fort William College (1800) — Lord Wellesley",
+      "Impeachment of Warren Hastings by Edmund Burke",
+      "Policy of Non-Intervention — Sir John Shore & Battle of Kharda (1795)"
+    ],
+    "repeatedThemes": [
+      "Which Act created the office of Governor-General of Bengal? (1773 Regulating Act)",
+      "Which Act introduced Dual Control / Board of Control? (1784 Pitt's India Act)",
+      "Who introduced Permanent Settlement in Bengal? (Lord Cornwallis, 1793)",
+      "Which was the first state to accept Subsidiary Alliance? (Hyderabad, 1798)",
+      "Who established Fort William College in 1800? (Lord Wellesley)"
+    ],
+    "difficultyTrend": "Tier-1: Direct factual questions (who/when/which Act). Tier-2 & State PCS: Provisions comparison (1773 vs 1784), features of Subsidiary Alliance, and Cornwallis Code principles."
+  },
+  "mcqs": [
+    {
+      "question": "Who was appointed as the FIRST Governor-General of Bengal under the provisions of the Regulating Act of 1773?",
+      "options": ["Lord Clive", "Warren Hastings", "Lord Cornwallis", "Lord Wellesley"],
+      "correctAnswer": "Warren Hastings",
+      "explanation": "Warren Hastings, who was serving as Governor of Bengal, became the first Governor-General of Bengal under the Regulating Act of 1773.",
+      "topicTag": "Constitutional Acts",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which legislative enactment established the 'Board of Control', creating a system of Dual Control over the East India Company's Indian administration?",
+      "options": ["Regulating Act of 1773", "Pitt's India Act of 1784", "Charter Act of 1793", "Charter Act of 1813"],
+      "correctAnswer": "Pitt's India Act of 1784",
+      "explanation": "Pitt's India Act of 1784 introduced a 6-member Crown body called the Board of Control to handle political/military affairs while leaving commercial operations to the Court of Directors (Dual Control).",
+      "topicTag": "Constitutional Acts",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "The Supreme Court of Judicature was established at Fort William, Calcutta, in 1774. Who was appointed as its FIRST Chief Justice?",
+      "options": ["Sir Elijah Impey", "Sir William Jones", "Philip Francis", "Sir John Macpherson"],
+      "correctAnswer": "Sir Elijah Impey",
+      "explanation": "Sir Elijah Impey was appointed as the first Chief Justice of the Supreme Court of Judicature established at Calcutta in 1774 under the Regulating Act of 1773.",
+      "topicTag": "Judicial History",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The Permanent Settlement of land revenue in Bengal, Bihar, and Orissa (1793) was introduced during the tenure of which Governor-General?",
+      "options": ["Warren Hastings", "Sir John Shore", "Lord Cornwallis", "Lord Wellesley"],
+      "correctAnswer": "Lord Cornwallis",
+      "explanation": "Lord Cornwallis introduced the Permanent Settlement in 1793, fixing land revenue demand permanently and recognizing Zamindars as hereditary owners as long as tax was paid on time.",
+      "topicTag": "Land Revenue Systems",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which Indian state was the VERY FIRST to accept Lord Wellesley's Subsidiary Alliance System in 1798?",
+      "options": ["Mysore", "Awadh", "Hyderabad", "Peshwa (Marathas)"],
+      "correctAnswer": "Hyderabad",
+      "explanation": "The Nizam of Hyderabad was the first Indian ruler to enter into a Subsidiary Alliance with Lord Wellesley in 1798.",
+      "topicTag": "Subsidiary Alliance",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "The 'Cornwallis Code' enacted in 1793 was based on which core administrative principle?",
+      "options": [
+        "Unification of executive and judicial powers in District Collectors",
+        "Separation of revenue administration from judicial administration",
+        "Abolition of traditional police Thanas",
+        "Devolution of powers to local village Panchayats"
+      ],
+      "correctAnswer": "Separation of revenue administration from judicial administration",
+      "explanation": "The Cornwallis Code (1793) established the principle of Separation of Powers by stripping District Collectors of judicial/magisterial duties, leaving them solely responsible for revenue collection.",
+      "topicTag": "Administrative Reforms",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which Governor-General of Bengal was impeached in the British Parliament by Edmund Burke upon his return to England?",
+      "options": ["Robert Clive", "Warren Hastings", "Lord Cornwallis", "Lord Wellesley"],
+      "correctAnswer": "Warren Hastings",
+      "explanation": "Warren Hastings was impeached by Edmund Burke in the British House of Commons for alleged corruption and high crimes in India (such as the Rohilla War and Case of Raja Chait Singh). He was acquitted after a 7-year trial.",
+      "topicTag": "Governor-Generals",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Fort William College was established at Calcutta in 1800 by Lord Wellesley primarily to:",
+      "options": [
+        "Promote Western scientific education among Indian youth",
+        "Train young British civil servants in Indian languages, laws, and customs",
+        "Provide military training to EIC sepoy officers",
+        "Translate ancient Sanskrit texts into English"
+      ],
+      "correctAnswer": "Train young British civil servants in Indian languages, laws, and customs",
+      "explanation": "Lord Wellesley established Fort William College in 1800 to train newly arrived British civil servants in Indian vernacular languages, administrative laws, and local customs.",
+      "topicTag": "Educational Institutions",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "During the tenure of which Governor-General did Sir William Jones found the 'Asiatic Society of Bengal' in 1784?",
+      "options": ["Warren Hastings", "Lord Cornwallis", "Sir John Shore", "Lord Wellesley"],
+      "correctAnswer": "Warren Hastings",
+      "explanation": "Sir William Jones founded the Asiatic Society of Bengal at Calcutta in 1784 during the Governor-Generalship of Warren Hastings, who strongly patronized Orientalist scholarship.",
+      "topicTag": "Cultural History",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "Which Act for the FIRST time explicitly termed the East India Company's territorial possessions in India as 'British Possessions in India'?",
+      "options": ["Regulating Act of 1773", "Pitt's India Act of 1784", "Charter Act of 1793", "Charter Act of 1813"],
+      "correctAnswer": "Pitt's India Act of 1784",
+      "explanation": "Pitt's India Act of 1784 explicitly declared EIC territories in India to be 'British possessions in India', asserting Crown sovereignty over Company conquests.",
+      "topicTag": "Constitutional Acts",
+      "difficulty": "Hard"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Who was the first Governor-General of Bengal and under which Act?",
+      "back": "Warren Hastings (1773) under the Regulating Act of 1773."
+    },
+    {
+      "front": "When and where was the first Supreme Court established in India?",
+      "back": "1774 at Fort William, Calcutta, under the Regulating Act of 1773. First Chief Justice: Sir Elijah Impey."
+    },
+    {
+      "front": "What was Pitt's India Act (1784) Dual Control System?",
+      "back": "Split EIC oversight between Court of Directors (commercial affairs) and Crown's Board of Control (political & military affairs)."
+    },
+    {
+      "front": "Who introduced Permanent Settlement in Bengal and when?",
+      "back": "Lord Cornwallis in 1793. Land revenue was permanently fixed with Zamindars as hereditary owners."
+    },
+    {
+      "front": "Who is known as the 'Father of Modern Civil Services in India'?",
+      "back": "Lord Cornwallis — he Europeanized administration and established a structured civil service system."
+    },
+    {
+      "front": "What was Lord Wellesley's Subsidiary Alliance System (1798)?",
+      "back": "An expansionist framework where Indian states stationed British troops at state expense, accepted a British Resident, and yielded foreign policy control."
+    },
+    {
+      "front": "Chronological order of first 5 states signing Subsidiary Alliance?",
+      "back": "Hyderabad (1798) → Mysore (1799) → Tanjore (1799) → Awadh (1801) → Peshwa/Marathas (1802, Treaty of Bassein). Mnemonic: H-M-T-A-P."
+    },
+    {
+      "front": "Who established Fort William College in 1800 and why?",
+      "back": "Lord Wellesley at Calcutta to train young British civil servants in Indian languages, laws, and customs."
+    },
+    {
+      "front": "Which Governor-General was impeached in British Parliament?",
+      "back": "Warren Hastings — impeached by Edmund Burke upon return to England (later acquitted)."
+    },
+    {
+      "front": "What was the Cornwallis Code (1793) core principle?",
+      "back": "Separation of revenue collection from judicial administration; Collectors were stripped of judicial powers."
+    }
+  ],
+  "revisionPoints": [
+    "1773 Regulating Act: 1st GG of Bengal (Warren Hastings) + 4 Council members + Supreme Court at Calcutta (1774)",
+    "Sir Elijah Impey: 1st Chief Justice of Supreme Court (1774)",
+    "1784 Pitt's India Act: Board of Control (6 Crown members) + Dual Control + 'British Possessions in India'",
+    "1786 Act: Gave Governor-General (Cornwallis) veto/override power over Council",
+    "Warren Hastings (1772-85): Abolished Dual System (1772) + Gentoo Code (1776) + Asiatic Society (1784) + Impeached",
+    "Lord Cornwallis (1786-93): Permanent Settlement (1793) + Cornwallis Code + Police Thanas/Darogas + Civil Services",
+    "Sir John Shore (1793-98): Policy of Non-Intervention + Battle of Kharda (1795)",
+    "Lord Wellesley (1798-1805): Subsidiary Alliance (1798) + Bengal Tiger + 4th Mysore War (1799) + Fort William College (1800)",
+    "First state under Subsidiary Alliance: Hyderabad (1798)",
+    "Sunset Law: Associated with Permanent Settlement (1793)"
+  ],
+  "revisionSheet": [
+    "1765: Clive introduces Dual System in Bengal",
+    "1772: Warren Hastings abolishes Dual System; introduces Collectors",
+    "1773: Regulating Act of 1773 passed by Lord North government",
+    "1774: Supreme Court established at Calcutta (Sir Elijah Impey)",
+    "1776: A Code of Gentoo Laws compiled under Hastings",
+    "1784: Pitt's India Act creates Board of Control (Dual Control)",
+    "1784: Asiatic Society of Bengal founded by Sir William Jones",
+    "1786: Act of 1786 gives override powers to Lord Cornwallis",
+    "1793: Permanent Settlement enacted in Bengal, Bihar & Orissa",
+    "1793: Cornwallis Code separates Revenue & Judicial functions",
+    "1795: Battle of Kharda → Sir John Shore non-intervention policy",
+    "1798: Lord Wellesley introduces Subsidiary Alliance → Hyderabad signs 1st",
+    "1799: 4th Anglo-Mysore War → Tipu Sultan killed at Seringapatam",
+    "1800: Fort William College established at Calcutta by Wellesley",
+    "1802: Treaty of Bassein → Peshwa signs Subsidiary Alliance"
+  ],
+  "relatedTopics": {
+    "previousTopic": "English EIC & Carnatic Wars",
+    "previousTopicId": "english-eic-and-carnatic-wars",
+    "nextTopic": "The Revolt of 1857",
+    "nextTopicId": "revolt-of-1857"
+  }
+}
