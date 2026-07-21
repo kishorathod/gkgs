@@ -1,0 +1,671 @@
+{
+  "topicId": "revolt-of-1857",
+  "subject": "history",
+  "hero": {
+    "title": "The Revolt of 1857",
+    "subtitle": "The First War of Independence and the watershed moment in modern Indian history.",
+    "sscWeightage": "High",
+    "difficulty": "Medium",
+    "estimatedReadingTime": "15 mins",
+    "expectedQuestions": "1-2 Questions in Tier-1 & Tier-2",
+    "lastUpdated": "2026-03-31",
+    "whyItMatters": "Crucial historical milestone frequently targeted in SSC CGL. Questions focus heavily on centers of revolt, leaders, British suppressors, and immediate administrative outcomes."
+  },
+  "quickFacts": [
+    {
+      "icon": "📅",
+      "heading": "Start Date",
+      "fact": "10 May 1857 at Meerut by the 3rd Native Cavalry."
+    },
+    {
+      "icon": "👑",
+      "heading": "Nominal Leader",
+      "fact": "Bahadur Shah II (Zafar), the last Mughal Emperor."
+    },
+    {
+      "icon": "⚔",
+      "heading": "Symbol",
+      "fact": "Lotus (Kamal) and Chapati (Bread)."
+    },
+    {
+      "icon": "🇬🇧",
+      "heading": "Governor-General",
+      "fact": "Lord Canning served as Governor-General during 1857."
+    },
+    {
+      "icon": "💂♂️",
+      "heading": "British Commander-in-Chief",
+      "fact": "General George Anson (replaced by Colin Campbell)."
+    },
+    {
+      "icon": "💥",
+      "heading": "Immediate Cause",
+      "fact": "Introduction of Enfield rifles with greased cartridges."
+    },
+    {
+      "icon": "📜",
+      "heading": "Crown Rule Act",
+      "fact": "Government of India Act 1858 passed post-revolt."
+    },
+    {
+      "icon": "🏛",
+      "heading": "First Viceroy",
+      "fact": "Lord Canning became the first Viceroy of India."
+    },
+    {
+      "icon": "🎯",
+      "heading": "First Martyr",
+      "fact": "Mangal Pandey executed on 8 April 1857 at Barrackpore."
+    },
+    {
+      "icon": "📍",
+      "heading": "Delhi Commander",
+      "fact": "General Bakht Khan led the rebel forces in Delhi."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "1. Political and Economic Causes",
+      "explanation": "The expansionist policies of the British East India Company severely disrupted Indian socio-political structures. Lord Dalhousie's Doctrine of Lapse annexed major states like Satara, Sambalpur, Jhansi, and Nagpur without direct heirs. Awadh was annexed in 1856 on grounds of alleged misgovernance, deeply offending sepoys recruited from the region. High land revenue demands under the Permanent Settlement, Ryotwari, and Mahalwari systems ruined peasants and native landlords alike. High-handed British policies destroyed local industries and traditional crafts, generating widespread anti-British resentment.",
+      "keyTakeaways": [
+        "Doctrine of Lapse used to annex non-consanguineous Hindu states.",
+        "Awadh annexed on charges of 'maladministration' in 1856.",
+        "Destruction of traditional Indian handicraft industry."
+      ],
+      "importantExamPoints": [
+        "Doctrine of Lapse introduced by Lord Dalhousie.",
+        "Outram's report used as justification for Awadh's annexation.",
+        "Awadh was known as the 'Nursery of the Bengal Army'."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Doctrine of Lapse (Dalhousie) with Subsidiary Alliance (Wellesley).",
+        "Thinking Awadh was annexed under Doctrine of Lapse instead of maladministration."
+      ]
+    },
+    {
+      "heading": "2. Military and Religious Causes",
+      "explanation": "Indian sepoys suffered systemic discrimination regarding pay, promotions, and living conditions compared to European soldiers. The General Service Enlistment Act of 1856 made overseas service mandatory, which orthodox high-caste Hindu soldiers perceived as a loss of caste. Religious anxieties surged with the active support given to Christian missionaries and rumors of bone dust mixed in flour. The immediate trigger occurred with the Pattern 1853 Enfield Rifle, which used paper cartridges allegedly greased with tallow made of beef and pig fat, offending both Hindu and Muslim religious sentiments.",
+      "keyTakeaways": [
+        "General Service Enlistment Act 1856 passed by Lord Canning.",
+        "Enfield rifle cartridge issue triggered the immediate mutiny.",
+        "Sepoys paid significantly less than British counterparts."
+      ],
+      "importantExamPoints": [
+        "Mangal Pandey belonged to the 34th Native Infantry at Barrackpore.",
+        "The mutiny formally broke out on May 10, 1857, at Meerut.",
+        "19th Native Infantry at Berhampur rejected the new cartridges first."
+      ],
+      "commonStudentMistakes": [
+        "Thinking Mangal Pandey started the revolt at Meerut (he operated in Barrackpore).",
+        "Attributing the General Service Enlistment Act to Dalhousie instead of Canning."
+      ]
+    },
+    {
+      "heading": "3. Major Centers and Leadership",
+      "explanation": "The revolt spread rapidly across Northern and Central India. Bahadur Shah II was declared Emperor of India, while actual leadership in Delhi was held by General Bakht Khan. In Kanpur, Nana Saheb led the movement alongside Tatya Tope. Rani Lakshmibai spearheaded the resistance in Jhansi after her adopted son was denied succession. Begum Hazrat Mahal commanded Awadh from Lucknow, Khan Bahadur Khan led in Bareilly, and Kunwar Singh along with his brother Amar Singh led the uprising in Jagdishpur, Bihar.",
+      "keyTakeaways": [
+        "Delhi: Bahadur Shah II & General Bakht Khan.",
+        "Kanpur: Nana Saheb & Tatya Tope.",
+        "Bihar: Kunwar Singh (Jagdishpur)."
+      ],
+      "importantExamPoints": [
+        "Kunwar Singh was the oldest major leader (around 80 years old).",
+        "Real name of Nana Saheb: Dhondu Pant.",
+        "Real name of Tatya Tope: Ramachandra Pandurang."
+      ],
+      "commonStudentMistakes": [
+        "Failing to associate Tatya Tope with both Kanpur and Jhansi/Gwalior campaigns.",
+        "Confusing Moulvi Ahmadullah (Faizabad) with Khan Bahadur Khan (Bareilly)."
+      ]
+    },
+    {
+      "heading": "4. Suppression and Administrative Aftermath",
+      "explanation": "The British suppressed the uprising using superior artillery, military organization, and modern communication lines like telegraphs. Key officers involved were John Nicholson (Delhi), Colin Campbell (Kanpur/Lucknow), and Hugh Rose (Jhansi). The revolt failed due to a lack of unified strategy, absence of all-India participation, and neutral or loyal native rulers. Consequently, the British Parliament passed the Government of India Act 1858, ending East India Company rule and establishing direct Crown rule under a Secretary of State and a Viceroy.",
+      "keyTakeaways": [
+        "East India Company rule ended via Government of India Act 1858.",
+        "Queen Victoria's Proclamation issued on November 1, 1858.",
+        "Reorganisation of army based on Peel Commission recommendations."
+      ],
+      "importantExamPoints": [
+        "Hugh Rose called Rani Lakshmibai 'the only man among the rebels'.",
+        "Proclamation read by Lord Canning at Allahabad Durbar.",
+        "Army reorganized into 'Martial' and 'Non-Martial' races."
+      ],
+      "commonStudentMistakes": [
+        "Believing Dalhousie was Governor-General during the suppression.",
+        "Assuming all Indian princely states participated in the revolt."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "29 March 1857",
+      "title": "Barrackpore Incident",
+      "shortDescription": "Mangal Pandey fired upon British officers Baugh and Hearsey.",
+      "importance": "Triggered military unrest across Bengal Native Infantry."
+    },
+    {
+      "year": "8 April 1857",
+      "title": "Execution of Mangal Pandey",
+      "shortDescription": "Mangal Pandey was hanged at Barrackpore.",
+      "importance": "Galvanized anti-British sentiment across military cantonments."
+    },
+    {
+      "year": "10 May 1857",
+      "title": "Outbreak at Meerut",
+      "shortDescription": "3rd Native Cavalry revolted, broke open jails, and marched to Delhi.",
+      "importance": "Official start of the 1857 Revolt."
+    },
+    {
+      "year": "11-12 May 1857",
+      "title": "Capture of Delhi",
+      "shortDescription": "Rebels reached Delhi and proclaimed Bahadur Shah II Emperor of India.",
+      "importance": "Gave political legitimacy to the mutiny."
+    },
+    {
+      "year": "20 September 1857",
+      "title": "Recapture of Delhi",
+      "shortDescription": "British forces led by John Nicholson recaptured Delhi.",
+      "importance": "Broke the political spine of the uprising."
+    },
+    {
+      "year": "18 June 1858",
+      "title": "Death of Rani Lakshmibai",
+      "shortDescription": "Rani Lakshmibai died fighting Hugh Rose's forces near Gwalior.",
+      "importance": "Ended major armed resistance in Central India."
+    },
+    {
+      "year": "1 November 1858",
+      "title": "Queen's Proclamation",
+      "shortDescription": "Lord Canning announced transfer of power to the Crown at Allahabad.",
+      "importance": "Marked the beginning of direct British Crown Rule in India."
+    },
+    {
+      "year": "18 April 1859",
+      "title": "Execution of Tatya Tope",
+      "shortDescription": "Tatya Tope was betrayed and hanged at Shivpuri.",
+      "importance": "Marked the final suppression of the 1857 Uprising."
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Bahadur Shah II (Zafar)",
+      "role": "Mughal Emperor",
+      "years": "1775 - 1862",
+      "majorContributions": "Symbolic head of the revolt; wrote patriotic poetry; exiled to Rangoon.",
+      "sscTrick": "Bahadur in name, but exiled to Rangoon (Burma)."
+    },
+    {
+      "name": "Rani Lakshmibai",
+      "role": "Queen of Jhansi",
+      "years": "1828 - 1858",
+      "majorContributions": "Led Jhansi revolt against Doctrine of Lapse; captured Gwalior fort.",
+      "sscTrick": "Jhansi + Rose = Hugh Rose suppressed Jhansi."
+    },
+    {
+      "name": "Nana Saheb",
+      "role": "Adopted Son of Peshwa Baji Rao II",
+      "years": "1824 - 1857 (disappeared)",
+      "majorContributions": "Led revolt at Kanpur; fled to Nepal after suppression.",
+      "sscTrick": "Dhondu Pant = Nana Kanpur."
+    },
+    {
+      "name": "Tatya Tope",
+      "role": "Rebel Commander",
+      "years": "1814 - 1859",
+      "majorContributions": "Pioneered guerrilla warfare in Central India; aided Nana Saheb and Lakshmibai.",
+      "sscTrick": "Ramachandra Pandurang = Guerrilla Commander."
+    },
+    {
+      "name": "Kunwar Singh",
+      "role": "Zamindar of Jagdishpur",
+      "years": "1777 - 1858",
+      "majorContributions": "Oldest active leader; defeated British forces in Bihar.",
+      "sscTrick": "Kunwar = King of Bihar (Jagdishpur)."
+    },
+    {
+      "name": "Begum Hazrat Mahal",
+      "role": "Queen of Awadh",
+      "years": "1820 - 1879",
+      "majorContributions": "Proclaimed son Birjis Qadir Nawab; led resistance in Lucknow; escaped to Nepal.",
+      "sscTrick": "Hazrat = Home of Awadh (Lucknow)."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Doctrine of Lapse",
+      "definition": "Policy where princely states under British suzerainty without a natural male heir were annexed into British territory."
+    },
+    {
+      "term": "Enfield Rifle",
+      "definition": "New rifle introduced in 1856 whose grease contained animal fat, sparking the revolt."
+    },
+    {
+      "term": "Peel Commission",
+      "definition": "Commission set up post-1857 to reorganize the British Indian Army on racial and regional balances."
+    },
+    {
+      "term": "General Service Enlistment Act",
+      "definition": "1856 Act making overseas deployment mandatory for Bengal Army recruits, violating high-caste religious customs."
+    },
+    {
+      "term": "Allahabad Durbar",
+      "definition": "Grand court held on Nov 1, 1858, where Lord Canning read Queen Victoria's Proclamation assuming Indian governance."
+    },
+    {
+      "term": "Birjis Qadir",
+      "definition": "Son of Begum Hazrat Mahal, declared Nawab of Awadh by rebels during the 1857 Revolt."
+    }
+  ],
+  "tables": [
+    {
+      "title": "Major Centers, Leaders, and British Officers",
+      "headers": ["Center", "Rebel Leader", "British Suppressor"],
+      "rows": [
+        ["Delhi", "Bahadur Shah II / Bakht Khan", "John Nicholson / Hudson"],
+        ["Kanpur", "Nana Saheb / Tatya Tope", "Colin Campbell"],
+        ["Lucknow", "Begum Hazrat Mahal", "Colin Campbell"],
+        ["Jhansi & Gwalior", "Rani Lakshmibai / Tatya Tope", "Hugh Rose"],
+        ["Bihar (Jagdishpur)", "Kunwar Singh / Amar Singh", "William Taylor / Vincent Eyre"],
+        ["Bareilly", "Khan Bahadur Khan", "Colin Campbell"],
+        ["Faizabad", "Moulvi Ahmadullah", "Colin Campbell"],
+        ["Allahabad / Banaras", "Liaquat Ali", "James Neill"]
+      ]
+    },
+    {
+      "title": "Comparison: Pre-1857 vs Post-1857 Army Structure",
+      "headers": ["Feature", "Pre-1857 Army", "Post-1857 Army"],
+      "rows": [
+        ["Governing Authority", "East India Company", "British Crown"],
+        ["European to Indian Ratio", "1 : 5 (approx)", "1 : 2 (Bengal), 1 : 2.5 (Madras/Bombay)"],
+        ["Artillery Control", "Shared with Indian Troops", "Exclusive Control of European Troops"],
+        ["Recruitment Base", "High Caste Brahmins/Rajputs of Awadh", "Martial Races (Sikhs, Pathans, Gurkhas)"]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "concept": "Centers & Leaders",
+      "mnemonic": "DL-B, KP-N, LK-H, JH-L, BH-K",
+      "explanation": "Delhi-Bakht Khan, Kanpur-Nana, Lucknow-Hazrat, Jhansi-Lakshmibai, Bihar-Kunwar."
+    },
+    {
+      "concept": "British Suppressors",
+      "mnemonic": "Delhi's Nick fell, Campbell took Kanpur-Lucknow, Rose bloom in Jhansi.",
+      "explanation": "John Nicholson (Delhi), Colin Campbell (Kanpur & Lucknow), Hugh Rose (Jhansi)."
+    },
+    {
+      "concept": "Real Names of Leaders",
+      "mnemonic": "Nana = Dhondu | Tatya = Ramachandra",
+      "explanation": "Nana Saheb's real name was Dhondu Pant; Tatya Tope's real name was Ramachandra Pandurang."
+    }
+  ],
+  "examTraps": [
+    {
+      "topic": "Annexation of Awadh vs Jhansi",
+      "trap": "Students often select Doctrine of Lapse for Awadh's annexation.",
+      "correction": "Awadh was annexed in 1856 on charges of 'Maladministration' (Outram Report), whereas Jhansi was annexed under Doctrine of Lapse."
+    },
+    {
+      "topic": "Governor-General during 1857 Revolt",
+      "trap": "Students frequently mark Lord Dalhousie because of the Doctrine of Lapse.",
+      "correction": "Lord Canning was the Governor-General when the revolt broke out in 1857. Dalhousie left India in 1856."
+    },
+    {
+      "topic": "First Martyr / Incident Location",
+      "trap": "Confusing Mangal Pandey's unit location with Meerut.",
+      "correction": "Mangal Pandey mutinied at Barrackpore (34th NI). The general uprising started later at Meerut (3rd Native Cavalry)."
+    },
+    {
+      "topic": "Leaders who Escaped to Nepal",
+      "trap": "Believing Tatya Tope escaped to Nepal.",
+      "correction": "Nana Saheb and Begum Hazrat Mahal escaped to Nepal. Tatya Tope continued guerrilla warfare and was executed in 1859."
+    }
+  ],
+  "pyqAnalysis": {
+    "frequentlyTestedConcepts": [
+      "Leaders matched with their respective revolt centers.",
+      "British military officers who suppressed specific centers.",
+      "Original names of Nana Saheb and Tatya Tope.",
+      "Governor-General during the revolt and administrative changes post-1857."
+    ],
+    "repeatedThemes": [
+      "Direct matching questions on Center vs Leader.",
+      "Specific Acts: Act of 1858 and Army reorganization commissions (Peel Commission).",
+      "Immediate cause: Enfield Rifle and unit numbers (34th NI)."
+    ],
+    "importantAreas": [
+      "Bihar Uprising under Kunwar Singh.",
+      "Queen Victoria's Proclamation Details.",
+      "Quotes by British officers (Hugh Rose on Rani Jhansi)."
+    ],
+    "difficultyTrend": "Moderate in Tier-1 (direct facts), Moderate-to-High in Tier-2 (statement-based questions and chronological matching).",
+    "expectedFutureQuestions": [
+      "Questions on minor centers like Faizabad (Moulvi Ahmadullah) and Allahabad (Liaquat Ali).",
+      "Statements testing differences between Dalhousie and Canning's policy actions."
+    ]
+  },
+  "mcqs": [
+    {
+      "id": 1,
+      "question": "Who was the Governor-General of India during the Revolt of 1857?",
+      "options": ["Lord Dalhousie", "Lord Canning", "Lord Curzon", "Lord Ellenborough"],
+      "correctAnswer": "Lord Canning",
+      "explanation": "Lord Canning served as Governor-General from 1856 to 1862 and became India's first Viceroy after the 1858 Act.",
+      "difficulty": "Easy",
+      "topicTag": "Governor-Generals"
+    },
+    {
+      "id": 2,
+      "question": "Mangal Pandey belonged to which Native Infantry regiment?",
+      "options": ["19th Native Infantry", "34th Native Infantry", "22nd Native Infantry", "3rd Native Cavalry"],
+      "correctAnswer": "34th Native Infantry",
+      "explanation": "Mangal Pandey was a sepoy in the 34th Bengal Native Infantry stationed at Barrackpore.",
+      "difficulty": "Easy",
+      "topicTag": "Revolt Outbreak"
+    },
+    {
+      "id": 3,
+      "question": "On which date did the revolt formally begin at Meerut?",
+      "options": ["29 March 1857", "10 May 1857", "12 May 1857", "1 November 1858"],
+      "correctAnswer": "10 May 1857",
+      "explanation": "The revolt officially started on May 10, 1857, when sepoys of the 3rd Native Cavalry at Meerut broke out in open rebellion.",
+      "difficulty": "Easy",
+      "topicTag": "Timeline"
+    },
+    {
+      "id": 4,
+      "question": "Who led the revolt of 1857 in Bihar (Jagdishpur)?",
+      "options": ["Khan Bahadur Khan", "Maulvi Ahmadullah", "Kunwar Singh", "Tatya Tope"],
+      "correctAnswer": "Kunwar Singh",
+      "explanation": "Kunwar Singh, the 80-year-old zamindar of Jagdishpur, successfully led the revolt in Bihar.",
+      "difficulty": "Easy",
+      "topicTag": "Leaders"
+    },
+    {
+      "id": 5,
+      "question": "What was the real name of Nana Saheb?",
+      "options": ["Ramachandra Pandurang", "Dhondu Pant", "Narendra Nath", "Gopal Krishna"],
+      "correctAnswer": "Dhondu Pant",
+      "explanation": "Nana Saheb, the adopted son of Peshwa Baji Rao II, was originally named Dhondu Pant.",
+      "difficulty": "Medium",
+      "topicTag": "Personalities"
+    },
+    {
+      "id": 6,
+      "question": "Which British officer suppressed the revolt in Jhansi?",
+      "options": ["Colin Campbell", "Hugh Rose", "John Nicholson", "James Neill"],
+      "correctAnswer": "Hugh Rose",
+      "explanation": "Sir Hugh Rose suppressed the revolt in Jhansi and praised Rani Lakshmibai as 'the only man among the rebels'.",
+      "difficulty": "Medium",
+      "topicTag": "British Officers"
+    },
+    {
+      "id": 7,
+      "question": "Awadh was annexed by the East India Company in 1856 on the grounds of:",
+      "options": ["Doctrine of Lapse", "Alleged Misgovernance", "Subsidiary Alliance Failure", "Non-payment of Tribute"],
+      "correctAnswer": "Alleged Misgovernance",
+      "explanation": "Lord Dalhousie annexed Awadh in 1856 citing maladministration based on James Outram's report.",
+      "difficulty": "Medium",
+      "topicTag": "Causes"
+    },
+    {
+      "id": 8,
+      "question": "Who was proclaimed as the military leader in Delhi under Emperor Bahadur Shah II?",
+      "options": ["Bakht Khan", "Liaquat Ali", "Ahmadullah", "Khan Bahadur Khan"],
+      "correctAnswer": "Bakht Khan",
+      "explanation": "General Bakht Khan led the rebel army troops that came from Bareilly and took charge in Delhi.",
+      "difficulty": "Medium",
+      "topicTag": "Leaders"
+    },
+    {
+      "id": 9,
+      "question": "Which Commission was appointed to reorganize the Indian Army after the 1857 Revolt?",
+      "options": ["Hunter Commission", "Peel Commission", "Strachey Commission", "Aitchison Commission"],
+      "correctAnswer": "Peel Commission",
+      "explanation": "The Peel Commission was set up to reorganize the army, introducing the 'Martial and Non-Martial' division.",
+      "difficulty": "Hard",
+      "topicTag": "Post-Revolt Changes"
+    },
+    {
+      "id": 10,
+      "question": "Where was Queen Victoria’s Proclamation read out by Lord Canning on November 1, 1858?",
+      "options": ["Calcutta", "Delhi", "Allahabad", "Lucknow"],
+      "correctAnswer": "Allahabad",
+      "explanation": "Lord Canning read Queen Victoria's Proclamation at a grand Durbar in Allahabad on November 1, 1858.",
+      "difficulty": "Medium",
+      "topicTag": "Acts & Declarations"
+    },
+    {
+      "id": 11,
+      "question": "Who was the real name behind the guerrilla warfare strategist Tatya Tope?",
+      "options": ["Dhondu Pant", "Ramachandra Pandurang", "Ganesh Shankar", "Mahesh Das"],
+      "correctAnswer": "Ramachandra Pandurang",
+      "explanation": "Tatya Tope's original name was Ramachandra Pandurang Targetkar.",
+      "difficulty": "Easy",
+      "topicTag": "Personalities"
+    },
+    {
+      "id": 12,
+      "question": "Who led the 1857 rebellion in Bareilly?",
+      "options": ["Khan Bahadur Khan", "Maulvi Ahmadullah", "Begum Hazrat Mahal", "Liaquat Ali"],
+      "correctAnswer": "Khan Bahadur Khan",
+      "explanation": "Khan Bahadur Khan, a descendant of Rohilla rulers, spearheaded the uprising in Bareilly.",
+      "difficulty": "Medium",
+      "topicTag": "Leaders"
+    },
+    {
+      "id": 13,
+      "question": "Which Act abolished the East India Company's rule in India?",
+      "options": ["Regulating Act 1773", "Charter Act 1853", "Government of India Act 1858", "Indian Councils Act 1861"],
+      "correctAnswer": "Government of India Act 1858",
+      "explanation": "The Government of India Act 1858 transferred powers from the East India Company to the British Crown.",
+      "difficulty": "Easy",
+      "topicTag": "Acts"
+    },
+    {
+      "id": 14,
+      "question": "Which pair of leaders escaped to Nepal after the failure of the revolt?",
+      "options": ["Nana Saheb and Begum Hazrat Mahal", "Tatya Tope and Rani Lakshmibai", "Kunwar Singh and Bakht Khan", "Bahadur Shah II and Liaquat Ali"],
+      "correctAnswer": "Nana Saheb and Begum Hazrat Mahal",
+      "explanation": "Both Nana Saheb (Kanpur) and Begum Hazrat Mahal (Lucknow) escaped to Nepal to avoid British capture.",
+      "difficulty": "Hard",
+      "topicTag": "Revolt Outcomes"
+    },
+    {
+      "id": 15,
+      "question": "Who among the following was captured and executed due to the betrayal of a friend (Man Singh)?",
+      "options": ["Nana Saheb", "Tatya Tope", "Kunwar Singh", "Bakht Khan"],
+      "correctAnswer": "Tatya Tope",
+      "explanation": "Tatya Tope was betrayed by his feudatory friend Man Singh while sleeping in the Narwar forest.",
+      "difficulty": "Hard",
+      "topicTag": "Personalities"
+    },
+    {
+      "id": 16,
+      "question": "Which administrative position was created by the Government of India Act 1858 to oversee Indian governance from London?",
+      "options": ["Viceroy of India", "Secretary of State for India", "Governor-General in Council", "High Commissioner"],
+      "correctAnswer": "Secretary of State for India",
+      "explanation": "The Act created the office of the Secretary of State for India, assisted by a 15-member Council of India.",
+      "difficulty": "Medium",
+      "topicTag": "Acts"
+    },
+    {
+      "id": 17,
+      "question": "Which among the following regions remained largely unaffected by the Revolt of 1857?",
+      "options": ["Awadh", "Rohilkhand", "South India", "Bundelkhand"],
+      "correctAnswer": "South India",
+      "explanation": "South India, Western India, and Eastern Bengal remained largely stable and unaffected by the 1857 uprising.",
+      "difficulty": "Medium",
+      "topicTag": "Geographical Extent"
+    },
+    {
+      "id": 18,
+      "question": "What was the symbol chosen by the rebels of the 1857 Revolt?",
+      "options": ["Sword and Shield", "Lotus and Chapati", "Flag and Eagle", "Bow and Arrow"],
+      "correctAnswer": "Lotus and Chapati",
+      "explanation": "Red Lotus (Kamal) and Chapati served as secret symbols to mobilize rural areas and soldiers.",
+      "difficulty": "Easy",
+      "topicTag": "Quick Facts"
+    },
+    {
+      "id": 19,
+      "question": "Who called the 1857 revolt 'Neither first, nor National, nor War of Independence'?",
+      "options": ["V.D. Savarkar", "R.C. Majumdar", "S.N. Sen", "Benjamin Disraeli"],
+      "correctAnswer": "R.C. Majumdar",
+      "explanation": "R.C. Majumdar wrote that the 1857 uprising was 'Neither first, nor national, nor a war of independence'.",
+      "difficulty": "Hard",
+      "topicTag": "Historiography"
+    },
+    {
+      "id": 20,
+      "question": "Where was Emperor Bahadur Shah II exiled after being captured at Humayun's Tomb?",
+      "options": ["Andaman Islands", "Rangoon", "London", "Mandalay"],
+      "correctAnswer": "Rangoon",
+      "explanation": "Bahadur Shah II was captured by Major Hudson and exiled to Rangoon (Burma), where he died in 1862.",
+      "difficulty": "Easy",
+      "topicTag": "Personalities"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Who was the Governor-General during the Revolt of 1857?",
+      "back": "Lord Canning"
+    },
+    {
+      "front": "Where did Mangal Pandey mutiny first?",
+      "back": "Barrackpore (34th Bengal Native Infantry)"
+    },
+    {
+      "front": "Official start date of 1857 Revolt?",
+      "back": "10 May 1857 (at Meerut)"
+    },
+    {
+      "front": "Real name of Nana Saheb?",
+      "back": "Dhondu Pant"
+    },
+    {
+      "front": "Real name of Tatya Tope?",
+      "back": "Ramachandra Pandurang"
+    },
+    {
+      "front": "Who led the revolt in Jagdishpur, Bihar?",
+      "back": "Kunwar Singh"
+    },
+    {
+      "front": "Who led the revolt in Bareilly?",
+      "back": "Khan Bahadur Khan"
+    },
+    {
+      "front": "Who led the revolt in Faizabad?",
+      "back": "Moulvi Ahmadullah"
+    },
+    {
+      "front": "British officer who suppressed Delhi?",
+      "back": "John Nicholson and Lieutenant Hudson"
+    },
+    {
+      "front": "British officer who suppressed Jhansi?",
+      "back": "Sir Hugh Rose"
+    },
+    {
+      "front": "British officer who suppressed Kanpur and Lucknow?",
+      "back": "Colin Campbell"
+    },
+    {
+      "front": "Why was Awadh annexed in 1856?",
+      "back": "On grounds of alleged misgovernance (Maladministration)"
+    },
+    {
+      "front": "Who was declared Nawab of Awadh during the revolt?",
+      "back": "Birjis Qadir (son of Begum Hazrat Mahal)"
+    },
+    {
+      "front": "Which Act replaced Company Rule with Crown Rule?",
+      "back": "Government of India Act 1858"
+    },
+    {
+      "front": "Where was Queen Victoria’s Proclamation read?",
+      "back": "Allahabad Durbar (1 Nov 1858)"
+    },
+    {
+      "front": "Commission formed for post-revolt military reorganization?",
+      "back": "Peel Commission"
+    },
+    {
+      "front": "Where was Bahadur Shah II exiled?",
+      "back": "Rangoon, Burma"
+    },
+    {
+      "front": "Which two leaders escaped to Nepal after suppression?",
+      "back": "Nana Saheb and Begum Hazrat Mahal"
+    },
+    {
+      "front": "Who authored 'The Indian War of Independence 1857'?",
+      "back": "V.D. Savarkar"
+    },
+    {
+      "front": "Symbols of 1857 Revolt?",
+      "back": "Lotus and Chapati"
+    }
+  ],
+  "revisionPoints": [
+    "Revolt of 1857 began at Meerut on May 10, 1857.",
+    "Lord Canning was the Governor-General during the uprising.",
+    "Mangal Pandey belonged to 34th Bengal Native Infantry at Barrackpore.",
+    "Bahadur Shah II was declared Emperor of India by rebels.",
+    "General Bakht Khan led military operations in Delhi.",
+    "Nana Saheb (Dhondu Pant) led the revolt in Kanpur.",
+    "Tatya Tope (Ramachandra Pandurang) was the guerrilla commander of Central India.",
+    "Begum Hazrat Mahal led resistance from Lucknow.",
+    "Kunwar Singh, aged 80, led the uprising in Jagdishpur, Bihar.",
+    "Khan Bahadur Khan directed rebellion in Bareilly.",
+    "Moulvi Ahmadullah led anti-British forces in Faizabad.",
+    "Liaquat Ali led the movement in Allahabad.",
+    "Hugh Rose defeated Rani Lakshmibai at Gwalior.",
+    "Colin Campbell suppressed revolts at Kanpur, Lucknow, and Bareilly.",
+    "John Nicholson recaptured Delhi in September 1857.",
+    "Awadh was annexed in 1856 under Outram's report for maladministration.",
+    "Doctrine of Lapse was applied by Dalhousie to Jhansi, Satara, and Nagpur.",
+    "General Service Enlistment Act 1856 forced sepoys to serve overseas.",
+    "Pattern 1853 Enfield rifle grease issue was the immediate cause.",
+    "Government of India Act 1858 abolished East India Company rule.",
+    "Lord Canning became the first Viceroy of India.",
+    "Queen Victoria's Proclamation was read on Nov 1, 1858 at Allahabad.",
+    "Secretary of State for India office was established in London.",
+    "Peel Commission recommended military reorganization.",
+    "Sikhs, Gurkhas, and Pathans were categorized as 'Martial Races'.",
+    "Nana Saheb and Begum Hazrat Mahal escaped to Nepal.",
+    "Tatya Tope was hanged on April 18, 1859 after betrayal by Man Singh.",
+    "Bahadur Shah Zafar died in exile at Rangoon in 1862.",
+    "V.D. Savarkar termed 1857 as the First War of Indian Independence.",
+    "R.C. Majumdar stated it was neither First, nor National, nor War of Independence."
+  ],
+  "revisionSheet": [
+    "📅 Outbreak: May 10, 1857 (Meerut)",
+    "👑 Mughal Leader: Bahadur Shah II (Exiled to Rangoon)",
+    "🇬🇧 Governor-General: Lord Canning (First Viceroy in 1858)",
+    "⚔ Immediate Trigger: Enfield Cartridges (Beef/Pig Fat)",
+    "📍 Delhi Leader: Bakht Khan | Suppressor: John Nicholson",
+    "📍 Kanpur Leader: Nana Saheb (Dhondu Pant) | Suppressor: Colin Campbell",
+    "📍 Lucknow Leader: Begum Hazrat Mahal | Suppressor: Colin Campbell",
+    "📍 Jhansi Leader: Rani Lakshmibai | Suppressor: Hugh Rose",
+    "📍 Bihar Leader: Kunwar Singh | Suppressor: William Taylor",
+    "📍 Bareilly Leader: Khan Bahadur Khan | Suppressor: Colin Campbell",
+    "📜 Key Act: Government of India Act 1858 (Crown Rule starts)",
+    "🏛 New Office: Secretary of State for India (15-member council)",
+    "🪖 Army Reform: Peel Commission (Martial vs Non-Martial concept)",
+    "🚩 Escaped to Nepal: Nana Saheb, Begum Hazrat Mahal",
+    "📌 First Martyr: Mangal Pandey (34th NI, Barrackpore, 8 April 1857 execution)"
+  ],
+  "relatedTopics": {
+    "previousTopic": "Peasant and Tribal Uprisings Before 1857",
+    "currentTopic": "The Revolt of 1857",
+    "nextTopic": "Socio-Religious Reform Movements",
+    "relatedChapters": [
+      "Governor Generals and Viceroys of India",
+      "British Economic Policies in India",
+      "Acts Under East India Company Rule (1773 - 1853)"
+    ]
+  }
+}

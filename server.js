@@ -477,6 +477,25 @@ app.get('/api/state', authenticateToken, async (req, res) => {
   }
 });
 
+// Dynamic CMS Study Material Topic Route
+app.get('/api/topics/:topicId', (req, res) => {
+  const fs = require('fs');
+  const topicId = req.params.topicId === 'history' ? 'revolt-of-1857' : req.params.topicId;
+  const filePath = path.join(__dirname, 'data', 'topics', `${topicId}.json`);
+
+  if (fs.existsSync(filePath)) {
+    return res.sendFile(filePath);
+  }
+
+  // Fallback to default revolt-of-1857.json if requested topic not found
+  const fallbackPath = path.join(__dirname, 'data', 'topics', 'revolt-of-1857.json');
+  if (fs.existsSync(fallbackPath)) {
+    return res.sendFile(fallbackPath);
+  }
+
+  res.status(404).json({ error: 'Topic data not found' });
+});
+
 // Static files & SPA Routing
 app.use(express.static(__dirname));
 

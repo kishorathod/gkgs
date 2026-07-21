@@ -85,6 +85,10 @@ class ApiService {
   async endStudySession(subject = 'general', durationMinutes = 1) {
     return await this.triggerAction('session-end', { subject, durationMinutes });
   }
+
+  async getTopic(topicId = 'revolt-of-1857') {
+    return await this.request(`/api/topics/${topicId}`);
+  }
 }
 
 export const api = new ApiService();

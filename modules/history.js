@@ -6,6 +6,7 @@
    ========================================================================== */
 
 import { addXP, markGoalReadNotes } from '../app.js';
+import { api } from './api-service.js';
 import { HISTORY_NOTES_SECTIONS, HISTORY_PYQ_DATA } from './history-notes-data.js';
 
 // High-yield SSC CGL History timeline database
@@ -92,6 +93,7 @@ const TIMELINE_DATA = [
 
 export const historyModule = {
   activeSubTab: "overview",
+  topicData: null,
   pyqState: {
     active: false,
     questions: [],
@@ -101,7 +103,7 @@ export const historyModule = {
     showingResult: false
   },
 
-  init() {
+  async init() {
     this.setupSubNav();
     this.setupHeroCTAs();
     this.renderEvents("all");
@@ -111,6 +113,17 @@ export const historyModule = {
     this.setupPYQQuiz();
     this.setupAccordions();
     this.setupBottomNav();
+
+    // Dynamically fetch topic JSON from CMS API
+    try {
+      const payload = await api.getTopic('revolt-of-1857');
+      if (payload) {
+        this.topicData = payload;
+        this.renderTopicCMSPayload(payload);
+      }
+    } catch (err) {
+      console.warn('Could not load dynamic topic JSON from backend, keeping fallback content:', err.message);
+    }
   },
 
   // ── 1. Sub-Tab Navigation Bar ──────────────────────────────────────────
@@ -489,5 +502,94 @@ export const historyModule = {
 
     modal.classList.add('active');
     addXP(15, 'history', 'Opened History event detail');
+  },
+
+  // ── Dynamic CMS Renderer for Topic JSON ────────────────────────────────
+  renderTopicCMSPayload(payload) {
+    if (!payload) return;
+
+    // 1. Hero
+    if (payload.hero) {
+      const hero = payload.hero;
+      const titleEl = document.querySelector('.study-hero-title');
+      const descEl = document.querySelector('.study-hero-desc');
+      if (titleEl) titleEl.textContent = hero.title;
+      if (descEl) descEl.textContent = hero.subtitle;
+
+      // Update chips if available
+      const chipVals = document.querySelectorAll('.study-hero-metrics .chip-val');
+      if (chipVals.length >= 4) {
+        if (hero.sscWeightage) chipVals[0].textContent = hero.sscWeightage;
+        if (hero.expectedQuestions) chipVals[1].textContent = hero.expectedQuestions;
+        if (hero.difficulty) chipVals[2].textContent = hero.difficulty;
+        if (hero.estimatedReadingTime) chipVals[3].textContent = hero.estimatedReadingTime;
+      }
+    }
+
+    // 2. Notes Accordions
+    if (payload.notes && payload.notes.length > 0) {
+      const accContainer = document.getElementById('history-accordions-container');
+      if (accContainer) {
+        accContainer.innerHTML = payload.notes.map((note, idx) => `
+          <div class="accordion-item ${idx === 0 ? 'expanded' : ''}">
+            <div class="accordion-header">
+              <div class="accordion-title-wrap">
+                <span class="accordion-icon">📖</span>
+                <span class="accordion-title">${note.heading}</span>
+              </div>
+              <span class="accordion-chevron">▼</span>
+            </div>
+            <div class="accordion-body">
+              <p style="font-size: 14px; line-height: 1.6; color: var(--text-secondary);">${note.explanation}</p>
+
+              ${note.keyTakeaways && note.keyTakeaways.length > 0 ? `
+                <div class="learning-card card-concept">
+                  <span class="learning-card-tag">💡 Key Takeaways</span>
+                  <ul>${note.keyTakeaways.map(t => `<li>${t}</li>`).join('')}</ul>
+                </div>
+              ` : ''}
+
+              ${note.importantExamPoints && note.importantExamPoints.length > 0 ? `
+                <div class="learning-card card-facts">
+                  <span class="learning-card-tag">📌 Important Exam Points</span>
+                  <ul>${note.importantExamPoints.map(p => `<li>${p}</li>`).join('')}</ul>
+                </div>
+              ` : ''}
+
+              ${note.commonStudentMistakes && note.commonStudentMistakes.length > 0 ? `
+                <div class="learning-card card-trap">
+                  <span class="learning-card-tag">⚠️ Common Student Mistakes</span>
+                  <ul>${note.commonStudentMistakes.map(m => `<li style="color:#f87171;">${m}</li>`).join('')}</ul>
+                </div>
+              ` : ''}
+            </div>
+          </div>
+        `).join('');
+        this.setupAccordions();
+      }
+    }
+
+    // 3. MCQs
+    if (payload.mcqs && payload.mcqs.length > 0) {
+      const mcqData = payload.mcqs.map(m => ({
+        id: m.id,
+        section: "1857",
+        sectionTitle: m.topicTag || "Revolt of 1857",
+        question: m.question,
+        options: m.options,
+        answer: m.options.indexOf(m.correctAnswer) >= 0 ? m.options.indexOf(m.correctAnswer) : 0,
+        answerLabel: m.correctAnswer,
+        explanation: m.explanation
+      }));
+      this.setupPYQQuizWithData(mcqData);
+    }
+  },
+
+  setupPYQQuizWithData(mcqs) {
+    const startBtn = document.getElementById('btn-hist-start-pyq');
+    if (startBtn) {
+      startBtn.onclick = () => this.startPYQ(mcqs);
+    }
   }
 };
+
