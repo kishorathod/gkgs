@@ -20,7 +20,7 @@ import { GEOGRAPHY_NOTES_SECTIONS } from './modules/geography-notes-data.js';
 import { SCIENCE_NOTES_SECTIONS } from './modules/science-notes-data.js';
 import { ECONOMY_NOTES_SECTIONS } from './modules/economy-notes-data.js';
 import { STATIC_GK_NOTES_SECTIONS } from './modules/static-gk-notes-data.js';
-import { CURRENT_AFFAIRS_SECTIONS } from './modules/currentaffairs-notes-data.js';
+import { CURRENT_AFFAIRS_NOTES_SECTIONS } from './modules/currentaffairs-notes-data.js';
 
 
 // Application State
@@ -426,7 +426,7 @@ function setupSearch() {
   addSections(SCIENCE_NOTES_SECTIONS, 'science', 'science');
   addSections(ECONOMY_NOTES_SECTIONS, 'economy', 'economy');
   addSections(STATIC_GK_NOTES_SECTIONS, 'staticgk', 'staticgk');
-  addSections(CURRENT_AFFAIRS_SECTIONS, 'currentaffairs', 'currentaffairs');
+  addSections(CURRENT_AFFAIRS_NOTES_SECTIONS, 'currentaffairs', 'currentaffairs');
 
   // Add default core module destinations
   index.push(
