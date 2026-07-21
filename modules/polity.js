@@ -19,7 +19,7 @@ export const polityModule = {
     }
 
     // Load default topic
-    await this.engine.loadTopic('fundamental-rights/overview');
+    await this.engine.loadTopic('historical-underpinnings-and-fundamental-rights');
 
     // Wire topic selector chips
     this.engine.setupTopicSelector('polity-topic-selector-bar');
