@@ -3697,6 +3697,497 @@ h1, h2, h3, h4, h5, h6 {
   .hero-greeting { font-size: 1.3rem; }
 }
 
+/* ══════════════════════════════════════════════════
+   DASHBOARD v4 — COMPACT HORIZONTAL CARDS & UNIFIED METRICS
+   ══════════════════════════════════════════════════ */
+
+/* ── Unified 6-Item Metrics Strip ───────────────── */
+.unified-metrics-row {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+@media (max-width: 1100px) { .unified-metrics-row { grid-template-columns: repeat(3, 1fr); } }
+@media (max-width: 600px)  { .unified-metrics-row { grid-template-columns: repeat(2, 1fr); } }
+
+.metric-card {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.07);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: var(--transition-smooth);
+}
+.metric-card:hover {
+  background: rgba(139,92,246,0.1);
+  border-color: rgba(139,92,246,0.3);
+  transform: translateY(-2px);
+}
+.mc-icon { font-size: 22px; flex-shrink: 0; line-height: 1; }
+.mc-val {
+  font-family: var(--font-title);
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.1;
+}
+.mc-lbl {
+  font-size: 10px;
+  color: var(--text-muted);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* ── Compact Horizontal Continue Learning Cards (~75px Height) ─ */
+.continue-learning-row {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-self: start;
+}
+
+.continue-card-compact {
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: var(--radius-md);
+  padding: 12px 16px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  max-height: 80px;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  width: 100%;
+}
+.continue-card-compact:hover {
+  background: rgba(139,92,246,0.12);
+  border-color: rgba(139,92,246,0.4);
+  transform: translateX(4px);
+  box-shadow: 0 6px 20px rgba(139,92,246,0.15);
+}
+
+.cc-details {
+  flex: 1;
+  min-width: 0;
+}
+.cc-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cc-subject {
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--text-main);
+}
+.cc-est-time {
+  font-size: 10px;
+  color: var(--text-dim);
+}
+.cc-lesson {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin: 2px 0 6px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.cc-progress-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cc-progress-row .cc-bar-wrap {
+  flex: 1;
+  height: 5px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 4px;
+}
+.cc-progress-row .cc-bar {
+  height: 100%;
+  background: var(--grad-primary);
+  border-radius: 4px;
+  transition: width 0.6s ease;
+}
+.cc-pct-label {
+  font-size: 11px;
+  font-weight: 700;
+  color: #a78bfa;
+  min-width: 32px;
+  text-align: right;
+}
+.cc-resume-btn-large {
+  background: rgba(139,92,246,0.2);
+  border: 1px solid rgba(139,92,246,0.45);
+  color: #a78bfa;
+  border-radius: 20px;
+  padding: 8px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: var(--transition-smooth);
+  font-family: var(--font-body);
+}
+.cc-resume-btn-large:hover {
+  background: rgba(139,92,246,0.4);
+  box-shadow: 0 0 12px rgba(139,92,246,0.3);
+}
+
+/* ── Interactive Analytics Toggles & Tooltips ───── */
+.chart-toggles {
+  display: flex;
+  gap: 6px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 20px;
+  padding: 3px;
+}
+.chart-toggle-btn {
+  background: none;
+  border: none;
+  color: var(--text-muted);
+  padding: 4px 12px;
+  font-size: 10px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 16px;
+  transition: var(--transition-smooth);
+  font-family: var(--font-body);
+}
+.chart-toggle-btn.active {
+  background: var(--accent-purple);
+  color: #fff;
+}
+
+.chart-bar[data-val]:hover::after {
+  content: attr(data-val);
+  position: absolute;
+  top: -24px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #1e2235;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 10;
+}
+
+/* ── Larger Goal Action Buttons ────────────────── */
+.goal-action-btn-large {
+  background: rgba(139,92,246,0.22);
+  border: 1px solid rgba(139,92,246,0.5);
+  color: #c4b5fd;
+  border-radius: 16px;
+  padding: 7px 16px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: auto;
+  white-space: nowrap;
+  font-family: var(--font-body);
+  transition: var(--transition-smooth);
+}
+.goal-action-btn-large:hover {
+  background: rgba(139,92,246,0.45);
+  border-color: rgba(139,92,246,0.8);
+  box-shadow: 0 0 12px rgba(139,92,246,0.3);
+}
+
+/* ── Visible Progress Bars on Module Cards ─────── */
+.progress-bar-label-row {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+  color: var(--text-muted);
+  font-weight: 600;
+  margin: 6px 0 4px;
+}
+.progress-bar-container.visible-bar {
+  height: 6px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+/* ── Floating Sticky CTA Bar ───────────────────── */
+.floating-cta-bar {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  background: rgba(18, 22, 35, 0.9);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(139, 92, 246, 0.4);
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  box-shadow: 0 12px 36px rgba(0,0,0,0.6), 0 0 20px rgba(139, 92, 246, 0.25);
+  z-index: 900;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  pointer-events: none;
+}
+.floating-cta-bar.visible {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+}
+.fcta-text {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+.fcta-text strong {
+  color: var(--text-main);
+}
+.fcta-btn {
+  background: var(--grad-primary);
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: var(--transition-smooth);
+  font-family: var(--font-body);
+}
+.fcta-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 16px rgba(139,92,246,0.4);
+}
+
+@media (max-width: 600px) {
+  .floating-cta-bar {
+    left: 16px;
+    right: 16px;
+    bottom: 16px;
+    justify-content: space-between;
+  }
+}
+
+/* ── Unified Global Search Dropdown Styling ────── */
+.header-search-wrap {
+  position: relative;
+}
+
+.search-dropdown {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  min-width: 340px;
+  max-height: 420px;
+  overflow-y: auto;
+  background: rgba(15, 18, 30, 0.95);
+  backdrop-filter: blur(16px);
+  border: 1px solid var(--border-glass-bright);
+  border-radius: var(--radius-md);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.6), var(--shadow-glow-purple);
+  z-index: 1000;
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.search-dropdown.hidden {
+  display: none !important;
+}
+
+.search-result-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.search-result-item:hover {
+  background: rgba(139, 92, 246, 0.15);
+  border-color: rgba(139, 92, 246, 0.3);
+  transform: translateX(4px);
+}
+
+.search-result-badge {
+  font-size: 10px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+
+.search-result-badge.history { background: rgba(59, 130, 246, 0.2); color: #60a5fa; border: 1px solid rgba(59, 130, 246, 0.3); }
+.search-result-badge.polity { background: rgba(168, 85, 247, 0.2); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); }
+.search-result-badge.geography { background: rgba(16, 185, 129, 0.2); color: #34d399; border: 1px solid rgba(16, 185, 129, 0.3); }
+.search-result-badge.science { background: rgba(236, 72, 153, 0.2); color: #f472b6; border: 1px solid rgba(236, 72, 153, 0.3); }
+.search-result-badge.economy { background: rgba(245, 158, 11, 0.2); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); }
+.search-result-badge.staticgk { background: rgba(99, 102, 241, 0.2); color: #818cf8; border: 1px solid rgba(99, 102, 241, 0.3); }
+.search-result-badge.flashcards { background: rgba(234, 179, 8, 0.2); color: #facc15; border: 1px solid rgba(234, 179, 8, 0.3); }
+.search-result-badge.quiz { background: rgba(239, 68, 68, 0.2); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); }
+
+.search-result-text {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.search-result-title {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-result-snippet {
+  font-size: 11px;
+  color: var(--text-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.search-no-results {
+  padding: 16px;
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+/* ── Flashcard Leitner Mastery Badges ─────────── */
+.leitner-box-badge {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 12px;
+  background: rgba(139, 92, 246, 0.15);
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  color: var(--accent-purple);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.leitner-box-badge.mastered {
+  background: rgba(16, 185, 129, 0.2);
+  border-color: rgba(16, 185, 129, 0.4);
+  color: #34d399;
+}
+
+/* ── Quiz Question Bookmark & Detailed Review ─── */
+.quiz-header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.btn-bookmark-q {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border-glass-bright);
+  color: var(--text-muted);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: var(--transition-smooth);
+}
+
+.btn-bookmark-q:hover, .btn-bookmark-q.bookmarked {
+  background: rgba(245, 158, 11, 0.2);
+  border-color: rgba(245, 158, 11, 0.5);
+  color: #fbbf24;
+}
+
+.quiz-review-section {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: left;
+}
+
+.review-item-card {
+  padding: 16px;
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.review-item-card.correct-item {
+  border-left: 4px solid var(--accent-emerald);
+}
+
+.review-item-card.wrong-item {
+  border-left: 4px solid #ef4444;
+}
+
+.review-q-title {
+  font-weight: 600;
+  font-size: 14px;
+  color: var(--text-main);
+}
+
+.review-ans-row {
+  font-size: 13px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.review-user-ans {
+  color: #ef4444;
+}
+
+.review-correct-ans {
+  color: #34d399;
+  font-weight: 600;
+}
+
+.review-expl-text {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.5;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 8px 12px;
+  border-radius: 6px;
+}
+
+/* Flash Highlight Effect for Jump Navigation */
+.search-highlight-pulse {
+  animation: highlightPulse 2s ease-out;
+}
+
+@keyframes highlightPulse {
+  0% { box-shadow: 0 0 0 4px var(--accent-purple), 0 0 25px var(--accent-purple); }
+  50% { box-shadow: 0 0 0 6px var(--accent-blue), 0 0 30px var(--accent-blue); }
+  100% { box-shadow: none; }
+}
+
+
 
 
 

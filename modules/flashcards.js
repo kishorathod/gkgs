@@ -129,6 +129,35 @@ export const flashcardModule = {
     this.renderCard();
   },
 
+  getCardMasteryKey() {
+    return `leitner_${this.currentDeck}_${this.currentIdx}`;
+  },
+
+  getMasteryLevel() {
+    try {
+      const store = JSON.parse(localStorage.getItem('gkgs_flashcard_mastery') || '{}');
+      return store[this.getCardMasteryKey()] || 1;
+    } catch (e) {
+      return 1;
+    }
+  },
+
+  updateMasteryLevel(difficulty) {
+    try {
+      const store = JSON.parse(localStorage.getItem('gkgs_flashcard_mastery') || '{}');
+      let current = store[this.getCardMasteryKey()] || 1;
+      if (difficulty === 'easy') current = Math.min(5, current + 2);
+      else if (difficulty === 'good') current = Math.min(5, current + 1);
+      else if (difficulty === 'hard') current = Math.max(1, current - 1);
+      
+      store[this.getCardMasteryKey()] = current;
+      localStorage.setItem('gkgs_flashcard_mastery', JSON.stringify(store));
+      return current;
+    } catch (e) {
+      return 1;
+    }
+  },
+
   setupDeckSelector() {
     const select = document.getElementById('deck-select');
     if (select) {
@@ -193,7 +222,8 @@ export const flashcardModule = {
         if (diff === 'easy') xpGained = 20;
         if (diff === 'hard') xpGained = 10;
         
-        addXP(xpGained, 'flashcards', 'Flashcard rated');
+        const newMastery = this.updateMasteryLevel(diff);
+        addXP(xpGained, 'flashcards', `Flashcard rated (Box ${newMastery})`);
 
         // Mark flashcard goal completed
         completeGoal('flashcard', 'Completed flashcard session');
@@ -226,17 +256,28 @@ export const flashcardModule = {
     cardEl.classList.remove('flipped');
     if (ratingButtons) ratingButtons.classList.add('hidden');
 
+    const mastery = this.getMasteryLevel();
+    const leitnerLabels = {
+      1: "📦 Box 1 (Learning)",
+      2: "📦 Box 2 (Reviewing)",
+      3: "📦 Box 3 (Practicing)",
+      4: "📦 Box 4 (Advanced)",
+      5: "🌟 Box 5 (Mastered)"
+    };
+    const leitnerTag = leitnerLabels[mastery] || "📦 Box 1";
+
     // Populate contents after flip transition reset
     setTimeout(() => {
       document.getElementById('card-current-idx').textContent = this.currentIdx + 1;
       document.getElementById('card-total-count').textContent = deck.length;
 
-      document.getElementById('card-front-tag').textContent = card.theme;
+      document.getElementById('card-front-tag').innerHTML = `${card.theme} <span class="leitner-box-badge ${mastery === 5 ? 'mastered' : ''}">${leitnerTag}</span>`;
       document.getElementById('card-front-question').textContent = card.q;
 
-      document.getElementById('card-back-tag').textContent = `${card.theme} (Answer)`;
+      document.getElementById('card-back-tag').innerHTML = `${card.theme} <span class="leitner-box-badge ${mastery === 5 ? 'mastered' : ''}">${leitnerTag}</span>`;
       document.getElementById('card-back-answer').textContent = card.a;
       document.getElementById('card-back-explanation').textContent = card.expl;
     }, 150); // slight offset to cover card resetting back
   }
 };
+

@@ -301,8 +301,58 @@ export const quizModule = {
     this.currentIdx = 0;
     this.score = 0;
     this.timeLeft = 300; // 5 minutes for shorter mock
+    this.userAnswers = [];
+    this.setupBookmarkButton();
     this.startTimer();
     this.renderQuestion();
+  },
+
+  setupBookmarkButton() {
+    const btnBookmark = document.getElementById('btn-bookmark-question');
+    if (!btnBookmark) return;
+
+    btnBookmark.onclick = () => {
+      const qData = this.currentQuestions[this.currentIdx];
+      if (!qData) return;
+
+      try {
+        const bookmarks = JSON.parse(localStorage.getItem('gkgs_quiz_bookmarks') || '[]');
+        const existingIdx = bookmarks.findIndex(b => b.q === qData.q);
+
+        if (existingIdx >= 0) {
+          bookmarks.splice(existingIdx, 1);
+          btnBookmark.classList.remove('bookmarked');
+          btnBookmark.textContent = '🔖 Bookmark';
+        } else {
+          bookmarks.push(qData);
+          btnBookmark.classList.add('bookmarked');
+          btnBookmark.textContent = '⭐ Bookmarked';
+        }
+        localStorage.setItem('gkgs_quiz_bookmarks', JSON.stringify(bookmarks));
+      } catch (e) {
+        console.error("Failed to update quiz bookmarks:", e);
+      }
+    };
+  },
+
+  updateBookmarkUI() {
+    const btnBookmark = document.getElementById('btn-bookmark-question');
+    if (!btnBookmark) return;
+
+    const qData = this.currentQuestions[this.currentIdx];
+    if (!qData) return;
+
+    try {
+      const bookmarks = JSON.parse(localStorage.getItem('gkgs_quiz_bookmarks') || '[]');
+      const isBookmarked = bookmarks.some(b => b.q === qData.q);
+      if (isBookmarked) {
+        btnBookmark.classList.add('bookmarked');
+        btnBookmark.textContent = '⭐ Bookmarked';
+      } else {
+        btnBookmark.classList.remove('bookmarked');
+        btnBookmark.textContent = '🔖 Bookmark';
+      }
+    } catch (e) {}
   },
 
   shuffleArray(array) {
@@ -344,6 +394,8 @@ export const quizModule = {
     // Reset explanation card
     const explBox = document.getElementById('quiz-explanation-box');
     explBox.classList.add('hidden');
+
+    this.updateBookmarkUI();
 
     // Update progress numbers
     document.getElementById('quiz-current-num').textContent = this.currentIdx + 1;
@@ -389,6 +441,18 @@ export const quizModule = {
     const isCorrect = (selectedIdx === qData.correctIdx);
     const explBox = document.getElementById('quiz-explanation-box');
     const statusHeader = document.getElementById('expl-header-status');
+
+    // Record response for detailed end-of-quiz review
+    this.userAnswers.push({
+      question: qData.q,
+      subject: qData.subject,
+      selectedIdx,
+      correctIdx: qData.correctIdx,
+      userAnswerText: qData.options[selectedIdx],
+      correctAnswerText: qData.options[qData.correctIdx],
+      expl: qData.expl,
+      isCorrect
+    });
 
     if (isCorrect) {
       this.score++;
@@ -459,6 +523,26 @@ export const quizModule = {
     }
     document.getElementById('res-feedback').textContent = feedback;
 
+    // Render Question Review Breakdown
+    const reviewContainer = document.getElementById('quiz-review-container');
+    if (reviewContainer && this.userAnswers) {
+      reviewContainer.innerHTML = `
+        <h4 style="font-size:16px; font-weight:700; margin-bottom:8px; border-left:3px solid var(--accent-purple); padding-left:8px;">Detailed Question Breakdown</h4>
+        ${this.userAnswers.map((ans, i) => `
+          <div class="review-item-card ${ans.isCorrect ? 'correct-item' : 'wrong-item'}">
+            <div class="review-q-title">${i + 1}. [${ans.subject}] ${ans.question}</div>
+            <div class="review-ans-row">
+              ${ans.isCorrect 
+                ? `<span class="review-correct-ans">✓ Correct: ${ans.correctAnswerText}</span>` 
+                : `<span class="review-user-ans">✗ Your Answer: ${ans.userAnswerText}</span> | <span class="review-correct-ans">✓ Correct: ${ans.correctAnswerText}</span>`
+              }
+            </div>
+            <div class="review-expl-text"><strong>Explanation:</strong> ${ans.expl}</div>
+          </div>
+        `).join('')}
+      `;
+    }
+
     // Apply XP
     addXP(xpGained, 'quiz', 'Quiz session completed');
 
@@ -474,3 +558,4 @@ export const quizModule = {
     };
   }
 };
+

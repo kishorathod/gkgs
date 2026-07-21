@@ -147,26 +147,49 @@
               </div>
             </div>
 
-            <!-- ══ SSC-SPECIFIC QUICK STATS STRIP ══ -->
-            <div class="ssc-stats-strip">
-              <div class="ssc-stat-box">
-                <div class="ssc-stat-num" id="ssc-qs-solved">124</div>
-                <div class="ssc-stat-lbl">Questions Solved</div>
+            <!-- ══ UNIFIED METRICS STRIP (Merged Stats & SSC Performance) ══ -->
+            <div class="unified-metrics-row">
+              <div class="metric-card">
+                <div class="mc-icon">⏱️</div>
+                <div class="mc-info">
+                  <div class="mc-val" id="session-time">0m</div>
+                  <div class="mc-lbl">Session Time</div>
+                </div>
               </div>
-              <div class="ssc-stat-divider"></div>
-              <div class="ssc-stat-box">
-                <div class="ssc-stat-num" id="ssc-accuracy">82%</div>
-                <div class="ssc-stat-lbl">Quiz Accuracy</div>
+              <div class="metric-card">
+                <div class="mc-icon">⚡</div>
+                <div class="mc-info">
+                  <div class="mc-val" id="stat-total-xp">0</div>
+                  <div class="mc-lbl">Total XP</div>
+                </div>
               </div>
-              <div class="ssc-stat-divider"></div>
-              <div class="ssc-stat-box">
-                <div class="ssc-stat-num text-emerald" id="ssc-strongest">History</div>
-                <div class="ssc-stat-lbl">Strongest Topic</div>
+              <div class="metric-card">
+                <div class="mc-icon">🔥</div>
+                <div class="mc-info">
+                  <div class="mc-val" id="streak-count-dash">1</div>
+                  <div class="mc-lbl">Day Streak</div>
+                </div>
               </div>
-              <div class="ssc-stat-divider"></div>
-              <div class="ssc-stat-box">
-                <div class="ssc-stat-num text-amber" id="ssc-weakest">Geography</div>
-                <div class="ssc-stat-lbl">Focus Topic</div>
+              <div class="metric-card">
+                <div class="mc-icon">🎯</div>
+                <div class="mc-info">
+                  <div class="mc-val" id="ssc-qs-solved">124</div>
+                  <div class="mc-lbl">Questions (82% Acc)</div>
+                </div>
+              </div>
+              <div class="metric-card">
+                <div class="mc-icon">🏆</div>
+                <div class="mc-info">
+                  <div class="mc-val text-emerald" id="ssc-strongest">History</div>
+                  <div class="mc-lbl">Strong Subject</div>
+                </div>
+              </div>
+              <div class="metric-card">
+                <div class="mc-icon">📉</div>
+                <div class="mc-info">
+                  <div class="mc-val text-amber" id="ssc-weakest">Geography</div>
+                  <div class="mc-lbl">Focus Subject</div>
+                </div>
               </div>
             </div>
 
@@ -198,34 +221,6 @@
               </button>
             </div>
 
-            <!-- ══ INTERACTIVE STAT CARDS ══ -->
-            <div class="stat-cards-row">
-              <div class="stat-interactive-card stat-card-time">
-                <div class="sic-icon">⏱️</div>
-                <div class="sic-value" id="session-time">0m</div>
-                <div class="sic-label">Session Time</div>
-                <div class="sic-sub">Keep going!</div>
-              </div>
-              <div class="stat-interactive-card stat-card-xp">
-                <div class="sic-icon">⚡</div>
-                <div class="sic-value" id="stat-total-xp">0</div>
-                <div class="sic-label">Total XP</div>
-                <div class="sic-sub" id="sic-xp-today">+0 today</div>
-              </div>
-              <div class="stat-interactive-card stat-card-goals">
-                <div class="sic-icon">🎯</div>
-                <div class="sic-value" id="stat-goals-done">0</div>
-                <div class="sic-label">Goals Done</div>
-                <div class="sic-sub">out of 5 today</div>
-              </div>
-              <div class="stat-interactive-card stat-card-streak">
-                <div class="sic-icon">🔥</div>
-                <div class="sic-value" id="streak-count-dash">1</div>
-                <div class="sic-label">Day Streak</div>
-                <div class="sic-sub">Stay consistent!</div>
-              </div>
-            </div>
-
             <!-- ══ RANK PROGRESS ══ -->
             <div class="glass-card rank-progress-card">
               <div class="rank-progress-header">
@@ -239,80 +234,90 @@
               <div class="rank-xp-hint">Keep studying to level up your rank! 🚀</div>
             </div>
 
-            <!-- ══ 7-DAY STUDY PERFORMANCE ANALYTICS ══ -->
+            <!-- ══ INTERACTIVE PERFORMANCE ANALYTICS (Toggles + Tooltips) ══ -->
             <div class="glass-card analytics-card">
               <div class="analytics-header">
                 <div>
-                  <h3>📈 7-Day Performance Analytics</h3>
-                  <p class="analytics-sub">Daily XP activity and prep consistency</p>
+                  <h3>📈 Performance Analytics</h3>
+                  <p class="analytics-sub">Track daily XP and quiz accuracy over time</p>
                 </div>
-                <div class="analytics-legend">
-                  <span class="legend-item"><span class="dot dot-xp"></span> XP Gained</span>
+                <div class="chart-toggles">
+                  <button class="chart-toggle-btn active" data-chartview="weekly">Weekly XP</button>
+                  <button class="chart-toggle-btn" data-chartview="monthly">Monthly XP</button>
+                  <button class="chart-toggle-btn" data-chartview="accuracy">Accuracy %</button>
                 </div>
               </div>
               <div class="chart-bars-wrap" id="analytics-chart">
-                <div class="chart-col"><div class="chart-bar" style="height:25%" data-tooltip="Mon: 100 XP"><span class="bar-val">100</span></div><span class="chart-day">Mon</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:45%" data-tooltip="Tue: 180 XP"><span class="bar-val">180</span></div><span class="chart-day">Tue</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:35%" data-tooltip="Wed: 140 XP"><span class="bar-val">140</span></div><span class="chart-day">Wed</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:60%" data-tooltip="Thu: 240 XP"><span class="bar-val">240</span></div><span class="chart-day">Thu</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:80%" data-tooltip="Fri: 320 XP"><span class="bar-val">320</span></div><span class="chart-day">Fri</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:50%" data-tooltip="Sat: 200 XP"><span class="bar-val">200</span></div><span class="chart-day">Sat</span></div>
-                <div class="chart-col"><div class="chart-bar active-bar" style="height:90%" data-tooltip="Today: 360 XP"><span class="bar-val">360</span></div><span class="chart-day">Today</span></div>
+                <div class="chart-col"><div class="chart-bar" style="height:25%" data-val="100 XP"><span class="bar-val">100</span></div><span class="chart-day">Mon</span></div>
+                <div class="chart-col"><div class="chart-bar" style="height:45%" data-val="180 XP"><span class="bar-val">180</span></div><span class="chart-day">Tue</span></div>
+                <div class="chart-col"><div class="chart-bar" style="height:35%" data-val="140 XP"><span class="bar-val">140</span></div><span class="chart-day">Wed</span></div>
+                <div class="chart-col"><div class="chart-bar" style="height:60%" data-val="240 XP"><span class="bar-val">240</span></div><span class="chart-day">Thu</span></div>
+                <div class="chart-col"><div class="chart-bar" style="height:80%" data-val="320 XP"><span class="bar-val">320</span></div><span class="chart-day">Fri</span></div>
+                <div class="chart-col"><div class="chart-bar" style="height:50%" data-val="200 XP"><span class="bar-val">200</span></div><span class="chart-day">Sat</span></div>
+                <div class="chart-col"><div class="chart-bar active-bar" style="height:90%" data-val="360 XP"><span class="bar-val">360</span></div><span class="chart-day">Today</span></div>
               </div>
             </div>
 
-            <!-- ══ CONTINUE LEARNING ══ -->
+            <!-- ══ COMPACT HORIZONTAL CONTINUE LEARNING ══ -->
             <div class="dashboard-section-title">▶ Continue Learning</div>
             <div class="continue-learning-row" id="continue-learning-row">
-              <div class="continue-card" onclick="document.getElementById('nav-history').click()">
+              
+              <div class="continue-card-compact" onclick="document.getElementById('nav-history').click()">
                 <div class="cc-icon">📜</div>
-                <div class="cc-info">
-                  <div class="cc-subject">Indian History</div>
+                <div class="cc-details">
+                  <div class="cc-title-row">
+                    <span class="cc-subject">Indian History</span>
+                    <span class="cc-est-time">⏱️ ~15m left</span>
+                  </div>
                   <div class="cc-lesson">Ancient India — Indus Valley Civilization</div>
-                  <div class="cc-meta-row">
-                    <span class="cc-pct-label" id="cc-pct-history">0% Complete</span>
-                    <span class="cc-est-time">⏱️ ~15 mins left</span>
+                  <div class="cc-progress-row">
+                    <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-history" style="width:0%"></div></div>
+                    <span class="cc-pct-label" id="cc-pct-history">0%</span>
                   </div>
-                  <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-history" style="width:0%"></div></div>
                 </div>
-                <button class="cc-resume-btn">Resume →</button>
+                <button class="cc-resume-btn-large">Resume →</button>
               </div>
 
-              <div class="continue-card" onclick="document.getElementById('nav-polity').click()">
+              <div class="continue-card-compact" onclick="document.getElementById('nav-polity').click()">
                 <div class="cc-icon">⚖️</div>
-                <div class="cc-info">
-                  <div class="cc-subject">Indian Polity</div>
-                  <div class="cc-lesson">Fundamental Rights — Articles 12–35</div>
-                  <div class="cc-meta-row">
-                    <span class="cc-pct-label" id="cc-pct-polity">0% Complete</span>
-                    <span class="cc-est-time">⏱️ ~20 mins left</span>
+                <div class="cc-details">
+                  <div class="cc-title-row">
+                    <span class="cc-subject">Indian Polity</span>
+                    <span class="cc-est-time">⏱️ ~20m left</span>
                   </div>
-                  <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-polity" style="width:0%"></div></div>
+                  <div class="cc-lesson">Fundamental Rights — Articles 12–35</div>
+                  <div class="cc-progress-row">
+                    <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-polity" style="width:0%"></div></div>
+                    <span class="cc-pct-label" id="cc-pct-polity">0%</span>
+                  </div>
                 </div>
-                <button class="cc-resume-btn">Resume →</button>
+                <button class="cc-resume-btn-large">Resume →</button>
               </div>
 
-              <div class="continue-card" onclick="document.getElementById('nav-quiz').click()">
+              <div class="continue-card-compact" onclick="document.getElementById('nav-quiz').click()">
                 <div class="cc-icon">🎯</div>
-                <div class="cc-info">
-                  <div class="cc-subject">Daily Mock Quiz</div>
-                  <div class="cc-lesson">SSC CGL GS Mock — 20 Questions</div>
-                  <div class="cc-meta-row">
-                    <span class="cc-pct-label" id="cc-pct-quiz">0% Complete</span>
-                    <span class="cc-est-time">⏱️ ~10 mins left</span>
+                <div class="cc-details">
+                  <div class="cc-title-row">
+                    <span class="cc-subject">Daily Mock Quiz</span>
+                    <span class="cc-est-time">⏱️ ~10m left</span>
                   </div>
-                  <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-quiz" style="width:0%"></div></div>
+                  <div class="cc-lesson">SSC CGL GS Mock — 20 Questions</div>
+                  <div class="cc-progress-row">
+                    <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-quiz" style="width:0%"></div></div>
+                    <span class="cc-pct-label" id="cc-pct-quiz">0%</span>
+                  </div>
                 </div>
-                <button class="cc-resume-btn">Start →</button>
+                <button class="cc-resume-btn-large">Start →</button>
               </div>
+
             </div>
 
-            <!-- ══ DAILY GOALS (Interactive Action Navigation) ══ -->
+            <!-- ══ DAILY GOALS (Larger Action Buttons & High Contrast) ══ -->
             <div class="glass-card daily-goals-card">
               <div class="goals-header">
                 <div>
                   <h3>🏁 Today's Study Goals</h3>
-                  <p style="color:var(--text-muted);font-size:12px;margin-top:2px;">Click any goal button to jump straight into action!</p>
+                  <p style="color:var(--text-muted);font-size:12px;margin-top:2px;">Complete goals for +100 XP each & bonus rank unlock!</p>
                 </div>
                 <span class="goals-counter" id="goals-progress-counter">0/5 done</span>
               </div>
@@ -323,7 +328,7 @@
                     <div class="goal-title">Visit a Study Module</div>
                     <div class="goal-reward">+100 XP</div>
                   </div>
-                  <button class="goal-action-btn" onclick="document.getElementById('nav-history').click()">Visit →</button>
+                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-history').click()">Visit Module →</button>
                 </div>
                 <div class="goal-item" id="goal-read-notes">
                   <div class="goal-check"><span class="checkbox-box"></span></div>
@@ -331,7 +336,7 @@
                     <div class="goal-title">Read Detailed Notes</div>
                     <div class="goal-reward">+100 XP</div>
                   </div>
-                  <button class="goal-action-btn" onclick="document.getElementById('nav-polity').click()">Open Notes</button>
+                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-polity').click()">Open Notes →</button>
                 </div>
                 <div class="goal-item" id="goal-flashcard">
                   <div class="goal-check"><span class="checkbox-box"></span></div>
@@ -339,7 +344,7 @@
                     <div class="goal-title">Flashcard Session</div>
                     <div class="goal-reward">+100 XP</div>
                   </div>
-                  <button class="goal-action-btn" onclick="document.getElementById('nav-flashcards').click()">Cards</button>
+                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-flashcards').click()">Flashcards →</button>
                 </div>
                 <div class="goal-item" id="goal-quiz">
                   <div class="goal-check"><span class="checkbox-box"></span></div>
@@ -347,7 +352,7 @@
                     <div class="goal-title">Complete a Daily Mock</div>
                     <div class="goal-reward">+100 XP</div>
                   </div>
-                  <button class="goal-action-btn" onclick="document.getElementById('nav-quiz').click()">Start Mock</button>
+                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-quiz').click()">Start Mock →</button>
                 </div>
                 <div class="goal-item" id="goal-upload-file">
                   <div class="goal-check"><span class="checkbox-box"></span></div>
@@ -355,12 +360,12 @@
                     <div class="goal-title">Upload a Study File</div>
                     <div class="goal-reward">+100 XP</div>
                   </div>
-                  <button class="goal-action-btn" onclick="document.getElementById('nav-history').click()">Upload</button>
+                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-history').click()">Upload File →</button>
                 </div>
               </div>
             </div>
 
-            <!-- ══ SUBJECT PROGRESS MODULES (Compact & Lesson Counts) ══ -->
+            <!-- ══ SUBJECT PROGRESS MODULES (Visible Progress Bars) ══ -->
             <div class="dashboard-section-title">📚 Preparation Modules</div>
             <div class="subject-grid compact-subject-grid">
 
@@ -370,11 +375,14 @@
                   <span class="subject-tag" id="progress-tag-history">0%</span>
                 </div>
                 <h3>Indian History</h3>
-                <div class="lesson-count-text" id="lesson-count-history">0 / 20 lessons completed</div>
-                <div class="subject-meta"><span class="meta-badge">⭐ 20% Weightage</span></div>
-                <div class="progress-bar-container">
+                <div class="progress-bar-label-row">
+                  <span>Progress</span>
+                  <span id="lesson-count-history">0 / 20 lessons</span>
+                </div>
+                <div class="progress-bar-container visible-bar">
                   <div class="progress-bar" id="progress-bar-history" style="width: 0%"></div>
                 </div>
+                <div class="subject-meta"><span class="meta-badge">⭐ 20% Weightage</span></div>
               </div>
 
               <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-polity').click()">
@@ -383,11 +391,14 @@
                   <span class="subject-tag" id="progress-tag-polity">0%</span>
                 </div>
                 <h3>Indian Polity</h3>
-                <div class="lesson-count-text" id="lesson-count-polity">0 / 18 lessons completed</div>
-                <div class="subject-meta"><span class="meta-badge">⭐ 16% Weightage</span></div>
-                <div class="progress-bar-container">
+                <div class="progress-bar-label-row">
+                  <span>Progress</span>
+                  <span id="lesson-count-polity">0 / 18 lessons</span>
+                </div>
+                <div class="progress-bar-container visible-bar">
                   <div class="progress-bar" id="progress-bar-polity" style="width: 0%"></div>
                 </div>
+                <div class="subject-meta"><span class="meta-badge">⭐ 16% Weightage</span></div>
               </div>
 
               <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-geography').click()">
@@ -396,11 +407,14 @@
                   <span class="subject-tag" id="progress-tag-geography">0%</span>
                 </div>
                 <h3>Geography</h3>
-                <div class="lesson-count-text" id="lesson-count-geography">0 / 15 lessons completed</div>
-                <div class="subject-meta"><span class="meta-badge">🗺️ 16% Weightage</span></div>
-                <div class="progress-bar-container">
+                <div class="progress-bar-label-row">
+                  <span>Progress</span>
+                  <span id="lesson-count-geography">0 / 15 lessons</span>
+                </div>
+                <div class="progress-bar-container visible-bar">
                   <div class="progress-bar" id="progress-bar-geography" style="width: 0%"></div>
                 </div>
+                <div class="subject-meta"><span class="meta-badge">🗺️ 16% Weightage</span></div>
               </div>
 
               <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-science').click()">
@@ -409,11 +423,14 @@
                   <span class="subject-tag" id="progress-tag-science">0%</span>
                 </div>
                 <h3>General Science</h3>
-                <div class="lesson-count-text" id="lesson-count-science">0 / 25 lessons completed</div>
-                <div class="subject-meta"><span class="meta-badge">🔬 24% Weightage</span></div>
-                <div class="progress-bar-container">
+                <div class="progress-bar-label-row">
+                  <span>Progress</span>
+                  <span id="lesson-count-science">0 / 25 lessons</span>
+                </div>
+                <div class="progress-bar-container visible-bar">
                   <div class="progress-bar" id="progress-bar-science" style="width: 0%"></div>
                 </div>
+                <div class="subject-meta"><span class="meta-badge">🔬 24% Weightage</span></div>
               </div>
 
               <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-economy').click()">
@@ -422,11 +439,14 @@
                   <span class="subject-tag" id="progress-tag-economy">0%</span>
                 </div>
                 <h3>Economy Corner</h3>
-                <div class="lesson-count-text" id="lesson-count-economy">0 / 12 lessons completed</div>
-                <div class="subject-meta"><span class="meta-badge">💡 12% Weightage</span></div>
-                <div class="progress-bar-container">
+                <div class="progress-bar-label-row">
+                  <span>Progress</span>
+                  <span id="lesson-count-economy">0 / 12 lessons</span>
+                </div>
+                <div class="progress-bar-container visible-bar">
                   <div class="progress-bar" id="progress-bar-economy" style="width: 0%"></div>
                 </div>
+                <div class="subject-meta"><span class="meta-badge">💡 12% Weightage</span></div>
               </div>
 
               <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-staticgk').click()">
@@ -435,11 +455,14 @@
                   <span class="subject-tag" id="progress-tag-staticgk">0%</span>
                 </div>
                 <h3>Static GK Hub</h3>
-                <div class="lesson-count-text" id="lesson-count-staticgk">0 / 16 lessons completed</div>
-                <div class="subject-meta"><span class="meta-badge">📌 12% Weightage</span></div>
-                <div class="progress-bar-container">
+                <div class="progress-bar-label-row">
+                  <span>Progress</span>
+                  <span id="lesson-count-staticgk">0 / 16 lessons</span>
+                </div>
+                <div class="progress-bar-container visible-bar">
                   <div class="progress-bar" id="progress-bar-staticgk" style="width: 0%"></div>
                 </div>
+                <div class="subject-meta"><span class="meta-badge">📌 12% Weightage</span></div>
               </div>
 
               <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-currentaffairs').click()">
@@ -448,13 +471,13 @@
                   <span class="subject-tag" id="progress-tag-currentaffairs">0%</span>
                 </div>
                 <h3>Current Affairs</h3>
-                <div class="lesson-count-text" id="lesson-count-currentaffairs">0 / 30 topics completed</div>
-                <div class="subject-meta"><span class="meta-badge">🔄 Weekly Updates</span></div>
-                <div class="progress-bar-container">
+                <div class="progress-bar-label-row">
+                  <span>Progress</span>
+                  <span id="lesson-count-currentaffairs">0 / 30 topics</span>
+                </div>
+                <div class="progress-bar-container visible-bar">
                   <div class="progress-bar" id="progress-bar-currentaffairs" style="width: 0%"></div>
                 </div>
-              </div>
-
             </div>
 
             <!-- ══ SIDE PANEL (TABBED INTEGRATION) ══ -->
@@ -942,7 +965,10 @@
               <div class="quiz-progress-info">
                 Question <span id="quiz-current-num">1</span> of <span id="quiz-total-num">10</span>
               </div>
-              <div class="quiz-timer" id="quiz-timer-display">Time: 10:00</div>
+              <div class="quiz-header-right">
+                <button class="btn-bookmark-q" id="btn-bookmark-question" title="Bookmark Question">🔖 Bookmark</button>
+                <div class="quiz-timer" id="quiz-timer-display">Time: 10:00</div>
+              </div>
             </div>
             
             <div class="quiz-progress-bar-bg">
@@ -999,7 +1025,11 @@
               <div class="rank-promotion-text" id="res-feedback">
                 Excellent Performance! You are on track to clear SSC CGL GS.
               </div>
-              <div class="results-actions">
+
+              <!-- Question Detailed Review Breakdown -->
+              <div class="quiz-review-section" id="quiz-review-container"></div>
+
+              <div class="results-actions" style="margin-top:20px;">
                 <button class="btn btn-primary" id="btn-restart-quiz">Retry Mock</button>
                 <button class="btn btn-secondary" onclick="document.getElementById('nav-dashboard').click()">Go to Dashboard</button>
               </div>

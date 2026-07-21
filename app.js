@@ -14,6 +14,15 @@ import { flashcardModule } from './modules/flashcards.js';
 import { quizModule } from './modules/quiz.js';
 import { uploadsModule } from './modules/uploads.js';
 
+import { HISTORY_NOTES_SECTIONS } from './modules/history-notes-data.js';
+import { POLITY_NOTES_SECTIONS } from './modules/polity-notes-data.js';
+import { GEOGRAPHY_NOTES_SECTIONS } from './modules/geography-notes-data.js';
+import { SCIENCE_NOTES_SECTIONS } from './modules/science-notes-data.js';
+import { ECONOMY_NOTES_SECTIONS } from './modules/economy-notes-data.js';
+import { STATIC_GK_NOTES_SECTIONS } from './modules/static-gk-notes-data.js';
+import { CURRENT_AFFAIRS_SECTIONS } from './modules/currentaffairs-notes-data.js';
+
+
 // Application State
 const AppState = {
   currentView: 'dashboard',
@@ -386,30 +395,44 @@ function setupSideTabs() {
   });
 }
 
-// Setup Global Search Bar
+// Setup Global Search Bar with Dynamic Indexing across all modules
 function setupSearch() {
   const searchInput = document.getElementById('global-search-input');
   const dropdown = document.getElementById('search-dropdown');
   if (!searchInput || !dropdown) return;
 
-  const topics = [
-    { title: 'Indian History Timeline', nav: 'history' },
-    { title: 'Indus Valley Civilization', nav: 'history' },
-    { title: 'Mughal Empire Chronology', nav: 'history' },
-    { title: 'Indian Constitution Articles', nav: 'polity' },
-    { title: 'Fundamental Rights (Art 12–35)', nav: 'polity' },
-    { title: 'Preamble & Amendments', nav: 'polity' },
-    { title: 'River Systems of India', nav: 'geography' },
-    { title: 'National Parks & Sanctuaries', nav: 'geography' },
-    { title: 'Cytology & Biology Diagrams', nav: 'science' },
-    { title: 'Five-Year Plans Explorer', nav: 'economy' },
-    { title: 'RBI Monetary Policy', nav: 'economy' },
-    { title: 'Classical Dances & Folk Arts', nav: 'staticgk' },
-    { title: 'Census 2011 Facts', nav: 'staticgk' },
-    { title: 'Current Affairs 2025–26', nav: 'currentaffairs' },
-    { title: 'SSC Flashcards Deck', nav: 'flashcards' },
-    { title: 'Daily Practice Quiz', nav: 'quiz' }
-  ];
+  // Build master search index from notes sections
+  const index = [];
+
+  const addSections = (sections, navKey, badgeName) => {
+    if (!sections) return;
+    sections.forEach(sec => {
+      // Strip HTML tags for clean snippet text
+      const cleanSnippet = (sec.content || '').replace(/<[^>]*>?/gm, ' ').replace(/\s+/g, ' ').trim();
+      index.push({
+        title: sec.title || 'Untitled Section',
+        snippet: cleanSnippet.slice(0, 100) + '...',
+        fullText: `${sec.title} ${cleanSnippet}`.toLowerCase(),
+        nav: navKey,
+        badge: badgeName,
+        targetId: sec.id
+      });
+    });
+  };
+
+  addSections(HISTORY_NOTES_SECTIONS, 'history', 'history');
+  addSections(POLITY_NOTES_SECTIONS, 'polity', 'polity');
+  addSections(GEOGRAPHY_NOTES_SECTIONS, 'geography', 'geography');
+  addSections(SCIENCE_NOTES_SECTIONS, 'science', 'science');
+  addSections(ECONOMY_NOTES_SECTIONS, 'economy', 'economy');
+  addSections(STATIC_GK_NOTES_SECTIONS, 'staticgk', 'staticgk');
+  addSections(CURRENT_AFFAIRS_SECTIONS, 'currentaffairs', 'currentaffairs');
+
+  // Add default core module destinations
+  index.push(
+    { title: 'Flashcards Active Recall Deck', snippet: 'Memorize high-yield SSC facts with 3D cards', fullText: 'flashcards deck active recall leitner', nav: 'flashcards', badge: 'flashcards' },
+    { title: 'SSC CGL Mock Quiz Zone', snippet: 'Test your knowledge with authentic SSC PYQs', fullText: 'quiz mock test practice questions pyq', nav: 'quiz', badge: 'quiz' }
+  );
 
   searchInput.addEventListener('input', () => {
     const query = searchInput.value.toLowerCase().trim();
@@ -417,25 +440,45 @@ function setupSearch() {
       dropdown.classList.add('hidden');
       return;
     }
-    const matches = topics.filter(t => t.title.toLowerCase().includes(query));
+
+    const matches = index.filter(item => item.fullText.includes(query)).slice(0, 8);
+
     if (matches.length === 0) {
-      dropdown.innerHTML = `<div class="search-result-item" style="color:var(--text-muted)">No matching topics found</div>`;
+      dropdown.innerHTML = `<div class="search-no-results">No matching topics found for "${searchInput.value}"</div>`;
     } else {
       dropdown.innerHTML = matches.map(m => `
-        <div class="search-result-item" data-nav="${m.nav}">
-          <span>🔍 ${m.title}</span>
-          <span style="color:var(--text-dim);font-size:10px;">Go →</span>
+        <div class="search-result-item" data-nav="${m.nav}" data-target-id="${m.targetId || ''}">
+          <span class="search-result-badge ${m.badge}">${m.badge}</span>
+          <div class="search-result-text">
+            <span class="search-result-title">${m.title}</span>
+            <span class="search-result-snippet">${m.snippet}</span>
+          </div>
         </div>
       `).join('');
     }
+
     dropdown.classList.remove('hidden');
 
     dropdown.querySelectorAll('.search-result-item').forEach(item => {
       item.addEventListener('click', () => {
         const targetNav = item.dataset.nav;
+        const targetId = item.dataset.targetId;
+
         if (targetNav) {
           const navBtn = document.getElementById(`nav-${targetNav}`);
           if (navBtn) navBtn.click();
+
+          // Scroll & Highlight target element if available
+          if (targetId) {
+            setTimeout(() => {
+              const targetEl = document.getElementById(targetId);
+              if (targetEl) {
+                targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                targetEl.classList.add('search-highlight-pulse');
+                setTimeout(() => targetEl.classList.remove('search-highlight-pulse'), 2200);
+              }
+            }, 200);
+          }
         }
         dropdown.classList.add('hidden');
         searchInput.value = '';
@@ -449,6 +492,7 @@ function setupSearch() {
     }
   });
 }
+
 
 // Setup scroll animations for memory highlights
 function setupScrollAnimations() {
