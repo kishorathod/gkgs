@@ -127,399 +127,497 @@
         <section id="view-dashboard" class="view-panel active">
           <div class="dashboard-grid">
 
-            <!-- ══ ULTRA-COMPACT HERO ══ -->
-            <div class="glass-card welcome-hero ultra-compact-hero">
-              <div class="hero-content">
-                <div class="hero-greeting-row">
-                  <span class="hero-greeting" id="hero-greeting">Ready to Ace SSC CGL? 🎯</span>
-                  <span class="hero-tag">SSC CGL Tier I & II</span>
+            <!-- ══ SECTION 1: HERO BANNER ══ -->
+            <div class="glass-card db-hero">
+              <!-- Left: Greeting + CTAs -->
+              <div class="db-hero-left">
+                <div class="db-hero-pill">
+                  <span>🎯</span> SSC CGL 2026 — Tier I &amp; II Prep
                 </div>
-                <div class="hero-quick-stats">
-                  <div class="hqs-pill">🔥 <strong id="hqs-streak">1</strong> Day Streak</div>
-                  <div class="hqs-pill">⏱️ <strong id="hqs-time">0m</strong> Today</div>
-                  <div class="hqs-pill">⭐ Rank: <strong id="hqs-rank">Aspirant</strong></div>
-                  <div class="hqs-pill">🎯 Goals: <strong id="hqs-goals">0/5</strong></div>
-                </div>
-              </div>
-              <div class="hero-actions-compact">
-                <button class="btn btn-primary btn-sm" onclick="document.getElementById('nav-quiz').click()">⚡ Start Quiz</button>
-                <button class="btn btn-secondary btn-sm" onclick="document.getElementById('nav-flashcards').click()">🃏 Cards</button>
-              </div>
-            </div>
-
-            <!-- ══ UNIFIED METRICS STRIP (Merged Stats & SSC Performance) ══ -->
-            <div class="unified-metrics-row">
-              <div class="metric-card">
-                <div class="mc-icon">⏱️</div>
-                <div class="mc-info">
-                  <div class="mc-val" id="session-time">0m</div>
-                  <div class="mc-lbl">Session Time</div>
+                <h2 class="db-hero-title" id="hero-greeting">Good Morning, Aspirant! 🌅</h2>
+                <p class="db-hero-sub">You're on a 🔥 streak. Keep the momentum going — your Tier I exam is closer than you think.</p>
+                <div class="db-hero-actions">
+                  <button class="btn btn-primary btn-lg" onclick="document.getElementById('nav-quiz').click()">
+                    ⚡ Start Mock Quiz
+                  </button>
+                  <button class="btn btn-secondary" onclick="document.getElementById('nav-flashcards').click()">
+                    🃏 Review Flashcards
+                  </button>
+                  <button class="btn btn-ghost" onclick="document.getElementById('nav-currentaffairs').click()">
+                    📰 Current Affairs
+                  </button>
                 </div>
               </div>
-              <div class="metric-card">
-                <div class="mc-icon">⚡</div>
-                <div class="mc-info">
-                  <div class="mc-val" id="stat-total-xp">0</div>
-                  <div class="mc-lbl">Total XP</div>
+              <!-- Right: Circular Progress Gauge + Stats -->
+              <div class="db-hero-right">
+                <div class="db-gauge-wrap">
+                  <svg class="db-gauge-svg" viewBox="0 0 36 36">
+                    <defs>
+                      <linearGradient id="gauge-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" stop-color="#6366f1"/>
+                        <stop offset="100%" stop-color="#06b6d4"/>
+                      </linearGradient>
+                    </defs>
+                    <path class="db-gauge-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <path class="db-gauge-fill" id="db-gauge-path"
+                      stroke-dasharray="0, 100"
+                      d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                    <text x="18" y="15.5" class="db-gauge-pct" id="db-gauge-pct">0%</text>
+                    <text x="18" y="21" class="db-gauge-label">Goals</text>
+                  </svg>
+                  <div class="db-gauge-caption">Daily Goal</div>
                 </div>
-              </div>
-              <div class="metric-card">
-                <div class="mc-icon">🔥</div>
-                <div class="mc-info">
-                  <div class="mc-val" id="streak-count-dash">1</div>
-                  <div class="mc-lbl">Day Streak</div>
-                </div>
-              </div>
-              <div class="metric-card">
-                <div class="mc-icon">🎯</div>
-                <div class="mc-info">
-                  <div class="mc-val" id="ssc-qs-solved">124</div>
-                  <div class="mc-lbl">Questions (82% Acc)</div>
-                </div>
-              </div>
-              <div class="metric-card">
-                <div class="mc-icon">🏆</div>
-                <div class="mc-info">
-                  <div class="mc-val text-emerald" id="ssc-strongest">History</div>
-                  <div class="mc-lbl">Strong Subject</div>
-                </div>
-              </div>
-              <div class="metric-card">
-                <div class="mc-icon">📉</div>
-                <div class="mc-info">
-                  <div class="mc-val text-amber" id="ssc-weakest">Geography</div>
-                  <div class="mc-lbl">Focus Subject</div>
-                </div>
-              </div>
-            </div>
-
-            <!-- ══ QUICK ACTION BUTTONS ══ -->
-            <div class="quick-actions-row">
-              <button class="quick-action-btn" onclick="document.getElementById('nav-quiz').click()">
-                <span class="qa-icon">⚡</span>
-                <span>Start Quiz</span>
-              </button>
-              <button class="quick-action-btn" onclick="document.getElementById('nav-history').click()">
-                <span class="qa-icon">📖</span>
-                <span>Study Notes</span>
-              </button>
-              <button class="quick-action-btn" onclick="document.getElementById('nav-currentaffairs').click()">
-                <span class="qa-icon">📰</span>
-                <span>Current Affairs</span>
-              </button>
-              <button class="quick-action-btn" onclick="document.getElementById('nav-flashcards').click()">
-                <span class="qa-icon">🧠</span>
-                <span>Flashcards</span>
-              </button>
-              <button class="quick-action-btn" onclick="document.getElementById('nav-polity').click()">
-                <span class="qa-icon">⚖️</span>
-                <span>Polity</span>
-              </button>
-              <button class="quick-action-btn" onclick="document.getElementById('nav-geography').click()">
-                <span class="qa-icon">🗺️</span>
-                <span>Geography</span>
-              </button>
-            </div>
-
-            <!-- ══ RANK PROGRESS ══ -->
-            <div class="glass-card rank-progress-card">
-              <div class="rank-progress-header">
-                <span id="rank-label" class="rank-label-text">Aspirant</span>
-                <span id="rank-next-label" class="rank-next-text">→ Assistant Section Officer</span>
-                <span id="rank-pct" class="rank-pct-text">0%</span>
-              </div>
-              <div class="rank-bar-bg">
-                <div class="rank-bar-fill" id="rank-progress-bar" style="width: 0%"></div>
-              </div>
-              <div class="rank-xp-hint">Keep studying to level up your rank! 🚀</div>
-            </div>
-
-            <!-- ══ INTERACTIVE PERFORMANCE ANALYTICS (Toggles + Tooltips) ══ -->
-            <div class="glass-card analytics-card">
-              <div class="analytics-header">
-                <div>
-                  <h3>📈 Performance Analytics</h3>
-                  <p class="analytics-sub">Track daily XP and quiz accuracy over time</p>
-                </div>
-                <div class="chart-toggles">
-                  <button class="chart-toggle-btn active" data-chartview="weekly">Weekly XP</button>
-                  <button class="chart-toggle-btn" data-chartview="monthly">Monthly XP</button>
-                  <button class="chart-toggle-btn" data-chartview="accuracy">Accuracy %</button>
-                </div>
-              </div>
-              <div class="chart-bars-wrap" id="analytics-chart">
-                <div class="chart-col"><div class="chart-bar" style="height:25%" data-val="100 XP"><span class="bar-val">100</span></div><span class="chart-day">Mon</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:45%" data-val="180 XP"><span class="bar-val">180</span></div><span class="chart-day">Tue</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:35%" data-val="140 XP"><span class="bar-val">140</span></div><span class="chart-day">Wed</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:60%" data-val="240 XP"><span class="bar-val">240</span></div><span class="chart-day">Thu</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:80%" data-val="320 XP"><span class="bar-val">320</span></div><span class="chart-day">Fri</span></div>
-                <div class="chart-col"><div class="chart-bar" style="height:50%" data-val="200 XP"><span class="bar-val">200</span></div><span class="chart-day">Sat</span></div>
-                <div class="chart-col"><div class="chart-bar active-bar" style="height:90%" data-val="360 XP"><span class="bar-val">360</span></div><span class="chart-day">Today</span></div>
-              </div>
-            </div>
-
-            <!-- ══ COMPACT HORIZONTAL CONTINUE LEARNING ══ -->
-            <div class="dashboard-section-title">▶ Continue Learning</div>
-            <div class="continue-learning-row" id="continue-learning-row">
-              
-              <div class="continue-card-compact" onclick="document.getElementById('nav-history').click()">
-                <div class="cc-icon">📜</div>
-                <div class="cc-details">
-                  <div class="cc-title-row">
-                    <span class="cc-subject">Indian History</span>
-                    <span class="cc-est-time">⏱️ ~15m left</span>
+                <div class="db-hero-stats">
+                  <div class="db-hs-item">
+                    <span class="db-hs-icon">🔥</span>
+                    <div>
+                      <div class="db-hs-val" id="hqs-streak">1</div>
+                      <div class="db-hs-lbl">Day Streak</div>
+                    </div>
                   </div>
-                  <div class="cc-lesson">Ancient India — Indus Valley Civilization</div>
-                  <div class="cc-progress-row">
-                    <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-history" style="width:0%"></div></div>
-                    <span class="cc-pct-label" id="cc-pct-history">0%</span>
+                  <div class="db-hs-item">
+                    <span class="db-hs-icon">⚡</span>
+                    <div>
+                      <div class="db-hs-val" id="hqs-xp">0</div>
+                      <div class="db-hs-lbl">Total XP</div>
+                    </div>
                   </div>
-                </div>
-                <button class="cc-resume-btn-large">Resume →</button>
-              </div>
-
-              <div class="continue-card-compact" onclick="document.getElementById('nav-polity').click()">
-                <div class="cc-icon">⚖️</div>
-                <div class="cc-details">
-                  <div class="cc-title-row">
-                    <span class="cc-subject">Indian Polity</span>
-                    <span class="cc-est-time">⏱️ ~20m left</span>
+                  <div class="db-hs-item">
+                    <span class="db-hs-icon">⏱️</span>
+                    <div>
+                      <div class="db-hs-val" id="hqs-time">0m</div>
+                      <div class="db-hs-lbl">Today</div>
+                    </div>
                   </div>
-                  <div class="cc-lesson">Fundamental Rights — Articles 12–35</div>
-                  <div class="cc-progress-row">
-                    <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-polity" style="width:0%"></div></div>
-                    <span class="cc-pct-label" id="cc-pct-polity">0%</span>
+                  <div class="db-hs-item">
+                    <span class="db-hs-icon">⭐</span>
+                    <div>
+                      <div class="db-hs-val" id="hqs-rank">Aspirant</div>
+                      <div class="db-hs-lbl">Rank</div>
+                    </div>
                   </div>
-                </div>
-                <button class="cc-resume-btn-large">Resume →</button>
-              </div>
-
-              <div class="continue-card-compact" onclick="document.getElementById('nav-quiz').click()">
-                <div class="cc-icon">🎯</div>
-                <div class="cc-details">
-                  <div class="cc-title-row">
-                    <span class="cc-subject">Daily Mock Quiz</span>
-                    <span class="cc-est-time">⏱️ ~10m left</span>
-                  </div>
-                  <div class="cc-lesson">SSC CGL GS Mock — 20 Questions</div>
-                  <div class="cc-progress-row">
-                    <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-quiz" style="width:0%"></div></div>
-                    <span class="cc-pct-label" id="cc-pct-quiz">0%</span>
-                  </div>
-                </div>
-                <button class="cc-resume-btn-large">Start →</button>
-              </div>
-
-            </div>
-
-            <!-- ══ DAILY GOALS (Larger Action Buttons & High Contrast) ══ -->
-            <div class="glass-card daily-goals-card">
-              <div class="goals-header">
-                <div>
-                  <h3>🏁 Today's Study Goals</h3>
-                  <p style="color:var(--text-muted);font-size:12px;margin-top:2px;">Complete goals for +100 XP each & bonus rank unlock!</p>
-                </div>
-                <span class="goals-counter" id="goals-progress-counter">0/5 done</span>
-              </div>
-              <div class="goals-grid">
-                <div class="goal-item" id="goal-visit-module">
-                  <div class="goal-check"><span class="checkbox-box"></span></div>
-                  <div class="goal-info">
-                    <div class="goal-title">Visit a Study Module</div>
-                    <div class="goal-reward">+100 XP</div>
-                  </div>
-                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-history').click()">Visit Module →</button>
-                </div>
-                <div class="goal-item" id="goal-read-notes">
-                  <div class="goal-check"><span class="checkbox-box"></span></div>
-                  <div class="goal-info">
-                    <div class="goal-title">Read Detailed Notes</div>
-                    <div class="goal-reward">+100 XP</div>
-                  </div>
-                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-polity').click()">Open Notes →</button>
-                </div>
-                <div class="goal-item" id="goal-flashcard">
-                  <div class="goal-check"><span class="checkbox-box"></span></div>
-                  <div class="goal-info">
-                    <div class="goal-title">Flashcard Session</div>
-                    <div class="goal-reward">+100 XP</div>
-                  </div>
-                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-flashcards').click()">Flashcards →</button>
-                </div>
-                <div class="goal-item" id="goal-quiz">
-                  <div class="goal-check"><span class="checkbox-box"></span></div>
-                  <div class="goal-info">
-                    <div class="goal-title">Complete a Daily Mock</div>
-                    <div class="goal-reward">+100 XP</div>
-                  </div>
-                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-quiz').click()">Start Mock →</button>
-                </div>
-                <div class="goal-item" id="goal-upload-file">
-                  <div class="goal-check"><span class="checkbox-box"></span></div>
-                  <div class="goal-info">
-                    <div class="goal-title">Upload a Study File</div>
-                    <div class="goal-reward">+100 XP</div>
-                  </div>
-                  <button class="goal-action-btn-large" onclick="document.getElementById('nav-history').click()">Upload File →</button>
                 </div>
               </div>
             </div>
 
-            <!-- ══ SUBJECT PROGRESS MODULES (Visible Progress Bars) ══ -->
-            <div class="dashboard-section-title">📚 Preparation Modules</div>
-            <div class="subject-grid compact-subject-grid">
-
-              <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-history').click()">
-                <div class="card-header">
-                  <div class="subject-icon icon-history">📜</div>
-                  <span class="subject-tag" id="progress-tag-history">0%</span>
+            <!-- ══ SECTION 2: TODAY'S PROGRESS METRICS STRIP ══ -->
+            <div class="db-metrics-strip">
+              <div class="db-metric">
+                <div class="db-metric-icon" style="background: rgba(99,102,241,0.15); color: #818cf8;">⏱️</div>
+                <div class="db-metric-body">
+                  <div class="db-metric-val" id="session-time">0m</div>
+                  <div class="db-metric-lbl">Session Time</div>
                 </div>
-                <h3>Indian History</h3>
-                <div class="progress-bar-label-row">
-                  <span>Progress</span>
-                  <span id="lesson-count-history">0 / 20 lessons</span>
-                </div>
-                <div class="progress-bar-container visible-bar">
-                  <div class="progress-bar" id="progress-bar-history" style="width: 0%"></div>
-                </div>
-                <div class="subject-meta"><span class="meta-badge">⭐ 20% Weightage</span></div>
               </div>
-
-              <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-polity').click()">
-                <div class="card-header">
-                  <div class="subject-icon icon-polity">⚖️</div>
-                  <span class="subject-tag" id="progress-tag-polity">0%</span>
+              <div class="db-metric-divider"></div>
+              <div class="db-metric">
+                <div class="db-metric-icon" style="background: rgba(245,158,11,0.15); color: #f59e0b;">⚡</div>
+                <div class="db-metric-body">
+                  <div class="db-metric-val" id="stat-total-xp">0</div>
+                  <div class="db-metric-lbl">Total XP</div>
                 </div>
-                <h3>Indian Polity</h3>
-                <div class="progress-bar-label-row">
-                  <span>Progress</span>
-                  <span id="lesson-count-polity">0 / 18 lessons</span>
-                </div>
-                <div class="progress-bar-container visible-bar">
-                  <div class="progress-bar" id="progress-bar-polity" style="width: 0%"></div>
-                </div>
-                <div class="subject-meta"><span class="meta-badge">⭐ 16% Weightage</span></div>
               </div>
-
-              <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-geography').click()">
-                <div class="card-header">
-                  <div class="subject-icon icon-geography">🗺️</div>
-                  <span class="subject-tag" id="progress-tag-geography">0%</span>
+              <div class="db-metric-divider"></div>
+              <div class="db-metric">
+                <div class="db-metric-icon" style="background: rgba(239,68,68,0.15); color: #f87171;">🔥</div>
+                <div class="db-metric-body">
+                  <div class="db-metric-val" id="streak-count-dash">1</div>
+                  <div class="db-metric-lbl">Day Streak</div>
                 </div>
-                <h3>Geography</h3>
-                <div class="progress-bar-label-row">
-                  <span>Progress</span>
-                  <span id="lesson-count-geography">0 / 15 lessons</span>
-                </div>
-                <div class="progress-bar-container visible-bar">
-                  <div class="progress-bar" id="progress-bar-geography" style="width: 0%"></div>
-                </div>
-                <div class="subject-meta"><span class="meta-badge">🗺️ 16% Weightage</span></div>
               </div>
-
-              <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-science').click()">
-                <div class="card-header">
-                  <div class="subject-icon icon-science">🔬</div>
-                  <span class="subject-tag" id="progress-tag-science">0%</span>
+              <div class="db-metric-divider"></div>
+              <div class="db-metric">
+                <div class="db-metric-icon" style="background: rgba(16,185,129,0.15); color: #34d399;">🎯</div>
+                <div class="db-metric-body">
+                  <div class="db-metric-val" id="ssc-qs-solved">124</div>
+                  <div class="db-metric-lbl">Questions Solved</div>
                 </div>
-                <h3>General Science</h3>
-                <div class="progress-bar-label-row">
-                  <span>Progress</span>
-                  <span id="lesson-count-science">0 / 25 lessons</span>
-                </div>
-                <div class="progress-bar-container visible-bar">
-                  <div class="progress-bar" id="progress-bar-science" style="width: 0%"></div>
-                </div>
-                <div class="subject-meta"><span class="meta-badge">🔬 24% Weightage</span></div>
               </div>
-
-              <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-economy').click()">
-                <div class="card-header">
-                  <div class="subject-icon icon-economy">💹</div>
-                  <span class="subject-tag" id="progress-tag-economy">0%</span>
+              <div class="db-metric-divider"></div>
+              <div class="db-metric">
+                <div class="db-metric-icon" style="background: rgba(6,182,212,0.15); color: #22d3ee;">🏆</div>
+                <div class="db-metric-body">
+                  <div class="db-metric-val" id="ssc-strongest" style="color: #34d399; font-size: 15px;">History</div>
+                  <div class="db-metric-lbl">Strongest</div>
                 </div>
-                <h3>Economy Corner</h3>
-                <div class="progress-bar-label-row">
-                  <span>Progress</span>
-                  <span id="lesson-count-economy">0 / 12 lessons</span>
-                </div>
-                <div class="progress-bar-container visible-bar">
-                  <div class="progress-bar" id="progress-bar-economy" style="width: 0%"></div>
-                </div>
-                <div class="subject-meta"><span class="meta-badge">💡 12% Weightage</span></div>
               </div>
-
-              <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-staticgk').click()">
-                <div class="card-header">
-                  <div class="subject-icon icon-staticgk">📚</div>
-                  <span class="subject-tag" id="progress-tag-staticgk">0%</span>
+              <div class="db-metric-divider"></div>
+              <div class="db-metric">
+                <div class="db-metric-icon" style="background: rgba(244,63,94,0.15); color: #fb7185;">📉</div>
+                <div class="db-metric-body">
+                  <div class="db-metric-val" id="ssc-weakest" style="color: #fbbf24; font-size: 15px;">Geography</div>
+                  <div class="db-metric-lbl">Focus Area</div>
                 </div>
-                <h3>Static GK Hub</h3>
-                <div class="progress-bar-label-row">
-                  <span>Progress</span>
-                  <span id="lesson-count-staticgk">0 / 16 lessons</span>
-                </div>
-                <div class="progress-bar-container visible-bar">
-                  <div class="progress-bar" id="progress-bar-staticgk" style="width: 0%"></div>
-                </div>
-                <div class="subject-meta"><span class="meta-badge">📌 12% Weightage</span></div>
               </div>
-
-              <div class="glass-card subject-card compact-card" onclick="document.getElementById('nav-currentaffairs').click()">
-                <div class="card-header">
-                  <div class="subject-icon icon-ca">📰</div>
-                  <span class="subject-tag" id="progress-tag-currentaffairs">0%</span>
-                </div>
-                <h3>Current Affairs</h3>
-                <div class="progress-bar-label-row">
-                  <span>Progress</span>
-                  <span id="lesson-count-currentaffairs">0 / 30 topics</span>
-                </div>
-                <div class="progress-bar-container visible-bar">
-                  <div class="progress-bar" id="progress-bar-currentaffairs" style="width: 0%"></div>
-                </div>
             </div>
 
-            <!-- ══ SIDE PANEL (TABBED INTEGRATION) ══ -->
-            <div class="dashboard-side">
-              
-              <!-- Tabbed Controller Bar -->
-              <div class="side-tab-bar">
-                <button class="side-tab-btn active" data-sidetab="weightage">📊 Syllabus</button>
-                <button class="side-tab-btn" data-sidetab="badges">🏅 Badges</button>
-                <button class="side-tab-btn" data-sidetab="activity">📡 Activity</button>
+            <!-- ══ SECTION 3: CONTINUE LEARNING ══ -->
+            <div>
+              <div class="db-section-header">
+                <div class="db-section-title">▶ Continue Learning</div>
+                <button class="btn btn-ghost btn-sm" onclick="document.getElementById('nav-history').click()">View all →</button>
               </div>
+              <div class="db-continue-grid" id="continue-learning-row">
 
-              <!-- Tab 1: Syllabus Weightage -->
-              <div class="glass-card stat-card sidetab-content active" id="sidetab-weightage">
-                <h3>📊 Syllabus Weightage</h3>
-                <ul class="weightage-list">
-                  <li><span>History</span><span class="percent">20%</span></li>
-                  <li><span>Polity</span><span class="percent">16%</span></li>
-                  <li><span>Geography</span><span class="percent">16%</span></li>
-                  <li><span>Science</span><span class="percent">24%</span></li>
-                  <li><span>Static GK &amp; Economy</span><span class="percent">24%</span></li>
-                </ul>
+                <div class="db-continue-card" onclick="document.getElementById('nav-history').click()">
+                  <div class="db-cc-top">
+                    <div class="db-cc-icon">📜</div>
+                    <div class="db-cc-badge db-badge-medium">Intermediate</div>
+                  </div>
+                  <div class="db-cc-subject">Indian History</div>
+                  <div class="db-cc-lesson">Ancient India — Indus Valley Civilization</div>
+                  <div class="db-cc-progress-row">
+                    <div class="db-cc-bar-wrap">
+                      <div class="db-cc-bar" id="cc-bar-history" style="width:0%"></div>
+                    </div>
+                    <span class="db-cc-pct" id="cc-pct-history">0%</span>
+                  </div>
+                  <div class="db-cc-meta">
+                    <span>⏱️ ~15m left</span>
+                    <span>20% Weightage</span>
+                  </div>
+                  <button class="btn btn-outline db-cc-btn">Resume →</button>
+                </div>
+
+                <div class="db-continue-card" onclick="document.getElementById('nav-polity').click()">
+                  <div class="db-cc-top">
+                    <div class="db-cc-icon">⚖️</div>
+                    <div class="db-cc-badge db-badge-hard">Advanced</div>
+                  </div>
+                  <div class="db-cc-subject">Indian Polity</div>
+                  <div class="db-cc-lesson">Fundamental Rights — Articles 12–35</div>
+                  <div class="db-cc-progress-row">
+                    <div class="db-cc-bar-wrap">
+                      <div class="db-cc-bar" id="cc-bar-polity" style="width:0%"></div>
+                    </div>
+                    <span class="db-cc-pct" id="cc-pct-polity">0%</span>
+                  </div>
+                  <div class="db-cc-meta">
+                    <span>⏱️ ~20m left</span>
+                    <span>16% Weightage</span>
+                  </div>
+                  <button class="btn btn-outline db-cc-btn">Resume →</button>
+                </div>
+
+                <div class="db-continue-card" onclick="document.getElementById('nav-quiz').click()">
+                  <div class="db-cc-top">
+                    <div class="db-cc-icon">🎯</div>
+                    <div class="db-cc-badge db-badge-easy">Beginner</div>
+                  </div>
+                  <div class="db-cc-subject">Daily Mock Quiz</div>
+                  <div class="db-cc-lesson">SSC CGL GS Mock — 20 Questions</div>
+                  <div class="db-cc-progress-row">
+                    <div class="db-cc-bar-wrap">
+                      <div class="db-cc-bar" id="cc-bar-quiz" style="width:0%"></div>
+                    </div>
+                    <span class="db-cc-pct" id="cc-pct-quiz">0%</span>
+                  </div>
+                  <div class="db-cc-meta">
+                    <span>⏱️ ~10m left</span>
+                    <span>Mixed Topics</span>
+                  </div>
+                  <button class="btn btn-primary db-cc-btn">Start →</button>
+                </div>
+
               </div>
+            </div>
 
-              <!-- Tab 2: Badges / Gamification -->
-              <div class="glass-card stat-card sidetab-content" id="sidetab-badges">
-                <h3>🏅 Your Badges</h3>
-                <div class="badges-grid" id="badges-grid">
-                  <div class="badge-item earned" title="First Login!">🌟<span>First Step</span></div>
-                  <div class="badge-item" id="badge-streak5" title="5 Day Streak">🔥<span>5-Day Fire</span></div>
-                  <div class="badge-item" id="badge-xp500" title="Earn 500 XP">⚡<span>500 XP Club</span></div>
-                  <div class="badge-item" id="badge-quiz" title="Complete a Quiz">🎯<span>Quiz Champ</span></div>
-                  <div class="badge-item" id="badge-notes" title="Read Notes">📖<span>Note Taker</span></div>
-                  <div class="badge-item" id="badge-flash" title="Use Flashcards">🃏<span>Card Shark</span></div>
+            <!-- ══ SECTION 4: DAILY TASKS + ANALYTICS (Two Column) ══ -->
+            <div class="db-two-col">
+
+              <!-- Daily Tasks Checklist -->
+              <div class="glass-card db-tasks-card">
+                <div class="db-tasks-header">
+                  <div>
+                    <div class="db-section-title" style="margin-bottom: 4px;">🏁 Daily Study Goals</div>
+                    <div class="db-tasks-sub">+100 XP each · Bonus rank unlock at 5/5</div>
+                  </div>
+                  <div class="db-tasks-ring">
+                    <svg viewBox="0 0 36 36" class="db-tasks-ring-svg">
+                      <path class="db-gauge-bg" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                      <path class="db-gauge-fill" id="tasks-gauge-path" stroke-dasharray="0, 100"
+                        d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831"/>
+                      <text x="18" y="20.35" class="db-gauge-pct" id="goals-progress-counter" style="font-size:8px;">0/5</text>
+                    </svg>
+                  </div>
+                </div>
+                <div class="db-tasks-list">
+                  <div class="db-task-item" id="goal-visit-module">
+                    <div class="db-task-check"><span class="checkbox-box"></span></div>
+                    <div class="db-task-info">
+                      <div class="db-task-title">Visit a Study Module</div>
+                    </div>
+                    <div class="db-task-xp">+100 XP</div>
+                    <button class="db-task-btn" onclick="document.getElementById('nav-history').click()">Go →</button>
+                  </div>
+                  <div class="db-task-item" id="goal-read-notes">
+                    <div class="db-task-check"><span class="checkbox-box"></span></div>
+                    <div class="db-task-info">
+                      <div class="db-task-title">Read Detailed Notes</div>
+                    </div>
+                    <div class="db-task-xp">+100 XP</div>
+                    <button class="db-task-btn" onclick="document.getElementById('nav-polity').click()">Go →</button>
+                  </div>
+                  <div class="db-task-item" id="goal-flashcard">
+                    <div class="db-task-check"><span class="checkbox-box"></span></div>
+                    <div class="db-task-info">
+                      <div class="db-task-title">Flashcard Session (10 cards)</div>
+                    </div>
+                    <div class="db-task-xp">+100 XP</div>
+                    <button class="db-task-btn" onclick="document.getElementById('nav-flashcards').click()">Go →</button>
+                  </div>
+                  <div class="db-task-item" id="goal-quiz">
+                    <div class="db-task-check"><span class="checkbox-box"></span></div>
+                    <div class="db-task-info">
+                      <div class="db-task-title">Complete a Daily Mock</div>
+                    </div>
+                    <div class="db-task-xp">+100 XP</div>
+                    <button class="db-task-btn" onclick="document.getElementById('nav-quiz').click()">Go →</button>
+                  </div>
+                  <div class="db-task-item" id="goal-upload-file">
+                    <div class="db-task-check"><span class="checkbox-box"></span></div>
+                    <div class="db-task-info">
+                      <div class="db-task-title">Upload a Study File</div>
+                    </div>
+                    <div class="db-task-xp">+100 XP</div>
+                    <button class="db-task-btn" onclick="document.getElementById('nav-history').click()">Go →</button>
+                  </div>
                 </div>
               </div>
 
-              <!-- Tab 3: Live Activity Feed -->
-              <div class="glass-card stat-card sidetab-content" id="sidetab-activity">
-                <h3>📡 Live Activity Feed</h3>
+              <!-- Analytics Chart -->
+              <div class="glass-card db-analytics-card">
+                <div class="db-analytics-header">
+                  <div>
+                    <div class="db-section-title" style="margin-bottom: 4px;">📈 Weekly Performance</div>
+                    <div class="db-tasks-sub">Daily XP · Quiz accuracy over time</div>
+                  </div>
+                  <div class="db-chart-toggles">
+                    <button class="db-toggle-btn active" data-chartview="weekly">XP</button>
+                    <button class="db-toggle-btn" data-chartview="monthly">Month</button>
+                    <button class="db-toggle-btn" data-chartview="accuracy">Acc%</button>
+                  </div>
+                </div>
+                <div class="db-chart-area" id="analytics-chart">
+                  <div class="db-chart-col"><div class="db-chart-bar" style="height:25%" data-val="100 XP"><span class="db-bar-tip">100</span></div><span class="db-chart-day">Mon</span></div>
+                  <div class="db-chart-col"><div class="db-chart-bar" style="height:45%" data-val="180 XP"><span class="db-bar-tip">180</span></div><span class="db-chart-day">Tue</span></div>
+                  <div class="db-chart-col"><div class="db-chart-bar" style="height:35%" data-val="140 XP"><span class="db-bar-tip">140</span></div><span class="db-chart-day">Wed</span></div>
+                  <div class="db-chart-col"><div class="db-chart-bar" style="height:60%" data-val="240 XP"><span class="db-bar-tip">240</span></div><span class="db-chart-day">Thu</span></div>
+                  <div class="db-chart-col"><div class="db-chart-bar" style="height:80%" data-val="320 XP"><span class="db-bar-tip">320</span></div><span class="db-chart-day">Fri</span></div>
+                  <div class="db-chart-col"><div class="db-chart-bar" style="height:50%" data-val="200 XP"><span class="db-bar-tip">200</span></div><span class="db-chart-day">Sat</span></div>
+                  <div class="db-chart-col"><div class="db-chart-bar db-bar-active" style="height:90%" data-val="360 XP"><span class="db-bar-tip">360</span></div><span class="db-chart-day">Today</span></div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- ══ SECTION 5: SUBJECT MODULES ══ -->
+            <div>
+              <div class="db-section-header">
+                <div class="db-section-title">📚 Preparation Modules</div>
+                <div class="db-section-subtitle">8 subjects · Track your accuracy &amp; weak spots</div>
+              </div>
+              <div class="db-subject-grid">
+
+                <div class="glass-card db-subject-card" onclick="document.getElementById('nav-history').click()">
+                  <div class="db-sc-header">
+                    <div class="db-sc-icon db-icon-history">📜</div>
+                    <div class="db-sc-pct-badge" id="progress-tag-history">0%</div>
+                  </div>
+                  <div class="db-sc-name">Indian History</div>
+                  <div class="db-sc-meta">
+                    <span id="lesson-count-history">0 / 20 lessons</span>
+                    <span class="db-sc-weight">20% wt.</span>
+                  </div>
+                  <div class="db-sc-bar-wrap">
+                    <div class="db-sc-bar" id="progress-bar-history" style="width: 0%"></div>
+                  </div>
+                  <div class="db-sc-tags">
+                    <span class="db-sc-tag db-sc-tag-weak">⚠️ Mughal Era</span>
+                    <span class="db-sc-tag db-sc-tag-ok">✅ Ancient</span>
+                  </div>
+                </div>
+
+                <div class="glass-card db-subject-card" onclick="document.getElementById('nav-polity').click()">
+                  <div class="db-sc-header">
+                    <div class="db-sc-icon db-icon-polity">⚖️</div>
+                    <div class="db-sc-pct-badge" id="progress-tag-polity">0%</div>
+                  </div>
+                  <div class="db-sc-name">Indian Polity</div>
+                  <div class="db-sc-meta">
+                    <span id="lesson-count-polity">0 / 18 lessons</span>
+                    <span class="db-sc-weight">16% wt.</span>
+                  </div>
+                  <div class="db-sc-bar-wrap">
+                    <div class="db-sc-bar" id="progress-bar-polity" style="width: 0%"></div>
+                  </div>
+                  <div class="db-sc-tags">
+                    <span class="db-sc-tag db-sc-tag-weak">⚠️ Amendments</span>
+                    <span class="db-sc-tag db-sc-tag-ok">✅ FR/DPSP</span>
+                  </div>
+                </div>
+
+                <div class="glass-card db-subject-card" onclick="document.getElementById('nav-geography').click()">
+                  <div class="db-sc-header">
+                    <div class="db-sc-icon db-icon-geography">🗺️</div>
+                    <div class="db-sc-pct-badge" id="progress-tag-geography">0%</div>
+                  </div>
+                  <div class="db-sc-name">Geography</div>
+                  <div class="db-sc-meta">
+                    <span id="lesson-count-geography">0 / 15 lessons</span>
+                    <span class="db-sc-weight">16% wt.</span>
+                  </div>
+                  <div class="db-sc-bar-wrap">
+                    <div class="db-sc-bar" id="progress-bar-geography" style="width: 0%"></div>
+                  </div>
+                  <div class="db-sc-tags">
+                    <span class="db-sc-tag db-sc-tag-weak">⚠️ Rivers</span>
+                    <span class="db-sc-tag db-sc-tag-ok">✅ Climate</span>
+                  </div>
+                </div>
+
+                <div class="glass-card db-subject-card" onclick="document.getElementById('nav-science').click()">
+                  <div class="db-sc-header">
+                    <div class="db-sc-icon db-icon-science">🔬</div>
+                    <div class="db-sc-pct-badge" id="progress-tag-science">0%</div>
+                  </div>
+                  <div class="db-sc-name">General Science</div>
+                  <div class="db-sc-meta">
+                    <span id="lesson-count-science">0 / 25 lessons</span>
+                    <span class="db-sc-weight">24% wt.</span>
+                  </div>
+                  <div class="db-sc-bar-wrap">
+                    <div class="db-sc-bar" id="progress-bar-science" style="width: 0%"></div>
+                  </div>
+                  <div class="db-sc-tags">
+                    <span class="db-sc-tag db-sc-tag-weak">⚠️ Chemistry</span>
+                    <span class="db-sc-tag db-sc-tag-ok">✅ Biology</span>
+                  </div>
+                </div>
+
+                <div class="glass-card db-subject-card" onclick="document.getElementById('nav-economy').click()">
+                  <div class="db-sc-header">
+                    <div class="db-sc-icon db-icon-economy">💹</div>
+                    <div class="db-sc-pct-badge" id="progress-tag-economy">0%</div>
+                  </div>
+                  <div class="db-sc-name">Economy</div>
+                  <div class="db-sc-meta">
+                    <span id="lesson-count-economy">0 / 12 lessons</span>
+                    <span class="db-sc-weight">12% wt.</span>
+                  </div>
+                  <div class="db-sc-bar-wrap">
+                    <div class="db-sc-bar" id="progress-bar-economy" style="width: 0%"></div>
+                  </div>
+                  <div class="db-sc-tags">
+                    <span class="db-sc-tag db-sc-tag-weak">⚠️ Budget</span>
+                    <span class="db-sc-tag db-sc-tag-ok">✅ Basics</span>
+                  </div>
+                </div>
+
+                <div class="glass-card db-subject-card" onclick="document.getElementById('nav-staticgk').click()">
+                  <div class="db-sc-header">
+                    <div class="db-sc-icon db-icon-staticgk">📚</div>
+                    <div class="db-sc-pct-badge" id="progress-tag-staticgk">0%</div>
+                  </div>
+                  <div class="db-sc-name">Static GK Hub</div>
+                  <div class="db-sc-meta">
+                    <span id="lesson-count-staticgk">0 / 16 lessons</span>
+                    <span class="db-sc-weight">12% wt.</span>
+                  </div>
+                  <div class="db-sc-bar-wrap">
+                    <div class="db-sc-bar" id="progress-bar-staticgk" style="width: 0%"></div>
+                  </div>
+                  <div class="db-sc-tags">
+                    <span class="db-sc-tag db-sc-tag-weak">⚠️ Awards</span>
+                    <span class="db-sc-tag db-sc-tag-ok">✅ Capitals</span>
+                  </div>
+                </div>
+
+                <div class="glass-card db-subject-card" onclick="document.getElementById('nav-currentaffairs').click()">
+                  <div class="db-sc-header">
+                    <div class="db-sc-icon db-icon-ca">📰</div>
+                    <div class="db-sc-pct-badge" id="progress-tag-currentaffairs">0%</div>
+                  </div>
+                  <div class="db-sc-name">Current Affairs</div>
+                  <div class="db-sc-meta">
+                    <span id="lesson-count-currentaffairs">0 / 30 topics</span>
+                    <span class="db-sc-weight">High</span>
+                  </div>
+                  <div class="db-sc-bar-wrap">
+                    <div class="db-sc-bar" id="progress-bar-currentaffairs" style="width: 0%"></div>
+                  </div>
+                  <div class="db-sc-tags">
+                    <span class="db-sc-tag db-sc-tag-weak">⚠️ Economy</span>
+                    <span class="db-sc-tag db-sc-tag-ok">✅ Defence</span>
+                  </div>
+                </div>
+
+                <div class="glass-card db-subject-card" onclick="document.getElementById('nav-flashcards').click()">
+                  <div class="db-sc-header">
+                    <div class="db-sc-icon db-icon-flash">🃏</div>
+                    <div class="db-sc-pct-badge" id="progress-tag-flashcards">0%</div>
+                  </div>
+                  <div class="db-sc-name">Flashcards</div>
+                  <div class="db-sc-meta">
+                    <span>Leitner System</span>
+                    <span class="db-sc-weight">All Topics</span>
+                  </div>
+                  <div class="db-sc-bar-wrap">
+                    <div class="db-sc-bar" id="progress-bar-flashcards" style="width: 0%"></div>
+                  </div>
+                  <div class="db-sc-tags">
+                    <span class="db-sc-tag db-sc-tag-ok">✅ Spaced Rep</span>
+                    <span class="db-sc-tag db-sc-tag-ok">✅ Active Recall</span>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <!-- ══ SECTION 6: ACTIVITY & ACHIEVEMENTS (Two Column) ══ -->
+            <div class="db-two-col">
+
+              <!-- Live Activity Feed -->
+              <div class="glass-card">
+                <div class="db-section-title" style="margin-bottom: var(--space-16);">📡 Recent Activity</div>
                 <div id="activity-feed">
                   <div class="feed-empty">No activity yet — start studying! 📚</div>
+                </div>
+              </div>
+
+              <!-- Badges + Rank Progress -->
+              <div class="glass-card">
+                <div class="db-section-title" style="margin-bottom: var(--space-16);">🏅 Achievements</div>
+                <div class="db-badges-grid" id="badges-grid">
+                  <div class="db-badge earned" title="First Login!">🌟<span>First Step</span></div>
+                  <div class="db-badge" id="badge-streak5" title="5 Day Streak">🔥<span>5-Day Fire</span></div>
+                  <div class="db-badge" id="badge-xp500" title="Earn 500 XP">⚡<span>500 XP Club</span></div>
+                  <div class="db-badge" id="badge-quiz" title="Complete a Quiz">🎯<span>Quiz Champ</span></div>
+                  <div class="db-badge" id="badge-notes" title="Read Notes">📖<span>Note Taker</span></div>
+                  <div class="db-badge" id="badge-flash" title="Use Flashcards">🃏<span>Card Shark</span></div>
+                </div>
+                <div style="margin-top: var(--space-24);">
+                  <div class="db-section-title" style="font-size: 14px; margin-bottom: 10px;">🎯 Rank Progress</div>
+                  <div class="rank-progress-header">
+                    <span id="rank-label" class="rank-label-text">Aspirant</span>
+                    <span id="rank-next-label" class="rank-next-text">→ Asst. Section Officer</span>
+                    <span id="rank-pct" class="rank-pct-text">0%</span>
+                  </div>
+                  <div class="rank-bar-bg">
+                    <div class="rank-bar-fill" id="rank-progress-bar" style="width: 0%"></div>
+                  </div>
+                  <div class="rank-xp-hint">Keep studying to level up! 🚀</div>
+                </div>
+                <!-- Syllabus Weightage -->
+                <div style="margin-top: var(--space-24);">
+                  <div class="db-section-title" style="font-size: 14px; margin-bottom: 10px;">📊 Syllabus Weightage</div>
+                  <ul class="weightage-list">
+                    <li><span>Science</span><span class="percent">24%</span></li>
+                    <li><span>History</span><span class="percent">20%</span></li>
+                    <li><span>Polity</span><span class="percent">16%</span></li>
+                    <li><span>Geography</span><span class="percent">16%</span></li>
+                    <li><span>Static GK &amp; Economy</span><span class="percent">24%</span></li>
+                  </ul>
                 </div>
               </div>
 

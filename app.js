@@ -754,14 +754,16 @@ function updateStudyStatsBar() {
   if (goalsEl) goalsEl.textContent = doneCount;
   if (streakDashEl) streakDashEl.textContent = AppState.streak;
 
-  // Hero quick-stats pills
+  // Hero quick-stats
   const hqsStreak = document.getElementById('hqs-streak');
   const hqsTime   = document.getElementById('hqs-time');
   const hqsRank   = document.getElementById('hqs-rank');
   const hqsGoals  = document.getElementById('hqs-goals');
+  const hqsXp     = document.getElementById('hqs-xp');
   if (hqsStreak) hqsStreak.textContent = AppState.streak;
   if (hqsTime)   hqsTime.textContent   = `${elapsed}m`;
   if (hqsGoals)  hqsGoals.textContent  = `${doneCount}/${totalCount}`;
+  if (hqsXp)     hqsXp.textContent     = AppState.totalXP.toLocaleString();
 
   // Hero rank pill
   const ranks = [
@@ -775,11 +777,30 @@ function updateStudyStatsBar() {
   const rankLabel = ranks.find(r => AppState.totalXP >= r.min).label;
   if (hqsRank) hqsRank.textContent = rankLabel;
 
+  // Circular gauge animation (hero + tasks ring)
+  const goalPct = Math.round((doneCount / totalCount) * 100);
+  const gaugeStroke = (goalPct * 100) / 100; // = goalPct (0–100 out of 100 circumference)
+  const dbGaugePath = document.getElementById('db-gauge-path');
+  const dbGaugePct  = document.getElementById('db-gauge-pct');
+  const tasksGaugePath = document.getElementById('tasks-gauge-path');
+  const tasksCounter = document.getElementById('goals-progress-counter');
+  if (dbGaugePath) dbGaugePath.setAttribute('stroke-dasharray', `${gaugeStroke}, 100`);
+  if (dbGaugePct)  dbGaugePct.textContent = `${goalPct}%`;
+  if (tasksGaugePath) tasksGaugePath.setAttribute('stroke-dasharray', `${gaugeStroke}, 100`);
+  if (tasksCounter) tasksCounter.textContent = `${doneCount}/${totalCount}`;
+
   // XP-today sub-label (session XP)
   const sessionXP = Object.values(AppState.subjectXP).reduce((a, b) => a + b, 0);
   const xpTodayEl = document.getElementById('sic-xp-today');
   if (xpTodayEl) xpTodayEl.textContent = `+${sessionXP} today`;
+
+  // Header streak/XP badges
+  const streakCount = document.getElementById('streak-count');
+  const totalXpHeader = document.getElementById('total-xp');
+  if (streakCount) streakCount.textContent = `${AppState.streak} Day`;
+  if (totalXpHeader) totalXpHeader.textContent = `${AppState.totalXP} XP`;
 }
+
 
 function updateActivityFeed() {
   const feedEl = document.getElementById('activity-feed');
