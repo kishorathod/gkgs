@@ -114,19 +114,25 @@
         <!-- DASHBOARD VIEW -->
         <section id="view-dashboard" class="view-panel active">
           <div class="dashboard-grid">
-            
-            <!-- Welcome Hero -->
-            <div class="glass-card welcome-hero">
+
+            <!-- ══ COMPACT HERO with Quick Stats ══ -->
+            <div class="glass-card welcome-hero compact-hero">
               <div class="hero-content">
-                <h2>Ready to Ace SSC CGL?</h2>
-                <p>Track your preparation progress across key topics. Engage with interactive visual modules, practice quizzes daily, and review cards to secure high marks in GK-GS.</p>
+                <div class="hero-greeting" id="hero-greeting">Ready to Ace SSC CGL? 🎯</div>
+                <p class="hero-sub">Your daily GK-GS preparation hub. Keep the streak alive!</p>
+                <div class="hero-quick-stats">
+                  <div class="hqs-pill">🔥 <strong id="hqs-streak">1</strong> Day Streak</div>
+                  <div class="hqs-pill">⏱️ <strong id="hqs-time">0m</strong> Today</div>
+                  <div class="hqs-pill">⭐ Rank: <strong id="hqs-rank">Aspirant</strong></div>
+                  <div class="hqs-pill">🎯 Goals: <strong id="hqs-goals">0/5</strong></div>
+                </div>
                 <div class="hero-actions">
-                  <button class="btn btn-primary" onclick="document.getElementById('nav-quiz').click()">Start Daily Quiz</button>
-                  <button class="btn btn-secondary" onclick="document.getElementById('nav-history').click()">Explore History Timeline</button>
+                  <button class="btn btn-primary" onclick="document.getElementById('nav-quiz').click()">⚡ Start Daily Quiz</button>
+                  <button class="btn btn-secondary" onclick="document.getElementById('nav-flashcards').click()">🃏 Flashcards</button>
                 </div>
               </div>
               <div class="hero-visual">
-                <svg viewBox="0 0 200 200" width="160" height="160" class="floating-svg">
+                <svg viewBox="0 0 200 200" width="120" height="120" class="floating-svg">
                   <defs>
                     <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
                       <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:1" />
@@ -141,42 +147,63 @@
               </div>
             </div>
 
-            <!-- Live Session Stats Strip -->
-            <div class="glass-card session-stats-strip">
-              <div class="stat-pill">
-                <span class="stat-pill-icon">⏱️</span>
-                <div>
-                  <div class="stat-pill-value" id="session-time">0m</div>
-                  <div class="stat-pill-label">Session Time</div>
-                </div>
+            <!-- ══ QUICK ACTION BUTTONS ══ -->
+            <div class="quick-actions-row">
+              <button class="quick-action-btn" onclick="document.getElementById('nav-quiz').click()">
+                <span class="qa-icon">⚡</span>
+                <span>Start Quiz</span>
+              </button>
+              <button class="quick-action-btn" onclick="document.getElementById('nav-history').click()">
+                <span class="qa-icon">📖</span>
+                <span>Study Notes</span>
+              </button>
+              <button class="quick-action-btn" onclick="document.getElementById('nav-currentaffairs').click()">
+                <span class="qa-icon">📰</span>
+                <span>Current Affairs</span>
+              </button>
+              <button class="quick-action-btn" onclick="document.getElementById('nav-flashcards').click()">
+                <span class="qa-icon">🧠</span>
+                <span>Flashcards</span>
+              </button>
+              <button class="quick-action-btn" onclick="document.getElementById('nav-polity').click()">
+                <span class="qa-icon">⚖️</span>
+                <span>Polity</span>
+              </button>
+              <button class="quick-action-btn" onclick="document.getElementById('nav-geography').click()">
+                <span class="qa-icon">🗺️</span>
+                <span>Geography</span>
+              </button>
+            </div>
+
+            <!-- ══ INTERACTIVE STAT CARDS ══ -->
+            <div class="stat-cards-row">
+              <div class="stat-interactive-card stat-card-time">
+                <div class="sic-icon">⏱️</div>
+                <div class="sic-value" id="session-time">0m</div>
+                <div class="sic-label">Session Time</div>
+                <div class="sic-sub">Keep going!</div>
               </div>
-              <div class="stat-pill-divider"></div>
-              <div class="stat-pill">
-                <span class="stat-pill-icon">⚡</span>
-                <div>
-                  <div class="stat-pill-value" id="stat-total-xp">0</div>
-                  <div class="stat-pill-label">Total XP</div>
-                </div>
+              <div class="stat-interactive-card stat-card-xp">
+                <div class="sic-icon">⚡</div>
+                <div class="sic-value" id="stat-total-xp">0</div>
+                <div class="sic-label">Total XP</div>
+                <div class="sic-sub" id="sic-xp-today">+0 today</div>
               </div>
-              <div class="stat-pill-divider"></div>
-              <div class="stat-pill">
-                <span class="stat-pill-icon">🎯</span>
-                <div>
-                  <div class="stat-pill-value" id="stat-goals-done">0</div>
-                  <div class="stat-pill-label">Goals Done</div>
-                </div>
+              <div class="stat-interactive-card stat-card-goals">
+                <div class="sic-icon">🎯</div>
+                <div class="sic-value" id="stat-goals-done">0</div>
+                <div class="sic-label">Goals Done</div>
+                <div class="sic-sub">out of 5 today</div>
               </div>
-              <div class="stat-pill-divider"></div>
-              <div class="stat-pill">
-                <span class="stat-pill-icon">🔥</span>
-                <div>
-                  <div class="stat-pill-value" id="streak-count-dash">5</div>
-                  <div class="stat-pill-label">Day Streak</div>
-                </div>
+              <div class="stat-interactive-card stat-card-streak">
+                <div class="sic-icon">🔥</div>
+                <div class="sic-value" id="streak-count-dash">1</div>
+                <div class="sic-label">Day Streak</div>
+                <div class="sic-sub">Stay consistent!</div>
               </div>
             </div>
 
-            <!-- Rank Progress Bar -->
+            <!-- ══ RANK PROGRESS ══ -->
             <div class="glass-card rank-progress-card">
               <div class="rank-progress-header">
                 <span id="rank-label" class="rank-label-text">Aspirant</span>
@@ -189,24 +216,104 @@
               <div class="rank-xp-hint">Keep studying to level up your rank! 🚀</div>
             </div>
 
-            <!-- Subject Progress Cards -->
-            <div class="dashboard-section-title">Preparation Modules</div>
+            <!-- ══ CONTINUE LEARNING ══ -->
+            <div class="dashboard-section-title">▶ Continue Learning</div>
+            <div class="continue-learning-row" id="continue-learning-row">
+              <div class="continue-card" onclick="document.getElementById('nav-history').click()">
+                <div class="cc-icon">📜</div>
+                <div class="cc-info">
+                  <div class="cc-subject">Indian History</div>
+                  <div class="cc-lesson">Ancient India — Indus Valley Civilization</div>
+                  <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-history" style="width:0%"></div></div>
+                </div>
+                <button class="cc-resume-btn">Resume →</button>
+              </div>
+              <div class="continue-card" onclick="document.getElementById('nav-polity').click()">
+                <div class="cc-icon">⚖️</div>
+                <div class="cc-info">
+                  <div class="cc-subject">Indian Polity</div>
+                  <div class="cc-lesson">Fundamental Rights — Articles 12–35</div>
+                  <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-polity" style="width:0%"></div></div>
+                </div>
+                <button class="cc-resume-btn">Resume →</button>
+              </div>
+              <div class="continue-card" onclick="document.getElementById('nav-quiz').click()">
+                <div class="cc-icon">🎯</div>
+                <div class="cc-info">
+                  <div class="cc-subject">Daily Quiz</div>
+                  <div class="cc-lesson">SSC CGL GS Mock — 20 Questions</div>
+                  <div class="cc-bar-wrap"><div class="cc-bar" id="cc-bar-quiz" style="width:0%"></div></div>
+                </div>
+                <button class="cc-resume-btn">Start →</button>
+              </div>
+            </div>
+
+            <!-- ══ DAILY GOALS (Prominent) ══ -->
+            <div class="glass-card daily-goals-card">
+              <div class="goals-header">
+                <div>
+                  <h3>🏁 Today's Study Goals</h3>
+                  <p style="color:var(--text-muted);font-size:12px;margin-top:2px;">Complete all 5 for a bonus +100 XP reward</p>
+                </div>
+                <span class="goals-counter" id="goals-progress-counter">0/5 done</span>
+              </div>
+              <div class="goals-grid">
+                <div class="goal-item" id="goal-visit-module">
+                  <div class="goal-check"><span class="checkbox-box"></span></div>
+                  <div class="goal-info">
+                    <div class="goal-title">Visit a Study Module</div>
+                    <div class="goal-reward">+100 XP</div>
+                  </div>
+                </div>
+                <div class="goal-item" id="goal-read-notes">
+                  <div class="goal-check"><span class="checkbox-box"></span></div>
+                  <div class="goal-info">
+                    <div class="goal-title">Read Detailed Notes</div>
+                    <div class="goal-reward">+100 XP</div>
+                  </div>
+                </div>
+                <div class="goal-item" id="goal-flashcard">
+                  <div class="goal-check"><span class="checkbox-box"></span></div>
+                  <div class="goal-info">
+                    <div class="goal-title">Flashcard Session</div>
+                    <div class="goal-reward">+100 XP</div>
+                  </div>
+                </div>
+                <div class="goal-item" id="goal-quiz">
+                  <div class="goal-check"><span class="checkbox-box"></span></div>
+                  <div class="goal-info">
+                    <div class="goal-title">Complete a Daily Mock</div>
+                    <div class="goal-reward">+100 XP</div>
+                  </div>
+                </div>
+                <div class="goal-item" id="goal-upload-file">
+                  <div class="goal-check"><span class="checkbox-box"></span></div>
+                  <div class="goal-info">
+                    <div class="goal-title">Upload a Study File</div>
+                    <div class="goal-reward">+100 XP</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ══ SUBJECT PROGRESS MODULES ══ -->
+            <div class="dashboard-section-title">📚 Preparation Modules</div>
             <div class="subject-grid">
-              
-              <!-- History -->
+
               <div class="glass-card subject-card" onclick="document.getElementById('nav-history').click()">
                 <div class="card-header">
                   <div class="subject-icon icon-history">📜</div>
                   <span class="subject-tag" id="progress-tag-history">0% Complete</span>
                 </div>
                 <h3>Indian History</h3>
-                <p>Ancient, Medieval, and Modern Indian National Movement.</p>
+                <p>Ancient, Medieval &amp; Modern — National Movement.</p>
+                <div class="subject-meta"><span class="meta-badge">⭐ High Weightage</span><span class="meta-badge">20% of GS</span></div>
                 <div class="progress-bar-container">
                   <div class="progress-bar" id="progress-bar-history" style="width: 0%"></div>
                 </div>
+                <button class="subject-card-btn">Open Module →</button>
               </div>
 
-              <!-- Polity -->
               <div class="glass-card subject-card" onclick="document.getElementById('nav-polity').click()">
                 <div class="card-header">
                   <div class="subject-icon icon-polity">⚖️</div>
@@ -214,38 +321,41 @@
                 </div>
                 <h3>Indian Polity</h3>
                 <p>Constitution articles, schedules, amendments &amp; central systems.</p>
+                <div class="subject-meta"><span class="meta-badge">⭐ High Weightage</span><span class="meta-badge">16% of GS</span></div>
                 <div class="progress-bar-container">
                   <div class="progress-bar" id="progress-bar-polity" style="width: 0%"></div>
                 </div>
+                <button class="subject-card-btn">Open Module →</button>
               </div>
 
-              <!-- Geography -->
               <div class="glass-card subject-card" onclick="document.getElementById('nav-geography').click()">
                 <div class="card-header">
                   <div class="subject-icon icon-geography">🗺️</div>
                   <span class="subject-tag" id="progress-tag-geography">0% Complete</span>
                 </div>
                 <h3>Geography</h3>
-                <p>River systems of India, national parks, climate, and minerals.</p>
+                <p>River systems, national parks, climate &amp; minerals.</p>
+                <div class="subject-meta"><span class="meta-badge">🗺️ Visual Learning</span><span class="meta-badge">16% of GS</span></div>
                 <div class="progress-bar-container">
                   <div class="progress-bar" id="progress-bar-geography" style="width: 0%"></div>
                 </div>
+                <button class="subject-card-btn">Open Module →</button>
               </div>
 
-              <!-- General Science -->
               <div class="glass-card subject-card" onclick="document.getElementById('nav-science').click()">
                 <div class="card-header">
                   <div class="subject-icon icon-science">🔬</div>
                   <span class="subject-tag" id="progress-tag-science">0% Complete</span>
                 </div>
                 <h3>General Science</h3>
-                <p>High-yield Biology, Chemistry, and Physics concepts for SSC CGL.</p>
+                <p>High-yield Biology, Chemistry &amp; Physics for SSC CGL.</p>
+                <div class="subject-meta"><span class="meta-badge">🔬 Science</span><span class="meta-badge">24% of GS</span></div>
                 <div class="progress-bar-container">
                   <div class="progress-bar" id="progress-bar-science" style="width: 0%"></div>
                 </div>
+                <button class="subject-card-btn">Open Module →</button>
               </div>
 
-              <!-- Economy -->
               <div class="glass-card subject-card" onclick="document.getElementById('nav-economy').click()">
                 <div class="card-header">
                   <div class="subject-icon icon-economy">💹</div>
@@ -253,12 +363,13 @@
                 </div>
                 <h3>Economy Corner</h3>
                 <p>Five-Year Plans, RBI Monetary Policy, Budget &amp; Deficits.</p>
+                <div class="subject-meta"><span class="meta-badge">💡 Intermediate</span><span class="meta-badge">12% of GS</span></div>
                 <div class="progress-bar-container">
                   <div class="progress-bar" id="progress-bar-economy" style="width: 0%"></div>
                 </div>
+                <button class="subject-card-btn">Open Module →</button>
               </div>
 
-              <!-- Static GK -->
               <div class="glass-card subject-card" onclick="document.getElementById('nav-staticgk').click()">
                 <div class="card-header">
                   <div class="subject-icon icon-staticgk">📚</div>
@@ -266,12 +377,13 @@
                 </div>
                 <h3>Static GK Hub</h3>
                 <p>Classical dances, national parks, census facts &amp; festivals.</p>
+                <div class="subject-meta"><span class="meta-badge">📌 Must Know</span><span class="meta-badge">12% of GS</span></div>
                 <div class="progress-bar-container">
                   <div class="progress-bar" id="progress-bar-staticgk" style="width: 0%"></div>
                 </div>
+                <button class="subject-card-btn">Open Module →</button>
               </div>
 
-              <!-- Current Affairs -->
               <div class="glass-card subject-card" onclick="document.getElementById('nav-currentaffairs').click()">
                 <div class="card-header">
                   <div class="subject-icon icon-ca">📰</div>
@@ -279,17 +391,21 @@
                 </div>
                 <h3>Current Affairs</h3>
                 <p>Sports, awards, military exercises &amp; government schemes 2025–26.</p>
+                <div class="subject-meta"><span class="meta-badge">🔄 Updated</span><span class="meta-badge">Weekly</span></div>
                 <div class="progress-bar-container">
                   <div class="progress-bar" id="progress-bar-currentaffairs" style="width: 0%"></div>
                 </div>
+                <button class="subject-card-btn">Open Module →</button>
               </div>
 
             </div>
 
-            <!-- Side Stats Panel -->
+            <!-- ══ SIDE PANEL ══ -->
             <div class="dashboard-side">
+
+              <!-- Syllabus Weightage -->
               <div class="glass-card stat-card">
-                <h3>GK-GS Syllabus Weightage</h3>
+                <h3>📊 GK-GS Syllabus Weightage</h3>
                 <ul class="weightage-list">
                   <li><span>History</span><span class="percent">20%</span></li>
                   <li><span>Polity</span><span class="percent">16%</span></li>
@@ -299,30 +415,16 @@
                 </ul>
               </div>
 
-              <div class="glass-card stat-card feedback-card">
-                <div class="goals-header">
-                  <h3>Daily Study Goals</h3>
-                  <span class="goals-counter" id="goals-progress-counter">0/5 done</span>
-                </div>
-                <div class="checkbox-item" id="goal-visit-module">
-                  <span class="checkbox-box"></span>
-                  <span>Visit a study module</span>
-                </div>
-                <div class="checkbox-item" id="goal-read-notes">
-                  <span class="checkbox-box"></span>
-                  <span>Read detailed study notes</span>
-                </div>
-                <div class="checkbox-item" id="goal-flashcard">
-                  <span class="checkbox-box"></span>
-                  <span>Complete a flashcard session</span>
-                </div>
-                <div class="checkbox-item" id="goal-quiz">
-                  <span class="checkbox-box"></span>
-                  <span>Score on a Daily Mock</span>
-                </div>
-                <div class="checkbox-item" id="goal-upload-file">
-                  <span class="checkbox-box"></span>
-                  <span>Upload a study file</span>
+              <!-- Badges / Gamification -->
+              <div class="glass-card stat-card">
+                <h3>🏅 Your Badges</h3>
+                <div class="badges-grid" id="badges-grid">
+                  <div class="badge-item earned" title="First Login!">🌟<span>First Step</span></div>
+                  <div class="badge-item" id="badge-streak5" title="5 Day Streak">🔥<span>5-Day Fire</span></div>
+                  <div class="badge-item" id="badge-xp500" title="Earn 500 XP">⚡<span>500 XP Club</span></div>
+                  <div class="badge-item" id="badge-quiz" title="Complete a Quiz">🎯<span>Quiz Champ</span></div>
+                  <div class="badge-item" id="badge-notes" title="Read Notes">📖<span>Note Taker</span></div>
+                  <div class="badge-item" id="badge-flash" title="Use Flashcards">🃏<span>Card Shark</span></div>
                 </div>
               </div>
 
@@ -333,6 +435,7 @@
                   <div class="feed-empty">No activity yet — start studying! 📚</div>
                 </div>
               </div>
+
             </div>
 
           </div>

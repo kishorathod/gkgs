@@ -501,6 +501,7 @@ function updateGoalsUI() {
     if (AppState.goals[key]) {
       el.classList.add('checked');
       const box = el.querySelector('.checkbox-box');
+      // Support both new goal-item style and old checkbox-item style
       if (box) box.textContent = '✓';
     }
   });
@@ -534,6 +535,8 @@ function updateDashboard() {
   updateRankProgress();
   updateGoalsUI();
   updateStudyStatsBar();
+  updateContinueLearning();
+  updateBadges();
 }
 
 function updateSubjectProgressBars() {
@@ -575,15 +578,44 @@ function updateRankProgress() {
 
 function updateStudyStatsBar() {
   const elapsed = Math.floor((Date.now() - AppState.sessionStart) / 60000);
+  const doneCount = Object.values(AppState.goals).filter(Boolean).length;
+  const totalCount = Object.keys(AppState.goals).length;
+
+  // Stat cards row
   const timeEl = document.getElementById('session-time');
   const totalXpEl = document.getElementById('stat-total-xp');
   const goalsEl = document.getElementById('stat-goals-done');
   const streakDashEl = document.getElementById('streak-count-dash');
-  
   if (timeEl) timeEl.textContent = `${elapsed}m`;
   if (totalXpEl) totalXpEl.textContent = AppState.totalXP.toLocaleString();
-  if (goalsEl) goalsEl.textContent = Object.values(AppState.goals).filter(Boolean).length;
+  if (goalsEl) goalsEl.textContent = doneCount;
   if (streakDashEl) streakDashEl.textContent = AppState.streak;
+
+  // Hero quick-stats pills
+  const hqsStreak = document.getElementById('hqs-streak');
+  const hqsTime   = document.getElementById('hqs-time');
+  const hqsRank   = document.getElementById('hqs-rank');
+  const hqsGoals  = document.getElementById('hqs-goals');
+  if (hqsStreak) hqsStreak.textContent = AppState.streak;
+  if (hqsTime)   hqsTime.textContent   = `${elapsed}m`;
+  if (hqsGoals)  hqsGoals.textContent  = `${doneCount}/${totalCount}`;
+
+  // Hero rank pill
+  const ranks = [
+    { min: 5000, label: 'Joint Secretary' },
+    { min: 3500, label: 'Deputy Secretary' },
+    { min: 2500, label: 'Under Secretary' },
+    { min: 2000, label: 'Section Officer' },
+    { min: 1500, label: 'Asst Sec Officer' },
+    { min: 0,    label: 'Aspirant' }
+  ];
+  const rankLabel = ranks.find(r => AppState.totalXP >= r.min).label;
+  if (hqsRank) hqsRank.textContent = rankLabel;
+
+  // XP-today sub-label (session XP)
+  const sessionXP = Object.values(AppState.subjectXP).reduce((a, b) => a + b, 0);
+  const xpTodayEl = document.getElementById('sic-xp-today');
+  if (xpTodayEl) xpTodayEl.textContent = `+${sessionXP} today`;
 }
 
 function updateActivityFeed() {
@@ -603,6 +635,37 @@ function updateActivityFeed() {
       <span class="feed-time">${entry.time}</span>
     </div>
   `).join('');
+}
+
+function updateContinueLearning() {
+  // Sync continue-learning progress bars to subject XP %
+  const map = { history: 'cc-bar-history', polity: 'cc-bar-polity', quiz: 'cc-bar-quiz' };
+  Object.entries(map).forEach(([subject, barId]) => {
+    const bar = document.getElementById(barId);
+    if (!bar) return;
+    const maxXP = SUBJECT_MAX_XP[subject] || 300;
+    const earned = AppState.subjectXP[subject] || 0;
+    const pct = Math.min(100, Math.round((earned / maxXP) * 100));
+    bar.style.width = `${pct}%`;
+  });
+}
+
+function updateBadges() {
+  // Streak badge
+  const streak5 = document.getElementById('badge-streak5');
+  if (streak5 && AppState.streak >= 5) streak5.classList.add('earned');
+  // XP badge
+  const xp500 = document.getElementById('badge-xp500');
+  if (xp500 && AppState.totalXP >= 500) xp500.classList.add('earned');
+  // Quiz badge
+  const quizBadge = document.getElementById('badge-quiz');
+  if (quizBadge && AppState.goals.quiz) quizBadge.classList.add('earned');
+  // Notes badge
+  const notesBadge = document.getElementById('badge-notes');
+  if (notesBadge && AppState.goals.readNotes) notesBadge.classList.add('earned');
+  // Flashcard badge
+  const flashBadge = document.getElementById('badge-flash');
+  if (flashBadge && AppState.goals.flashcard) flashBadge.classList.add('earned');
 }
 
 export function logActivity(action, xp = '', subject = null) {
