@@ -1,0 +1,941 @@
+{
+  "id": "delhi-sultanate",
+  "hero": {
+    "title": "Delhi Sultanate (1206–1526 AD)",
+    "subtitle": "Master the five dynasties, administrative reforms, architecture, and key rulers from Aibak to Ibrahim Lodi.",
+    "weightage": "High",
+    "difficulty": "Medium",
+    "estimatedReadingTime": "25 mins",
+    "expectedQuestions": "2-3 Questions in Tier-1 & Tier-2",
+    "lastUpdated": "2026-01-15",
+    "whyItMatters": "The Delhi Sultanate forms the core of Medieval Indian History in SSC CGL. Questions routinely cover administrative terms (Iqta, Dag, Huliya), order of dynasties, construction of monuments, and foreign travelers."
+  },
+  "quickFacts": [
+    {
+      "icon": "👑",
+      "heading": "Founder of Sultanate",
+      "title": "👑 Founder of Sultanate",
+      "fact": "Qutb-ud-din Aibak in 1206 AD (Slave/Mamluk Dynasty).",
+      "detail": "Qutb-ud-din Aibak in 1206 AD (Slave/Mamluk Dynasty)."
+    },
+    {
+      "icon": "🏗",
+      "heading": "Real Founder",
+      "title": "🏗 Real Founder",
+      "fact": "Shams-ud-din Iltutmish; made Delhi the permanent capital.",
+      "detail": "Shams-ud-din Iltutmish; made Delhi the permanent capital."
+    },
+    {
+      "icon": "👸",
+      "heading": "First Woman Ruler",
+      "title": "👸 First Woman Ruler",
+      "fact": "Razia Sultan (1236–1240 AD), daughter of Iltutmish.",
+      "detail": "Razia Sultan (1236–1240 AD), daughter of Iltutmish."
+    },
+    {
+      "icon": "🐎",
+      "heading": "Aibak's Death Cause",
+      "title": "🐎 Aibak's Death Cause",
+      "fact": "Died in 1210 while playing Chaugan (Horse Polo) in Lahore.",
+      "detail": "Died in 1210 while playing Chaugan (Horse Polo) in Lahore."
+    },
+    {
+      "icon": "🪙",
+      "heading": "Coinage Innovator",
+      "title": "🪙 Coinage Innovator",
+      "fact": "Iltutmish introduced Silver Tanka and Copper Jital.",
+      "detail": "Iltutmish introduced Silver Tanka and Copper Jital."
+    },
+    {
+      "icon": "🩸",
+      "heading": "Blood & Iron Policy",
+      "title": "🩸 Blood & Iron Policy",
+      "fact": "Adopted by Ghiyasuddin Balban to restore royal authority.",
+      "detail": "Adopted by Ghiyasuddin Balban to restore royal authority."
+    },
+    {
+      "icon": "🐎",
+      "heading": "Market Reformer",
+      "title": "🐎 Market Reformer",
+      "fact": "Alauddin Khalji introduced Dag (branding horses) and Chehra/Huliya.",
+      "detail": "Alauddin Khalji introduced Dag (branding horses) and Chehra/Huliya."
+    },
+    {
+      "icon": "🪙",
+      "heading": "Token Currency",
+      "title": "🪙 Token Currency",
+      "fact": "Introduced by Muhammad bin Tughlaq in 1329 AD.",
+      "detail": "Introduced by Muhammad bin Tughlaq in 1329 AD."
+    },
+    {
+      "icon": "✈",
+      "heading": "Famous Traveler",
+      "title": "✈ Famous Traveler",
+      "fact": "Ibn Battuta (Morocco) visited during Muhammad bin Tughlaq's reign.",
+      "detail": "Ibn Battuta (Morocco) visited during Muhammad bin Tughlaq's reign."
+    },
+    {
+      "icon": "🏹",
+      "heading": "Longest Reign Dynasty",
+      "title": "🏹 Longest Reign Dynasty",
+      "fact": "Tughlaq Dynasty ruled for the longest duration (94 years).",
+      "detail": "Tughlaq Dynasty ruled for the longest duration (94 years)."
+    },
+    {
+      "icon": "📉",
+      "heading": "Shortest Reign Dynasty",
+      "title": "📉 Shortest Reign Dynasty",
+      "fact": "Khalji Dynasty ruled for the shortest duration (30 years).",
+      "detail": "Khalji Dynasty ruled for the shortest duration (30 years)."
+    },
+    {
+      "icon": "💥",
+      "heading": "End of Sultanate",
+      "title": "💥 End of Sultanate",
+      "fact": "First Battle of Panipat (1526 AD) — Babur defeated Ibrahim Lodi.",
+      "detail": "First Battle of Panipat (1526 AD) — Babur defeated Ibrahim Lodi."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "1. Mamluk or Slave Dynasty (1206–1290 AD)",
+      "explanation": "The Slave Dynasty was established in 1206 AD by Qutb-ud-din Aibak, a commander of Muhammad Ghori. Aibak was known as 'Lakh Baksh' (giver of lakhs) due to his generosity. He started building the Qutb Minar in Delhi, named after Sufi saint Khwaja Qutbuddin Bakhtiar Kaki, and built Quwwat-ul-Islam mosque. His successor Iltutmish consolidated the empire, shifted the capital from Lahore to Delhi, introduced the Iqta administration system, formed the Turkan-i-Chahalgani (council of 40 Turkish slaves), and saved India from Genghis Khan's Mongol invasion by denying refuge to Jalaluddin Mangabarni. Iltutmish nominated his daughter Razia Sultan, who became the first and only female Muslim ruler of medieval India. Later, Ghiyasuddin Balban abolished the Turkan-i-Chahalgani, enforced strict court etiquettes like Sijda (prostration) and Paibos (kissing monarch's feet), and created the military department Diwan-i-Arz.",
+      "keyTakeaways": [
+        "Aibak started Qutb Minar; Iltutmish completed it.",
+        "Iltutmish created Turkan-i-Chahalgani; Balban destroyed it.",
+        "Balban instituted Blood & Iron policy and Diwan-i-Arz."
+      ],
+      "importantExamPoints": [
+        "Aibak died playing Chaugan (Polo) in 1210 AD.",
+        "Iltutmish introduced Silver Tanka and Copper Jital.",
+        "Razia Sultan married Ikhtiyar-ud-din Altunia, governor of Bhatinda."
+      ],
+      "commonStudentMistakes": [
+        "Thinking Qutb Minar was named after Qutb-ud-din Aibak (It was named after Sufi saint Bakhtiar Kaki).",
+        "Confusing who started vs who destroyed Turkan-i-Chahalgani."
+      ]
+    },
+    {
+      "heading": "2. Khalji Dynasty (1290–1320 AD)",
+      "explanation": "Founded by Jalal-ud-din Firoz Khalji in 1290 AD, the Khalji dynasty marked the end of Turkish monopoly over power. His nephew and son-in-law, Alauddin Khalji (1296–1316 AD), usurped the throne and became the most powerful ruler of the Sultanate. Alauddin expanded the empire deep into South India through his commander Malik Kafur (Hazar Dinari). To maintain a massive standing army, Alauddin introduced strict market control reforms (Shahna-i-Mandi), fixed prices for essential commodities, introduced cash salaries for soldiers, and instituted army branding systems called Dag (horse branding) and Chehra/Huliya (descriptive roll of soldiers). He built Alai Darwaza, Siri Fort, and Hauz Khas in Delhi.",
+      "keyTakeaways": [
+        "Shortest-ruling dynasty of the Delhi Sultanate (30 years).",
+        "Alauddin Khalji introduced price control, Dag, and Chehra systems.",
+        "Malik Kafur led southern campaigns reaching as far as Madurai."
+      ],
+      "importantExamPoints": [
+        "Alauddin took the title 'Sikandar-i-Sani' (Second Alexander).",
+        "Amir Khusrau (Tut-i-Hind / Parrot of India) was patronized by Alauddin Khalji.",
+        "Created land measurement tax system called 'Mawas' / 'Charai' & 'Ghari' taxes."
+      ],
+      "commonStudentMistakes": [
+        "Confusing the builder of Alai Darwaza (Alauddin Khalji) with Qutb Minar builders.",
+        "Assuming Alauddin was the founder of the Khalji dynasty (Founder was Jalal-ud-din)."
+      ]
+    },
+    {
+      "heading": "3. Tughlaq Dynasty (1320–1414 AD)",
+      "explanation": "Ghiyasuddin Tughlaq founded the dynasty in 1320 AD and built Tughlaqabad city. He was succeeded by Jauna Khan, who took the name Muhammad bin Tughlaq (MBT) (1325–1351 AD). MBT was known as an intellectual visionary yet impractical ruler due to his five ambitious projects: shifting the capital from Delhi to Devagiri (Daulatabad), introducing copper/brass Token Currency, raising land taxes in the fertile Doab region during a famine, the Khurasan expedition, and the Qarachil expedition. His cousin Firoz Shah Tughlaq (1351–1388 AD) focused on public welfare, constructed canals (e.g., Yamuna to Hansi), established cities (Hisar, Firozabad, Jaunpur), built hospitals (Dar-ul-Shifa), and created departments like Diwan-i-Khairat (charity) and Diwan-i-Bandagan (slaves). The dynasty was shattered by Timur's invasion in 1398 AD.",
+      "keyTakeaways": [
+        "Longest-ruling dynasty of Delhi Sultanate (94 years).",
+        "Muhammad bin Tughlaq's 5 failed experiments are highly tested.",
+        "Firoz Shah Tughlaq was famous for canals, welfare works, and Jizya on Brahmins."
+      ],
+      "importantExamPoints": [
+        "Moroccan traveler Ibn Battuta arrived in 1333 AD during MBT's reign; wrote 'Rihla'.",
+        "MBT created agricultural department named 'Diwan-i-Kohi'.",
+        "Timur invaded Delhi in 1398 AD during Nasir-ud-din Mahmud Tughlaq's reign."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Ibn Battuta's host (MBT) with Firoz Shah Tughlaq.",
+        "Believing Firoz Shah built Daulatabad (It was MBT)."
+      ]
+    },
+    {
+      "heading": "4. Sayyid & Lodi Dynasties (1414–1526 AD)",
+      "explanation": "The Sayyid Dynasty (1414–1451 AD) was established by Khizr Khan, who acted as the deputy of Mongol conqueror Timur. The Sayyids claimed descent from the Prophet Muhammad. They were succeeded by the Lodi Dynasty (1451–1526 AD), founded by Bahlul Lodi. The Lodis were the first Afghan rule in North India. Bahlul's son, Sikandar Lodi (1489–1517 AD), was a capable ruler who founded the city of Agra in 1504 AD, shifted his capital to Agra in 1506 AD, and introduced 'Gaz-i-Sikandari' (39-digit unit for land measurement). The last ruler, Ibrahim Lodi, faced internal revolts from nobles like Daulat Khan Lodi, who invited Babur to invade India.",
+      "keyTakeaways": [
+        "Lodi Dynasty was the 1st Afghan Dynasty in India.",
+        "Sikandar Lodi founded Agra in 1504 AD.",
+        "Ibrahim Lodi was defeated by Babur at Panipat in 1526 AD."
+      ],
+      "importantExamPoints": [
+        "Sikandar Lodi wrote Persian poetry under the pen name 'Gulrukhi'.",
+        "Gaz-i-Sikandari was used for land measurement until Akbar's reign.",
+        "Bahlul Lodi issued 'Bahloli' copper coins."
+      ],
+      "commonStudentMistakes": [
+        "Confusing 1st Afghan Dynasty (Lodi) with 2nd Afghan Dynasty (Sur Empire under Sher Shah Suri).",
+        "Believing Agra was built by Shah Jahan or Akbar."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1206 AD",
+      "title": "Establishment of Delhi Sultanate",
+      "shortDescription": "Qutb-ud-din Aibak crowns himself Sultan at Lahore.",
+      "importance": "Beginning of Muslim rule and Slave/Mamluk dynasty in Delhi."
+    },
+    {
+      "year": "1211 AD",
+      "title": "Ascension of Iltutmish",
+      "shortDescription": "Iltutmish defeats Aram Shah and moves capital to Delhi.",
+      "importance": "Consolidation of Sultanate and introduction of Iqta & Tanka/Jital."
+    },
+    {
+      "year": "1236 AD",
+      "title": "Coronation of Razia Sultan",
+      "shortDescription": "Razia becomes the first woman Sultan of Delhi.",
+      "importance": "Major milestone in Indian political history."
+    },
+    {
+      "year": "1290 AD",
+      "title": "Khalji Revolution",
+      "shortDescription": "Jalal-ud-din Khalji overthrows Kaiqubad, ending Mamluk rule.",
+      "importance": "Start of Khalji Dynasty; expansion into South India."
+    },
+    {
+      "year": "1296 AD",
+      "title": "Alauddin Khalji Takes Power",
+      "shortDescription": "Alauddin assassinates Jalal-ud-din and assumes power.",
+      "importance": "Era of economic, military, and market reforms."
+    },
+    {
+      "year": "1325 AD",
+      "title": "Reign of Muhammad bin Tughlaq",
+      "shortDescription": "Jauna Khan ascends as Muhammad bin Tughlaq.",
+      "importance": "Period of radical experiments (Token currency, capital shift)."
+    },
+    {
+      "year": "1333 AD",
+      "title": "Arrival of Ibn Battuta",
+      "shortDescription": "Moroccan traveler Ibn Battuta arrives in Delhi.",
+      "importance": "Yields 'Rihla', a crucial historical source for MBT's reign."
+    },
+    {
+      "year": "1398 AD",
+      "title": "Invasion of Timur",
+      "shortDescription": "Timur sacks Delhi during the reign of Nasiruddin Mahmud Tughlaq.",
+      "importance": "Dealt a fatal blow to the Tughlaq empire."
+    },
+    {
+      "year": "1504 AD",
+      "title": "Founding of Agra",
+      "shortDescription": "Sikandar Lodi establishes Agra city.",
+      "importance": "Agra becomes a critical administrative and capital hub."
+    },
+    {
+      "year": "1526 AD",
+      "title": "First Battle of Panipat",
+      "shortDescription": "Babur defeats Ibrahim Lodi on 21st April 1526.",
+      "importance": "Ends the Delhi Sultanate and lays the foundation of the Mughal Empire."
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Qutb-ud-din Aibak",
+      "role": "Founder of Mamluk/Slave Dynasty",
+      "years": "1206–1210 AD",
+      "majorContributions": "Built Quwwat-ul-Islam (Delhi) & Adhai Din Ka Jhonpra (Ajmer). Initiated Qutb Minar construction.",
+      "sscTrick": "Remember 'Lakh Baksh' = Generous donor Aibak."
+    },
+    {
+      "name": "Shams-ud-din Iltutmish",
+      "role": "Real Consolidator of Sultanate",
+      "years": "1211–1236 AD",
+      "majorContributions": "Created Turkan-i-Chahalgani, Iqta system, Tanka (Silver) & Jital (Copper) coins. Completed Qutb Minar.",
+      "sscTrick": "Iltutmish = Iqta + Tanka + Turkan-i-Chahalgani (All start with 'T' sound)."
+    },
+    {
+      "name": "Alauddin Khalji",
+      "role": "Most Powerful Khalji Sultan",
+      "years": "1296–1316 AD",
+      "majorContributions": "Market reforms, Dag & Chehra systems, built Alai Darwaza, titled himself 'Sikandar-i-Sani'.",
+      "sscTrick": "Alauddin = Market Controller & Dag/Chehra Master."
+    },
+    {
+      "name": "Muhammad bin Tughlaq (Jauna Khan)",
+      "role": "Tughlaq Sultan / 'Wisest Fool'",
+      "years": "1325–1351 AD",
+      "majorContributions": "Token currency, capital transfer to Daulatabad, set up Diwan-i-Kohi (agriculture dept).",
+      "sscTrick": "MBT = Mixed Bag of Transferred capitals and Token coins."
+    },
+    {
+      "name": "Sikandar Lodi",
+      "role": "Ruler of Lodi Dynasty",
+      "years": "1489–1517 AD",
+      "majorContributions": "Founded Agra (1504), introduced Gaz-i-Sikandari land measurement, wrote under 'Gulrukhi'.",
+      "sscTrick": "Agra + Gulrukhi + Gaz-i-Sikandari = Sikandar Lodi."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Iqta System",
+      "meaning": "Territorial land assignment given to army officers and nobles in lieu of cash salaries for collecting revenue and maintaining troops."
+    },
+    {
+      "term": "Turkan-i-Chahalgani",
+      "meaning": "A powerful council of 40 loyal Turkish slave nobles established by Iltutmish to advise and execute imperial affairs."
+    },
+    {
+      "term": "Diwan-i-Arz",
+      "meaning": "The central military department created by Ghiyasuddin Balban to organize and maintain the imperial army."
+    },
+    {
+      "term": "Dag and Chehra",
+      "meaning": "Military identification practices introduced by Alauddin Khalji; Dag was branding horses and Chehra/Huliya was descriptive soldier records."
+    },
+    {
+      "term": "Diwan-i-Kohi",
+      "meaning": "A dedicated agricultural department created by Muhammad bin Tughlaq to bring uncultivated land under farming."
+    }
+  ],
+  "tables": [
+    {
+      "title": "Chronological Sequence of Delhi Sultanate Dynasties",
+      "tableName": "Chronological Sequence of Delhi Sultanate Dynasties",
+      "headers": [
+        "Dynasty",
+        "Period (AD)",
+        "Duration",
+        "Founder",
+        "Last Ruler"
+      ],
+      "rows": [
+        [
+          "Mamluk / Slave",
+          "1206 – 1290",
+          "84 Years",
+          "Qutb-ud-din Aibak",
+          "Muiz-ud-din Kaiqubad / Qaiqabad"
+        ],
+        [
+          "Khalji",
+          "1290 – 1320",
+          "30 Years (Shortest)",
+          "Jalal-ud-din Firoz Khalji",
+          "Qutb-ud-din Mubarak Shah"
+        ],
+        [
+          "Tughlaq",
+          "1320 – 1414",
+          "94 Years (Longest)",
+          "Ghiyas-ud-din Tughlaq",
+          "Nasir-ud-din Mahmud Tughlaq"
+        ],
+        [
+          "Sayyid",
+          "1414 – 1451",
+          "37 Years",
+          "Khizr Khan",
+          "Ala-ud-din Alam Shah"
+        ],
+        [
+          "Lodi",
+          "1451 – 1526",
+          "75 Years",
+          "Bahlul Lodi",
+          "Ibrahim Lodi"
+        ]
+      ]
+    },
+    {
+      "title": "Key Administrative Departments in Delhi Sultanate",
+      "tableName": "Key Administrative Departments in Delhi Sultanate",
+      "headers": [
+        "Department Name",
+        "Function / Portfolio",
+        "Created / Popularized By"
+      ],
+      "rows": [
+        [
+          "Diwan-i-Wizarat",
+          "Finance and Revenue Department (headed by Wazir)",
+          "General Sultanate structure"
+        ],
+        [
+          "Diwan-i-Arz",
+          "Military Department",
+          "Ghiyasuddin Balban"
+        ],
+        [
+          "Diwan-i-Insha",
+          "Department of Royal Correspondence and Records",
+          "General Sultanate structure"
+        ],
+        [
+          "Diwan-i-Rasalat",
+          "Department of Foreign Affairs / Religious matters",
+          "General Sultanate structure"
+        ],
+        [
+          "Diwan-i-Kohi",
+          "Agriculture Department",
+          "Muhammad bin Tughlaq"
+        ],
+        [
+          "Diwan-i-Khairat",
+          "Charity Department (for poor, orphans, widows)",
+          "Firoz Shah Tughlaq"
+        ],
+        [
+          "Diwan-i-Bandagan",
+          "Department of Slaves",
+          "Firoz Shah Tughlaq"
+        ]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "title": "Dynasty Order Mnemonic",
+      "concept": "Dynasty Order Mnemonic",
+      "mnemonic": "S-K-T-S-L",
+      "type": "Mnemonic",
+      "content": "Trick: **S-K-T-S-L** → **S**ab **K**hao **T**asty **S**weet **L**addoo (**S**lave → **K**halji → **T**ughlaq → **S**ayyid → **L**odi).",
+      "explanation": "Trick: S-K-T-S-L → Sab Khao Tasty Sweet Laddoo (Slave → Khalji → Tughlaq → Sayyid → Lodi)."
+    },
+    {
+      "title": "Iltutmish's Major Works (3 T's)",
+      "concept": "Iltutmish's Major Works (3 T's)",
+      "type": "Association",
+      "content": "Iltutmish = **T**anka (Silver coin) + **T**urkan-i-Chahalgani (Group of 40) + **T**itle (Received investiture from Caliph in 1229).",
+      "explanation": "Iltutmish = Tanka (Silver coin) + Turkan-i-Chahalgani (Group of 40) + Title (Received investiture from Caliph in 1229)."
+    },
+    {
+      "title": "Firoz Shah Tughlaq's Welfare Departments",
+      "concept": "Firoz Shah Tughlaq's Welfare Departments",
+      "type": "Mnemonic",
+      "content": "Trick: **B-K-S** → **B**andagan (Slaves), **K**hairat (Charity), **S**hifa (Dar-ul-Shifa hospital).",
+      "explanation": "Trick: B-K-S → Bandagan (Slaves), Khairat (Charity), Shifa (Dar-ul-Shifa hospital)."
+    },
+    {
+      "title": "Longest vs Shortest Reign Trick",
+      "concept": "Longest vs Shortest Reign Trick",
+      "type": "Confusion Buster",
+      "content": "**T**ughlaq is **T**allest in years (94 yrs). **K**halji is **K**am (Shortest, 30 yrs).",
+      "explanation": "Tughlaq is Tallest in years (94 yrs). Khalji is Kam (Shortest, 30 yrs)."
+    }
+  ],
+  "examTraps": {
+    "title": "⚠️ Frequently Confused Concepts & SSC Traps",
+    "traps": [
+      {
+        "confusedPair": "Qutb Minar Builders",
+        "concept": "Qutb Minar Builders",
+        "explanation": "Qutb-ud-din Aibak started construction, Iltutmish completed the 4 storeys, and Firoz Shah Tughlaq repaired/added the 5th storey after lightning struck it."
+      },
+      {
+        "confusedPair": "First vs Second Afghan Empire",
+        "concept": "First vs Second Afghan Empire",
+        "explanation": "The Lodi Dynasty (1451–1526 AD) was the 1st Afghan Empire in India. The Sur Dynasty (Sher Shah Suri, 1540–1555 AD) was the 2nd Afghan Empire."
+      },
+      {
+        "confusedPair": "Turkan-i-Chahalgani Creation vs Destruction",
+        "concept": "Turkan-i-Chahalgani Creation vs Destruction",
+        "explanation": "Created by Iltutmish to support the crown. Destroyed by Ghiyasuddin Balban because the 40 nobles became kingmakers and threatened royal power."
+      },
+      {
+        "confusedPair": "Capital Transfer: MBT vs Sikandar Lodi",
+        "concept": "Capital Transfer: MBT vs Sikandar Lodi",
+        "explanation": "Muhammad bin Tughlaq shifted capital from Delhi to Daulatabad (Devagiri) in 1327. Sikandar Lodi shifted capital from Delhi to Agra in 1506."
+      }
+    ]
+  },
+  "pyqAnalysis": {
+    "frequentlyTestedConcepts": [
+      "Chronological sequence of dynasties and rulers of the Delhi Sultanate.",
+      "Specific military and market reforms of Alauddin Khalji (Dag, Chehra, Shahna-i-Mandi).",
+      "Administrative terms (Iqta, Diwan-i-Arz, Diwan-i-Kohi, Diwan-i-Bandagan).",
+      "Monuments built by Aibak, Iltutmish, Alauddin Khalji, and Sikandar Lodi."
+    ],
+    "repeatedThemes": [
+      "Matching rulers with their administrative departments or titles.",
+      "Identify foreign travelers (e.g., Ibn Battuta) and their home country/written works.",
+      "Important battles establishing or ending dynasties (e.g., Tarain 1192, Panipat 1526)."
+    ],
+    "difficultyTrend": "Moderate to High. SSC CGL Tier-1 focuses on factual memory (dynasty dates, founders, books), while Tier-2 tests administrative terms and multi-statement options.",
+    "expectedFutureQuestions": [
+      "Taxation terms like Khams (war booty), Kharaj (land tax), Jizya, and Zakat.",
+      "Literary works and poets (Amir Khusrau, Ziauddin Barani, Minhaj-us-Siraj)."
+    ]
+  },
+  "mcqs": [
+    {
+      "id": 1,
+      "q": "Which of the following dynasties ruled over the Delhi Sultanate for the shortest period?",
+      "question": "Which of the following dynasties ruled over the Delhi Sultanate for the shortest period?",
+      "options": [
+        "Slave Dynasty",
+        "Khalji Dynasty",
+        "Tughlaq Dynasty",
+        "Sayyid Dynasty"
+      ],
+      "correctAnswer": "Khalji Dynasty",
+      "correctIdx": 1,
+      "explanation": "The Khalji dynasty ruled for only 30 years (1290 to 1320 AD), making it the shortest-ruling dynasty of the Delhi Sultanate.",
+      "difficulty": "Easy",
+      "topicTag": "Delhi Sultanate Dynasties",
+      "category": "Delhi Sultanate Dynasties"
+    },
+    {
+      "id": 2,
+      "q": "Who introduced the 'Dag' (branding of horses) and 'Chehra' (descriptive roll of soldiers) in the Delhi Sultanate military?",
+      "question": "Who introduced the 'Dag' (branding of horses) and 'Chehra' (descriptive roll of soldiers) in the Delhi Sultanate military?",
+      "options": [
+        "Iltutmish",
+        "Balban",
+        "Alauddin Khalji",
+        "Muhammad bin Tughlaq"
+      ],
+      "correctAnswer": "Alauddin Khalji",
+      "correctIdx": 2,
+      "explanation": "Alauddin Khalji introduced 'Dag' and 'Chehra' to prevent corruption, proxy soldiers, and horse substitution in his army.",
+      "difficulty": "Easy",
+      "topicTag": "Khalji Dynasty",
+      "category": "Khalji Dynasty"
+    },
+    {
+      "id": 3,
+      "q": "The famous traveler Ibn Battuta visited India during the reign of which Sultan?",
+      "question": "The famous traveler Ibn Battuta visited India during the reign of which Sultan?",
+      "options": [
+        "Alauddin Khalji",
+        "Muhammad bin Tughlaq",
+        "Firoz Shah Tughlaq",
+        "Ibrahim Lodi"
+      ],
+      "correctAnswer": "Muhammad bin Tughlaq",
+      "correctIdx": 1,
+      "explanation": "Ibn Battuta, a native of Morocco, visited India in 1333 AD during the reign of Muhammad bin Tughlaq and served as Qazi of Delhi.",
+      "difficulty": "Easy",
+      "topicTag": "Tughlaq Dynasty",
+      "category": "Tughlaq Dynasty"
+    },
+    {
+      "id": 4,
+      "q": "Who among the following destroyed the 'Turkan-i-Chahalgani' (Council of 40)?",
+      "question": "Who among the following destroyed the 'Turkan-i-Chahalgani' (Council of 40)?",
+      "options": [
+        "Iltutmish",
+        "Razia Sultan",
+        "Ghiyasuddin Balban",
+        "Jalal-ud-din Khalji"
+      ],
+      "correctAnswer": "Ghiyasuddin Balban",
+      "correctIdx": 2,
+      "explanation": "Turkan-i-Chahalgani was created by Iltutmish but destroyed by Ghiyasuddin Balban to eliminate competition to imperial authority.",
+      "difficulty": "Medium",
+      "topicTag": "Mamluk Dynasty",
+      "category": "Mamluk Dynasty"
+    },
+    {
+      "id": 5,
+      "q": "Who was the founder of the city of Agra in 1504 AD?",
+      "question": "Who was the founder of the city of Agra in 1504 AD?",
+      "options": [
+        "Bahlul Lodi",
+        "Sikandar Lodi",
+        "Ibrahim Lodi",
+        "Akbar"
+      ],
+      "correctAnswer": "Sikandar Lodi",
+      "correctIdx": 1,
+      "explanation": "Sikandar Lodi founded the city of Agra in 1504 AD and shifted his capital from Delhi to Agra in 1506 AD.",
+      "difficulty": "Easy",
+      "topicTag": "Lodi Dynasty",
+      "category": "Lodi Dynasty"
+    },
+    {
+      "id": 6,
+      "q": "The military department 'Diwan-i-Arz' was established by which Sultan?",
+      "question": "The military department 'Diwan-i-Arz' was established by which Sultan?",
+      "options": [
+        "Qutb-ud-din Aibak",
+        "Iltutmish",
+        "Balban",
+        "Firoz Shah Tughlaq"
+      ],
+      "correctAnswer": "Balban",
+      "correctIdx": 2,
+      "explanation": "Ghiyasuddin Balban created the military department named 'Diwan-i-Arz' to organize a strong, centralized army against internal revolts and Mongols.",
+      "difficulty": "Medium",
+      "topicTag": "Administration",
+      "category": "Administration"
+    },
+    {
+      "id": 7,
+      "q": "Which Sultan of Delhi shifted his capital from Delhi to Daulatabad (Devagiri)?",
+      "question": "Which Sultan of Delhi shifted his capital from Delhi to Daulatabad (Devagiri)?",
+      "options": [
+        "Alauddin Khalji",
+        "Muhammad bin Tughlaq",
+        "Firoz Shah Tughlaq",
+        "Ghiyasuddin Tughlaq"
+      ],
+      "correctAnswer": "Muhammad bin Tughlaq",
+      "correctIdx": 1,
+      "explanation": "Muhammad bin Tughlaq ordered the transfer of capital from Delhi to Devagiri (renamed Daulatabad) in 1327 AD to better control South India.",
+      "difficulty": "Easy",
+      "topicTag": "Tughlaq Dynasty",
+      "category": "Tughlaq Dynasty"
+    },
+    {
+      "id": 8,
+      "q": "The Silver coin 'Tanka' and Copper coin 'Jital' were introduced by:",
+      "question": "The Silver coin 'Tanka' and Copper coin 'Jital' were introduced by:",
+      "options": [
+        "Qutb-ud-din Aibak",
+        "Shams-ud-din Iltutmish",
+        "Balban",
+        "Alauddin Khalji"
+      ],
+      "correctAnswer": "Shams-ud-din Iltutmish",
+      "correctIdx": 1,
+      "explanation": "Iltutmish was the first to introduce purely Arabic coinage in India, consisting of Silver Tanka and Copper Jital.",
+      "difficulty": "Medium",
+      "topicTag": "Mamluk Dynasty",
+      "category": "Mamluk Dynasty"
+    },
+    {
+      "id": 9,
+      "q": "Who was the ruler of Delhi when Timur invaded India in 1398 AD?",
+      "question": "Who was the ruler of Delhi when Timur invaded India in 1398 AD?",
+      "options": [
+        "Firoz Shah Tughlaq",
+        "Muhammad bin Tughlaq",
+        "Nasir-ud-din Mahmud Tughlaq",
+        "Khizr Khan"
+      ],
+      "correctAnswer": "Nasir-ud-din Mahmud Tughlaq",
+      "correctIdx": 2,
+      "explanation": "Timur invaded North India and sacked Delhi in 1398 AD during the reign of Nasir-ud-din Mahmud Tughlaq, the last ruler of Tughlaq dynasty.",
+      "difficulty": "Hard",
+      "topicTag": "Tughlaq Dynasty",
+      "category": "Tughlaq Dynasty"
+    },
+    {
+      "id": 10,
+      "q": "The department of agriculture named 'Diwan-i-Kohi' was established by:",
+      "question": "The department of agriculture named 'Diwan-i-Kohi' was established by:",
+      "options": [
+        "Firoz Shah Tughlaq",
+        "Muhammad bin Tughlaq",
+        "Alauddin Khalji",
+        "Balban"
+      ],
+      "correctAnswer": "Muhammad bin Tughlaq",
+      "correctIdx": 1,
+      "explanation": "Muhammad bin Tughlaq created 'Diwan-i-Kohi' to extend land under cultivation by giving loans (Sondhar/Takkavi) to farmers.",
+      "difficulty": "Medium",
+      "topicTag": "Administration",
+      "category": "Administration"
+    },
+    {
+      "id": 11,
+      "q": "Which Delhi Sultan took the title 'Sikandar-i-Sani' (Second Alexander)?",
+      "question": "Which Delhi Sultan took the title 'Sikandar-i-Sani' (Second Alexander)?",
+      "options": [
+        "Iltutmish",
+        "Alauddin Khalji",
+        "Muhammad bin Tughlaq",
+        "Sikandar Lodi"
+      ],
+      "correctAnswer": "Alauddin Khalji",
+      "correctIdx": 1,
+      "explanation": "Alauddin Khalji assumed the title 'Sikandar-i-Sani' on his coins to reflect his ambitions of world conquest.",
+      "difficulty": "Easy",
+      "topicTag": "Khalji Dynasty",
+      "category": "Khalji Dynasty"
+    },
+    {
+      "id": 12,
+      "q": "Who among the following was the founder of the Sayyid Dynasty?",
+      "question": "Who among the following was the founder of the Sayyid Dynasty?",
+      "options": [
+        "Mubarak Shah",
+        "Khizr Khan",
+        "Muhammad Shah",
+        "Alam Shah"
+      ],
+      "correctAnswer": "Khizr Khan",
+      "correctIdx": 1,
+      "explanation": "Khizr Khan, who was appointed Governor of Multan by Timur, founded the Sayyid Dynasty in 1414 AD.",
+      "difficulty": "Easy",
+      "topicTag": "Sayyid Dynasty",
+      "category": "Sayyid Dynasty"
+    },
+    {
+      "id": 13,
+      "q": "Qutb-ud-din Aibak died while playing which of the following sports?",
+      "question": "Qutb-ud-din Aibak died while playing which of the following sports?",
+      "options": [
+        "Archery",
+        "Chaugan (Polo)",
+        "Swordsmanship",
+        "Wrestling"
+      ],
+      "correctAnswer": "Chaugan (Polo)",
+      "correctIdx": 1,
+      "explanation": "Aibak died in 1210 AD in Lahore after falling off his horse while playing Chaugan (Horse Polo).",
+      "difficulty": "Easy",
+      "topicTag": "Mamluk Dynasty",
+      "category": "Mamluk Dynasty"
+    },
+    {
+      "id": 14,
+      "q": "Who established 'Diwan-i-Khairat' (Charity Department) and 'Diwan-i-Bandagan' (Slaves Department)?",
+      "question": "Who established 'Diwan-i-Khairat' (Charity Department) and 'Diwan-i-Bandagan' (Slaves Department)?",
+      "options": [
+        "Balban",
+        "Alauddin Khalji",
+        "Firoz Shah Tughlaq",
+        "Sikandar Lodi"
+      ],
+      "correctAnswer": "Firoz Shah Tughlaq",
+      "correctIdx": 2,
+      "explanation": "Firoz Shah Tughlaq created Diwan-i-Khairat for poor girls' marriages and Diwan-i-Bandagan to manage over 1,80,000 royal slaves.",
+      "difficulty": "Medium",
+      "topicTag": "Administration",
+      "category": "Administration"
+    },
+    {
+      "id": 15,
+      "q": "Under whose leadership did the Mongols first reach the borders of India (Indus river) during Iltutmish's reign?",
+      "question": "Under whose leadership did the Mongols first reach the borders of India (Indus river) during Iltutmish's reign?",
+      "options": [
+        "Kublai Khan",
+        "Genghis Khan",
+        "Halaku Khan",
+        "Timur"
+      ],
+      "correctAnswer": "Genghis Khan",
+      "correctIdx": 1,
+      "explanation": "Genghis Khan reached the Indus River in 1221 AD in pursuit of Khwarizm prince Jalaluddin Mangabarni. Iltutmish cleverly refused refuge to Mangabarni and saved India.",
+      "difficulty": "Medium",
+      "topicTag": "Mamluk Dynasty",
+      "category": "Mamluk Dynasty"
+    },
+    {
+      "id": 16,
+      "q": "Sikandar Lodi composed Persian verses under which pen name?",
+      "question": "Sikandar Lodi composed Persian verses under which pen name?",
+      "options": [
+        "Gulrukhi",
+        "Tuti-i-Hind",
+        "Aftab",
+        "Makhfi"
+      ],
+      "correctAnswer": "Gulrukhi",
+      "correctIdx": 0,
+      "explanation": "Sikandar Lodi was a passionate poet and wrote Persian ghazals under the pen name 'Gulrukhi'.",
+      "difficulty": "Hard",
+      "topicTag": "Lodi Dynasty",
+      "category": "Lodi Dynasty"
+    },
+    {
+      "id": 17,
+      "q": "Who among the following was called 'Lakh Baksh' (Giver of Lakhs)?",
+      "question": "Who among the following was called 'Lakh Baksh' (Giver of Lakhs)?",
+      "options": [
+        "Qutb-ud-din Aibak",
+        "Iltutmish",
+        "Balban",
+        "Firoz Shah Tughlaq"
+      ],
+      "correctAnswer": "Qutb-ud-din Aibak",
+      "correctIdx": 0,
+      "explanation": "Qutb-ud-din Aibak was termed 'Lakh Baksh' due to his liberal donations and high generosity.",
+      "difficulty": "Easy",
+      "topicTag": "Mamluk Dynasty",
+      "category": "Mamluk Dynasty"
+    },
+    {
+      "id": 18,
+      "q": "The unit of land measurement 'Gaz-i-Sikandari' was introduced by:",
+      "question": "The unit of land measurement 'Gaz-i-Sikandari' was introduced by:",
+      "options": [
+        "Bahlul Lodi",
+        "Sikandar Lodi",
+        "Sher Shah Suri",
+        "Akbar"
+      ],
+      "correctAnswer": "Sikandar Lodi",
+      "correctIdx": 1,
+      "explanation": "Sikandar Lodi introduced 'Gaz-i-Sikandari', a yard measurement system of 39 digits, widely used for measuring agricultural land.",
+      "difficulty": "Medium",
+      "topicTag": "Lodi Dynasty",
+      "category": "Lodi Dynasty"
+    },
+    {
+      "id": 19,
+      "q": "Amir Khusrau was the court poet of which of the following Sultans?",
+      "question": "Amir Khusrau was the court poet of which of the following Sultans?",
+      "options": [
+        "Iltutmish",
+        "Balban & Alauddin Khalji",
+        "Firoz Shah Tughlaq",
+        "Ibrahim Lodi"
+      ],
+      "correctAnswer": "Balban & Alauddin Khalji",
+      "correctIdx": 1,
+      "explanation": "Amir Khusrau witnessed the reigns of 7+ Sultans, but served prominently as court poet under Balban, Jalaluddin, and Alauddin Khalji.",
+      "difficulty": "Medium",
+      "topicTag": "Culture & Literature",
+      "category": "Culture & Literature"
+    },
+    {
+      "id": 20,
+      "q": "Which battle marked the official end of the Delhi Sultanate in 1526 AD?",
+      "question": "Which battle marked the official end of the Delhi Sultanate in 1526 AD?",
+      "options": [
+        "First Battle of Tarain",
+        "First Battle of Panipat",
+        "Battle of Khanwa",
+        "Battle of Chausa"
+      ],
+      "correctAnswer": "First Battle of Panipat",
+      "correctIdx": 1,
+      "explanation": "On 21 April 1526, Babur defeated Ibrahim Lodi in the First Battle of Panipat, bringing an end to the Delhi Sultanate.",
+      "difficulty": "Easy",
+      "topicTag": "Lodi Dynasty",
+      "category": "Lodi Dynasty"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Who founded the Delhi Sultanate in 1206 AD?",
+      "back": "Qutb-ud-din Aibak."
+    },
+    {
+      "front": "Who was known as 'Lakh Baksh'?",
+      "back": "Qutb-ud-din Aibak."
+    },
+    {
+      "front": "Who introduced the Iqta system in Delhi Sultanate?",
+      "back": "Shams-ud-din Iltutmish."
+    },
+    {
+      "front": "What were the Silver and Copper coins introduced by Iltutmish?",
+      "back": "Silver Tanka and Copper Jital."
+    },
+    {
+      "front": "Who was the first and only Muslim woman ruler of Delhi?",
+      "back": "Razia Sultan (1236–1240 AD)."
+    },
+    {
+      "front": "Who created and who destroyed 'Turkan-i-Chahalgani'?",
+      "back": "Created by Iltutmish; Destroyed by Balban."
+    },
+    {
+      "front": "Who introduced Sijda, Paibos, and Navroz festival in court?",
+      "back": "Ghiyasuddin Balban."
+    },
+    {
+      "front": "Which dynasty ruled Delhi Sultanate for the shortest period?",
+      "back": "Khalji Dynasty (1290–1320 AD, 30 years)."
+    },
+    {
+      "front": "Which Sultan took the title 'Sikandar-i-Sani'?",
+      "back": "Alauddin Khalji."
+    },
+    {
+      "front": "What were 'Dag' and 'Chehra' introduced by Alauddin Khalji?",
+      "back": "Dag = Branding of horses; Chehra = Descriptive soldier records."
+    },
+    {
+      "front": "Which dynasty ruled Delhi Sultanate for the longest duration?",
+      "back": "Tughlaq Dynasty (1320–1414 AD, 94 years)."
+    },
+    {
+      "front": "Who introduced Token Currency made of copper/brass?",
+      "back": "Muhammad bin Tughlaq (1329 AD)."
+    },
+    {
+      "front": "Which traveler wrote 'Rihla' during MBT's reign?",
+      "back": "Ibn Battuta (from Morocco)."
+    },
+    {
+      "front": "Who established Diwan-i-Kohi (Agricultural Dept)?",
+      "back": "Muhammad bin Tughlaq."
+    },
+    {
+      "front": "Who built canal networks and founded Hisar, Firozabad, and Jaunpur?",
+      "back": "Firoz Shah Tughlaq."
+    },
+    {
+      "front": "When did Timur invade India and who was Sultan?",
+      "back": "1398 AD; Sultan was Nasiruddin Mahmud Tughlaq."
+    },
+    {
+      "front": "Who was the founder of the Sayyid Dynasty?",
+      "back": "Khizr Khan (1414 AD)."
+    },
+    {
+      "front": "Who was the first Afghan Dynasty ruler in India?",
+      "back": "Bahlul Lodi (Lodi Dynasty)."
+    },
+    {
+      "front": "Who founded Agra city and in which year?",
+      "back": "Sikandar Lodi in 1504 AD."
+    },
+    {
+      "front": "Which Sultan died in the First Battle of Panipat (1526 AD)?",
+      "back": "Ibrahim Lodi (defeated by Babur)."
+    }
+  ],
+  "revisionPoints": [
+    "Delhi Sultanate comprises 5 dynasties: Slave, Khalji, Tughlaq, Sayyid, and Lodi.",
+    "Aibak started Qutb Minar, Quwwat-ul-Islam mosque, and Adhai Din Ka Jhonpra.",
+    "Iltutmish shifted capital from Lahore to Delhi in 1211 AD.",
+    "Iltutmish introduced Silver Tanka, Copper Jital, and Iqta System.",
+    "Razia Sultan ruled from 1236 to 1240 AD.",
+    "Balban started Diwan-i-Arz and practiced Blood & Iron Policy.",
+    "Jalaluddin Khalji founded Khalji dynasty in 1290 AD.",
+    "Alauddin Khalji introduced price control, market officer (Shahna-i-Mandi), Dag, and Chehra.",
+    "Alauddin built Alai Darwaza, Siri Fort, and Hauz Khas.",
+    "Malik Kafur was Alauddin's general in southern expeditions.",
+    "Ghiyasuddin Tughlaq founded Tughlaq Dynasty in 1320 AD.",
+    "Muhammad bin Tughlaq shifted capital to Daulatabad and introduced Token currency.",
+    "Ibn Battuta visited India in 1333 AD from Morocco.",
+    "Diwan-i-Kohi was MBT's agriculture department.",
+    "Firoz Shah Tughlaq created Diwan-i-Khairat and Diwan-i-Bandagan.",
+    "Firoz Shah imposed Jizya on Brahmins for the first time.",
+    "Timur sacked Delhi in 1398 AD during Nasiruddin Mahmud Tughlaq's reign.",
+    "Khizr Khan founded Sayyid Dynasty in 1414 AD.",
+    "Lodi dynasty was the 1st Afghan Empire in India.",
+    "Bahlul Lodi founded Lodi dynasty in 1451 AD.",
+    "Sikandar Lodi founded Agra in 1504 AD and made it capital in 1506 AD.",
+    "Sikandar Lodi introduced 'Gaz-i-Sikandari' for land measurement.",
+    "Sikandar Lodi wrote poetry under pen name 'Gulrukhi'.",
+    "Ibrahim Lodi was the last Sultan of Delhi Sultanate.",
+    "First Battle of Panipat took place on 21 April 1526.",
+    "Babur defeated Ibrahim Lodi to establish Mughal rule.",
+    "Amir Khusrau was known as 'Tut-i-Hind' (Parrot of India).",
+    "Barani wrote 'Tarikh-i-Firoz Shahi'.",
+    "Minhaj-us-Siraj wrote 'Tabaqat-i-Nasiri'.",
+    "Tughlaq dynasty was the longest ruling; Khalji was the shortest."
+  ],
+  "revisionSheet": [
+    "Sultanate Sequence: Slave (1206-1290) → Khalji (1290-1320) → Tughlaq (1320-1414) → Sayyid (1414-1451) → Lodi (1451-1526).",
+    "Founders: Aibak (Slave), Jalaluddin (Khalji), Ghiyasuddin (Tughlaq), Khizr Khan (Sayyid), Bahlul (Lodi).",
+    "Key Monuments: Quwwat-ul-Islam (Aibak), Qutb Minar (Aibak/Iltutmish/Firoz Shah), Alai Darwaza (Alauddin), Agra City (Sikandar Lodi).",
+    "Departments: Diwan-i-Arz (Military/Balban), Diwan-i-Kohi (Agri/MBT), Diwan-i-Bandagan (Slaves/FST), Diwan-i-Khairat (Charity/FST).",
+    "Key Coins: Silver Tanka & Copper Jital (Iltutmish), Token Currency (MBT), Bahloli (Bahlul Lodi).",
+    "Key Concepts: Iqta (Iltutmish), Blood & Iron / Sijda / Paibos (Balban), Dag & Chehra / Shahna-i-Mandi (Alauddin Khalji), Gaz-i-Sikandari (Sikandar Lodi).",
+    "Foreign Invasion Milestones: Genghis Khan on Indus (1221/Iltutmish), Timur's Invasion (1398/Nasiruddin Mahmud), First Battle of Panipat (1526/Ibrahim Lodi vs Babur)."
+  ],
+  "relatedTopics": {
+    "previousTopicId": "ancient-indian-history",
+    "previousTopic": "Ancient Indian History",
+    "currentTopic": "Delhi Sultanate (1206–1526 AD)",
+    "nextTopic": "Mughal Empire",
+    "nextTopicId": "mughal-empire",
+    "relatedChapters": [
+      "Vijayanagara & Bahmani Kingdoms",
+      "Bhakti and Sufi Movements",
+      "Medieval Indian Architecture & Culture"
+    ]
+  }
+}

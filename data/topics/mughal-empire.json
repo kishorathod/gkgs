@@ -1,0 +1,554 @@
+{
+  "topicId": "mughal-empire",
+  "subject": "history",
+  "hero": {
+    "title": "The Mughal Empire (1526–1857 AD)",
+    "subtitle": "Master the six great Mughals, administrative reforms, architecture, and the decline — the highest-yield Medieval History topic for SSC CGL.",
+    "weightage": "Very High",
+    "difficulty": "Medium",
+    "estimatedReadingTime": "30 mins",
+    "expectedQuestions": "3-5 Questions in Tier-1 & Tier-2",
+    "lastUpdated": "2026-01-15",
+    "whyItMatters": "The Mughal Empire is the single most important Medieval History topic for SSC CGL. Questions test the six great Mughals' achievements, administrative terms (Mansabdari, Jagir, Din-i-Ilahi), architectural monuments, and literary contributions."
+  },
+  "quickFacts": [
+    {
+      "icon": "⚔️",
+      "heading": "Founded By",
+      "fact": "Babur founded the Mughal Empire after the First Battle of Panipat (1526) defeating Ibrahim Lodi."
+    },
+    {
+      "icon": "📖",
+      "heading": "Babur's Autobiography",
+      "fact": "Tuzuk-i-Baburi (Baburnama) — written in Chagatai Turkic; first autobiography in Islamic literature."
+    },
+    {
+      "icon": "🏛️",
+      "heading": "Akbar's Din-i-Ilahi",
+      "fact": "Akbar founded Din-i-Ilahi (Divine Faith) in 1582 — only Birbal (a Hindu) among the Navaratnas accepted it."
+    },
+    {
+      "icon": "🕌",
+      "heading": "Taj Mahal",
+      "fact": "Built by Shah Jahan (1631–1653) in memory of Mumtaz Mahal; architect was Ustad Ahmad Lahauri."
+    },
+    {
+      "icon": "👑",
+      "heading": "Greatest Extent",
+      "fact": "Aurangzeb's empire reached its greatest geographic extent, covering almost the entire subcontinent."
+    },
+    {
+      "icon": "🎨",
+      "heading": "Mughal Painting",
+      "fact": "Humayun brought Persian painters Mir Sayyid Ali and Abd al-Samad; school flourished under Akbar & Jahangir."
+    },
+    {
+      "icon": "🪙",
+      "heading": "Rupee",
+      "fact": "Sher Shah Suri (interregnum Sur Empire) introduced the silver Rupiya coin, later standardised by Akbar."
+    },
+    {
+      "icon": "🛣️",
+      "heading": "Grand Trunk Road",
+      "fact": "Sher Shah Suri rebuilt and extended the Grand Trunk Road from Chittagong to Kabul."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "1. Babur (1526–1530) — Founder of the Mughal Dynasty",
+      "explanation": "Zahir-ud-din Muhammad Babur descended from Timur (paternal) and Genghis Khan (maternal). He won four decisive battles to establish Mughal rule: First Battle of Panipat (1526) vs. Ibrahim Lodi, Battle of Khanwa (1527) vs. Rana Sanga of Mewar, Battle of Chanderi (1528) vs. Medini Rai, and Battle of Ghaghra (1529) vs. the Afghan confederacy. He introduced gunpowder firearms (artillery) to Indian warfare, which was decisive. His autobiography, the Baburnama, is a literary masterpiece.",
+      "keyTakeaways": [
+        "First Battle of Panipat: 21 April 1526 — Babur vs. Ibrahim Lodi (Last Lodi Sultan). Babur used gunpowder and flanking tactics (Tulughma).",
+        "Battle of Khanwa (1527): Babur took the title 'Ghazi' after defeating Rana Sanga.",
+        "Baburnama translated into Persian as Tuzuk-i-Baburi by Abdur Rahim Khan-i-Khanan."
+      ],
+      "importantExamPoints": [
+        "Babur introduced the 'Tulughma' (flanking maneuver) and artillery (Ustad Ali Quli commanded the guns).",
+        "Babur died in 1530; Humayun was his chosen successor.",
+        "Babur wrote Diwan (collection of Turki poetry) and Risala-i-Usuz (a treatise on prosody)."
+      ],
+      "commonStudentMistakes": [
+        "Confusing First Battle of Panipat (1526 – Babur vs. Lodi) with Second (1556 – Akbar/Bairam Khan vs. Hemu) and Third (1761 – Marathas vs. Ahmad Shah Abdali).",
+        "Babur died in AGRA (1530), not Delhi."
+      ]
+    },
+    {
+      "heading": "2. Humayun (1530–1540 & 1555–1556) — The Wandering Emperor",
+      "explanation": "Humayun faced the challenge of the Sur Afghan dynasty led by Sher Shah Suri. He lost the Battle of Chausa (1539) and Battle of Kannauj/Bilgram (1540) to Sher Shah, forcing him into exile in Persia for 15 years. In exile, he was greatly influenced by Persian art and culture. With Persian help he recaptured Kabul (1545) and reconquered India in 1555. He died just 6 months after reconquest by falling from the stairs of his library (Sher Mandal) in Delhi in January 1556.",
+      "keyTakeaways": [
+        "Sher Shah Suri (Sur Empire, 1540–1545) defeated Humayun at Chausa and Kannauj; introduced Rupiya coin, Grand Trunk Road, postal system, and land revenue reforms.",
+        "Humayun's tomb in Delhi was designed by Mirak Mirza Ghiyas (Persian architect) — a precursor to the Taj Mahal.",
+        "He brought Persian painters Mir Sayyid Ali and Khwaja Abd al-Samad to India — foundation of Mughal miniature painting."
+      ],
+      "importantExamPoints": [
+        "Humayun's autobiography: Not written by himself; Gulbadan Begum (his sister) wrote Humayun-nama.",
+        "Sher Shah's real name: Farid Khan; title Sher Shah earned by killing a tiger.",
+        "Hemu (Hem Chandra Vikramaditya) was defeated at 2nd Battle of Panipat (1556) by Akbar's regent Bairam Khan."
+      ],
+      "commonStudentMistakes": [
+        "Humayun-nama was written by Gulbadan Begum, NOT by Humayun himself.",
+        "Humayun died by falling from stairs of Sher Mandal (library), NOT in battle."
+      ]
+    },
+    {
+      "heading": "3. Akbar (1556–1605) — Akbar the Great",
+      "explanation": "Jalaluddin Muhammad Akbar is considered the greatest Mughal emperor. His reign saw the consolidation of the empire through the Mansabdari system (a rank-based administrative hierarchy), Zabti/Todar Mal land revenue system, and the policy of Sulh-i-Kul (universal peace/tolerance). He abolished Jizya (1564) and the pilgrim tax. His court had the Navaratnas (Nine Gems) — Birbal, Todar Mal, Abul Fazl, Faizi, Tansen, Abdur Rahim Khan-i-Khanan, Raja Man Singh, Mullah Do Pyaza, and Fakir Aziao-Din. He founded Fatehpur Sikri as his new capital (1571) and commissioned Akbarnama and Ain-i-Akbari by Abul Fazl.",
+      "keyTakeaways": [
+        "Mansabdari System: Mansab = numerical rank (lowest 10, highest 10,000); had Zat (personal rank) and Sawar (cavalry rank).",
+        "Land Revenue (Todar Mal): Zabti system — land measurement, classification, and 10-year price average.",
+        "Navaratnas: Birbal (the only Hindu to accept Din-i-Ilahi), Tansen (music — Miyan ki Malhar, Deepak Raga).",
+        "Akbar built Buland Darwaza at Fatehpur Sikri to commemorate Gujarat victory (1573)."
+      ],
+      "importantExamPoints": [
+        "Battle of Haldighati (1576): Akbar's general Man Singh vs. Rana Pratap of Mewar — inconclusive; Rana Pratap never captured.",
+        "Din-i-Ilahi (1582): Syncretistic philosophy; not a new religion; only ~18 people accepted it.",
+        "Akbar abolished Jizya in 1564; Aurangzeb reimposed it in 1679.",
+        "Ibadat Khana (House of Worship) built at Fatehpur Sikri for religious debates (1575)."
+      ],
+      "commonStudentMistakes": [
+        "Din-i-Ilahi was NOT a new religion — it was a syncretic personal philosophy/code of conduct.",
+        "Battle of Haldighati was fought in 1576, NOT 1526 or 1556.",
+        "Abul Fazl was killed by Bir Singh Bundela (at Salim/Jahangir's instigation), NOT by Akbar."
+      ]
+    },
+    {
+      "heading": "4. Jahangir (1605–1627) — The Aesthete Emperor",
+      "explanation": "Nur-ud-din Muhammad Salim (Jahangir) is famous for his love of art and nature, and for the enormous power wielded by his wife Nur Jahan (Mehr-un-Nisa). Jahangir's court was visited by English ambassador Sir Thomas Roe (1615) during James I's era. Jahangir issued 'Chain of Justice' (Zanjir-i-Adl) — a golden chain with 60 bells outside his palace for petitioners. His autobiography Tuzuk-i-Jahangiri (Jahangirnama) is famous for its detailed nature observations.",
+      "keyTakeaways": [
+        "Nur Jahan: Real name Mehr-un-Nisa; de facto ruler; issued coins in her own name; controlled the Junta (group of 4 including father Itimad-ud-Daulah).",
+        "Itimad-ud-Daulah's tomb (Agra): First Mughal monument entirely built in marble; designed by Nur Jahan.",
+        "Captain Hawkins (1608) and Sir Thomas Roe (1615) visited Jahangir's court as English emissaries.",
+        "Guru Arjan Dev Ji (5th Sikh Guru) was executed during Jahangir's reign (1606)."
+      ],
+      "importantExamPoints": [
+        "Jahangir executed his own son Khusrau for rebellion; this act is sometimes confused with other events.",
+        "Anarkali story: Legendary; no historical evidence but widely associated with Jahangir.",
+        "Malik Ambar (Ahmadnagar) was the chief opponent of Mughal expansion in the Deccan during Jahangir's reign."
+      ],
+      "commonStudentMistakes": [
+        "Thomas Roe came in 1615 (Jahangir), NOT during Akbar's reign.",
+        "Itimad-ud-Daulah's tomb is in AGRA, not Delhi — often confused with other Mughal monuments."
+      ]
+    },
+    {
+      "heading": "5. Shah Jahan (1628–1658) — The Builder Emperor",
+      "explanation": "Shahab-ud-din Muhammad Khurram (Shah Jahan) presided over the zenith of Mughal architecture — 'The Golden Age of Mughal Architecture.' Key monuments: Taj Mahal (1631–1653, Agra), Red Fort/Lal Qila (Delhi, 1638–1648), Jama Masjid (Delhi, 1644–1656), Moti Masjid (Agra Fort). He shifted the capital back to Delhi (Shahjahanabad). His reign also saw the Peacock Throne (Takht-i-Taus). He was overthrown and imprisoned by his son Aurangzeb in 1658 at the Battle of Samugarh.",
+      "keyTakeaways": [
+        "Taj Mahal architect: Ustad Ahmad Lahauri; main dome by Ismail Khan (Turkish); calligrapher Amanat Khan.",
+        "Shah Jahan's court chronicler: Abdul Hamid Lahori wrote Padshahnama.",
+        "Mughal painting declined under Shah Jahan — he preferred architecture; Dara Shikoh (his son) was a great patron.",
+        "Dara Shikoh translated 52 Upanishads into Persian (Sirr-i-Akbar)."
+      ],
+      "importantExamPoints": [
+        "Battle of Samugarh (1658): Aurangzeb vs. Dara Shikoh — Aurangzeb won, crowned himself in Agra.",
+        "Shah Jahan imprisoned in Agra Fort (Musamman Burj) where he could see the Taj Mahal; died 1666.",
+        "Moti Masjid (Pearl Mosque) in Agra Fort was built by Shah Jahan, while a different Moti Masjid in Delhi Red Fort was built by Aurangzeb."
+      ],
+      "commonStudentMistakes": [
+        "The Moti Masjid in Agra Fort = Shah Jahan; Moti Masjid in Red Fort = Aurangzeb — easily confused.",
+        "Shah Jahan was imprisoned NOT killed by Aurangzeb."
+      ]
+    },
+    {
+      "heading": "6. Aurangzeb (1658–1707) — The Last Great Mughal",
+      "explanation": "Muhi-ud-din Muhammad Aurangzeb (also known as Alamgir) was the last of the 'Great Mughals.' He reimposed Jizya (1679) and banned music at court. He was orthodox Sunni and ordered destruction of some Hindu temples (Kashi Vishwanath, Somnath). His 27-year Deccan campaign (1681–1707) exhausted the empire financially. He compiled the Fatawa-e-Alamgiri — the most comprehensive Islamic legal code in the Mughal era. He died at Aurangabad (Khuldabad) in 1707, and the Mughal Empire began its rapid decline.",
+      "keyTakeaways": [
+        "Aurangzeb was a skilled military commander but inflexible religiously — alienated Rajputs, Marathas, and Sikhs.",
+        "Guru Tegh Bahadur (9th Sikh Guru) was executed by Aurangzeb in 1675.",
+        "Chatrapati Shivaji Maharaj escaped from Agra (1666) where Aurangzeb had imprisoned him.",
+        "Aurangzeb banned music, dance, and art — dismissed court musicians."
+      ],
+      "importantExamPoints": [
+        "Aurangzeb imposed Jizya in 1679 — abolished by Akbar in 1564.",
+        "Fatawa-e-Alamgiri: A compilation of Hanafi Islamic law — Aurangzeb supervised its compilation.",
+        "Aurangzeb is buried at Khuldabad (Aurangabad), NOT in Delhi — has a very simple open grave."
+      ],
+      "commonStudentMistakes": [
+        "Aurangzeb did NOT destroy ALL Hindu temples — he destroyed specific ones as political punishments.",
+        "Battle of Khajwa (1659) and Battle of Deorai (1659) are often overlooked — key to Aurangzeb's succession victory."
+      ]
+    },
+    {
+      "heading": "7. Mughal Administration, Economy & Culture",
+      "explanation": "The Mughal administrative system was a highly centralized monarchy. Central departments (Diwans) handled revenue, military, justice, and public works. The Mansabdari system graded all nobles and officers by numeric ranks. The Jagir system assigned revenue rights instead of salaries. Zabt (measurement-based) land revenue was the dominant system. Mughal art forms include miniature painting (Mughal school), carpet weaving, Pietra Dura inlay work, and architecture blending Persian, Central Asian, and Indian styles. Trade flourished; the empire exported cotton textiles, indigo, spices, and salt.",
+      "keyTakeaways": [
+        "Wazir (Prime Minister) led the Diwan-i-Kul (Ministry of Finance).",
+        "Mir Bakshi: Paymaster general; also supervised intelligence.",
+        "Muhtasib: Officer of public morals (introduced/strengthened by Aurangzeb).",
+        "Mughal painting: Basawan, Dasawant (Akbar era); Bichitr, Abul Hasan (Jahangir era)."
+      ],
+      "importantExamPoints": [
+        "Amil: Local revenue collector at pargana level.",
+        "Zabti system also called Bandobast or Ain-i-Dahsala (ten-year average system) — Todar Mal.",
+        "Mughal harems were managed by female officials; Mahal (palace) administrators were often women."
+      ],
+      "commonStudentMistakes": [
+        "Jagir ≠ Ownership: A Jagirdar had temporary revenue rights, NOT permanent land ownership.",
+        "Todar Mal's land revenue system (Zabti) is sometimes confused with the older Ghalla-Bakshi (crop-sharing) system."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1526",
+      "title": "First Battle of Panipat",
+      "shortDescription": "Babur defeats Ibrahim Lodi; Mughal Empire founded.",
+      "importance": "Gunpowder artillery introduced; end of Delhi Sultanate."
+    },
+    {
+      "year": "1527",
+      "title": "Battle of Khanwa",
+      "shortDescription": "Babur defeats Rana Sanga; Mughals consolidate Rajputana.",
+      "importance": "Babur takes title 'Ghazi'; Rajput resistance broken."
+    },
+    {
+      "year": "1540",
+      "title": "Battle of Kannauj/Bilgram",
+      "shortDescription": "Sher Shah Suri defeats Humayun; Mughal empire interrupted.",
+      "importance": "Sur Empire (1540–1555) brings major administrative reforms."
+    },
+    {
+      "year": "1556",
+      "title": "Second Battle of Panipat",
+      "shortDescription": "Bairam Khan (Akbar's regent) defeats Hemu; Mughals restored.",
+      "importance": "Akbar's era begins; Hemu's death ends last Hindu ruler attempt on Delhi."
+    },
+    {
+      "year": "1571",
+      "title": "Fatehpur Sikri Founded",
+      "shortDescription": "Akbar builds new capital city near Agra.",
+      "importance": "Synthesis of Mughal and Rajput architecture; Buland Darwaza (1573)."
+    },
+    {
+      "year": "1576",
+      "title": "Battle of Haldighati",
+      "shortDescription": "Akbar vs. Rana Pratap of Mewar; inconclusive.",
+      "importance": "Rana Pratap symbolizes Rajput resistance; never surrendered."
+    },
+    {
+      "year": "1582",
+      "title": "Din-i-Ilahi Founded",
+      "shortDescription": "Akbar's syncretic personal philosophy established.",
+      "importance": "Illustrates Akbar's policy of Sulh-i-Kul (universal tolerance)."
+    },
+    {
+      "year": "1615",
+      "title": "Sir Thomas Roe Arrives",
+      "shortDescription": "English ambassador at Jahangir's court (James I's emissary).",
+      "importance": "First formal English diplomatic mission to Mughal court."
+    },
+    {
+      "year": "1631–1653",
+      "title": "Taj Mahal Built",
+      "shortDescription": "Shah Jahan builds Taj Mahal in memory of Mumtaz Mahal.",
+      "importance": "Pinnacle of Mughal architecture; UNESCO World Heritage Site."
+    },
+    {
+      "year": "1658",
+      "title": "Battle of Samugarh",
+      "shortDescription": "Aurangzeb defeats Dara Shikoh; Shah Jahan imprisoned.",
+      "importance": "Aurangzeb becomes emperor; empire enters phase of religious orthodoxy."
+    },
+    {
+      "year": "1679",
+      "title": "Jizya Reimposed",
+      "shortDescription": "Aurangzeb reimposes the poll tax on non-Muslims.",
+      "importance": "Alienates Hindu nobility and Rajput allies; major cause of decline."
+    },
+    {
+      "year": "1707",
+      "title": "Aurangzeb Dies",
+      "shortDescription": "Death at Khuldabad; rapid Mughal decline begins.",
+      "importance": "12 emperors in next 50 years; Nadir Shah invasion (1739) devastating."
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Babur",
+      "role": "Founder of the Mughal Empire",
+      "contribution": "Won First Battle of Panipat (1526); introduced artillery to India; wrote Baburnama.",
+      "sscTrick": "BABUR = Battle At Panipat, BUilt (founded) the Raj (empire)"
+    },
+    {
+      "name": "Sher Shah Suri",
+      "role": "Sur Empire Ruler (Interregnum 1540–1545)",
+      "contribution": "Introduced silver Rupiya, Grand Trunk Road, postal (dak) system, and Zabti land revenue.",
+      "sscTrick": "SHER = Silver rupee, Highway (GT Road), Excellent revenue reforms, Revenue postal system"
+    },
+    {
+      "name": "Akbar",
+      "role": "Third Mughal Emperor — 'Akbar the Great'",
+      "contribution": "Mansabdari system, Sulh-i-Kul, abolished Jizya, Din-i-Ilahi, Navaratnas, Fatehpur Sikri.",
+      "sscTrick": "AKBAR = Abolished Jizya, Khusrau (no, that's Jahangir), Buland Darwaza, Abul Fazl, Religious tolerance"
+    },
+    {
+      "name": "Todar Mal",
+      "role": "Revenue Minister under Akbar",
+      "contribution": "Designed the Zabti (Ain-i-Dahsala) land revenue system — measurement-based 10-year average.",
+      "sscTrick": "TODAR = Ten-year Old Data for Average Revenue"
+    },
+    {
+      "name": "Nur Jahan",
+      "role": "Empress; de facto ruler under Jahangir",
+      "contribution": "Wielded real political power; designed Itimad-ud-Daulah's tomb; issued coins in her own name.",
+      "sscTrick": "NUR = Numaishindar (exhibitor) of real power; Unseen ruler; Revenue (coins in her name)"
+    },
+    {
+      "name": "Shah Jahan",
+      "role": "Fifth Mughal Emperor — 'The Architect Emperor'",
+      "contribution": "Taj Mahal, Red Fort, Jama Masjid, Peacock Throne; 'Golden Age of Mughal Architecture'.",
+      "sscTrick": "SHAH = Structures He Architectured Hugely"
+    },
+    {
+      "name": "Aurangzeb",
+      "role": "Sixth Mughal Emperor — 'Alamgir'",
+      "contribution": "Greatest territorial extent; reimposed Jizya; Fatawa-e-Alamgiri; last great Mughal.",
+      "sscTrick": "AURANGZEB = Alamgir, Used Jizya, Rigid orthodoxy, ANtagonized Hindus, Guru (9th Sikh guru executed), Zeal (religious), Endless Deccan war, Biggest empire"
+    }
+  ],
+  "terms": [
+    { "term": "Mansab", "definition": "Numerical rank in Mughal nobility; dual Zat (personal status) and Sawar (cavalry) components." },
+    { "term": "Jagir", "definition": "Revenue assignment from a territorial unit given to a Mansabdar in lieu of cash salary." },
+    { "term": "Jagirdar", "definition": "Holder of a Jagir; held temporary revenue rights, not land ownership." },
+    { "term": "Zabti/Bandobast", "definition": "Todar Mal's land revenue system: land surveyed, classified into 4 grades, price average of 10 years used." },
+    { "term": "Jizya", "definition": "Poll tax on non-Muslim subjects; abolished by Akbar (1564), reimposed by Aurangzeb (1679)." },
+    { "term": "Sulh-i-Kul", "definition": "Akbar's policy of 'universal peace/tolerance' — no religious discrimination in state affairs." },
+    { "term": "Din-i-Ilahi", "definition": "Akbar's syncretic personal code of ethics/philosophy (1582); never a state religion." },
+    { "term": "Mir Bakshi", "definition": "Paymaster General and head of military department; also supervised intelligence (Waqia-Navis)." },
+    { "term": "Diwan", "definition": "Provincial revenue minister; also referred to the entire revenue department (Diwan-i-Kul at centre)." },
+    { "term": "Waqia-Navis", "definition": "Court reporter / intelligence officer who sent regular reports to the emperor." },
+    { "term": "Pietra Dura", "definition": "Decorative inlay technique using semi-precious stones; extensively used in Taj Mahal." },
+    { "term": "Fatawa-e-Alamgiri", "definition": "Comprehensive Hanafi Islamic legal code compiled under Aurangzeb's direction." },
+    { "term": "Tulughma", "definition": "Babur's flanking military tactic — dividing army into centre, right, left and flanking wings." },
+    { "term": "Rupiya", "definition": "Silver coin introduced by Sher Shah Suri (~178 grains of silver); standardised by Akbar." }
+  ],
+  "tables": [
+    {
+      "title": "The Six Great Mughals — Quick Reference",
+      "headers": ["Emperor", "Reign", "Key Achievement", "Famous Monument/Work"],
+      "rows": [
+        ["Babur", "1526–1530", "Founded empire; Battle of Panipat", "Baburnama (autobiography)"],
+        ["Humayun", "1530–1540, 1555–56", "Reconquered India (1555)", "Humayun's Tomb, Delhi"],
+        ["Akbar", "1556–1605", "Mansabdari; Din-i-Ilahi; Sulh-i-Kul", "Fatehpur Sikri, Buland Darwaza"],
+        ["Jahangir", "1605–1627", "Art patronage; Thomas Roe visit", "Itimad-ud-Daulah's Tomb"],
+        ["Shah Jahan", "1628–1658", "Peak Mughal architecture", "Taj Mahal, Red Fort, Jama Masjid"],
+        ["Aurangzeb", "1658–1707", "Greatest territorial extent", "Bibi Ka Maqbara (Aurangabad)"]
+      ]
+    },
+    {
+      "title": "Three Battles of Panipat",
+      "headers": ["Battle", "Year", "Contestants", "Result"],
+      "rows": [
+        ["First", "1526", "Babur vs. Ibrahim Lodi", "Babur wins; Mughal Empire founded"],
+        ["Second", "1556", "Akbar/Bairam Khan vs. Hemu", "Mughals win; Akbar secures Delhi"],
+        ["Third", "1761", "Marathas vs. Ahmad Shah Abdali (Durrani)", "Marathas defeated; Afghan victory"]
+      ]
+    },
+    {
+      "title": "Mughal Emperors and Foreign Visitors",
+      "headers": ["Visitor", "From", "Emperor", "Purpose"],
+      "rows": [
+        ["Abdur Razzaq", "Persia", "—", "Pre-Mughal; Vijayanagara court"],
+        ["Farishta", "—", "Akbar", "Persian historian"],
+        ["Captain Hawkins", "England", "Jahangir (1608)", "Trade mission"],
+        ["Sir Thomas Roe", "England", "Jahangir (1615)", "Ambassador of James I"],
+        ["Francois Bernier", "France", "Aurangzeb", "Physician; wrote Travels in the Mogul Empire"],
+        ["Niccolao Manucci", "Italy", "Shah Jahan/Aurangzeb", "Wrote Storia do Mogor"]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "trick": "Six Great Mughals — BAHJAS",
+      "explanation": "B-A-H-J-S-A: Babur → Akbar → Humayun → Jahangir → Shah Jahan → Aurangzeb. Remember: 'BAH JAb Shah Aaya' (whenever Shah came) — Babur, Akbar, Humayun, Jahangir, Shah Jahan, Aurangzeb."
+    },
+    {
+      "trick": "Three Panipat Battles by Century",
+      "explanation": "1526 (16th century) = Babur | 1556 (16th century) = Akbar | 1761 (18th century) = Marathas. All have '1' as first digit and end in 6 or 1."
+    },
+    {
+      "trick": "Akbar's Navaratnas — TAN BAFFM",
+      "explanation": "Tansen, Abul Fazl, Faizi, Birbal, Abdur Rahim Khan-i-Khanan, Fakir Aziao-Din, Man Singh, Mullah Do Pyaza, Todar Mal."
+    },
+    {
+      "trick": "Jizya Timeline",
+      "explanation": "Akbar ABOLISHED Jizya in 1564 (4 years after Delhi Sultanate ended in 1560s context). Aurangzeb REIMPOSED it in 1679. Easy: 1564 (abolish) → 1679 (reimpose) — 115 years gap."
+    }
+  ],
+  "examTraps": [
+    {
+      "trap": "Humayun-nama vs Baburnama",
+      "correct": "Baburnama was written BY Babur. Humayun-nama was written BY Gulbadan Begum (Humayun's sister), NOT by Humayun."
+    },
+    {
+      "trap": "Silver Rupee Inventor",
+      "correct": "The silver Rupiya was introduced by SHER SHAH SURI, NOT Akbar or any Mughal. Akbar only standardised it."
+    },
+    {
+      "trap": "Taj Mahal Architect",
+      "correct": "Architect was Ustad Ahmad Lahauri. NOT Isa Khan (he was a different architect). The question may use 'Ustad Isa' as distractor."
+    },
+    {
+      "trap": "Din-i-Ilahi as a Religion",
+      "correct": "Din-i-Ilahi was NOT a religion — it was a syncretic code of conduct/philosophy. Only ~18 people accepted it, including only ONE Hindu: Birbal."
+    },
+    {
+      "trap": "Moti Masjid Confusion",
+      "correct": "Moti Masjid in AGRA FORT = Shah Jahan. Moti Masjid in RED FORT, Delhi = Aurangzeb. Both are 'Pearl Mosques' but different builders."
+    },
+    {
+      "trap": "Battle of Haldighati Result",
+      "correct": "Haldighati (1576) was INCONCLUSIVE — Rana Pratap was NOT captured. He continued resistance from the Aravalli hills."
+    }
+  ],
+  "pyqAnalysis": {
+    "frequentlyAsked": [
+      "First Battle of Panipat — Year, contestants, significance",
+      "Baburnama authorship",
+      "Akbar's Navaratnas members",
+      "Mansabdari system — Zat and Sawar",
+      "Zabti/Ain-i-Dahsala — Todar Mal",
+      "Taj Mahal — builder, architect, year",
+      "Din-i-Ilahi — nature and the only Hindu to accept it",
+      "Thomas Roe — which emperor's court",
+      "Three Battles of Panipat — years and contestants",
+      "Jizya — who abolished and reimposed",
+      "Sher Shah Suri's contributions",
+      "Itimad-ud-Daulah's tomb — who designed it"
+    ],
+    "recentTrends": "SSC CGL 2023-2024 has heavily tested Akbar-era specifics: Navaratnas members, Fatehpur Sikri, Battle of Haldighati, and administrative terms. Mughal architecture questions (Taj Mahal facts, Moti Masjid confusion) appear almost every year."
+  },
+  "mcqs": [
+    {
+      "q": "Who among the following won the First Battle of Panipat in 1526?",
+      "options": ["Humayun", "Babur", "Akbar", "Sher Shah Suri"],
+      "correctAnswer": 1,
+      "explanation": "Babur defeated Ibrahim Lodi (the last Delhi Sultanate ruler) at the First Battle of Panipat on 21 April 1526, using artillery (gunpowder) and the Tulughma flanking tactic. This battle founded the Mughal Empire.",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "The book 'Humayun-nama' was written by:",
+      "options": ["Humayun", "Abul Fazl", "Gulbadan Begum", "Babur"],
+      "correctAnswer": 2,
+      "explanation": "Humayun-nama was written by Gulbadan Begum, the sister of Humayun and daughter of Babur. Babur himself wrote Baburnama. Abul Fazl wrote Akbarnama and Ain-i-Akbari.",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "Which of the following statements about Din-i-Ilahi is CORRECT?",
+      "options": [
+        "It was a new religion founded by Akbar in 1582",
+        "It was accepted by all nine Navaratnas",
+        "Only Birbal among the Hindus accepted it",
+        "It was abolished by Jahangir immediately after Akbar's death"
+      ],
+      "correctAnswer": 2,
+      "explanation": "Din-i-Ilahi (1582) was NOT a religion but a syncretic code of conduct. Approximately 18 people accepted it. Among Hindus, only Birbal accepted it. It was never formally abolished — it simply faded away.",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "The Ain-i-Dahsala (ten-year land revenue system) was introduced by:",
+      "options": ["Akbar", "Todar Mal", "Birbal", "Sher Shah Suri"],
+      "correctAnswer": 1,
+      "explanation": "Todar Mal, the Revenue Minister (Diwan) under Akbar, introduced the Zabti or Ain-i-Dahsala system — where land was measured and classified, and the average price of the last 10 years was used to calculate revenue. While Akbar approved it, Todar Mal designed it.",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "Who was the architect of the Taj Mahal?",
+      "options": ["Isa Khan", "Ustad Ahmad Lahauri", "Mir Sayyid Ali", "Amanat Khan"],
+      "correctAnswer": 1,
+      "explanation": "Ustad Ahmad Lahauri is credited as the chief architect of the Taj Mahal. Amanat Khan was the chief calligrapher. Mir Sayyid Ali was a Persian painter who came to India with Humayun. Isa Khan was a different architect (associated with Humayun's Tomb).",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "The silver coin 'Rupiya' was first introduced by:",
+      "options": ["Akbar", "Sher Shah Suri", "Babur", "Jahangir"],
+      "correctAnswer": 1,
+      "explanation": "The silver Rupiya (~178 grains) was introduced by Sher Shah Suri during his reign (1540–1545). It was later standardised by Akbar. This is a common exam trap — Sher Shah, NOT a Mughal, introduced it.",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "During whose reign did Sir Thomas Roe visit the Mughal court as an English ambassador?",
+      "options": ["Akbar", "Shah Jahan", "Jahangir", "Aurangzeb"],
+      "correctAnswer": 2,
+      "explanation": "Sir Thomas Roe arrived at the Mughal court in 1615 as the ambassador of King James I of England, during Jahangir's reign. He stayed until 1619 and wrote an account of his mission. Captain Hawkins had earlier visited in 1608, also during Jahangir's reign.",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "The Jizya tax was abolished by Akbar in __ and reimposed by Aurangzeb in __:",
+      "options": ["1556 and 1659", "1564 and 1679", "1572 and 1689", "1582 and 1699"],
+      "correctAnswer": 1,
+      "explanation": "Akbar abolished the Jizya (non-Muslim poll tax) in 1564. Aurangzeb reimposed it in 1679, which alienated Rajput nobles and Hindu subjects and is considered a major cause of the empire's decline.",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "The Battle of Haldighati (1576) was fought between:",
+      "options": [
+        "Akbar and Rana Pratap of Mewar",
+        "Akbar and Rana Sanga of Mewar",
+        "Jahangir and Rana Pratap",
+        "Akbar and Hemu"
+      ],
+      "correctAnswer": 0,
+      "explanation": "The Battle of Haldighati (1576) was fought between the Mughal forces led by Raja Man Singh (Akbar's general) and Rana Pratap of Mewar. The battle was inconclusive — Rana Pratap was NOT captured and continued his resistance from the Aravalli hills.",
+      "topicTag": "mughal-empire"
+    },
+    {
+      "q": "Which Mughal emperor is associated with Fatawa-e-Alamgiri?",
+      "options": ["Akbar", "Shah Jahan", "Jahangir", "Aurangzeb"],
+      "correctAnswer": 3,
+      "explanation": "Fatawa-e-Alamgiri is a comprehensive compilation of Islamic (Hanafi) law supervised and commissioned by Aurangzeb (Alamgir). It was compiled by a team of scholars and remains one of the most important Islamic legal texts of the Mughal period.",
+      "topicTag": "mughal-empire"
+    }
+  ],
+  "flashcards": [
+    { "front": "Who founded the Mughal Empire and in which year?", "back": "Babur founded the Mughal Empire in 1526 after the First Battle of Panipat.", "difficulty": "easy" },
+    { "front": "What was the Tulughma tactic?", "back": "A flanking military tactic used by Babur — dividing army into centre, right, left, and flanking wings to surround the enemy.", "difficulty": "medium" },
+    { "front": "Who wrote Baburnama?", "back": "Babur himself wrote Baburnama (also called Tuzuk-i-Baburi) in Chagatai Turkic — the first autobiography in Islamic literature.", "difficulty": "easy" },
+    { "front": "What were the two components of the Mansab system?", "back": "Zat (personal rank/status) and Sawar (cavalry rank — number of horsemen a mansabdar must maintain).", "difficulty": "medium" },
+    { "front": "Name all nine Navaratnas of Akbar's court.", "back": "Birbal, Todar Mal, Abul Fazl, Faizi, Tansen, Abdur Rahim Khan-i-Khanan, Raja Man Singh, Mullah Do Pyaza, Fakir Aziao-Din.", "difficulty": "hard" },
+    { "front": "Who designed Itimad-ud-Daulah's Tomb?", "back": "Nur Jahan (Jahangir's wife); it was the first Mughal monument built entirely in white marble, in Agra.", "difficulty": "medium" },
+    { "front": "What was the Ain-i-Dahsala?", "back": "Todar Mal's land revenue system under Akbar — 10-year average price used to set revenue on measured and classified land.", "difficulty": "hard" },
+    { "front": "Who was the ONLY Hindu to accept Din-i-Ilahi?", "back": "Birbal (Raja Birbal / Mahesh Das) — one of Akbar's Navaratnas.", "difficulty": "easy" },
+    { "front": "Name the architect of the Taj Mahal.", "back": "Ustad Ahmad Lahauri (chief architect); Amanat Khan (chief calligrapher); Ismail Khan (Turkish dome builder).", "difficulty": "medium" },
+    { "front": "In what year was the Jizya abolished by Akbar and reimposed by Aurangzeb?", "back": "Abolished: 1564 (Akbar). Reimposed: 1679 (Aurangzeb).", "difficulty": "easy" },
+    { "front": "What was Sher Shah Suri's real name?", "back": "Farid Khan; earned the title 'Sher Shah' by killing a tiger (sher).", "difficulty": "medium" },
+    { "front": "Name three battles of Panipat with their years.", "back": "1st: 1526 (Babur vs. Lodi), 2nd: 1556 (Akbar/Bairam Khan vs. Hemu), 3rd: 1761 (Marathas vs. Ahmad Shah Abdali).", "difficulty": "medium" }
+  ],
+  "revisionPoints": [
+    "BABUR: First Panipat 1526; Khanwa 1527; Baburnama; Tulughma tactic; introduced artillery.",
+    "HUMAYUN: Lost at Chausa & Kannauj (1539-40) to Sher Shah; exiled to Persia; Humayun-nama by Gulbadan Begum; died 1556 falling from stairs.",
+    "SHER SHAH SURI: Silver Rupiya; Grand Trunk Road; postal system; Zabti land revenue — all before Mughal Akbar.",
+    "AKBAR: 1556–1605; Mansabdari; Sulh-i-Kul; abolished Jizya (1564); Din-i-Ilahi (1582); Buland Darwaza; Fatehpur Sikri; Navaratnas.",
+    "JAHANGIR: Art patronage; Nur Jahan's power; Thomas Roe 1615; Zanjir-i-Adl (Chain of Justice); Tuzuk-i-Jahangiri.",
+    "SHAH JAHAN: Taj Mahal (1631–53); Red Fort; Jama Masjid; Peacock Throne; Shah Jahan imprisoned by Aurangzeb at Agra Fort.",
+    "AURANGZEB: Greatest territory; reimposed Jizya 1679; Fatawa-e-Alamgiri; executed Guru Tegh Bahadur; Deccan War 27 years; died at Khuldabad.",
+    "THREE PANIPAT: 1526 (Babur), 1556 (Akbar), 1761 (Ahmad Shah Abdali vs. Marathas).",
+    "MANSAB: Zat = personal rank, Sawar = cavalry rank.",
+    "JIZYA: Abolished 1564 (Akbar) → Reimposed 1679 (Aurangzeb)."
+  ],
+  "revisionSheet": {
+    "title": "Mughal Empire — Last Day Revision Sheet",
+    "points": [
+      "6 Great Mughals: Babur → Humayun → Akbar → Jahangir → Shah Jahan → Aurangzeb",
+      "3 Panipat Battles: 1526, 1556, 1761",
+      "Baburnama: Babur (in Chagatai Turkic); Humayun-nama: Gulbadan Begum",
+      "Silver Rupiya: Sher Shah Suri (NOT Akbar)",
+      "Grand Trunk Road + Postal System: Sher Shah Suri",
+      "Mansab = Zat (personal) + Sawar (cavalry)",
+      "Zabti = Todar Mal's 10-year average land revenue",
+      "Din-i-Ilahi (1582): NOT a religion; only Birbal (Hindu) accepted it",
+      "Jizya: Abolished 1564 (Akbar) | Reimposed 1679 (Aurangzeb)",
+      "Thomas Roe: English Ambassador at Jahangir's court (1615)",
+      "Taj Mahal: Shah Jahan, 1631–1653, architect = Ustad Ahmad Lahauri",
+      "Fatawa-e-Alamgiri: Aurangzeb's Islamic legal code",
+      "Haldighati (1576): Akbar vs. Rana Pratap — INCONCLUSIVE"
+    ]
+  },
+  "relatedTopics": {
+    "previousTopic": "Delhi Sultanate",
+    "previousTopicId": "delhi-sultanate",
+    "currentTopic": "The Mughal Empire",
+    "nextTopic": "Arrival of Europeans in India",
+    "nextTopicId": "arrival-of-europeans"
+  }
+}
