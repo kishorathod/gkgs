@@ -1,0 +1,671 @@
+{
+  "topicId": "english-eic-and-carnatic-wars",
+  "subject": "history",
+  "hero": {
+    "title": "English East India Company & Carnatic Wars",
+    "subtitle": "From 17th-century merchant traders to territorial masters of South India.",
+    "sscWeightage": "High",
+    "difficulty": "Intermediate to Advanced",
+    "estimatedReadingTime": "20 mins",
+    "expectedQuestions": "2-4 Questions in Tier-1 & Tier-2",
+    "lastUpdated": "2026-07-21",
+    "whyItMatters": "Core foundational topic for Modern Indian History. TCS and UPSC consistently test Farrukhsiyar's Farman (1717), early EIC forts (St. George, William), the Three Carnatic Wars (1746–1763), key battles (St. Thome, Ambur, Wandiwash), and treaties (Aix-la-Chapelle, Pondicherry, Paris)."
+  },
+  "quickFacts": [
+    {
+      "icon": "📜",
+      "heading": "EIC Royal Charter",
+      "fact": "31 December 1600 — Granted by Queen Elizabeth I for 15 years trade monopoly."
+    },
+    {
+      "icon": "⚓",
+      "heading": "Battle of Swally (1612)",
+      "fact": "Captain Thomas Best defeated Portuguese, earning Jahangir's firman for Surat factory."
+    },
+    {
+      "icon": "👑",
+      "heading": "Sir Thomas Roe's Mission",
+      "fact": "1615–1619 Ambassador of King James I; obtained rights to set up factories across Mughal empire."
+    },
+    {
+      "icon": "🏰",
+      "heading": "Fort St. George (Madras)",
+      "fact": "Leased by Francis Day in 1639 — first British fort in India."
+    },
+    {
+      "icon": "🎁",
+      "heading": "Bombay Dowry Gift",
+      "fact": "1668 — Leased from King Charles II for £10/yr (got as dowry from Portugal in 1661)."
+    },
+    {
+      "icon": "🏛️",
+      "heading": "Fort William (Calcutta)",
+      "fact": "Founded by Job Charnock in 1690 (Sutanuti); Fort William constructed in 1700."
+    },
+    {
+      "icon": "💎",
+      "heading": "Farrukhsiyar's Farman (1717)",
+      "fact": "Magna Carta of EIC — duty-free trade (Dastak) in Bengal for ₹3,000/yr."
+    },
+    {
+      "icon": "⚔️",
+      "heading": "First Carnatic War (1746–48)",
+      "fact": "Triggered by War of Austrian Succession; French captured Madras; ended with Treaty of Aix-la-Chapelle."
+    },
+    {
+      "icon": "🛡️",
+      "heading": "Battle of St. Thome (1746)",
+      "fact": "Small French force under Paradis defeated Nawab Anwar-ud-din's large army on Adyar river."
+    },
+    {
+      "icon": "🏰",
+      "heading": "Siege of Arcot (1751)",
+      "fact": "Robert Clive's 53-day heroic defense with 500 men turned Second Carnatic War momentum."
+    },
+    {
+      "icon": "💥",
+      "heading": "Battle of Wandiwash (1760)",
+      "fact": "Sir Eyre Coote defeated French General Count de Lally — ended French power in India."
+    },
+    {
+      "icon": "🤝",
+      "heading": "Treaty of Paris (1763)",
+      "fact": "Ended Third Carnatic War; French kept Pondicherry purely as unfortified trade post."
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1600",
+      "title": "Royal Charter Granted by Queen Elizabeth I",
+      "shortDescription": "Queen Elizabeth I granted a Royal Charter to the 'Governor and Company of Merchants of London trading into the East Indies' on December 31, 1600, for 15 years monopoly.",
+      "importance": "Official formation of the English East India Company."
+    },
+    {
+      "year": "1608",
+      "title": "Captain William Hawkins Arrives at Surat",
+      "shortDescription": "Hawkins arrived at Surat in ship 'Hector' and visited Mughal Emperor Jahangir's court at Agra, but failed to get factory rights due to Portuguese pressure.",
+      "importance": "First official EIC envoy to Mughal court."
+    },
+    {
+      "year": "1612",
+      "title": "Battle of Swally (Suvali)",
+      "shortDescription": "Captain Thomas Best defeated the Portuguese naval fleet off Surat. Impressed Emperor Jahangir, who issued a royal decree (firman) for an English factory.",
+      "importance": "Broke Portuguese naval monopoly; led to first official English factory at Surat (1613)."
+    },
+    {
+      "year": "1615",
+      "title": "Sir Thomas Roe's Embassy to Jahangir",
+      "shortDescription": "Sir Thomas Roe, ambassador of King James I, resided at Jahangir's court from 1615 to 1619, obtaining firmans for factories at Agra, Ahmedabad, and Broach.",
+      "importance": "Secured imperial commercial privileges across Mughal India."
+    },
+    {
+      "year": "1639",
+      "title": "Founding of Madras & Fort St. George",
+      "shortDescription": "Francis Day obtained a lease of Madraspatnam from the Raja of Chandragiri. Constructed Fort St. George, the first fortified British factory in India.",
+      "importance": "Madras became EIC headquarters on the Coromandel Coast."
+    },
+    {
+      "year": "1651",
+      "title": "First Factory in Bengal at Hugli",
+      "shortDescription": "Dr. Gabriel Boughton cured Mughal princess Jahanara, obtaining permission for EIC to trade at Hugli, Bengal.",
+      "importance": "First EIC commercial entry into rich Bengal province."
+    },
+    {
+      "year": "1668",
+      "title": "Bombay Leased to EIC",
+      "shortDescription": "King Charles II received Bombay as dowry for marrying Catherine of Braganza (1661) and leased it to EIC for £10 per year.",
+      "importance": "Bombay replaced Surat as Western Presidency headquarters in 1687."
+    },
+    {
+      "year": "1690",
+      "title": "Job Charnock Founds Calcutta",
+      "shortDescription": "Job Charnock established a settlement at Sutanuti. In 1698, EIC purchased zamindari rights of Sutanuti, Kalikata, and Gobindapur.",
+      "importance": "Foundation of Calcutta. Fort William constructed here in 1700."
+    },
+    {
+      "year": "1717",
+      "title": "Farrukhsiyar's Imperial Farman",
+      "shortDescription": "Emperor Farrukhsiyar granted EIC duty-free trade rights (Dastak) in Bengal, Bihar, and Orissa for ₹3,000/yr, plus coinage rights at Hyderabad.",
+      "importance": "Called the 'Magna Carta' of EIC; caused immense friction with Bengal Nawabs."
+    },
+    {
+      "year": "1746",
+      "title": "First Carnatic War Begins — Fall of Madras",
+      "shortDescription": "Spillover of War of Austrian Succession in Europe. French Governor Dupleix and Admiral La Bourdonnais captured British Madras.",
+      "importance": "Outbreak of Anglo-French military conflict in South India."
+    },
+    {
+      "year": "1746",
+      "title": "Battle of St. Thome (Adyar River)",
+      "shortDescription": "A tiny French force under Captain Paradis defeated the 10,000-strong army of Nawab Anwar-ud-din of Carnatic at St. Thome.",
+      "importance": "Proved European-disciplined small forces could crush large medieval Indian armies."
+    },
+    {
+      "year": "1748",
+      "title": "Treaty of Aix-la-Chapelle",
+      "shortDescription": "Ended War of Austrian Succession in Europe and First Carnatic War. Madras was returned to the British in exchange for Louisbourg in North America.",
+      "importance": "Status quo restored in South India."
+    },
+    {
+      "year": "1749",
+      "title": "Second Carnatic War & Battle of Ambur",
+      "shortDescription": "Proxy war over succession in Hyderabad & Carnatic. At Battle of Ambur (1749), French allies (Muzaffar Jung & Chanda Sahib) killed Nawab Anwar-ud-din.",
+      "importance": "Peak of Dupleix's political influence in South India."
+    },
+    {
+      "year": "1751",
+      "title": "Clive's Heroic Siege of Arcot",
+      "shortDescription": "25-year-old Robert Clive captured Arcot (capital of Carnatic) with 500 men and successfully defended it for 53 days against overwhelming forces.",
+      "importance": "Turning point of Second Carnatic War; established Clive's military genius."
+    },
+    {
+      "year": "1754",
+      "title": "Treaty of Pondicherry & Recall of Dupleix",
+      "shortDescription": "French government recalled Dupleix due to heavy losses and sent Godeheu, who signed Treaty of Pondicherry pledging non-interference in native affairs.",
+      "importance": "Major setback to French imperial ambitions."
+    },
+    {
+      "year": "1756",
+      "title": "Seven Years' War & Outbreak of Third Carnatic War",
+      "shortDescription": "Seven Years' War (1756–63) in Europe triggered final round of Anglo-French conflict in India. Count de Lally dispatched from France.",
+      "importance": "Final showdown for supremacy in South India."
+    },
+    {
+      "year": "1760",
+      "title": "Decisive Battle of Wandiwash",
+      "shortDescription": "British General Sir Eyre Coote crushed French army led by Count de Lally at Wandiwash (Tamil Nadu).",
+      "importance": "Decisive death blow to French power in India. Wandiwash = British victory."
+    },
+    {
+      "year": "1763",
+      "title": "Peace Treaty of Paris",
+      "shortDescription": "Concluded Third Carnatic War. French factories restored but stripped of fortifications and armies.",
+      "importance": "French reduced to purely minor traders; British established as sole European masters of India."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "EIC Formation & Early Settlements (1600–1717)",
+      "explanation": "The English East India Company was formed in 1599 and chartered by Queen Elizabeth I on 31 December 1600 with a 15-year monopoly. Unlike the state-monopolized Portuguese or French companies, the EIC was a private joint-stock corporation run by a Court of Directors in London. Key settlements followed a strategic progression:\n1. Surat (1613): First official factory after Thomas Best won the Battle of Swally (1612).\n2. Sir Thomas Roe (1615–19): Ambassador of James I; got Jahangir's firman for trade across Mughal empire.\n3. Madras (1639): Francis Day leased land, built Fort St. George (first British fort).\n4. Bombay (1668): Given to Charles II as dowry by Portugal (1661), leased to EIC for £10/year.\n5. Calcutta (1690): Job Charnock founded at Sutanuti; built Fort William (1700).\n6. Farrukhsiyar's Farman (1717): Granted duty-free trade (Dastak) in Bengal for ₹3,000/yr — called EIC's Magna Carta.",
+      "keyTakeaways": [
+        "EIC Charter: 31 Dec 1600 → Queen Elizabeth I → 15 yrs monopoly.",
+        "Battle of Swally (1612): Thomas Best beat Portuguese → Surat factory (1613).",
+        "Sir Thomas Roe: Ambassador of James I to Jahangir (1615–19).",
+        "Fort St. George (Madras, 1639): Founded by Francis Day — first British fort.",
+        "Bombay (1668): Portuguese dowry to Charles II → leased to EIC for £10/yr.",
+        "Fort William (Calcutta, 1700): Job Charnock → Sutanuti/Kalikata/Gobindapur.",
+        "Farrukhsiyar's Farman (1717): Magna Carta of EIC → Dastak in Bengal."
+      ],
+      "importantExamPoints": [
+        "First British fort in India: Fort St. George at Madras (1639), NOT Fort William.",
+        "Magna Carta of EIC: Farrukhsiyar's Farman (1717) granting duty-free Dastak.",
+        "Bombay came to British via: Marriage dowry of Catherine of Braganza to Charles II.",
+        "Founder of Calcutta: Job Charnock (1690).",
+        "Captain Hawkins (1608) failed; Thomas Best (1612 Swally) succeeded in getting Surat factory."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Fort St. George (Madras, 1639) with Fort William (Calcutta, 1700).",
+        "Thinking Hawkins got the firman from Jahangir — Hawkins FAILED; Thomas Best won Battle of Swally which led to the firman.",
+        "Confusing Dastak (trade pass under Farrukhsiyar's Farman) with Cartaz (Portuguese naval pass)."
+      ]
+    },
+    {
+      "heading": "First Carnatic War (1746–1748): Austrian Succession Spillover",
+      "explanation": "The Carnatic was the coastal region of Tamil Nadu/Andhra Pradesh under the nominal suzerainty of Nizam of Hyderabad. When the War of Austrian Succession (1740–48) broke out in Europe between Britain and France, Commodore Barnet's English fleet seized French ships off India. French Governor Joseph François Dupleix retaliated by calling Admiral La Bourdonnais from Mauritius, capturing British Madras in 1746. Anwar-ud-din, Nawab of Carnatic, sent 10,000 troops under Mahfuz Khan to aid the British. At the historic Battle of St. Thome (Adyar River, 1746), a tiny French force of ~930 men under Captain Paradis routed the Nawab's massive army. The war ended with the Treaty of Aix-la-Chapelle (1748), returning Madras to the British in exchange for Louisbourg in North America.",
+      "keyTakeaways": [
+        "Trigger: Spillover of War of Austrian Succession (1740–48) in Europe.",
+        "Key Figures: Dupleix (French Governor), La Bourdonnais (Mauritius Admiral), Barnet (British).",
+        "French captured Madras in 1746.",
+        "Battle of St. Thome (1746): Captain Paradis (930 French) defeated Mahfuz Khan (10,000 Nawab troops).",
+        "Treaty of Aix-la-Chapelle (1748): Madras returned to British; Louisbourg to French."
+      ],
+      "importantExamPoints": [
+        "European background: War of Austrian Succession.",
+        "Battle of St. Thome (1746): Proved European tactical and disciplined artillery supremacy over large Indian armies.",
+        "Treaty ending First Carnatic War: Treaty of Aix-la-Chapelle (1748).",
+        "Nawab of Carnatic during First War: Anwar-ud-din."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Battle of St. Thome (1746) with Battle of Wandiwash (1760).",
+        "Thinking Dupleix lost Madras in the First War — he CAPTURED Madras; it was returned only via European treaty."
+      ]
+    },
+    {
+      "heading": "Second Carnatic War (1749–1754): Proxy War & Clive's Triumph at Arcot",
+      "explanation": "Following Nizam-ul-Mulk's death (1748), succession disputes erupted in Hyderabad (Nasir Jung vs Muzaffar Jung) and Carnatic (Anwar-ud-din vs Chanda Sahib). Dupleix saw an opportunity to establish French political puppet states: he backed Muzaffar Jung (Hyderabad) & Chanda Sahib (Carnatic). The British backed Nasir Jung & Muhammad Ali (Anwar-ud-din's son). At the Battle of Ambur (1749), French allies killed Anwar-ud-din, and Dupleix reached his peak power. The turning point came in 1751 when 25-year-old EIC clerk-turned-captain Robert Clive proposed a bold attack on Arcot (capital of Carnatic). Clive captured Arcot with 500 men and held off a 53-day siege by Chanda Sahib's son Raza Sahib. This broke French prestige. Alarm at financial costs led the French government to recall Dupleix (1754), replacing him with Godeheu, who signed the Treaty of Pondicherry (1754).",
+      "keyTakeaways": [
+        "Trigger: Local succession disputes in Hyderabad & Carnatic (Proxy War).",
+        "French Alliance: Muzaffar Jung (Hyderabad) + Chanda Sahib (Carnatic).",
+        "British Alliance: Nasir Jung (Hyderabad) + Muhammad Ali (Carnatic).",
+        "Battle of Ambur (1749): Anwar-ud-din killed → Chanda Sahib became Carnatic Nawab.",
+        "Siege of Arcot (1751): Robert Clive's 53-day defense of Arcot with 500 men → Turning point.",
+        "Treaty of Pondicherry (1754): Dupleix recalled → Godeheu replaced him → Non-interference pledge."
+      ],
+      "importantExamPoints": [
+        "Hero of Arcot: Robert Clive (Siege of Arcot, 1751 — 53 days).",
+        "French Governor recalled during 2nd War: Joseph François Dupleix (1754).",
+        "Treaty ending Second Carnatic War: Treaty of Pondicherry (1754).",
+        "Battle of Ambur (1749): Anwar-ud-din killed by French-Chanda Sahib alliance."
+      ],
+      "commonStudentMistakes": [
+        "Confusing alliances: Remember French backed 'M&C' (Muzaffar & Chanda); British backed 'N&M' (Nasir & Muhammad Ali).",
+        "Thinking Clive was Governor of Bengal during Siege of Arcot — he was just a young captain in Madras."
+      ]
+    },
+    {
+      "heading": "Third Carnatic War (1758–1763): Wandiwash & Fall of French Ambitions",
+      "explanation": "The Seven Years' War (1756–63) in Europe renewed direct Anglo-French warfare. France sent Count de Lally with reinforcements. Lally captured Fort St. David (1758) but made strategic blunders: he recalled Bussy from Hyderabad (weakening French influence there) and failed to capture Madras. Meanwhile, the British won the Battle of Plassey (1757) in Bengal, unlocking vast financial resources. In the decisive Battle of Wandiwash (22 January 1760), British General Sir Eyre Coote completely crushed Count de Lally's French forces and captured Bussy. British forces proceeded to besiege and capture Pondicherry (1761). The Treaty of Paris (1763) ended the war: French factories were restored for commerce only, but fortifications and troops were strictly banned.",
+      "keyTakeaways": [
+        "Trigger: Seven Years' War (1756–63) in Europe.",
+        "Key Commanders: Sir Eyre Coote (British) vs Count de Lally & Bussy (French).",
+        "Plassey Factor (1757): British control of Bengal funded South Indian campaigns.",
+        "Battle of Wandiwash (22 Jan 1760): Eyre Coote crushed Lally → Final blow to French.",
+        "Treaty of Paris (1763): French lost military rights in India; kept unfortified trade posts."
+      ],
+      "importantExamPoints": [
+        "Decisive battle that ended French power in India: Battle of Wandiwash (1760).",
+        "British General at Wandiwash: Sir Eyre Coote.",
+        "French Commander at Wandiwash: Count de Lally.",
+        "Treaty ending Third Carnatic War: Peace Treaty of Paris (1763)."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Wandiwash (1760, South India, British vs French) with Plassey (1757, Bengal, British vs Siraj-ud-Daulah) or Buxar (1764, Bihar, British vs Combined Nawabs).",
+        "Thinking French were completely kicked out of India in 1763 — they stayed in Pondicherry, Mahe, Yanam, Karikal until 1954, but without military power."
+      ]
+    },
+    {
+      "heading": "Reasons for British Victory over French",
+      "explanation": "Why did the British defeat the French in India? Four major structural differences made British victory inevitable:\n1. Corporate vs State Ownership: EIC was a private joint-stock corporation run by profit-seeking directors. French Company was state-controlled, dependent on subsidies, and hamstrung by royal court politics.\n2. Naval Superiority: The British Royal Navy controlled sea lanes, ensuring constant supplies and blocking French reinforcements.\n3. Bengal Financial Base: Winning Bengal (Plassey 1757) gave British endless money and grain to finance Carnatic campaigns. French had no rich territorial base.\n4. Leadership & Institutional Backing: Clive, Eyre Coote, and Stringer Lawrence enjoyed continuous support, whereas Dupleix was recalled prematurely and Lally was executed in France upon return.",
+      "keyTakeaways": [
+        "EIC = Private joint-stock company (agile, solvent); French = State enterprise (bureaucratic, dependent).",
+        "Royal Navy = Absolute sea control → blocked French fleets.",
+        "Bengal wealth (post-Plassey 1757) funded Carnatic war effort.",
+        "Superior British leadership (Clive, Coote) vs divided French command (Lally vs Bussy)."
+      ],
+      "importantExamPoints": [
+        "Key financial reason for British success: Control of Bengal after Plassey (1757).",
+        "Key structural difference: EIC was private joint-stock; French company was state-owned.",
+        "Naval factor: Royal Navy's global sea dominance."
+      ],
+      "commonStudentMistakes": [
+        "Attributing British victory solely to Clive's genius — financial power of Bengal and Royal Navy dominance were equally critical.",
+        "Assuming French company lacked money — it lacked commercial independence from Versailles court politics."
+      ]
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Queen Elizabeth I",
+      "role": "Monarch of England",
+      "majorContributions": "Granted the original Royal Charter to the English East India Company on 31 December 1600, giving 15 years trade monopoly in the East Indies.",
+      "sscTrick": "Elizabeth I = 31 Dec 1600 EIC Royal Charter"
+    },
+    {
+      "name": "Captain William Hawkins",
+      "role": "First EIC Envoy to Mughal Court (1608)",
+      "majorContributions": "Arrived at Surat in 1608 on ship 'Hector'; visited Jahangir's court at Agra speaking Turkish, but failed to secure factory permission due to Portuguese intrigue.",
+      "sscTrick": "Hawkins = 1608 + Surat + Jahangir + FAILED"
+    },
+    {
+      "name": "Sir Thomas Roe",
+      "role": "British Ambassador to Mughal Court (1615–1619)",
+      "majorContributions": "Official ambassador of King James I; obtained imperial firmans from Jahangir granting EIC right to build factories at Agra, Ahmedabad, and Broach.",
+      "sscTrick": "Thomas Roe = Ambassador of James I + Jahangir + SUCCESSFUL firmans"
+    },
+    {
+      "name": "Francis Day",
+      "role": "Founder of Madras (1639)",
+      "majorContributions": "Leased Madraspatnam from the Raja of Chandragiri in 1639 and constructed Fort St. George, the first fortified British factory in India.",
+      "sscTrick": "Francis Day = Madras (1639) + Fort St. George"
+    },
+    {
+      "name": "Job Charnock",
+      "role": "Founder of Calcutta (1690)",
+      "majorContributions": "EIC agent who selected Sutanuti site in 1690; combined Sutanuti, Kalikata, and Gobindapur to lay the foundation of Calcutta and Fort William (1700).",
+      "sscTrick": "Job Charnock = Calcutta (1690) + Fort William (1700)"
+    },
+    {
+      "name": "Farrukhsiyar",
+      "role": "Mughal Emperor (1713–1719)",
+      "majorContributions": "Issued the historic Royal Farman of 1717 granting EIC duty-free trade (Dastak) in Bengal, Bihar, and Orissa for ₹3,000/yr — known as EIC's Magna Carta.",
+      "sscTrick": "Farrukhsiyar = 1717 Farman + Dastak + Magna Carta"
+    },
+    {
+      "name": "Joseph François Dupleix",
+      "role": "French Governor-General of India (1742–1754)",
+      "majorContributions": "Master political strategist; pioneered European military intervention in Indian princely succession disputes; captured Madras (1746); recalled by France in 1754.",
+      "sscTrick": "Dupleix = French Governor + Proxy Wars + Capture of Madras + Recalled 1754"
+    },
+    {
+      "name": "Robert Clive",
+      "role": "British Military Commander & Governor",
+      "majorContributions": "Captured and held Siege of Arcot (1751, 53 days) turning 2nd Carnatic War; won Battle of Plassey (1757); established British territorial empire in India.",
+      "sscTrick": "Clive = Hero of Arcot (1751) + Plassey (1757) + Founder of British Empire"
+    },
+    {
+      "name": "Sir Eyre Coote",
+      "role": "British General",
+      "majorContributions": "Commanded British forces to decisive victory over Count de Lally at the Battle of Wandiwash (1760), extinguishing French power in India.",
+      "sscTrick": "Sir Eyre Coote = Victor of Wandiwash (1760)"
+    },
+    {
+      "name": "Count de Lally",
+      "role": "French Commander-in-Chief (1758–1761)",
+      "majorContributions": "Sent by France in 3rd Carnatic War; made errors like recalling Bussy from Hyderabad; defeated by Eyre Coote at Wandiwash (1760); executed in Paris upon return.",
+      "sscTrick": "Lally = Defeated at Wandiwash (1760) + Recalled Bussy"
+    }
+  ],
+  "terms": [
+    {
+      "term": "Farman",
+      "definition": "An imperial royal decree or edict issued by a Mughal Emperor, carrying absolute legal authority across the empire."
+    },
+    {
+      "term": "Dastak",
+      "definition": "A trade permit or custom-free pass issued by the East India Company under Farrukhsiyar's 1717 Farman, allowing duty-free transport of goods in Bengal."
+    },
+    {
+      "term": "Fort St. George",
+      "definition": "The first British fort constructed in India, located at Madras (built 1639 by Francis Day). Served as headquarters of the Madras Presidency."
+    },
+    {
+      "term": "Fort William",
+      "definition": "The British fortress built at Calcutta in 1700 (named after King William III), serving as headquarters of the Bengal Presidency."
+    },
+    {
+      "term": "Carnatic",
+      "definition": "The coastal territory of South India lying between the Eastern Ghats and the Coromandel Coast (modern Tamil Nadu & southern Andhra Pradesh)."
+    },
+    {
+      "term": "Battle of St. Thome (1746)",
+      "definition": "Landmark battle on the Adyar River where ~930 French troops under Captain Paradis defeated 10,000 soldiers of Nawab Anwar-ud-din, proving European military superiority."
+    },
+    {
+      "term": "Siege of Arcot (1751)",
+      "definition": "A 53-day defense of Arcot by Robert Clive with 500 men against 10,000 besiegers, turning momentum to the British in the Second Carnatic War."
+    },
+    {
+      "term": "Battle of Wandiwash (1760)",
+      "definition": "Decisive battle near Pondicherry where British General Eyre Coote defeated French General Count de Lally, permanently ending French military power in India."
+    },
+    {
+      "term": "Treaty of Aix-la-Chapelle (1748)",
+      "definition": "European peace treaty ending the War of Austrian Succession and First Carnatic War; restored Madras to British in exchange for Louisbourg."
+    },
+    {
+      "term": "Treaty of Paris (1763)",
+      "definition": "Peace treaty concluding the Seven Years' War and Third Carnatic War; stripped French of military forts in India, leaving them only unfortified commercial posts."
+    }
+  ],
+  "tables": [
+    {
+      "title": "Summary of the Three Carnatic Wars (SSC Master Table)",
+      "headers": ["War", "Period", "European Background / Cause", "Key Battles & Turning Points", "Treaty & Outcome"],
+      "rows": [
+        ["First Carnatic War", "1746–1748", "War of Austrian Succession (1740–48); EIC fleet seized French ships.", "Battle of St. Thome / Adyar (1746): French defeated Nawab Anwar-ud-din; French captured Madras.", "Treaty of Aix-la-Chapelle (1748). Madras restored to British in exchange for Louisbourg."],
+        ["Second Carnatic War", "1749–1754", "Local proxy succession disputes in Hyderabad & Carnatic.", "Battle of Ambur (1749); Robert Clive's Siege of Arcot (1751 — 53 days defense).", "Treaty of Pondicherry (1754). Dupleix recalled to France; non-interference policy."],
+        ["Third Carnatic War", "1758–1763", "Seven Years' War (1756–63) in Europe.", "Battle of Wandiwash (1760): Sir Eyre Coote crushed French under Count de Lally; capture of Pondicherry (1761).", "Peace Treaty of Paris (1763). French political & military power in India permanently ended."]
+      ]
+    },
+    {
+      "title": "Early British Factories & Settlements in India",
+      "headers": ["Year", "Location", "Key Figure", "Historical Significance"],
+      "rows": [
+        ["1613", "Surat", "Captain Thomas Best", "First official permanent EIC factory (after 1612 Battle of Swally)."],
+        ["1639", "Madras (Fort St. George)", "Francis Day", "First British fort in India; Coromandel Coast HQ."],
+        ["1651", "Hugli (Bengal)", "Dr. Gabriel Boughton", "First EIC foothold in rich Bengal province."],
+        ["1668", "Bombay", "King Charles II", "Leased from Crown for £10/yr (Portuguese dowry); became West HQ 1687."],
+        ["1690", "Calcutta (Fort William)", "Job Charnock", "Sutanuti/Kalikata/Gobindapur zamindari; Fort William built 1700."]
+      ]
+    },
+    {
+      "title": "Carnatic War Factions & Alliances (2nd War Proxy Contest)",
+      "headers": ["Region", "Contested Throne", "French-Backed Candidate", "British-Backed Candidate", "Winner"],
+      "rows": [
+        ["Hyderabad", "Nizam of Hyderabad", "Muzaffar Jung", "Nasir Jung", "Salabat Jung (French puppet initially, later British)"],
+        ["Carnatic", "Nawab of Carnatic", "Chanda Sahib", "Muhammad Ali (son of Anwar-ud-din)", "Muhammad Ali (British victory post-Arcot)"]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "concept": "Carnatic War Treaties Order",
+      "mnemonic": "APP → Aix-la-Chapelle → Pondicherry → Paris",
+      "explanation": "Sequence of treaties ending the 3 Carnatic Wars: 1st War = Aix-la-Chapelle (1748), 2nd War = Pondicherry (1754), 3rd War = Paris (1763). Mnemonic: APP!"
+    },
+    {
+      "concept": "Second Carnatic War Alliances",
+      "mnemonic": "French backed MC (Muzaffar & Chanda) | British backed NM (Nasir & Muhammad)",
+      "explanation": "Easy way to remember proxy alliances: French = Muzaffar Jung + Chanda Sahib. British = Nasir Jung + Muhammad Ali."
+    },
+    {
+      "concept": "First British Fort",
+      "mnemonic": "George before William → Fort St. George (Madras 1639) before Fort William (Calcutta 1700)",
+      "explanation": "Alphabetically & chronologically, St. George comes first (1639, Madras), Fort William comes second (1700, Calcutta). Never confuse which came first!"
+    },
+    {
+      "concept": "Battle of Wandiwash Victor",
+      "mnemonic": "Wandiwash = Coote washed away Lally!",
+      "explanation": "Sir Eyre Coote 'washed away' French Count de Lally at Wandiwash in 1760!"
+    }
+  ],
+  "examTraps": [
+    {
+      "topic": "First British Fort in India",
+      "trap": "Many students think Fort William (Calcutta) was the first British fort.",
+      "correction": "Fort St. George in Madras (1639) was the FIRST British fort. Fort William (Calcutta) was built later in 1700."
+    },
+    {
+      "topic": "Hawkins vs Thomas Best vs Thomas Roe",
+      "trap": "Hawkins obtained the Surat factory firman from Jahangir.",
+      "correction": "Hawkins (1608) FAILED. Thomas Best won Battle of Swally (1612) which led to Surat factory (1613). Sir Thomas Roe (1615) got general trade rights."
+    },
+    {
+      "topic": "Battle of St. Thome vs Battle of Wandiwash",
+      "trap": "Confusing the two major battles in Carnatic history.",
+      "correction": "St. Thome (1746) = First War (French beat Nawab). Wandiwash (1760) = Third War (British beat French)."
+    },
+    {
+      "topic": "Status of French after 1763 Treaty of Paris",
+      "trap": "Thinking French were completely expelled from India in 1763.",
+      "correction": "French retained Pondicherry, Mahe, Karikal, Yanam until 1954, but were forbidden from fortifying them or keeping armies."
+    },
+    {
+      "topic": "Bombay Acquisition",
+      "trap": "Thinking British conquered Bombay from Marathas or Mughals.",
+      "correction": "British got Bombay peacefully as dowry from Portugal (Catherine of Braganza to Charles II) in 1661 and leased it to EIC in 1668."
+    }
+  ],
+  "pyqAnalysis": {
+    "frequentlyTestedConcepts": [
+      "Sequence of EIC factories: Surat (1613), Madras (1639), Bombay (1668), Calcutta (1690)",
+      "Farrukhsiyar's Farman (1717) — Dastak privileges and Magna Carta title",
+      "Three Carnatic Wars treaties: Aix-la-Chapelle (1748), Pondicherry (1754), Paris (1763)",
+      "Battle of St. Thome (1746) — French defeat of Nawab Anwar-ud-din",
+      "Siege of Arcot (1751) — Robert Clive's 53-day defense",
+      "Battle of Wandiwash (1760) — Eyre Coote vs Count de Lally",
+      "Reasons for French failure vs EIC (Bengal wealth, Royal Navy, private joint-stock model)"
+    ],
+    "repeatedThemes": [
+      "Which treaty ended the First/Second/Third Carnatic War?",
+      "Who built Fort St. George? (Francis Day, Madras, 1639)",
+      "What was Dastak? (Duty-free trade pass under 1717 Farman)",
+      "Who won Battle of Wandiwash? (Sir Eyre Coote, 1760)",
+      "How did British acquire Bombay? (Portuguese dowry to Charles II)"
+    ],
+    "difficultyTrend": "Tier-1: Direct factual questions (years, treaties, generals, fort names). Tier-2 & State PCS: Analytical questions on causes of French defeat, proxy alliances, and impact of Farrukhsiyar's Farman."
+  },
+  "mcqs": [
+    {
+      "question": "Which English captain defeated the Portuguese fleet at the Battle of Swally (1612), leading to Jahangir granting permission for the Surat factory?",
+      "options": ["Captain William Hawkins", "Captain Thomas Best", "Sir Thomas Roe", "Francis Day"],
+      "correctAnswer": "Captain Thomas Best",
+      "explanation": "Captain Thomas Best defeated the Portuguese naval fleet at Swally (Suvali) off Surat in 1612. Impressed by this victory, Emperor Jahangir issued a imperial firman granting the English permission to establish their first official factory at Surat in 1613.",
+      "topicTag": "EIC Early History",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "The FIRST British fort constructed on Indian soil was:",
+      "options": ["Fort William (Calcutta)", "Fort St. George (Madras)", "Fort David (Cuddalore)", "Fort Anjediva"],
+      "correctAnswer": "Fort St. George (Madras)",
+      "explanation": "Fort St. George at Madras, constructed in 1639 by Francis Day on land leased from the Raja of Chandragiri, was the first fortified British factory in India.",
+      "topicTag": "British Settlements",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which Mughal Emperor issued the famous Royal Farman of 1717, granting duty-free trade rights (Dastak) to the English East India Company in Bengal?",
+      "options": ["Jahangir", "Bahadur Shah I", "Farrukhsiyar", "Shah Alam II"],
+      "correctAnswer": "Farrukhsiyar",
+      "explanation": "Emperor Farrukhsiyar issued the 1717 imperial decree, granting EIC duty-free trade rights (Dastak) in Bengal, Bihar, and Orissa for a nominal annual payment of ₹3,000. It is called the 'Magna Carta' of the Company.",
+      "topicTag": "Mughal Firmans",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "The First Carnatic War (1746–1748) was an extension of which European conflict?",
+      "options": ["Seven Years' War", "War of Austrian Succession", "Thirty Years' War", "Napoleonic Wars"],
+      "correctAnswer": "War of Austrian Succession",
+      "explanation": "The First Carnatic War was a direct spillover of the War of Austrian Succession (1740–1748) in Europe, where Britain and France fought on opposing sides.",
+      "topicTag": "First Carnatic War",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "In the Battle of St. Thome (1746), a small French force under Captain Paradis defeated the large army of which Nawab of Carnatic?",
+      "options": ["Chanda Sahib", "Anwar-ud-din", "Saadatullah Khan", "Muhammad Ali"],
+      "correctAnswer": "Anwar-ud-din",
+      "explanation": "Nawab Anwar-ud-din sent an army of 10,000 under Mahfuz Khan to aid the British, but a small French force of ~930 men under Captain Paradis decisively defeated them at St. Thome on the Adyar River.",
+      "topicTag": "First Carnatic War",
+      "difficulty": "Hard"
+    },
+    {
+      "question": "The famous 53-day Siege of Arcot (1751) which turned the tide of the Second Carnatic War was led by:",
+      "options": ["Stringer Lawrence", "Robert Clive", "Sir Eyre Coote", "Warren Hastings"],
+      "correctAnswer": "Robert Clive",
+      "explanation": "25-year-old Robert Clive captured Arcot (capital of Carnatic) with 500 men and successfully defended it for 53 days against 10,000 besiegers, shattering French prestige and turning the momentum to the British.",
+      "topicTag": "Second Carnatic War",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which treaty brought an end to the Second Carnatic War in 1754 and resulted in the recall of French Governor Dupleix?",
+      "options": ["Treaty of Aix-la-Chapelle", "Treaty of Pondicherry", "Treaty of Paris", "Treaty of Allahabad"],
+      "correctAnswer": "Treaty of Pondicherry",
+      "explanation": "The Treaty of Pondicherry (1754), negotiated by Godeheu (who replaced the recalled Dupleix), ended the Second Carnatic War with both companies agreeing not to interfere in native princes' succession disputes.",
+      "topicTag": "Second Carnatic War",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Who commanded the British army in the decisive Battle of Wandiwash (1760)?",
+      "options": ["Robert Clive", "Sir Eyre Coote", "Major Hector Munro", "Count de Lally"],
+      "correctAnswer": "Sir Eyre Coote",
+      "explanation": "General Sir Eyre Coote commanded British forces to a crushing victory over the French under Count de Lally at Wandiwash on 22 January 1760, ending French military power in India.",
+      "topicTag": "Third Carnatic War",
+      "difficulty": "Easy"
+    },
+    {
+      "question": "Which treaty ended the Third Carnatic War in 1763, confining the French strictly to unfortified trading posts in India?",
+      "options": ["Treaty of Paris", "Treaty of Aix-la-Chapelle", "Treaty of Pondicherry", "Treaty of Salbai"],
+      "correctAnswer": "Treaty of Paris",
+      "explanation": "The Peace Treaty of Paris (1763) concluded the Seven Years' War and Third Carnatic War. French factories in India were restored for commerce only, but fortifications and troops were strictly prohibited.",
+      "topicTag": "Third Carnatic War",
+      "difficulty": "Medium"
+    },
+    {
+      "question": "Which of the following was a MAJOR structural advantage of the English East India Company over the French Company?",
+      "options": [
+        "EIC was a state-controlled department with unlimited government funds",
+        "EIC was a private joint-stock corporation independent of government interference",
+        "French company had superior naval fleets in the Indian Ocean",
+        "French company controlled the rich province of Bengal post-1757"
+      ],
+      "correctAnswer": "EIC was a private joint-stock corporation independent of government interference",
+      "explanation": "EIC was a private joint-stock enterprise governed by profit-oriented directors and shareholders, making it agile and financially self-sufficient, whereas the French Company was a state-owned department hamstrung by court bureaucracy and dependent on government subsidies.",
+      "topicTag": "British vs French Comparison",
+      "difficulty": "Hard"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "When was the English East India Company chartered and by whom?",
+      "back": "31 December 1600 — Royal Charter granted by Queen Elizabeth I for 15 years monopoly."
+    },
+    {
+      "front": "Battle of Swally (1612) — significance?",
+      "back": "Captain Thomas Best defeated Portuguese fleet off Surat → Jahangir issued firman → First official English factory at Surat (1613)."
+    },
+    {
+      "front": "Fort St. George vs Fort William — location and founding years?",
+      "back": "Fort St. George: Madras (1639, by Francis Day) — FIRST British fort. Fort William: Calcutta (1700, by Job Charnock)."
+    },
+    {
+      "front": "Farrukhsiyar's Farman (1717) — what was it?",
+      "back": "Mughal imperial decree granting EIC duty-free trade (Dastak) in Bengal for ₹3,000/yr. Called the 'Magna Carta' of EIC."
+    },
+    {
+      "front": "Three Carnatic Wars treaties in order (Mnemonic: APP)?",
+      "back": "1st War (1746-48): Treaty of Aix-la-Chapelle (1748). 2nd War (1749-54): Treaty of Pondicherry (1754). 3rd War (1758-63): Treaty of Paris (1763)."
+    },
+    {
+      "front": "Battle of St. Thome / Adyar (1746) — significance?",
+      "back": "Captain Paradis (~930 French) defeated 10,000 troops of Nawab Anwar-ud-din. Proved small, disciplined European armies could crush large Indian forces."
+    },
+    {
+      "front": "Siege of Arcot (1751) — hero and impact?",
+      "back": "Robert Clive (25 yrs old) captured & held Arcot for 53 days with 500 men against 10,000 besiegers. Turning point of Second Carnatic War."
+    },
+    {
+      "front": "Battle of Wandiwash (1760) — commanders and outcome?",
+      "back": "Sir Eyre Coote (British) defeated Count de Lally (French) on 22 Jan 1760. Decisive victory that ended French military power in India."
+    },
+    {
+      "front": "How did the British acquire Bombay in 1668?",
+      "back": "Received as dowry by King Charles II from Portugal (Catherine of Braganza, 1661) and leased to EIC for £10 per year."
+    },
+    {
+      "front": "Why did British defeat French in Carnatic Wars? (Top 3 reasons)",
+      "back": "1) EIC was private joint-stock (agile/solvent) vs French state-owned. 2) British Royal Navy sea control. 3) Wealth of Bengal (post-Plassey 1757) funded British armies."
+    }
+  ],
+  "revisionPoints": [
+    "EIC Chartered: 31 Dec 1600 → Queen Elizabeth I → 15 yrs monopoly",
+    "Hawkins (1608): Failed to get Jahangir's firman due to Portuguese",
+    "Battle of Swally (1612): Thomas Best beat Portuguese → Surat factory (1613)",
+    "Sir Thomas Roe (1615–19): Ambassador of James I → Obtained trade firmans across Mughal empire",
+    "Madras (1639): Francis Day → Fort St. George (1st British fort)",
+    "Bombay (1668): Portuguese dowry to Charles II → leased to EIC for £10/yr",
+    "Calcutta (1690): Job Charnock → Sutanuti/Kalikata/Gobindapur → Fort William (1700)",
+    "Farrukhsiyar's Farman (1717): Magna Carta of EIC → Dastak in Bengal for ₹3,000/yr",
+    "First Carnatic War (1746–48): Austrian Succession spillover → French took Madras → Battle of St. Thome (1746) → Treaty of Aix-la-Chapelle (1748)",
+    "Second Carnatic War (1749–54): Proxy war → Battle of Ambur (1749) → Clive's Siege of Arcot (1751, 53 days) → Treaty of Pondicherry (1754)",
+    "Third Carnatic War (1758–63): Seven Years' War spillover → Battle of Wandiwash (1760, Eyre Coote vs Lally) → Treaty of Paris (1763)",
+    "Treaty of Paris (1763): French kept Pondicherry unfortified; lost military power",
+    "Why British won: Private joint-stock model + Royal Navy + Wealth of Bengal post-Plassey (1757)"
+  ],
+  "revisionSheet": [
+    "1600: Royal Charter granted to EIC by Queen Elizabeth I (31 Dec)",
+    "1608: Captain William Hawkins arrives at Surat & Agra",
+    "1612: Battle of Swally → Thomas Best beats Portuguese",
+    "1613: First official EIC factory at Surat",
+    "1615–19: Sir Thomas Roe's embassy to Jahangir",
+    "1639: Francis Day acquires Madras → builds Fort St. George",
+    "1651: First factory in Bengal at Hugli (Dr. Boughton)",
+    "1668: Bombay leased to EIC by Charles II (£10/yr)",
+    "1690: Job Charnock founds Calcutta (Sutanuti)",
+    "1700: Fort William constructed at Calcutta",
+    "1717: Farrukhsiyar's Farman → Dastak duty-free rights",
+    "1746: First Carnatic War → French capture Madras → Battle of St. Thome",
+    "1748: Treaty of Aix-la-Chapelle → Ends First Carnatic War (Madras returned)",
+    "1749: Second Carnatic War → Battle of Ambur (Anwar-ud-din killed)",
+    "1751: Siege of Arcot → Clive's 53-day defense",
+    "1754: Treaty of Pondicherry → Dupleix recalled to France",
+    "1756: Seven Years' War begins → Third Carnatic War",
+    "1757: Battle of Plassey → British gain Bengal wealth",
+    "1760: Battle of Wandiwash → Eyre Coote crushes Count de Lally",
+    "1761: Pondicherry captured by British",
+    "1763: Treaty of Paris → French lose all military power in India"
+  ],
+  "relatedTopics": {
+    "previousTopic": "Portuguese & Dutch in India",
+    "previousTopicId": "portuguese-and-dutch-in-india",
+    "nextTopic": "The Revolt of 1857",
+    "nextTopicId": "revolt-of-1857"
+  }
+}
