@@ -103,19 +103,25 @@ class ActivityStore {
     // 2. Notify subscribers so dashboard re-renders instantly
     this.notifySubscribers();
 
-    // 3. Sync to backend API if authenticated
+    // 3. Sync to backend API only if a valid session exists
     try {
-      const serverResponse = await api.request('/api/activity/log', {
-        method: 'POST',
-        body: JSON.stringify(event)
-      });
+      // Skip silently if not authenticated — ApiService handles 403 → session-expired event
+      if (api.isTokenValid()) {
+        const serverResponse = await api.request('/api/activity/log', {
+          method: 'POST',
+          body: JSON.stringify(event)
+        });
 
-      // If backend returns updated analytics payload, merge and update
-      if (serverResponse && serverResponse.dashboard) {
-        this.notifySubscribers();
+        // If backend returns updated analytics payload, merge and update
+        if (serverResponse && serverResponse.dashboard) {
+          this.notifySubscribers();
+        }
       }
     } catch (e) {
-      console.warn('ActivityStore background sync warning:', e.message);
+      // Only log genuinely unexpected errors, not auth failures
+      if (!e.message.includes('Session expired') && !e.message.includes('expired token')) {
+        console.warn('ActivityStore background sync warning:', e.message);
+      }
     }
 
     return event;

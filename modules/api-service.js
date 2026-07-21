@@ -8,8 +8,43 @@ class ApiService {
     return localStorage.getItem('gkgs_auth_token');
   }
 
-  async request(endpoint, options = {}) {
+  /**
+   * Decode a JWT payload without verifying signature (client-side only).
+   * Returns null if the token is missing, malformed, or expired.
+   */
+  isTokenValid() {
     const token = this.getToken();
+    if (!token) return false;
+    try {
+      const payload = JSON.parse(atob(token.split('.')[1]));
+      // exp is in seconds; Date.now() is in ms
+      return payload.exp && payload.exp * 1000 > Date.now();
+    } catch {
+      return false;
+    }
+  }
+
+  /**
+   * Clear stale credentials and notify the app to show login overlay.
+   * Safe to call multiple times (no-op if already logged out).
+   */
+  _handleAuthFailure() {
+    const hadToken = !!this.getToken();
+    localStorage.removeItem('gkgs_auth_token');
+    localStorage.removeItem('gkgs_user');
+    if (hadToken) {
+      window.dispatchEvent(new CustomEvent('auth:session-expired'));
+    }
+  }
+
+  async request(endpoint, options = {}) {
+    // Bail immediately (without a network round-trip) if the token is already expired
+    const token = this.getToken();
+    if (token && !this.isTokenValid()) {
+      this._handleAuthFailure();
+      throw new Error('Session expired. Please log in again.');
+    }
+
     const headers = {
       'Content-Type': 'application/json',
       ...(options.headers || {})
@@ -25,6 +60,13 @@ class ApiService {
         headers
       });
 
+      // 401 = no token / 403 = invalid / expired token
+      if (response.status === 401 || response.status === 403) {
+        this._handleAuthFailure();
+        const errorData = await response.json().catch(() => ({}));
+        throw new Error(errorData.error || 'Session expired. Please log in again.');
+      }
+
       if (!response.ok) {
         const errorData = await response.json().catch(() => ({}));
         throw new Error(errorData.error || `HTTP error! status: ${response.status}`);
@@ -32,7 +74,10 @@ class ApiService {
 
       return await response.json();
     } catch (err) {
-      console.warn(`ApiService Request Failed [${endpoint}]:`, err.message);
+      // Only log non-auth errors to avoid console noise after logout
+      if (!err.message.includes('Session expired')) {
+        console.warn(`ApiService Request Failed [${endpoint}]:`, err.message);
+      }
       throw err;
     }
   }

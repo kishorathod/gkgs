@@ -72,16 +72,37 @@ async function initAuth() {
   const authError = document.getElementById('auth-error');
   const logoutBtn = document.getElementById('btn-logout');
 
-  // Check cached auth state
+  // ── Session-expired handler (fired by ApiService on 401/403) ──────────
+  window.addEventListener('auth:session-expired', () => {
+    stopSessionTimer();
+    authOverlay.classList.add('active');
+    showAuthError('Your session has expired. Please sign in again.');
+    showToast('Session expired — please log in.');
+  });
+
+  // Check cached auth state — validate JWT expiry client-side before trusting it
   const cachedUser = localStorage.getItem('gkgs_user');
   const cachedToken = localStorage.getItem('gkgs_auth_token');
 
-  if (cachedToken && cachedUser) {
+  const isTokenStillValid = (() => {
+    if (!cachedToken) return false;
+    try {
+      const payload = JSON.parse(atob(cachedToken.split('.')[1]));
+      return payload.exp && payload.exp * 1000 > Date.now();
+    } catch { return false; }
+  })();
+
+  if (isTokenStillValid && cachedUser) {
     authOverlay.classList.remove('active');
     renderUserProfile(JSON.parse(cachedUser));
     await refreshDashboard();
     startSessionTimer();
   } else {
+    // Clear any stale/expired credentials silently
+    if (cachedToken && !isTokenStillValid) {
+      localStorage.removeItem('gkgs_auth_token');
+      localStorage.removeItem('gkgs_user');
+    }
     authOverlay.classList.add('active');
   }
 
@@ -170,21 +191,51 @@ function showAuthError(msg) {
 // ── Google Sign-In Authentication ──────────────────────────────────────
 
 function initGoogleOAuth() {
+  // Google OAuth is optional — if the GIS SDK fails to load or the client ID
+  // is not authorized for this domain, we degrade gracefully to email/password.
+  let attempts = 0;
+  const maxAttempts = 10; // 5 seconds
   const checkGisInterval = setInterval(() => {
+    attempts++;
+    if (attempts > maxAttempts) {
+      clearInterval(checkGisInterval);
+      // Hide the Google login button container gracefully
+      const googleBtn = document.getElementById('google-login-button');
+      if (googleBtn) googleBtn.style.display = 'none';
+      const googleDivider = document.getElementById('google-auth-divider');
+      if (googleDivider) googleDivider.style.display = 'none';
+      return;
+    }
+
     if (typeof google !== 'undefined' && google.accounts && google.accounts.id) {
       clearInterval(checkGisInterval);
 
-      google.accounts.id.initialize({
-        client_id: "874794269176-s33rblsc62d7j4421b106l1a3v87955c.apps.googleusercontent.com",
-        callback: handleGoogleLoginResponse
-      });
+      try {
+        google.accounts.id.initialize({
+          client_id: "874794269176-s33rblsc62d7j4421b106l1a3v87955c.apps.googleusercontent.com",
+          callback: handleGoogleLoginResponse,
+          auto_select: false,
+          cancel_on_tap_outside: true
+        });
 
-      google.accounts.id.renderButton(
-        document.getElementById("google-login-button"),
-        { theme: "outline", size: "large", text: "signin_with", shape: "rectangular" }
-      );
+        google.accounts.id.renderButton(
+          document.getElementById("google-login-button"),
+          { theme: "outline", size: "large", text: "signin_with", shape: "rectangular" }
+        );
 
-      google.accounts.id.prompt();
+        // Only auto-prompt if not already showing an overlay
+        const authOverlay = document.getElementById('auth-overlay');
+        if (authOverlay && !authOverlay.classList.contains('active')) {
+          google.accounts.id.prompt();
+        }
+      } catch (e) {
+        // Google OAuth unavailable for this domain — hide button, use email/password
+        const googleBtn = document.getElementById('google-login-button');
+        if (googleBtn) googleBtn.style.display = 'none';
+        const googleDivider = document.getElementById('google-auth-divider');
+        if (googleDivider) googleDivider.style.display = 'none';
+        console.info('Google OAuth unavailable on this domain — using email/password auth.');
+      }
     }
   }, 500);
 }
