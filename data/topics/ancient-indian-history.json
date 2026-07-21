@@ -1,0 +1,699 @@
+{
+  "id": "ancient-indian-history",
+  "hero": {
+    "title": "Mastery Guide: Complete Ancient Indian History for SSC CGL",
+    "subtitle": "High-yield, exam-tested coverage of Prehistoric India, Indus Valley, Vedic Period, Mahajanapadas, Buddhism/Jainism, Mauryan Empire, and Gupta Golden Age.",
+    "weightage": "High",
+    "difficulty": "Medium",
+    "estimatedReadingTime": "45 minutes",
+    "expectedQuestions": "2-4 Questions per Tier-1/Tier-2 Shift",
+    "lastUpdated": "2026 Edition",
+    "whyThisTopicMatters": "Ancient History contributes up to 30-40% of the overall History questions in SSC CGL. Questions focus heavily on IVC sites, Vedic terminology, Mauryan rock edicts, Buddhist councils, and Gupta literature."
+  },
+  "quickFacts": [
+    {
+      "icon": "🏺",
+      "fact": "First Urbanization: Indus Valley Civilization (c. 2500–1750 BCE) was the first urban revolution in South Asia."
+    },
+    {
+      "icon": "🧱",
+      "fact": "Burnt Bricks: IVC was unique for using standard 1:2:4 ratio burnt bricks in construction."
+    },
+    {
+      "icon": "🌾",
+      "fact": "Oldest Rice Proof: Koldihwa (UP) and Lahuradewa provide the earliest evidence of rice cultivation."
+    },
+    {
+      "icon": "📖",
+      "fact": "Oldest Text: Rigveda contains 1,028 hymns arranged in 10 Mandalas; Gayatri Mantra is in the 3rd Mandala."
+    },
+    {
+      "icon": "🧘",
+      "fact": "First Sermon: Buddha gave his first sermon (Dharmachakrapravartana) at Sarnath in Pali language."
+    },
+    {
+      "icon": "☸️",
+      "fact": "Jainism Tirthankaras: Rishabhdev was the 1st, Parshvanatha the 23rd, and Mahavira the 24th Tirthankara."
+    },
+    {
+      "icon": "🐘",
+      "fact": "First Empire Builder: Mahapadma Nanda of Magadha was titled 'Ugrasena' and 'Ekarat'."
+    },
+    {
+      "icon": "📜",
+      "fact": "Deciphering Brahmi: James Prinsep deciphered Ashoka's Brahmi edicts in 1837."
+    },
+    {
+      "icon": "👑",
+      "fact": "Napoleon of India: Samudragupta was given this title by historian V.A. Smith due to his military conquests."
+    },
+    {
+      "icon": "🪙",
+      "fact": "Gold Coins: Kushanas issued the purest gold coins; Guptas issued the largest quantity of gold coins (Dinara)."
+    },
+    {
+      "icon": "🏛️",
+      "fact": "Nalanda University: Founded by Gupta ruler Kumaragupta I in the 5th century CE."
+    },
+    {
+      "icon": "✍️",
+      "fact": "Court Poet of Harsha: Banabhatta wrote 'Harshacharita' and 'Kadambari'."
+    }
+  ],
+  "notes": [
+    {
+      "heading": "1. Prehistoric Era & Indus Valley Civilization (IVC)",
+      "explanation": "The Prehistoric period spans Paleolithic (hunter-gatherers), Mesolithic (microliths and animal domestication at Bagor/Adamgarh), Neolithic (polished tools, farming at Mehargarh), and Chalcolithic ages. The Indus Valley Civilization (2500–1750 BCE) marked India's Bronze Age and first urbanization. Characterized by a grid-pattern road network, underground drainage systems, and standardized weight/measure systems, IVC extended from Sutkagan-dor (West) to Alamgirpur (East), and Manda (North) to Daimabad (South). Major economic activities were agriculture (wheat, barley, cotton) and international trade with Mesopotamia (Meluhha).",
+      "keyTakeaways": [
+        "Harappa discovered by Dayaram Sahni (1921) on Ravi river.",
+        "Mohenjo-daro discovered by R.D. Banerji (1922) on Indus river; famous for Great Bath and Bronze Dancing Girl.",
+        "Lothal (Gujarat) had the world's oldest artificial dockyard.",
+        "Kalibangan (Rajasthan) yielded evidence of a ploughed field and fire altars."
+      ],
+      "importantExamPoints": [
+        "Iron was UNKNOWN to Indus Valley people.",
+        "Horse remains found at Surkotada (Gujarat); Dholavira is known for its 3-tier city division and water reservoir.",
+        "Harappan script was pictographic and written right-to-left (Boustrophedon)."
+      ],
+      "commonStudentMistakes": [
+        "Confusing iron usage: Iron was introduced in the Later Vedic Age (c. 1000 BCE), NOT IVC.",
+        "Mislabeling Lothal's river: Lothal is on the Bhogava river, a tributary of Sabarmati, not the main Indus."
+      ]
+    },
+    {
+      "heading": "2. Vedic Age & Rise of Mahajanapadas",
+      "explanation": "The Vedic Age is divided into Early Vedic (1500–1000 BCE) and Later Vedic (1000–500 BCE) periods. Early Vedic society was pastoral, egalitarian, and tribal (governed by Sabha and Samiti). The Rigveda was composed in this period. Later Vedic society witnessed settled agriculture, the discovery of Iron (Shyam Ayas), rigidification of the Varna system, and reduction in the political power of women and tribal assemblies. By 600 BCE, 16 Mahajanapadas emerged, leading to political unification under the Magadha Empire.",
+      "keyTakeaways": [
+        "Rigveda is the oldest religious text; Sama Veda deals with music; Yajur Veda with rituals; Atharva Veda with charms/spells.",
+        "Magadha became dominant due to natural resources (iron ore), strategic capitals (Rajgir surrounded by hills, Pataliputra on river confluence), and elephant forces.",
+        "Haryanka dynasty (Bimbisara, Ajatashatru), Shishunaga dynasty, and Nanda dynasty ruled Magadha prior to Maurya rule."
+      ],
+      "importantExamPoints": [
+        "Bimbisara was contemporary to Buddha and used matrimonial alliances.",
+        "Ajatashatru convened the First Buddhist Council at Rajgir (483 BCE).",
+        "Mahapadma Nanda destroyed Kshatriya dynasties and took the title 'Sarvakshatrantaka'."
+      ],
+      "commonStudentMistakes": [
+        "Confusing Bimbisara (Haryanka ruler) with Bindusara (Mauryan ruler, father of Ashoka).",
+        "Assuming Upanishads deal with rituals: Upanishads focus on philosophy/Jnana, whereas Brahmanas deal with rituals."
+      ]
+    },
+    {
+      "heading": "3. Heterodox Movements: Buddhism & Jainism",
+      "explanation": "6th century BCE witnessed ideological revolts against Vedic ritualism and social rigidity. Buddhism was founded by Siddhartha Gautama (Buddha). Core tenets include Four Noble Truths and Eightfold Path (Ashtangika Marga). Jainism was systematized by Vardhamana Mahavira (24th Tirthankara). Jainism emphasizes Ahimsa (non-violence), Anekantavada, and Triratna (Right Faith, Knowledge, Conduct). Both religions rejected Vedic authority and caste hierarchy, using vernacular languages (Pali for Buddhism, Prakrit/Ardhamagadhi for Jainism).",
+      "keyTakeaways": [
+        "Buddha's events: Renunciation (Mahabhinishkramana), Enlightenment (Nirvana at Bodh Gaya), First Sermon (Dharmachakrapravartana), Death (Mahaparinirvana at Kushinagar).",
+        "Jainism split into Digambaras (sky-clad) and Svetambaras (white-clad) after the Pataliputra Council.",
+        "Buddhism split into Hinayana and Mahayana at the 4th Buddhist Council under Kanishka."
+      ],
+      "importantExamPoints": [
+        "First Buddhist Council: Rajgir (483 BCE, Ajatashatru).",
+        "Second Council: Vaishali (383 BCE, Kalasoka).",
+        "Third Council: Pataliputra (250 BCE, Ashoka).",
+        "Fourth Council: Kashmir (1st Century CE, Kanishka)."
+      ],
+      "commonStudentMistakes": [
+        "Attributing Mahavira as founder of Jainism: He was the 24th Tirthankara; Rishabhdev was the 1st.",
+        "Confusing Tripitakas: Sutta Pitaka (Buddha's teachings), Vinaya Pitaka (monastic rules), Abhidhamma Pitaka (philosophy)."
+      ]
+    },
+    {
+      "heading": "4. The Mauryan Empire (c. 322 – 185 BCE)",
+      "explanation": "Founded by Chandragupta Maurya after defeating Dhanananda with Chanakya's guidance. Megasthenes visited Chandragupta's court and wrote 'Indika'. Bindusara succeeded Chandragupta, followed by Ashoka (268–232 BCE). The Kalinga War (261 BCE) transformed Ashoka from Bherighosha (war drum) to Dhammaghosha (righteousness). Ashoka popularized imperial philosophy using Prakrit inscriptions in Brahmi, Kharosthi, Aramaic, and Greek scripts. Mauryan administration was highly centralized with 27 superintendents (Adhyakshas).",
+      "keyTakeaways": [
+        "Chanakya's Arthashastra outlines the Saptanga Theory (7 elements of state).",
+        "Ashoka sent his children Mahendra and Sanghamitra to Sri Lanka to spread Buddhism.",
+        "Mauryan pillars feature polished sandstone finish (Chunar sandstone) with animal capitals (e.g., Sarnath Lion Capital)."
+      ],
+      "importantExamPoints": [
+        "Major Rock Edict XIII mentions the Kalinga War.",
+        "Major Rock Edict XII promotes religious tolerance.",
+        "The last Mauryan ruler Brihadratha was assassinated by Pushyamitra Shunga in 185 BCE."
+      ],
+      "commonStudentMistakes": [
+        "Mixing script and language: Ashoka's inscriptions were mostly in the PRAKRIT language using the BRAHMI script in India.",
+        "Confusing Kharosthi script direction: Kharosthi is written from right to left."
+      ]
+    },
+    {
+      "heading": "5. Gupta Empire & Post-Gupta Era",
+      "explanation": "The Gupta Empire (320–550 CE) was established by Sri Gupta, but Chandragupta I was its real founder (adopted title Maharajadhiraja). Samudragupta expanded the empire extensively (Prayag Prashasti by Harisena). Chandragupta II (Vikramaditya) defeated the Shakas and hosted the Navaratnas (including Kalidasa, Varahamihira, Amarasimha). Chinese traveler Fa-Hien visited during his reign. Post-Gupta era saw the rise of Harshavardhana (606–647 CE) of Pushyabhuti dynasty in Kannauj, recorded by Hiuen Tsang.",
+      "keyTakeaways": [
+        "Samudragupta is called 'Napoleonic' for non-stop military success and was depicted playing the Veena on coins.",
+        "Gupta age saw the start of free-standing structural Hindu temples (e.g., Dashavatara temple at Deogarh).",
+        "Harsha was defeated at the Narmada river bank by Pulakeshin II (Chalukya king), as per Aihole Inscription."
+      ],
+      "importantExamPoints": [
+        "Gold coins of Guptas were called 'Dinaras'; Silver coins were 'Rupyakas'.",
+        "Nalanda University was destroyed by Bakhtiyar Khilji around 1200 CE."
+      ],
+      "commonStudentMistakes": [
+        "Attributing Nalanda to Samudragupta: It was built by Kumaragupta I.",
+        "Mixing Chinese travelers: Fa-Hien visited during Chandragupta II (Gupta); Hiuen Tsang visited during Harshavardhana."
+      ]
+    }
+  ],
+  "timeline": [
+    {
+      "year": "c. 2500–1750 BCE",
+      "title": "Indus Valley Civilization",
+      "shortDescription": "Peak period of South Asia's first urban civilization.",
+      "importance": "Standardized brick architecture, extensive trade, town planning."
+    },
+    {
+      "year": "c. 1500–1000 BCE",
+      "title": "Early Vedic Period",
+      "shortDescription": "Composition of Rigveda by Indo-Aryans in Saptasindhu region.",
+      "importance": "Pastoral economy, tribal political setup."
+    },
+    {
+      "year": "c. 1000–500 BCE",
+      "title": "Later Vedic Period",
+      "shortDescription": "Introduction of iron (Shyam Ayas) and expansion into Gangetic valley.",
+      "importance": "Transition to settled agriculture, rise of Varna system."
+    },
+    {
+      "year": "c. 563 & 540 BCE",
+      "title": "Birth of Buddha & Mahavira",
+      "shortDescription": "Emergence of heterodox anti-ritualistic reform movements.",
+      "importance": "Foundation of Buddhism and Jainism."
+    },
+    {
+      "year": "c. 322 BCE",
+      "title": "Foundation of Mauryan Empire",
+      "shortDescription": "Chandragupta Maurya overthrows Dhanananda with Chanakya's assistance.",
+      "importance": "First pan-Indian political unification."
+    },
+    {
+      "year": "261 BCE",
+      "title": "Kalinga War",
+      "shortDescription": "Ashoka conquers Kalinga; rejects war for Dhamma.",
+      "importance": "Shift in Mauryan policy from military conquest to spiritual patronage."
+    },
+    {
+      "year": "320 CE",
+      "title": "Accession of Chandragupta I",
+      "shortDescription": "Marks the starting point of the Gupta Era.",
+      "importance": "Initiates the Golden Age of classical art, literature, and science."
+    },
+    {
+      "year": "606–647 CE",
+      "title": "Reign of Harshavardhana",
+      "shortDescription": "Rule of the last major north Indian sovereign before regional fragmentations.",
+      "importance": "Visit of Hiuen Tsang and patronizing Kannauj/Nalanda assembly."
+    }
+  ],
+  "personalities": [
+    {
+      "name": "Chanakya (Kautilya / Vishnugupta)",
+      "role": "Prime Minister to Chandragupta Maurya, Political Theorist",
+      "years": "c. 4th Century BCE",
+      "majorContributions": "Authored 'Arthashastra', a master treatise on statecraft, espionage, military strategy, and economics. Engineered the fall of the Nanda Dynasty.",
+      "sscTrick": "Remember 'K-A-V': Kautilya = Arthashastra = Vishnugupta."
+    },
+    {
+      "name": "Ashoka the Great",
+      "role": "3rd Mauryan Emperor",
+      "years": "c. 268–232 BCE",
+      "majorContributions": "Propagated 'Dhamma', erected rock/pillar edicts in Brahmi/Kharosthi, sent Buddhist emissaries globally, convened 3rd Buddhist Council.",
+      "sscTrick": "Ashoka = 3rd Council, 3rd Century BCE, XIII Edict for Kalinga."
+    },
+    {
+      "name": "Samudragupta",
+      "role": "Gupta Emperor",
+      "years": "c. 335–380 CE",
+      "majorContributions": "Conquered North (Aryavarta) and Southern India (Dakshinapatha). Commissioned Prayag Prashasti written by court poet Harisena. Performed Ashvamedha Yajna.",
+      "sscTrick": "Samudra = Ocean of victories = 'Napoleon of India' (V.A. Smith)."
+    },
+    {
+      "name": "Chandragupta II (Vikramaditya)",
+      "role": "Gupta Emperor",
+      "years": "c. 380–415 CE",
+      "majorContributions": "Eradicated Shaka rule in Western India. Patronized 'Navaratnas' (including Kalidasa, Varahamihira). Host to Chinese pilgrim Fa-Hien.",
+      "sscTrick": "C-2 = Silver Coins (Rupyaka) + Navaratnas + Fa-Hien."
+    },
+    {
+      "name": "Kanishka",
+      "role": "Kushana Emperor",
+      "years": "c. 78 CE (Start of Saka Era)",
+      "majorContributions": "Patronized Gandhara & Mathura schools of art. Held 4th Buddhist Council in Kashmir. Issued high-purity gold coinage. Patron to Ashvaghosha & Charaka.",
+      "sscTrick": "Kanishka = Saka Era (78 CE) + Kashmir Council + Kanishkapura."
+    }
+  ],
+  "terms": [
+    {
+      "term": "Boustrophedon",
+      "meaning": "Style of writing used in Indus Valley scripts where alternating lines are written in opposite directions (e.g., right-to-left, then left-to-right)."
+    },
+    {
+      "term": "Sabha & Samiti",
+      "meaning": "Vedic political assemblies. 'Sabha' was a council of elders/nobles, while 'Samiti' was a general assembly of common people."
+    },
+    {
+      "term": "Saptanga Theory",
+      "meaning": "Kautilya's 7 elements of state: Swami (King), Amatya (Ministers), Janapada (Territory/People), Durg (Fort), Kosha (Treasury), Bala (Army), Mitra (Ally)."
+    },
+    {
+      "term": "Agrahara",
+      "meaning": "Rent-free land granted to Brahmins in ancient India, often carrying tax exemption rights and income rights from local residents."
+    },
+    {
+      "term": "Dharmachakrapravartana",
+      "meaning": "Literally 'Turning of the Wheel of Law'. Refers to Gautama Buddha's first sermon delivered to 5 disciples at Deer Park in Sarnath."
+    },
+    {
+      "term": "Anekantavada",
+      "meaning": "Core Jain philosophical doctrine asserting that truth and reality are complex and have multiple aspects (many-sidedness)."
+    }
+  ],
+  "tables": [
+    {
+      "tableName": "Buddhist Councils Overview",
+      "headers": ["Council", "Year", "Place", "Patron Ruler", "President", "Outcome"],
+      "rows": [
+        ["1st Council", "483 BCE", "Rajgir (Sattapani Cave)", "Ajatashatru", "Mahakassapa", "Compilation of Sutta Pitaka & Vinaya Pitaka"],
+        ["2nd Council", "383 BCE", "Vaishali", "Kalasoka", "Sabakami", "Split into Sthaviravadins & Mahasanghikas"],
+        ["3rd Council", "250 BCE", "Pataliputra", "Ashoka", "Moggaliputta Tissa", "Compilation of Abhidhamma Pitaka; Emissaries sent"],
+        ["4th Council", "78 CE / 1st C.", "Kundalvana (Kashmir)", "Kanishka", "Vasumitra (Dep: Ashvaghosha)", "Split into Hinayana and Mahayana"]
+      ]
+    },
+    {
+      "tableName": "Indus Valley Sites & Discoveries",
+      "headers": ["Site", "River", "Location", "Key Discoveries"],
+      "rows": [
+        ["Harappa", "Ravi", "Punjab (Pakistan)", "6 Granaries in a row, Coffin burial, Virgin Goddess seal"],
+        ["Mohenjo-daro", "Indus", "Sindh (Pakistan)", "Great Bath, Great Granary, Bronze Dancing Girl, Pashupati Seal"],
+        ["Lothal", "Bhogava", "Gujarat", "Dockyard, Rice husk, Double burial, Terracotta horse figurine"],
+        ["Kalibangan", "Ghaggar", "Rajasthan", "Ploughed field, Fire altars, Wooden drainage, Camel bones"],
+        ["Dholavira", "Luni", "Gujarat", "3-tier city structure, Water reservoir, Giant signboard script"]
+      ]
+    },
+    {
+      "tableName": "Ancient Rivers (Vedic Names vs Modern Names)",
+      "headers": ["Rigvedic Name", "Modern Name"],
+      "rows": [
+        ["Vitasta", "Jhelum"],
+        ["Asikni", "Chenab"],
+        ["Parushni", "Ravi"],
+        ["Vipas", "Beas"],
+        ["Sutudri", "Sutlej"],
+        ["Kubha", "Kabul"]
+      ]
+    }
+  ],
+  "memoryTricks": [
+    {
+      "concept": "Order of Magadhan Dynasties",
+      "mnemonic": "H-S-N-M-S-K",
+      "explanation": "Haryanka → Shishunaga → Nanda → Maurya → Shunga → Kanva. Remember 'HASINA MauSKa' to instantly crack chronological arrangement questions in SSC."
+    },
+    {
+      "concept": "Ancient Rivers (Vitasta = Jhelum, Parushni = Ravi)",
+      "association": "1. 'Jhelum' is a pain you 'Vitasta' (tolerate). 2. 'Parushni' sounds like 'Purush' (Man) named 'Ravi'."
+    },
+    {
+      "concept": "Foreign Travelers: Fa-Hien vs Hiuen Tsang",
+      "story": "Both start with 'H' — 'H'iuen Tsang visited 'H'arshavardhana. Fa-Hien visited Chandragupta (no H-match = Gupta, not Harsha)."
+    }
+  ],
+  "examTraps": {
+    "title": "⚠️ Frequently Confused Concepts & SSC Traps",
+    "traps": [
+      {
+        "confusedPair": "Bimbisara vs Bindusara",
+        "explanation": "Bimbisara was the founder of the Haryanka Dynasty and contemporary to Buddha. Bindusara was Chandragupta Maurya's son and Ashoka's father. SSC often swaps them in dynasty options."
+      },
+      {
+        "confusedPair": "Gold Coin Issuers (Indo-Greeks vs Kushanas vs Guptas)",
+        "explanation": "Indo-Greeks were the FIRST to issue gold coins in India. Kushanas issued the PUREST gold coins. Guptas issued the LARGEST NUMBER of gold coins."
+      },
+      {
+        "confusedPair": "Pali vs Prakrit vs Sanskrit in Inscriptions/Texts",
+        "explanation": "Early Buddhist texts are in PALI. Early Jain texts are in PRAKRIT (Ardhamagadhi). Ashokan edicts are in PRAKRIT language (Brahmi script). Junagadh Inscription of Rudradaman is the first long inscription in Pure SANSKRIT."
+      },
+      {
+        "confusedPair": "First & Last Tirthankara",
+        "explanation": "1st Tirthankara = Rishabhdev (Adinath). 23rd = Parshvanatha. 24th = Mahavira. Do not mark Mahavira as the first Tirthankara."
+      },
+      {
+        "confusedPair": "Foreign Travelers: Fa-Hien vs Hiuen Tsang",
+        "explanation": "Fa-Hien came during Chandragupta II (Gupta Empire). Hiuen Tsang (H-Tsang) came during Harsha (H-Harsha). Mnemonic: Both 'H' words match."
+      }
+    ]
+  },
+  "pyqAnalysis": {
+    "frequentlyTestedConcepts": [
+      "Indus Valley excavation sites, river pairings, and unique artifacts (Dockyard, Great Bath).",
+      "Vedic river ancient names vs modern names.",
+      "Buddhist Councils (Patron, Place, President) and Jain Tirthankaras.",
+      "Ashokan Rock Edicts (Edict XIII - Kalinga, Edict I - Animal sacrifice ban).",
+      "Navaratnas of Chandragupta II and titles of Gupta kings."
+    ],
+    "repeatedThemes": [
+      "Match the Following questions on IVC sites & discoveries.",
+      "Chronological sequence of Ancient Dynasties.",
+      "Authors and literary works (Kalidasa, Banabhatta, Harisena, Megasthenes, Vishakhadatta)."
+    ],
+    "difficultyTrend": "Moderate in Tier-1 (direct factual matching); Moderate-to-High in Tier-2 (statement-based assertions, administrative terms like Adhyakshas and Samaharta)."
+  },
+  "mcqs": [
+    {
+      "id": 1,
+      "q": "Which of the following Indus Valley Civilization sites contains evidence of an artificial dockyard?",
+      "options": ["Mohenjo-daro", "Harappa", "Lothal", "Kalibangan"],
+      "correctIdx": 2,
+      "explanation": "Lothal, located in Gujarat on the banks of the Bhogava river, features a massive brick basin identified as an artificial dockyard.",
+      "difficulty": "Easy",
+      "category": "Indus Valley Civilization"
+    },
+    {
+      "id": 2,
+      "q": "Which ancient name corresponds to the modern river Jhelum mentioned in Vedic literature?",
+      "options": ["Parushni", "Vitasta", "Asikni", "Vipas"],
+      "correctIdx": 1,
+      "explanation": "Vitasta is the Rigvedic name for the Jhelum river. Parushni corresponds to Ravi, Asikni to Chenab, and Vipas to Beas.",
+      "difficulty": "Easy",
+      "category": "Vedic Age"
+    },
+    {
+      "id": 3,
+      "q": "The First Buddhist Council was convened at which place and under whose patronage?",
+      "options": ["Vaishali, Kalasoka", "Pataliputra, Ashoka", "Rajgir, Ajatashatru", "Kundalvana, Kanishka"],
+      "correctIdx": 2,
+      "explanation": "The 1st Council took place at Sattapani cave in Rajgir in 483 BCE under Ajatashatru (Haryanka dynasty) right after Buddha's Mahaparinirvana.",
+      "difficulty": "Medium",
+      "category": "Buddhism"
+    },
+    {
+      "id": 4,
+      "q": "Which Ashokan Major Rock Edict describes the famous Kalinga War and his conversion to Dhamma?",
+      "options": ["Major Rock Edict X", "Major Rock Edict XI", "Major Rock Edict XII", "Major Rock Edict XIII"],
+      "correctIdx": 3,
+      "explanation": "Major Rock Edict XIII gives a detailed account of the destruction during the Kalinga War (261 BCE) and Ashoka's remorse.",
+      "difficulty": "Easy",
+      "category": "Mauryan Empire"
+    },
+    {
+      "id": 5,
+      "q": "Who among the following Gupta rulers was given the title 'Napoleon of India' by V.A. Smith?",
+      "options": ["Chandragupta I", "Samudragupta", "Chandragupta II", "Skandagupta"],
+      "correctIdx": 1,
+      "explanation": "V.A. Smith termed Samudragupta 'Napoleon of India' due to his widespread military expeditions in Aryavarta and Dakshinapatha as recorded in Prayag Prashasti.",
+      "difficulty": "Easy",
+      "category": "Gupta Empire"
+    },
+    {
+      "id": 6,
+      "q": "The famous inscription at Aihole recording the defeat of Harshavardhana was composed by court poet:",
+      "options": ["Banabhatta", "Harisena", "Ravikirti", "Dandin"],
+      "correctIdx": 2,
+      "explanation": "Ravikirti was the Jain court poet of Chalukya King Pulakeshin II. He composed the Aihole Prashasti describing Pulakeshin's victory over Harsha on the banks of the Narmada.",
+      "difficulty": "Medium",
+      "category": "Post-Gupta Period"
+    },
+    {
+      "id": 7,
+      "q": "Which metal was completely UNKNOWN to the people of the Indus Valley Civilization?",
+      "options": ["Copper", "Bronze", "Gold", "Iron"],
+      "correctIdx": 3,
+      "explanation": "Indus Valley was a Bronze Age civilization. Iron was introduced later in India around 1000 BCE during the Later Vedic Period.",
+      "difficulty": "Easy",
+      "category": "Indus Valley Civilization"
+    },
+    {
+      "id": 8,
+      "q": "Who deciphered the Brahmi and Kharosthi scripts used in Ashokan Edicts for the first time in 1837?",
+      "options": ["Alexander Cunningham", "James Prinsep", "John Marshall", "Mortimer Wheeler"],
+      "correctIdx": 1,
+      "explanation": "James Prinsep, an officer in the Calcutta Mint, successfully deciphered the Brahmi script of Ashokan inscriptions in 1837.",
+      "difficulty": "Easy",
+      "category": "Mauryan Empire"
+    },
+    {
+      "id": 9,
+      "q": "What was the capital of the Magadha state prior to its shift to Pataliputra?",
+      "options": ["Vaishali", "Rajagriha (Rajgir)", "Champa", "Varanasi"],
+      "correctIdx": 1,
+      "explanation": "Rajagriha (surrounded by five hills) was the initial capital of Magadha. Udayin later laid the foundation of Pataliputra and shifted the capital there.",
+      "difficulty": "Medium",
+      "category": "Mahajanapadas"
+    },
+    {
+      "id": 10,
+      "q": "The Fourth Buddhist Council resulted in the formal division of Buddhism into which two sects?",
+      "options": ["Digambara and Svetambara", "Sthaviravada and Mahasanghika", "Hinayana and Mahayana", "Theravada and Vajrayana"],
+      "correctIdx": 2,
+      "explanation": "Under the presidency of Vasumitra during Kanishka's reign, Buddhism formally split into Hinayana (lesser vehicle) and Mahayana (greater vehicle).",
+      "difficulty": "Medium",
+      "category": "Buddhism"
+    },
+    {
+      "id": 11,
+      "q": "In the Mauryan administration, the revenue collector general was known by which term?",
+      "options": ["Samaharta", "Sannidhata", "Vyavaharika", "Pradeshika"],
+      "correctIdx": 0,
+      "explanation": "Samaharta was the Chief Assessor and Collector General of Revenue. Sannidhata was the Chief Treasury Officer.",
+      "difficulty": "Hard",
+      "category": "Mauryan Administration"
+    },
+    {
+      "id": 12,
+      "q": "Who among the following wrote the play 'Devichandraguptam' and 'Mudrarakshasa'?",
+      "options": ["Kalidasa", "Vishakhadatta", "Shudraka", "Bhasa"],
+      "correctIdx": 1,
+      "explanation": "Vishakhadatta wrote 'Mudrarakshasa' (detailing Chandragupta Maurya's rise) and 'Devichandraguptam' (concerning Chandragupta II).",
+      "difficulty": "Medium",
+      "category": "Ancient Literature"
+    },
+    {
+      "id": 13,
+      "q": "At which site was the famous 'Bronze Dancing Girl' sculpture recovered?",
+      "options": ["Harappa", "Mohenjo-daro", "Chanhudaro", "Banawali"],
+      "correctIdx": 1,
+      "explanation": "The Bronze Dancing Girl made via the lost-wax casting technique (Cire Perdue) was excavated at Mohenjo-daro.",
+      "difficulty": "Easy",
+      "category": "Indus Valley Civilization"
+    },
+    {
+      "id": 14,
+      "q": "The Gayatri Mantra is dedicated to which deity in the Rigveda?",
+      "options": ["Indra", "Agni", "Savitri (Savitur)", "Soma"],
+      "correctIdx": 2,
+      "explanation": "The Gayatri Mantra appears in the 3rd Mandala of Rigveda, composed by Rishi Viswamitra, and is dedicated to Savitri (Solar deity).",
+      "difficulty": "Medium",
+      "category": "Vedic Age"
+    },
+    {
+      "id": 15,
+      "q": "Who was the founder of the Nanda Dynasty of Magadha?",
+      "options": ["Dhanananda", "Mahapadma Nanda", "Kalasoka", "Bimbisara"],
+      "correctIdx": 1,
+      "explanation": "Mahapadma Nanda established the Nanda Dynasty after overthrowing the Shishunagas. He was titled 'Ekarat' and 'Ugrasena'.",
+      "difficulty": "Medium",
+      "category": "Mahajanapadas"
+    },
+    {
+      "id": 16,
+      "q": "Chinese traveler Fa-Hien visited India during the reign of which emperor?",
+      "options": ["Chandragupta Maurya", "Chandragupta I", "Chandragupta II", "Harshavardhana"],
+      "correctIdx": 2,
+      "explanation": "Fa-Hien visited India (399–414 CE) during the reign of Gupta Emperor Chandragupta II (Vikramaditya) to collect Buddhist manuscripts.",
+      "difficulty": "Easy",
+      "category": "Gupta Empire"
+    },
+    {
+      "id": 17,
+      "q": "Which of the following ports on the West Coast was a major hub for trade during the Gupta Period?",
+      "options": ["Tamralipti", "Bharuch (Bhrigukachchha)", "Arikamedu", "Visakhapatnam"],
+      "correctIdx": 1,
+      "explanation": "Bharuch (Bhrigukachchha / Kalyan) was the premier Western port during the Gupta era, while Tamralipti (Bengal) served as the primary Eastern port.",
+      "difficulty": "Hard",
+      "category": "Gupta Trade"
+    },
+    {
+      "id": 18,
+      "q": "Who among the following was the author of the medical text 'Susruta Samhita' known for ancient plastic surgery?",
+      "options": ["Charaka", "Susruta", "Dhanvantari", "Vagbhata"],
+      "correctIdx": 1,
+      "explanation": "Susruta is recognized as the father of Indian surgery and authored 'Susruta Samhita', detailing surgical procedures and plastic surgery.",
+      "difficulty": "Easy",
+      "category": "Ancient Science"
+    },
+    {
+      "id": 19,
+      "q": "Which Gupta ruler founded the world-famous Nalanda Mahavihara (University)?",
+      "options": ["Kumaragupta I", "Skandagupta", "Buddhagupta", "Samudragupta"],
+      "correctIdx": 0,
+      "explanation": "Kumaragupta I (Shakraditya) established Nalanda University in the 5th century CE in modern Bihar.",
+      "difficulty": "Easy",
+      "category": "Gupta Empire"
+    },
+    {
+      "id": 20,
+      "q": "In Jainism, the concept of 'Syadvada' or 'Anekantavada' refers to:",
+      "options": ["Extreme asceticism", "Theory of relativity of truth / Many-sidedness", "Complete annihilation of Karma", "Monotheistic belief system"],
+      "correctIdx": 1,
+      "explanation": "Anekantavada/Syadvada is the fundamental Jain doctrine stating that truth and reality are complex and perceived differently from multiple points of view.",
+      "difficulty": "Hard",
+      "category": "Jainism"
+    }
+  ],
+  "flashcards": [
+    {
+      "front": "Who discovered Harappa and in which year?",
+      "back": "Daya Ram Sahni in 1921 (located on Ravi River)."
+    },
+    {
+      "front": "Who discovered Mohenjo-daro and in which year?",
+      "back": "R.D. Banerji in 1922 (located on Indus River)."
+    },
+    {
+      "front": "At which IVC site was the artificial dockyard found?",
+      "back": "Lothal (Gujarat, on Bhogava River)."
+    },
+    {
+      "front": "Was Iron known to the Indus Valley people?",
+      "back": "NO. IVC was a Bronze Age civilization. Iron was discovered around 1000 BCE in Later Vedic Age."
+    },
+    {
+      "front": "Which Rigvedic Mandala contains the Gayatri Mantra?",
+      "back": "3rd Mandala (composed by Maharishi Viswamitra)."
+    },
+    {
+      "front": "What is the ancient Vedic name for the Ravi River?",
+      "back": "Parushni."
+    },
+    {
+      "front": "What was the symbol and birth venue of 24th Tirthankara Mahavira?",
+      "back": "Symbol: Lion | Birthplace: Kundagrama near Vaishali."
+    },
+    {
+      "front": "Where did Gautama Buddha give his First Sermon?",
+      "back": "Sarnath (Deer Park); known as Dharmachakrapravartana."
+    },
+    {
+      "front": "Who presided over the 1st Buddhist Council at Rajgir?",
+      "back": "Mahakassapa (Patron: Ajatashatru)."
+    },
+    {
+      "front": "Who was the President and Patron of the 3rd Buddhist Council?",
+      "back": "President: Moggaliputta Tissa | Patron: Ashoka (At Pataliputra)."
+    },
+    {
+      "front": "Which Greek ambassador visited Chandragupta Maurya's court?",
+      "back": "Megasthenes (sent by Seleucus Nicator; authored 'Indika')."
+    },
+    {
+      "front": "Which Ashokan Rock Edict records the Kalinga War?",
+      "back": "Major Rock Edict XIII (261 BCE)."
+    },
+    {
+      "front": "Who deciphered Ashoka's Brahmi script in 1837?",
+      "back": "James Prinsep."
+    },
+    {
+      "front": "Who wrote Kautilya's Arthashastra?",
+      "back": "Chanakya (Vishnugupta)."
+    },
+    {
+      "front": "Which Gupta ruler is known as 'Napoleon of India'?",
+      "back": "Samudragupta (Titled by V.A. Smith)."
+    },
+    {
+      "front": "Who composed the Prayag Prashasti (Allahabad Pillar Inscription)?",
+      "back": "Harisena (Court poet of Samudragupta)."
+    },
+    {
+      "front": "Who founded Nalanda University?",
+      "back": "Kumaragupta I (Gupta Dynasty)."
+    },
+    {
+      "front": "Which Chinese pilgrim visited India during Chandragupta II's reign?",
+      "back": "Fa-Hien."
+    },
+    {
+      "front": "Which Chinese pilgrim visited India during Harshavardhana's reign?",
+      "back": "Hiuen Tsang."
+    },
+    {
+      "front": "Who wrote 'Harshacharita' and 'Kadambari'?",
+      "back": "Banabhatta (Court poet of Harsha)."
+    }
+  ],
+  "revisionPoints": [
+    "Prehistoric sites: Bhimbetka (paintings), Burzahom (pit dwellings), Mehargarh (earliest agriculture).",
+    "IVC Geography: Manda (N), Daimabad (S), Alamgirpur (E), Sutkagan-dor (W).",
+    "IVC characteristics: Grid plan, burnt bricks, underground drainage, lack of weaponry/monumental temples.",
+    "Major IVC discoveries: Great Bath (Mohenjo-daro), Dockyard (Lothal), Ploughed field (Kalibangan), Water reservoir (Dholavira).",
+    "Vedic Literature: Rigveda (Hymns), Samaveda (Music), Yajurveda (Rituals), Atharvaveda (Magical charms).",
+    "Vedic Rivers: Vitasta = Jhelum, Asikni = Chenab, Parushni = Ravi, Vipas = Beas, Sutudri = Sutlej.",
+    "Buddhist Symbols: Birth (Lotus/Bull), Great Renunciation (Horse), Enlightenment (Bodhi Tree), First Sermon (Wheel), Death (Stupa).",
+    "Four Noble Truths: Dukkha, Samudaya, Nirodha, Magga (Eightfold Path).",
+    "Jainism Triratna: Right Faith (Samyak Darshana), Right Knowledge (Samyak Jnana), Right Conduct (Samyak Charitra).",
+    "16 Mahajanapadas: Magadha capital Rajgir/Pataliputra; Avanti capital Ujjain; Vatsa capital Kausambi; Gandhara capital Taxila.",
+    "Dynasties of Magadha: Haryanka → Shishunaga → Nanda → Maurya → Shunga → Kanva.",
+    "Chandragupta Maurya defeated Seleucus Nicator (305 BCE) and acquired Aria, Arachosia, Gedrosia, Paropamisadae.",
+    "Mauryan Officers: Samaharta (Tax collector), Sannidhata (Treasurer), Adhyakshas (Departmental heads).",
+    "Post-Mauryan Foreign Invaders Sequence: Indo-Greeks → Shakas → Parthians → Kushanas.",
+    "Indo-Greeks were the first to issue gold coins with names and portraits of kings.",
+    "Kanishka started the Saka Era in 78 CE; patronized Fourth Buddhist Council in Kashmir.",
+    "Gupta Dynasty Founders: Sri Gupta (Founder), Chandragupta I (Real Founder / Maharajadhiraja).",
+    "Samudragupta conquests detailed in Prayag Prashasti by Harisena in Sanskrit (Champu style).",
+    "Chandragupta II adopted title 'Vikramaditya' after defeating Shakas; silver coins (Rupyaka) issued.",
+    "Navaratnas of Vikramaditya: Kalidasa, Amarasimha, Varahamihira, Dhanvantari, Ghatakarpara, Sanku, Vararuchi, Vetala Bhatta, Kshapanaka.",
+    "Navaratna works: Kalidasa (Abhijnanashakuntalam, Meghaduta), Varahamihira (Panchasiddhantika, Brihat Samhita).",
+    "Harshavardhana wrote three Sanskrit plays: Ratnavali, Priyadarsika, Nagananda.",
+    "Pulakeshin II of Chalukya Dynasty defeated Harsha on the banks of Narmada (Aihole Inscription by Ravikirti).",
+    "Nalanda University destroyed by Bakhtiyar Khilji (1193/1200 CE).",
+    "Junagadh Rock Inscription of Rudradaman (150 CE) is the earliest long inscription in Sanskrit.",
+    "Ajanta Caves (Maharashtra): Mostly Buddhist rock-cut cave monuments created during Satavahana and Vakataka/Gupta periods.",
+    "Kailashnath Temple at Ellora (Cave 16) built by Rashtrakuta King Krishna I.",
+    "Kushana Art: Gandhara School (Greco-Roman influence, blue schist) and Mathura School (Indigenous, red spotted sandstone).",
+    "Vedic assembly 'Vidatha' was the oldest tribal assembly where women actively participated.",
+    "Oldest Upanishad is Brihadaranyaka Upanishad; 'Satyameva Jayate' is taken from Mundaka Upanishad."
+  ],
+  "revisionSheet": [
+    "Oldest Stone Age Art: Bhimbetka Rock Shelters (MP).",
+    "Earliest Agriculture Evidence: Mehargarh (Wheat/Barley) & Lahuradewa (Rice).",
+    "IVC Boundary: Manda (N) to Daimabad (S), Sutkagan-dor (W) to Alamgirpur (E).",
+    "IVC Key Features: Burnt bricks, Grid pattern, Drainage, No iron, Script undeciphered.",
+    "Harappa = Ravi River (Dayaram Sahni, 1921); Mohenjo-daro = Indus River (R.D. Banerji, 1922).",
+    "Dockyard = Lothal; Ploughed Field = Kalibangan; Water Reservoir = Dholavira.",
+    "Vedic Books: Rig (Hymns), Sama (Music), Yajur (Rituals), Atharva (Spells).",
+    "Gayatri Mantra = 3rd Mandala of Rigveda (Dedicated to Savitri).",
+    "Vedic River Names: Jhelum=Vitasta, Chenab=Asikni, Ravi=Parushni, Beas=Vipas, Sutlej=Sutudri.",
+    "Varna System origin: Purusha Sukta (10th Mandala of Rigveda).",
+    "Iron Discovered: ~1000 BCE (Later Vedic Age).",
+    "Heterodox Founders: Buddha (Buddhism) & Mahavira (24th Tirthankara, Jainism).",
+    "Buddha's First Sermon: Sarnath (Dharmachakrapravartana) in Pali.",
+    "Jain Principles: Ahimsa, Satya, Asteya, Aparigraha, Brahmacharya (Added by Mahavira).",
+    "1st Council: Rajgir (Ajatashatru); 2nd: Vaishali (Kalasoka); 3rd: Pataliputra (Ashoka); 4th: Kashmir (Kanishka).",
+    "Magadha Dynasty Order: Haryanka → Shishunaga → Nanda → Maurya → Shunga → Kanva.",
+    "Mauryan Founder: Chandragupta Maurya (322 BCE) with Chanakya (Arthashastra).",
+    "Foreign Ambassador: Megasthenes in Chandragupta's court (Book: Indika).",
+    "Ashoka Kalinga War: 261 BCE (Major Rock Edict XIII). Script deciphered by James Prinsep (1837).",
+    "Foreign Invaders Sequence: Indo-Greeks → Shakas → Parthians → Kushanas.",
+    "First Gold Coins: Indo-Greeks; Purest Gold Coins: Kushanas; Most Gold Coins: Guptas.",
+    "Saka Era: Started in 78 CE by Kanishka.",
+    "Gupta Founder: Sri Gupta; Real Founder: Chandragupta I (320 CE).",
+    "Samudragupta: 'Napoleon of India', Prayag Prashasti composed by Harisena.",
+    "Chandragupta II: 'Vikramaditya', host to Fa-Hien, Navaratnas (Kalidasa, Varahamihira).",
+    "Nalanda University: Built by Kumaragupta I; Destroyed by Bakhtiyar Khilji.",
+    "Harshavardhana (Kannauj): Author of Ratnavali, Priyadarsika, Nagananda; Host to Hiuen Tsang.",
+    "Aihole Inscription: Pulakeshin II defeated Harsha at Narmada (Poet: Ravikirti).",
+    "Satyameva Jayate source: Mundaka Upanishad.",
+    "Sanskrit Inscription: Rudradaman's Junagadh Rock Inscription."
+  ],
+  "relatedTopics": {
+    "previousTopicId": null,
+    "nextTopicId": "arrival-of-europeans",
+    "previousTopic": null,
+    "currentTopic": "Complete Ancient Indian History High-Yield Module for SSC CGL",
+    "nextTopic": "Arrival of Europeans in India",
+    "relatedChapters": [
+      "Art & Architecture of Ancient India (Temples, Stupas, Cave Paintings)",
+      "Ancient Indian Literature & Authors",
+      "Foreign Travelers in Ancient and Medieval India"
+    ]
+  }
+}
