@@ -1,1 +1,110 @@
-{}
+{
+  "mostFrequentlyAskedArticles": [
+    {
+      "article": "Article 52 & 53",
+      "frequency": "Extremely High",
+      "focusAreas": "Establishment of President office and Supreme Commander status of the Armed Forces."
+    },
+    {
+      "article": "Article 61",
+      "frequency": "Extremely High",
+      "focusAreas": "Grounds for President's impeachment (Violation of the Constitution) and majority required (2/3rd total membership)."
+    },
+    {
+      "article": "Article 72",
+      "frequency": "Very High",
+      "focusAreas": "Pardoning power of the President vs Governor (Article 161), specifically death sentence and court-martial cases."
+    },
+    {
+      "article": "Article 75(3)",
+      "frequency": "Extremely High",
+      "focusAreas": "Collective responsibility of Council of Ministers specifically to Lok Sabha (not Parliament as a whole)."
+    },
+    {
+      "article": "Article 76",
+      "frequency": "Very High",
+      "focusAreas": "Attorney General for India qualifications, appointment, and Article 88 right to speak without voting."
+    },
+    {
+      "article": "Article 108 & 110",
+      "frequency": "Extremely High",
+      "focusAreas": "Presiding officer of Joint Sitting (Speaker) and sole authority to certify Money Bills."
+    },
+    {
+      "article": "Article 112",
+      "frequency": "High",
+      "focusAreas": "Formal constitutional term for Budget: 'Annual Financial Statement'."
+    },
+    {
+      "article": "Article 123",
+      "frequency": "Very High",
+      "focusAreas": "Promulgation of Ordinances when Parliament is not in session and maximum lifetime rules."
+    }
+  ],
+  "frequentlyAskedOffices": [
+    {
+      "office": "President of India",
+      "keyQuestionTypes": "Electoral college constituents (Elected members only), oath administrator (CJI), resignation address (Vice-President), and minimum age (35)."
+    },
+    {
+      "office": "Speaker of Lok Sabha",
+      "keyQuestionTypes": "Resignation address (Deputy Speaker), Money Bill certification, presiding over Joint Sittings, and casting vote under Article 100."
+    },
+    {
+      "office": "Vice-President / RS Chairman",
+      "keyQuestionTypes": "Ex-officio role (Article 64), salary source (drawn as RS Chairman, not VP), removal resolution originating only in RS."
+    },
+    {
+      "office": "Attorney General for India",
+      "keyQuestionTypes": "Highest law officer, privilege to participate in parliamentary proceedings without voting right."
+    }
+  ],
+  "frequentlyAskedBills": [
+    {
+      "billType": "Money Bill (Art. 110)",
+      "keyQuestionTypes": "Rajya Sabha 14-day restriction, prior Presidential recommendation requirement, no joint sitting provision."
+    },
+    {
+      "billType": "Constitutional Amendment Bill (Art. 368)",
+      "keyQuestionTypes": "No joint sitting provision, mandatory presidential assent (24th CAA), introduction in either House."
+    },
+    {
+      "billType": "Ordinary Bill (Art. 107)",
+      "keyQuestionTypes": "Rajya Sabha 6-month delay limit, joint sitting invoke mechanism."
+    }
+  ],
+  "repeatedThemes": [
+    "Electoral College vs Removal College differences for President and Vice-President.",
+    "Age limits across offices (25 yrs for LS/PM, 30 yrs for RS, 35 yrs for President/VP).",
+    "Constitutional Amendments modifying executive powers (42nd, 44th, 52nd, 61st, 91st, 104th).",
+    "Parliamentary devices and hours (Question Hour vs Zero Hour, No-Confidence Motion rules).",
+    "Numerical limits and quorums (1/10th Quorum under Art 100, 15% Cabinet size cap under Art 75)."
+  ],
+  "difficultyTrend": {
+    "tier1Trend": "Shift from basic factual recall (e.g., 'What is Article 52?') to combination-statement queries (e.g., 'Which of the following members do NOT participate in Presidential elections?').",
+    "tier2Trend": "Increasing focus on exact constitutional terminology, deep analytical comparisons (e.g., Money Bill vs Finance Bill), and multi-statement assertion-reasoning questions.",
+    "overallObservation": "Candidates must memorize exact article numbers along with exceptions/limitations rather than superficial summaries."
+  },
+  "highProbabilityQuestions": [
+    {
+      "topic": "President Electoral College",
+      "expectedQuestionType": "Which group among nominated MPs, state MLAs, and state MLCs holds voting rights in Presidential vs Vice-Presidential elections?"
+    },
+    {
+      "topic": "Lok Sabha Strength & 104th Amendment",
+      "expectedQuestionType": "Questions testing the removal of nominated Anglo-Indian seats and the revised maximum effective strength of Lok Sabha (550)."
+    },
+    {
+      "topic": "Parliamentary Motions",
+      "expectedQuestionType": "Minimum support required to introduce a No-Confidence Motion or Adjournment Motion in Lok Sabha (50 members)."
+    },
+    {
+      "topic": "Article 75(3) Responsibility",
+      "expectedQuestionType": "Testing whether Council of Ministers is collectively responsible to Lok Sabha or Parliament as a whole."
+    },
+    {
+      "topic": "Pardoning Power Comparison",
+      "expectedQuestionType": "Identifying differences between Article 72 (President) and Article 161 (Governor) regarding court-martial and death sentences."
+    }
+  ]
+}

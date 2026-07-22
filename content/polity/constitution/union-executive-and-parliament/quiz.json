@@ -1,1 +1,422 @@
-[]
+[
+  {
+    "question": "Which of the following statement(s) regarding the election of the President of India is/are CORRECT?",
+    "options": [
+      "A. Nominated members of Parliament can participate in the presidential election.",
+      "B. Elected members of State Legislative Councils (MLCs) form part of the Electoral College.",
+      "C. Elected members of Legislative Assemblies of Delhi and Puducherry form part of the Electoral College.",
+      "D. Both nominated MPs and elected MLCs participate."
+    ],
+    "correctAnswer": "C. Elected members of Legislative Assemblies of Delhi and Puducherry form part of the Electoral College.",
+    "explanation": "Article 54 states that the Electoral College for the President includes elected members of both Houses of Parliament and elected members of State Legislative Assemblies, including UTs of Delhi and Puducherry (and J&K). Nominated members and all MLCs are strictly excluded.",
+    "difficulty": "Medium",
+    "topic": "President",
+    "relatedArticle": "Article 54"
+  },
+  {
+    "question": "Under which Article of the Constitution of India is the President empowered to grant pardons, reprieves, respites, or remissions of punishment?",
+    "options": [
+      "A. Article 61",
+      "B. Article 72",
+      "C. Article 123",
+      "D. Article 161"
+    ],
+    "correctAnswer": "B. Article 72",
+    "explanation": "Article 72 vests pardoning power in the President for offences against Union laws, court-martial cases, and death sentences. Article 161 vests pardoning powers in the Governor.",
+    "difficulty": "Easy",
+    "topic": "President",
+    "relatedArticle": "Article 72"
+  },
+  {
+    "question": "An Ordinance promulgated by the President under Article 123 must be laid before Parliament upon its reassembly and ceases to operate after how long if not approved?",
+    "options": [
+      "A. 14 days from reassembly",
+      "B. 30 days from reassembly",
+      "C. 6 weeks from reassembly",
+      "D. 6 months from reassembly"
+    ],
+    "correctAnswer": "C. 6 weeks from reassembly",
+    "explanation": "An Ordinance issued under Article 123 has a maximum validity of 6 weeks from the date Parliament reassembles, unless approved or disapproved earlier by Parliament.",
+    "difficulty": "Medium",
+    "topic": "President / Executive Powers",
+    "relatedArticle": "Article 123"
+  },
+  {
+    "question": "Who among the following administers the oath of office to the Vice-President of India?",
+    "options": [
+      "A. Chief Justice of India",
+      "B. Prime Minister of India",
+      "C. Speaker of Lok Sabha",
+      "D. President of India"
+    ],
+    "correctAnswer": "D. President of India",
+    "explanation": "According to Article 69, the Vice-President takes an oath or affirmation before the President or some person appointed on his behalf.",
+    "difficulty": "Easy",
+    "topic": "Vice-President",
+    "relatedArticle": "Article 69"
+  },
+  {
+    "question": "A resolution for the removal of the Vice-President of India can be initiated in which of the following?",
+    "options": [
+      "A. Lok Sabha only",
+      "B. Rajya Sabha only",
+      "C. Either House of Parliament",
+      "D. Joint sitting of Parliament"
+    ],
+    "correctAnswer": "B. Rajya Sabha only",
+    "explanation": "Under Article 67(b), a resolution to remove the Vice-President must originate ONLY in the Rajya Sabha and be passed by an effective majority, followed by simple majority agreement in the Lok Sabha.",
+    "difficulty": "Medium",
+    "topic": "Vice-President",
+    "relatedArticle": "Article 67"
+  },
+  {
+    "question": "The Council of Ministers is collectively responsible to which organ under Article 75(3)?",
+    "options": [
+      "A. Parliament of India",
+      "B. Lok Sabha only",
+      "C. President of India",
+      "D. Prime Minister"
+    ],
+    "correctAnswer": "B. Lok Sabha only",
+    "explanation": "Article 75(3) explicitly specifies that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha).",
+    "difficulty": "Easy",
+    "topic": "Council of Ministers",
+    "relatedArticle": "Article 75"
+  },
+  {
+    "question": "By which Constitutional Amendment Act was the size of the Council of Ministers capped at 15% of the total strength of the Lok Sabha?",
+    "options": [
+      "A. 42nd Amendment Act, 1976",
+      "B. 44th Amendment Act, 1978",
+      "C. 86th Amendment Act, 2002",
+      "D. 91st Amendment Act, 2003"
+    ],
+    "correctAnswer": "D. 91st Amendment Act, 2003",
+    "explanation": "The 91st Constitutional Amendment Act, 2003 added Article 75(1A), capping the Council of Ministers (including PM) at 15% of the total membership of Lok Sabha.",
+    "difficulty": "Medium",
+    "topic": "Council of Ministers",
+    "relatedArticle": "Article 75"
+  },
+  {
+    "question": "Who among the following has the right to speak and participate in parliamentary proceedings without holding the right to vote?",
+    "options": [
+      "A. Chief Election Commissioner",
+      "B. Comptroller and Auditor General",
+      "C. Attorney General for India",
+      "D. Solicitor General of India"
+    ],
+    "correctAnswer": "C. Attorney General for India",
+    "explanation": "Article 88 grants the Attorney General for India the right to speak and participate in either House or joint sittings, but without the right to vote.",
+    "difficulty": "Easy",
+    "topic": "Attorney General",
+    "relatedArticle": "Article 88"
+  },
+  {
+    "question": "What is the minimum age required for a person to be eligible for election as a member of Rajya Sabha?",
+    "options": [
+      "A. 21 years",
+      "B. 25 years",
+      "C. 30 years",
+      "D. 35 years"
+    ],
+    "correctAnswer": "C. 30 years",
+    "explanation": "Under Article 84(b), the minimum age limit to become a member of Rajya Sabha is 30 years, whereas for Lok Sabha it is 25 years.",
+    "difficulty": "Easy",
+    "topic": "Parliament Qualifications",
+    "relatedArticle": "Article 84"
+  },
+  {
+    "question": "What is the maximum permissible gap between two sessions of Parliament as prescribed by Article 85?",
+    "options": [
+      "A. 3 months",
+      "B. 6 months",
+      "C. 9 months",
+      "D. 1 year"
+    ],
+    "correctAnswer": "B. 6 months",
+    "explanation": "Article 85 mandates that Parliament must be summoned such that six months do not intervene between its last sitting in one session and the date appointed for its first sitting in the next session.",
+    "difficulty": "Easy",
+    "topic": "Parliament Sessions",
+    "relatedArticle": "Article 85"
+  },
+  {
+    "question": "Who presides over a Joint Sitting of both Houses of Parliament convened under Article 108?",
+    "options": [
+      "A. President of India",
+      "B. Vice-President of India",
+      "C. Speaker of Lok Sabha",
+      "D. Prime Minister"
+    ],
+    "correctAnswer": "C. Speaker of Lok Sabha",
+    "explanation": "Under Article 118(4), a Joint Sitting of Parliament (summoned by the President under Article 108) is presided over by the Speaker of Lok Sabha.",
+    "difficulty": "Easy",
+    "topic": "Parliamentary Procedure",
+    "relatedArticle": "Article 108"
+  },
+  {
+    "question": "Which of the following bills CANNOT be introduced in a Joint Sitting of Parliament?",
+    "options": [
+      "A. Ordinary Bill",
+      "B. Financial Bill Type I",
+      "C. Money Bill and Constitutional Amendment Bill",
+      "D. Financial Bill Type II"
+    ],
+    "correctAnswer": "C. Money Bill and Constitutional Amendment Bill",
+    "explanation": "Joint sittings under Article 108 apply only to Ordinary Bills and Financial Bills. They are strictly prohibited for Money Bills (Art 110) and Constitutional Amendment Bills (Art 368).",
+    "difficulty": "Medium",
+    "topic": "Legislative Procedure",
+    "relatedArticle": "Article 108"
+  },
+  {
+    "question": "Who among the following has the final authority to certify whether a bill is a 'Money Bill' or not?",
+    "options": [
+      "A. President of India",
+      "B. Prime Minister",
+      "C. Finance Minister",
+      "D. Speaker of Lok Sabha"
+    ],
+    "correctAnswer": "D. Speaker of Lok Sabha",
+    "explanation": "Article 110(3) provides that if any question arises whether a Bill is a Money Bill or not, the decision of the Speaker of Lok Sabha shall be final.",
+    "difficulty": "Easy",
+    "topic": "Money Bill",
+    "relatedArticle": "Article 110"
+  },
+  {
+    "question": "How long can the Rajya Sabha maximum delay a Money Bill passed by the Lok Sabha?",
+    "options": [
+      "A. 14 days",
+      "B. 30 days",
+      "C. 3 months",
+      "D. 6 months"
+    ],
+    "correctAnswer": "A. 14 days",
+    "explanation": "Article 109(5) lays down that if Rajya Sabha does not return a Money Bill within 14 days, it is deemed to have been passed by both Houses in the form passed by Lok Sabha.",
+    "difficulty": "Easy",
+    "topic": "Money Bill",
+    "relatedArticle": "Article 109"
+  },
+  {
+    "question": "What is the quorum required to constitute a sitting of either House of Parliament under Article 100(3)?",
+    "options": [
+      "A. 1/5th of the total members",
+      "B. 1/10th of the total members",
+      "C. 1/3rd of the total members",
+      "D. 1/2 of the total members"
+    ],
+    "correctAnswer": "B. 1/10th of the total members",
+    "explanation": "Article 100(3) specifies that the quorum to constitute a meeting of either House of Parliament is one-tenth (1/10th) of the total number of members of the House.",
+    "difficulty": "Easy",
+    "topic": "Parliamentary Terms",
+    "relatedArticle": "Article 100"
+  },
+  {
+    "question": "If an MP remains absent from all meetings of the House without permission for how long, their seat may be declared vacant under Article 101(4)?",
+    "options": [
+      "A. 30 days",
+      "B. 60 days",
+      "C. 90 days",
+      "D. 180 days"
+    ],
+    "correctAnswer": "B. 60 days",
+    "explanation": "Under Article 101(4), if a member of either House is absent without permission for a period of 60 days (excluding prorogation/adjournment > 4 consecutive days), the House may declare the seat vacant.",
+    "difficulty": "Medium",
+    "topic": "Parliament Membership",
+    "relatedArticle": "Article 101"
+  },
+  {
+    "question": "Which Constitutional Amendment Act reduced the voting age from 21 years to 18 years for elections to Lok Sabha and Legislative Assemblies?",
+    "options": [
+      "A. 44th Amendment Act, 1978",
+      "B. 52nd Amendment Act, 1985",
+      "C. 61st Amendment Act, 1988",
+      "D. 86th Amendment Act, 2002"
+    ],
+    "correctAnswer": "C. 61st Amendment Act, 1988",
+    "explanation": "The 61st Constitutional Amendment Act, 1988 amended Article 326 to lower the voting age from 21 to 18 years, coming into force in 1989.",
+    "difficulty": "Easy",
+    "topic": "Elections / Constitutional History",
+    "relatedArticle": "Article 326"
+  },
+  {
+    "question": "The 10th Schedule of the Indian Constitution, dealing with Anti-Defection provisions, was added by which Amendment Act?",
+    "options": [
+      "A. 42nd Amendment Act, 1976",
+      "B. 52nd Amendment Act, 1985",
+      "C. 73rd Amendment Act, 1992",
+      "D. 91st Amendment Act, 2003"
+    ],
+    "correctAnswer": "B. 52nd Amendment Act, 1985",
+    "explanation": "The 52nd Constitutional Amendment Act, 1985 added the 10th Schedule to prevent political defection among elected MPs and MLAs.",
+    "difficulty": "Easy",
+    "topic": "Anti-Defection Law",
+    "relatedArticle": "Tenth Schedule"
+  },
+  {
+    "question": "What is the term used in Article 112 of the Constitution of India for the popular document known as the 'Budget'?",
+    "options": [
+      "A. Annual Financial Statement",
+      "B. Financial Statement of Income and Expenditure",
+      "C. Annual Budget Summary",
+      "D. Consolidated Account Statement"
+    ],
+    "correctAnswer": "A. Annual Financial Statement",
+    "explanation": "The word 'Budget' is not explicitly used in the Constitution. Article 112 refers to it as the 'Annual Financial Statement'.",
+    "difficulty": "Easy",
+    "topic": "Budget Provisions",
+    "relatedArticle": "Article 112"
+  },
+  {
+    "question": "Which parliamentary device is considered an informal Indian innovation not mentioned in the official Rules of Procedure?",
+    "options": [
+      "A. Question Hour",
+      "B. Zero Hour",
+      "C. Calling Attention Motion",
+      "D. Adjournment Motion"
+    ],
+    "correctAnswer": "B. Zero Hour",
+    "explanation": "Zero Hour is an informal Indian parliamentary device introduced in 1962. It starts right after Question Hour (~12 PM) and does not exist in formal rules.",
+    "difficulty": "Easy",
+    "topic": "Parliamentary Devices",
+    "relatedArticle": "Rules of Procedure"
+  },
+  {
+    "question": "How many members must support a No-Confidence Motion in the Lok Sabha for it to be admitted for debate?",
+    "options": [
+      "A. 10 members",
+      "B. 25 members",
+      "C. 50 members",
+      "D. 100 members"
+    ],
+    "correctAnswer": "C. 50 members",
+    "explanation": "According to Rule 198 of the Lok Sabha Rules, a No-Confidence Motion requires the written support of at least 50 members to be admitted.",
+    "difficulty": "Medium",
+    "topic": "Parliamentary Motions",
+    "relatedArticle": "Article 75"
+  },
+  {
+    "question": "Which of the following discontinuation practices was executed via the 104th Constitutional Amendment Act, 2019?",
+    "options": [
+      "A. Abolition of Rajya Sabha nomination seats",
+      "B. Abolition of nomination of Anglo-Indians to Lok Sabha and State Assemblies",
+      "C. Abolition of Legislative Councils in states",
+      "D. Capping of Cabinet Ministers"
+    ],
+    "correctAnswer": "B. Abolition of nomination of Anglo-Indians to Lok Sabha and State Assemblies",
+    "explanation": "The 104th Constitutional Amendment Act, 2019 extended SC/ST reservations for 10 years but discontinued Anglo-Indian nomination seats in Lok Sabha and Assemblies.",
+    "difficulty": "Medium",
+    "topic": "Lok Sabha Composition",
+    "relatedArticle": "Article 331"
+  },
+  {
+    "question": "When the Lok Sabha is dissolved, what happens to a bill pending in the Rajya Sabha which has NOT been passed by the Lok Sabha?",
+    "options": [
+      "A. It lapses automatically.",
+      "B. It does NOT lapse.",
+      "C. It is transferred to the President for consent.",
+      "D. It requires a joint sitting."
+    ],
+    "correctAnswer": "B. It does NOT lapse.",
+    "explanation": "Under Article 107(5), a bill pending in the Rajya Sabha which has NOT been passed by the Lok Sabha does NOT lapse upon dissolution of the Lok Sabha.",
+    "difficulty": "Hard",
+    "topic": "Legislative Procedure",
+    "relatedArticle": "Article 107"
+  },
+  {
+    "question": "Who among the following appoints the 'Pro-tem Speaker' of the Lok Sabha?",
+    "options": [
+      "A. Outgoing Speaker of Lok Sabha",
+      "B. Chief Justice of India",
+      "C. President of India",
+      "D. Prime Minister"
+    ],
+    "correctAnswer": "C. President of India",
+    "explanation": "The President appoints a senior member of the newly elected Lok Sabha as the Pro-tem Speaker under Article 95(1) to administer oaths to new MPs.",
+    "difficulty": "Medium",
+    "topic": "Lok Sabha Officers",
+    "relatedArticle": "Article 95"
+  },
+  {
+    "question": "Which Article gives Rajya Sabha exclusive power to authorize Parliament to create one or more All-India Services?",
+    "options": [
+      "A. Article 249",
+      "B. Article 312",
+      "C. Article 320",
+      "D. Article 368"
+    ],
+    "correctAnswer": "B. Article 312",
+    "explanation": "Article 312 empowers Rajya Sabha to pass a resolution supported by not less than two-thirds of members present and voting to authorize Parliament to create new All-India Services.",
+    "difficulty": "Medium",
+    "topic": "Rajya Sabha Exclusive Powers",
+    "relatedArticle": "Article 312"
+  },
+  {
+    "question": "Which type of Veto Power is NOT possessed by the President of India?",
+    "options": [
+      "A. Absolute Veto",
+      "B. Suspensive Veto",
+      "C. Pocket Veto",
+      "D. Qualified Veto"
+    ],
+    "correctAnswer": "D. Qualified Veto",
+    "explanation": "Qualified Veto (which can be overridden by an extraordinary higher majority) exists in the US presidential system. Indian President possesses Absolute, Suspensive, and Pocket Vetoes.",
+    "difficulty": "Medium",
+    "topic": "President Veto Powers",
+    "relatedArticle": "Article 111"
+  },
+  {
+    "question": "Under Article 78, whose duty is it to communicate all decisions of the Council of Ministers to the President?",
+    "options": [
+      "A. Speaker of Lok Sabha",
+      "B. Cabinet Secretary",
+      "C. Prime Minister",
+      "D. Union Home Minister"
+    ],
+    "correctAnswer": "C. Prime Minister",
+    "explanation": "Article 78 lays down the duties of the Prime Minister to furnish all administrative and legislative decisions of the Council of Ministers to the President.",
+    "difficulty": "Easy",
+    "topic": "Prime Minister",
+    "relatedArticle": "Article 78"
+  },
+  {
+    "question": "Who was the first Speaker of the Lok Sabha in independent India?",
+    "options": [
+      "A. M. A. Ayyangar",
+      "B. G. V. Mavalankar",
+      "C. Hukum Singh",
+      "D. K. S. Hegde"
+    ],
+    "correctAnswer": "B. G. V. Mavalankar",
+    "explanation": "G. V. Mavalankar was the first Speaker of the Lok Sabha, serving from 1952 until his death in 1956.",
+    "difficulty": "Easy",
+    "topic": "Parliamentary History",
+    "relatedArticle": "Article 93"
+  },
+  {
+    "question": "Which of the following demands for grants can be voted upon by the Rajya Sabha?",
+    "options": [
+      "A. General Demand Grants",
+      "B. Supplementary Demands",
+      "C. Railway Demands",
+      "D. None of the above"
+    ],
+    "correctAnswer": "D. None of the above",
+    "explanation": "Demands for Grants are submitted exclusively to the Lok Sabha for voting (Article 113). The Rajya Sabha can discuss the budget, but has no power to vote on demands for grants.",
+    "difficulty": "Hard",
+    "topic": "Budgetary Powers",
+    "relatedArticle": "Article 113"
+  },
+  {
+    "question": "If a member of Parliament is disqualified under the Tenth Schedule (Anti-Defection), who holds the final authority to decide the question?",
+    "options": [
+      "A. President of India",
+      "B. Election Commission of India",
+      "C. Supreme Court of India",
+      "D. Presiding Officer of the respective House"
+    ],
+    "correctAnswer": "D. Presiding Officer of the respective House",
+    "explanation": "Paragraph 6 of the 10th Schedule specifies that any question regarding disqualification arising from anti-defection is decided by the Speaker/Chairman of the respective House.",
+    "difficulty": "Medium",
+    "topic": "Anti-Defection Law",
+    "relatedArticle": "Tenth Schedule"
+  }
+]
