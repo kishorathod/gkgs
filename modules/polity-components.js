@@ -35,6 +35,7 @@ export class OverviewSection {
     this.subject = subject;
   }
   render(data = {}) {
+    if (!data) data = {};
     const pane = document.getElementById(`${this.subject}-subtab-overview`);
     if (!pane) return;
 
@@ -168,6 +169,7 @@ export class NotesSection {
     this.subject = subject;
   }
   render(data = {}) {
+    if (!data) data = {};
     const container = document.getElementById(`${this.subject}-notes-accordion-container`);
     if (!container) return;
 
@@ -325,7 +327,7 @@ export class PYQSection {
     if (!pane) return;
 
     let html = '';
-    const p = data.pyqAnalysis || data;
+    const p = data ? (data.pyqAnalysis || data) : null;
 
     if (p && (p.frequentlyTestedConcepts || p.repeatedThemes)) {
       html += `
@@ -357,7 +359,7 @@ export class PYQSection {
       `;
     }
 
-    const count = mcqsCount || (p.mcqs ? p.mcqs.length : 15);
+    const count = mcqsCount || (p && p.mcqs ? p.mcqs.length : 15);
     html += `
       <div style="padding: 24px; background: var(--bg-card); border-radius: var(--radius-lg); text-align: center;" class="glass-card">
         <h4 style="font-size: 16px; font-weight: 700; color: var(--text-main); margin-bottom: 8px;">Authentic TCS Exam Questions (${count}+ Questions)</h4>
@@ -586,6 +588,7 @@ export class MindMapSection {
     this.subject = subject;
   }
   render(data = {}) {
+    if (!data) data = {};
     const pane = document.getElementById(`${this.subject}-subtab-mindmaps`);
     if (!pane) return;
 
@@ -659,6 +662,7 @@ export class RevisionSection {
     this.subject = subject;
   }
   render(data = {}) {
+    if (!data) data = {};
     const pane = document.getElementById(`${this.subject}-subtab-revisionsheet`);
     if (!pane) return;
 
@@ -700,6 +704,7 @@ export class FilesSection {
     this.subject = subject;
   }
   render(hero = {}) {
+    if (!hero) hero = {};
     const pane = document.getElementById(`${this.subject}-subtab-files`);
     if (!pane) return;
 
@@ -745,6 +750,7 @@ export class AnalyticsSection {
     this.subject = subject;
   }
   render(data = {}) {
+    if (!data) data = {};
     const pane = document.getElementById(`${this.subject}-subtab-analytics`);
     if (!pane) return;
 
