@@ -1,1 +1,43 @@
-{}
+{
+  "pyqAnalysis": {
+    "mostFrequentlyAskedArticles": [
+      "Article 153 (Governor appointment/office)",
+      "Article 161 (Governor pardoning powers)",
+      "Article 164 (Appointment and responsibility of Chief Minister and Ministers)",
+      "Article 169 (Creation or abolition of Legislative Councils)",
+      "Article 170 & 171 (Composition of Legislative Assembly and Council)",
+      "Article 243A (Gram Sabha)",
+      "Article 243D & 243T (Reservation of seats for Women and SC/ST in Panchayats and Municipalities)",
+      "Article 243I (State Finance Commission)",
+      "Article 243K (State Election Commission)"
+    ],
+    "frequentlyAskedCommittees": [
+      "Balwant Rai Mehta Committee (1957) - 3-tier Panchayati Raj recommendation",
+      "Ashok Mehta Committee (1978) - 2-tier Panchayati Raj recommendation",
+      "L.M. Singhvi Committee (1986) - Constitutional status recommendation for local bodies",
+      "G.V.K. Rao Committee (1985) - Review of rural development and 'grass without roots' observation",
+      "Sarkaria Commission (1983) - Centre-State relations and Governor's role"
+    ],
+    "frequentlyAskedConstitutional Offices": [
+      "Governor (appointment, pleasure of President, ordinances, and discretionary powers)",
+      "Advocate General of the State (Article 165 qualification and role)",
+      "State Election Commissioner (independence and removal process similar to HC Judge)",
+      "State Finance Commissioner (constitution every 5 years by Governor)",
+      "Speaker of Legislative Assembly (certifying Money Bills and casting vote)"
+    ],
+    "repeatedThemes": [
+      "Comparative analysis between Union Executive (President/PM) and State Executive (Governor/CM) articles and powers.",
+      "Exact numerical figures (e.g., minimum age of 21 for local bodies vs 25 for assembly, 1/3rd women reservation, 29 items in Schedule 11, 18 items in Schedule 12).",
+      "Constitutional Amendment milestones specifically focusing on the 73rd and 74th Amendment Acts of 1992 and the 7th Amendment of 1956.",
+      "Distinction between discretionary powers of the Governor and binding advice of the Council of Ministers."
+    ],
+    "difficultyTrend": "Moderate to Analytical. SSC CGL has shifted away from purely direct article-matching questions towards multi-statement assertion-reason questions, particularly regarding local body election mechanisms, the specific powers of State Legislative Councils vs Assemblies, and the exact provisions of the 11th and 12th Schedules.",
+    "highProbabilityQuestions": [
+      "Which committee first recommended constitutional recognition for Panchayati Raj institutions?",
+      "What is the maximum delay period permitted for a State Legislative Council on an ordinary bill passed by the Assembly?",
+      "Under which article is the State Finance Commission constituted, and who appoints its members?",
+      "What are the specific operational differences between the pardoning powers of the President under Article 72 and the Governor under Article 161?",
+      "Which constitutional amendment act added Part IX-A and the Twelfth Schedule to the Indian Constitution?"
+    ]
+  }
+}

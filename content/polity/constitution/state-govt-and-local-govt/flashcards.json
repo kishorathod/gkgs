@@ -1,1 +1,124 @@
-[]
+{
+  "flashcards": [
+    {
+      "front": "Article 153",
+      "back": "Establishes that there shall be a Governor for each state (amended in 1956 to allow one person to serve as Governor for two or more states)."
+    },
+    {
+      "front": "Article 161",
+      "back": "Grants pardoning powers to the Governor of a state (excludes death sentences and court-martial punishments)."
+    },
+    {
+      "front": "Article 164",
+      "back": "Deals with the appointment, tenure, responsibility, and oath of the Chief Minister and other State Ministers."
+    },
+    {
+      "front": "Article 165",
+      "back": "Provides for the appointment and qualifications of the Advocate General of the State."
+    },
+    {
+      "front": "Article 169",
+      "back": "Empowers Parliament to create or abolish a State Legislative Council upon a resolution passed by the State Legislative Assembly."
+    },
+    {
+      "front": "Article 170",
+      "back": "Specifies the composition of the State Legislative Assembly (Max 500, Min 60 members)."
+    },
+    {
+      "front": "Article 171",
+      "back": "Specifies the composition of the State Legislative Council (Max 1/3rd of Assembly, Min 40 members)."
+    },
+    {
+      "front": "Article 213",
+      "back": "Empowers the Governor to promulgate ordinances when the state legislature is not in session."
+    },
+    {
+      "front": "Article 243A",
+      "back": "Defines the Gram Sabha as a body of all registered voters in a village area."
+    },
+    {
+      "front": "Article 243D",
+      "back": "Mandates not less than one-third reservation of total seats for women in Panchayati Raj Institutions."
+    },
+    {
+      "front": "Article 243I",
+      "back": "Mandates the constitution of a State Finance Commission by the Governor every 5 years."
+    },
+    {
+      "front": "Article 243K",
+      "back": "Establishes the State Election Commission for conducting local body elections."
+    },
+    {
+      "front": "Governor",
+      "back": "Constitutional executive head of a state; holds office during the pleasure of the President; minimum age 35 years."
+    },
+    {
+      "front": "Chief Minister",
+      "back": "Real executive head of the state government; leads the Council of Ministers and acts as the chief link to the Governor."
+    },
+    {
+      "front": "Advocate General",
+      "back": "Highest law officer of a state; must be qualified to be a High Court judge; appointed under Article 165."
+    },
+    {
+      "front": "State Election Commissioner",
+      "back": "Independent constitutional authority appointed by the Governor; removable only in the manner and grounds of a High Court Judge."
+    },
+    {
+      "front": "Balwant Rai Mehta Committee (1957)",
+      "back": "First committee to recommend the 3-tier Panchayati Raj system (Gram Panchayat, Panchayat Samiti, Zilla Parishad)."
+    },
+    {
+      "front": "Ashok Mehta Committee (1978)",
+      "back": "Recommended a 2-tier Panchayati Raj system (Zilla Parishad and Mandal Panchayat) and political party participation."
+    },
+    {
+      "front": "G.V.K. Rao Committee (1985)",
+      "back": "Reviewed rural development and famously described grassroots bodies as 'grass without roots'."
+    },
+    {
+      "front": "L.M. Singhvi Committee (1986)",
+      "back": "First major committee to strongly recommend constitutional status for Panchayati Raj institutions."
+    },
+    {
+      "front": "Sarkaria Commission (1983)",
+      "back": "Examined Centre-State relations, issuing landmark guidelines on Governor appointments and Article 356."
+    },
+    {
+      "front": "73rd Constitutional Amendment Act (1992)",
+      "back": "Constitutionalized rural local government, adding Part IX and the Eleventh Schedule."
+    },
+    {
+      "front": "74th Constitutional Amendment Act (1992)",
+      "back": "Constitutionalized urban local government, adding Part IX-A and the Twelfth Schedule."
+    },
+    {
+      "front": "Eleventh Schedule",
+      "back": "Contains 29 functional items devolved to Panchayati Raj Institutions under the 73rd Amendment."
+    },
+    {
+      "front": "Twelfth Schedule",
+      "back": "Contains 18 functional items devolved to Urban Local Bodies under the 74th Amendment."
+    },
+    {
+      "front": "Gram Sabha vs Gram Panchayat",
+      "back": "Gram Sabha is the full voter assembly (direct democracy); Gram Panchayat is the elected executive committee."
+    },
+    {
+      "front": "3-Tier Structure of Panchayats",
+      "back": "Village Level (Gram Panchayat) -> Block Level (Panchayat Samiti) -> District Level (Zilla Parishad)."
+    },
+    {
+      "front": "Urban Local Bodies (3 Types)",
+      "back": "Nagar Panchayat (transitional areas) -> Municipal Council (smaller cities) -> Municipal Corporation (metropolitan cities)."
+    },
+    {
+      "front": "Minimum Age to Contest Local Elections",
+      "back": "21 years for contesting elections to Panchayats and Municipalities."
+    },
+    {
+      "front": "Lord Ripon's Resolution (1882)",
+      "back": "Hailed as the 'Magna Carta' of local self-government in colonial India, laying the foundation for municipal boards."
+    }
+  ]
+}
