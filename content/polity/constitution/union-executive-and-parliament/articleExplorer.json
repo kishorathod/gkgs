@@ -1,0 +1,134 @@
+[
+  {
+    "article": "Article 52",
+    "title": "The President of India",
+    "explanation": "States that there shall be a President of India, establishing the highest constitutional office in the country.",
+    "importantPoints": [
+      "Establishes the head of the Indian State.",
+      "Crucial for maintaining constitutional continuity; the office can never remain vacant."
+    ],
+    "sscImportance": "High. Repeatedly asked in SSC Tier-1 as a direct identification question.",
+    "relatedArticles": [
+      "Article 53",
+      "Article 63"
+    ],
+    "memoryTrick": "52 = 5 (First) + 2 (Citizen) -> The First Citizen of India.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 53",
+    "title": "Executive Power of the Union",
+    "explanation": "Vests the executive power of the Union in the President, to be exercised directly or through officers subordinate to him.",
+    "importantPoints": [
+      "Makes the President the supreme commander of the Defence Forces of the Union.",
+      "Formalizes the executive authority of the Union Government."
+    ],
+    "sscImportance": "High. Frequently tested regarding Supreme Command of Armed Forces.",
+    "relatedArticles": [
+      "Article 74",
+      "Article 77"
+    ],
+    "memoryTrick": "53 = Supreme Commander & Executive Authority.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 54",
+    "title": "Election of President",
+    "explanation": "Defines the composition of the Electoral College that elects the President.",
+    "importantPoints": [
+      "Includes elected members of both Houses of Parliament (MPs).",
+      "Includes elected members of State Legislative Assemblies (MLAs), plus UTs of Delhi, Puducherry, and J&K.",
+      "Excludes nominated members and ALL Legislative Council members (MLCs)."
+    ],
+    "sscImportance": "Very High. SSC constantly tests who votes vs who is excluded.",
+    "relatedArticles": [
+      "Article 55",
+      "Article 66"
+    ],
+    "memoryTrick": "54 = 'Electing' 4 groups (LS, RS, Assemblies, UTs) — Elected ONLY.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 55",
+    "title": "Manner of Election of President",
+    "explanation": "Lays down the uniform method and proportional representation system for conducting the presidential election.",
+    "importantPoints": [
+      "System of proportional representation by means of single transferable vote.",
+      "Voting is conducted by secret ballot.",
+      "Ensures parity between Union and States."
+    ],
+    "sscImportance": "Medium. Asked in statement-based Tier-2 questions.",
+    "relatedArticles": [
+      "Article 54",
+      "Article 71"
+    ],
+    "memoryTrick": "55 = Method & Secret Ballot.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 56",
+    "title": "Term of Office of President",
+    "explanation": "Specifies that the President holds office for a period of 5 years from the date of entering office.",
+    "importantPoints": [
+      "Holds office during 5 years or until successor enters office.",
+      "Resigns by addressing the Vice-President.",
+      "Can be removed via impeachment under Article 61."
+    ],
+    "sscImportance": "High. Addresses to whom resignation is tendered.",
+    "relatedArticles": [
+      "Article 57",
+      "Article 61"
+    ],
+    "memoryTrick": "56 = 5-year tenure for President.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 57",
+    "title": "Eligibility for Re-election",
+    "explanation": "Declares that a person who holds or has held office as President is eligible for re-election to that office.",
+    "importantPoints": [
+      "No constitutional cap on how many times a person can be re-elected in India (unlike US 2-term limit)."
+    ],
+    "sscImportance": "Medium. Direct conceptual question comparing US vs Indian presidency.",
+    "relatedArticles": [
+      "Article 56",
+      "Article 58"
+    ],
+    "memoryTrick": "57 = Re-election without limit.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 58",
+    "title": "Qualifications for Election as President",
+    "explanation": "Outlines eligibility conditions to contest presidential election.",
+    "importantPoints": [
+      "Must be a citizen of India.",
+      "Must have completed 35 years of age.",
+      "Must be qualified for election as a member of the Lok Sabha.",
+      "Must not hold an office of profit."
+    ],
+    "sscImportance": "Very High. Age qualification (35) is an SSC favorite.",
+    "relatedArticles": [
+      "Article 59",
+      "Article 66"
+    ],
+    "memoryTrick": "58 = Quali-58-tions (35 yrs age + LS member eligible).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 59",
+    "title": "Conditions of President's Office",
+    "explanation": "Details restrictions and privileges attached to the President's office.",
+    "importantPoints": [
+      "Shall not be a member of either House of Parliament or State Legislature.",
+      "Emoluments and allowances cannot be diminished during term of office."
+    ],
+    "sscImportance": "Low. Asked occasionally in multi-statement options.",
+    "relatedArticles": [
+      "Article 58",
+      "Article 60"
+    ],
+    "memoryTrick": "59 = Salary and Office conditions.",
+    "priority": "Low"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "heading": "Introduction to Union Executive & Parliament",
+    "explanation": "Part V of the Indian Constitution (Articles 52 to 151) lays down the structural and operational framework of the Union Government. India adopts a parliamentary system of governance modeled on the Westminster system of the United Kingdom. Under this setup, the political executive is drawn directly from the legislature and is collectively responsible to the lower house. Part V is broadly divided into five chapters: Chapter I covers the Executive (Articles 52–78), Chapter II covers Parliament (Articles 79–122), Chapter III details the Legislative Powers of the President (Article 123), Chapter IV deals with the Union Judiciary (Articles 124–147), and Chapter V covers the Comptroller and Auditor General of India (Articles 148–151). Understanding the dual nature of executive authority—the ceremonial Executive Head versus the real policy decision-maker—is crucial for analyzing how central authority flows into federal governance.",
+    "keyTakeaways": [
+      "Part V of the Constitution covers Articles 52 to 151.",
+      "Modeled on the Westminster parliamentary system.",
+      "Political executive is embedded within and responsible to the legislature."
+    ],
+    "importantArticles": [
+      "Article 52: The President of India",
+      "Article 79: Constitution of Parliament"
+    ],
+    "sscPoints": [
+      "Part V is the longest part of the Indian Constitution.",
+      "SSC repeatedly tests chapter-wise article divisions (e.g., Chapter I = Executive)."
+    ],
+    "commonMistakes": [
+      "Confusing the British parliamentary model with the US presidential system.",
+      "Assuming the Union Executive includes the Supreme Court or CAG."
+    ]
+  },
+  {
+    "heading": "Union Executive Overview",
+    "explanation": "The Union Executive consists of five core constitutional authorities: the President, the Vice-President, the Prime Minister, the Council of Ministers, and the Attorney General for India. Unlike the presidential system where executive power is concentrated in a single individual, the parliamentary executive operates on a distinction between the formal head of state (De Jure Executive) and the real operational head (De Facto Executive). The administrative machinery of the Central Government functions under the name of the President, but actual policy choices and administrative orders are dictated by the Cabinet headed by the Prime Minister. Every constitutional duty performed by the executive branch relies on this fundamental balance between symbolic headship and political accountability.",
+    "keyTakeaways": [
+      "Union Executive comprises 5 entities: President, Vice-President, PM, Council of Ministers, Attorney General.",
+      "President is the De Jure (nominal) head; PM is the De Facto (real) head.",
+      "All executive action of the Government of India is formally taken in the name of the President (Article 77)."
+    ],
+    "importantArticles": [
+      "Article 53: Executive power of the Union vested in the President",
+      "Article 77: Conduct of business of the Government of India"
+    ],
+    "sscPoints": [
+      "CAG, UPSC, and Election Commission are Constitutional Bodies, NOT part of the Union Executive.",
+      "Question on 'De Jure vs De Facto executive' is a recurrent Tier-1 theme."
+    ],
+    "commonMistakes": [
+      "Including the Speaker of Lok Sabha or CAG inside the Union Executive.",
+      "Believing executive powers are exercised independently by the President."
+    ]
+  },
+  {
+    "heading": "The President: Constitutional Position & Qualifications",
+    "explanation": "The President is the supreme constitutional authority, the first citizen of India, and the Commander-in-Chief of the Union Armed Forces. Article 52 creates the office, while Article 53 vests all Union executive powers in the President, to be exercised either directly or through subordinate officers in accordance with the Constitution. To be eligible for election as President under Article 58, a candidate must be a citizen of India, must have completed 35 years of age, must be qualified for election as a member of the Lok Sabha, and must not hold any office of profit under the Union or State governments, or local authorities. Certain sitting officials—the President, Vice-President, State Governors, and Ministers—are exempted from the office of profit disqualification for candidacy.",
+    "keyTakeaways": [
+      "President is First Citizen and Supreme Commander of Armed Forces.",
+      "Minimum age for presidency is 35 years.",
+      "Candidate must be qualified to become a member of the Lok Sabha."
+    ],
+    "importantArticles": [
+      "Article 52: Office of the President",
+      "Article 53: Executive power vested in President",
+      "Article 58: Qualifications for election as President"
+    ],
+    "sscPoints": [
+      "Age qualification (35 years) is frequently asked in Tier-1.",
+      "Must be qualified for Lok Sabha membership (not Rajya Sabha)."
+    ],
+    "commonMistakes": [
+      "Selecting 30 years as minimum age instead of 35 years.",
+      "Confusing Lok Sabha eligibility for President with Rajya Sabha eligibility for Vice-President."
+    ]
+  },
+  {
+    "heading": "Election of the President",
+    "explanation": "The President is elected indirectly by an Electoral College as prescribed under Article 54. The Electoral College consists of: (1) Elected members of both Houses of Parliament (MPs), and (2) Elected members of the Legislative Assemblies of the States (MLAs), including the Union Territories of Delhi, Puducherry, and Jammu & Kashmir. Nominated members of Parliament and State Legislative Assemblies, as well as ALL members (elected or nominated) of State Legislative Councils (MLCs), are strictly excluded. The election is conducted under Article 55 through a system of proportional representation by means of a single transferable vote via secret ballot. Uniformity in scale of representation across states and parity between Union and States is achieved using specific mathematical formulas based on population.",
+    "keyTakeaways": [
+      "Indirect election by Electoral College (Elected MPs + Elected MLAs).",
+      "Nominated members and Legislative Council members (MLCs) DO NOT vote.",
+      "Employs proportional representation by single transferable vote (secret ballot)."
+    ],
+    "importantArticles": [
+      "Article 54: Electoral College for President",
+      "Article 55: Manner of election of President",
+      "Article 71: Disputes regarding Presidential/Vice-Presidential elections (inquired solely by Supreme Court)"
+    ],
+    "sscPoints": [
+      "Only ELECTED members vote in the presidential election.",
+      "Supreme Court has exclusive jurisdiction to settle presidential election disputes."
+    ],
+    "commonMistakes": [
+      "Including nominated MPs or State Legislative Council (MLC) members in the Electoral College.",
+      "Thinking election disputes are handled by the Election Commission of India."
+    ]
+  },
+  {
+    "heading": "President: Term, Oath & Impeachment (Removal)",
+    "explanation": "Under Article 56, the President holds office for a term of 5 years from the date on which they enter upon office. The President administers an oath under Article 60 administered by the Chief Justice of India (or senior-most SC judge). Resignation is addressed in writing to the Vice-President. Article 61 details the procedure for the removal of the President via Impeachment for the sole ground of 'Violation of the Constitution'. The impeachment charge can originate in either House of Parliament. It requires a resolution signed by at least 1/4th of the total membership of the initiating house, followed by a 14-day advance notice. To pass, the resolution must be supported by a special majority of not less than 2/3rds of the TOTAL MEMBERSHIP of that house. The second house investigates the charges; if passed there by 2/3rds total membership, the President stands removed. Crucially, NOMINATED MPs participate in impeachment, while State MLAs do not.",
+    "keyTakeaways": [
+      "Term is 5 years; eligible for re-election indefinitely.",
+      "Impeachment ground: Solely 'Violation of the Constitution' (Article 61).",
+      "Impeachment majority: 2/3rd of TOTAL membership of each House.",
+      "Nominated MPs participate in Impeachment, but State MLAs do NOT."
+    ],
+    "importantArticles": [
+      "Article 56: Term of office of President",
+      "Article 60: Oath or affirmation by the President",
+      "Article 61: Procedure for impeachment of the President"
+    ],
+    "sscPoints": [
+      "Impeachment requires a majority of total membership, not just present and voting.",
+      "President addresses resignation to the Vice-President."
+    ],
+    "commonMistakes": [
+      "Believing state MLAs vote in impeachment (they vote in election, NOT in impeachment).",
+      "Confusing 2/3rd total membership with 2/3rd present and voting."
+    ]
+  },
+  {
+    "heading": "Executive, Legislative & Judicial Powers of the President",
+    "explanation": "The powers of the President are broad and encompass administrative, legislative, judicial, financial, and emergency functions. Executive powers include appointing the Prime Minister, Ministers, CAG, Attorney General, Governors, Election Commissioners, and UPSC members. Legislative powers allow the President to summon, prorogue, and dissolve the Lok Sabha (Article 85), deliver address speeches (Article 87), and nominate 12 members to the Rajya Sabha for expertise in literature, science, art, and social service. Judicial powers under Article 72 authorize granting pardons, reprieves, respites, remissions, or commutations for court-martial sentences, offenses under Union laws, and all death sentences. Financial powers require presidential recommendation for introducing Money Bills (Article 110) and laying the Annual Financial Statement (Budget - Article 112) before Parliament.",
+    "keyTakeaways": [
+      "Appoints key constitutional authorities under Union seal.",
+      "Nominates 12 members to Rajya Sabha (Art 80).",
+      "Article 72 gives broad pardoning power (including death sentences and court-martial).",
+      "Money Bills require prior recommendation of the President."
+    ],
+    "importantArticles": [
+      "Article 72: Pardoning powers of the President",
+      "Article 85: Sessions, prorogation, and dissolution of Parliament",
+      "Article 87: Special address by the President"
+    ],
+    "sscPoints": [
+      "Nomination of Anglo-Indians (2 seats in Lok Sabha) was abolished via the 104th CAA, 2019.",
+      "Pardoning power covers Court-Martial (military courts) exclusively at the Union level."
+    ],
+    "commonMistakes": [
+      "Assuming Governor has pardoning power for death sentences (Governor can suspend/remit, but cannot pardon death sentences).",
+      "Thinking the President still nominates 2 Anglo-Indian members to Lok Sabha."
+    ]
+  },
+  {
+    "heading": "Veto Powers of the President",
+    "explanation": "When a bill is passed by Parliament, it must receive Presidential assent under Article 111 to become law. The President has three distinct veto powers: Absolute Veto (withholding assent completely so the bill dies), Suspensive Veto (returning the bill for parliamentary reconsideration), and Pocket Veto (keeping the bill pending indefinitely without taking action). Suspensive Veto is overridden if Parliament passes the returned bill again by a simple majority, making presidential assent mandatory. Suspensive veto cannot be exercised on Money Bills. Pocket Veto is possible because the Indian Constitution prescribes no time limit for the President to act on a bill (unlike the US President who has 10 days). India does NOT have a Qualified Veto (veto requiring higher majority to override).",
+    "keyTakeaways": [
+      "Absolute Veto: Withholds assent completely.",
+      "Suspensive Veto: Returns bill for reconsideration; overridden by simple majority.",
+      "Pocket Veto: Takes no action indefinitely (used by Gyani Zail Singh in 1986 on Indian Post Office Amendment Bill).",
+      "No Suspensive Veto on Money Bills or Constitutional Amendment Bills (24th CAA 1971 made assent mandatory for Constitutional Amendments)."
+    ],
+    "importantArticles": [
+      "Article 111: Assent to Bills"
+    ],
+    "sscPoints": [
+      "Indian President possesses 3 vetoes: Absolute, Suspensive, and Pocket.",
+      "No pocket/suspensive veto can be used on Constitutional Amendment Bills (24th CAA 1971)."
+    ],
+    "commonMistakes": [
+      "Thinking India uses 'Qualified Veto' (it exists in the US, not India).",
+      "Believing a President can return a Money Bill for reconsideration."
+    ]
+  },
+  {
+    "heading": "Ordinance Making Power of the President",
+    "explanation": "Under Article 123, the President has the power to promulgate ordinances during parliamentary recess. An ordinance carries the same legal force and effect as an Act of Parliament, but it is an emergency legislative mechanism. Three strict conditions must be satisfied: (1) Both Houses or either House of Parliament must be out of session, (2) Circumstances must exist requiring immediate action, and (3) Subject matter must fall within Parliament's law-making domain. An ordinance must be laid before Parliament upon its reassembly. It ceases to operate 6 weeks after the reassembly of Parliament, unless approved earlier. If the Houses reassemble on different dates, the 6-week window counts from the later date. Thus, the maximum life of an ordinance without parliamentary approval is 6 months plus 6 weeks.",
+    "keyTakeaways": [
+      "Promulgated under Article 123 during recess of Parliament.",
+      "Must be approved within 6 weeks from reassembly.",
+      "Maximum lifespan without approval = 6 months + 6 weeks (180 days + 42 days).",
+      "Cannot amend the Constitution via ordinance."
+    ],
+    "importantArticles": [
+      "Article 123: Power of President to promulgate Ordinances"
+    ],
+    "sscPoints": [
+      "Maximum life of an ordinance is 6 months + 6 weeks (due to max 6-month gap between sessions).",
+      "Governor's parallel ordinance power lies under Article 213."
+    ],
+    "commonMistakes": [
+      "Selecting 6 months as the total expiry time instead of 6 weeks from reassembly.",
+      "Believing an ordinance can be issued when both Houses are in session."
+    ]
+  },
+  {
+    "heading": "The Vice-President of India",
+    "explanation": "Article 63 creates the office of the Vice-President, who occupies the second-highest constitutional position in India. Under Article 64, the Vice-President is the ex-officio Chairman of the Council of States (Rajya Sabha). Qualifications under Article 66 require a citizen of India, minimum 35 years of age, and eligibility for election as a member of the Rajya Sabha. The Vice-President is elected indirectly by an electoral college consisting of members of BOTH Houses of Parliament (both elected AND nominated members). State MLAs do not participate. Removal under Article 67 requires a resolution passed by the Rajya Sabha by an effective majority (majority of all the then members) and agreed to by the Lok Sabha by a simple majority. No formal impeachment ground is specified in the Constitution. When acting as President (max 6 months under Article 65), the Vice-President does not perform the duties of Rajya Sabha Chairman.",
+    "keyTakeaways": [
+      "Ex-officio Chairman of Rajya Sabha (Article 64).",
+      "Electoral college = ALL MPs of Lok Sabha & Rajya Sabha (Elected + Nominated). No State MLAs.",
+      "Removal begins ONLY in Rajya Sabha; requires Effective Majority in RS + Simple Majority in LS.",
+      "Max period acting as President is 6 months."
+    ],
+    "importantArticles": [
+      "Article 63: The Vice-President of India",
+      "Article 64: Ex-officio Chairman of Council of States",
+      "Article 66: Election of Vice-President",
+      "Article 67: Term and removal of Vice-President"
+    ],
+    "sscPoints": [
+      "Vice-President draws a salary as the Chairman of Rajya Sabha, not as Vice-President.",
+      "State MLAs do NOT vote in Vice-Presidential election."
+    ],
+    "commonMistakes": [
+      "Including State MLAs in the Vice-Presidential election.",
+      "Thinking the removal resolution of Vice-President can originate in Lok Sabha."
+    ]
+  },
+  {
+    "heading": "The Prime Minister & Council of Ministers",
+    "explanation": "The Prime Minister is the real executive authority (De Facto Head) and leader of the nation. Article 75 mandates that the PM shall be appointed by the President, and other ministers shall be appointed by the President on the advice of the PM. Article 74 outlines that there shall be a Council of Ministers with the Prime Minister as head to aid and advise the President, whose advice is binding post-44th Amendment (1978) after one potential request for reconsideration. Article 75(3) establishes the core parliamentary principle: the Council of Ministers is collectively responsible to the Lok Sabha. A minister who is not a member of either House for 6 consecutive months ceases to be a minister. The 91st Amendment Act (2003) capped the total strength of the Council of Ministers (including PM) at 15% of the total strength of the Lok Sabha.",
+    "keyTakeaways": [
+      "PM is appointed by President; ministers appointed on PM's recommendation.",
+      "Council of Ministers is collectively responsible to the Lok Sabha (Art 75(3)).",
+      "91st Amendment Act (2003) caps minister count at 15% of Lok Sabha strength.",
+      "Non-MP can be a minister for a maximum of 6 months."
+    ],
+    "importantArticles": [
+      "Article 74: Council of Ministers to aid and advise President",
+      "Article 75: Other provisions as to Ministers (appointment, tenure, responsibility)",
+      "Article 78: Duties of Prime Minister to furnish information to President"
+    ],
+    "sscPoints": [
+      "Collective responsibility is specifically to the Lok Sabha, NOT Parliament as a whole.",
+      "15% limit was added by the 91st Constitutional Amendment Act, 2003."
+    ],
+    "commonMistakes": [
+      "Believing Council of Ministers is collectively responsible to both Houses of Parliament.",
+      "Confusing 15% limit of Lok Sabha strength with total Parliament strength."
+    ]
+  },
+  {
+    "heading": "Cabinet vs Council of Ministers",
+    "explanation": "Though often used interchangeably in casual discourse, the Council of Ministers and the Cabinet differ significantly in size, hierarchy, and constitutional recognition. The Council of Ministers is a broader body comprising 60 to 80 ministers split across three ranks: Cabinet Ministers, Ministers of State (Independent Charge / Attached), and Deputy Ministers. The Cabinet is a smaller, inner body consisting of 15 to 20 top-tier Cabinet Ministers holding key portfolios (Home, Finance, Defense, External Affairs). While the Council of Ministers is a constitutional body created under Article 74 & 75, the term 'Cabinet' was not in the original Constitution; it was inserted into Article 352 by the 44th Constitutional Amendment Act, 1978. The Cabinet meets regularly to drive national policy, while the full Council of Ministers rarely meets as a single deliberative unit.",
+    "keyTakeaways": [
+      "Council of Ministers = Wider body (60-80 members, 3 tiers).",
+      "Cabinet = Inner decision-making core (15-20 top ministers).",
+      "Word 'Cabinet' was added to Article 352 by the 44th CAA, 1978.",
+      "Cabinet implements decisions through the larger Council of Ministers."
+    ],
+    "importantArticles": [
+      "Article 74: Council of Ministers",
+      "Article 352: Emergency provisions containing sole mention of 'Cabinet'"
+    ],
+    "sscPoints": [
+      "The word 'Cabinet' appears only ONCE in the Constitution (Article 352).",
+      "Cabinet decision writing is mandatory for invoking National Emergency."
+    ],
+    "commonMistakes": [
+      "Assuming 'Cabinet' was part of the original 1950 Constitution text.",
+      "Thinking Deputy Ministers are part of the Cabinet."
+    ]
+  },
+  {
+    "heading": "Attorney General for India",
+    "explanation": "Article 76 creates the office of the Attorney General for India (AGI), who is the highest law officer in the country. Appointed by the President, the candidate must be qualified to be appointed as a Judge of the Supreme Court (citizen of India, and either 5 years as High Court judge or 10 years as High Court advocate). The AGI holds office during the pleasure of the President and receives remuneration determined by the President (no fixed tenure or salary in Constitution). Under Article 88, the AGI has the right to speak and participate in proceedings of both Houses of Parliament or joint sittings, and any parliamentary committee to which named, but HAS NO RIGHT TO VOTE. The AGI enjoys rights of audience in all courts in India.",
+    "keyTakeaways": [
+      "Highest legal officer in India (Article 76).",
+      "Appointed by President; holds office during President's pleasure.",
+      "Qualifications equal to Supreme Court Judge.",
+      "Right to speak in Parliament (Art 88), but CANNOT vote."
+    ],
+    "importantArticles": [
+      "Article 76: Attorney General for India",
+      "Article 88: Rights of Ministers and Attorney General as respects Houses"
+    ],
+    "sscPoints": [
+      "Article 88 (Right to attend Parliament without voting right) is a high-yield question.",
+      "AGI is NOT a full-time government servant and is not debarred from private legal practice."
+    ],
+    "commonMistakes": [
+      "Believing the AGI has the right to vote in parliamentary proceedings.",
+      "Confusing Solicitor General (statutory post) with Attorney General (constitutional post)."
+    ]
+  },
+  {
+    "heading": "Structure of Parliament & Composition of Houses",
+    "explanation": "Article 79 establishes the Parliament of India, consisting of three components: the President, the Council of States (Rajya Sabha), and the House of the People (Lok Sabha). Rajya Sabha (Article 80) represents the states and UTs as the Upper House (Permanent body, not subject to dissolution). Max strength is 250 (238 elected + 12 nominated by President). Current strength is 245. Lok Sabha (Article 81) represents the people directly as the Lower House (max term 5 years). Max strength post-104th CAA is 550 (530 from States + 20 from UTs), as 2 nominated Anglo-Indian seats were discontinued. Current strength is 543 elected members.",
+    "keyTakeaways": [
+      "Parliament = President + Rajya Sabha + Lok Sabha (Article 79).",
+      "Rajya Sabha max = 250 (238 elected + 12 nominated).",
+      "Lok Sabha max = 550 (530 States + 20 UTs; 2 Anglo-Indian seats abolished).",
+      "104th CAA (2019) abolished 2 Anglo-Indian nominated seats in Lok Sabha."
+    ],
+    "importantArticles": [
+      "Article 79: Constitution of Parliament",
+      "Article 80: Composition of Rajya Sabha",
+      "Article 81: Composition of Lok Sabha"
+    ],
+    "sscPoints": [
+      "President is an integral part of Parliament despite not sitting in either House.",
+      "Max strength of Lok Sabha is now 550, not 552."
+    ],
+    "commonMistakes": [
+      "Excluding the President from the definition of Parliament.",
+      "Answering 552 for max Lok Sabha strength after the 104th CAA."
+    ]
+  },
+  {
+    "heading": "Rajya Sabha & Lok Sabha: Comparison & Special Powers",
+    "explanation": "Rajya Sabha is a permanent house; 1/3rd of its members retire every second year, giving each member a 6-year term. Minimum age for Rajya Sabha is 30 years. Lok Sabha has a normal 5-year term from its first meeting, subject to premature dissolution; minimum age is 25 years. Rajya Sabha possesses two exclusive federal powers: (1) Article 249 allows RS to pass a resolution by 2/3rd present & voting authorizing Parliament to make laws on a State List subject in national interest, and (2) Article 312 authorizes RS to create new All-India Services. Conversely, Lok Sabha holds absolute financial supremacy—Money Bills can only originate in Lok Sabha, and Council of Ministers is accountable only to Lok Sabha via No-Confidence Motions.",
+    "keyTakeaways": [
+      "RS: Permanent body, 6-year member term, min age 30.",
+      "LS: 5-year house term, min age 25.",
+      "RS Exclusive Powers: Article 249 (State List legislation) and Article 312 (All-India Services).",
+      "LS Exclusive Powers: Money Bills (Art 110) & No-Confidence Motion."
+    ],
+    "importantArticles": [
+      "Article 83: Duration of Houses of Parliament",
+      "Article 249: Power of Parliament to legislate on State List matters",
+      "Article 312: Creation of All-India Services"
+    ],
+    "sscPoints": [
+      "Articles 249 and 312 are top RS special power questions.",
+      "Minimum age difference: 25 for LS vs 30 for RS."
+    ],
+    "commonMistakes": [
+      "Believing Rajya Sabha itself has a 6-year duration (the House is permanent; its members have 6-year terms).",
+      "Confusing Article 249 with Article 312."
+    ]
+  },
+  {
+    "heading": "Presiding Officers of Parliament",
+    "explanation": "The Lok Sabha is presided over by the Speaker (and Deputy Speaker), elected by Lok Sabha members from among themselves (Article 93). The Speaker conducts business, maintains order, decides whether a bill is a Money Bill (decision is final under Article 110), and presides over Joint Sittings of Parliament (Article 108). The Speaker does not vote in the first instance, but exercises a 'Casting Vote' in case of a tie (Article 100). The Rajya Sabha is presided over by the Chairman (the Vice-President of India ex-officio) and a Deputy Chairman elected by RS members. Unlike the Speaker, the RS Chairman is NOT a member of the House they preside over.",
+    "keyTakeaways": [
+      "Speaker elected by Lok Sabha members; casting vote under Art 100.",
+      "Speaker presides over Joint Sittings (Art 108) and certifies Money Bills (Art 110).",
+      "Vice-President is ex-officio RS Chairman; NOT a member of Rajya Sabha."
+    ],
+    "importantArticles": [
+      "Article 89: Chairman and Deputy Chairman of Rajya Sabha",
+      "Article 93: Speaker and Deputy Speaker of Lok Sabha",
+      "Article 100: Voting in Houses, power to act notwithstanding vacancies, and Quorum"
+    ],
+    "sscPoints": [
+      "Speaker presides over Joint Sitting; if absent, Deputy Speaker presides (RS Chairman NEVER presides).",
+      "Pro-tem Speaker is appointed by President to swear in new MPs."
+    ],
+    "commonMistakes": [
+      "Assuming the Vice-President (RS Chairman) can preside over a Joint Sitting.",
+      "Thinking the Speaker votes in the normal first round."
+    ]
+  },
+  {
+    "heading": "Sessions of Parliament, Quorum & Parliamentary Devices",
+    "explanation": "The President summons sessions of Parliament (Article 85). Maximum gap between two sessions cannot exceed 6 months (Parliament must meet at least twice a year). India conventionally holds three sessions: Budget (Feb-May), Monsoon (July-Sept), and Winter (Nov-Dec). Quorum under Article 100(3) is 1/10th of total membership of the House (55 in LS, 25 in RS) required to conduct business. Parliamentary proceedings feature specific devices: Question Hour is the first hour of a sitting dedicated to Starred questions (oral answer + supplementary questions allowed), Unstarred questions (written answer, no supplementaries), and Short Notice questions. Zero Hour is an informal Indian innovation (not in rules) starting immediately after Question Hour for raising urgent public matters.",
+    "keyTakeaways": [
+      "Max gap between sessions = 6 months.",
+      "Quorum = 1/10th of total strength of the House.",
+      "Question Hour = First hour; Starred (oral + supplementaries), Unstarred (written).",
+      "Zero Hour = Indian innovation immediately following Question Hour."
+    ],
+    "importantArticles": [
+      "Article 85: Sessions, prorogation, and dissolution",
+      "Article 100(3): Quorum requirement"
+    ],
+    "sscPoints": [
+      "Starred questions require oral answers and allow supplementary questions.",
+      "Zero Hour is an informal device introduced in 1962 (not mentioned in Rules of Procedure)."
+    ],
+    "commonMistakes": [
+      "Thinking supplementary questions are allowed for Unstarred Questions (they are for Starred).",
+      "Believing Zero Hour is a formal rule book term."
+    ]
+  },
+  {
+    "heading": "Legislative Procedure & Ordinary Bills",
+    "explanation": "All legislative proposals are introduced in Parliament as Bills. Bills are divided into Ordinary, Money, Financial, and Constitutional Amendment Bills. An Ordinary Bill can originate in either House of Parliament by any member (Minister or Private Member) without prior presidential recommendation. It passes through 5 stages in each House: First Reading (introduction), Second Reading (clause-by-clause scrutiny and committee stage), Third Reading (voting), Passage in second House, and Presidential Assent. Both Houses enjoy equal powers regarding Ordinary Bills. If the secondary House rejects the bill, suggests unacceptable amendments, or holds it for more than 6 months, a legislative deadlock occurs.",
+    "keyTakeaways": [
+      "Ordinary Bills can originate in either LS or RS.",
+      "Does NOT require prior presidential recommendation.",
+      "Maximum period Rajya Sabha can delay an Ordinary Bill = 6 months.",
+      "Deadlock can be resolved via Joint Sitting (Article 108)."
+    ],
+    "importantArticles": [
+      "Article 107: Provisions as to introduction and passing of Bills",
+      "Article 111: Assent to Bills"
+    ],
+    "sscPoints": [
+      "Rajya Sabha can hold an Ordinary Bill for a maximum of 6 months.",
+      "Detailed scrutiny happens during the Second Reading stage."
+    ],
+    "commonMistakes": [
+      "Confusing the 14-day limit of Money Bills with the 6-month limit of Ordinary Bills in Rajya Sabha.",
+      "Believing Presidential recommendation is required for Ordinary Bills."
+    ]
+  },
+  {
+    "heading": "Money Bills & Financial Bills",
+    "explanation": "A Money Bill is defined under Article 110 containing exclusively provisions regarding taxation, government borrowing, or expenditure from the Consolidated Fund of India. It can ONLY originate in the Lok Sabha on the prior recommendation of the President. The Speaker’s certification of a Money Bill is final. After passing Lok Sabha, it goes to Rajya Sabha, which has limited powers: RS cannot reject or amend it; it can only make recommendations and must return it within 14 days. If not returned in 14 days, it is deemed passed. Financial Bills Type I (Article 117(1)) contain Money Bill clauses plus general legislation (introduced only in LS with President's recommendation, but otherwise treated as ordinary bill). Financial Bills Type II (Article 117(3)) contain Consolidated Fund expenditure (can originate in either house, requires President recommendation before consideration).",
+    "keyTakeaways": [
+      "Money Bill defined under Article 110; certified solely by Speaker.",
+      "Originates ONLY in Lok Sabha on prior Presidential recommendation.",
+      "Rajya Sabha can delay Money Bill for max 14 days; cannot amend or reject.",
+      "No Joint Sitting for Money Bills."
+    ],
+    "importantArticles": [
+      "Article 110: Definition of Money Bills",
+      "Article 109: Special procedure in respect of Money Bills",
+      "Article 117: Financial Bills"
+    ],
+    "sscPoints": [
+      "14 days time limit for Rajya Sabha on Money Bills is repeatedly asked.",
+      "Speaker's endorsement on Money Bill cannot be questioned."
+    ],
+    "commonMistakes": [
+      "Thinking Rajya Sabha can reject a Money Bill.",
+      "Assuming Joint Sitting can be called for a Money Bill."
+    ]
+  },
+  {
+    "heading": "Constitutional Amendment Bills & Joint Sitting",
+    "explanation": "Constitutional Amendment Bills are introduced under Article 368 to amend the Constitution. They can originate in either House, do NOT require prior Presidential recommendation, and must be passed by each House separately by a Special Majority (majority of total membership + 2/3rd present and voting). There is NO provision for a Joint Sitting for Constitutional Amendment Bills. On the other hand, Joint Sitting (Article 108) resolves deadlocks on Ordinary and Financial Bills. Summoned by the President, it is presided over by the Speaker of Lok Sabha. Decisions are taken by simple majority of total members present and voting across both houses. Because Lok Sabha has numerical superiority (543 vs 245), its stance usually prevails.",
+    "keyTakeaways": [
+      "Art 368: Constitutional Amendment Bills require special majority in both houses separately.",
+      "NO Joint Sitting allowed for Constitutional Amendment Bills or Money Bills.",
+      "Art 108: Joint Sitting summoned by President, presided over by Speaker.",
+      "Joint Sitting decides by Simple Majority of members present and voting."
+    ],
+    "importantArticles": [
+      "Article 108: Joint sitting of both Houses in certain cases",
+      "Article 368: Power of Parliament to amend Constitution"
+    ],
+    "sscPoints": [
+      "Joint Sitting applies ONLY to Ordinary Bills and Financial Bills.",
+      "Presidential assent is mandatory for Constitutional Amendments (24th CAA 1971)."
+    ],
+    "commonMistakes": [
+      "Assuming RS Chairman presides over Joint Sitting if Speaker is absent (Deputy Speaker presides).",
+      "Thinking Joint Sitting can resolve a Constitutional Amendment deadlock."
+    ]
+  },
+  {
+    "heading": "Parliamentary Committees",
+    "explanation": "Because Parliament is too large to scrutinize complex legislative and financial details, it works through Parliamentary Committees. Committees are Standing Committees (permanent, reconstituted annually) or Ad-hoc Committees (temporary for specific tasks). The three crucial Financial Standing Committees are: (1) Public Accounts Committee (PAC): 22 members (15 LS + 7 RS), examines CAG audit reports; Chairman traditionally appointed from Opposition. (2) Estimates Committee: Largest committee with 30 members, ALL exclusively from Lok Sabha; examines budget estimates. (3) Committee on Public Undertakings (COPU): 22 members (15 LS + 7 RS), examines PSU performance.",
+    "keyTakeaways": [
+      "Public Accounts Committee (PAC): 22 members (15 LS + 7 RS), checks CAG report.",
+      "Estimates Committee: 30 members (ALL 30 from Lok Sabha) — Largest Committee.",
+      "Public Undertakings Committee: 22 members (15 LS + 7 RS).",
+      "Ministers CANNOT be elected to these financial committees."
+    ],
+    "importantArticles": [
+      "Article 105: Powers, privileges, and immunities of Parliament and its committees"
+    ],
+    "sscPoints": [
+      "Estimates Committee has 0 members from Rajya Sabha.",
+      "PAC Chairman is appointed by Speaker from the Opposition party."
+    ],
+    "commonMistakes": [
+      "Including Rajya Sabha members in the Estimates Committee.",
+      "Believing a Cabinet Minister can be a member of the PAC or Estimates Committee."
+    ]
+  },
+  {
+    "heading": "Important Constitutional Articles Summary",
+    "explanation": "A high-yield consolidation of Part V articles frequently tested in SSC CGL exams. Mastering these article numbers and their precise constitutional headings ensures high accuracy in matching and single-statement questions.",
+    "keyTakeaways": [
+      "Articles 52 to 78 = Union Executive",
+      "Articles 79 to 122 = Parliament & Officers",
+      "Article 123 = Legislative Power of President (Ordinance)"
+    ],
+    "importantArticles": [
+      "Article 52: President of India",
+      "Article 54: Presidential Election",
+      "Article 61: Presidential Impeachment",
+      "Article 63: Vice-President of India",
+      "Article 72: Pardoning Power",
+      "Article 74: Council of Ministers",
+      "Article 75: PM & Minister Provisions",
+      "Article 76: Attorney General",
+      "Article 78: PM Duties to President",
+      "Article 79: Constitution of Parliament",
+      "Article 80: Rajya Sabha Composition",
+      "Article 81: Lok Sabha Composition",
+      "Article 85: Parliamentary Sessions & Dissolution",
+      "Article 93: LS Speaker & Deputy Speaker",
+      "Article 100: Voting & Quorum (1/10th)",
+      "Article 105: Parliamentary Privileges",
+      "Article 108: Joint Sitting",
+      "Article 109: Special Procedure Money Bills",
+      "Article 110: Money Bill Definition",
+      "Article 112: Annual Financial Statement (Budget)",
+      "Article 123: President's Ordinance Power"
+    ],
+    "sscPoints": [
+      "Direct article mapping questions are extremely common in Tier-1 General Awareness.",
+      "Article 112 uses the phrase 'Annual Financial Statement', NOT the word 'Budget'."
+    ],
+    "commonMistakes": [
+      "Searching for the word 'Budget' in Article 112 (Constitution uses 'Annual Financial Statement').",
+      "Confusing Article 76 (Attorney General) with Article 165 (Advocate General)."
+    ]
+  },
+  {
+    "heading": "SSC Exam Tricks & Mnemonics",
+    "explanation": "Strategic shortcuts, numeric anchors, and process tricks designed to rapidly solve high-frequency SSC CGL polity questions with maximum accuracy.",
+    "keyTakeaways": [
+      "Age Matrix: 25 yrs (Lok Sabha MP, PM) | 30 yrs (Rajya Sabha MP) | 35 yrs (President, Vice-President).",
+      "Committee Strengths: PAC (22 = 15+7) | Estimates (30 = All LS) | COPU (22 = 15+7).",
+      "Delay Limits: RS can delay Money Bill = 14 Days | Ordinary Bill = 6 Months | Ordinance Max Life = 6 Months + 6 Weeks.",
+      "Veto Mnemonic: 'A-S-P' = Absolute, Suspensive, Pocket (No Qualified Veto in India)."
+    ],
+    "importantArticles": [
+      "Articles 54, 61, 76, 108, 110, 112, 123"
+    ],
+    "sscPoints": [
+      "Ordinance trick: Union = 123 | State = 213 (Rearrange digits 1 and 2!).",
+      "Pardoning trick: President = 72 | Governor = 161."
+    ],
+    "commonMistakes": [
+      "Mixing up Union vs State article codes (Use +89 or +90 rule to convert Union articles to State articles).",
+      "Forgetting that Ministers cannot join Financial Committees."
+    ]
+  }
+]

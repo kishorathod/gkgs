@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "crown",
+    "title": "Nominal vs Real Head",
+    "description": "The President is the De Jure (nominal) executive head under Article 53, while the Prime Minister is the De Facto (real) executive head."
+  },
+  {
+    "icon": "landmark",
+    "title": "Bicameral Parliament",
+    "description": "Article 79 states Parliament consists of the President, the Council of States (Rajya Sabha), and the House of the People (Lok Sabha)."
+  },
+  {
+    "icon": "file-text",
+    "title": "Money Bill Authority",
+    "description": "The Speaker of the Lok Sabha has sole authority to decide whether a bill is a Money Bill or not (Article 110), and their decision is final."
+  },
+  {
+    "icon": "users-check",
+    "title": "Largest Committee",
+    "description": "The Estimates Committee is the largest Parliamentary Committee with 30 members, all exclusively drawn from the Lok Sabha."
+  }
+]
