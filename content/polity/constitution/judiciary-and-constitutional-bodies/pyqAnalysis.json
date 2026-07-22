@@ -1,1 +1,144 @@
-{}
+{
+  "mostFrequentlyAskedArticles": [
+    {
+      "article": "124",
+      "topic": "Establishment of Supreme Court",
+      "frequency": "Extremely High",
+      "keyFocus": "Qualifications, retirement age (65 years), and removal process of SC judges."
+    },
+    {
+      "article": "143",
+      "topic": "Advisory Jurisdiction of Supreme Court",
+      "frequency": "Extremely High",
+      "keyFocus": "Power of the President to consult the Supreme Court and non-binding nature of the advice."
+    },
+    {
+      "article": "148",
+      "topic": "Comptroller and Auditor General of India",
+      "frequency": "Very High",
+      "keyFocus": "Tenure (6 years / 65 years), Guardian of Public Purse, and submission of reports to the President."
+    },
+    {
+      "article": "226",
+      "topic": "Writ Jurisdiction of High Courts",
+      "frequency": "Very High",
+      "keyFocus": "Comparison with Article 32; enforcement of both Fundamental Rights and legal rights."
+    },
+    {
+      "article": "280",
+      "topic": "Finance Commission",
+      "frequency": "Extremely High",
+      "keyFocus": "Composition (1+4 members), constitution every 5 years by the President, quasi-judicial status."
+    },
+    {
+      "article": "324",
+      "topic": "Election Commission of India",
+      "frequency": "Very High",
+      "keyFocus": "Superintendence of elections, CEC removal process, and composition."
+    },
+    {
+      "article": "326",
+      "topic": "Universal Adult Suffrage",
+      "frequency": "High",
+      "keyFocus": "Voting age reduction from 21 to 18 years via the 61st Constitutional Amendment Act."
+    }
+  ],
+  "mostAskedConstitutionalBodies": [
+    {
+      "body": "Comptroller and Auditor General of India (CAG)",
+      "frequency": "Extremely High",
+      "commonQuestionAngles": "Article 148, tenure limits, relationship with Public Accounts Committee (PAC), non-eligibility for re-appointment."
+    },
+    {
+      "body": "Finance Commission",
+      "frequency": "Very High",
+      "commonQuestionAngles": "Article 280, 1st Finance Commission Chairman (K.C. Neogy), appointing authority, tenure, and quasi-judicial nature."
+    },
+    {
+      "body": "Election Commission of India (ECI)",
+      "frequency": "Very High",
+      "commonQuestionAngles": "Article 324, 61st CAA voting age change, removal of CEC vs other ECs, scope of elections (excludes Panchayats/Municipalities)."
+    },
+    {
+      "body": "Union Public Service Commission (UPSC) & SPSCs",
+      "frequency": "High",
+      "commonQuestionAngles": "Articles 315-323, age limits (UPSC 65 vs SPSC 62), trick question on SPSC removal (removed ONLY by President, not Governor)."
+    },
+    {
+      "body": "Attorney General of India (AGI)",
+      "frequency": "High",
+      "commonQuestionAngles": "Article 76, right to attend and speak in Parliament without voting rights (Article 88), pleasure of the President."
+    }
+  ],
+  "repeatedThemes": [
+    {
+      "theme": "Retirement Age & Tenure Limits",
+      "description": "Matching articles and bodies with their respective retirement ages (SC/CAG/UPSC/ECI = 65 years vs HC/SPSC = 62 years)."
+    },
+    {
+      "theme": "Appointing vs Removing Authorities",
+      "description": "Specifically testing exceptions like SPSC members being appointed by the Governor but removed exclusively by the President (Article 317)."
+    },
+    {
+      "theme": "Writ Differences (Article 32 vs 226)",
+      "description": "Conceptual questions comparing the wider scope of High Court writ power (FRs + Legal rights) with Supreme Court writ power (FRs only)."
+    },
+    {
+      "theme": "Landmark Judgements & Basic Structure",
+      "description": "Kesavananda Bharati (1973 - Basic Structure / 13 judges), Maneka Gandhi (1978 - Art 21 scope), and Minerva Mills (1980 - Judicial review balance)."
+    },
+    {
+      "theme": "Constitutional Amendment Acts (CAAs)",
+      "description": "42nd CAA (Tribunals/Mini-Constitution), 44th CAA (Right to Property shift, Art 20 & 21 non-suspension), 61st CAA (Voting age 18), 89th CAA (NCST split), 102nd CAA (NCBC status), and 104th CAA (Abolition of Anglo-Indian seats)."
+    }
+  ],
+  "difficultyTrend": {
+    "overallTrend": "Shift from Simple Fact Retrieval to Statement-Based Analytical Questions (Tier-2 Focus)",
+    "observations": [
+      "Tier-1 continues to ask direct factual questions (Article numbers, age limits, first officeholders).",
+      "Tier-2 has transitioned towards multi-statement questions (e.g., 'Which of the following statements about CAG is/are correct?').",
+      "Increased focus on distinguishing Constitutional Bodies from Statutory/Executive Bodies.",
+      "Rise in questions testing exceptions (e.g., AGI's right to speak in Parliament without voting under Article 88)."
+    ]
+  },
+  "highProbabilityQuestions": [
+    {
+      "topic": "SPSC Removal Exception",
+      "expectedQuestionType": "Statement-based question testing whether Governor or President removes SPSC members under Article 317.",
+      "keyFactToRemember": "Appointed by Governor, Removed ONLY by President."
+    },
+    {
+      "topic": "104th Constitutional Amendment Act",
+      "expectedQuestionType": "Question on the discontinuation of Anglo-Indian nominated seats in Lok Sabha and Assemblies.",
+      "keyFactToRemember": "104th CAA discontinued Anglo-Indian nomination while extending SC/ST reservations to 2030."
+    },
+    {
+      "topic": "Salary vs Pension Charging Authorities for High Court Judges",
+      "expectedQuestionType": "Question asking which fund pays the salary vs pension of HC judges.",
+      "keyFactToRemember": "Salaries are charged on Consolidated Fund of the STATE; Pensions are charged on Consolidated Fund of INDIA."
+    },
+    {
+      "topic": "CAG Audit Scrutiny Partner",
+      "expectedQuestionType": "Identifying the parliamentary committee that examines CAG reports.",
+      "keyFactToRemember": "Public Accounts Committee (PAC) acts as the friend, philosopher, and guide to the CAG."
+    }
+  ],
+  "expectedFutureAreas": [
+    {
+      "area": "National Commission for Backward Classes (NCBC) - Article 338B",
+      "reasoning": "Since receiving constitutional status via the 102nd CAA, questions around 338, 338A, and 338B are increasingly frequent."
+    },
+    {
+      "area": "Ad Hoc Judges and Acting Chief Justices (Articles 126–128)",
+      "reasoning": "Deeper testing of judiciary articles beyond Article 124 and 143 in Tier-2 examinations."
+    },
+    {
+      "area": "Tribunals (Part XIV-A, Articles 323A and 323B)",
+      "reasoning": "Higher focus on 42nd Amendment additions and specialized quasi-judicial bodies."
+    },
+    {
+      "area": "Inter-State Water Disputes and Special Jurisdiction",
+      "reasoning": "Exceptions to Article 131 original jurisdiction are becoming popular in statement-based questions."
+    }
+  ]
+}

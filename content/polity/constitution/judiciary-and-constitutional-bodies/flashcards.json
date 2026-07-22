@@ -1,1 +1,242 @@
-[]
+[
+  {
+    "category": "Articles",
+    "front": "Article 124",
+    "back": "Provides for the establishment, composition, appointments, qualifications, and removal procedure of the Supreme Court of India.",
+    "topic": "Supreme Court",
+    "relatedArticle": "Article 124",
+    "importance": "High"
+  },
+  {
+    "category": "Articles",
+    "front": "Article 129",
+    "back": "Declares the Supreme Court to be a 'Court of Record' with the power to punish for contempt of itself.",
+    "topic": "Supreme Court Powers",
+    "relatedArticle": "Article 129",
+    "importance": "High"
+  },
+  {
+    "category": "Articles",
+    "front": "Article 143",
+    "back": "Empowers the President of India to consult the Supreme Court for advisory opinions on questions of law or public importance.",
+    "topic": "Advisory Jurisdiction",
+    "relatedArticle": "Article 143",
+    "importance": "High"
+  },
+  {
+    "category": "Articles",
+    "front": "Article 214",
+    "back": "Mandates that there shall be a High Court for each State (or a common High Court for two or more states under Art. 231).",
+    "topic": "High Courts",
+    "relatedArticle": "Article 214",
+    "importance": "High"
+  },
+  {
+    "category": "Articles",
+    "front": "Article 226",
+    "back": "Grants High Courts the power to issue writs for the enforcement of Fundamental Rights as well as any other ordinary legal rights.",
+    "topic": "Writ Jurisdiction",
+    "relatedArticle": "Article 226",
+    "importance": "High"
+  },
+  {
+    "category": "Judicial Terms",
+    "front": "Court of Record",
+    "back": "A court whose acts and judicial proceedings are recorded for perpetual memory and testimony, holding the power to punish for civil or criminal contempt.",
+    "topic": "Judicial Vocabulary",
+    "relatedArticle": "Article 129 & 215",
+    "importance": "Medium"
+  },
+  {
+    "category": "Judicial Terms",
+    "front": "Locus Standi",
+    "back": "The legal right or capacity of a party to bring an action before a court. Relaxed significantly in Public Interest Litigation (PIL) cases.",
+    "topic": "Judicial Vocabulary",
+    "relatedArticle": "Article 32 & 226",
+    "importance": "Medium"
+  },
+  {
+    "category": "Judicial Terms",
+    "front": "Curative Petition",
+    "back": "The absolute last judicial remedy available in the Supreme Court to cure gross miscarriages of justice, created via the Rupa Ashok Hurra case (2002).",
+    "topic": "Supreme Court Remedies",
+    "relatedArticle": "Article 137 / 142",
+    "importance": "Medium"
+  },
+  {
+    "category": "Judicial Terms",
+    "front": "Special Leave Petition (SLP)",
+    "back": "Discretionary power of the Supreme Court under Article 136 to grant special leave to appeal against any judgement/order from any court/tribunal (except court-martial).",
+    "topic": "Appellate Jurisdiction",
+    "relatedArticle": "Article 136",
+    "importance": "High"
+  },
+  {
+    "category": "Constitutional Bodies",
+    "front": "Comptroller and Auditor General of India (CAG)",
+    "back": "Established under Article 148; known as the 'Guardian of the Public Purse', auditing all accounts related to expenditure from the Consolidated Fund of India and States.",
+    "topic": "CAG",
+    "relatedArticle": "Article 148",
+    "importance": "High"
+  },
+  {
+    "category": "Constitutional Bodies",
+    "front": "Finance Commission of India",
+    "back": "A quasi-judicial body constituted under Article 280 every 5 years by the President to recommend vertical and horizontal tax revenue sharing between Centre and States.",
+    "topic": "Finance Commission",
+    "relatedArticle": "Article 280",
+    "importance": "High"
+  },
+  {
+    "category": "Constitutional Bodies",
+    "front": "Election Commission of India (ECI)",
+    "back": "Established under Article 324 as a permanent autonomous body responsible for conducting elections to Parliament, State Legislatures, and President/Vice-President offices.",
+    "topic": "Election Commission",
+    "relatedArticle": "Article 324",
+    "importance": "High"
+  },
+  {
+    "category": "Constitutional Bodies",
+    "front": "Attorney General for India (AGI)",
+    "back": "Appointed under Article 76 as the highest law officer in India; holds office during the pleasure of the President and advises the Union Government on legal matters.",
+    "topic": "Attorney General",
+    "relatedArticle": "Article 76",
+    "importance": "High"
+  },
+  {
+    "category": "Constitutional Bodies",
+    "front": "Union Public Service Commission (UPSC)",
+    "back": "Established under Article 315 as the central recruiting agency in India, serving as the watchdog of the merit system for All India and Central Services.",
+    "topic": "Public Service Commission",
+    "relatedArticle": "Article 315",
+    "importance": "High"
+  },
+  {
+    "category": "Appointments",
+    "front": "Appointment of Supreme Court Judges",
+    "back": "Appointed by the President of India after consultation with the CJI and Collegium of 4 senior-most SC judges (Article 124(2)).",
+    "topic": "Judicial Appointments",
+    "relatedArticle": "Article 124",
+    "importance": "High"
+  },
+  {
+    "category": "Appointments",
+    "front": "Appointment of High Court Judges",
+    "back": "Appointed by the President of India after consulting the Chief Justice of India, the Governor of the respective state, and the Chief Justice of that High Court.",
+    "topic": "Judicial Appointments",
+    "relatedArticle": "Article 217",
+    "importance": "High"
+  },
+  {
+    "category": "Appointments",
+    "front": "Appointment of District Judges",
+    "back": "Appointed, posted, and promoted by the Governor of the State in consultation with the State High Court under Article 233.",
+    "topic": "Subordinate Judiciary",
+    "relatedArticle": "Article 233",
+    "importance": "High"
+  },
+  {
+    "category": "Appointments",
+    "front": "Appointment of State Public Service Commission Members",
+    "back": "Appointed by the Governor of the State, holding office for 6 years or up to 62 years of age (Article 316).",
+    "topic": "State PSC",
+    "relatedArticle": "Article 316",
+    "importance": "High"
+  },
+  {
+    "category": "Removal Procedures",
+    "front": "Removal Ground for SC and HC Judges",
+    "back": "Strictly limited to 'Proved Misbehaviour' or 'Incapacity' via an address supported by a Special Majority in both Houses of Parliament.",
+    "topic": "Removal Procedures",
+    "relatedArticle": "Article 124(4) & 217(1)",
+    "importance": "High"
+  },
+  {
+    "category": "Removal Procedures",
+    "front": "Removal of Comptroller and Auditor General (CAG)",
+    "back": "Removed by the President in the EXACT same manner and on the exact same grounds as a judge of the Supreme Court of India.",
+    "topic": "CAG Removal",
+    "relatedArticle": "Article 148(1)",
+    "importance": "High"
+  },
+  {
+    "category": "Removal Procedures",
+    "front": "Removal of SPSC Members (Critical Exception)",
+    "back": "Appointed by the Governor, but can ONLY be removed by the President following a Supreme Court inquiry report under Article 317.",
+    "topic": "SPSC Removal",
+    "relatedArticle": "Article 317",
+    "importance": "High"
+  },
+  {
+    "category": "Removal Procedures",
+    "front": "Removal of Chief Election Commissioner (CEC)",
+    "back": "Removed from office in the same manner and on the same grounds as a judge of the Supreme Court (Special Majority in Parliament).",
+    "topic": "ECI Removal",
+    "relatedArticle": "Article 324(5)",
+    "importance": "High"
+  },
+  {
+    "category": "Jurisdictions",
+    "front": "Exclusive Original Jurisdiction of Supreme Court",
+    "back": "Article 131: Authority to hear federal disputes between Centre vs State, Centre & State vs States, or between two or more States.",
+    "topic": "Supreme Court Powers",
+    "relatedArticle": "Article 131",
+    "importance": "High"
+  },
+  {
+    "category": "Jurisdictions",
+    "front": "Advisory Jurisdiction Nature (Article 143)",
+    "back": "The legal opinion delivered by the Supreme Court upon Presidential reference is purely consultative and NOT legally binding on the President.",
+    "topic": "Supreme Court Powers",
+    "relatedArticle": "Article 143",
+    "importance": "High"
+  },
+  {
+    "category": "Jurisdictions",
+    "front": "Superintendence Jurisdiction of High Courts",
+    "back": "Article 227: Grants High Courts both administrative and judicial superintendence over all subordinate courts and tribunals in their state (except military tribunals).",
+    "topic": "High Court Powers",
+    "relatedArticle": "Article 227",
+    "importance": "Medium"
+  },
+  {
+    "category": "Important Facts",
+    "front": "Voting Age Reduction Amendment",
+    "back": "The 61st Constitutional Amendment Act, 1988 reduced the voting age for Lok Sabha and Assembly elections from 21 years to 18 years (Article 326).",
+    "topic": "Elections",
+    "relatedArticle": "Article 326",
+    "importance": "High"
+  },
+  {
+    "category": "Important Facts",
+    "front": "Parliamentary Privilege of Attorney General (Article 88)",
+    "back": "The Attorney General has the right to speak and take part in proceedings of either House or joint sittings, but has NO RIGHT TO VOTE.",
+    "topic": "Attorney General",
+    "relatedArticle": "Article 88",
+    "importance": "High"
+  },
+  {
+    "category": "Important Facts",
+    "front": "First Chief Justice of Independent India",
+    "back": "Justice H.J. Kania served as the inaugural Chief Justice of the Supreme Court of India when it was established on January 28, 1950.",
+    "topic": "Static GK",
+    "relatedArticle": "Article 124",
+    "importance": "High"
+  },
+  {
+    "category": "Important Facts",
+    "front": "102nd Constitutional Amendment Act, 2018",
+    "back": "Granted constitutional status to the National Commission for Backward Classes (NCBC) by inserting Article 338B into the Constitution.",
+    "topic": "Constitutional Amendments",
+    "relatedArticle": "Article 338B",
+    "importance": "High"
+  },
+  {
+    "category": "Important Facts",
+    "front": "High Court Judges' Salary vs Pension Charging Funds",
+    "back": "High Court judges' salaries are charged on the Consolidated Fund of the STATE, whereas their pensions are charged on the Consolidated Fund of INDIA.",
+    "topic": "High Courts",
+    "relatedArticle": "Article 112(3) & 202",
+    "importance": "High"
+  }
+]
