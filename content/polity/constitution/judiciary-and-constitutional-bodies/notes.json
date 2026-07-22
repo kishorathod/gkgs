@@ -1,0 +1,99 @@
+[
+  {
+    "heading": "Introduction to Judiciary & Integrated Judicial System",
+    "explanation": "India possesses a single, unified, integrated judicial system unlike the dual judicial setup of federal countries like the United States. In India, a single hierarchy of courts enforces both Union laws and State laws. At the apex sits the Supreme Court of India, followed by High Courts at the state level and Subordinate Courts (District and Lower Courts) at the district level. This unified structure ensures legal uniformity, constitutional supremacy, and equal administration of justice across all states and Union Territories.",
+    "keyTakeaways": [
+      "Single integrated judicial structure enforcing both Central and State laws.",
+      "Hierarchical structure: Supreme Court (Apex) -> High Courts (State Level) -> Subordinate Courts (District Level).",
+      "Adopted primarily from the Government of India Act, 1935."
+    ],
+    "importantArticles": [
+      "Article 124 (Establishment of Supreme Court)",
+      "Article 214 (High Courts for States)",
+      "Article 233 (Appointment of District Judges)"
+    ],
+    "sscExamPoints": [
+      "The integrated judicial system in India was adopted from the Government of India Act, 1935.",
+      "Unlike the US (where federal courts enforce federal laws and state courts enforce state laws), Indian courts enforce both sets of laws."
+    ],
+    "commonStudentMistakes": [
+      "Assuming India has a 'Dual Judiciary' because it has a federal political system.",
+      "Confusing the federal feature of government with the structure of the judiciary."
+    ]
+  },
+  {
+    "heading": "Supreme Court: Composition, Appointments & Tenure",
+    "explanation": "The Supreme Court of India was inaugurated on January 28, 1950, replacing the Federal Court of India (established under the Government of India Act, 1935). At present, the Supreme Court consists of 34 judges (1 Chief Justice of India and 33 other judges), as expanded by the Supreme Court (Number of Judges) Amendment Act, 2019. Judges are appointed by the President of India after consultation with members of the Collegium (CJI + 4 senior-most judges). A judge holds office until attaining the age of 65 years.",
+    "keyTakeaways": [
+      "Inaugurated on January 28, 1950.",
+      "Current Strength: 34 Judges (1 CJI + 33 Judges).",
+      "Appointed by the President based on the Collegium system.",
+      "Retirement Age: 65 years."
+    ],
+    "importantArticles": [
+      "Article 124(1) - Establishment and strength of Supreme Court",
+      "Article 124(2) - Appointment of SC Judges by the President",
+      "Article 124(3) - Qualifications for appointment as SC Judge"
+    ],
+    "sscExamPoints": [
+      "Original 1950 strength was 8 judges (1 CJI + 7 Judges); current strength is 34.",
+      "Qualifications required: Citizen of India AND (a) High Court Judge for 5 years, OR (b) High Court Advocate for 10 years, OR (c) Distinguished Jurist in the opinion of the President.",
+      "There is NO minimum age prescribed in the Constitution for appointment as a Supreme Court judge."
+    ],
+    "commonStudentMistakes": [
+      "Believing there is a minimum age requirement (like 35 years) for becoming an SC Judge.",
+      "Mistaking the retirement age of Supreme Court judges (65 years) with High Court judges (62 years)."
+    ]
+  },
+  {
+    "heading": "Removal of Supreme Court Judges & Impeachment Motion",
+    "explanation": "A judge of the Supreme Court can be removed from office only by an order of the President passed after an address by Parliament supported by a Special Majority (majority of total membership AND 2/3rd of members present and voting in each House) during the same session. The grounds for removal are strictly two: (1) Proved Misbehaviour or (2) Incapacity. The procedure is regulated by the Judges (Inquiry) Act, 1968. To date, no judge of the Supreme Court of India has been successfully impeached.",
+    "keyTakeaways": [
+      "Removed by Presidential Order after Parliamentary address.",
+      "Grounds: 'Proved Misbehaviour' or 'Incapacity' only.",
+      "Requires Special Majority in both Houses of Parliament.",
+      "Requires 100 members in Lok Sabha OR 50 members in Rajya Sabha to introduce the removal motion."
+    ],
+    "importantArticles": [
+      "Article 124(4) - Removal of Supreme Court Judges",
+      "Article 124(5) - Parliamentary regulation of procedure for investigation"
+    ],
+    "sscExamPoints": [
+      "Justice V. Ramaswami was the first judge against whom removal proceedings were initiated (1991-1993), but the motion failed in Lok Sabha.",
+      "The term 'Impeachment' is explicitly used in the Constitution only for the President, though informally used for SC/HC judges."
+    ],
+    "commonStudentMistakes": [
+      "Thinking a Supreme Court judge can be removed solely at the President's discretion.",
+      "Believing that 'Violation of the Constitution' is a ground for removal of SC Judges (it is the ground ONLY for Presidential impeachment)."
+    ]
+  },
+  {
+    "heading": "Jurisdiction of the Supreme Court",
+    "explanation": "The Supreme Court possesses extensive powers categorized into Original, Appellate, Advisory, and Writ Jurisdictions. Exclusive Original Jurisdiction (Article 131) covers disputes between the Centre and States, or between States. Appellate Jurisdiction covers Constitutional, Civil, and Criminal appeals from High Courts. Advisory Jurisdiction (Article 143) allows the President to seek the SC's opinion on legal or public questions. Additionally, under Article 129, the SC is a 'Court of Record' with power to punish for contempt of itself.",
+    "keyTakeaways": [
+      "Exclusive Original Jurisdiction (Art. 131): Inter-governmental disputes.",
+      "Advisory Jurisdiction (Art. 143): Presidential reference (opinion is non-binding).",
+      "Court of Record (Art. 129): Records have evidentiary value and power to punish for contempt.",
+      "Revisory Jurisdiction (Art. 137): Power to review its own judgements."
+    ],
+    "importantArticles": [
+      "Article 129 - Court of Record",
+      "Article 131 - Exclusive Original Jurisdiction",
+      "Article 136 - Special Leave Petition (SLP)",
+      "Article 137 - Review of judgements or orders by SC",
+      "Article 143 - Power of President to consult Supreme Court"
+    ],
+    "sscExamPoints": [
+      "Inter-state river water disputes are excluded from SC's original jurisdiction under Article 262.",
+      "The advisory opinion given under Article 143 is NOT binding on the President or the Supreme Court itself."
+    ],
+    "commonStudentMistakes": [
+      "Assuming Fundamental Rights enforcement comes under Exclusive Original Jurisdiction (it is original, but shared concurrently with High Courts under Art. 226).",
+      "Thinking the advisory opinion under Article 143 is legally binding on the Government."
+    ]
+  },
+  {
+    "heading": "Writ Jurisdiction, Judicial Review, Judicial Activism & PIL",
+    "explanation": "Under Article 32, the Supreme Court issues five fundamental writs: Habeas Corpus, Mandamus, Prohibition, Certiorari, and Quo-Warranto to enforce Fundamental Rights. Judicial Review is the power to declare legislative acts or executive orders unconstitutional if they violate the Constitution. Judicial Activism refers to the proactive role played by the judiciary in protecting rights and promoting justice. Public Interest Litigation (PIL), pioneered by Justices P.N. Bhagwati and V.R. Krishna Iyer in the late 1970s/1980s, relaxed the traditional rule of 'Locus Standi', allowing any public-spirited citizen to approach the court on behalf of marginalized groups."
+  }
+]

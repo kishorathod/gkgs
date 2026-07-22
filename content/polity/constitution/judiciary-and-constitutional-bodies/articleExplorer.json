@@ -1,0 +1,919 @@
+[
+  {
+    "article": "124",
+    "title": "Establishment and Constitution of Supreme Court",
+    "explanation": "Provides for the establishment of the Supreme Court of India consisting of a Chief Justice of India and other judges as prescribed by Parliament. It details the appointment of judges by the President, their qualifications, oath, and the procedure for their removal.",
+    "importantPoints": [
+      "Qualifications: Indian citizen, HC judge for 5 years OR HC advocate for 10 years OR distinguished jurist.",
+      "Retirement age for SC judges is 65 years.",
+      "Removal requires a Special Majority in Parliament on grounds of proved misbehaviour or incapacity."
+    ],
+    "sscImportance": "Very High (Asked repeatedly in SSC CGL, CHSL, and CPO regarding appointments, qualifications, and age limits).",
+    "relatedArticles": [
+      "125",
+      "217",
+      "124A (repealed/invalidated NJAC)"
+    ],
+    "memoryTrick": "1-2-4 = 1 Apex Court for 24 States (originally expanding nationwide).",
+    "priority": "High"
+  },
+  {
+    "article": "125",
+    "title": "Salaries, etc., of Judges",
+    "explanation": "Deals with the salaries, allowances, leave, and pensions of Supreme Court judges as determined by Parliament by law.",
+    "importantPoints": [
+      "Salaries are charged upon the Consolidated Fund of India.",
+      "Cannot be varied to their disadvantage after appointment, except during a Financial Emergency (Art. 360)."
+    ],
+    "sscImportance": "Medium (Questions on charged expenditure and Financial Emergency exceptions).",
+    "relatedArticles": [
+      "221",
+      "360",
+      "112(3)"
+    ],
+    "memoryTrick": "125 = 125 rupees salary scale determined by Parliament.",
+    "priority": "Medium"
+  },
+  {
+    "article": "126",
+    "title": "Appointment of Acting Chief Justice",
+    "explanation": "Empowers the President to appoint one of the other judges of the Supreme Court to perform the duties of the Chief Justice of India when the office is vacant or when the CJI is absent.",
+    "importantPoints": [
+      "Appointed solely by the President.",
+      "Triggered when CJI office is vacant, or CJI is absent or unable to perform duties."
+    ],
+    "sscImportance": "Medium (Direct statement-based questions).",
+    "relatedArticles": [
+      "127",
+      "223"
+    ],
+    "memoryTrick": "126 = 126th step: Acting when the CJI is away.",
+    "priority": "Medium"
+  },
+  {
+    "article": "127",
+    "title": "Appointment of Ad Hoc Judges",
+    "explanation": "Allows the Chief Justice of India, with previous consent of the President and consultation with the Chief Justice of the High Court concerned, to request a High Court judge to attend sittings of the Supreme Court as an ad hoc judge when there is a lack of quorum.",
+    "importantPoints": [
+      "Triggered only when there is a lack of quorum of SC judges.",
+      "Must be qualified to be appointed as an SC judge.",
+      "Only CJI can appoint, NOT the President directly."
+    ],
+    "sscImportance": "High (Key conceptual distinction: CJI appoints ad hoc judges, not President).",
+    "relatedArticles": [
+      "128",
+      "224"
+    ],
+    "memoryTrick": "Ad Hoc = Addition for Lack of Quorum.",
+    "priority": "High"
+  },
+  {
+    "article": "128",
+    "title": "Attendance of Retired Judges at Sittings of the Supreme Court",
+    "explanation": "Enables the Chief Justice of India to request a retired Supreme Court or Federal Court judge to sit and act as a judge of the Supreme Court for a temporary period.",
+    "importantPoints": [
+      "Requires previous consent of the President and the retired judge.",
+      "The retired judge enjoys all jurisdiction and powers of an SC judge."
+    ],
+    "sscImportance": "Low (Occasional match-the-following questions).",
+    "relatedArticles": [
+      "127",
+      "224A"
+    ],
+    "memoryTrick": "128 = 12-8 (12 months x 8 years retired, called back).",
+    "priority": "Low"
+  },
+  {
+    "article": "129",
+    "title": "Supreme Court to be a Court of Record",
+    "explanation": "Declares the Supreme Court to be a Court of Record, giving it all powers of such a court, including the power to punish for contempt of itself.",
+    "importantPoints": [
+      "Judgements are recorded for perpetual memory and testimony.",
+      "Power to punish for civil and criminal contempt of court."
+    ],
+    "sscImportance": "High (Frequently asked in direct article identification).",
+    "relatedArticles": [
+      "215"
+    ],
+    "memoryTrick": "129 = Record 29 items in SC register.",
+    "priority": "High"
+  },
+  {
+    "article": "130",
+    "title": "Seat of Supreme Court",
+    "explanation": "States that the Supreme Court shall sit in Delhi or in such other place or places as the Chief Justice of India may, with the approval of the President, appoint.",
+    "importantPoints": [
+      "Delhi is the designated seat.",
+      "CJI has power to declare other seats with President's approval (no court can compel CJI to do so)."
+    ],
+    "sscImportance": "Medium (Asked regarding who decides the seat of SC).",
+    "relatedArticles": [
+      "124"
+    ],
+    "memoryTrick": "130 = 100 + 30 (Pin code base for Delhi seat).",
+    "priority": "Medium"
+  },
+  {
+    "article": "131",
+    "title": "Original Jurisdiction of the Supreme Court",
+    "explanation": "Grants exclusive original jurisdiction to the Supreme Court in disputes between Centre and States, Centre & States vs other States, or between two or more States.",
+    "importantPoints": [
+      "Exclusive power: No other court can hear these inter-governmental disputes.",
+      "Excludes pre-constitution treaties/agreements and inter-state river water disputes."
+    ],
+    "sscImportance": "High (Core conceptual question in SSC CGL Tier-1 & Tier-2).",
+    "relatedArticles": [
+      "32",
+      "136",
+      "262"
+    ],
+    "memoryTrick": "1 vs 1 = Centre vs State (Art 131).",
+    "priority": "High"
+  },
+  {
+    "article": "132",
+    "title": "Appellate Jurisdiction of Supreme Court in Appeals from High Courts in Certain Cases",
+    "explanation": "Provides for appeals to the Supreme Court from any judgement, decree, or final order of a High Court in civil, criminal, or other proceedings if the High Court certifies that the case involves a substantial question of law as to the interpretation of the Constitution.",
+    "importantPoints": [
+      "Applies to Constitutional matters.",
+      "Requires High Court certificate under Article 134A."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "133",
+      "134",
+      "134A"
+    ],
+    "memoryTrick": "132 = 1st Constitutional Appeal route.",
+    "priority": "Medium"
+  },
+  {
+    "article": "133",
+    "title": "Appellate Jurisdiction of Supreme Court in Appeals from High Courts in Civil Matters",
+    "explanation": "Deals with appeals to the Supreme Court from High Court decisions in civil matters if certified that a substantial question of law of general importance is involved.",
+    "importantPoints": [
+      "Covers Civil proceedings.",
+      "Requires HC certification."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "132",
+      "134"
+    ],
+    "memoryTrick": "133 = 3 C's (Civil Court Cases).",
+    "priority": "Low"
+  },
+  {
+    "article": "134",
+    "title": "Appellate Jurisdiction of Supreme Court in Regard to Criminal Matters",
+    "explanation": "Provides appellate jurisdiction to the Supreme Court in criminal matters from High Courts under specified conditions (e.g., HC reversed acquittal to death sentence).",
+    "importantPoints": [
+      "Appeal lies if HC sentenced an accused to death after reversing acquittal.",
+      "Ensures highest scrutiny for capital punishment."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "132",
+      "133",
+      "134A"
+    ],
+    "memoryTrick": "134 = 4 Criminal charges.",
+    "priority": "Medium"
+  },
+  {
+    "article": "136",
+    "title": "Special Leave to Appeal by the Supreme Court (SLP)",
+    "explanation": "Grants discretionary power to the Supreme Court to grant special leave to appeal from any judgement, decree, determination, sentence, or order in any cause or matter passed by any court or tribunal in India.",
+    "importantPoints": [
+      "Discretionary power of SC; not a matter of right for litigants.",
+      "Applies to any court EXCEPT military tribunals / court-martials."
+    ],
+    "sscImportance": "High (Questions regarding exceptions like Court Martial).",
+    "relatedArticles": [
+      "131",
+      "132",
+      "134"
+    ],
+    "memoryTrick": "136 = Special 360-degree leave to appeal.",
+    "priority": "High"
+  },
+  {
+    "article": "137",
+    "title": "Review of Judgements or Orders by the Supreme Court",
+    "explanation": "Empowers the Supreme Court to review any judgement pronounced or order made by it.",
+    "importantPoints": [
+      "Revisory Jurisdiction.",
+      "SC is not strictly bound by its own previous decisions."
+    ],
+    "sscImportance": "High (Frequently asked under SC powers).",
+    "relatedArticles": [
+      "141",
+      "129"
+    ],
+    "memoryTrick": "137 = SC looks back at 37 judgements to review.",
+    "priority": "High"
+  },
+  {
+    "article": "141",
+    "title": "Law Declared by Supreme Court to be Binding on All Courts",
+    "explanation": "States that the law declared by the Supreme Court shall be binding on all courts within the territory of India.",
+    "importantPoints": [
+      "Establishes binding precedent (Stare Decisis).",
+      "Binding on lower courts, but SC can review its own decisions under Art. 137."
+    ],
+    "sscImportance": "High (Very common statement-based question).",
+    "relatedArticles": [
+      "137",
+      "142"
+    ],
+    "memoryTrick": "141 = 1 Law for All 1 Country.",
+    "priority": "High"
+  },
+  {
+    "article": "142",
+    "title": "Enforcement of Decrees and Orders of Supreme Court (Complete Justice)",
+    "explanation": "Empowers the Supreme Court to pass any decree or order necessary for doing 'complete justice' in any cause or matter pending before it.",
+    "importantPoints": [
+      "Provides extraordinary inherent powers to ensure complete justice.",
+      "Used in landmark cases like Ayodhya verdict, Bhopal Gas tragedy, etc."
+    ],
+    "sscImportance": "High (Frequently news-based and asked in SSC Tier-2).",
+    "relatedArticles": [
+      "141",
+      "144"
+    ],
+    "memoryTrick": "142 = For 2 Complete Justice.",
+    "priority": "High"
+  },
+  {
+    "article": "143",
+    "title": "Power of President to Consult Supreme Court (Advisory Jurisdiction)",
+    "explanation": "Authorizes the President to seek the opinion of the Supreme Court on questions of law or fact of public importance or pre-constitution matters.",
+    "importantPoints": [
+      "Opinion expressed by SC is purely advisory and NOT binding on President.",
+      "SC is not bound to give opinion on public importance cases, but MUST give opinion on pre-constitution treaty disputes."
+    ],
+    "sscImportance": "Very High (Top repeated question in SSC exams).",
+    "relatedArticles": [
+      "131"
+    ],
+    "memoryTrick": "143 = I (1) Ask (4) You (3) for Advice.",
+    "priority": "High"
+  },
+  {
+    "article": "144",
+    "title": "Civil and Judicial Authorities to Act in Aid of the Supreme Court",
+    "explanation": "Mandates that all authorities, civil and judicial, in the territory of India shall act in aid of the Supreme Court.",
+    "importantPoints": [
+      "Ensures nationwide execution of SC orders.",
+      "Binds executive and state judicial authorities."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "142"
+    ],
+    "memoryTrick": "144 = All 44 authorities must aid SC.",
+    "priority": "Low"
+  },
+  {
+    "article": "145",
+    "title": "Rules of Court, etc.",
+    "explanation": "Empowers the Supreme Court to make rules for regulating generally the practice and procedure of the court, with the approval of the President.",
+    "importantPoints": [
+      "Constitutional Bench requires at least 5 judges."
+    ],
+    "sscImportance": "Medium (Question on minimum judges for Constitutional Bench).",
+    "relatedArticles": [
+      "124"
+    ],
+    "memoryTrick": "145 = 5 judges form Constitutional Bench under 145.",
+    "priority": "Medium"
+  },
+  {
+    "article": "146",
+    "title": "Officers and Servants and the Expenses of the Supreme Court",
+    "explanation": "Appointments of officers and servants of the SC are made by the CJI. Administrative expenses are charged on the Consolidated Fund of India.",
+    "importantPoints": [
+      "Ensures financial and administrative independence of SC.",
+      "CJI holds administrative control over staff."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "229"
+    ],
+    "memoryTrick": "146 = 46 staff members under CJI.",
+    "priority": "Low"
+  },
+  {
+    "article": "147",
+    "title": "Interpretation",
+    "explanation": "Clarifies that references to interpretation of the Constitution include references to the interpretation of the Government of India Act, 1935, and Indian Independence Act, 1947.",
+    "importantPoints": [
+      "Concludes Part V Chapter IV (Union Judiciary)."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "124",
+      "132"
+    ],
+    "memoryTrick": "147 = Final 47th Article of SC Chapter.",
+    "priority": "Low"
+  },
+  {
+    "article": "148",
+    "title": "Comptroller and Auditor-General of India",
+    "explanation": "Provides for a Comptroller and Auditor-General (CAG) of India who is appointed by the President and removed in the like manner and on like grounds as a Supreme Court judge.",
+    "importantPoints": [
+      "Guardian of Public Purse.",
+      "Tenure: 6 years or up to 65 years of age.",
+      "Ineligible for further office under Central/State Govt after retirement."
+    ],
+    "sscImportance": "Very High (Extremely popular SSC question).",
+    "relatedArticles": [
+      "149",
+      "150",
+      "151"
+    ],
+    "memoryTrick": "148 = 1 CAG Audits 48 accounts.",
+    "priority": "High"
+  },
+  {
+    "article": "149",
+    "title": "Duties and Powers of the Comptroller and Auditor-General",
+    "explanation": "Empowers Parliament to prescribe the duties and powers of the CAG in relation to the accounts of the Union and States.",
+    "importantPoints": [
+      "Parliament enacted CAG DPC Act, 1971 based on this article.",
+      "CAG performs post-audit on expenditures."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "148",
+      "151"
+    ],
+    "memoryTrick": "149 = Duties of CAG starting at 49.",
+    "priority": "Medium"
+  },
+  {
+    "article": "150",
+    "title": "Form of Accounts of the Union and of the States",
+    "explanation": "States that accounts of Union and States shall be kept in such form as the President may, on the advice of the CAG, prescribe.",
+    "importantPoints": [
+      "Prescribes format for maintaining financial accounts."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "148",
+      "149"
+    ],
+    "memoryTrick": "150 = 50-50 Form of Union & State accounts.",
+    "priority": "Low"
+  },
+  {
+    "article": "151",
+    "title": "Audit Reports",
+    "explanation": "Mandates that CAG audit reports relating to Union accounts be submitted to the President (who causes them to be laid before Parliament), and reports for State accounts to the Governor.",
+    "importantPoints": [
+      "CAG submits 3 audit reports to President: Appropriation, Finance, and Public Undertakings.",
+      "Reports are examined by the Public Accounts Committee (PAC)."
+    ],
+    "sscImportance": "High (Questions on who receives CAG reports).",
+    "relatedArticles": [
+      "148",
+      "279A"
+    ],
+    "memoryTrick": "151 = 1 Audit Report sent to 1 President.",
+    "priority": "High"
+  },
+  {
+    "article": "214",
+    "title": "High Courts for States",
+    "explanation": "Mandates that there shall be a High Court for each State.",
+    "importantPoints": [
+      "Apex judicial body at the state level.",
+      "Can be a common High Court for two or more states under Art. 231."
+    ],
+    "sscImportance": "High (Direct standard polity question).",
+    "relatedArticles": [
+      "124",
+      "231"
+    ],
+    "memoryTrick": "124 inverted is 214 (SC = 124, HC = 214).",
+    "priority": "High"
+  },
+  {
+    "article": "215",
+    "title": "High Courts to be Courts of Record",
+    "explanation": "Declares every High Court to be a Court of Record with all powers including the power to punish for contempt of itself.",
+    "importantPoints": [
+      "Judgements have evidentiary value.",
+      "Power to punish for civil/criminal contempt."
+    ],
+    "sscImportance": "High (Parallel to Article 129 for SC).",
+    "relatedArticles": [
+      "129",
+      "226"
+    ],
+    "memoryTrick": "215 = 129 + State parallel.",
+    "priority": "High"
+  },
+  {
+    "article": "216",
+    "title": "Constitution of High Courts",
+    "explanation": "States that every High Court shall consist of a Chief Justice and such other judges as the President may from time to time deem necessary to appoint.",
+    "importantPoints": [
+      "High Court strength is NOT fixed by Parliament; decided by the President based on workload."
+    ],
+    "sscImportance": "Medium (Key concept: President fixes HC strength, not Parliament).",
+    "relatedArticles": [
+      "124",
+      "217"
+    ],
+    "memoryTrick": "216 = Flexible strength fixed by President.",
+    "priority": "Medium"
+  },
+  {
+    "article": "217",
+    "title": "Appointment and Conditions of the Office of a Judge of a High Court",
+    "explanation": "Details the appointment of HC judges by the President, qualifications, tenure, and resignation process.",
+    "importantPoints": [
+      "Appointed by President after consulting CJI, Governor, and HC Chief Justice.",
+      "Retirement Age: 62 years.",
+      "Qualification: Indian citizen AND held judicial office for 10 years OR advocate of HC for 10 years."
+    ],
+    "sscImportance": "Very High (Repeatedly tested regarding retirement age and appointments).",
+    "relatedArticles": [
+      "124",
+      "222"
+    ],
+    "memoryTrick": "217 = 62 years limit for HC Judge.",
+    "priority": "High"
+  },
+  {
+    "article": "222",
+    "title": "Transfer of a Judge from one High Court to another",
+    "explanation": "Authorizes the President to transfer a judge from one High Court to any other High Court after consultation with the Chief Justice of India.",
+    "importantPoints": [
+      "Transferred by President.",
+      "Requires CJI consultation (Collegium system)."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "217"
+    ],
+    "memoryTrick": "222 = Transfer from 2nd HC to 2nd HC.",
+    "priority": "Medium"
+  },
+  {
+    "article": "223",
+    "title": "Appointment of Acting Chief Justice of High Court",
+    "explanation": "Empowers the President to appoint a judge of the High Court to perform the duties of the Chief Justice when the office is vacant or absent.",
+    "importantPoints": [
+      "Appointed by President.",
+      "Temporary arrangement."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "126",
+      "224"
+    ],
+    "memoryTrick": "223 = HC parallel of Art 126.",
+    "priority": "Low"
+  },
+  {
+    "article": "224",
+    "title": "Appointment of Additional and Acting Judges",
+    "explanation": "Allows the President to appoint duly qualified persons as additional judges for a maximum period of two years due to temporary increase in HC business.",
+    "importantPoints": [
+      "Max period for additional judge: 2 years.",
+      "Cannot hold office after reaching 62 years."
+    ],
+    "sscImportance": "Medium (Question on 2-year tenure limit for additional HC judges).",
+    "relatedArticles": [
+      "127",
+      "224A"
+    ],
+    "memoryTrick": "224 = 2 years max for additional judge.",
+    "priority": "Medium"
+  },
+  {
+    "article": "226",
+    "title": "Power of High Courts to Issue Certain Writs",
+    "explanation": "Empowers High Courts to issue writs (Habeas Corpus, Mandamus, Prohibition, Quo-Warranto, Certiorari) for enforcement of Fundamental Rights and for ANY other legal purpose.",
+    "importantPoints": [
+      "Writ jurisdiction of HC is WIDER than Supreme Court under Art. 32.",
+      "Covers Fundamental Rights as well as ordinary legal rights."
+    ],
+    "sscImportance": "Very High (Top SSC CGL question comparing Art 32 and Art 226).",
+    "relatedArticles": [
+      "32",
+      "215"
+    ],
+    "memoryTrick": "226 = Double power of 32 (FR + Legal rights).",
+    "priority": "High"
+  },
+  {
+    "article": "227",
+    "title": "Power of Superintendence over all Courts by the High Court",
+    "explanation": "Grants every High Court administrative and judicial superintendence over all subordinate courts and tribunals functioning within its territorial jurisdiction.",
+    "importantPoints": [
+      "Includes both administrative and judicial superintendence.",
+      "Excludes Military Courts / Tribunals."
+    ],
+    "sscImportance": "High (Questions on HC control over lower courts).",
+    "relatedArticles": [
+      "226",
+      "235"
+    ],
+    "memoryTrick": "227 = HC 27/7 super-vision over lower courts.",
+    "priority": "High"
+  },
+  {
+    "article": "229",
+    "title": "Officers and Servants and the Expenses of High Courts",
+    "explanation": "Appointments of officers and servants of a HC are made by the Chief Justice of the HC. Expenses are charged on the Consolidated Fund of the State.",
+    "importantPoints": [
+      "Pensions of HC judges are charged on the Consolidated Fund of INDIA (Art 112), but salaries on State Fund."
+    ],
+    "sscImportance": "High (Tricky question: HC judge salary = State Fund; Pension = Central Fund).",
+    "relatedArticles": [
+      "146",
+      "202"
+    ],
+    "memoryTrick": "229 = State pays salary, Centre pays pension.",
+    "priority": "High"
+  },
+  {
+    "article": "233",
+    "title": "Appointment of District Judges",
+    "explanation": "States that appointments, posting, and promotion of district judges in any State shall be made by the Governor of the State in consultation with the High Court.",
+    "importantPoints": [
+      "Appointed by GOVERNOR (not President).",
+      "Consultation with state High Court is mandatory."
+    ],
+    "sscImportance": "High (Focus on Governor's appointing authority for District Judges).",
+    "relatedArticles": [
+      "234",
+      "235"
+    ],
+    "memoryTrick": "233 = 3 parties: Governor, HC, District Judge.",
+    "priority": "High"
+  },
+  {
+    "article": "234",
+    "title": "Recruitment of Persons other than District Judges to the Judicial Service",
+    "explanation": "Provides for appointments to the judicial service of a State (below district judge) made by the Governor in accordance with rules made by him after consulting State Public Service Commission and High Court.",
+    "importantPoints": [
+      "Involves State Public Service Commission (SPSC) and High Court."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "233",
+      "315"
+    ],
+    "memoryTrick": "234 = 4 lower judicial posts recruitment.",
+    "priority": "Medium"
+  },
+  {
+    "article": "235",
+    "title": "Control over Subordinate Courts",
+    "explanation": "Vests the control over district courts and courts subordinate thereto (posting, promotion, leave) in the High Court.",
+    "importantPoints": [
+      "Administrative control over subordinate judiciary lies completely with the High Court."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "227",
+      "233"
+    ],
+    "memoryTrick": "235 = HC 35-degree control over lower courts.",
+    "priority": "Medium"
+  },
+  {
+    "article": "280",
+    "title": "Finance Commission",
+    "explanation": "Provides for a Finance Commission constituted by the President every five years (or earlier) to recommend distribution of tax proceeds between Union and States.",
+    "importantPoints": [
+      "Quasi-judicial constitutional body.",
+      "Composition: 1 Chairman + 4 Members appointed by President.",
+      "First FC set up in 1951 (Chairman K.C. Neogy)."
+    ],
+    "sscImportance": "Very High (Consistently asked in Tier-1 & Tier-2).",
+    "relatedArticles": [
+      "281"
+    ],
+    "memoryTrick": "280 = 280 Crore tax distribution.",
+    "priority": "High"
+  },
+  {
+    "article": "315",
+    "title": "Public Service Commissions for the Union and for the States",
+    "explanation": "Mandates the establishment of a Union Public Service Commission (UPSC) for the Union and a State Public Service Commission (SPSC) for each State.",
+    "importantPoints": [
+      "Constitutional status for UPSC and SPSCs.",
+      "Joint State Public Service Commission (JSPSC) can be created by Act of Parliament."
+    ],
+    "sscImportance": "Very High (Core article for UPSC/SPSC).",
+    "relatedArticles": [
+      "316",
+      "317",
+      "320"
+    ],
+    "memoryTrick": "315 = 15th Chapter Public Services.",
+    "priority": "High"
+  },
+  {
+    "article": "316",
+    "title": "Appointment and Term of Office of Members",
+    "explanation": "Details appointment and terms: UPSC members appointed by President; SPSC members appointed by Governor.",
+    "importantPoints": [
+      "UPSC Tenure: 6 years or 65 years of age.",
+      "SPSC Tenure: 6 years or 62 years of age.",
+      "Resignation of UPSC member to President; SPSC member to Governor."
+    ],
+    "sscImportance": "Very High (Focus on age limit difference: UPSC 65 vs SPSC 62).",
+    "relatedArticles": [
+      "315",
+      "317"
+    ],
+    "memoryTrick": "316 = 6 years tenure for both UPSC and SPSC.",
+    "priority": "High"
+  },
+  {
+    "article": "317",
+    "title": "Removal and Suspension of a Member of a Public Service Commission",
+    "explanation": "States that members of both UPSC and SPSC can be removed ONLY by the President (not Governor) on grounds of misbehaviour after inquiry by Supreme Court.",
+    "importantPoints": [
+      "CRITICAL: SPSC members are appointed by Governor, but can be removed ONLY by the President.",
+      "Requires Supreme Court inquiry under Art. 145."
+    ],
+    "sscImportance": "Very High (Major trap question in SSC CGL).",
+    "relatedArticles": [
+      "315",
+      "316"
+    ],
+    "memoryTrick": "317 = Removal trigger handled ONLY by President.",
+    "priority": "High"
+  },
+  {
+    "article": "318",
+    "title": "Power to Make Regulations as to Conditions of Service of Members and Staff",
+    "explanation": "Empowers the President (for UPSC) and Governor (for SPSC) to determine the number of members and their conditions of service.",
+    "importantPoints": [
+      "Number of members in UPSC is left to President's discretion (usually 9 to 11)."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "315"
+    ],
+    "memoryTrick": "318 = Regulations on service.",
+    "priority": "Low"
+  },
+  {
+    "article": "319",
+    "title": "Prohibition as to Holding Offices by Members on Ceasing to be Members",
+    "explanation": "Debars UPSC Chairman/members from further employment under Government of India or States after retirement, ensuring impartiality.",
+    "importantPoints": [
+      "UPSC Chairman is ineligible for ANY further government employment.",
+      "SPSC Chairman can become UPSC Chairman or member, or Chairman of another SPSC."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "315",
+      "316"
+    ],
+    "memoryTrick": "319 = No 19th job after retirement.",
+    "priority": "Medium"
+  },
+  {
+    "article": "320",
+    "title": "Functions of Public Service Commissions",
+    "explanation": "Enumerates the duties of UPSC and SPSC to conduct examinations for appointments to services of Union and States.",
+    "importantPoints": [
+      "Advisory body on recruitment and disciplinary matters.",
+      "Merit watchdog."
+    ],
+    "sscImportance": "High.",
+    "relatedArticles": [
+      "315",
+      "321"
+    ],
+    "memoryTrick": "320 = 20 main functions of UPSC.",
+    "priority": "High"
+  },
+  {
+    "article": "321",
+    "title": "Power to Extend Functions of Public Service Commissions",
+    "explanation": "Parliament (for UPSC) or State Legislature (for SPSC) can provide for exercise of additional functions regarding public services.",
+    "importantPoints": [
+      "Functions extended by Parliament/Legislature, NOT President/Governor."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "320"
+    ],
+    "memoryTrick": "321 = +1 Extra power by Parliament.",
+    "priority": "Low"
+  },
+  {
+    "article": "322",
+    "title": "Expenses of Public Service Commissions",
+    "explanation": "Salaries, allowances, and pensions of UPSC members are charged on the Consolidated Fund of India.",
+    "importantPoints": [
+      "Charged expenditure (non-votable by Parliament)."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "112(3)",
+      "315"
+    ],
+    "memoryTrick": "322 = Non-votable expense.",
+    "priority": "Low"
+  },
+  {
+    "article": "323",
+    "title": "Reports of Public Service Commissions",
+    "explanation": "UPSC presents an annual report to the President, who places it before Parliament along with a memorandum explaining non-acceptance of advice.",
+    "importantPoints": [
+      "Annual report submitted to President (UPSC) or Governor (SPSC)."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "315"
+    ],
+    "memoryTrick": "323 = Annual report 2 President 3 times.",
+    "priority": "Medium"
+  },
+  {
+    "article": "324",
+    "title": "Superintendence, Direction and Control of Elections to be Vested in an Election Commission",
+    "explanation": "Establishes the Election Commission of India (ECI) for conducting elections to Parliament, State Legislatures, and offices of President and Vice-President.",
+    "importantPoints": [
+      "Permanent autonomous constitutional body.",
+      "Composition: CEC + Election Commissioners (3-member body).",
+      "Tenure: 6 years or 65 years of age.",
+      "CEC removed like SC Judge."
+    ],
+    "sscImportance": "Very High (Top repeatedly asked SSC question).",
+    "relatedArticles": [
+      "325",
+      "326",
+      "327"
+    ],
+    "memoryTrick": "324 = 24/7 Election monitoring.",
+    "priority": "High"
+  },
+  {
+    "article": "325",
+    "title": "No Person Ineligible for Inclusion in Electoral Roll on Grounds of Religion, Race, Caste or Sex",
+    "explanation": "Mandates a single general electoral roll for every territorial constituency without discrimination based on religion, race, caste, or sex.",
+    "importantPoints": [
+      "Ensures secular and egalitarian electoral roll."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "15",
+      "324",
+      "326"
+    ],
+    "memoryTrick": "325 = 5 basic no-discrimination grounds.",
+    "priority": "Medium"
+  },
+  {
+    "article": "326",
+    "title": "Elections to the House of the People and Legislative Assemblies on Basis of Adult Suffrage",
+    "explanation": "Provides for Universal Adult Suffrage for Lok Sabha and State Legislative Assembly elections.",
+    "importantPoints": [
+      "Voting age reduced from 21 to 18 years by 61st CAA, 1988 (effective 1989)."
+    ],
+    "sscImportance": "Very High (Repeatedly asked regarding 61st CAA and voting age).",
+    "relatedArticles": [
+      "324",
+      "325"
+    ],
+    "memoryTrick": "326 = 26th January spirit: 18+ Right to Vote.",
+    "priority": "High"
+  },
+  {
+    "article": "327",
+    "title": "Power of Parliament to Make Provision with Respect to Elections to Legislatures",
+    "explanation": "Empowers Parliament to make laws regarding all matters relating to elections to Parliament and State Legislatures (e.g., Representation of the People Acts 1950 & 1951).",
+    "importantPoints": [
+      "Parliament passed RPA 1950 and 1951 under this power."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "324",
+      "328"
+    ],
+    "memoryTrick": "327 = 27 central election laws.",
+    "priority": "Medium"
+  },
+  {
+    "article": "328",
+    "title": "Power of Legislature of a State to Make Provision with Respect to Elections to such Legislature",
+    "explanation": "Empowers State Legislatures to make provisions for state elections in matters not covered by Parliament.",
+    "importantPoints": [
+      "Subordinate to Parliamentary election laws."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "327"
+    ],
+    "memoryTrick": "328 = State legislative election power.",
+    "priority": "Low"
+  },
+  {
+    "article": "338",
+    "title": "National Commission for Scheduled Castes (NCSC)",
+    "explanation": "Establishes a constitutional body to safeguard the interests of Scheduled Castes (SCs), investigate complaints, and report to the President.",
+    "importantPoints": [
+      "Bifurcated from combined commission by 89th CAA, 2003.",
+      "Consists of Chairperson, Vice-Chairperson, and 3 members."
+    ],
+    "sscImportance": "High (Questions on 89th CAA and constitutional status).",
+    "relatedArticles": [
+      "338A",
+      "338B"
+    ],
+    "memoryTrick": "338 = Original SC Commission.",
+    "priority": "High"
+  },
+  {
+    "article": "338A",
+    "title": "National Commission for Scheduled Tribes (NCST)",
+    "explanation": "Establishes a constitutional body specifically for Scheduled Tribes (STs) created by the 89th Constitutional Amendment Act, 2003.",
+    "importantPoints": [
+      "Inserted by 89th CAA, 2003.",
+      "Monitors ST welfare and constitutional safeguards."
+    ],
+    "sscImportance": "High.",
+    "relatedArticles": [
+      "338",
+      "338B"
+    ],
+    "memoryTrick": "338A = A for Adivasi (NCST).",
+    "priority": "High"
+  },
+  {
+    "article": "338B",
+    "title": "National Commission for Backward Classes (NCBC)",
+    "explanation": "Grants constitutional status to the National Commission for Socially and Educationally Backward Classes under the 102nd Constitutional Amendment Act, 2018.",
+    "importantPoints": [
+      "Inserted by 102nd CAA, 2018.",
+      "Provides constitutional status to NCBC (previously a statutory body)."
+    ],
+    "sscImportance": "High (Focus on 102nd CAA).",
+    "relatedArticles": [
+      "338",
+      "338A",
+      "340"
+    ],
+    "memoryTrick": "338B = B for Backward Classes.",
+    "priority": "High"
+  },
+  {
+    "article": "339",
+    "title": "Control of the Union over the Administration of Scheduled Areas and Welfare of Scheduled Tribes",
+    "explanation": "Provides for President to appoint a Commission to report on administration of Scheduled Areas and welfare of STs in states.",
+    "importantPoints": [
+      "U.N. Dhebar Commission (1960) and Dilip Singh Bhuria Commission (2002) were appointed under this."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": [
+      "338A",
+      "244"
+    ],
+    "memoryTrick": "339 = Tribal area administration control.",
+    "priority": "Low"
+  },
+  {
+    "article": "340",
+    "title": "Appointment of a Commission to Investigate the Conditions of Backward Classes",
+    "explanation": "Empowers the President to appoint a commission to investigate conditions of socially and educationally backward classes (e.g., Kaka Kalelkar Commission, Mandal Commission).",
+    "importantPoints": [
+      "Mandal Commission (1979) was appointed under Article 340.",
+      "First Backward Classes Commission: Kaka Kalelkar (1953)."
+    ],
+    "sscImportance": "High (Mandal Commission and Kaka Kalelkar Commission connection).",
+    "relatedArticles": [
+      "338B"
+    ],
+    "memoryTrick": "340 = Mandal Commission Article.",
+    "priority": "High"
+  },
+  {
+    "article": "342",
+    "title": "Scheduled Tribes",
+    "explanation": "Empowers the President to specify tribes or tribal communities deemed to be Scheduled Tribes in relation to a State or Union Territory.",
+    "importantPoints": [
+      "Inclusion/exclusion in ST list done by Parliament by law after Presidential notification."
+    ],
+    "sscImportance": "Medium.",
+    "relatedArticles": [
+      "341",
+      "338A"
+    ],
+    "memoryTrick": "342 = Presidential list of STs.",
+    "priority": "Medium"
+  }
+]
