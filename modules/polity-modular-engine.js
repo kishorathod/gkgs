@@ -1,12 +1,25 @@
 /* ==========================================================================
    Polity Modular Learning Engine (modules/polity-modular-engine.js)
-   Phase 2: Independent section fetching with non-blocking concurrent state.
+   Renders all 10 Polity subtabs using independent modular components.
    ========================================================================== */
 
 import { api } from './api-service.js';
 import { activityStore } from './activity-store.js';
 import { addXP, markGoalReadNotes } from '../app.js';
-import { HeroCard, OverviewSection, ArticleExplorer, NotesSection, TimelineSection } from './polity-components.js';
+import { 
+  HeroCard, 
+  OverviewSection, 
+  ArticleExplorer, 
+  NotesSection, 
+  TimelineSection,
+  PYQSection,
+  QuizSection,
+  FlashcardSection,
+  MindMapSection,
+  RevisionSection,
+  FilesSection,
+  AnalyticsSection
+} from './polity-components.js';
 
 export class PolityModularEngine {
   constructor(options = {}) {
@@ -26,7 +39,11 @@ export class PolityModularEngine {
       tables: null,
       memoryTricks: null,
       examTraps: null,
-      articleExplorer: null
+      articleExplorer: null,
+      pyqAnalysis: null,
+      quiz: null,
+      flashcards: null,
+      revisionSheet: null
     };
 
     // Initialize Components
@@ -35,6 +52,13 @@ export class PolityModularEngine {
     this.articleExplorer = new ArticleExplorer(this.subject);
     this.notesSection = new NotesSection(this.subject);
     this.timelineSection = new TimelineSection(this.subject);
+    this.pyqSection = new PYQSection(this.subject, () => this.switchSubTab('quiz'));
+    this.quizSection = new QuizSection(this.subject);
+    this.flashcardSection = new FlashcardSection(this.subject);
+    this.mindMapSection = new MindMapSection(this.subject);
+    this.revisionSection = new RevisionSection(this.subject);
+    this.filesSection = new FilesSection(this.subject);
+    this.analyticsSection = new AnalyticsSection(this.subject);
 
     this.setupSubNav();
   }
@@ -48,7 +72,8 @@ export class PolityModularEngine {
     // Define sections to fetch concurrently
     const sectionNames = [
       'hero', 'quickFacts', 'notes', 'timeline', 'personalities',
-      'terms', 'tables', 'memoryTricks', 'examTraps', 'articleExplorer'
+      'terms', 'tables', 'memoryTricks', 'examTraps', 'articleExplorer',
+      'pyqAnalysis', 'quiz', 'flashcards', 'revisionSheet'
     ];
 
     let hasModularSuccess = false;
@@ -84,13 +109,20 @@ export class PolityModularEngine {
             tables: monolithicData.tables || null,
             memoryTricks: monolithicData.memoryTricks || null,
             examTraps: monolithicData.examTraps || null,
-            articleExplorer: monolithicData.articleExplorer || null
+            articleExplorer: monolithicData.articleExplorer || monolithicData.articles || null,
+            pyqAnalysis: monolithicData.pyqAnalysis || null,
+            quiz: monolithicData.quiz || monolithicData.mcqs || null,
+            flashcards: monolithicData.flashcards || null,
+            revisionSheet: monolithicData.revisionSheet || null
           };
           this.renderAll();
         }
       } catch (err) {
         console.error(`PolityModularEngine: Failed to load topic ${topicId}:`, err.message);
       }
+    } else {
+      // Ensure all sections (including compound ones like mindmaps, files, analytics) render cleanly
+      this.renderAll();
     }
   }
 
@@ -101,18 +133,33 @@ export class PolityModularEngine {
   }
 
   renderSection(sectionName) {
-    // Render specific component as its independent data slice arrives
     if (sectionName === 'hero') {
       this.heroCard.render(this.sectionsState.hero);
       this.updateOverview();
+      this.filesSection.render(this.sectionsState.hero);
     } else if (['quickFacts', 'personalities', 'terms'].includes(sectionName)) {
       this.updateOverview();
+      this.updateMindMaps();
+      this.updateRevision();
     } else if (['notes', 'memoryTricks', 'examTraps', 'tables'].includes(sectionName)) {
       this.updateNotes();
     } else if (sectionName === 'timeline') {
       this.timelineSection.render(this.sectionsState.timeline);
+      this.updateMindMaps();
     } else if (sectionName === 'articleExplorer') {
       this.articleExplorer.render(this.sectionsState.articleExplorer);
+      this.updateMindMaps();
+    } else if (sectionName === 'pyqAnalysis') {
+      const mcqs = this.sectionsState.quiz?.mcqs || this.sectionsState.quiz || [];
+      this.pyqSection.render(this.sectionsState.pyqAnalysis, mcqs.length);
+    } else if (sectionName === 'quiz') {
+      const mcqs = this.sectionsState.quiz?.mcqs || this.sectionsState.quiz || [];
+      this.quizSection.render(mcqs);
+      this.pyqSection.render(this.sectionsState.pyqAnalysis, mcqs.length);
+    } else if (sectionName === 'flashcards') {
+      this.flashcardSection.render(this.sectionsState.flashcards);
+    } else if (sectionName === 'revisionSheet') {
+      this.updateRevision();
     }
   }
 
@@ -134,12 +181,46 @@ export class PolityModularEngine {
     });
   }
 
+  updateMindMaps() {
+    this.mindMapSection.render({
+      hero: this.sectionsState.hero,
+      quickFacts: this.sectionsState.quickFacts,
+      personalities: this.sectionsState.personalities,
+      timeline: this.sectionsState.timeline,
+      articleExplorer: this.sectionsState.articleExplorer,
+      examTraps: this.sectionsState.examTraps
+    });
+  }
+
+  updateRevision() {
+    this.revisionSection.render({
+      revisionSheet: this.sectionsState.revisionSheet,
+      quickFacts: this.sectionsState.quickFacts
+    });
+  }
+
   renderAll() {
     this.heroCard.render(this.sectionsState.hero);
     this.updateOverview();
     this.articleExplorer.render(this.sectionsState.articleExplorer);
     this.updateNotes();
     this.timelineSection.render(this.sectionsState.timeline);
+
+    const mcqs = this.sectionsState.quiz?.mcqs || this.sectionsState.quiz || [];
+    this.pyqSection.render(this.sectionsState.pyqAnalysis, mcqs.length);
+    this.quizSection.render(mcqs);
+    this.flashcardSection.render(this.sectionsState.flashcards);
+
+    this.updateMindMaps();
+    this.updateRevision();
+    this.filesSection.render(this.sectionsState.hero);
+    this.analyticsSection.render({
+      hero: this.sectionsState.hero,
+      mcqs: mcqs,
+      flashcards: this.sectionsState.flashcards,
+      notes: this.sectionsState.notes,
+      articleExplorer: this.sectionsState.articleExplorer
+    });
   }
 
   syncTopicSelector(topicId) {

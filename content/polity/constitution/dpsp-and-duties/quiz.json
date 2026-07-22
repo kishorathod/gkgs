@@ -1,0 +1,72 @@
+[
+  {
+    "q": "The Directive Principles of State Policy (DPSPs) in the Indian Constitution were borrowed from which country?",
+    "options": ["USA", "Ireland", "USSR", "Australia"],
+    "correctIdx": 1,
+    "explanation": "Part IV (DPSPs) was borrowed from the Irish Constitution of 1937, which in turn copied them from the Spanish Constitution.",
+    "category": "DPSP Foundations"
+  },
+  {
+    "q": "Which Article of the Constitution directs the State to organize Village Panchayats?",
+    "options": ["Article 38", "Article 40", "Article 44", "Article 50"],
+    "correctIdx": 1,
+    "explanation": "Article 40 (Gandhian Principle) directs the State to organize village panchayats as units of local self-government.",
+    "category": "Gandhian Principles"
+  },
+  {
+    "q": "By which Constitutional Amendment Act were the Fundamental Duties added to the Indian Constitution?",
+    "options": ["42nd Amendment Act 1976", "44th Amendment Act 1978", "86th Amendment Act 2002", "97th Amendment Act 2011"],
+    "correctIdx": 0,
+    "explanation": "The 42nd Constitutional Amendment Act, 1976 added Part IVA (Article 51A) containing 10 Fundamental Duties based on Swaran Singh Committee recommendations.",
+    "category": "Fundamental Duties"
+  },
+  {
+    "q": "Article 44 of the Indian Constitution mandates the State to secure which of the following?",
+    "options": ["Separation of Judiciary from Executive", "Uniform Civil Code", "Free Legal Aid", "Early Childhood Care"],
+    "correctIdx": 1,
+    "explanation": "Article 44 directs the State to secure a Uniform Civil Code (UCC) for all citizens throughout India.",
+    "category": "Liberal-Intellectual Principles"
+  },
+  {
+    "q": "Which Article directs the separation of the Judiciary from the Executive in public services?",
+    "options": ["Article 48", "Article 49", "Article 50", "Article 51"],
+    "correctIdx": 2,
+    "explanation": "Article 50 provides for the separation of the judiciary from the executive to safeguard judicial independence.",
+    "category": "Liberal-Intellectual Principles"
+  },
+  {
+    "q": "The 11th Fundamental Duty [Article 51A(k)] regarding children's education was added by which amendment?",
+    "options": ["44th Amendment Act 1978", "86th Amendment Act 2002", "91st Amendment Act 2003", "97th Amendment Act 2011"],
+    "correctIdx": 1,
+    "explanation": "The 86th CAA, 2002 added Article 51A(k) making it the duty of parents/guardians to provide education to children aged 6 to 14 years.",
+    "category": "Fundamental Duties"
+  },
+  {
+    "q": "Which Committee recommended the inclusion of Fundamental Duties in the Constitution?",
+    "options": ["Sarkaria Commission", "Swaran Singh Committee", "Verma Committee", "Balwant Rai Mehta Committee"],
+    "correctIdx": 1,
+    "explanation": "The Sardar Swaran Singh Committee recommended incorporating citizen duties into the Constitution in 1976.",
+    "category": "Fundamental Duties"
+  },
+  {
+    "q": "Which Article guarantees Equal Pay for Equal Work for both men and women?",
+    "options": ["Article 39(a)", "Article 39(d)", "Article 41", "Article 43A"],
+    "correctIdx": 1,
+    "explanation": "Article 39(d) ensures equal pay for equal work for both men and women.",
+    "category": "Socialistic Principles"
+  },
+  {
+    "q": "Article 48A concerning environmental protection and wildlife safeguarding was inserted by:",
+    "options": ["42nd Amendment Act 1976", "44th Amendment Act 1978", "73rd Amendment Act 1992", "86th Amendment Act 2002"],
+    "correctIdx": 0,
+    "explanation": "Article 48A was added by the 42nd Amendment Act, 1976 to direct state action on environment and wildlife.",
+    "category": "Liberal-Intellectual Principles"
+  },
+  {
+    "q": "Which of the following is NOT a Fundamental Duty under Article 51A?",
+    "options": ["To abide by the Constitution & respect National Flag", "To develop scientific temper", "To pay taxes regularly", "To safeguard public property"],
+    "correctIdx": 2,
+    "explanation": "Duty to pay taxes was recommended by Swaran Singh Committee but was NOT accepted and is NOT listed in Article 51A.",
+    "category": "Fundamental Duties Traps"
+  }
+]
