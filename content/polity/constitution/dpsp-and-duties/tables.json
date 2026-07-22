@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Fundamental Rights vs Directive Principles of State Policy (DPSPs)",
+    "headers": ["Feature", "Fundamental Rights (Part III)", "Directive Principles (Part IV)"],
+    "rows": [
+      ["Nature", "Negative obligations on the State (restrict arbitrary power).", "Positive directives to the State (command action for public welfare)."],
+      ["Justiciability", "Justiciable (enforceable by courts under Articles 32 and 226).", "Non-justiciable (cannot be directly enforced in court under Article 37)."],
+      ["Objective", "Establishes political democracy in the country.", "Establishes social and economic democracy (Welfare State)."],
+      ["Legal Effect", "Have legal sanctions; violating laws can be declared unconstitutional.", "Have moral and political sanctions; require legislative enactments to take effect."],
+      ["Scope", "Promotes individual welfare; protects citizen rights against state high-handedness.", "Promotes community welfare; balances public good against individual interests."],
+      ["Origin", "Borrowed from the Constitution of the USA (Bill of Rights).", "Borrowed from the Irish Constitution of 1937."]
+    ]
+  },
+  {
+    "title": "Directive Principles vs Fundamental Duties",
+    "headers": ["Feature", "Directive Principles (Part IV)", "Fundamental Duties (Part IVA)"],
+    "rows": [
+      ["Target Audience", "Directives given to the State (Government and authorities).", "Moral and civic responsibilities mandated for Citizens of India."],
+      ["Constitutional Location", "Part IV (Articles 36–51).", "Part IVA (Article 51A)."],
+      ["Origin & Inception", "In the original Constitution (1950); borrowed from Ireland.", "Added by 42nd CAA 1976 (Swaran Singh Committee); borrowed from USSR."],
+      ["Core Objective", "Guide state policies toward socio-economic welfare.", "Remind citizens of their duties while exercising fundamental rights."],
+      ["Total Count", "Spread over 16 articles (36 to 51).", "11 duties enlisted under a single article (51A)."],
+      ["Enforcement", "Implemented via executive schemes and parliamentary legislation.", "Enforced indirectly via statutory laws (e.g., Wildlife Protection Act)."]
+    ]
+  },
+  {
+    "title": "Socialistic Principles vs Gandhian Principles",
+    "headers": ["Feature", "Socialistic Principles", "Gandhian Principles"],
+    "rows": [
+      ["Core Ideology", "Democratic Socialism: elimination of inequalities and equitable distribution.", "Mahatma Gandhi's vision: rural empowerment, moral reform, and village autonomy."],
+      ["Focus Area", "Workers' rights, fair wages, public assistance, and legal equality.", "Grassroots democracy, cottage industries, SC/ST welfare, and prohibition."],
+      ["Primary Aim", "Prevent concentration of wealth and protect working classes.", "Reconstruct rural Indian society through decentralized self-reliance."],
+      ["Key Examples", "Article 39(d) Equal pay for equal work; Article 39A Free legal aid.", "Article 40 Village Panchayats; Article 43 Cottage industries; Article 47 Prohibition."],
+      ["Economic Model", "State-driven welfare and equitable public resource management.", "Decentralized village-level self-sufficiency and co-operatives."]
+    ]
+  },
+  {
+    "title": "Positive Rights vs Negative Rights",
+    "headers": ["Feature", "Positive Rights / Directives (e.g., DPSPs)", "Negative Rights / Restrictions (e.g., FRs)"],
+    "rows": [
+      ["Definition", "Require the State to act in a specific way to provide benefits or services.", "Prohibit the State from performing certain actions that infringe on liberty."],
+      ["State Obligation", "Creates a positive duty for the State to create welfare conditions.", "Imposes limits on legislative and executive power."],
+      ["Implementation", "Requires resources, policy interventions, and separate legislation.", "Requires state restraint and non-interference."],
+      ["Constitutional Examples", "Article 39A (Free Legal Aid), Article 41 (Right to Work).", "Article 14 (Equality before law), Article 21 (Protection of life/liberty)."]
+    ]
+  },
+  {
+    "title": "Justiciable vs Non-Justiciable Provisions",
+    "headers": ["Feature", "Justiciable Provisions (Part III)", "Non-Justiciable Provisions (Part IV & IVA)"],
+    "rows": [
+      ["Court Enforcement", "Directly enforceable by Supreme Court (Art 32) and High Courts (Art 226).", "Courts cannot issue writs or orders to enforce them directly."],
+      ["Legal Validity of Contraventions", "Laws violating these provisions are void and unconstitutional.", "Laws cannot be struck down solely for failing to fulfill these provisions."],
+      ["Immediate Availability", "Enjoyed automatically by citizens upon constitution's adoption.", "Dependent on financial capability, state willingness, and enabling legislation."],
+      ["Constitutional Domain", "Fundamental Rights (Articles 12–35).", "DPSPs (Articles 36–51) and Fundamental Duties (Article 51A)."]
+    ]
+  }
+]

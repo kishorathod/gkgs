@@ -1,0 +1,363 @@
+[
+  {
+    "article": "Article 36",
+    "title": "Definition of State",
+    "explanation": "Defines the term 'State' for the purpose of Part IV (DPSPs). It states that unless the context otherwise requires, 'State' has the same meaning as defined in Article 12 under Part III (Fundamental Rights), encompassing the Government and Parliament of India, State Governments and Legislatures, and local or other authorities.",
+    "importantPoints": [
+      "Inherits the definition of 'State' from Article 12.",
+      "Applies to all legislative and executive bodies across Union, State, and Local levels."
+    ],
+    "relatedArticles": ["12"],
+    "sscImportance": "Medium",
+    "difficulty": "Medium",
+    "weightage": "Medium",
+    "pyqCount": "3",
+    "frequentlyAsked": false,
+    "topicId": "article-36",
+    "memoryTrick": "36 mirrors 12 — Both define 'State' at the start of their respective Parts (III & IV).",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 37",
+    "title": "Application of the Principles Contained in Part IV",
+    "explanation": "Declares that the provisions contained in Part IV are non-justiciable (cannot be enforced by any court). However, it explicitly highlights that these principles are fundamental in the governance of the country and it shall be the duty of the State to apply them in making laws.",
+    "importantPoints": [
+      "Establishes the non-justiciable nature of DPSPs.",
+      "Affirms that DPSPs are fundamental to governance and law-making."
+    ],
+    "relatedArticles": ["32", "226"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "8",
+    "frequentlyAsked": true,
+    "topicId": "article-37",
+    "memoryTrick": "37 = Unenforceable Heaven (Fundamental to rule, but courts can't enforce).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 38",
+    "title": "State to Secure a Social Order for Welfare",
+    "explanation": "Directs the State to promote the welfare of the people by securing and protecting a social order characterized by social, economic, and political justice. Clause (2), added by the 44th Amendment, directs the State to minimize inequalities in income, status, facilities, and opportunities.",
+    "importantPoints": [
+      "Forms the foundational core of the 'Welfare State' concept.",
+      "Article 38(2) was inserted by the 44th Constitutional Amendment Act, 1978."
+    ],
+    "relatedArticles": ["14", "39"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "6",
+    "frequentlyAsked": true,
+    "topicId": "article-38",
+    "memoryTrick": "38 = Welfare Gate (Opens the door to social, economic, and political justice).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 39",
+    "title": "Certain Principles of Policy",
+    "explanation": "Outlines six specific policy objectives: (a) adequate means of livelihood, (b) equitable distribution of material resources, (c) prevention of concentration of wealth, (d) equal pay for equal work for both men and women, (e) protection of health of workers and children, and (f) opportunities for healthy development of children.",
+    "importantPoints": [
+      "Article 39(d) guarantees Equal Pay for Equal Work.",
+      "Articles 39(b) and 39(c) are given constitutional priority over Articles 14 and 19 under Article 31C."
+    ],
+    "relatedArticles": ["14", "31C", "39A"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "12",
+    "frequentlyAsked": true,
+    "topicId": "article-39",
+    "memoryTrick": "39(d) = Double Gender Equal Pay (Men and Women get equal pay).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 39A",
+    "title": "Equal Justice and Free Legal Aid",
+    "explanation": "Directs the State to ensure that the operation of the legal system promotes justice on a basis of equal opportunity, and specifically to provide free legal aid by suitable legislation or schemes to ensure opportunities for securing justice are not denied to any citizen due to economic or other disabilities.",
+    "importantPoints": [
+      "Added by the 42nd Constitutional Amendment Act, 1976.",
+      "Serves as the constitutional foundation for NALSA (National Legal Services Authority)."
+    ],
+    "relatedArticles": ["14", "21"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "10",
+    "frequentlyAsked": true,
+    "topicId": "article-39a",
+    "memoryTrick": "39A = Aid for All (Free Legal Aid added in '76).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 40",
+    "title": "Organization of Village Panchayats",
+    "explanation": "Directs the State to take steps to organize village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government. Represents a core Gandhian Principle.",
+    "importantPoints": [
+      "Direct constitutional origin for the 73rd Amendment Act, 1992 (Part IX).",
+      "Categorized under Gandhian Principles."
+    ],
+    "relatedArticles": ["243", "243A-243O"],
+    "sscImportance": "High",
+    "difficulty": "Easy",
+    "weightage": "Very High",
+    "pyqCount": "18",
+    "frequentlyAsked": true,
+    "topicId": "article-40",
+    "memoryTrick": "40 = Fort/Village (Organizing Village Panchayats).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 41",
+    "title": "Right to Work, Education & Public Assistance",
+    "explanation": "Directs the State, within the limits of its economic capacity and development, to make effective provision for securing the right to work, to education, and to public assistance in cases of unemployment, old age, sickness, disablement, and undeserved want.",
+    "importantPoints": [
+      "Constitutional backing for social security schemes like MGNREGA and national pension schemes.",
+      "Socialistic Principle."
+    ],
+    "relatedArticles": ["21A", "42", "43"],
+    "sscImportance": "Medium",
+    "difficulty": "Medium",
+    "weightage": "Medium",
+    "pyqCount": "5",
+    "frequentlyAsked": false,
+    "topicId": "article-41",
+    "memoryTrick": "41 = 1st job & education (Right to work and public assistance).",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 42",
+    "title": "Just & Humane Work Conditions & Maternity Relief",
+    "explanation": "Directs the State to make provision for securing just and humane conditions of work and for maternity relief for women workers.",
+    "importantPoints": [
+      "Constitutional basis for the Maternity Benefit Act, 1961 (and its 2017 amendment).",
+      "Focuses on human dignity at workplaces."
+    ],
+    "relatedArticles": ["39", "41", "43"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "7",
+    "frequentlyAsked": true,
+    "topicId": "article-42",
+    "memoryTrick": "42 = Care for Mother (Maternity relief & humane conditions).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 43",
+    "title": "Living Wage for Workers",
+    "explanation": "Directs the State to secure, by legislation or economic organization, to all workers a living wage, decent standard of life, and full enjoyment of leisure and social/cultural opportunities. It also mandates promoting cottage industries on an individual or co-operative basis in rural areas.",
+    "importantPoints": [
+      "Differentiates 'Living Wage' (higher standard) from 'Minimum Wage'.",
+      "Contains both Socialistic (living wage) and Gandhian (cottage industries) elements."
+    ],
+    "relatedArticles": ["41", "42", "43A", "43B"],
+    "sscImportance": "Medium",
+    "difficulty": "Medium",
+    "weightage": "Medium",
+    "pyqCount": "4",
+    "frequentlyAsked": false,
+    "topicId": "article-43",
+    "memoryTrick": "43 = Earn 3 square meals (Living wage & cottage industries).",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 43A",
+    "title": "Participation of Workers in Management",
+    "explanation": "Directs the State to take steps, by suitable legislation or in any other way, to secure the participation of workers in the management of undertakings, establishments, or other organizations engaged in any industry.",
+    "importantPoints": [
+      "Added by the 42nd Constitutional Amendment Act, 1976.",
+      "Promotes industrial democracy and labor welfare."
+    ],
+    "relatedArticles": ["43"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "6",
+    "frequentlyAsked": true,
+    "topicId": "article-43a",
+    "memoryTrick": "43A = Association of workers in Management.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 44",
+    "title": "Uniform Civil Code for Citizens",
+    "explanation": "Directs the State to endeavor to secure for citizens a Uniform Civil Code (UCC) throughout the territory of India, replacing personal laws based on scriptures and customs of each major religious community with a common set governing every citizen.",
+    "importantPoints": [
+      "Categorized under Liberal-Intellectual Principles.",
+      "One of the most frequently asked articles in SSC CGL exams."
+    ],
+    "relatedArticles": ["14", "15", "25"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "Very High",
+    "pyqCount": "22",
+    "frequentlyAsked": true,
+    "topicId": "article-44",
+    "memoryTrick": "44 = 4 & 4 are Uniform (Uniform Civil Code).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 45",
+    "title": "Early Childhood Care & Education (Below 6)",
+    "explanation": "Directs the State to endeavor to provide early childhood care and education for all children until they complete the age of six years. (Originally covered education up to 14 years before being modified).",
+    "importantPoints": [
+      "Scope replaced by the 86th Constitutional Amendment Act, 2002.",
+      "Original provision (6–14 years) shifted to Article 21A as a Fundamental Right."
+    ],
+    "relatedArticles": ["21A", "51A(k)"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "9",
+    "frequentlyAsked": true,
+    "topicId": "article-45",
+    "memoryTrick": "45 = Under 6 years alive (Early childhood care below 6).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 46",
+    "title": "Promotion of SCs, STs & Weaker Sections",
+    "explanation": "Directs the State to promote with special care the educational and economic interests of the weaker sections of the people, and in particular, of the Scheduled Castes (SCs) and Scheduled Tribes (STs), and to protect them from social injustice and all forms of exploitation.",
+    "importantPoints": [
+      "Acts as a guiding directive for affirmative action, welfare schemes, and reservation policies.",
+      "Gandhian Principle."
+    ],
+    "relatedArticles": ["15", "16", "330", "332"],
+    "sscImportance": "Medium",
+    "difficulty": "Medium",
+    "weightage": "Medium",
+    "pyqCount": "4",
+    "frequentlyAsked": false,
+    "topicId": "article-46",
+    "memoryTrick": "46 = Protect 6 weaker groups (SCs, STs, and Weaker Sections).",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 47",
+    "title": "Nutrition, Public Health & Prohibition",
+    "explanation": "Directs the State to regard the raising of the level of nutrition and the standard of living of its people and the improvement of public health as among its primary duties. Specifically mandates bringing about prohibition of consumption of intoxicating drinks and drugs harmful to health.",
+    "importantPoints": [
+      "Constitutional basis for state-level liquor ban policies.",
+      "Contains both Socialistic (nutrition/public health) and Gandhian (liquor prohibition) aspects."
+    ],
+    "relatedArticles": ["21"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "11",
+    "frequentlyAsked": true,
+    "topicId": "article-47",
+    "memoryTrick": "47 = AK-47 kills health; Article 47 protects Nutrition and prohibits Liquor.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 48",
+    "title": "Agriculture & Animal Husbandry",
+    "explanation": "Directs the State to organize agriculture and animal husbandry on modern and scientific lines and, in particular, to take steps for preserving and improving breeds, and prohibiting the slaughter of cows, calves, and other milch and draught cattle.",
+    "importantPoints": [
+      "Combines Liberal-Intellectual goals (modern agriculture) with Gandhian goals (prohibition of cow slaughter).",
+      "Forms the basis for national livestock development policies."
+    ],
+    "relatedArticles": ["48A"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "8",
+    "frequentlyAsked": true,
+    "topicId": "article-48",
+    "memoryTrick": "48 = Farm & Cattle Gate (Agriculture & Cattle slaughter ban).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 48A",
+    "title": "Environment, Forests & Wildlife Protection",
+    "explanation": "Directs the State to endeavor to protect and improve the environment and to safeguard the forests and wildlife of the country.",
+    "importantPoints": [
+      "Inserted by the 42nd Constitutional Amendment Act, 1976.",
+      "Constitutional driver for the Environment Protection Act, 1986 and Wildlife Protection Act, 1972."
+    ],
+    "relatedArticles": ["21", "51A(g)"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "Very High",
+    "pyqCount": "14",
+    "frequentlyAsked": true,
+    "topicId": "article-48a",
+    "memoryTrick": "48A = Agriculture + Animals + Environment (Added in '76).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 49",
+    "title": "Protection of Monuments & National Importance",
+    "explanation": "Mandates the State to protect every monument or place or object of artistic or historic interest, declared by or under law made by Parliament to be of national importance, from spoliation, disfigurement, destruction, removal, disposal, or export.",
+    "importantPoints": [
+      "Constitutional basis for ASI (Archaeological Survey of India) activities.",
+      "Liberal-Intellectual Principle."
+    ],
+    "relatedArticles": ["51A(f)"],
+    "sscImportance": "Medium",
+    "difficulty": "Medium",
+    "weightage": "Medium",
+    "pyqCount": "5",
+    "frequentlyAsked": false,
+    "topicId": "article-49",
+    "memoryTrick": "49 = Fine Art & Forts (Protecting historical monuments).",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 50",
+    "title": "Separation of Judiciary from Executive",
+    "explanation": "Directs the State to take steps to separate the judiciary from the executive in the public services of the State, ensuring an independent judiciary free from executive influence.",
+    "importantPoints": [
+      "Foundational principle for judicial independence in India.",
+      "Implemented across states primarily through Code of Criminal Procedure (CrPC), 1973."
+    ],
+    "relatedArticles": ["121", "211"],
+    "sscImportance": "High",
+    "difficulty": "Easy",
+    "weightage": "Very High",
+    "pyqCount": "16",
+    "frequentlyAsked": true,
+    "topicId": "article-50",
+    "memoryTrick": "50 = 50-50 Split (Split Judiciary from Executive).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 51",
+    "title": "Promotion of International Peace & Security",
+    "explanation": "Directs the State to promote international peace and security, maintain just and honorable relations between nations, foster respect for international law and treaty obligations, and encourage settlement of international disputes by arbitration.",
+    "importantPoints": [
+      "Serves as the constitutional framework for India's Foreign Policy (e.g., Panchsheel, Non-Alignment).",
+      "Final directive principle in Part IV."
+    ],
+    "relatedArticles": ["253"],
+    "sscImportance": "High",
+    "difficulty": "Medium",
+    "weightage": "High",
+    "pyqCount": "12",
+    "frequentlyAsked": true,
+    "topicId": "article-51",
+    "memoryTrick": "51 = $51 Shagun for World Peace (International Peace & Security).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 51A",
+    "title": "Fundamental Duties",
+    "explanation": "Enlists 11 Fundamental Duties for every citizen of India under Part IVA. Originally 10 duties were added by the 42nd CAA (1976) based on Swaran Singh Committee recommendations. The 11th duty [51A(k)] regarding child education was added by the 86th CAA (2002).",
+    "importantPoints": [
+      "Part IVA consists of a single Article: 51A.",
+      "Non-justiciable, moral obligations inspired by the USSR Constitution.",
+      "11th duty [51A(k)] obligates parents/guardians to educate children aged 6–14."
+    ],
+    "relatedArticles": ["21A", "45"],
+    "sscImportance": "High",
+    "difficulty": "Easy",
+    "weightage": "Very High",
+    "pyqCount": "25",
+    "frequentlyAsked": true,
+    "topicId": "article-51a",
+    "memoryTrick": "51A = 51 + Amendments (10 duties via 42nd CAA + 1 duty via 86th CAA = 11 Duties).",
+    "priority": "High"
+  }
+]
