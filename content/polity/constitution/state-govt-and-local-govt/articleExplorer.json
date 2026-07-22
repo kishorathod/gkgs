@@ -1,1 +1,1205 @@
-[]
+[
+  {
+    "article": "Article 154",
+    "title": "Executive Power of State",
+    "explanation": "Vests the executive power of the state in the Governor, to be exercised either directly or through officers subordinate to him in accordance with the Constitution.",
+    "importantPoints": [
+      "Governor is the head of the state executive",
+      "Power exercised directly or via subordinate ministers",
+      "Does not prevent Parliament/Legislature from conferring functions on subordinate authorities"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 153",
+      "Article 163"
+    ],
+    "memoryTrick": "154 = State executive power anchored.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 155",
+    "title": "Appointment of Governor",
+    "explanation": "Stipulates that the Governor of a state shall be appointed by the President of India by warrant under his hand and seal, following a system modeled on the Canadian pattern.",
+    "importantPoints": [
+      "Appointed by the President, not directly elected",
+      "Acts as a vital link between the Union and the State",
+      "Helps maintain federal equilibrium"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 156",
+      "Article 153"
+    ],
+    "memoryTrick": "155 = President signs and sends the Governor alive.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 156",
+    "title": "Term of Office of Governor",
+    "explanation": "States that the Governor holds office during the pleasure of the President for a normal term of 5 years, though he may resign or be removed earlier.",
+    "importantPoints": [
+      "Normal term is 5 years",
+      "Holds office during the absolute pleasure of the President",
+      "Can submit resignation to the President at any time"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 155",
+      "Article 157"
+    ],
+    "memoryTrick": "156 = 5 + 6 years? No, exactly 5 years under Presidential pleasure.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 157",
+    "title": "Qualifications for Appointment as Governor",
+    "explanation": "Lays down the basic qualifications required for appointment as a Governor: must be a citizen of India and have completed the age of 35 years.",
+    "importantPoints": [
+      "Must be a citizen of India",
+      "Minimum age requirement is 35 years",
+      "Conventionally an outsider to the state"
+    ],
+    "sscImportance": "High",
+    "relatedArticles": [
+      "Article 158",
+      "Article 156"
+    ],
+    "memoryTrick": "157 = 35 age milestone for high offices.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 158",
+    "title": "Conditions of Governor's Office",
+    "explanation": "Specifies that the Governor cannot be a member of either house of Parliament or State Legislature, cannot hold any other office of profit, and enjoys official residence and emoluments determined by Parliament.",
+    "importantPoints": [
+      "Cannot be an MP or MLA concurrently",
+      "Entitled to rent-free official residence (Raj Bhavan)",
+      "Emoluments cannot be diminished during term"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 157",
+      "Article 159"
+    ],
+    "memoryTrick": "158 = Strict conditions and office isolation.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 159",
+    "title": "Oath or Affirmation by the Governor",
+    "explanation": "Mandates that the Governor, before entering office, must make and subscribe an oath in the presence of the Chief Justice of the State High Court (or senior-most judge available).",
+    "importantPoints": [
+      "Oath administered by the Chief Justice of the State High Court",
+      "Commits to preserving, protecting, and defending the Constitution",
+      "Dedicated to service of the people"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 219",
+      "Article 158"
+    ],
+    "memoryTrick": "159 = High Court Chief Justice administers the oath.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 160",
+    "title": "Discharge of Governor's Functions in Contingencies",
+    "explanation": "Empowers the President to make provisions for discharging the functions of the Governor in any contingency not provided for in Chapter II (e.g., sudden illness or vacancy).",
+    "importantPoints": [
+      "President handles unexpected gubernatorial vacancies",
+      "Ensures continuity of state administration",
+      "Usually assigns duty to the state High Court Chief Justice"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 155",
+      "Article 159"
+    ],
+    "memoryTrick": "160 = Contingency backup plan.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 161",
+    "title": "Power of Governor to Grant Pardons, etc.",
+    "explanation": "Grants the Governor the power to grant pardons, reprieves, respites, or remissions of punishment in respect of state law violations, excluding death sentences and court-martials.",
+    "importantPoints": [
+      "Covers matters extending to state executive power",
+      "Cannot pardon a death sentence (Presidential exclusive)",
+      "Cannot pardon court-martial punishments"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 72",
+      "Article 162"
+    ],
+    "memoryTrick": "161 = State pardoning floor (no death penalty access).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 162",
+    "title": "Extent of Executive Power of State",
+    "explanation": "Defines the territorial and subject-matter scope of the state's executive power, extending to matters with respect to which the State Legislature has power to make laws.",
+    "importantPoints": [
+      "Covers State List subjects",
+      "Subject to proviso regarding concurrent list matters",
+      "Aligns executive authority with legislative competence"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 154",
+      "Article 246"
+    ],
+    "memoryTrick": "162 = State executive range matching laws.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 163",
+    "title": "Council of Ministers to Aid and Advise Governor",
+    "explanation": "Establishes that there shall be a Council of Ministers with the Chief Minister at the head to aid and advise the Governor, except in matters where he is required to act in his discretion.",
+    "importantPoints": [
+      "Ministerial advice is normally binding",
+      "Governor's discretionary actions cannot be questioned in court",
+      "Core pillar of parliamentary democracy in states"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 164",
+      "Article 74"
+    ],
+    "memoryTrick": "163 = Aid, advice, and discretion balance.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 164",
+    "title": "Other Provisions as to Ministers",
+    "explanation": "Deals with the appointment of the Chief Minister by the Governor and other ministers on CM's advice, collective responsibility, and oath of office.",
+    "importantPoints": [
+      "CM appointed by Governor; ministers appointed on CM's advice",
+      "Collectively responsible to the Legislative Assembly",
+      "Size capped at 15 percent of total Assembly strength (91st Amendment)"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 163",
+      "Article 165"
+    ],
+    "memoryTrick": "164 = Chief Minister appointment and cabinet cap.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 165",
+    "title": "Advocate-General for the State",
+    "explanation": "Provides for the appointment of the highest law officer of the state by the Governor, who must be qualified to be a judge of a High Court.",
+    "importantPoints": [
+      "Highest legal advisor to the state government",
+      "Has right to speak in proceedings of state legislature without voting rights",
+      "Holds office during the pleasure of the Governor"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 76",
+      "Article 177"
+    ],
+    "memoryTrick": "165 = Mirror of Article 76 (Attorney General).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 166",
+    "title": "Conduct of Business of the Government of a State",
+    "explanation": "Requires all executive actions of the government of a state to be expressed to be taken in the name of the Governor and regulates the allocation of business among ministers.",
+    "importantPoints": [
+      "All state orders issued in Governor's name",
+      "Rules made by Governor for convenient transaction of government business",
+      "Orders authenticated as prescribed by state rules"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 154",
+      "Article 163"
+    ],
+    "memoryTrick": "166 = Business rules in Governor's name.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 167",
+    "title": "Duties of Chief Minister as Respects Furnishing Information to Governor",
+    "explanation": "Outlines the constitutional duty of the Chief Minister to communicate to the Governor all decisions of the Council of Ministers and furnish information relating to state administration.",
+    "importantPoints": [
+      "CM acts as the formal communication channel to the Governor",
+      "Governor can call for specific administrative details",
+      "Ensures transparency between executive branches"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 164",
+      "Article 163"
+    ],
+    "memoryTrick": "167 = Chief Minister's report card to Governor.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 168",
+    "title": "Constitution of Legislatures in States",
+    "explanation": "States that for every state there shall be a Legislature which consists of the Governor and two Houses (Legislative Council and Legislative Assembly) or one House (Assembly).",
+    "importantPoints": [
+      "Establishes bicameral or unicameral state legislatures",
+      "Governor is an integral component of the legislature",
+      "Most states have unicameral assemblies"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 169",
+      "Article 170"
+    ],
+    "memoryTrick": "168 = State legislature framework setup.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 169",
+    "title": "Abolition or Creation of Legislative Councils in States",
+    "explanation": "Empowers Parliament to create or abolish a State Legislative Council if the Legislative Assembly passes a resolution to that effect by a special majority.",
+    "importantPoints": [
+      "Initiated by state assembly special majority",
+      "Enacted by simple majority ordinary legislation in Parliament",
+      "Not classified as a constitutional amendment under Article 368"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 168",
+      "Article 171"
+    ],
+    "memoryTrick": "169 = Parliament creates or deletes upper houses.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 170",
+    "title": "Composition of the Legislative Assemblies",
+    "explanation": "Specifies that the Legislative Assembly of each state shall consist of not more than 500 and not less than 60 members chosen by direct election from territorial constituencies.",
+    "importantPoints": [
+      "Directly elected by adult suffrage",
+      "Upper limit 500, lower limit 60 (with historical exceptions)",
+      "Constituencies readjusted after each census"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 81",
+      "Article 171"
+    ],
+    "memoryTrick": "170 = Vidhan Sabha numbers locked.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 171",
+    "title": "Composition of the Legislative Councils",
+    "explanation": "Sets the composition rules for the upper house (Vidhan Parishad): total membership cannot exceed one-third of the Assembly, with a minimum of 40 members, drawn from diverse electorates.",
+    "importantPoints": [
+      "Max 1/3rd of Assembly size, minimum 40",
+      "Electorates include graduates, teachers, local bodies, MLAs, and gubernatorial nominees",
+      "Permanent, non-dissolvable house"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 169",
+      "Article 170"
+    ],
+    "memoryTrick": "171 = Council composition breakdown.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 172",
+    "title": "Duration of State Legislatures",
+    "explanation": "Fixes the normal duration of the Legislative Assembly at 5 years from its first meeting unless dissolved earlier, while establishing that the Legislative Council is not subject to dissolution.",
+    "importantPoints": [
+      "Assembly term is 5 years unless dissolved prematurely",
+      "Legislative Council is a permanent body (1/3rd retire every 2 years)",
+      "Extension possible during National Emergency"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 170",
+      "Article 171"
+    ],
+    "memoryTrick": "172 = 5 years assembly clock.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 173",
+    "title": "Qualification for Membership of the State Legislature",
+    "explanation": "Lays down qualifications: citizen of India, minimum age of 25 years for Assembly and 30 years for Council, and possession of other qualifications prescribed by Parliament.",
+    "importantPoints": [
+      "Minimum age: 25 (Assembly), 30 (Council)",
+      "Must take oath before Election Commission representative",
+      "Must be a registered voter in the state"
+    ],
+    "sscImportance": "High",
+    "relatedArticles": [
+      "Article 171",
+      "Article 170"
+    ],
+    "memoryTrick": "173 = Age criteria (25 and 30).",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 174",
+    "title": "Sessions of the State Legislature, Prorogation and Dissolution",
+    "explanation": "Empowers the Governor to summon each house, prorogue them, and dissolve the Legislative Assembly.",
+    "importantPoints": [
+      "Maximum gap between two sessions cannot exceed 6 months",
+      "Governor dissolves Assembly on Chief Minister's advice",
+      "Prorogation terminates a session, not the house"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 85",
+      "Article 172"
+    ],
+    "memoryTrick": "174 = Summon, prorogue, and dissolve rhythm.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 175",
+    "title": "Right of Governor to Address and Send Messages to Houses",
+    "explanation": "Empowers the Governor to address either or both houses assembled together and send messages regarding pending bills or other matters.",
+    "importantPoints": [
+      "Can address legislature at any time",
+      "Legislature must consider messages sent without delay",
+      "Enhances legislative executive communication"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 176",
+      "Article 86"
+    ],
+    "memoryTrick": "175 = Governor's direct speech and messages.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 176",
+    "title": "Special Address by the Governor",
+    "explanation": "Mandates the Governor to address the state legislature at the commencement of the first session after each general election and the first session of each year.",
+    "importantPoints": [
+      "Special annual and post-election address",
+      "Outlines government policies and legislative agenda",
+      "Requires discussion on the address (motion of thanks)"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 175",
+      "Article 87"
+    ],
+    "memoryTrick": "176 = Special annual opening speech.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 177",
+    "title": "Rights of Ministers and Advocate-General as Respects Houses",
+    "explanation": "Grants every minister and the Advocate-General the right to speak in and take part in the proceedings of either house, though they cannot vote if not members.",
+    "importantPoints": [
+      "Right of audience in legislative houses",
+      "Advocate-General can speak but not vote",
+      "Ministers can participate in houses they do not belong to"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 165",
+      "Article 88"
+    ],
+    "memoryTrick": "177 = Ministers and AG free speech pass.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 178",
+    "title": "The Speaker and Deputy Speaker of the Legislative Assembly",
+    "explanation": "Requires every State Legislative Assembly to choose two members to be respectively Speaker and Deputy Speaker.",
+    "importantPoints": [
+      "Ensures internal democratic leadership of Assembly",
+      "Presides over Assembly sittings",
+      "Maintains order and decorum"
+    ],
+    "sscImportance": "High",
+    "relatedArticles": [
+      "Article 179",
+      "Article 93"
+    ],
+    "memoryTrick": "178 = Assembly Speaker selection.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 179",
+    "title": "Vacation and Resignation of, and Removal from, Speaker and Deputy Speaker",
+    "explanation": "Sets rules: vacation of office upon ceasing to be a member, resignation in writing to each other, or removal by a resolution passed by a majority of all then members of the Assembly.",
+    "importantPoints": [
+      "Requires 14 days' advance notice for removal resolution",
+      "Must vacate office if membership terminates",
+      "Resignations exchanged mutually"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 178",
+      "Article 94"
+    ],
+    "memoryTrick": "179 = Speaker exit rules.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 180",
+    "title": "Power of Deputy Speaker or Other Person to Perform Duties of Speaker",
+    "explanation": "Outlines that during the absence of the Speaker, the Deputy Speaker shall perform duties, and if both are absent, such member as may be determined by rules of procedure.",
+    "importantPoints": [
+      "Uninterrupted house functioning during vacancies",
+      "Deputy Speaker acts as Speaker",
+      "Panel of chairpersons steps in if necessary"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 178",
+      "Article 95"
+    ],
+    "memoryTrick": "180 = Deputy steps up.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 181",
+    "title": "The Speaker or Deputy Speaker Not to Preside While a Resolution for Removal is Under Consideration",
+    "explanation": "Prohibits the Speaker or Deputy Speaker from presiding over a sitting while a resolution for their removal is under consideration, though they retain the right to speak and vote.",
+    "importantPoints": [
+      "Prevents conflict of interest during removal motions",
+      "Can participate in debate and initial voting",
+      "Presiding chair taken by another member"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 179",
+      "Article 96"
+    ],
+    "memoryTrick": "181 = Step down from chair when facing removal.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 182",
+    "title": "The Chairman and Deputy Chairman of the Legislative Council",
+    "explanation": "Mandates that every State Legislative Council shall choose two members to be Chairman and Deputy Chairman.",
+    "importantPoints": [
+      "Upper house leadership officers",
+      "Elected from among Council members",
+      "Equivalent to Rajya Sabha Chairman/Deputy Chairman roles"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 171",
+      "Article 183"
+    ],
+    "memoryTrick": "182 = Council leadership setup.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 183",
+    "title": "Vacation and Resignation of, and Removal from, Chairman and Deputy Chairman",
+    "explanation": "Governs resignation, vacation, and removal procedures for the Chairman and Deputy Chairman of the Legislative Council.",
+    "importantPoints": [
+      "Mirrors Assembly speaker removal rules",
+      "Requires majority resolution",
+      "14 days notice period"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 182",
+      "Article 179"
+    ],
+    "memoryTrick": "183 = Council chair exit rules.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 184",
+    "title": "Power of Deputy Chairman or Other Person to Perform Duties of Chairman",
+    "explanation": "Empowers the Deputy Chairman to perform duties during the absence of the Chairman.",
+    "importantPoints": [
+      "Ensures continuity in upper house chair",
+      "Similar mechanism to Article 180"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 182",
+      "Article 180"
+    ],
+    "memoryTrick": "184 = Council deputy steps up.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 185",
+    "title": "The Chairman or Deputy Chairman Not to Preside While Resolution for Removal is Under Consideration",
+    "explanation": "Restricts the Chairman or Deputy Chairman from presiding while their removal resolution is active.",
+    "importantPoints": [
+      "Impartiality safeguard",
+      "Mirrors Article 181"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 183",
+      "Article 181"
+    ],
+    "memoryTrick": "185 = Council chair steps down during trial.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 186",
+    "title": "Salaries and Allowances of the Speaker and Deputy Speaker and Chairman and Deputy Chairman",
+    "explanation": "Provides that salaries and allowances of presiding officers shall be fixed by the state legislature and charged upon the Consolidated Fund of the State.",
+    "importantPoints": [
+      "Charged expenditure (non-votable)",
+      "Guarantees financial independence of presiding officers"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 202",
+      "Article 178"
+    ],
+    "memoryTrick": "186 = Presiding officers' pay charged on state fund.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 187",
+    "title": "Secretariat of State Legislature",
+    "explanation": "Provides for a separate secretarial staff for each house of the state legislature.",
+    "importantPoints": [
+      "Independent administrative staff for legislature",
+      "Prevents executive interference in legislative secretariats"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 98"
+    ],
+    "memoryTrick": "187 = Independent secretariat staff.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 188",
+    "title": "Oath or Affirmation by Members",
+    "explanation": "Requires every member of the Legislative Assembly or Council to take an oath or affirmation before the Governor or a person appointed by him.",
+    "importantPoints": [
+      "Mandatory before taking seat in house",
+      "Pledge of allegiance to Constitution"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 173",
+      "Article 189"
+    ],
+    "memoryTrick": "188 = Member oath taking.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 189",
+    "title": "Voting in Houses, Power of Houses to Act Notwithstanding Vacancies and Quorum",
+    "explanation": "Sets quorum at 10 members or one-tenth of total house membership (whichever is greater), with voting by majority and casting vote by presiding officer in ties.",
+    "importantPoints": [
+      "Quorum rule: 1/10th of house or 10 members",
+      "Presiding officer exercises casting vote only in ties",
+      "Proceedings valid despite casual vacancies"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 100",
+      "Article 178"
+    ],
+    "memoryTrick": "189 = Quorum and casting vote rules.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 190",
+    "title": "Vacation of Seats",
+    "explanation": "Deals with disqualification scenarios, dual membership bans (Parliament and State Legislature simultaneously), and resignation procedures.",
+    "importantPoints": [
+      "Cannot hold seats in both Parliament and State Legislature",
+      "Seat vacates if absent without permission for 60 days",
+      "Resignation accepted by Speaker/Chairman"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 101",
+      "Article 191"
+    ],
+    "memoryTrick": "190 = Seat vacation and dual membership ban.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 191",
+    "title": "Disqualifications for Membership",
+    "explanation": "Lists grounds for disqualification: office of profit, unsound mind, undischarged insolvency, loss of citizenship, or disqualification under the Tenth Schedule (Anti-Defection Law).",
+    "importantPoints": [
+      "Office of profit prohibition",
+      "Includes anti-defection disqualification (10th Schedule)",
+      "Determined by Governor in consultation with Election Commission"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 102",
+      "Article 192"
+    ],
+    "memoryTrick": "191 = Disqualification minefield.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 192",
+    "title": "Decision on Questions as to Disqualifications of Members",
+    "explanation": "Stipulates that if any question arises whether a member has become subject to disqualification, the question shall be referred to the Governor, whose decision shall be final (after obtaining Election Commission opinion).",
+    "importantPoints": [
+      "Governor decides disqualification disputes",
+      "Must obtain and follow the Election Commission's opinion",
+      "Judicial review applies to arbitrary orders"
+    ],
+    "sscImportance": "High",
+    "relatedArticles": [
+      "Article 103",
+      "Article 191"
+    ],
+    "memoryTrick": "192 = Governor decides disqualifications with EC advice.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 193",
+    "title": "Penalty for Sitting and Voting Before Taking Oath or When Unqualified",
+    "explanation": "Imposes a penalty of 500 rupees per day for any person who sits or votes in the house knowing they are not qualified or are disqualified.",
+    "importantPoints": [
+      "Financial penalty for unlawful participation",
+      "Recoverable as a debt due to the state"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 104",
+      "Article 188"
+    ],
+    "memoryTrick": "193 = Fine for sitting without qualification.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 194",
+    "title": "Powers, Privileges, etc., of the Houses of Legislatures and of the Members and Committees Thereof",
+    "explanation": "Guarantees freedom of speech inside the legislature and protects publication of proceedings from legal action.",
+    "importantPoints": [
+      "Legislative privileges similar to parliamentary privileges",
+      "Immunity from court proceedings for speeches made in house",
+      "Protects internal house autonomy"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 105",
+      "Article 191"
+    ],
+    "memoryTrick": "194 = Legislative freedom and privileges.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 195",
+    "title": "Salaries and Allowances of Members",
+    "explanation": "Provides that members of the Legislative Assembly and Council shall be entitled to receive salaries and allowances determined by the state legislature.",
+    "importantPoints": [
+      "Determined by state law, not constitutional prescription",
+      "Subject to change by ordinary legislation"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 106",
+      "Article 186"
+    ],
+    "memoryTrick": "195 = Members' pay decided by law.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 196",
+    "title": "Provisions as to Introduction and Passing of Bills",
+    "explanation": "Outlines rules for ordinary bills, stating that a bill does not lapse on prorogation, though bills pending in the Assembly lapse on its dissolution.",
+    "importantPoints": [
+      "Lapsing rules for ordinary bills on assembly dissolution",
+      "Prorogation does not affect pending bills",
+      "Originates in either house"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 107",
+      "Article 197"
+    ],
+    "memoryTrick": "196 = Bill lapsing rules.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 197",
+    "title": "Restriction on Powers of Legislative Council as to Bills Other Than Money Bills",
+    "explanation": "Limits the power of the upper house over ordinary bills, restricting cumulative delay to a maximum of 4 months.",
+    "importantPoints": [
+      "Council is a revising chamber, not a veto chamber",
+      "Assembly can override council objections",
+      "Maximum 4-month delay cap"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 196",
+      "Article 198"
+    ],
+    "memoryTrick": "197 = Council ordinary bill delay limit.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 198",
+    "title": "Special Procedure in Respect of Money Bills",
+    "explanation": "Mandates that Money Bills can only be introduced in the Legislative Assembly and restricts the Legislative Council's review window to 14 days.",
+    "importantPoints": [
+      "Assembly exclusivity for Money Bills",
+      "Council cannot reject or amend, only suggest recommendations within 14 days",
+      "Requires prior recommendation of Governor"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 109",
+      "Article 199"
+    ],
+    "memoryTrick": "198 = State Money Bill assembly monopoly.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 199",
+    "title": "Definition of 'Money Bills'",
+    "explanation": "Defines what constitutes a Money Bill in a state legislature (taxation, borrowing, Consolidated Fund expenditure), with the Speaker's decision being final.",
+    "importantPoints": [
+      "Mirror of Article 110",
+      "Speaker's certificate that a bill is a Money Bill is final",
+      "Excludes fines and fees for local services"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 110",
+      "Article 198"
+    ],
+    "memoryTrick": "199 = State Money Bill definition (mirror of 110).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 200",
+    "title": "Assent to Bills",
+    "explanation": "Outlines options available to the Governor when a bill is presented: grant assent, withhold assent, return ordinary bill for reconsideration, or reserve it for the President.",
+    "importantPoints": [
+      "Four distinct gubernatorial assent options",
+      "Can reserve state bills for presidential scrutiny",
+      "Mandatory reservation if bill threatens High Court position"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 111",
+      "Article 201"
+    ],
+    "memoryTrick": "200 = Governor's four assent choices.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 201",
+    "title": "Bills Reserved for Consideration",
+    "explanation": "Details procedure when a bill is reserved for the President under Article 200, giving the President absolute veto power even if re-passed by the state legislature.",
+    "importantPoints": [
+      "President can give assent, withhold assent, or direct reconsideration",
+      "President has absolute veto on reserved state bills",
+      "State legislature is not empowered to override presidential veto"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 200",
+      "Article 111"
+    ],
+    "memoryTrick": "201 = President's absolute veto on state bills.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 202",
+    "title": "Annual Financial Statement (State Budget)",
+    "explanation": "Requires the Governor to cause to be laid before both houses of the state legislature an annual financial statement showing estimated receipts and expenditure.",
+    "importantPoints": [
+      "State budget documentation",
+      "Distinguishes between charged expenditure and votable expenditure",
+      "Mirror of Article 112"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 112",
+      "Article 203"
+    ],
+    "memoryTrick": "202 = State Budget statement.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 203",
+    "title": "Procedure in Legislature With Respect to Estimates",
+    "explanation": "Establishes that estimates charged on the Consolidated Fund are not submitted to vote, while other estimates are submitted in the form of demands for grants to the Assembly.",
+    "importantPoints": [
+      "Charged expenditure is non-votable",
+      "Demands for grants submitted exclusively to Legislative Assembly",
+      "Council cannot vote on demands for grants"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 202",
+      "Article 113"
+    ],
+    "memoryTrick": "203 = Voting on budget demands.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 204",
+    "title": "Appropriation Bills",
+    "explanation": "Provides for the introduction of an Appropriation Bill after grants have been made by the Assembly to authorize withdrawal of money from the Consolidated Fund.",
+    "importantPoints": [
+      "Authorizes legal withdrawal of state funds",
+      "No amendments can be proposed to alter grant amounts"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 203",
+      "Article 114"
+    ],
+    "memoryTrick": "204 = Withdrawal authorization bill.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 205",
+    "title": "Supplementary, Additional or Excess Grants",
+    "explanation": "Allows presentation of supplementary or excess budget demands when sanctioned money proves insufficient.",
+    "importantPoints": [
+      "Covers budget overruns and unforeseen expenses",
+      "Requires Assembly approval"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 204",
+      "Article 115"
+    ],
+    "memoryTrick": "205 = Extra budget grants.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 206",
+    "title": "Votes on Account, Votes of Credit and Exceptional Grants",
+    "explanation": "Empowers the Assembly to make grants in advance for estimated expenditure before voting is completed (Vote on Account).",
+    "importantPoints": [
+      "Interim financial authorization",
+      "Ensures government functioning during budget debate periods"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 204",
+      "Article 116"
+    ],
+    "memoryTrick": "206 = Advance cash vote (Vote on Account).",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 207",
+    "title": "Special Provisions as to Financial Bills",
+    "explanation": "Stipulates that financial bills (other than Money Bills) cannot be introduced without the Governor's recommendation and cannot be introduced in the Legislative Council.",
+    "importantPoints": [
+      "Governor's recommendation required for financial bills",
+      "Restricted introduction to Assembly"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 198",
+      "Article 117"
+    ],
+    "memoryTrick": "207 = Financial bill preconditions.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 208",
+    "title": "Rules of Procedure",
+    "explanation": "Empowers each house of the state legislature to make rules for regulating its procedure and conduct of business.",
+    "importantPoints": [
+      "Internal house autonomy in rule-making",
+      "Committees constituted under these rules"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 118"
+    ],
+    "memoryTrick": "208 = House rulebook creation.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 209",
+    "title": "Regulation by Law of Procedure in the Legislature of the State in Relation to Financial Business",
+    "explanation": "Permits the state legislature to regulate financial business through law to ensure timely completion of budgetary processes.",
+    "importantPoints": [
+      "Prevents intentional financial filibustering",
+      "Streamlines state budget timelines"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 208",
+      "Article 119"
+    ],
+    "memoryTrick": "209 = Financial business streamlining.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 210",
+    "title": "Language to be Used in the Legislature",
+    "explanation": "Stipulates that business in state legislatures shall be transacted in the official language or Hindi or English, with presiding officers permitting members unable to express themselves in those languages to speak in their mother tongue.",
+    "importantPoints": [
+      "Language flexibility for regional representatives",
+      "Official state language or English/Hindi standard"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 120",
+      "Article 345"
+    ],
+    "memoryTrick": "210 = Language options in assembly.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 211",
+    "title": "Restriction on Discussion in the Legislature",
+    "explanation": "Prohibits any discussion in the state legislature with respect to the conduct of any judge of the Supreme Court or of a High Court in the discharge of judicial duties.",
+    "importantPoints": [
+      "Protects judicial independence",
+      "Bars debate on individual judicial verdicts in assembly"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 121",
+      "Article 212"
+    ],
+    "memoryTrick": "211 = No discussing judge conduct in assembly.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 212",
+    "title": "Courts Not to Inquire into Proceedings of the Legislature",
+    "explanation": "Bars courts from inquiring into the validity of any proceedings in the state legislature on the ground of any alleged irregularity of procedure.",
+    "importantPoints": [
+      "Judicial non-interference in internal house procedure",
+      "Procedural autonomy of state legislatures"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 122",
+      "Article 211"
+    ],
+    "memoryTrick": "212 = Courts stay out of assembly proceedings.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 243",
+    "title": "Definitions (Part IX - Panchayats)",
+    "explanation": "Provides definitions for terms used in Part IX relating to Panchayats, including 'district', 'Gram Sabha', 'intermediate level', 'panchayat', and 'village'.",
+    "importantPoints": [
+      "Foundation definition article for Part IX",
+      "Defines village and district levels",
+      "Added by 73rd Amendment Act"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 243A",
+      "Article 243P"
+    ],
+    "memoryTrick": "243 = Dictionary for rural local bodies.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 243A",
+    "title": "Gram Sabha",
+    "explanation": "Stipulates that a Gram Sabha may exercise such powers and perform such functions at the village level as the legislature of a state may determine.",
+    "importantPoints": [
+      "Foundation of direct democracy at village level",
+      "Consists of all registered voters in a village area",
+      "Social audit and local oversight body"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 243",
+      "Article 243B"
+    ],
+    "memoryTrick": "243A = Assembly of all voters (Gram Sabha).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 243B",
+    "title": "Constitution of Panchayats",
+    "explanation": "Mandates the constitution in every state of Panchayats at the village, intermediate, and district levels (three-tier system), except in states with a population under 20 lakhs.",
+    "importantPoints": [
+      "Three-tier system mandated across India",
+      "Exemption for smaller states under 20 lakh population from intermediate tier",
+      "Structural backbone of rural local governance"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 243C",
+      "Article 243A"
+    ],
+    "memoryTrick": "243B = Building the 3-tier structure.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 243C",
+    "title": "Composition of Panchayats",
+    "explanation": "Deals with the composition of panchayats, providing that all seats shall be filled by persons chosen by direct election from territorial constituencies.",
+    "importantPoints": [
+      "Direct elections for all panchayat tier seats",
+      "Chairpersons at intermediate and district levels can have indirect representation",
+      "State legislatures determine chairperson election modalities"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 243B",
+      "Article 243D"
+    ],
+    "memoryTrick": "243C = Composition and direct elections.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 243D",
+    "title": "Reservation of Seats",
+    "explanation": "Provides for mandatory reservation of seats for SCs and STs in proportion to their population and not less than one-third reservation of total seats for women.",
+    "importantPoints": [
+      "Not less than 33% reservation for women",
+      "Proportional reservation for SCs and STs",
+      "Applicable across all three tiers"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 243T",
+      "Article 330"
+    ],
+    "memoryTrick": "243D = Diversity reservations (Women & SC/ST).",
+    "priority": "High"
+  },
+  {
+    "article": "Article 243E",
+    "title": "Duration of Panchayats, etc.",
+    "explanation": "Fixes a 5-year tenure for every panchayat from the date appointed for its first meeting, with mandatory elections held before dissolution or within 6 months of dissolution.",
+    "importantPoints": [
+      "Normal 5-year fixed term",
+      "Elections must be held before term expiry or within 6 months after supersession",
+      "Prevents indefinite bureaucratic rule"
+    ],
+    "sscImportance": "High",
+    "relatedArticles": [
+      "Article 243U",
+      "Article 243K"
+    ],
+    "memoryTrick": "243E = Elections within 5 years or 6 months post-dissolution.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 243F",
+    "title": "Disqualifications for Membership",
+    "explanation": "Sets disqualification criteria for panchayat membership, including disqualification under any state law or being less than 21 years of age.",
+    "importantPoints": [
+      "Minimum contesting age is 21 years",
+      "State law determines other disqualification parameters",
+      "Decided by designated state authority"
+    ],
+    "sscImportance": "High",
+    "relatedArticles": [
+      "Article 191",
+      "Article 243"
+    ],
+    "memoryTrick": "243F = 21 age rule and disqualifications.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 243G",
+    "title": "Powers, Authority and Responsibilities of Panchayats",
+    "explanation": "Empowers state legislatures to endow panchayats with necessary powers to function as institutions of self-government, specifically referencing the 29 matters in the Eleventh Schedule.",
+    "importantPoints": [
+      "Covers 29 functional items in Eleventh Schedule",
+      "Includes agriculture, rural development, sanitation, and primary education",
+      "Devolution of powers rests with state legislation"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Eleventh Schedule",
+      "Article 243H"
+    ],
+    "memoryTrick": "243G = Great 29 items in Eleventh Schedule.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 243H",
+    "title": "Powers to Impose Taxes by, and Funds of, the Panchayats",
+    "explanation": "Permits state legislatures to authorize panchayats to levy, collect, and appropriate taxes, duties, tolls, and fees, and establishes Panchayat Funds.",
+    "importantPoints": [
+      "Financial autonomy provisions",
+      "State tax revenue assignments and grants-in-aid",
+      "Creation of dedicated Panchayat Funds"
+    ],
+    "sscImportance": "Moderate",
+    "relatedArticles": [
+      "Article 243I",
+      "Article 243G"
+    ],
+    "memoryTrick": "243H = Helping panchayats raise taxes.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 243I",
+    "title": "Constitution of Finance Commission to Review Financial Position",
+    "explanation": "Mandates the Governor of a state to constitute a Finance Commission every 5 years to review the financial position of panchayats and recommend tax devotions.",
+    "importantPoints": [
+      "Constituted by Governor every 5 years",
+      "Recommends tax sharing between state and local bodies",
+      "Mirror of national Finance Commission (Article 280)"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 280",
+      "Article 243Y"
+    ],
+    "memoryTrick": "243I = Income & Finance commission for villages.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 243J",
+    "title": "Audit of Accounts of Panchayats",
+    "explanation": "Empowers state legislatures to make provisions for the maintenance and auditing of panchayat accounts.",
+    "importantPoints": [
+      "Ensures financial accountability",
+      "State audit mechanisms applied to grassroots funds"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 243I",
+      "Article 148"
+    ],
+    "memoryTrick": "243J = Judicial audit of accounts.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 243K",
+    "title": "Elections to the Panchayats",
+    "explanation": "Vests superintendence, direction, and control of panchayat electoral rolls and elections in a State Election Commission headed by a State Election Commissioner.",
+    "importantPoints": [
+      "Independent State Election Commission",
+      "Commissioner removed like a High Court Judge",
+      "Separates local election machinery from Election Commission of India"
+    ],
+    "sscImportance": "Very High",
+    "relatedArticles": [
+      "Article 324",
+      "Article 243ZA"
+    ],
+    "memoryTrick": "243K = Key election commission for local bodies.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 243L",
+    "title": "Application to Union Territories",
+    "explanation": "Directs that the provisions of Part IX shall apply to Union Territories, with the President empowered to direct modifications if necessary.",
+    "importantPoints": [
+      "Extends panchayat system to UTs",
+      "Presidential notification required for modifications"
+    ],
+    "sscImportance": "Low",
+    "relatedArticles": [
+      "Article 243M"
+    ],
+    "memoryTrick": "243L = Local application to UTs.",
+    "priority": "Low"
+  }
+]
