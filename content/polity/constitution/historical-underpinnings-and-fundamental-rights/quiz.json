@@ -1,0 +1,242 @@
+[
+  {
+    "q": "Which of the following Acts established the Supreme Court at Calcutta?",
+    "options": [
+      "Pitt's India Act 1784",
+      "Regulating Act 1773",
+      "Charter Act 1813",
+      "Charter Act 1833"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Regulating Act of 1773 provided for the establishment of a Supreme Court at Calcutta (1774) comprising one chief justice and three other judges.",
+    "topicTag": "Historical Underpinnings"
+  },
+  {
+    "q": "Who was designated as the first Governor-General of India?",
+    "options": [
+      "Warren Hastings",
+      "Lord Dalhousie",
+      "Lord William Bentinck",
+      "Lord Canning"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Charter Act of 1833 made the Governor-General of Bengal the 'Governor-General of India'. Lord William Bentinck was the first to hold this title.",
+    "topicTag": "Historical Underpinnings"
+  },
+  {
+    "q": "The system of 'Communal Electorate' in India was first introduced by which Act?",
+    "options": [
+      "Indian Councils Act 1892",
+      "Minto-Morley Reforms 1909",
+      "Montagu-Chelmsford Reforms 1919",
+      "Government of India Act 1935"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The Indian Councils Act of 1909 (Minto-Morley Reforms) introduced a system of communal representation for Muslims.",
+    "topicTag": "Historical Underpinnings"
+  },
+  {
+    "q": "Which Act abolished 'Dyarchy' in the provinces and introduced 'Provincial Autonomy'?",
+    "options": [
+      "Government of India Act 1858",
+      "Indian Councils Act 1909",
+      "Government of India Act 1919",
+      "Government of India Act 1935"
+    ],
+    "correctAnswer": 3,
+    "explanation": "The GoI Act 1935 abolished the dyarchy introduced in 1919 in the provinces and replaced it with 'provincial autonomy'.",
+    "topicTag": "Historical Underpinnings"
+  },
+  {
+    "q": "The Fundamental Rights in the Indian Constitution are inspired by the Constitution of which country?",
+    "options": [
+      "United Kingdom",
+      "USSR",
+      "USA",
+      "Ireland"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Part III of the Constitution (Fundamental Rights) draws its inspiration from the Bill of Rights of the USA.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "Which of the following Fundamental Rights is available ONLY to citizens of India and NOT to foreigners?",
+    "options": [
+      "Article 14",
+      "Article 19",
+      "Article 21",
+      "Article 25"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Articles 15, 16, 19, 29, and 30 are available exclusively to Indian citizens. Articles 14, 21, and 25 are available to both.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "Article 17 of the Indian Constitution deals with the abolition of:",
+    "options": [
+      "Titles",
+      "Untouchability",
+      "Child Labor",
+      "Slavery"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Article 17 abolishes 'untouchability' and forbids its practice in any form. It is an absolute right.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "By which Constitutional Amendment was the Right to Property deleted from the list of Fundamental Rights?",
+    "options": [
+      "42nd Amendment Act",
+      "44th Amendment Act",
+      "86th Amendment Act",
+      "101st Amendment Act"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The 44th Amendment Act (1978) deleted Article 31 and made the Right to Property a legal right under Article 300A in Part XII.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "Which Article of the Constitution guarantees the right to free and compulsory education for children aged 6 to 14?",
+    "options": [
+      "Article 21A",
+      "Article 24",
+      "Article 45",
+      "Article 51A"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Article 21A, inserted by the 86th Amendment Act in 2002, makes elementary education a Fundamental Right.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "Which two Articles CANNOT be suspended even during a National Emergency?",
+    "options": [
+      "Article 14 and 15",
+      "Article 19 and 20",
+      "Article 20 and 21",
+      "Article 21 and 22"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The 44th Amendment Act (1978) mandated that the President cannot suspend the right to move the Court for the enforcement of fundamental rights guaranteed by Articles 20 and 21.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "Which writ translates to 'We Command'?",
+    "options": [
+      "Habeas Corpus",
+      "Mandamus",
+      "Prohibition",
+      "Quo-Warranto"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Mandamus literally means 'we command'. It is a command issued by the court to a public official asking him to perform his official duties.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "The Montagu-Chelmsford Reforms (1919) are famous for introducing which of the following features?",
+    "options": [
+      "Complete Independence",
+      "Communal Electorate",
+      "Dyarchy in Provinces",
+      "Abolition of East India Company"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The GoI Act 1919 (Mont-Ford Reforms) introduced a dual scheme of governance in the provinces known as 'dyarchy' (divided into transferred and reserved subjects).",
+    "topicTag": "Historical Underpinnings"
+  },
+  {
+    "q": "Which Act created the office of the 'Secretary of State for India'?",
+    "options": [
+      "Charter Act 1853",
+      "Government of India Act 1858",
+      "Indian Councils Act 1861",
+      "Government of India Act 1919"
+    ],
+    "correctAnswer": 1,
+    "explanation": "The GoI Act 1858 abolished the Board of Control and Court of Directors and created a new office, Secretary of State for India, vested with complete authority.",
+    "topicTag": "Historical Underpinnings"
+  },
+  {
+    "q": "Article 24 of the Indian Constitution strictly prohibits:",
+    "options": [
+      "Human Trafficking",
+      "Practice of Untouchability",
+      "Employment of children below 14 years in factories",
+      "Imposing religious taxes"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Article 24 prohibits the employment of children below the age of 14 years in any factory, mine, or other hazardous activities.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "What does the Latin writ term 'Quo-Warranto' mean?",
+    "options": [
+      "To have the body of",
+      "By what authority or warrant",
+      "To be certified",
+      "We forbid"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Quo-Warranto is issued by the court to inquire into the legality of a claim of a person to a public office, preventing illegal usurpation.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "Which of the following rights was considered by Dr. B.R. Ambedkar as the 'Heart and Soul' of the Constitution?",
+    "options": [
+      "Right to Equality",
+      "Right to Freedom",
+      "Right to Constitutional Remedies",
+      "Right to Life and Personal Liberty"
+    ],
+    "correctAnswer": 2,
+    "explanation": "Dr. Ambedkar called Article 32 (Right to Constitutional Remedies) the heart and soul because it makes all other fundamental rights enforceable.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "The doctrine of 'Judicial Review' in India is explicitly based on which Article of the Constitution?",
+    "options": [
+      "Article 13",
+      "Article 17",
+      "Article 21",
+      "Article 44"
+    ],
+    "correctAnswer": 0,
+    "explanation": "Article 13 declares that all laws that are inconsistent with or in derogation of any of the fundamental rights shall be void, which is the basis of Judicial Review.",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "Which Act separated, for the first time, the legislative and executive functions of the Governor-General’s council?",
+    "options": [
+      "Pitt’s India Act 1784",
+      "Charter Act 1833",
+      "Charter Act 1853",
+      "Indian Councils Act 1861"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The Charter Act of 1853 established a separate Governor-General’s legislative council which came to be known as the Indian (Central) Legislative Council.",
+    "topicTag": "Historical Underpinnings"
+  },
+  {
+    "q": "Protection against 'Double Jeopardy' is guaranteed under which Article?",
+    "options": [
+      "Article 19",
+      "Article 20",
+      "Article 21",
+      "Article 22"
+    ],
+    "correctAnswer": 1,
+    "explanation": "Article 20(2) states that no person shall be prosecuted and punished for the same offense more than once (double jeopardy).",
+    "topicTag": "Fundamental Rights"
+  },
+  {
+    "q": "The establishment of a Federal Court in India was recommended by:",
+    "options": [
+      "Minto-Morley Reforms 1909",
+      "Montagu-Chelmsford Reforms 1919",
+      "Government of India Act 1935",
+      "Indian Independence Act 1947"
+    ],
+    "correctAnswer": 2,
+    "explanation": "The GoI Act 1935 provided for the establishment of a Federal Court, which was set up in 1937.",
+    "topicTag": "Historical Underpinnings"
+  }
+]

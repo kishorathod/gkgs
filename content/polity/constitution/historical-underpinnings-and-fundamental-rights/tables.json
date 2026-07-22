@@ -1,0 +1,112 @@
+[
+  {
+    "title": "Evolution of Top Executive Posts in British India",
+    "headers": [
+      "Act",
+      "Designation",
+      "First Person to Hold Post"
+    ],
+    "rows": [
+      [
+        "Regulating Act 1773",
+        "Governor-General of Bengal",
+        "Warren Hastings"
+      ],
+      [
+        "Charter Act 1833",
+        "Governor-General of India",
+        "Lord William Bentinck"
+      ],
+      [
+        "Government of India Act 1858",
+        "Viceroy of India",
+        "Lord Canning"
+      ],
+      [
+        "Indian Independence Act 1947",
+        "Governor-General of Independent India",
+        "Lord Mountbatten"
+      ],
+      [
+        "Post-Independence (1948)",
+        "Indian Governor-General",
+        "C. Rajagopalachari"
+      ]
+    ]
+  },
+  {
+    "title": "Classification of Fundamental Rights (Articles 14-32)",
+    "headers": [
+      "Category of Right",
+      "Articles",
+      "Core Objective"
+    ],
+    "rows": [
+      [
+        "Right to Equality",
+        "Art 14 - 18",
+        "Eradicating inequalities, untouchability, titles."
+      ],
+      [
+        "Right to Freedom",
+        "Art 19 - 22",
+        "Civil liberties, protection in conviction, life/liberty."
+      ],
+      [
+        "Right against Exploitation",
+        "Art 23 - 24",
+        "Banning human trafficking, begar, child labor."
+      ],
+      [
+        "Right to Freedom of Religion",
+        "Art 25 - 28",
+        "Secularism, freedom to practice/manage religion."
+      ],
+      [
+        "Cultural & Educational Rights",
+        "Art 29 - 30",
+        "Protecting linguistic and religious minorities."
+      ],
+      [
+        "Right to Constitutional Remedies",
+        "Art 32",
+        "Enforcement of rights via Supreme Court Writs."
+      ]
+    ]
+  },
+  {
+    "title": "Writs Issued under Article 32 / 226",
+    "headers": [
+      "Name of Writ",
+      "Literal Meaning",
+      "Purpose / Against Whom"
+    ],
+    "rows": [
+      [
+        "Habeas Corpus",
+        "To have the body of",
+        "Release a person detained unlawfully (Public/Private)."
+      ],
+      [
+        "Mandamus",
+        "We Command",
+        "Direct public official to perform duty (Public only)."
+      ],
+      [
+        "Prohibition",
+        "To forbid",
+        "Prevent lower court from exceeding jurisdiction (Preventive)."
+      ],
+      [
+        "Certiorari",
+        "To be certified",
+        "Quash the order of a lower court/tribunal (Curative)."
+      ],
+      [
+        "Quo-Warranto",
+        "By what authority",
+        "Check illegal usurpation of a public office by a person."
+      ]
+    ]
+  }
+]

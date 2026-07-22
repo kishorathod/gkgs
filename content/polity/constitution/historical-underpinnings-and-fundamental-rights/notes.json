@@ -1,0 +1,89 @@
+[
+  {
+    "heading": "1. The Company Rule (1773–1858)",
+    "explanation": "This period marks the gradual centralization of power in India by the British Parliament over the East India Company. The Regulating Act (1773) designated the Governor of Bengal as the 'Governor-General of Bengal' (Warren Hastings). Pitt's India Act (1784) created a system of double government (Board of Control for political affairs, Court of Directors for commercial affairs). The Charter Act of 1833 was the final step towards centralization, making the GG of Bengal the 'Governor-General of India' (William Bentinck). The Charter Act of 1853 separated the legislative and executive functions of the GG's council.",
+    "keyTakeaways": [
+      "1773 Act: Established the Supreme Court at Calcutta (1774).",
+      "1813 Act: Ended the Company's trade monopoly in India (except for tea and trade with China).",
+      "1833 Act: Ended all commercial activities of the EIC; introduced an open competition system for civil servants (only on paper).",
+      "1853 Act: Successfully introduced the open competition system (Macaulay Committee, 1854)."
+    ],
+    "importantExamPoints": [
+      "Charter Act 1833 deprived the Governors of Bombay and Madras of their legislative powers.",
+      "Pitt's India Act 1784 distinguished between the commercial and political functions of the Company."
+    ],
+    "commonStudentMistakes": [
+      "Confusing 1813 and 1833: 1813 ended monopoly *except* tea/China. 1833 ended it *completely*.",
+      "Confusing Supreme Courts: The SC established in 1774 (Regulating Act) is different from the Federal Court established in 1937 (GoI Act 1935)."
+    ]
+  },
+  {
+    "heading": "2. The Crown Rule (1858–1947)",
+    "explanation": "Post the 1857 Revolt, the GoI Act 1858 transferred powers to the British Crown. The designation of GG of India was changed to 'Viceroy of India' (Lord Canning). A new office, 'Secretary of State for India', was created. The Indian Councils Act 1909 (Minto-Morley Reforms) introduced a system of communal representation. The GoI Act 1919 (Montagu-Chelmsford Reforms) introduced 'Dyarchy' (dual rule) at the provinces and bicameralism at the center. The GoI Act 1935 introduced 'Provincial Autonomy', abolished dyarchy in provinces, but introduced it at the center.",
+    "keyTakeaways": [
+      "1858 Act: Known as the Act for the Good Government of India.",
+      "1909 Act: Lord Minto became known as the Father of Communal Electorate.",
+      "1919 Act: Separated central and provincial subjects; introduced direct elections.",
+      "1935 Act: Established a Federal Court, RBI, and divided powers into Federal, Provincial, and Concurrent lists."
+    ],
+    "importantExamPoints": [
+      "GoI Act 1935 is the most significant source of the Indian Constitution (administrative details, federal scheme, judiciary).",
+      "The Indian Independence Act 1947 declared India an independent and sovereign state."
+    ],
+    "commonStudentMistakes": [
+      "Mixing Minto-Morley (1909) and Montagu-Chelmsford (1919): 1909 = Communal Electorate; 1919 = Dyarchy in Provinces.",
+      "Misunderstanding Dyarchy: Dyarchy in 1919 meant dividing provincial subjects into 'Transferred' and 'Reserved'. In 1935, this was moved to the Center."
+    ]
+  },
+  {
+    "heading": "3. Introduction to Fundamental Rights (Articles 12-13)",
+    "explanation": "Enshrined in Part III (Articles 12 to 35), Fundamental Rights are borrowed from the US Constitution's Bill of Rights. They are justiciable, meaning they can be enforced in courts. However, they are not absolute and are subject to 'reasonable restrictions'. Article 12 defines 'The State', which includes the GoI, Parliament, State Governments, and all local/other authorities. Article 13 declares that laws inconsistent with or in derogation of Fundamental Rights shall be void, establishing the doctrine of Judicial Review.",
+    "keyTakeaways": [
+      "Article 12: Broad definition of 'State' against which FRs can be enforced.",
+      "Article 13: Gives teeth to the FRs via Judicial Review (empowers SC and HCs).",
+      "FRs strike a balance between individual liberty and social control."
+    ],
+    "importantExamPoints": [
+      "Fundamental Rights guarantee political democracy, whereas DPSP guarantees social and economic democracy.",
+      "Amendments to the Constitution can be challenged under Article 13 if they violate the 'Basic Structure'."
+    ],
+    "commonStudentMistakes": [
+      "Thinking FRs are absolute: They are not. The state can impose reasonable restrictions (e.g., for security, public order).",
+      "Assuming Article 12 is a right: Article 12 just defines what constitutes the 'State'."
+    ]
+  },
+  {
+    "heading": "4. Right to Equality (Art 14-18) & Right to Freedom (Art 19-22)",
+    "explanation": "Right to Equality ensures equal treatment: Art 14 (Equality before law), Art 15 (No discrimination on religion, race, caste, sex, place of birth), Art 16 (Equality in public employment), Art 17 (Abolition of untouchability), Art 18 (Abolition of titles). Right to Freedom guarantees civil liberties: Art 19 guarantees 6 freedoms (speech, assembly, association, movement, residence, profession). Art 20 protects in respect of conviction for offenses (no ex-post-facto law, no double jeopardy). Art 21 guarantees life and personal liberty. Art 22 protects against arrest and detention.",
+    "keyTakeaways": [
+      "Art 17 (Untouchability) and Art 24 (Child labor) are absolute rights.",
+      "Art 21A: Right to free and compulsory education for ages 6-14 (86th Amendment, 2002).",
+      "Art 19 freedoms can be suspended during National Emergency (war/external aggression) under Art 358."
+    ],
+    "importantExamPoints": [
+      "Article 20 and 21 CANNOT be suspended during ANY emergency (44th Amendment Act, 1978).",
+      "Titles like Bharat Ratna or Padma Vibhushan are not considered 'titles' under Article 18."
+    ],
+    "commonStudentMistakes": [
+      "Forgetting the 5 grounds of Art 15: Religion, Race, Caste, Sex, Place of Birth (RRCS-P). Residence is NOT a ground under Art 15, but it is under Art 16.",
+      "Confusing Preventive vs Punitive detention in Article 22."
+    ]
+  },
+  {
+    "heading": "5. Rights Against Exploitation, Religion, Culture & Remedies (Art 23-35)",
+    "explanation": "Right against Exploitation: Art 23 (Prohibits human trafficking and forced labor/begar) and Art 24 (Prohibits child labor below 14 years). Right to Religion (Art 25-28): Freedom of conscience, managing religious affairs, and freedom from religious taxes/instruction. Cultural and Educational Rights (Art 29-30): Protection of minority interests and their right to establish educational institutions. Right to Constitutional Remedies (Art 32): Empowers the Supreme Court to issue 5 types of Writs (Habeas Corpus, Mandamus, Prohibition, Certiorari, Quo-Warranto) for the enforcement of FRs.",
+    "keyTakeaways": [
+      "Art 29 & 30 are exclusively for religious and linguistic minorities.",
+      "Article 33 empowers Parliament to restrict FRs of armed forces, police, etc., to ensure discipline.",
+      "Article 34 restricts FRs while martial law is in force in any area."
+    ],
+    "importantExamPoints": [
+      "Dr. B.R. Ambedkar called Article 32 the 'Heart and Soul' of the Constitution.",
+      "Habeas Corpus ('to have the body') can be issued against both public authorities and private individuals."
+    ],
+    "commonStudentMistakes": [
+      "Thinking minorities are defined in the Constitution: The Constitution mentions religious and linguistic minorities but DOES NOT define the term 'minority'.",
+      "Confusing Prohibition and Certiorari: Prohibition is issued BEFORE an order is passed (preventive); Certiorari is issued AFTER to quash an order (curative)."
+    ]
+  }
+]

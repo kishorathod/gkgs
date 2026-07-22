@@ -1,0 +1,50 @@
+[
+  {
+    "year": "1773",
+    "title": "Regulating Act",
+    "shortDescription": "First intervention of British Parliament; created GG of Bengal.",
+    "importance": "Foundation of central administration in India."
+  },
+  {
+    "year": "1833",
+    "title": "Charter Act",
+    "shortDescription": "GG of Bengal became GG of India; centralized administration.",
+    "importance": "Complete end of EIC's commercial monopoly."
+  },
+  {
+    "year": "1858",
+    "title": "Government of India Act",
+    "shortDescription": "Transferred power from EIC to British Crown; created Viceroy.",
+    "importance": "Began the era of direct British Crown Rule."
+  },
+  {
+    "year": "1909",
+    "title": "Indian Councils Act (Minto-Morley)",
+    "shortDescription": "Introduced communal electorate for Muslims.",
+    "importance": "Institutionalized communalism in Indian politics."
+  },
+  {
+    "year": "1919",
+    "title": "Government of India Act (Mont-Ford)",
+    "shortDescription": "Introduced Dyarchy in provinces and Bicameralism at center.",
+    "importance": "First introduction of direct elections in India."
+  },
+  {
+    "year": "1935",
+    "title": "Government of India Act",
+    "shortDescription": "Provincial autonomy, Federal Court, RBI.",
+    "importance": "Major structural blueprint for the 1950 Indian Constitution."
+  },
+  {
+    "year": "1950",
+    "title": "Constitution Enforced",
+    "shortDescription": "Fundamental Rights (Part III) come into force.",
+    "importance": "India becomes a Republic with guaranteed civil liberties."
+  },
+  {
+    "year": "1978",
+    "title": "44th Amendment Act",
+    "shortDescription": "Deleted Right to Property from Fundamental Rights.",
+    "importance": "Property right downgraded to a mere legal right (Article 300A)."
+  }
+]

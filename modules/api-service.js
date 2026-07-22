@@ -134,6 +134,10 @@ class ApiService {
   async getTopic(topicId = 'revolt-of-1857') {
     return await this.request(`/api/topics/${topicId}`);
   }
+
+  async getPolitySection(topicId, sectionName) {
+    return await this.request(`/api/polity/topics/${topicId}/sections/${sectionName}`);
+  }
 }
 
 export const api = new ApiService();

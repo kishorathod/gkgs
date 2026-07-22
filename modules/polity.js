@@ -5,17 +5,14 @@
    Subject ➔ Module ➔ Chapter ➔ Topic ➔ Learning Blocks.
    ========================================================================== */
 
-import { LearningModuleEngine } from './learning-module.js';
+import { PolityModularEngine } from './polity-modular-engine.js';
 
 export const polityModule = {
   engine: null,
 
   async init() {
     if (!this.engine) {
-      this.engine = new LearningModuleEngine({
-        subject: 'polity',
-        containerId: 'view-polity'
-      });
+      this.engine = new PolityModularEngine();
     }
 
     // Load default topic
@@ -38,10 +35,7 @@ export const polityModule = {
 
   async loadTopic(topicId) {
     if (!this.engine) {
-      this.engine = new LearningModuleEngine({
-        subject: 'polity',
-        containerId: 'view-polity'
-      });
+      this.engine = new PolityModularEngine();
     }
     await this.engine.loadTopic(topicId);
   }
