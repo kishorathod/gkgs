@@ -1,0 +1,795 @@
+[
+  {
+    "heading": "Introduction to State Government",
+    "explanation": "Part VI of the Indian Constitution (Articles 152 to 237) deals with the State Government framework. Mirroring the parliamentary system at the Union level, every state has an executive structure (Governor, Chief Minister, Council of Ministers, Advocate General) and a state legislature, ensuring a dual polity system with legislative autonomy on subjects in the State List (List II).",
+    "keyTakeaways": [
+      "Part VI is often called the 'Constitution of the States' (excluding Jammu & Kashmir's former special status).",
+      "Follows the Westminster parliamentary democracy model at the state level.",
+      "Executive power of the State is vested in the Governor and exercised through officers subordinate to him."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 152",
+        "description": "Definition of 'State' for Part VI of the Constitution."
+      },
+      {
+        "article": "Article 154",
+        "description": "Executive power of the State vested in the Governor."
+      }
+    ],
+    "sscExamPoints": [
+      "SSC CGL questions frequently test which Part of the Constitution governs state administration (Part VI).",
+      "Understand the demarcation of subjects under the 7th Schedule (State List vs Concurrent List)."
+    ],
+    "commonStudentMistakes": [
+      "Confusing Part V (Union Government) with Part VI (State Government) in article-matching questions.",
+      "Assuming Article 12 definition of 'State' applies identically without checking Part VI specifics."
+    ]
+  },
+  {
+    "heading": "Governor",
+    "explanation": "The Governor is the constitutional and titular head (de jure executive) of the State, acting as a crucial link between the Central Government and the State. Appointed by the President, the Governor holds office during the pleasure of the President and ensures state administration is carried out in accordance with constitutional provisions.",
+    "keyTakeaways": [
+      "7th Constitutional Amendment Act, 1956 allows the same person to be appointed as Governor for two or more states.",
+      "Holds executive, legislative, financial, and judicial powers, but no diplomatic or military powers (unlike the President).",
+      "Executive actions are taken in the name of the Governor."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 153",
+        "description": "Mandates a Governor for each state."
+      },
+      {
+        "article": "Article 161",
+        "description": "Power of Governor to grant pardons, reprieves, or remissions."
+      },
+      {
+        "article": "Article 213",
+        "description": "Power of Governor to promulgate Ordinances during recess of State Legislature."
+      }
+    ],
+    "sscExamPoints": [
+      "The Governor cannot pardon a death sentence (only the President under Art. 72 can pardon death penalties).",
+      "Ordinance issued by the Governor under Art. 213 must be approved by the State Legislature within 6 weeks from its reassembly."
+    ],
+    "commonStudentMistakes": [
+      "Mistakenly believing the Governor can grant pardon in court-martial cases (military courts fall exclusively under Presidential pardon).",
+      "Confusing Article 123 (President's Ordinance power) with Article 213 (Governor's Ordinance power)."
+    ]
+  },
+  {
+    "heading": "Appointment, Qualifications, and Term of Governor",
+    "explanation": "The Governor is neither directly elected by the people nor indirectly elected by an electoral college. Instead, the Governor is nominated by the Central Government and appointed by the President by warrant under hand and seal. The office is an independent constitutional office, not an employment under the Central Government.",
+    "keyTakeaways": [
+      "Qualifications: Must be a citizen of India and completed 35 years of age.",
+      "Conditions: Must not be a member of either House of Parliament or State Legislature and must not hold any office of profit.",
+      "Term: Holds office during the pleasure of the President (normal tenure is 5 years, subject to Presidential discretion)."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 155",
+        "description": "Appointment of Governor by the President."
+      },
+      {
+        "article": "Article 156",
+        "description": "Term of office of Governor (Pleasure of the President)."
+      },
+      {
+        "article": "Article 157",
+        "description": "Qualifications for appointment as Governor."
+      }
+    ],
+    "sscExamPoints": [
+      "Minimum age required for Governor: 35 years (frequently asked Direct MCQ in Tier I).",
+      "The Governor submits resignation directly to the President of India."
+    ],
+    "commonStudentMistakes": [
+      "Thinking the Governor is administered the oath by the President (Oath is administered by the Chief Justice of the concerned High Court under Art. 159).",
+      "Assuming a fixed tenure of 5 years without realizing it is subject to the pleasure of the President."
+    ]
+  },
+  {
+    "heading": "Powers of Governor",
+    "explanation": "The Governor's powers cover executive, legislative, financial, and judicial functions. He summons, prorogues, and dissolves the Legislative Assembly, reserves bills for Presidential assent, ensures the State Budget is laid before the legislature, and appoints key state constitutional officials like the Chief Minister, Advocate General, and SEC members.",
+    "keyTakeaways": [
+      "Executive: Appoints CM, Ministers, Advocate General, State Election Commissioner, and SPSC Chairman/Members.",
+      "Legislative: Can nominate 1 member from the Anglo-Indian community (abolished by 104th Amendment Act, 2019) and 1/6th members of Vidhan Parishad.",
+      "Financial: Money Bills require prior recommendation of the Governor before introduction in Vidhan Sabha."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 165",
+        "description": "Appointment of Advocate General for the State."
+      },
+      {
+        "article": "Article 200",
+        "description": "Assent to Bills (giving assent, withholding assent, or reserving for President)."
+      },
+      {
+        "article": "Article 202",
+        "description": "Annual Financial Statement (State Budget)."
+      }
+    ],
+    "sscExamPoints": [
+      "While the Governor appoints members of the State Public Service Commission (SPSC), they can ONLY be removed by the President.",
+      "Under Art. 200, the Governor can reserve a bill for the consideration of the President, which is mandatory if it derogates High Court powers."
+    ],
+    "commonStudentMistakes": [
+      "Believing the Governor can remove SPSC members simply because he appoints them.",
+      "Forgetting that Money Bills cannot be introduced without prior recommendation of the Governor."
+    ]
+  },
+  {
+    "heading": "Discretionary Powers of Governor",
+    "explanation": "Unlike the President, who has virtually no explicit constitutional discretion after the 42nd and 44th Amendments, the Indian Constitution explicitly grants constitutional and situational discretionary powers to the Governor under Article 163(1). If any question arises whether a matter falls under Governor's discretion, his decision is final.",
+    "keyTakeaways": [
+      "Constitutional Discretion: Reserving a bill for Presidential consideration (Art. 200), recommending President's Rule under Art. 356, seeking information from CM regarding administrative affairs (Art. 167).",
+      "Situational Discretion: Appointment of CM when no party gets a clear majority, dismissal of Council of Ministers when it loses confidence, dissolution of Assembly if ministry loses majority."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 163",
+        "description": "Council of Ministers to aid and advise Governor (except where he acts in discretion)."
+      },
+      {
+        "article": "Article 356",
+        "description": "Proclamation of President's Rule on Governor's report or otherwise."
+      }
+    ],
+    "sscExamPoints": [
+      "SSC asks direct questions on whether the Governor has broader discretionary powers than the President (Yes).",
+      "Article 163(2) states that the Governor's action in his discretion cannot be questioned in any court."
+    ],
+    "commonStudentMistakes": [
+      "Thinking President and Governor have identical scope of discretionary powers.",
+      "Assuming the advice of Council of Ministers is absolutely binding on the Governor in all matters."
+    ]
+  },
+  {
+    "heading": "Chief Minister",
+    "explanation": "The Chief Minister is the real executive authority (de facto executive) and head of government at the state level. Appointed by the Governor under Article 164, the CM acts as the primary link between the Governor and the Cabinet, leads the State Council of Ministers, and drives policy decisions and state planning.",
+    "keyTakeaways": [
+      "Appointed by the Governor; other ministers are appointed by the Governor on the advice of the CM.",
+      "Can be a member of either House of the State Legislature. If not a member at appointment, must get elected within 6 months.",
+      "Resignation or death of the Chief Minister automatically dissolves the Council of Ministers."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 164",
+        "description": "Appointment of Chief Minister and Council of Ministers, collective responsibility."
+      },
+      {
+        "article": "Article 167",
+        "description": "Duties of Chief Minister to communicate decisions and information to Governor."
+      }
+    ],
+    "sscExamPoints": [
+      "Who is the Chairman of the State Planning Board? Chief Minister.",
+      "Time limit to get elected to State Legislature after being sworn in as CM: 6 months."
+    ],
+    "commonStudentMistakes": [
+      "Confusing 'Head of State' (Governor) with 'Head of Government' (Chief Minister).",
+      "Thinking a person non-elected to either House cannot be sworn in as Chief Minister."
+    ]
+  },
+  {
+    "heading": "Council of Ministers",
+    "explanation": "The State Council of Ministers, headed by the Chief Minister, is the real executive body advising the Governor. Functioning on the principle of parliamentary responsibility, the Council is collectively responsible to the Legislative Assembly of the State.",
+    "keyTakeaways": [
+      "91st Constitutional Amendment Act, 2003 capped the size of the State Council of Ministers at 15% of total assembly strength (minimum limit is 12 ministers for states).",
+      "Three categories: Cabinet Ministers, Ministers of State, and Deputy Ministers.",
+      "Collective Responsibility (Art. 164): A no-confidence motion passed against the ministry forces the entire Council to resign."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 163",
+        "description": "Council of Ministers with CM as head to aid and advise the Governor."
+      },
+      {
+        "article": "Article 164(2)",
+        "description": "Collective responsibility of Council of Ministers to the Legislative Assembly."
+      }
+    ],
+    "sscExamPoints": [
+      "The minimum number of ministers (including CM) in a State Council of Ministers is 12 (as per 91st Amendment).",
+      "Advice tendered by ministers to the Governor cannot be inquired into by any court."
+    ],
+    "commonStudentMistakes": [
+      "Forgetting the lower cap (minimum 12 ministers) established under the 91st Amendment.",
+      "Confusing collective responsibility to the 'Legislative Assembly' with responsibility to the 'State Legislature' (it is to Vidhan Sabha specifically)."
+    ]
+  },
+  {
+    "heading": "Advocate General for the State",
+    "explanation": "The Advocate General is the highest law officer in the state, corresponding to the Attorney General of India at the national level. Appointed by the Governor, the Advocate General provides legal advice to the State Government and performs duties of a legal character assigned by the Governor.",
+    "keyTakeaways": [
+      "Qualifications: Must be qualified to be appointed as a Judge of a High Court (Indian citizen, held judicial office for 10 years or advocate in High Court for 10 years).",
+      "Tenure & Remuneration: Not fixed by the Constitution; holds office during the pleasure of the Governor.",
+      "Rights: Right to speak and participate in proceedings of both Houses of State Legislature, but without voting rights."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 165",
+        "description": "Office and duties of the Advocate General for the State."
+      },
+      {
+        "article": "Article 177",
+        "description": "Rights of Advocate General regarding Houses of State Legislature."
+      }
+    ],
+    "sscExamPoints": [
+      "Which Constitutional Article creates the post of Advocate General? Article 165.",
+      "Does the Advocate General have the right to vote in the Legislative Assembly? No (Right to attend/speak under Art. 177, but NO vote)."
+    ],
+    "commonStudentMistakes": [
+      "Confusing qualification requirements: Advocate General needs High Court Judge qualifications; Attorney General needs Supreme Court Judge qualifications.",
+      "Assuming the tenure of Advocate General is 5 years or up to 62/65 years (It depends strictly on Governor's pleasure)."
+    ]
+  },
+  {
+    "heading": "State Legislature",
+    "explanation": "The State Legislature is the law-making body in a state. It consists of the Governor and either one house (Unicameral - Vidhan Sabha) or two houses (Bicameral - Vidhan Sabha & Vidhan Parishad). Most Indian states follow a unicameral system.",
+    "keyTakeaways": [
+      "Only 6 states currently have a bicameral legislature: Andhra Pradesh, Telangana, Uttar Pradesh, Bihar, Maharashtra, and Karnataka.",
+      "Parliament can create or abolish a Legislative Council (Vidhan Parishad) under Article 169 if the State Assembly passes a resolution by special majority.",
+      "The Governor is an integral part of the State Legislature without being a member of either House."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 168",
+        "description": "Constitution of Legislatures in States."
+      },
+      {
+        "article": "Article 169",
+        "description": "Abolition or creation of Legislative Councils in States."
+      }
+    ],
+    "sscExamPoints": [
+      "Mnemonic to remember 6 Bicameral States: 'KUMBAT' (Karnataka, UP, Maharashtra, Bihar, Andhra Pradesh, Telangana).",
+      "A law passed by Parliament under Art. 169 for creating/abolishing Vidhan Parishad is NOT treated as an amendment under Art. 368 (simple majority needed in Parliament)."
+    ],
+    "commonStudentMistakes": [
+      "Including West Bengal, Rajasthan, or Tamil Nadu in the list of currently bicameral states.",
+      "Thinking special majority in Parliament is needed to pass the Art. 169 bill (Assembly needs special majority, Parliament needs simple majority)."
+    ]
+  },
+  {
+    "heading": "Legislative Assembly (Vidhan Sabha)",
+    "explanation": "The Legislative Assembly is the popular, directly elected lower house of the State Legislature. It holds real financial and legislative power in state governance, directly reflecting democratic representation.",
+    "keyTakeaways": [
+      "Strength: Maximum 500 members, minimum 60 members (exceptions for smaller states like Sikkim (32), Mizoram (40), Goa (40)).",
+      "Term: 5 years from date of first meeting; can be dissolved earlier by the Governor.",
+      "Qualifications: Citizen of India, minimum age of 25 years, registered voter in the state."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 170",
+        "description": "Composition of the Legislative Assemblies."
+      },
+      {
+        "article": "Article 172",
+        "description": "Duration of State Legislatures."
+      },
+      {
+        "article": "Article 173",
+        "description": "Qualifications for membership of the State Legislature."
+      }
+    ],
+    "sscExamPoints": [
+      "Minimum age required to become an MLA in Vidhan Sabha: 25 years.",
+      "Which state has the smallest Legislative Assembly by strength? Sikkim (32 members)."
+    ],
+    "commonStudentMistakes": [
+      "Confusing minimum age for Vidhan Sabha (25 years) with Vidhan Parishad (30 years).",
+      "Forgetting exceptions to the minimum 60-member rule (Sikkim, Mizoram, Goa)."
+    ]
+  },
+  {
+    "heading": "Legislative Council (Vidhan Parishad)",
+    "explanation": " The Legislative Council is the upper house (permanent body) in a bicameral state legislature. It acts as a revising chamber to delay, review, and suggest modifications to legislation, though its powers are far weaker than the Rajya Sabha.",
+    "keyTakeaways": [
+      "Strength: Maximum 1/3rd of total Vidhan Sabha strength; minimum 40 members.",
+      "Tenure: Permanent body not subject to dissolution; 1/3rd members retire every 2nd year (individual tenure: 6 years).",
+      "Composition/Election: 1/3rd elected by Local Bodies, 1/3rd by MLAs, 1/12th by Graduates, 1/12th by Teachers, 1/6th nominated by Governor (literature, science, art, co-operative movement, social service)."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 171",
+        "description": "Composition of the Legislative Councils."
+      }
+    ],
+    "sscExamPoints": [
+      "Minimum age to become an MLC in Legislative Council: 30 years.",
+      "Notice the inclusion of 'Co-operative Movement' in Governor's nomination fields (absent in President's Rajya Sabha nomination criteria under Art. 80)."
+    ],
+    "commonStudentMistakes": [
+      "Assuming Vidhan Parishad has equal powers to Rajya Sabha (Vidhan Parishad cannot block an ordinary bill permanently; it can only delay it by max 4 months total).",
+      "Missing 'Co-operative Movement' as a category for Governor's nomination under Art. 171."
+    ]
+  },
+  {
+    "heading": "Speaker & Deputy Speaker of Legislative Assembly",
+    "explanation": "The Speaker is the presiding officer of the Vidhan Sabha, elected by assembly members from among themselves. The Speaker maintains order, decides point of order, and exercises administrative and legislative authority within the house.",
+    "keyTakeaways": [
+      "Elected by Assembly members from amongst themselves.",
+      "Decides whether a bill is a Money Bill or not, and his decision is final.",
+      "Decides disqualification of members under 10th Schedule (Anti-Defection Law).",
+      "Does not vote in first instance; exercises casting vote in case of a tie."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 178",
+        "description": "Speaker and Deputy Speaker of the Legislative Assembly."
+      },
+      {
+        "article": "Article 179",
+        "description": "Vacation, resignation of, and removal from offices of Speaker and Deputy Speaker."
+      }
+    ],
+    "sscExamPoints": [
+      "Who certifies a bill as a Money Bill in the State Legislature? Speaker of Vidhan Sabha.",
+      "Resignation letter of Speaker is submitted to the Deputy Speaker (and vice versa)."
+    ],
+    "commonStudentMistakes": [
+      "Thinking the Governor decides if a bill is a Money Bill (It is strictly certified by the Speaker).",
+      "Confusing anti-defection authority: Speaker/Chairman decides anti-defection cases, not the Election Commission."
+    ]
+  },
+  {
+    "heading": "Legislative Procedure in State Legislature",
+    "explanation": "The legislative process involves three readings of bills in the legislature. Unlike Parliament where deadlocks on ordinary bills lead to a Joint Sitting, there is NO provision for a Joint Sitting in State Legislatures. Vidhan Sabha ultimately prevails.",
+    "keyTakeaways": [
+      "Ordinary Bills can originate in either house (in bicameral setups).",
+      "Delaying Power of Legislative Council: Can delay an ordinary bill for maximum 3 months in 1st instance, and 1 month in 2nd instance (Total = 4 months max).",
+      "If Vidhan Sabha rejects Legislative Council's amendments, the bill is passed in the form passed by Vidhan Sabha."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 196",
+        "description": "Provisions as to introduction and passing of Bills."
+      },
+      {
+        "article": "Article 197",
+        "description": "Restriction on powers of Legislative Council as to Bills other than Money Bills."
+      }
+    ],
+    "sscExamPoints": [
+      "Is there a joint sitting provision for State Legislatures? NO (High frequency question!).",
+      "Maximum total duration Vidhan Parishad can delay an ordinary bill: 4 months."
+    ],
+    "commonStudentMistakes": [
+      "Assuming Joint Sittings (Art. 108) exist in State Legislatures like in Parliament.",
+      "Confusing delay limit for ordinary bills (4 months total) with Money Bills (14 days)."
+    ]
+  },
+  {
+    "heading": "Money Bill in State Legislature",
+    "explanation": "A Money Bill contains provisions dealing exclusively with taxation, borrowing money, custody of Consolidated Fund, etc. It can only originate in the Legislative Assembly (Vidhan Sabha) on prior recommendation of the Governor.",
+    "keyTakeaways": [
+      "Can ONLY be introduced in Vidhan Sabha with prior recommendation of Governor.",
+      "Vidhan Parishad has minimal power: Must return bill within 14 days with/without recommendations.",
+      "Vidhan Sabha may accept or reject any or all recommendations of Vidhan Parishad.",
+      "Governor can give assent or withhold assent, but CANNOT return a Money Bill for reconsideration."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 198",
+        "description": "Special procedure in respect of Money Bills."
+      },
+      {
+        "article": "Article 199",
+        "description": "Definition of 'Money Bills' in State Legislature."
+      }
+    ],
+    "sscExamPoints": [
+      "Time given to Vidhan Parishad to consider Money Bill: 14 days.",
+      "Can Governor return a Money Bill for reconsideration? NO."
+    ],
+    "commonStudentMistakes": [
+      "Believing the Legislative Council can amend or reject a Money Bill (it can only suggest recommendations within 14 days).",
+      "Thinking Governor can use suspensive veto on Money Bills."
+    ]
+  },
+  {
+    "heading": "State Budget",
+    "explanation": "The Constitution refers to the budget as the 'Annual Financial Statement'. Under Article 202, the Governor causes the budget to be laid before the State Legislature every financial year, outlining estimated receipts and expenditure.",
+    "keyTakeaways": [
+      "Laid before the legislature in the name of the Governor.",
+      "Demands for Grants can only be made on recommendation of the Governor and voted upon in Vidhan Sabha.",
+      "Consolidated Fund, Contingency Fund, and Public Account of the State function parallel to Union funds."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 202",
+        "description": "Annual Financial Statement for the State."
+      },
+      {
+        "article": "Article 203",
+        "description": "Procedure in Legislature with respect to estimates."
+      },
+      {
+        "article": "Article 267(2)",
+        "description": "Contingency Fund of the State (placed at disposal of Governor)."
+      }
+    ],
+    "sscExamPoints": [
+      "Constitutional term for Budget: Annual Financial Statement (Art. 202 for States, Art. 112 for Union).",
+      "Demands for Grants are voted upon ONLY in the Legislative Assembly, not the Legislative Council."
+    ],
+    "commonStudentMistakes": [
+      "Searching for the word 'Budget' in constitutional text (the term used is 'Annual Financial Statement').",
+      "Assuming Vidhan Parishad votes on Demands for Grants."
+    ]
+  },
+  {
+    "heading": "Comparison with Union Government",
+    "explanation": "The State Government machinery closely mirrors the Union machinery in design and principle, with specific variations in discretionary powers, veto powers, second chamber strength, and legislative override mechanisms.",
+    "keyTakeaways": [
+      "Head of State: President (Union) vs Governor (State).",
+      "Real Executive: PM + Central Cabinet (Union) vs CM + State Cabinet (State).",
+      "Second Chamber: Rajya Sabha is permanent & equal partner in many areas vs Vidhan Parishad which is delay-oriented and can be created/abolished.",
+      "Ordinance: Article 123 (President) vs Article 213 (Governor)."
+    ],
+    "importantArticles": [
+      {
+        "article": "Articles 123 / 213",
+        "description": "Ordinance Making Powers (President / Governor)."
+      },
+      {
+        "article": "Articles 76 / 165",
+        "description": "Attorney General / Advocate General."
+      },
+      {
+        "article": "Articles 112 / 202",
+        "description": "Annual Financial Statement (Union / State)."
+      }
+    ],
+    "sscExamPoints": [
+      "Rule of 89/90 trick for Articles: Adding 89 (or 90) to Union articles often gives corresponding State articles (e.g., Art 72 + 89 = Art 161; Art 123 + 90 = Art 213).",
+      "President has Pocket Veto; Governor does not have explicit pocket veto against state bills if reserved, but can hold bills for President."
+    ],
+    "commonStudentMistakes": [
+      "Assuming Rajya Sabha and Vidhan Parishad enjoy equal constitutional status.",
+      "Thinking the Governor can issue ordinances when the State Legislature is in session."
+    ]
+  },
+  {
+    "heading": "Introduction to Local Self Government",
+    "explanation": "Local Self Government refers to management of local affairs by local bodies elected by the local public. It represents democratic decentralization and administration at the grassroots level in rural and urban areas.",
+    "keyTakeaways": [
+      "Lord Ripon’s Resolution of 1882 is hailed as the 'Magna Carta of Local Self-Government' in India (Lord Ripon = Father of Local Self-Government in India).",
+      "Directive Principles of State Policy (Article 40) directs the State to organize Village Panchayats.",
+      "Transitioned from non-justiciable DPSP directive to constitutional mandate via 73rd and 74th Amendments in 1992."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 40",
+        "description": "Organization of village panchayats (Directive Principles)."
+      }
+    ],
+    "sscExamPoints": [
+      "Who is known as the 'Father of Local Self-Government in India'? Lord Ripon.",
+      "Which Article under DPSPs mentions Village Panchayats? Article 40."
+    ],
+    "commonStudentMistakes": [
+      "Confusing Lord Ripon with Lord Mayo or Lord Dalhousie in history/polity MCQs.",
+      "Believing local self-government was a fundamental right in the original 1950 Constitution."
+    ]
+  },
+  {
+    "heading": "Evolution of Local Government Committees",
+    "explanation": "Post-independence, several committees were constituted to evaluate rural development programs like Community Development Programme (1952) and suggest frameworks for local democratic governance.",
+    "keyTakeaways": [
+      "Balwant Rai Mehta Committee (1957): Recommended 3-tier Panchayati Raj system; known as 'Father of Panchayati Raj in India'.",
+      "Ashok Mehta Committee (1977): Recommended 2-tier system (Zila Parishad & Mandal Panchayat) and political party participation.",
+      "G.V.K. Rao Committee (1985): Recommended strengthening Zila Parishad; described PRIs as 'grass without roots' due to bureaucratization.",
+      "L.M. Singhvi Committee (1986): First recommended constitutional recognition for Panchayati Raj Institutions."
+    ],
+    "importantArticles": [
+      {
+        "article": "N/A",
+        "description": "Historical Committee Recommendations prior to 73rd Amendment."
+      }
+    ],
+    "sscExamPoints": [
+      "Which committee first recommended 3-tier Panchayati Raj? Balwant Rai Mehta Committee (1957).",
+      "Which committee recommended giving Constitutional Status to Panchayats? L.M. Singhvi Committee (1986).",
+      "First state to establish Panchayati Raj: Rajasthan (Nagaur district on Oct 2, 1959 by Jawaharlal Nehru), followed by Andhra Pradesh."
+    ],
+    "commonStudentMistakes": [
+      "Confusing Balwant Rai Mehta (3-tier) with Ashok Mehta (2-tier).",
+      "Forgetting that Rajasthan was first, and Andhra Pradesh was second to adopt Panchayati Raj."
+    ]
+  },
+  {
+    "heading": "73rd Constitutional Amendment Act, 1992",
+    "explanation": "The 73rd Amendment Act, 1992 came into force on April 24, 1993, granting constitutional status to Panchayati Raj Institutions (PRIs). It added Part IX ('The Panchayats') and the 11th Schedule to the Constitution.",
+    "keyTakeaways": [
+      "Came into effect on April 24, 1993 (April 24 is celebrated as National Panchayati Raj Day).",
+      "Added Part IX (Articles 243 to 243O) and 11th Schedule (29 functional items).",
+      "Mandated a uniform 3-tier structure, mandatory 5-year tenure, direct elections, and Reservation for SC/ST and Women."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243 to 243O",
+        "description": "Constitutional provisions for Panchayats."
+      }
+    ],
+    "sscExamPoints": [
+      "National Panchayati Raj Day date: 24th April.",
+      "Number of subjects in 11th Schedule: 29 subjects.",
+      "PM during passage of 73rd/74th Amendment: P.V. Narasimha Rao."
+    ],
+    "commonStudentMistakes": [
+      "Mismatched Schedule & Subject numbers: 11th Schedule has 29 items; 12th Schedule has 18 items.",
+      "Confusing enactment year (1992) with enforcement date (April 24, 1993)."
+    ]
+  },
+  {
+    "heading": "Panchayati Raj System & Structure",
+    "explanation": "The 73rd Amendment establishes a 3-tier Panchayati Raj structure at the grassroots level: Village Level (Gram Panchayat), Intermediate/Block Level (Panchayat Samiti), and District Level (Zila Parishad).",
+    "keyTakeaways": [
+      "3-Tier Structure: Gram Panchayat (Village), Panchayat Samiti (Block/Intermediate), Zila Parishad (District).",
+      "Exemption: States with a population below 20 Lakhs (2 Million) do not need to construct the intermediate level.",
+      "Reservation: Mandatory minimum 1/3rd (33%) seats reserved for women (Art. 243D). SC/ST reservation in proportion to population.",
+      "Minimum Age to contest Panchayat elections: 21 years.",
+      "Term: 5 years; if dissolved early, fresh elections MUST be held within 6 months."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243B",
+        "description": "Constitution of Panchayats (3-tier structure)."
+      },
+      {
+        "article": "Article 243D",
+        "description": "Reservation of seats for SC, ST, and Women."
+      },
+      {
+        "article": "Article 243E",
+        "description": "Duration of Panchayats (5 years)."
+      },
+      {
+        "article": "Article 243F",
+        "description": "Disqualifications for membership."
+      }
+    ],
+    "sscExamPoints": [
+      "Minimum age to contest elections in Panchayats: 21 years (NOT 18 or 25 years!).",
+      "If a Panchayat is dissolved, elections must be held within 6 months.",
+      "If the remaining period of dissolved Panchayat is less than 6 months, no election is required."
+    ],
+    "commonStudentMistakes": [
+      "Voting age (18 years) vs Contesting age (21 years) confusion.",
+      "Assuming 1/2 reservation for women is mandatory in the Constitution (Constitution mandates min 1/3rd; states like Bihar/MP expanded it to 50%)."
+    ]
+  },
+  {
+    "heading": "Gram Sabha",
+    "explanation": "Gram Sabha is the bedrock of the Panchayati Raj system. It is a general body composed of all persons registered as voters in the electoral rolls of a village within the Panchayat area.",
+    "keyTakeaways": [
+      "Only permanent primary body in local self-government.",
+      "Consists of ALL registered voters residing in the village (not all villagers).",
+      "Exercises powers and performs functions at the village level as assigned by State Legislature."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243A",
+        "description": "Gram Sabha definition and provisions."
+      }
+    ],
+    "sscExamPoints": [
+      "Gram Sabha includes: All adults whose names are on the village electoral roll.",
+      "Which Article defines Gram Sabha? Article 243A."
+    ],
+    "commonStudentMistakes": [
+      "Thinking Gram Sabha includes all adult residents of the village (It includes ONLY registered voters).",
+      "Confusing Gram Sabha (voters body) with Gram Panchayat (elected representatives body)."
+    ]
+  },
+  {
+    "heading": "Gram Panchayat, Panchayat Samiti, and Zila Parishad",
+    "explanation": "These represent the three functional tiers of rural governance, executing developmental schemes, social welfare programs, and local administrative tasks.",
+    "keyTakeaways": [
+      "Gram Panchayat: Executive committee at village level led by Sarpanch / Pradhan. Direct election of members.",
+      "Panchayat Samiti: Executive body at block / intermediate level; acts as a link between Gram Panchayat and Zila Parishad.",
+      "Zila Parishad: Advisory and coordinating body at district level; headed by Zila Parishad Chairperson."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243C",
+        "description": "Composition of Panchayats."
+      },
+      {
+        "article": "Article 243G",
+        "description": "Powers, authority, and responsibilities of Panchayats."
+      }
+    ],
+    "sscExamPoints": [
+      "Panchayat Samiti is the intermediate tier.",
+      "District Collector often acts as executive officer/coordinator at Zila Parishad level."
+    ],
+    "commonStudentMistakes": [
+      "Mixing up tiers: Gram (Village) -> Samiti (Block) -> Zila (District).",
+      "Assuming direct elections apply to all chairpersons (Chairperson of Block and District level are indirectly elected)."
+    ]
+  },
+  {
+    "heading": "Eleventh Schedule",
+    "explanation": "Added by the 73rd Constitutional Amendment Act, 1992, the 11th Schedule specifies the functional domain of Panchayats.",
+    "keyTakeaways": [
+      "Contains 29 functional subjects placed under the jurisdiction of PRIs.",
+      "Key subjects: Agriculture, land improvement, minor irrigation, animal husbandry, small scale industries, rural housing, drinking water, roads, poverty alleviation, primary education, health & sanitation."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243G",
+        "description": "Empowers state legislatures to confer powers & responsibilities listed in 11th Schedule."
+      }
+    ],
+    "sscExamPoints": [
+      "How many items are in the 11th Schedule? 29 items.",
+      "Direct question on 11th Schedule insertion year (1992) and amendment (73rd)."
+    ],
+    "commonStudentMistakes": [
+      "Confusing 11th Schedule count (29 subjects) with 12th Schedule count (18 subjects)."
+    ]
+  },
+  {
+    "heading": "74th Constitutional Amendment Act, 1992",
+    "explanation": "The 74th Amendment Act, 1992 came into force on June 1, 1993. It introduced constitutional status to Urban Local Bodies (ULBs), adding Part IX-A ('The Municipalities') and the 12th Schedule.",
+    "keyTakeaways": [
+      "Enacted to decentralize power in urban areas.",
+      "Added Part IX-A (Articles 243P to 243ZG) and 12th Schedule (18 functional items).",
+      "Mandated 3 types of urban municipalities, reservations, 5-year duration, and mandatory SEC/SFC operations."
+    ],
+    "importantArticles": [
+      {
+        "article": "Articles 243P to 243ZG",
+        "description": "Provisions governing Municipalities and Urban Local Bodies."
+      }
+    ],
+    "sscExamPoints": [
+      "Part added by 74th Amendment: Part IX-A.",
+      "Number of subjects in 12th Schedule: 18 subjects."
+    ],
+    "commonStudentMistakes": [
+      "Confusing Part IX (Panchayats) with Part IX-A (Municipalities).",
+      "Forgetting the enforcement date of 74th Amendment (June 1, 1993)."
+    ]
+  },
+  {
+    "heading": "Municipal Corporation, Municipality, and Nagar Panchayat",
+    "explanation": "Article 243Q mandates three types of urban local bodies based on population density and spatial transformation from rural to urban.",
+    "keyTakeaways": [
+      "Nagar Panchayat: For transitional areas (rural to urban transition).",
+      "Municipal Council (Municipality): For smaller urban areas.",
+      "Municipal Corporation (Nagar Nigam): For larger urban areas (headed by Mayor; Administrative head is Municipal Commissioner - IAS officer).",
+      "Ward Committees: Constituted for areas having population of 3 lakhs or more (Art. 243S)."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243Q",
+        "description": "Constitution of Municipalities (3 types)."
+      },
+      {
+        "article": "Article 243S",
+        "description": "Constitution and composition of Wards Committees."
+      }
+    ],
+    "sscExamPoints": [
+      "First Municipal Corporation in India: Madras (established in 1688).",
+      "Executive Officer of Municipal Corporation: Municipal Commissioner (appointed by State Government)."
+    ],
+    "commonStudentMistakes": [
+      "Confusing the political head (Mayor) with executive head (Municipal Commissioner).",
+      "Thinking Nagar Panchayat applies to fully established metro cities."
+    ]
+  },
+  {
+    "heading": "Twelfth Schedule",
+    "explanation": "Added by the 74th Constitutional Amendment Act, 1992, the 12th Schedule outlines the administrative duties and functional scope of Urban Local Bodies.",
+    "keyTakeaways": [
+      "Contains 18 functional subjects.",
+      "Key subjects: Urban planning, land regulation, roads & bridges, water supply, public health & sanitation, fire services, urban forestry, slum improvement."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243W",
+        "description": "Powers, authority, and responsibilities of Municipalities."
+      }
+    ],
+    "sscExamPoints": [
+      "Number of subjects in 12th Schedule: 18.",
+      "Which Schedule deals with Urban Local Bodies? 12th Schedule."
+    ],
+    "commonStudentMistakes": [
+      "Mixing up 29 subjects (11th Schedule - Rural) with 18 subjects (12th Schedule - Urban)."
+    ]
+  },
+  {
+    "heading": "State Election Commission (SEC)",
+    "explanation": "The State Election Commission is an independent constitutional body established under Articles 243K and 243ZA to conduct free and fair elections to Panchayats and Municipalities.",
+    "keyTakeaways": [
+      "Consists of a State Election Commissioner appointed by the Governor.",
+      "Removal: Removed ONLY in the same manner and on like grounds as a Judge of a High Court (by President, not Governor).",
+      "Powers: Superintends, directs, and controls electoral rolls and conducts all elections to PRIs and ULBs."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243K",
+        "description": "Elections to the Panchayats (State Election Commission)."
+      },
+      {
+        "article": "Article 243ZA",
+        "description": "Elections to Municipalities."
+      }
+    ],
+    "sscExamPoints": [
+      "Does Election Commission of India (ECI) conduct Panchayat elections? NO! Conducted strictly by State Election Commission.",
+      "SEC is appointed by Governor, but removed by President (same grounds as High Court Judge)."
+    ],
+    "commonStudentMistakes": [
+      "Thinking ECI conducts local body elections (ECI conducts Parliament, State Legislature, President, VP elections).",
+      "Believing the Governor can remove the State Election Commissioner."
+    ]
+  },
+  {
+    "heading": "State Finance Commission (SFC)",
+    "explanation": "The State Finance Commission is a constitutional body set up every 5 years by the Governor to review the financial position of Panchayats and Municipalities and recommend distribution of tax revenues.",
+    "keyTakeaways": [
+      "Constituted every 5 years by the Governor under Articles 243I and 243Y.",
+      "Recommends principles for distribution of net proceeds of taxes, duties, tolls between State and Local Bodies.",
+      "Recommends measures to improve financial position and Grant-in-aid to PRIs/ULBs."
+    ],
+    "importantArticles": [
+      {
+        "article": "Article 243I",
+        "description": "Constitution of State Finance Commission for Panchayats."
+      },
+      {
+        "article": "Article 243Y",
+        "description": "State Finance Commission for Municipalities."
+      }
+    ],
+    "sscExamPoints": [
+      "Who constitutes the State Finance Commission? Governor (every 5 years).",
+      "Article for State Finance Commission: Art. 243I (Rural) and Art. 243Y (Urban)."
+    ],
+    "commonStudentMistakes": [
+      "Confusing Article 280 (Finance Commission of India appointed by President) with Article 243I (State Finance Commission appointed by Governor).",
+      "Forgetting that SFC recommendations are submitted to the Governor, who lays them before State Legislature."
+    ]
+  },
+  {
+    "heading": "Important Constitutional Articles",
+    "explanation": "A consolidated quick-reference compilation of high-frequency constitutional articles related to State Government and Local Bodies tested in SSC exams.",
+    "keyTakeaways": [
+      "Articles 153 to 162: Governor provisions.",
+      "Articles 163 & 164: Council of Ministers & Chief Minister.",
+      "Article 165: Advocate General.",
+      "Article 169: Abolition or creation of Legislative Council.",
+      "Article 200: Assent to Bills by Governor.",
+      "Article 213: Ordinance making power of Governor.",
+      "Articles 243A to 243O: Panchayats (Part IX).",
+      "Articles 243P to 243ZG: Municipalities (Part IX-A)."
+    ],
+    "importantArticles": [
+      {
+        "article": "Art 153, 165, 169, 200, 213",
+        "description": "High-Yield State Executive & Legislature Articles."
+      },
+      {
+        "article": "Art 243A, 243D, 243I, 243K",
+        "description": "High-Yield Local Governance Articles."
+      }
+    ],
+    "sscExamPoints": [
+      "Matching column questions in Tier II often combine 243D (Reservation), 243I (Finance Commission), 243K (Election Commission), and 243E (Duration).",
+      "Always memorize article suffixes (A to O for Rural; P to ZG for Urban)."
+    ],
+    "commonStudentMistakes": [
+      "Confusing 243I (Finance Commission) with 243K (Election Commission).",
+      "Mixing up Governor Ordinance (213) with Presidential Ordinance (123)."
+    ]
+  }
+]

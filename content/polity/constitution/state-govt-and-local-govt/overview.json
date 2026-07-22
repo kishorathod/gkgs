@@ -1,0 +1,76 @@
+{
+  "moduleHeading": "Module Architecture & Learning Path",
+  "description": "This integrated module bridges macro-level state administration with micro-level decentralized governance. SSC CGL frequently tests constitutional provisions, executive vs. legislative powers, bicameral nuances, and the evolutionary milestones of local self-government in India.",
+  "learningFlow": [
+    {
+      "step": 1,
+      "topic": "State Government",
+      "focus": "Constitutional structure under Part VI of the Indian Constitution (Articles 152–237)."
+    },
+    {
+      "step": 2,
+      "topic": "Governor",
+      "focus": "Appointment, executive powers, judicial immunity, discretionary powers, and ordinance-making power (Art. 213)."
+    },
+    {
+      "step": 3,
+      "topic": "Chief Minister",
+      "focus": "Real executive head, appointment by Governor, relations with Council of Ministers, and role in State Planning."
+    },
+    {
+      "step": 4,
+      "topic": "Council of Ministers",
+      "focus": "Collective responsibility (Art. 164), individual responsibility, advice binding nature, and Cabinet vs. Council dynamics."
+    },
+    {
+      "step": 5,
+      "topic": "State Legislature",
+      "focus": "Unicameral vs. Bicameral setups, composition, tenure, and constitutional provisions (Art. 168–212)."
+    },
+    {
+      "step": 6,
+      "topic": "Legislative Assembly (Vidhan Sabha)",
+      "focus": "Direct elections, maximum/minimum strength, Speaker/Deputy Speaker powers, and dissolution rules."
+    },
+    {
+      "step": 7,
+      "topic": "Legislative Council (Vidhan Parishad)",
+      "focus": "Abolition & Creation (Art. 169), composition breakdown (1/3rd, 1/12th, etc.), and limited legislative powers."
+    },
+    {
+      "step": 8,
+      "topic": "State Legislative Procedure",
+      "focus": "Money Bills vs. Ordinary Bills, Governor's assent, reservation of bills for President (Art. 200/201), and budgetary process."
+    },
+    {
+      "step": 9,
+      "topic": "Local Self Government",
+      "focus": "Evolutionary committees (Balwant Rai Mehta, Ashok Mehta, LM Singhvi) and the philosophy of democratic decentralization."
+    },
+    {
+      "step": 10,
+      "topic": "73rd Constitutional Amendment Act, 1992",
+      "focus": "Insertion of Part IX and 11th Schedule (29 functional items); mandatory vs. voluntary provisions."
+    },
+    {
+      "step": 11,
+      "topic": "Panchayati Raj",
+      "focus": "Three-tier system (Gram, Intermediate, District level), Gram Sabha, reservation for women, and State Finance/Election Commissions."
+    },
+    {
+      "step": 12,
+      "topic": "74th Constitutional Amendment Act, 1992",
+      "focus": "Insertion of Part IX-A and 12th Schedule (18 functional items); structural framework for urban governance."
+    },
+    {
+      "step": 13,
+      "topic": "Urban Local Bodies (ULBs)",
+      "focus": "Nagar Panchayats, Municipal Councils, Municipal Corporations, Ward Committees, and District Planning Committees."
+    },
+    {
+      "step": 14,
+      "topic": "Important Constitutional Articles",
+      "focus": "Comprehensive consolidated memory mapping of high-frequency articles from Art. 153 to Art. 243ZG."
+    }
+  ]
+}
