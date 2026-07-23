@@ -1,0 +1,309 @@
+[
+  {
+    "article": "Article 352",
+    "title": "Proclamation of National Emergency",
+    "explanation": "Empowers the President to declare a National Emergency when the security of India or part of it is threatened by war, external aggression, or armed rebellion.",
+    "importantPoints": [
+      "Originally included 'internal disturbance', replaced by 'armed rebellion' via the 44th Amendment (1978).",
+      "Requires written recommendation from the Union Cabinet.",
+      "Must be approved by both Houses within 1 month by a special majority."
+    ],
+    "sscImportance": "Extremely High. Frequently tested for its grounds, approval timelines, and majority requirements.",
+    "relatedArticles": "Articles 358, 359, 353",
+    "memoryTrick": "352 is the base emergency door that opens the nation wide crisis protocol.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 353",
+    "title": "Effect of National Emergency",
+    "explanation": "Details the executive and legislative modifications that occur during a National Emergency, shifting power dynamics toward the Union center.",
+    "importantPoints": [
+      "Executive power of the Union extends to giving directions to any state.",
+      "Parliament gains power to make laws on State List subjects.",
+      "Laws made by Parliament cease to operate 6 months after the emergency ends."
+    ],
+    "sscImportance": "Medium. Asked in Tier-2 regarding the exact extent of executive and legislative centralization.",
+    "relatedArticles": "Articles 352, 246",
+    "memoryTrick": "353 gives 3 things: center command, state direction, and legislative override.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 354",
+    "title": "Application of provisions relating to distribution of revenues while a Proclamation of Emergency is in operation",
+    "explanation": "Empowers the President to direct modifications in the constitutional provisions relating to the distribution of financial revenues between the Centre and the States during a National Emergency.",
+    "importantPoints": [
+      "Financial allocations can be temporarily altered by presidential order.",
+      "Any such order must be laid before each House of Parliament.",
+      "Valid only during the continuance of the emergency financial year cycle."
+    ],
+    "sscImportance": "Low-Medium. Direct factual article matching.",
+    "relatedArticles": "Articles 268-279, 352",
+    "memoryTrick": "354 sounds like funds/finance redirection during emergency.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 355",
+    "title": "Duty of the Union to protect States against external aggression and internal disturbance",
+    "explanation": "Places a direct obligation on the Union government to protect every state against external aggression and internal disturbance, ensuring that state governance runs in accordance with the Constitution.",
+    "importantPoints": [
+      "Acts as the foundational source of authority for imposing President's Rule under Article 356.",
+      "Ensures cooperative federal safety guarantees from the Centre."
+    ],
+    "sscImportance": "Medium. Often linked as the bridge between regular federal governance and Article 356.",
+    "relatedArticles": "Articles 356, 365",
+    "memoryTrick": "355: Union 'protects and saves' the state alive.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 356",
+    "title": "Provisions in case of failure of constitutional machinery in States",
+    "explanation": "Popularly known as President's Rule or State Emergency, allowing the President to take over state governance upon a report from the Governor or otherwise.",
+    "importantPoints": [
+      "Must be approved within 2 months by a simple majority in both Houses.",
+      "Maximum possible duration is 3 years with parliamentary renewals every 6 months.",
+      "Brought under heavy judicial review via the S.R. Bommai case (1994)."
+    ],
+    "sscImportance": "Very High. Core static question area for Tier-1 and Tier-2.",
+    "relatedArticles": "Articles 355, 365",
+    "memoryTrick": "356 means state government failure, requiring 6-month checks up to 3 years max.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 357",
+    "title": "Exercise of legislative powers under Proclamation issued under Article 356",
+    "explanation": "Outlines how legislative powers are exercised when President's Rule is imposed, allowing Parliament to confer law-making powers for the state upon the President or other specified authorities.",
+    "importantPoints": [
+      "Parliament can confer state law-making power to the President or delegated bodies.",
+      "Laws made remain valid even after President's Rule lapses until altered by the state legislature."
+    ],
+    "sscImportance": "Low. Rarely asked detailed procedural sub-clause questions.",
+    "relatedArticles": "Articles 356, 353",
+    "memoryTrick": "357 handles state laws sent to heaven (President) during President's Rule.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 358",
+    "title": "Suspension of provisions of Article 19 during emergencies",
+    "explanation": "Provides for the automatic suspension of the six fundamental freedoms guaranteed under Article 19 as soon as a National Emergency is declared on grounds of war or external aggression.",
+    "importantPoints": [
+      "Applies automatically only during external emergencies (War/External Aggression), NOT during Armed Rebellion.",
+      "Restores automatically once the emergency ceases."
+    ],
+    "sscImportance": "High. Frequently contrasted with Article 359 in MCQs.",
+    "relatedArticles": "Articles 19, 352, 359",
+    "memoryTrick": "358 suspends Article 19 automatically like an 8-shaped loop.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 359",
+    "title": "Suspension of the enforcement of the rights conferred by Part III during emergencies",
+    "explanation": "Empowers the President to suspend the right to move any court for the enforcement of Fundamental Rights (except Articles 20 and 21) via a separate presidential order during emergencies.",
+    "importantPoints": [
+      "Does NOT happen automatically; requires a specific Presidential Order.",
+      "Post-44th Amendment, Articles 20 and 21 can NEVER be suspended.",
+      "Can apply to both internal and external emergencies."
+    ],
+    "sscImportance": "Very High. Essential conceptual clarity area distinguishing it from Article 358.",
+    "relatedArticles": "Articles 20, 21, 352, 358",
+    "memoryTrick": "359 needs a signed presidential line to stop court movement, but 20 and 21 stay alive.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 360",
+    "title": "Provisions as to Financial Emergency",
+    "explanation": "Empowers the President to declare a Financial Emergency if financial stability or credit of India is threatened.",
+    "importantPoints": [
+      "Must be approved within 2 months by a simple majority in both Houses.",
+      "Can reduce salaries of central and state government employees, including Supreme Court/High Court judges.",
+      "Never proclaimed in Indian history."
+    ],
+    "sscImportance": "High. Famous for the trivia that it has never been invoked.",
+    "relatedArticles": "Articles 352, 356",
+    "memoryTrick": "360 degrees financial turnaround option that has never spun into action.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 361",
+    "title": "Protection of President and Governors and Rajpramukhs",
+    "explanation": "Grants constitutional immunity to the President and Governors from criminal proceedings, arrest processes, and answerability to courts for official acts.",
+    "importantPoints": [
+      "No criminal proceedings can be initiated or continued during their term of office.",
+      "No arrest or imprisonment process can be issued.",
+      "Civil proceedings for personal acts require a prior 2-month written notice."
+    ],
+    "sscImportance": "High. Frequently asked regarding executive immunities and 2-month civil notice rules.",
+    "relatedArticles": "Articles 52, 153",
+    "memoryTrick": "361 gives 3-6-1 degrees of absolute shield to the first citizens.",
+    "priority": "High"
+  },
+  {
+    "article": "Article 361A",
+    "title": "Protection of publication of proceedings of Parliament and State Legislatures",
+    "explanation": "Provides immunity from civil and criminal proceedings for publishing substantially true reports of parliamentary or state legislature proceedings in a newspaper.",
+    "importantPoints": [
+      "Added by the 44th Amendment Act, 1978.",
+      "Does not protect publication of secret legislative sittings."
+    ],
+    "sscImportance": "Medium. Direct article matching test item.",
+    "relatedArticles": "Articles 105, 194",
+    "memoryTrick": "361A = Accurate media Action protection for House proceedings.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 361B",
+    "title": "Disqualification for appointment on remunerative political post",
+    "explanation": "Disqualifies legislators disqualified under the Tenth Schedule (Anti-Defection Law) from holding any remunerative political post until their term expires or they get re-elected.",
+    "importantPoints": [
+      "Added by the 91st Amendment Act, 2003.",
+      "Prevents backdoor political appointments for defectors."
+    ],
+    "sscImportance": "Medium. Linked directly with anti-defection reforms.",
+    "relatedArticles": "Tenth Schedule, Article 102",
+    "memoryTrick": "91st amendment added 361B to Block backdoor benefits.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 361C",
+    "title": "Privileges of Rulers of Indian States (Repealed)",
+    "explanation": "Historically dealt with privy purses and privileges of former rulers, which were subsequently repealed.",
+    "importantPoints": [
+      "Abolished by the 26th Constitutional Amendment Act, 1971 under Indira Gandhi.",
+      "Removed princely privileges."
+    ],
+    "sscImportance": "Low. Historical context reference.",
+    "relatedArticles": "Article 291, 363A",
+    "memoryTrick": "361C originally cleared out Princely Crowns.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 361D",
+    "title": "Special provisions regarding protection of certain laws (Contextual/Insertion notes)",
+    "explanation": "Relates to specific constitutional continuity arrangements and specialized administrative protections.",
+    "importantPoints": [
+      "Deals with structural transition nuances in constitutional interpretations.",
+      "Seldom featured directly in standard multiple-choice questions."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": "Article 367",
+    "memoryTrick": "Technical miscellaneous clause.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 361E",
+    "title": "Protection of certain specific administrative provisions",
+    "explanation": "Covers protective administrative provisions for specific regional pacts or institutional exceptions.",
+    "importantPoints": [
+      "Focal point for specialized governance structures.",
+      "Rarely tested in Tier-1/Tier-2."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": "Part XXI provisions",
+    "memoryTrick": "Extra administrative cushion category.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 362 (historical)",
+    "title": "Rights and privileges of Rulers of Indian States",
+    "explanation": "Originally protected the personal rights and privileges of former princely rulers of Indian states.",
+    "importantPoints": [
+      "Repealed by the 26th Constitutional Amendment Act, 1971.",
+      "Terminated privy purses entirely."
+    ],
+    "sscImportance": "Low-Medium. Linked to the 26th Amendment trivia.",
+    "relatedArticles": "Article 363A",
+    "memoryTrick": "362 wiped out royal perks in '72 (1971-72).",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 363",
+    "title": "Bar to interference by courts in disputes arising out of certain treaties, agreements, etc.",
+    "explanation": "Bars courts from taking jurisdiction in disputes arising out of pre-independence treaties, covenants, sanads, or similar instruments entered into by princely rulers.",
+    "importantPoints": [
+      "Protects historic integration pacts from messy courtroom litigations.",
+      "Subject only to the Supreme Court's advisory jurisdiction under Article 143 in specific referral contexts."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": "Article 143, 362",
+    "memoryTrick": "363 closes court doors on old princely treaties.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 363A",
+    "title": "Recognition granted to Rulers of Indian States to cease and privy purses to be abolished",
+    "explanation": "Explicitly codifies the abolition of privy purses and recognition of erstwhile rulers following the 26th Amendment (1971).",
+    "importantPoints": [
+      "Directly enacted via the 26th Constitutional Amendment Act, 1971.",
+      "Ended all legal liabilities for privy purses."
+    ],
+    "sscImportance": "Medium. Frequently tied to the 26th Amendment year and objective.",
+    "relatedArticles": "Article 362",
+    "memoryTrick": "363A explicitly Abolished allowances.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 364",
+    "title": "Special provisions as to major ports and aerodromes",
+    "explanation": "Empowers the President to direct that laws made by Parliament or State Legislatures shall not apply to major ports or aerodromes, or apply with specific modifications.",
+    "importantPoints": [
+      "Ensures strategic national security and uniform commercial management over vital transport hubs.",
+      "Protects strategic federal assets."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": "Schedule VII",
+    "memoryTrick": "364 covers aircraft and port anchors.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 365",
+    "title": "Effect of failure to comply with, or to give effect to, directions given by the Union",
+    "explanation": "States that if any state fails to comply with or give effect to directions given by the Union, it shall be lawful for the President to hold that a situation has arisen in which the government of the state cannot be carried on in accordance with the Constitution.",
+    "importantPoints": [
+      "Acts as the direct trigger clause for invoking President's Rule (Article 356) due to non-compliance.",
+      "Strengthens central executive leverage over defiant state cabinets."
+    ],
+    "sscImportance": "Medium-High. Often asked in relation to federal friction and Article 356 triggers.",
+    "relatedArticles": "Articles 355, 356",
+    "memoryTrick": "365: Disobeying union directives for 365 days leads to President's Rule.",
+    "priority": "Medium"
+  },
+  {
+    "article": "Article 366",
+    "title": "Definitions",
+    "explanation": "Provides a comprehensive dictionary of constitutional terminology used throughout the text (e.g., Agricultural Income, Anglo-Indian, Corporation Tax, Debt, Existing Law, etc.).",
+    "importantPoints": [
+      "Contains clause-by-clause legal definitions for precise constitutional interpretation.",
+      "Defines terms like 'Foreign State', 'Scheduled Castes', and 'Scheduled Tribes'."
+    ],
+    "sscImportance": "Low-Medium. Reference article for specific legal terms.",
+    "relatedArticles": "Article 367",
+    "memoryTrick": "366 is the constitutional dictionary handbook.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 367",
+    "title": "Interpretation",
+    "explanation": "Applies the General Clauses Act, 1897 for the interpretation of the Constitution, detailing how references to statutory provisions and authorities must be construed.",
+    "importantPoints": [
+      "Guides legal experts and courts on how to interpret ambiguous constitutional terminology.",
+      "Maintains consistency with pre-existing statutory codes."
+    ],
+    "sscImportance": "Low.",
+    "relatedArticles": "Article 366",
+    "memoryTrick": "367 sets rules for reading the constitution text correctly.",
+    "priority": "Low"
+  },
+  {
+    "article": "Article 368",
+    "title": "Power of Parliament to amend the Constitution and procedure therefor",
+    "explanation": "The master article residing in Part XX that outlines Parliament's authority to alter the Constitution and prescribes special majorities and state ratification processes.",
+    "importantPoints": [
+      "Contains two distinct categories of special majorities.",
+      "Mandates state ratification for federal provisions.",
+      "Subject to the Basic Structure Doctrine limitation established in 1973."
+    ],
+    "sscImportance": "Maximum. Absolute top-priority article for SSC CGL Polity.",
+    "relatedArticles": "Part XX, Article 13, Basic Structure cases",
+    "memoryTrick": "368 is the ultimate amendment engine article of the Constitution.",
+    "priority": "High"
+  }
+]

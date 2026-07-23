@@ -1,0 +1,298 @@
+[
+  {
+    "title": "Simple Majority vs Special Majority",
+    "headers": [
+      "Feature",
+      "Simple Majority",
+      "Special Majority"
+    ],
+    "rows": [
+      [
+        "Definition",
+        "More than 50% of members present and voting in each House.",
+        "Majority of total membership (>50%) AND 2/3rds of members present and voting."
+      ],
+      [
+        "Article Scope",
+        "Technically outside Article 368 (e.g., formation of new states, quorum).",
+        "Strictly under Article 368 (e.g., amending Fundamental Rights, DPSP)."
+      ],
+      [
+        "Approval Strength",
+        "Lower threshold, easier to secure in routine parliamentary business.",
+        "High threshold requiring intense cross-party consensus."
+      ],
+      [
+        "SSC Relevance",
+        "Often asked in context of legislative councils creation (Article 169).",
+        "Frequent numerical calculation questions in Tier-2 exams."
+      ]
+    ]
+  },
+  {
+    "title": "Special Majority vs State Ratification",
+    "headers": [
+      "Feature",
+      "Special Majority (Article 368 clause 2)",
+      "Special Majority + State Ratification"
+    ],
+    "rows": [
+      [
+        "Requirement",
+        "Special majority in Lok Sabha and Rajya Sabha separately.",
+        "Special majority in Parliament PLUS ratification by at least half of the state legislatures."
+      ],
+      [
+        "Subject Matter",
+        "Affects non-federal provisions like Fundamental Rights and DPSP.",
+        "Affects federal features (e.g., election of President, Supreme Court/High Court jurisdiction, GST Council)."
+      ],
+      [
+        "State Role",
+        "No state legislature consent required.",
+        "Active consent from state assemblies (simple majority vote in each state)."
+      ],
+      [
+        "SSC Relevance",
+        "Standard category for amending standard parts of the Constitution.",
+        "Favorite matching-type question testing federal provisions."
+      ]
+    ]
+  },
+  {
+    "title": "National Emergency vs President's Rule",
+    "headers": [
+      "Feature",
+      "National Emergency (Article 352)",
+      "President's Rule / State Emergency (Article 356)"
+    ],
+    "rows": [
+      [
+        "Trigger Grounds",
+        "War, external aggression, or armed rebellion.",
+        "Failure of constitutional machinery in a state (governor's report or otherwise)."
+      ],
+      [
+        "Parliamentary Approval",
+        "Within 1 month by a Special Majority.",
+        "Within 2 months by a Simple Majority."
+      ],
+      [
+        "Maximum Duration",
+        "Indefinite (with parliamentary approval every 6 months).",
+        "Maximum 3 years (with parliamentary approval every 6 months)."
+      ],
+      [
+        "SSC Relevance",
+        "Crucial distinction in approval timelines (1 month vs 2 months)."
+      ]
+    ]
+  },
+  {
+    "title": "President's Rule vs Financial Emergency",
+    "headers": [
+      "Feature",
+      "President's Rule (Article 356)",
+      "Financial Emergency (Article 360)"
+    ],
+    "rows": [
+      [
+        "Trigger Grounds",
+        "Breakdown of constitutional machinery in an individual state.",
+        "Threat to financial stability or credit of India or any part of it."
+      ],
+      [
+        "Approval Timeline",
+        "Within 2 months by a Simple Majority.",
+        "Within 2 months by a Simple Majority."
+      ],
+      [
+        "Historical Invocation",
+        "Invoked numerous times across various states.",
+        "Never proclaimed in Indian history."
+      ],
+      [
+        "SSC Relevance",
+        "Frequent trivia question regarding Financial Emergency never being used."
+      ]
+    ]
+  },
+  {
+    "title": "Article 352 vs 356 vs 360",
+    "headers": [
+      "Feature",
+      "National Emergency (Art 352)",
+      "President's Rule (Art 356)",
+      "Financial Emergency (Art 360)"
+    ],
+    "rows": [
+      [
+        "Scope",
+        "Entire nation or specific parts.",
+        "A specific state government.",
+        "Entire nation or specific parts."
+      ],
+      [
+        "Majority Required",
+        "Special Majority.",
+        "Simple Majority.",
+        "Simple Majority."
+      ],
+      [
+        "Impact on Executive",
+        "Turns federal structure completely unitary.",
+        "State executive taken over by Governor / President.",
+        "Centre can direct reduction of salaries of public servants."
+      ],
+      [
+        "SSC Relevance",
+        "Core comparative mapping table for all three emergency types."
+      ]
+    ]
+  },
+  {
+    "title": "42nd Amendment vs 44th Amendment",
+    "headers": [
+      "Feature",
+      "42nd Amendment Act (1976)",
+      "44th Amendment Act (1978)"
+    ],
+    "rows": [
+      [
+        "Political Context",
+        "Passed during Internal Emergency by Indira Gandhi.",
+        "Passed by Morarji Desai's Janata government to reverse emergency excesses."
+      ],
+      [
+        "Nickname",
+        "Often called the 'Mini-Constitution'.",
+        "Known as the 'Restoration Act' / Emergency safeguards bill."
+      ],
+      [
+        "Key Additions/Changes",
+        "Added 'Socialist, Secular, Integrity' to Preamble; added Fundamental Duties.",
+        "Converted Right to Property to a legal right (Art 300A); added emergency safeguards."
+      ],
+      [
+        "SSC Relevance",
+        "Highest yield comparison in SSC CGL Polity sections."
+      ]
+    ]
+  },
+  {
+    "title": "Internal Disturbance vs Armed Rebellion",
+    "headers": [
+      "Feature",
+      "Internal Disturbance",
+      "Armed Rebellion"
+    ],
+    "rows": [
+      [
+        "Constitutional Status",
+        "Original term in Article 352 (misused in 1975).",
+        "Substituted term via 44th Amendment Act (1978)."
+      ],
+      [
+        "Vagueness / Precision",
+        "Vague, broad, and open to subjective executive interpretation.",
+        "Precise, objective, and requires tangible proof of armed revolt."
+      ],
+      [
+        "Effect on Art 19",
+        "Could trigger suspension of Article 19 previously.",
+        "Armed rebellion alone does NOT trigger automatic suspension of Article 19."
+      ],
+      [
+        "SSC Relevance",
+        "Crucial conceptual shift tested under 44th Amendment modifications."
+      ]
+    ]
+  },
+  {
+    "title": "Before vs After 44th Amendment",
+    "headers": [
+      "Feature",
+      "Before 44th Amendment (Pre-1978)",
+      "After 44th Amendment (Post-1978)"
+    ],
+    "rows": [
+      [
+        "Emergency Advice",
+        "Prime Minister could advise President verbally or independently.",
+        "Written cabinet recommendation made mandatory."
+      ],
+      [
+        "Right to Property",
+        "Protected as a Fundamental Right under Article 31.",
+        "Shifted to a legal right under Article 300A."
+      ],
+      [
+        "Judicial Review",
+        "Emergency proclamation was immune to judicial review.",
+        "Made subject to judicial review against mala fide abuse."
+      ],
+      [
+        "SSC Relevance",
+        "Essential framework for checking democratic safeguards."
+      ]
+    ]
+  },
+  {
+    "title": "Fundamental Rights During Emergency",
+    "headers": [
+      "Feature",
+      "Article 19 Rights",
+      "Articles 20 & 21 Rights"
+    ],
+    "rows": [
+      [
+        "Suspension Trigger",
+        "Automatically suspended during External Emergency (War / Aggression).",
+        "CAN NEVER BE SUSPENDED under any circumstance."
+      ],
+      [
+        "Presidential Order",
+        "Does not require separate order for Art 19 during external crises.",
+        "Protected permanently by 44th Amendment safeguards."
+      ],
+      [
+        "Enforcement in Court",
+        "Barred during the active window of emergency.",
+        "Enforceable in courts at all times."
+      ],
+      [
+        "SSC Relevance",
+        "Golden rule of SSC questions: Articles 20 and 21 are untouchable."
+      ]
+    ]
+  },
+  {
+    "title": "Basic Structure vs Constitutional Amendment",
+    "headers": [
+      "Feature",
+      "Constitutional Amendment Power (Art 368)",
+      "Basic Structure Doctrine"
+    ],
+    "rows": [
+      [
+        "Source",
+        "Explicitly defined text under Part XX (Article 368).",
+        "Judicial innovation established in Kesavananda Bharati case (1973)."
+      ],
+      [
+        "Scope",
+        "Empowers Parliament to amend any part of the Constitution.",
+        "Places implied limitations preventing destruction of core features."
+      ],
+      [
+        "Inclusions",
+        "Fundamental Rights, DPSP, administrative frameworks.",
+        "Secularism, judicial review, federalism, free and fair elections."
+      ],
+      [
+        "SSC Relevance",
+        "Core conceptual balance between parliamentary supremacy and judicial review."
+      ]
+    ]
+  }
+]

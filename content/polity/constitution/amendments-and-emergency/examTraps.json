@@ -1,0 +1,42 @@
+[
+  {
+    "confusion": "Confusing the scope, approval timelines, and majority requirements of National Emergency (Art 352), President's Rule (Art 356), and Financial Emergency (Art 360).",
+    "correctConcept": "Article 352 covers all-India or regional war/aggression/armed rebellion requiring a Special Majority within 1 month. Article 356 covers state constitutional breakdown requiring a Simple Majority within 2 months. Article 360 covers financial stability threats requiring a Simple Majority within 2 months.",
+    "memoryTrick": "Remember the sequence N-S-F (352, 356, 360) and timelines: National crisis is urgent (1 Month), State/Financial crises take slightly longer to approve (2 Months)."
+  },
+  {
+    "confusion": "Mixing up the sweeping centralization of the 42nd Amendment (1976) with the democratic rollbacks and safeguards of the 44th Amendment (1978).",
+    "correctConcept": "The 42nd Amendment ('Mini-Constitution') increased executive power, added Fundamental Duties, and restricted judicial review. The 44th Amendment restored democratic balances, converted Property Rights to a legal right under Article 300A, and made cabinet written advice mandatory for emergencies.",
+    "memoryTrick": "42 added weight/power to the Centre; 44 trimmed the excess and protected citizen rights."
+  },
+  {
+    "confusion": "Treating 'Internal Disturbance' and 'Armed Rebellion' as interchangeable grounds for declaring a National Emergency.",
+    "correctConcept": "'Internal Disturbance' was the original vague term under Article 352 (misused in 1975). It was replaced by the 44th Amendment with 'Armed Rebellion' to ensure precise, objective criteria and prevent automatic suspension of Article 19.",
+    "memoryTrick": "Disturbance is vague words; Armed Rebellion means visible guns and verified physical revolt."
+  },
+  {
+    "confusion": "Confusing the voting thresholds required for routine parliamentary legislation versus constitutional amendments.",
+    "correctConcept": "Simple Majority requires >50% of members present and voting (routine business/outside Art 368). Special Majority requires absolute majority (>50% of total house strength) PLUS 2/3rds of members present and voting (mandatory for Article 368 amendments).",
+    "memoryTrick": "Simple is just breathing bodies present; Special is strict math: total strength majority plus two-thirds attendance agreement."
+  },
+  {
+    "confusion": "Mixing up Article 358 (automatic suspension of Article 19) with Article 359 (presidential suspension of enforcement of other Fundamental Rights).",
+    "correctConcept": "Article 358 applies automatically to Article 19 only during external emergencies. Article 359 requires a separate Presidential Order to suspend court enforcement of Part III rights (excluding Articles 20 and 21).",
+    "memoryTrick": "358 happens automatically like an 8; 359 needs a signed presidential line to stop court movement."
+  },
+  {
+    "confusion": "Assuming a Constitutional Amendment Bill can be passed via a Joint Sitting of Parliament just like ordinary bills.",
+    "correctConcept": "Constitutional Amendment Bills under Article 368 and Money Bills CANNOT have a joint sitting. Both Lok Sabha and Rajya Sabha must pass the amendment bill separately by the requisite special majority.",
+    "memoryTrick": "Special bills require separate rooms: no joint sitting shortcuts for amendments or money."
+  },
+  {
+    "confusion": "Equating a National Emergency declared under Article 352 with Martial Law declared under Article 34.",
+    "correctConcept": "National Emergency is a constitutional provision applied nationwide or regionally altering federal structures. Martial Law (Article 34) is military rule established in a specific local area to restore order, suspending ordinary civil administration.",
+    "memoryTrick": "National Emergency is a federal umbrella; Martial Law is boots on the ground in a local zone."
+  },
+  {
+    "confusion": "Confusing President's Rule (Article 356) with Governor's Rule or direct administrative control under special state constitutions (like Jammu & Kashmir historically).",
+    "correctConcept": "President's Rule under Article 356 transfers state executive power to the Union President/Governor upon constitutional breakdown. Governor's Rule or specific state transitional clauses operate under distinct regional state legislative frameworks.",
+    "memoryTrick": "Article 356 is President's Rule across Indian states governed by the central union oversight."
+  }
+]

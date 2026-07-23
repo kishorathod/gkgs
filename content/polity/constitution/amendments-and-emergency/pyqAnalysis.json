@@ -1,0 +1,32 @@
+{
+  "mostFrequentlyAskedAmendments": [
+    "42nd Amendment Act (1976) - Focus on Preamble changes, Fundamental Duties, and 'Mini-Constitution' status",
+    "44th Amendment Act (1978) - Focus on right to property shift (Art 300A), armed rebellion substitution, and emergency safeguards",
+    "73rd & 74th Amendment Acts (1992) - Panchayati Raj (Part IX) and Municipalities (Part IX-A)",
+    "86th Amendment Act (2002) - Right to Education under Article 21A"
+  ],
+  "mostFrequentlyAskedArticles": [
+    "Article 368 - Power of Parliament to amend the Constitution and procedure",
+    "Article 352 - Proclamation of National Emergency (grounds, majority, and duration)",
+    "Article 356 - President's Rule / State Emergency",
+    "Article 360 - Financial Emergency (never proclaimed fact)",
+    "Articles 358 & 359 - Suspension of Fundamental Rights, specifically highlighting Articles 20 and 21"
+  ],
+  "repeatedThemes": [
+    "Comparison between National Emergency (1 month / special majority) and President's Rule approval timelines (2 months / simple majority)",
+    "The untouchable status of Articles 20 and 21 during any emergency proclamation",
+    "Landmark case laws associated with amendments, particularly the Kesavananda Bharati case (1973) and the Basic Structure doctrine",
+    "Substitution of terms, such as 'internal disturbance' being replaced by 'armed rebellion' via the 44th Amendment"
+  ],
+  "difficultyTrend": "Shifting from direct 1-line factual recall of article numbers or years toward multi-statement matching questions (e.g., checking correct combinations of emergency impacts or specific amendment objectives in Tier-2 exams).",
+  "highProbabilityQuestions": [
+    "Which Constitutional Amendment Act introduced the 10% EWS reservation in educational institutions?",
+    "What is the maximum duration for which President's Rule can be extended under normal parliamentary approvals with periodic renewals?",
+    "Which specific articles are permanently shielded from suspension during a National Emergency under post-44th Amendment rules?"
+  ],
+  "expectedFutureAreas": [
+    "Recent landmark amendments like the 101st (GST), 102nd (NCBC), 103rd (EWS), 104th (Anglo-Indian seats discontinuation & SC/ST extension), and 105th Amendments",
+    "Nuances of state ratification requirements under Article 368 proviso for federal provisions",
+    "Procedural checks on executive misuse of emergency powers introduced post-1978"
+  ]
+}

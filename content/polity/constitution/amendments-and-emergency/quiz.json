@@ -1,0 +1,424 @@
+{
+  "practiceMcqs": [
+    {
+      "question": "Which article of the Indian Constitution outlines the power of Parliament to amend the Constitution and the procedure therefor?",
+      "options": [
+        "Article 352",
+        "Article 360",
+        "Article 368",
+        "Article 370"
+      ],
+      "correctAnswer": "Article 368",
+      "explanation": "Article 368 in Part XX of the Indian Constitution explicitly provides the power of Parliament to amend the Constitution and prescribes the specific procedures and majorities required.",
+      "difficulty": "Easy",
+      "topic": "Article 368",
+      "relatedArticle": "Article 368"
+    },
+    {
+      "question": "From which country's constitution was the procedure for amending the Indian Constitution borrowed?",
+      "options": [
+        "USA",
+        "South Africa",
+        "Canada",
+        "Weimar Republic (Germany)"
+      ],
+      "correctAnswer": "South Africa",
+      "explanation": "The procedure for amending the Indian Constitution was adopted from the Constitution of South Africa (Article 368).",
+      "difficulty": "Easy",
+      "topic": "Constitutional Amendments",
+      "relatedArticle": "Article 368"
+    },
+    {
+      "question": "Which of the following constitutional amendments is widely referred to as the 'Mini-Constitution' of India?",
+      "options": [
+        "24th Amendment Act, 1971",
+        "42nd Amendment Act, 1976",
+        "44th Amendment Act, 1978",
+        "86th Amendment Act, 2002"
+      ],
+      "correctAnswer": "42nd Amendment Act, 1976",
+      "explanation": "The 42nd Constitutional Amendment Act, 1976, enacted during the Internal Emergency, made sweeping changes across the Constitution, earning it the moniker 'Mini-Constitution'.",
+      "difficulty": "Medium",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 368"
+    },
+    {
+      "question": "Which amendment act converted the Right to Property from a Fundamental Right into a legal right under Article 300A?",
+      "options": [
+        "25th Amendment Act, 1971",
+        "42nd Amendment Act, 1976",
+        "44th Amendment Act, 1978",
+        "52nd Amendment Act, 1985"
+      ],
+      "correctAnswer": "44th Amendment Act, 1978",
+      "explanation": "The 44th Constitutional Amendment Act, 1978, removed the Right to Property from Part III (Article 31) and placed it as a legal right under Article 300A in Part XII.",
+      "difficulty": "Medium",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 300A"
+    },
+    {
+      "question": "In which landmark Supreme Court case was the 'Basic Structure Doctrine' propounded?",
+      "options": [
+        "Golaknath case (1967)",
+        "Kesavananda Bharati case (1973)",
+        "Minerva Mills case (1980)",
+        "Indira Nehru Gandhi case (1975)"
+      ],
+      "correctAnswer": "Kesavananda Bharati case (1973)",
+      "explanation": "The 13-judge constitutional bench in the Kesavananda Bharati v. State of Kerala case (1973) formulated the Basic Structure Doctrine, placing an implied limitation on Parliament's amending powers.",
+      "difficulty": "Medium",
+      "topic": "Basic Structure Doctrine",
+      "relatedArticle": "Article 368"
+    },
+    {
+      "question": "Emergency provisions in the Indian Constitution are contained in which Part?",
+      "options": [
+        "Part XV",
+        "Part XVI",
+        "Part XVII",
+        "Part XVIII"
+      ],
+      "correctAnswer": "Part XVIII",
+      "explanation": "Part XVIII of the Constitution, comprising Articles 352 to 360, contains the comprehensive emergency provisions borrowed from the Weimar Constitution of Germany.",
+      "difficulty": "Easy",
+      "topic": "Introduction to Emergency Provisions",
+      "relatedArticle": "Articles 352-360"
+    },
+    {
+      "question": "What is the parliamentary approval timeline and majority required for a National Emergency proclamation under Article 352?",
+      "options": [
+        "Within 1 month by a Special Majority",
+        "Within 2 months by a Simple Majority",
+        "Within 1 month by a Simple Majority",
+        "Within 6 months by a Special Majority"
+      ],
+      "correctAnswer": "Within 1 month by a Special Majority",
+      "explanation": "A National Emergency proclamation must be approved by both Houses of Parliament within 1 month from its date of issue by a special majority.",
+      "difficulty": "Medium",
+      "topic": "National Emergency",
+      "relatedArticle": "Article 352"
+    },
+    {
+      "question": "Which of the following terms was substituted for 'internal disturbance' under Article 352 by the 44th Amendment Act?",
+      "options": [
+        "Armed rebellion",
+        "External aggression",
+        "Civil war",
+        "Financial instability"
+      ],
+      "correctAnswer": "Armed rebellion",
+      "explanation": "To prevent arbitrary invocation, the 44th Amendment Act (1978) replaced the vague term 'internal disturbance' with 'armed rebellion' as one of the grounds for proclaiming a National Emergency.",
+      "difficulty": "Medium",
+      "topic": "National Emergency",
+      "relatedArticle": "Article 352"
+    },
+    {
+      "question": "Which fundamental articles can NEVER be suspended during any emergency circumstance under post-44th Amendment provisions?",
+      "options": [
+        "Articles 14 and 19",
+        "Articles 19 and 21",
+        "Articles 20 and 21",
+        "Articles 21 and 22"
+      ],
+      "correctAnswer": "Articles 20 and 21",
+      "explanation": "Articles 20 (protection in respect of conviction for offenses) and 21 (protection of life and personal liberty) can never be suspended under any emergency, as safeguarded by the 44th Amendment.",
+      "difficulty": "Easy",
+      "topic": "Effects of Emergencies",
+      "relatedArticle": "Article 359"
+    },
+    {
+      "question": "How many times has a Financial Emergency under Article 360 been proclaimed in India to date?",
+      "options": [
+        "Once",
+        "Twice",
+        "Thrice",
+        "Never"
+      ],
+      "correctAnswer": "Never",
+      "explanation": "A Financial Emergency under Article 360 has never been proclaimed in India's constitutional history.",
+      "difficulty": "Easy",
+      "topic": "Financial Emergency",
+      "relatedArticle": "Article 360"
+    },
+    {
+      "question": "Which amendment act introduced the Tenth Schedule to the Constitution, famously known as the 'Anti-Defection Law'?",
+      "options": [
+        "52nd Amendment Act, 1985",
+        "61st Amendment Act, 1988",
+        "91st Amendment Act, 2003",
+        "92nd Amendment Act, 2003"
+      ],
+      "correctAnswer": "52nd Amendment Act, 1985",
+      "explanation": "The 52nd Constitutional Amendment Act, 1985, added the Tenth Schedule to curb political defection by legislators.",
+      "difficulty": "Easy",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Tenth Schedule"
+    },
+    {
+      "question": "Which amendment act lowered the voting age for Lok Sabha and Legislative Assembly elections from 21 years to 18 years?",
+      "options": [
+        "44th Amendment Act",
+        "52nd Amendment Act",
+        "61st Amendment Act",
+        "73rd Amendment Act"
+      ],
+      "correctAnswer": "61st Amendment Act",
+      "explanation": "The 61st Constitutional Amendment Act, 1988, amended Article 326 to lower the minimum voting age from 21 to 18 years.",
+      "difficulty": "Easy",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 326"
+    },
+    {
+      "question": "What is the maximum duration for which President's Rule (Article 356) can be extended with periodic parliamentary approvals every six months?",
+      "options": [
+        "1 year",
+        "2 years",
+        "3 years",
+        "Indefinite"
+      ],
+      "correctAnswer": "3 years",
+      "explanation": "President's Rule can be extended by 6 months at a time up to a maximum strict limit of 3 years with parliamentary approval.",
+      "difficulty": "Medium",
+      "topic": "President's Rule",
+      "relatedArticle": "Article 356"
+    },
+    {
+      "question": "Which constitutional amendment added Part IX and the Eleventh Schedule to give constitutional status to Panchayati Raj Institutions?",
+      "options": [
+        "73rd Amendment Act, 1992",
+        "74th Amendment Act, 1992",
+        "97th Amendment Act, 2011",
+        "101st Amendment Act, 2016"
+      ],
+      "correctAnswer": "73rd Amendment Act, 1992",
+      "explanation": "The 73rd Amendment Act, 1992, added Part IX and the Eleventh Schedule containing 29 matters for Panchayats.",
+      "difficulty": "Easy",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Part IX"
+    },
+    {
+      "question": "Which article deals with the automatic suspension of provisions of Article 19 during an external emergency?",
+      "options": [
+        "Article 356",
+        "Article 358",
+        "Article 359",
+        "Article 360"
+      ],
+      "correctAnswer": "Article 358",
+      "explanation": "Article 358 provides for the automatic suspension of Article 19 rights as soon as a National Emergency is declared on grounds of war or external aggression.",
+      "difficulty": "Medium",
+      "topic": "Effects of Emergencies",
+      "relatedArticle": "Article 358"
+    },
+    {
+      "question": "Which amendment act made elementary education a Fundamental Right under Article 21A?",
+      "options": [
+        "86th Amendment Act, 2002",
+        "91st Amendment Act, 2003",
+        "97th Amendment Act, 2011",
+        "103rd Amendment Act, 2019"
+      ],
+      "correctAnswer": "86th Amendment Act, 2002",
+      "explanation": "The 86th Constitutional Amendment Act, 2002, inserted Article 21A, making education a fundamental right for children aged 6 to 14 years.",
+      "difficulty": "Easy",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 21A"
+    },
+    {
+      "question": "What is the maximum limit placed on the size of the Council of Ministers at the Centre and States by the 91st Amendment Act (2003)?",
+      "options": [
+        "10% of total House strength",
+        "15% of total House strength",
+        "20% of total House strength",
+        "25% of total House strength"
+      ],
+      "correctAnswer": "15% of total House strength",
+      "explanation": "The 91st Amendment Act capped the total number of ministers, including the Prime Minister/Chief Minister, at 15% of the total strength of the Lok Sabha or Legislative Assembly.",
+      "difficulty": "Medium",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 75"
+    },
+    {
+      "question": "Which article establishes the GST Council, introduced by the 101st Constitutional Amendment Act?",
+      "options": [
+        "Article 269A",
+        "Article 279A",
+        "Article 280",
+        "Article 246A"
+      ],
+      "correctAnswer": "Article 279A",
+      "explanation": "Article 279A, added by the 101st Amendment Act (2016), establishes the GST Council chaired by the Union Finance Minister.",
+      "difficulty": "Medium",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 279A"
+    },
+    {
+      "question": "Which constitutional amendment granted constitutional status to the National Commission for Backward Classes (NCBC)?",
+      "options": [
+        "101st Amendment Act",
+        "102nd Amendment Act",
+        "103rd Amendment Act",
+        "105th Amendment Act"
+      ],
+      "correctAnswer": "102nd Amendment Act",
+      "explanation": "The 102nd Amendment Act (2018) inserted Article 338B, granting constitutional body status to the NCBC.",
+      "difficulty": "Medium",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 338B"
+    },
+    {
+      "question": "Which amendment act introduced 10% reservation in educational institutions and public employment for Economically Weaker Sections (EWS)?",
+      "options": [
+        "101st Amendment Act",
+        "102nd Amendment Act",
+        "103rd Amendment Act",
+        "104th Amendment Act"
+      ],
+      "correctAnswer": "103rd Amendment Act",
+      "explanation": "The 103rd Amendment Act (2019) added clauses (6) to Articles 15 and 16 to provide a 10% EWS quota.",
+      "difficulty": "Easy",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 15(6)"
+    },
+    {
+      "question": "What was the primary effect of the 104th Constitutional Amendment Act (2019)?",
+      "options": [
+        "Introduced GST regime",
+        "Extended SC/ST reservation deadlines to 2030 and discontinued Anglo-Indian nomination seats",
+        "Restored state powers over OBC lists",
+        "Lowered voting age"
+      ],
+      "correctAnswer": "Extended SC/ST reservation deadlines to 2030 and discontinued Anglo-Indian nomination seats",
+      "explanation": "The 104th Amendment extended reservations for SCs and STs in Lok Sabha and assemblies until 2030 while ending reserved nomination seats for Anglo-Indians.",
+      "difficulty": "Medium",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 334"
+    },
+    {
+      "question": "Which article states that if any state fails to comply with Union directions, it shall be lawful for the President to hold that constitutional machinery has failed (Article 356)?",
+      "options": [
+        "Article 355",
+        "Article 365",
+        "Article 360",
+        "Article 353"
+      ],
+      "correctAnswer": "Article 365",
+      "explanation": "Article 365 specifies that non-compliance with Union directions by a state gives the Centre grounds to invoke President's Rule under Article 356.",
+      "difficulty": "Hard",
+      "topic": "President's Rule",
+      "relatedArticle": "Article 365"
+    },
+    {
+      "question": "Which type of majority is required in each House of Parliament to pass a constitutional amendment bill under Article 368?",
+      "options": [
+        "Simple majority only",
+        "Absolute majority only",
+        "Special majority (absolute + 2/3rd present and voting)",
+        "Two-thirds of total house strength"
+      ],
+      "correctAnswer": "Special majority (absolute + 2/3rd present and voting)",
+      "explanation": "Article 368 requires a special majority: a majority of the total membership of each House (>50%) AND a majority of two-thirds of the members present and voting.",
+      "difficulty": "Medium",
+      "topic": "Types of Constitutional Amendments",
+      "relatedArticle": "Article 368"
+    },
+    {
+      "question": "Can a joint sitting of Parliament be summoned to resolve a deadlock over a Constitutional Amendment Bill?",
+      "options": [
+        "Yes, under Article 108",
+        "Yes, with presidential permission",
+        "No, joint sittings are not applicable to Constitutional Amendment Bills",
+        "Only during a National Emergency"
+      ],
+      "correctAnswer": "No, joint sittings are not applicable to Constitutional Amendment Bills",
+      "explanation": "Constitutional Amendment Bills must be passed separately by each House of Parliament; joint sittings are not permitted under Article 368.",
+      "difficulty": "Medium",
+      "topic": "Procedure for Amendment",
+      "relatedArticle": "Article 368"
+    },
+    {
+      "question": "Which amendment act nullified the Supreme Court's Golaknath ruling and affirmed Parliament's absolute power to amend Fundamental Rights?",
+      "options": [
+        "24th Amendment Act, 1971",
+        "25th Amendment Act, 1971",
+        "42nd Amendment Act, 1976",
+        "44th Amendment Act, 1978"
+      ],
+      "correctAnswer": "24th Amendment Act, 1971",
+      "explanation": "The 24th Amendment Act (1971) amended Articles 13 and 368 to affirm that Parliament can amend any part of the Constitution, including Fundamental Rights.",
+      "difficulty": "Hard",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 368"
+    },
+    {
+      "question": "Which article grants constitutional immunity to the President and Governors from criminal proceedings and arrest during their term of office?",
+      "options": [
+        "Article 352",
+        "Article 361",
+        "Article 363",
+        "Article 368"
+      ],
+      "correctAnswer": "Article 361",
+      "explanation": "Article 361 protects the President and Governors from criminal proceedings, arrest, or imprisonment while in office.",
+      "difficulty": "Medium",
+      "topic": "Article Explorer",
+      "relatedArticle": "Article 361"
+    },
+    {
+      "question": "What is the approval timeline and majority required for proclaiming President's Rule under Article 356?",
+      "options": [
+        "Within 1 month by a Special Majority",
+        "Within 2 months by a Simple Majority",
+        "Within 1 month by a Simple Majority",
+        "Within 2 months by a Special Majority"
+      ],
+      "correctAnswer": "Within 2 months by a Simple Majority",
+      "explanation": "A proclamation of President's Rule must be approved by both Houses of Parliament within 2 months by a simple majority.",
+      "difficulty": "Medium",
+      "topic": "President's Rule",
+      "relatedArticle": "Article 356"
+    },
+    {
+      "question": "Which amendment act restored the explicit power of state governments to maintain their own state lists of Socially and Educationally Backward Classes (SEBCs)?",
+      "options": [
+        "102nd Amendment Act",
+        "103rd Amendment Act",
+        "104th Amendment Act",
+        "105th Amendment Act"
+      ],
+      "correctAnswer": "105th Amendment Act",
+      "explanation": "The 105th Amendment Act (2021) amended Article 342A to explicitly restore state authority to maintain individual state SEBC lists.",
+      "difficulty": "Medium",
+      "topic": "Important Constitutional Amendments",
+      "relatedArticle": "Article 342A"
+    },
+    {
+      "question": "Which of the following provisions requires ratification by at least half of the state legislatures along with a special majority in Parliament?",
+      "options": [
+        "Creation of new states under Article 3",
+        "Abolition of Legislative Councils under Article 169",
+        "Election of the President and its manner under Article 54 & 55",
+        "Creation of Fundamental Duties under Article 51A"
+      ],
+      "correctAnswer": "Election of the President and its manner under Article 54 & 55",
+      "explanation": "Provisions affecting federal structures, such as the election of the President, require state ratification by at least half of the states in addition to a special majority.",
+      "difficulty": "Hard",
+      "topic": "Types of Constitutional Amendments",
+      "relatedArticle": "Article 368"
+    },
+    {
+      "question": "Who was the legendary constitutional lawyer who successfully argued the Kesavananda Bharati case defending the Basic Structure Doctrine?",
+      "options": [
+        "H.M. Seervai",
+        "Nani Palkhivala",
+        "Soli Sorabjee",
+        "Fali S. Nariman"
+      ],
+      "correctAnswer": "Nani Palkhivala",
+      "explanation": "Nani Palkhivala argued the historic Kesavananda Bharati case (1973), establishing the Basic Structure Doctrine to prevent parliamentary overreach.",
+      "difficulty": "Medium",
+      "topic": "Personality Cards",
+      "relatedArticle": "Article 368"
+    }
+  ]
+}
