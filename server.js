@@ -625,6 +625,9 @@ app.get('/api/polity/topics/:topicId/sections/:sectionName', (req, res) => {
     }
   }
 
+  res.status(404).json({ error: `Section '${sectionName}' not found for topic '${topicId}'` });
+});
+
 // Modular CMS Endpoint for Science Sections
 app.get('/api/science/topics/:topicId/sections/:sectionName', (req, res) => {
   const fs = require('fs');
