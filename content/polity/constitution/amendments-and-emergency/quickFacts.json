@@ -1,18 +1,22 @@
 [
   {
-    "label": "Exam Weightage",
-    "value": "2 to 3 Questions (Tier-I), High utility in Tier-II General Awareness section"
+    "icon": "⚖️",
+    "heading": "Exam Weightage",
+    "fact": "2 to 3 Questions (Tier-I), High utility in Tier-II General Awareness section"
   },
   {
-    "label": "Core Articles Covered",
-    "value": "Article 368, Articles 352-360, Basic Structure milestones"
+    "icon": "📜",
+    "heading": "Core Articles Covered",
+    "fact": "Article 368, Articles 352-360, Basic Structure milestones"
   },
   {
-    "label": "Focus Areas",
-    "value": "42nd & 44th Amendments, 38th to 106th Amendments, Emergency Proclamation impacts"
+    "icon": "🎯",
+    "heading": "Focus Areas",
+    "fact": "42nd & 44th Amendments, 38th to 106th Amendments, Emergency Proclamation impacts"
   },
   {
-    "label": "Revision Tool",
-    "value": "High-yield summary tables and rapid-fire mock drills"
+    "icon": "📝",
+    "heading": "Revision Tool",
+    "fact": "High-yield summary tables and rapid-fire mock drills"
   }
 ]
