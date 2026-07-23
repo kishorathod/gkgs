@@ -13,7 +13,9 @@ export const scienceModule = {
   },
 
   switchTab(tab) {
-    scienceModularEngine.switchTab(tab);
+    if (scienceModularEngine.switchSubTab) {
+      scienceModularEngine.switchSubTab(tab);
+    }
   },
 
   loadTopic(topicId) {

@@ -45,15 +45,57 @@ export class HeroCard {
   }
 
   render(data, state = {}) {
-    if (state.loading) return;
-    if (state.error) return;
-    if (!data) return;
+    const container = document.getElementById('science-hero-card-container') || document.querySelector(`#${this.containerId} .study-hero`);
+    if (!container) return;
 
-    const titleEl = document.querySelector(`#${this.containerId} .section-desc-card h3`);
-    const descEl = document.querySelector(`#${this.containerId} .section-desc-card p`);
+    if (state.loading) {
+      container.innerHTML = createLoadingSkeleton();
+      return;
+    }
+    if (state.error || !data) {
+      container.innerHTML = createErrorState('Hero');
+      return;
+    }
 
-    if (titleEl) titleEl.textContent = data.title || 'General Science Visual Guide';
-    if (descEl) descEl.textContent = data.subtitle || data.whyItMatters || 'Interactive explorer for Science Lab topics.';
+    container.innerHTML = `
+      <div class="study-hero-top">
+        <div>
+          <div class="study-hero-badge">${data.badge || '🔬 SCIENCE LAB'}</div>
+          <h2 class="study-hero-title">${data.title || 'General Science — Cell Structure & Cytology'}</h2>
+          <p class="study-hero-desc">${data.subtitle || data.whyItMatters || 'Master cell structure, organelle functions, and SSC CGL repeated questions.'}</p>
+        </div>
+        <div class="study-hero-actions">
+          <button class="btn btn-primary" id="btn-science-diagram-cta">🔬 Interactive Diagram</button>
+          <button class="btn btn-secondary" id="btn-science-quiz-cta">🎯 Topic Quiz</button>
+        </div>
+      </div>
+
+      <div class="study-hero-metrics">
+        <div class="study-metric-chip chip-importance">
+          <span class="chip-label">SSC Weightage</span>
+          <span class="chip-val">⭐⭐⭐⭐⭐ ${data.weightage || 'High'}</span>
+        </div>
+        <div class="study-metric-chip chip-questions">
+          <span class="chip-label">Expected Questions</span>
+          <span class="chip-val">${data.expectedQuestions || '2–3 Qs'}</span>
+        </div>
+        <div class="study-metric-chip chip-difficulty">
+          <span class="chip-label">Difficulty</span>
+          <span class="chip-val">${data.difficulty || 'Medium'}</span>
+        </div>
+        <div class="study-metric-chip chip-time">
+          <span class="chip-label">Reading Time</span>
+          <span class="chip-val">⏱️ ${data.estimatedReadingTime || '~40 mins'}</span>
+        </div>
+        <div class="study-metric-chip chip-progress">
+          <span class="chip-label">Chapter Progress</span>
+          <div class="study-hero-bar-wrap">
+            <div class="study-hero-bar" id="science-hero-bar" style="width: 0%"></div>
+          </div>
+          <span class="chip-pct" id="science-hero-pct">0%</span>
+        </div>
+      </div>
+    `;
   }
 }
 
@@ -64,19 +106,38 @@ export class OverviewSection {
   }
 
   render(data, quickFactsData, state = {}) {
-    const target = document.getElementById('science-overview-pane') || document.getElementById('science-cell-tab-content');
-    if (!target) return;
+    const overviewContainer = document.getElementById('science-overview-container');
+    const qfContainer = document.getElementById('science-quick-facts-container');
 
     if (state.loading) {
-      // Show loading
+      if (overviewContainer) overviewContainer.innerHTML = createLoadingSkeleton();
       return;
     }
     if (state.error) {
+      if (overviewContainer) overviewContainer.innerHTML = createErrorState('Overview');
       return;
     }
 
-    // Render Quick Facts if element exists
-    const qfContainer = document.getElementById('science-quick-facts-container');
+    if (overviewContainer && data) {
+      overviewContainer.innerHTML = `
+        <div class="glass-card" style="padding: 20px; border-radius: var(--radius-lg); margin-bottom: 20px;">
+          ${createSectionHeader(data.heading || 'Module Overview: Cell Biology', '🔬')}
+          <p style="font-size: 14px; line-height: 1.6; color: var(--text-main); margin-bottom: 16px;">
+            ${data.description}
+          </p>
+          ${data.learningOutcomes && Array.isArray(data.learningOutcomes) ? `
+            <div style="background: rgba(99, 102, 241, 0.08); border-left: 3px solid var(--accent-purple); padding: 12px 16px; border-radius: 0 var(--radius-md) var(--radius-md) 0;">
+              <h4 style="font-size: 13px; font-weight: 700; color: var(--accent-purple); margin-bottom: 6px;">🎯 Key Learning Outcomes</h4>
+              <ul style="margin: 0; padding-left: 18px; font-size: 13px; color: var(--text-secondary); line-height: 1.5;">
+                ${data.learningOutcomes.map(item => `<li>${item}</li>`).join('')}
+              </ul>
+            </div>
+          ` : ''}
+        </div>
+      `;
+    }
+
+    // Render Quick Facts
     if (qfContainer && quickFactsData && Array.isArray(quickFactsData)) {
       let html = `
         <div class="quick-facts-section" style="margin-bottom: 24px;">

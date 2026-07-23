@@ -27,8 +27,9 @@ import {
 export class ScienceModularEngine {
   constructor() {
     this.subject = 'science';
+    this.containerId = 'view-science';
     this.currentTopicId = 'cell-structure';
-    this.activeTab = 'cell';
+    this.activeSubTab = 'overview';
 
     // Independent Section States
     this.sectionsState = {
@@ -89,37 +90,59 @@ export class ScienceModularEngine {
   }
 
   init() {
-    this.setupTabs();
+    this.setupSubNav();
+    this.setupTopicSelector('science-topic-selector-bar');
     this.loadTopic(this.currentTopicId);
   }
 
-  setupTabs() {
-    const cellBtn = document.getElementById('btn-science-cell-tab');
-    const notesBtn = document.getElementById('btn-science-notes-tab');
-
-    if (cellBtn) cellBtn.addEventListener('click', () => this.switchTab('cell'));
-    if (notesBtn) notesBtn.addEventListener('click', () => this.switchTab('notes'));
+  setupSubNav() {
+    const subnav = document.getElementById('science-subnav');
+    if (!subnav) return;
+    subnav.querySelectorAll('.study-nav-btn').forEach(btn => {
+      btn.onclick = (e) => {
+        const targetSubtab = e.currentTarget.dataset.subtab;
+        this.switchSubTab(targetSubtab);
+      };
+    });
   }
 
-  switchTab(tab) {
-    this.activeTab = tab;
-
-    document.querySelectorAll('.science-tab-btn').forEach(btn => btn.classList.remove('active'));
-    const activeBtn = document.querySelector(`.science-tab-btn[data-tab="${tab}"]`);
-    if (activeBtn) activeBtn.classList.add('active');
-
-    const cellContent = document.getElementById('science-cell-tab-content');
-    const notesContent = document.getElementById('science-notes-tab-content');
-
-    if (tab === 'cell') {
-      cellContent?.classList.remove('hidden');
-      notesContent?.classList.add('hidden');
-    } else {
-      cellContent?.classList.add('hidden');
-      notesContent?.classList.remove('hidden');
+  switchSubTab(subtabId) {
+    this.activeSubTab = subtabId;
+    const subnav = document.getElementById('science-subnav');
+    if (subnav) {
+      subnav.querySelectorAll('.study-nav-btn').forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.subtab === subtabId);
+      });
     }
 
-    addXP(5, 'science', 'Browsed Science tab');
+    document.querySelectorAll('#view-science .study-tab-pane').forEach(pane => {
+      pane.classList.add('hidden');
+      pane.classList.remove('active');
+    });
+
+    const targetPaneId = `science-subtab-${subtabId}`;
+    const targetPane = document.getElementById(targetPaneId);
+    if (targetPane) {
+      targetPane.classList.remove('hidden');
+      targetPane.classList.add('active');
+    }
+
+    addXP(5, 'science', `Browsed Science ${subtabId} tab`);
+  }
+
+  setupTopicSelector(barId) {
+    const bar = document.getElementById(barId);
+    if (!bar) return;
+    bar.querySelectorAll('.topic-chip').forEach(chip => {
+      chip.addEventListener('click', (e) => {
+        const topicId = e.currentTarget.dataset.topicId;
+        if (topicId) {
+          bar.querySelectorAll('.topic-chip').forEach(c => c.classList.remove('active'));
+          e.currentTarget.classList.add('active');
+          this.loadTopic(topicId);
+        }
+      });
+    });
   }
 
   async loadTopic(topicId = 'cell-structure') {
@@ -149,7 +172,7 @@ export class ScienceModularEngine {
     });
 
     await Promise.allSettled(fetchPromises);
-    this.renderNotesTab();
+    this.renderAllComponents();
   }
 
   renderSection(sectionName) {
@@ -158,36 +181,20 @@ export class ScienceModularEngine {
 
     if (sectionName === 'hero') {
       this.heroCard.render(data, status);
+      const diagramCta = document.getElementById('btn-science-diagram-cta');
+      const quizCta = document.getElementById('btn-science-quiz-cta');
+      if (diagramCta) diagramCta.onclick = () => this.switchSubTab('diagram');
+      if (quizCta) quizCta.onclick = () => this.switchSubTab('quiz');
     } else if (sectionName === 'interactiveDiagram') {
       this.interactiveDiagram.render(data, status);
     } else if (sectionName === 'quickFacts' || sectionName === 'overview') {
       this.overviewSection.render(this.sectionsState.overview, this.sectionsState.quickFacts, status);
-    } else if (['studyNotes', 'conceptCards', 'comparisonTables', 'processFlow', 'examTraps', 'mcqs', 'flashcards', 'revisionSheet', 'mindMap', 'studyFiles', 'relatedTopics'].includes(sectionName)) {
-      this.renderNotesTab();
+    } else {
+      this.renderAllComponents();
     }
   }
 
-  renderNotesTab() {
-    const container = document.getElementById('science-notes-container');
-    if (!container) return;
-
-    // Build container containers dynamically for each component pane
-    if (!document.getElementById('science-concepts-mount')) {
-      container.innerHTML = `
-        <div id="science-concepts-mount"></div>
-        <div id="science-notes-mount"></div>
-        <div id="science-tables-mount"></div>
-        <div id="science-flow-mount"></div>
-        <div id="science-traps-mount"></div>
-        <div id="science-quiz-mount"></div>
-        <div id="science-flashcards-mount"></div>
-        <div id="science-revision-mount"></div>
-        <div id="science-mindmap-mount"></div>
-        <div id="science-files-mount"></div>
-        <div id="science-related-mount"></div>
-      `;
-    }
-
+  renderAllComponents() {
     this.conceptExplorer.render(
       this.sectionsState.conceptCards,
       this.sectionsState.terminology,
