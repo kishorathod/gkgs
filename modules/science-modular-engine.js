@@ -48,7 +48,6 @@ export class ScienceModularEngine {
       mcqs: null,
       flashcards: null,
       mindMap: null,
-      revisionPoints: null,
       revisionSheet: null,
       relatedTopics: null,
       studyFiles: null
@@ -80,7 +79,7 @@ export class ScienceModularEngine {
       'hero', 'overview', 'interactiveDiagram', 'studyNotes', 'quickFacts',
       'conceptCards', 'terminology', 'comparisonTables', 'processFlow',
       'realLifeApplications', 'examTraps', 'pyqAnalysis', 'mcqs',
-      'flashcards', 'mindMap', 'revisionPoints', 'revisionSheet',
+      'flashcards', 'mindMap', 'revisionSheet',
       'relatedTopics', 'studyFiles'
     ];
     keys.forEach(k => {

@@ -1179,12 +1179,171 @@
 
         <!-- SCIENCE LAB VIEW -->
         <section id="view-science" class="view-panel">
+
+          <!-- 0. Topic Selector Bar -->
+          <div class="topic-selector-wrap" id="science-topic-selector-wrap">
+            <div class="topic-selector-label">🔬 General Science — Topics:</div>
+            <div class="topic-selector-bar" id="science-topic-selector-bar">
+              <button class="topic-chip active" data-topic-id="cell-structure">🧬 Cell Structure & Cytology</button>
+            </div>
           </div>
 
-          <div id="science-notes-tab-content" class="hidden">
-            <div class="glass-card polity-notes-container" id="science-notes-container">
-              <!-- Injected via science.js -->
+          <!-- 1. Chapter Summary Hero Section -->
+          <div class="glass-card study-hero" id="science-hero-card-container">
+            <!-- Dynamically populated via HeroCard component -->
+          </div>
+
+          <!-- 2. Sticky Sub-Navigation Tabs Bar -->
+          <div class="study-sticky-nav-wrap">
+            <div class="study-sticky-nav" id="science-subnav">
+              <button class="study-nav-btn active" data-subtab="overview">📊 Overview</button>
+              <button class="study-nav-btn" data-subtab="diagram">🔬 Interactive Diagram</button>
+              <button class="study-nav-btn" data-subtab="notes">📖 Study Notes</button>
+              <button class="study-nav-btn" data-subtab="tables">📊 Comparison Tables</button>
+              <button class="study-nav-btn" data-subtab="traps">⚠️ Exam Traps</button>
+              <button class="study-nav-btn" data-subtab="quiz">🎯 Practice Quiz</button>
+              <button class="study-nav-btn" data-subtab="flashcards">🃏 Flashcards</button>
+              <button class="study-nav-btn" data-subtab="mindmaps">🧠 Mind Maps</button>
+              <button class="study-nav-btn" data-subtab="revisionsheet">⚡ Revision Sheet</button>
+              <button class="study-nav-btn" data-subtab="files">📁 Study Files</button>
+              <button class="study-nav-btn" data-subtab="analytics">📈 Analytics</button>
             </div>
+          </div>
+
+          <!-- 3. Layout Grid (Main Content + Sticky Right Sidebar) -->
+          <div class="study-layout-grid">
+            
+            <!-- Left Main Content Area -->
+            <div class="study-main-content">
+              
+              <!-- Sub-Tab 1: Overview -->
+              <div class="study-tab-pane active" id="science-subtab-overview">
+                <div id="science-overview-container"></div>
+                <div id="science-quick-facts-container" style="margin-top: 20px;"></div>
+              </div>
+
+              <!-- Sub-Tab 2: Interactive Diagram -->
+              <div class="study-tab-pane hidden" id="science-subtab-diagram">
+                <div id="science-diagram-container">
+                  <div class="science-layout">
+                    <div class="diagram-wrapper glass-card">
+                      <img src="assets/science_cell.jpg" alt="Cell Diagram" class="science-diagram">
+                      <div class="diagram-labels-container" id="diagram-labels">
+                        <button class="diagram-label-btn" style="top: 30%; left: 45%;" data-part="nucleus">Nucleus</button>
+                        <button class="diagram-label-btn" style="top: 65%; left: 70%;" data-part="mitochondria">Mitochondria</button>
+                        <button class="diagram-label-btn" style="top: 50%; left: 22%;" data-part="ribosome">Ribosomes</button>
+                        <button class="diagram-label-btn" style="top: 75%; left: 35%;" data-part="lysosome">Lysosome</button>
+                        <button class="diagram-label-btn" style="top: 15%; left: 60%;" data-part="golgi">Golgi Apparatus</button>
+                      </div>
+                    </div>
+
+                    <div class="science-info-panel glass-card" id="science-info-panel">
+                      <div class="empty-prompt">
+                        <span class="animated-pulse">🧪</span>
+                        <h4>Select any cell organelle label to analyze its structure, functions, and exam relevance.</h4>
+                      </div>
+                      <div class="info-content hidden" id="science-info-content">
+                        <h3 id="organelle-name">Organelle Name</h3>
+                        <div class="scientific-desc">
+                          <h5>Description</h5>
+                          <p id="organelle-desc">Description details...</p>
+                        </div>
+                        <div class="cell-functions">
+                          <h5>Key Functions</h5>
+                          <ul id="organelle-funcs">
+                            <li>Function 1</li>
+                          </ul>
+                        </div>
+                        <div class="ssc-gk-notes science-gk">
+                          <h5>🎯 SSC CGL Highlights</h5>
+                          <p id="organelle-ssc">Also known as the powerhouse of the cell...</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Sub-Tab 3: Study Notes -->
+              <div class="study-tab-pane hidden" id="science-subtab-notes">
+                <div id="science-concepts-mount"></div>
+                <div id="science-notes-mount"></div>
+              </div>
+
+              <!-- Sub-Tab 4: Comparison Tables & Flow -->
+              <div class="study-tab-pane hidden" id="science-subtab-tables">
+                <div id="science-tables-mount"></div>
+                <div id="science-flow-mount" style="margin-top: 20px;"></div>
+              </div>
+
+              <!-- Sub-Tab 5: Exam Traps -->
+              <div class="study-tab-pane hidden" id="science-subtab-traps">
+                <div id="science-traps-mount"></div>
+              </div>
+
+              <!-- Sub-Tab 6: Practice Quiz -->
+              <div class="study-tab-pane hidden" id="science-subtab-quiz">
+                <div id="science-quiz-mount"></div>
+              </div>
+
+              <!-- Sub-Tab 7: Flashcards -->
+              <div class="study-tab-pane hidden" id="science-subtab-flashcards">
+                <div id="science-flashcards-mount"></div>
+              </div>
+
+              <!-- Sub-Tab 8: Mind Maps -->
+              <div class="study-tab-pane hidden" id="science-subtab-mindmaps">
+                <div id="science-mindmap-mount"></div>
+              </div>
+
+              <!-- Sub-Tab 9: Revision Sheet -->
+              <div class="study-tab-pane hidden" id="science-subtab-revisionsheet">
+                <div id="science-revision-mount"></div>
+              </div>
+
+              <!-- Sub-Tab 10: Study Files & Related Topics -->
+              <div class="study-tab-pane hidden" id="science-subtab-files">
+                <div id="science-files-mount"></div>
+                <div id="science-related-mount" style="margin-top: 20px;"></div>
+              </div>
+
+              <!-- Sub-Tab 11: Analytics -->
+              <div class="study-tab-pane hidden" id="science-subtab-analytics">
+                <div id="science-analytics-container">
+                  <div class="glass-card" style="padding: 24px; text-align: center;">
+                    <h3>📈 Science Performance Analytics</h3>
+                    <p style="color: var(--text-muted); margin-top: 8px;">Track your retention, quiz accuracy, and topic completion for General Science.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Sticky Right Sidebar (Desktop) -->
+            <div class="study-sidebar glass-card">
+              <div class="study-sb-header">
+                <h4>📊 Chapter Insights</h4>
+                <span class="study-sb-badge" style="background: rgba(16, 185, 129, 0.15); color: #10b981;">Science</span>
+              </div>
+              <div class="study-sb-stats">
+                <div class="study-sb-item">
+                  <span class="study-sb-lbl">Chapter Progress</span>
+                  <span class="study-sb-val" id="science-sb-pct">0%</span>
+                </div>
+                <div class="study-sb-bar-bg"><div class="study-sb-bar-fill" id="science-sb-bar" style="width:0%; background: #10b981;"></div></div>
+
+                <div class="study-sb-item">
+                  <span class="study-sb-lbl">Reading Time Left</span>
+                  <span class="study-sb-val" id="science-sb-time">~30 mins</span>
+                </div>
+
+                <div class="study-sb-item">
+                  <span class="study-sb-lbl">PYQs Solved</span>
+                  <span class="study-sb-val" id="science-sb-pyqs">0 / 20</span>
+                </div>
+              </div>
+            </div>
+
           </div>
         </section>
 
