@@ -138,6 +138,17 @@ class ApiService {
   async getPolitySection(topicId, sectionName) {
     return await this.request(`/api/polity/topics/${topicId}/sections/${sectionName}`);
   }
+
+  async getScienceSection(topicId, sectionName) {
+    try {
+      return await this.request(`/api/science/topics/${topicId}/sections/${sectionName}`);
+    } catch (err) {
+      const staticUrl = `content/science/${topicId}/${sectionName}.json`;
+      const res = await fetch(staticUrl);
+      if (res.ok) return await res.json();
+      throw err;
+    }
+  }
 }
 
 export const api = new ApiService();

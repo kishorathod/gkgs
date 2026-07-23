@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "🔬",
+    "heading": "Cell Discovery",
+    "fact": "Robert Hooke discovered cells in cork in 1665. Anton van Leeuwenhoek first observed living cells in 1674."
+  },
+  {
+    "icon": "📜",
+    "heading": "Cell Theory",
+    "fact": "Formulated by Schleiden and Schwann (1839). Rudolf Virchow added 'Omnis cellula e cellula' (all cells arise from pre-existing cells) in 1855."
+  },
+  {
+    "icon": "⚡",
+    "heading": "Smallest & Largest",
+    "fact": "Smallest known cell: Mycoplasma gallisepticum (PPLO). Largest known cell: Ostrich egg. Longest human cell: Neuron."
+  },
+  {
+    "icon": "🧬",
+    "heading": "Powerhouse & Suicide Bags",
+    "fact": "Mitochondria = Powerhouse of Cell. Lysosome = Suicidal Bag. Ribosome = Protein Factory. Golgi = Traffic Controller."
+  }
+]

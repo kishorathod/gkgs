@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Prokaryotic vs Eukaryotic Organisms",
+    "headers": ["Feature", "Prokaryotic Cell", "Eukaryotic Cell"],
+    "rows": [
+      ["Nucleus", "Absent (Nucleoid region)", "Present (Well-defined with membrane)"],
+      ["Organelles", "Membrane-bound organelles absent", "Mitochondria, ER, Golgi present"],
+      ["Ribosomes", "70S type", "80S (Cytoplasm) / 70S (Organelles)"],
+      ["Cell Wall", "Peptidoglycan / Mucopeptide", "Cellulose (Plants) / Chitin (Fungi)"]
+    ]
+  },
+  {
+    "title": "Organelle Nicknames & Discoverers",
+    "headers": ["Organelle", "Popular Nickname", "Discoverer", "SSC Exam Key Point"],
+    "rows": [
+      ["Nucleus", "Director / Brain of Cell", "Robert Brown (1831)", "Lacking in mature mammalian RBCs"],
+      ["Mitochondria", "Powerhouse of Cell", "Kolliker / Benda", "Contains 70S ribosomes & circular DNA"],
+      ["Lysosome", "Suicidal Bag", "Christian de Duve", "Contains acidic hydrolytic enzymes"],
+      ["Ribosome", "Protein Factory", "George Palade", "Smallest organelle, non-membrane bound"],
+      ["Golgi Body", "Traffic Controller", "Camillo Golgi", "Dictyosome in plants"]
+    ]
+  }
+]

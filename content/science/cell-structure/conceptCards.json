@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Prokaryotes vs Eukaryotic Cells",
+    "tag": "Core Concept",
+    "summary": "Prokaryotes lack a true nucleus and membrane-bound organelles (e.g. Bacteria, Blue-green algae), while Eukaryotes possess a membrane-enclosed nucleus and complex organelles (e.g. Plant, Animal, Fungi).",
+    "points": [
+      "Prokaryotic Ribosome size: 70S",
+      "Eukaryotic Ribosome size: 80S (70S in mitochondria/chloroplast)",
+      "Prokaryotes have circular naked DNA; Eukaryotes have linear DNA wrapped around Histones."
+    ]
+  },
+  {
+    "title": "Plant Cell vs Animal Cell",
+    "tag": "Comparison",
+    "summary": "Plant cells have a rigid cellulose cell wall, large central vacuole, and plastids (chloroplasts). Animal cells lack cell walls and plastids but possess centrioles/centrosomes for cell division.",
+    "points": [
+      "Cell Wall present in Plants (Cellulose), Fungi (Chitin), Bacteria (Peptidoglycan).",
+      "Centrosome present only in Animal cells.",
+      "Dictyosomes are unattached Golgi units in Plant cells."
+    ]
+  }
+]

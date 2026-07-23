@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "question": "Who among the following discovered the cell for the first time in 1665?",
+    "options": ["Robert Brown", "Robert Hooke", "Anton van Leeuwenhoek", "Rudolf Virchow"],
+    "correctAnswer": "Robert Hooke",
+    "explanation": "Robert Hooke observed thin slices of cork under a microscope in 1665 and termed the honeycomb structures 'cells'.",
+    "difficulty": "Easy",
+    "topic": "Cell Discovery"
+  },
+  {
+    "id": 2,
+    "question": "Which cell organelle is famously referred to as the 'Powerhouse of the cell'?",
+    "options": ["Lysosome", "Ribosome", "Mitochondria", "Golgi Apparatus"],
+    "correctAnswer": "Mitochondria",
+    "explanation": "Mitochondria generate cellular energy in the form of ATP through aerobic respiration, earning them the title 'Powerhouse of the cell'.",
+    "difficulty": "Easy",
+    "topic": "Organelle Functions"
+  },
+  {
+    "id": 3,
+    "question": "Which organelle contains hydrolytic digestive enzymes and is known as the 'Suicidal Bag' of the cell?",
+    "options": ["Peroxisome", "Lysosome", "Centrosome", "Endoplasmic Reticulum"],
+    "correctAnswer": "Lysosome",
+    "explanation": "Lysosomes contain acidic hydrolytic enzymes capable of digesting cellular waste and self-destructing damaged cells (autolysis).",
+    "difficulty": "Easy",
+    "topic": "Organelle Functions"
+  },
+  {
+    "id": 4,
+    "question": "Which of the following human blood cells lacks a nucleus at maturity?",
+    "options": ["White Blood Cell (WBC)", "Mature Red Blood Cell (RBC)", "Monocyte", "Lymphocyte"],
+    "correctAnswer": "Mature Red Blood Cell (RBC)",
+    "explanation": "Mature mammalian Red Blood Cells (erythrocytes) lose their nucleus to maximize internal space for transporting oxygen via hemoglobin.",
+    "difficulty": "Medium",
+    "topic": "Cell Exceptions"
+  },
+  {
+    "id": 5,
+    "question": "The smallest organelle in the cell, responsible for protein synthesis, is:",
+    "options": ["Nucleolus", "Ribosome", "Vacuole", "Plastid"],
+    "correctAnswer": "Ribosome",
+    "explanation": "Ribosomes are non-membrane bound tiny structures that translate mRNA into proteins, commonly called 'Protein Factories'.",
+    "difficulty": "Easy",
+    "topic": "Protein Synthesis"
+  }
+]

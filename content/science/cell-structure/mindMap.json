@@ -1,0 +1,11 @@
+{
+  "title": "Cell Biology Mind Map",
+  "nodes": [
+    { "id": "cell", "label": "Cell Biology", "type": "root" },
+    { "id": "discovery", "label": "Discovery: Hooke (1665) / Brown (1831)", "parent": "cell" },
+    { "id": "organelles", "label": "Organelles", "parent": "cell" },
+    { "id": "mitochondria", "label": "Mitochondria (ATP / Powerhouse)", "parent": "organelles" },
+    { "id": "lysosome", "label": "Lysosome (Suicidal Bag)", "parent": "organelles" },
+    { "id": "ribosome", "label": "Ribosome (70S/80S Protein Factory)", "parent": "organelles" }
+  ]
+}

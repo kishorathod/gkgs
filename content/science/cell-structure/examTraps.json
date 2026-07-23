@@ -1,0 +1,12 @@
+[
+  {
+    "confusion": "Confusing Robert Hooke with Robert Brown.",
+    "correctConcept": "Robert Hooke discovered the CELL in 1665 (non-living cork). Robert Brown discovered the NUCLEUS inside the cell in 1831.",
+    "memoryTrick": "Hooke hooked the Cell; Brown discovered the brain (Nucleus)."
+  },
+  {
+    "confusion": "Assuming mammalian RBCs have nuclei.",
+    "correctConcept": "Mature mammalian Red Blood Cells (RBCs) lack a nucleus to maximize space for hemoglobin and oxygen transport. Exception: Camel and Llama RBCs have nuclei.",
+    "memoryTrick": "RBCs lose their nucleus at maturity for oxygen space, except in desert camels."
+  }
+]

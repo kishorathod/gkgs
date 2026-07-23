@@ -1,0 +1,13 @@
+[
+  {
+    "title": "Protein Synthesis & Secretion Pathway",
+    "steps": [
+      "1. DNA transcription in Nucleus produces mRNA.",
+      "2. mRNA travels to Ribosomes attached to Rough Endoplasmic Reticulum (RER).",
+      "3. Ribosomes translate mRNA into amino acid polypeptide chains.",
+      "4. Proteins pass into RER lumen for initial folding.",
+      "5. Transport vesicles carry folded proteins to Golgi Apparatus.",
+      "6. Golgi modifies, packages, and dispatches finished proteins via secretory vesicles to target destinations."
+    ]
+  }
+]

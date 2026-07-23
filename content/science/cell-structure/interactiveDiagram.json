@@ -1,0 +1,69 @@
+{
+  "title": "Eukaryotic Animal Cell",
+  "subtitle": "Click any label on the diagram to inspect organelle functions, discovery notes, and exam highlights.",
+  "image": "assets/science_cell.jpg",
+  "labels": [
+    {
+      "id": "nucleus",
+      "name": "Nucleus (Director of the Cell)",
+      "x": 45,
+      "y": 30,
+      "desc": "Discovered by Robert Brown in 1831. It contains the cell's genetic material (DNA/chromosomes) and acts as the brain or command center of the cell, coordinating growth, metabolism, and reproduction.",
+      "funcs": [
+        "Stores genetic blueprint in DNA strings",
+        "Controls protein synthesis by transcribing RNA",
+        "Initiates cell division (mitosis & meiosis)"
+      ],
+      "sscHighlights": "Robert Brown discovered the nucleus (very common SSC question). Red Blood Cells (RBCs) in mammals (except camels and llamas) lack a nucleus at maturity. Sieve tube cells in plants also lack a nucleus."
+    },
+    {
+      "id": "mitochondria",
+      "name": "Mitochondria (Powerhouse of the Cell)",
+      "x": 70,
+      "y": 65,
+      "desc": "Discovered by Albert von Kolliker in 1857 and named by Carl Benda. It is a double-membrane bound organelle responsible for generating Adenosine Triphosphate (ATP), the chemical energy currency of the cell.",
+      "funcs": [
+        "Generates ATP via cellular aerobic respiration",
+        "Involved in cellular signaling and cell death (apoptosis)",
+        "Stores calcium ions for cellular regulation"
+      ],
+      "sscHighlights": "Mitochondria is known as the 'Powerhouse of the cell'. It is semi-autonomous as it contains its own circular DNA and 70S ribosomes (like bacteria). The inner folding membrane is called cristae."
+    },
+    {
+      "id": "ribosome",
+      "name": "Ribosomes (Protein Factories)",
+      "x": 22,
+      "y": 50,
+      "desc": "Discovered by George Palade in 1953 (awarded Nobel Prize). Ribosomes are tiny granular organelles composed of ribosomal RNA (rRNA) and proteins. They are not bound by any membrane.",
+      "funcs": [
+        "Translate genetic code from mRNA into peptide chains (Protein Synthesis)",
+        "Found free-floating in cytoplasm or attached to Rough Endoplasmic Reticulum (RER)"
+      ],
+      "sscHighlights": "Ribosome is the smallest organelle in the cell and lacks a membrane. Found in both Prokaryotes (70S size) and Eukaryotes (80S size). Often queried as the 'Protein Factory'."
+    },
+    {
+      "id": "lysosome",
+      "name": "Lysosomes (Suicidal Bags)",
+      "x": 35,
+      "y": 75,
+      "desc": "Discovered by Christian de Duve in 1955. Spherical membrane-bound vesicles containing acidic hydrolytic enzymes capable of breaking down organic polymers, worn-out organelles, or foreign invaders.",
+      "funcs": [
+        "Intracellular digestion and waste disposal",
+        "Autolysis: Self-destruction of damaged cells by releasing digestive enzymes"
+      ],
+      "sscHighlights": "Lysosomes are famous as the 'Suicidal Bags of the cell'. The enzymes function optimally under acidic conditions (pH ~4.5-5.0). RBCs lack lysosomes."
+    },
+    {
+      "id": "golgi",
+      "name": "Golgi Apparatus (Traffic Police of the Cell)",
+      "x": 60,
+      "y": 15,
+      "desc": "Discovered by Camillo Golgi in 1898. A series of flattened membrane-bound sacks (cisternae). It acts as the packaging, sorting, and dispatch center of the cell.",
+      "funcs": [
+        "Modifies, packages, and routes proteins and lipids synthesized in ER",
+        "Synthesizes lysosomes and complex carbohydrates"
+      ],
+      "sscHighlights": "Referred to as the 'Traffic Controller' or 'Post Office' of the cell. Discovered using silver staining. In plants, the Golgi apparatus is composed of smaller units called Dictyosomes."
+    }
+  ]
+}

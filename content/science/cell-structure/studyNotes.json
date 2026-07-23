@@ -1,0 +1,16 @@
+[
+  {
+    "id": "cell-theory-discovery",
+    "title": "1. Discovery & Cell Theory",
+    "icon": "🧬",
+    "type": "standard",
+    "content": "<p>Cells are the fundamental units of life. Robert Hooke discovered dead cells in cork in 1665. Leeuwenhoek observed live cells in 1674. Cell Theory was formulated by Schleiden and Schwann (1839) and extended by Rudolf Virchow (1855).</p>"
+  },
+  {
+    "id": "organelle-breakdown",
+    "title": "2. Comprehensive Organelle Breakdown",
+    "icon": "🔬",
+    "type": "highlight",
+    "content": "<p>Organelles carry out specialized physiological tasks inside the cell. The Nucleus regulates genetic expression. Mitochondria generates ATP. Lysosomes dispose of cellular waste. Ribosomes synthesize proteins.</p>"
+  }
+]

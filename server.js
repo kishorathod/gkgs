@@ -625,6 +625,35 @@ app.get('/api/polity/topics/:topicId/sections/:sectionName', (req, res) => {
     }
   }
 
+// Modular CMS Endpoint for Science Sections
+app.get('/api/science/topics/:topicId/sections/:sectionName', (req, res) => {
+  const fs = require('fs');
+  const path = require('path');
+  const { topicId, sectionName } = req.params;
+  const contentDir = path.join(__dirname, 'content', 'science');
+
+  function findTopicDirRecursively(dir, targetTopicId) {
+    if (!fs.existsSync(dir)) return null;
+    const files = fs.readdirSync(dir);
+    for (const file of files) {
+      const fullPath = path.join(dir, file);
+      if (fs.statSync(fullPath).isDirectory()) {
+        if (file === targetTopicId) return fullPath;
+        const found = findTopicDirRecursively(fullPath, targetTopicId);
+        if (found) return found;
+      }
+    }
+    return null;
+  }
+
+  const topicDir = findTopicDirRecursively(contentDir, topicId);
+  if (topicDir) {
+    const sectionPath = path.join(topicDir, `${sectionName}.json`);
+    if (fs.existsSync(sectionPath)) {
+      return res.sendFile(sectionPath);
+    }
+  }
+
   res.status(404).json({ error: `Section '${sectionName}' not found for topic '${topicId}'` });
 });
 
